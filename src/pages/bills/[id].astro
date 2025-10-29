@@ -1,0 +1,490 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+import { SITE } from '../../constants/site';
+import { IMPACT_CATEGORIES, getImpactName, type ImpactKey } from '../../constants/impacts';
+
+// TODO: When we have actual bill content, we'll import from collections
+// import { getCollection } from 'astro:content';
+
+// Generate static paths for all sample bills
+export async function getStaticPaths() {
+  const sampleBills = {
+    'cybersecurity-amendment-2025': {
+      id: 'cybersecurity-amendment-2025',
+      title: 'Cybersecurity (Amendment) Draft Bill 2025',
+      status: 'committee',
+      priority: 'urgent',
+      categories: ['Technology', 'Rights', 'Business'],
+      summary: 'This bill proposes significant amendments to Ghana\'s existing cybersecurity framework, with far-reaching implications for technology companies, digital infrastructure providers, and individual users. The amendments introduce new compliance requirements, data localization mandates, and expanded government oversight powers.',
+
+      impacts: {
+        innovation: {
+          score: 'high-negative',
+          description: 'Increased compliance costs and data localization requirements will significantly burden tech startups and SMEs. New certification requirements may create barriers to entry for new market participants.',
+          relatedProvisions: ['section-1', 'section-2'],
+        },
+        freedomOfSpeech: {
+          score: 'medium-negative',
+          description: 'Expanded content monitoring requirements and vague "harmful content" definitions could lead to over-censorship and self-censorship by platforms.',
+          relatedProvisions: ['section-1'],
+        },
+        privacy: {
+          score: 'high-negative',
+          description: 'Mandatory data retention periods and government access provisions weaken user privacy protections. Lack of judicial oversight for data requests is concerning.',
+          relatedProvisions: ['section-2', 'section-3'],
+        },
+        business: {
+          score: 'high-negative',
+          description: 'Data localization and infrastructure requirements will significantly increase operational costs. Compliance timelines may be unrealistic for many businesses.',
+          relatedProvisions: ['section-2'],
+        },
+      },
+
+      provisions: [
+        {
+          id: 'section-1',
+          section: 'Section 1',
+          title: 'Definitions and Scope',
+          plainLanguage: 'This section expands the definition of "cybersecurity service provider" to include social media platforms, cloud services, and any digital infrastructure operating in Ghana. The vague language means even small tech startups could be classified as service providers requiring full compliance.',
+          rawText: 'For the purposes of this Act, "cybersecurity service provider" means any person, entity, or organization that provides, operates, or maintains information and communication technology infrastructure, digital platforms, cloud computing services, social media platforms, or any electronic communication service within the territory of Ghana or serving Ghanaian users, regardless of physical presence...',
+          relatedImpacts: ['innovation', 'freedomOfSpeech'],
+        },
+        {
+          id: 'section-2',
+          section: 'Section 2',
+          title: 'Data Localization Requirements',
+          plainLanguage: 'All companies processing Ghanaian user data must store it on servers physically located in Ghana. This applies to customer information, transaction records, user-generated content, and metadata. Companies have 18 months to comply from the date this law passes.',
+          rawText: 'Every cybersecurity service provider shall ensure that all personal data, transaction data, metadata, and user-generated content collected from or relating to persons within Ghana is processed and stored within the territorial boundaries of Ghana. Compliance with this provision shall be achieved within eighteen (18) months from the commencement of this Act...',
+          relatedImpacts: ['innovation', 'privacy', 'business'],
+        },
+        {
+          id: 'section-3',
+          section: 'Section 3',
+          title: 'Government Access and Enforcement',
+          plainLanguage: 'Government agencies can request access to user data without a warrant in cases of "national security" or "public interest" (terms not clearly defined). Service providers must comply within 48 hours or face penalties. There is no requirement for judicial oversight or user notification.',
+          rawText: 'Where the Minister or any designated government agency determines that access to data is necessary for national security, public interest, or the prevention of cybercrime, a cybersecurity service provider shall, upon written notice, provide such access within forty-eight (48) hours. Failure to comply shall constitute an offense punishable by...',
+          relatedImpacts: ['privacy'],
+        },
+      ],
+
+      notebookLMVideo: {
+        url: '#', // Placeholder
+        duration: '12:34',
+      },
+
+      deadline: '2025-12-15',
+      submissionMethod: 'Email to parliament@ghana.gov.gh',
+
+      relatedBills: [
+        {
+          id: 'misinformation-disinformation-2025',
+          title: 'Misinformation, Disinformation, and Hate Speech Bill',
+          relationship: 'Overlaps on content regulation',
+        },
+      ],
+    },
+    'misinformation-disinformation-2025': {
+      id: 'misinformation-disinformation-2025',
+      title: 'Misinformation, Disinformation, and Hate Speech Bill',
+      status: 'draft',
+      priority: 'urgent',
+      categories: ['Media', 'Rights', 'Technology'],
+      summary: 'This bill aims to regulate online content, particularly addressing misinformation, disinformation, and hate speech on digital platforms. It introduces new obligations for social media companies, content creators, and platform operators operating in Ghana.',
+
+      impacts: {
+        innovation: {
+          score: 'medium-negative',
+          description: 'Compliance requirements for content moderation may discourage new social platforms from entering the Ghanaian market. User-generated content platforms face increased liability.',
+        },
+        freedomOfSpeech: {
+          score: 'high-negative',
+          description: 'Vague definitions of "misinformation" and "disinformation" create risks of legitimate speech being censored. Lack of clear appeal mechanisms is problematic.',
+        },
+        privacy: {
+          score: 'medium-negative',
+          description: 'Content verification requirements may necessitate increased user identification and tracking, reducing online anonymity.',
+        },
+        business: {
+          score: 'medium-negative',
+          description: 'Platform operators will face significant content moderation costs. Liability provisions may force smaller platforms to exit the market.',
+        },
+      },
+
+      notebookLMVideo: {
+        url: '#', // Placeholder
+        duration: '15:22',
+      },
+
+      deadline: '2025-11-30',
+      submissionMethod: 'Online form at parliament.gh/submissions',
+
+      relatedBills: [
+        {
+          id: 'cybersecurity-amendment-2025',
+          title: 'Cybersecurity (Amendment) Draft Bill 2025',
+          relationship: 'Overlaps on content regulation',
+        },
+      ],
+    },
+  };
+
+  return Object.entries(sampleBills).map(([id, bill]) => ({
+    params: { id },
+    props: { bill },
+  }));
+}
+
+const { bill } = Astro.props;
+
+// Helper function for impact badge styling
+const getImpactBadgeClass = (score: string) => {
+  switch (score) {
+    case 'high-negative':
+      return 'bg-red-100 text-red-700 border-red-200';
+    case 'medium-negative':
+      return 'bg-orange-100 text-orange-700 border-orange-200';
+    case 'low-negative':
+      return 'bg-yellow-100 text-yellow-700 border-yellow-200';
+    case 'neutral':
+      return 'bg-gray-100 text-gray-700 border-gray-200';
+    case 'low-positive':
+      return 'bg-blue-100 text-blue-700 border-blue-200';
+    case 'medium-positive':
+      return 'bg-green-100 text-green-700 border-green-200';
+    case 'high-positive':
+      return 'bg-emerald-100 text-emerald-700 border-emerald-200';
+    default:
+      return 'bg-gray-100 text-gray-700 border-gray-200';
+  }
+};
+
+const getImpactLabel = (score: string) => {
+  switch (score) {
+    case 'high-negative':
+      return 'High Negative Impact';
+    case 'medium-negative':
+      return 'Medium Negative Impact';
+    case 'low-negative':
+      return 'Low Negative Impact';
+    case 'neutral':
+      return 'Neutral Impact';
+    case 'low-positive':
+      return 'Low Positive Impact';
+    case 'medium-positive':
+      return 'Medium Positive Impact';
+    case 'high-positive':
+      return 'High Positive Impact';
+    default:
+      return 'Unknown Impact';
+  }
+};
+
+// Helper to get provision details
+const getProvisionLabel = (provisionId: string) => {
+  const provision = bill.provisions?.find(p => p.id === provisionId);
+  return provision ? `${provision.section}: ${provision.title}` : provisionId;
+};
+
+// Filter impacts to only show those that have data
+const impactsToDisplay = Object.entries(bill.impacts || {}).filter(([key, impact]) => impact && impact.description);
+---
+
+<BaseLayout
+  title={`${bill.title} - ${SITE.name}`}
+  description={bill.summary}
+>
+  <Header />
+
+  <main id="main-content" class="flex-1 text-gray-900">
+    <!-- Bill Header -->
+    <section class="bg-gradient-to-b from-white to-gray-50 py-12 md:py-16 border-b border-gray-200">
+      <div class="container">
+        <div class="max-w-6xl mx-auto">
+          <!-- Breadcrumbs -->
+          <nav class="flex items-center gap-2 text-sm text-gray-600 mb-6">
+            <a href="/" class="hover:text-[var(--color-primary)] transition-colors">Home</a>
+            <i class="ti ti-chevron-right text-gray-400"></i>
+            <a href="/bills" class="hover:text-[var(--color-primary)] transition-colors">Bills</a>
+            <i class="ti ti-chevron-right text-gray-400"></i>
+            <span class="text-gray-900 font-medium">{bill.title}</span>
+          </nav>
+
+          <!-- Title -->
+          <h1 class="text-4xl md:text-5xl font-bold text-black mb-4 leading-tight">
+            {bill.title}
+          </h1>
+
+          <!-- Status Badges -->
+          <div class="flex flex-wrap items-center gap-2 mb-6">
+            <span class="px-3 py-1 bg-red-100 text-red-700 text-xs font-semibold rounded-full uppercase">
+              Urgent
+            </span>
+            <span class="px-3 py-1 bg-blue-100 text-blue-700 text-xs font-semibold rounded-full capitalize">
+              {bill.status}
+            </span>
+            {bill.categories.map((category) => (
+              <span class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-semibold rounded-full">
+                {category}
+              </span>
+            ))}
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="flex flex-wrap gap-4">
+            <a
+              href="#take-action"
+              class="inline-flex items-center gap-2 px-6 py-3 bg-[var(--color-primary)] text-white font-semibold rounded-lg hover:bg-[#1E5A5A] transition-colors"
+            >
+              <i class="ti ti-speakerphone"></i>
+              Take Action Now
+            </a>
+            <button class="inline-flex items-center gap-2 px-6 py-3 bg-white text-gray-700 border-2 border-gray-200 font-semibold rounded-lg hover:border-[var(--color-primary)] hover:text-[var(--color-primary)] transition-colors">
+              <i class="ti ti-download"></i>
+              Download PDF
+            </button>
+            <button class="inline-flex items-center gap-2 px-6 py-3 bg-white text-gray-700 border-2 border-gray-200 font-semibold rounded-lg hover:border-[var(--color-primary)] hover:text-[var(--color-primary)] transition-colors">
+              <i class="ti ti-share"></i>
+              Share
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="max-w-6xl mx-auto py-12 md:py-16">
+        <!-- Main Content -->
+        <div class="space-y-12">
+            <!-- NotebookLM Video -->
+            <section>
+              <h2 class="text-3xl font-bold text-black mb-4 flex items-center gap-3">
+                <i class="ti ti-video text-[var(--color-primary)]"></i>
+                Listen: AI-Powered Analysis
+              </h2>
+              <div class="bg-white border-2 border-gray-200 rounded-xl p-6">
+                <div class="aspect-video bg-gray-100 rounded-lg flex items-center justify-center mb-4">
+                  <div class="text-center text-gray-500">
+                    <i class="ti ti-player-play text-6xl mb-4"></i>
+                    <p class="text-lg font-medium">NotebookLM Audio Overview</p>
+                    <p class="text-sm">Duration: {bill.notebookLMVideo.duration}</p>
+                  </div>
+                </div>
+                <p class="text-sm text-gray-600">
+                  Listen to an AI-generated discussion breaking down this bill in plain language, exploring its key provisions and potential impacts on Ghana's digital innovation sector.
+                </p>
+              </div>
+            </section>
+
+            <!-- Executive Summary -->
+            <section>
+              <h2 class="text-3xl font-bold text-black mb-4 flex items-center gap-3">
+                <i class="ti ti-file-text text-[var(--color-primary)]"></i>
+                Executive Summary
+              </h2>
+              <div class="bg-white border-2 border-gray-200 rounded-xl p-6">
+                <p class="text-lg text-gray-900 font-medium leading-relaxed">
+                  {bill.summary}
+                </p>
+              </div>
+            </section>
+
+            <!-- Impact Analysis -->
+            <section id="impact-analysis">
+              <h2 class="text-3xl font-bold text-black mb-4 flex items-center gap-3">
+                <i class="ti ti-chart-line text-[var(--color-primary)]"></i>
+                Impact Analysis
+              </h2>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {impactsToDisplay.map(([impactKey, impact]) => {
+                  const category = IMPACT_CATEGORIES[impactKey as ImpactKey];
+                  if (!category) return null;
+
+                  return (
+                    <div id={`impact-${impactKey}`} class="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-[var(--color-primary)] transition-colors scroll-mt-24">
+                      <div class="flex items-start gap-4 mb-4">
+                        <div class={`flex-shrink-0 w-12 h-12 ${category.bgColor} rounded-lg flex items-center justify-center`}>
+                          <i class={`ti ti-${category.icon} text-2xl ${category.iconColorClass}`}></i>
+                        </div>
+                        <div class="flex-1">
+                          <h3 class="text-xl font-bold text-black mb-2">{category.name}</h3>
+                          <span class={`inline-block px-3 py-1 text-xs font-semibold rounded-full border ${getImpactBadgeClass(impact.score)}`}>
+                            {getImpactLabel(impact.score)}
+                          </span>
+                        </div>
+                      </div>
+                      <p class="text-gray-900 leading-relaxed mb-4">
+                        {impact.description}
+                      </p>
+                      {impact.relatedProvisions && impact.relatedProvisions.length > 0 && (
+                        <div class="pt-3 border-t border-gray-200">
+                          <span class="text-sm font-semibold text-gray-600 block mb-2">Related Provisions:</span>
+                          <div class="flex flex-wrap gap-2">
+                            {impact.relatedProvisions.map((provisionId) => (
+                              <a
+                                href={`#${provisionId}`}
+                                class="inline-flex items-center gap-2 text-sm px-3 py-2 bg-gray-100 text-[var(--color-primary)] rounded hover:bg-[var(--color-primary)] hover:text-white transition-colors"
+                              >
+                                <i class="ti ti-arrow-right text-xs"></i>
+                                <span>{getProvisionLabel(provisionId)}</span>
+                              </a>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            </section>
+
+            <!-- Key Provisions -->
+            <section id="key-provisions">
+              <div class="flex items-center justify-between mb-4">
+                <h2 class="text-3xl font-bold text-black flex items-center gap-3">
+                  <i class="ti ti-list-details text-[var(--color-primary)]"></i>
+                  Key Provisions
+                </h2>
+              </div>
+              <div class="bg-white border-2 border-gray-200 rounded-xl divide-y divide-gray-200">
+                {bill.provisions?.map((provision) => (
+                  <details class="group" id={provision.id}>
+                    <summary class="flex items-center justify-between p-6 cursor-pointer hover:bg-gray-50 transition-colors">
+                      <div class="flex items-center gap-3">
+                        <i class="ti ti-file-text text-[var(--color-primary)]"></i>
+                        <span class="text-lg font-semibold text-black">{provision.section}: {provision.title}</span>
+                      </div>
+                      <i class="ti ti-chevron-down text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0"></i>
+                    </summary>
+                    <div class="px-6 pt-2 pb-6 space-y-4">
+                      {/* Impact badges */}
+                      {provision.relatedImpacts && provision.relatedImpacts.length > 0 && (
+                        <div class="bg-gray-50 rounded-lg px-4 py-2">
+                          <div class="flex flex-wrap items-center gap-2">
+                            <span class="text-xs font-semibold text-gray-600">This provision affects:</span>
+                            {provision.relatedImpacts.map((impactKey) => (
+                              <a
+                                href={`#impact-${impactKey}`}
+                                class="inline-flex items-center gap-2 text-xs px-3 py-1.5 bg-white text-gray-700 rounded hover:bg-[var(--color-primary)] hover:text-white transition-colors"
+                              >
+                                <span>{getImpactName(impactKey)}</span>
+                                <i class="ti ti-arrow-up text-xs"></i>
+                              </a>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Plain language explanation */}
+                      <div>
+                        <h4 class="text-sm font-semibold text-gray-600 mb-2">Plain Language Summary</h4>
+                        <p class="text-gray-900 leading-relaxed">
+                          {provision.plainLanguage}
+                        </p>
+                      </div>
+
+                      {/* Raw text with toggle */}
+                      <details class="border-2 border-gray-200 rounded-lg overflow-hidden">
+                        <summary class="px-4 py-3 cursor-pointer hover:bg-gray-50 transition-colors flex items-center gap-2 bg-white">
+                          <i class="ti ti-file-text text-gray-600"></i>
+                          <span class="text-sm font-semibold text-gray-700">Show Original Legal Text</span>
+                        </summary>
+                        <div class="px-4 py-4 bg-gray-50 border-t-2 border-gray-200">
+                          <p class="text-sm text-gray-700 leading-relaxed italic border-l-4 border-[var(--color-primary)] pl-4 py-2">
+                            {provision.rawText}
+                          </p>
+                        </div>
+                      </details>
+                    </div>
+                  </details>
+                ))}
+              </div>
+            </section>
+
+            <!-- Take Action -->
+            <section id="take-action">
+              <h2 class="text-3xl font-bold text-black mb-4 flex items-center gap-3">
+                <i class="ti ti-speakerphone text-[var(--color-primary)]"></i>
+                Take Action
+              </h2>
+              <div class="bg-gradient-to-br from-[var(--color-primary)] to-[#1E5A5A] text-white rounded-xl p-8">
+                <div class="mb-6">
+                  <h3 class="text-2xl font-bold text-white mb-2">Your Voice Matters</h3>
+                  <p class="text-lg opacity-95">
+                    Parliament is accepting public submissions until <strong>{new Date(bill.deadline).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</strong>
+                  </p>
+                </div>
+
+                <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6 mb-6">
+                  <h4 class="text-lg font-semibold text-white mb-3 flex items-center gap-2">
+                    <i class="ti ti-checklist"></i>
+                    How to Submit Your Comments
+                  </h4>
+                  <ol class="list-decimal list-inside space-y-2 text-white/95">
+                    <li>Read the bill analysis above to understand the impacts</li>
+                    <li>Use our template below or write your own submission</li>
+                    <li>Submit via: {bill.submissionMethod}</li>
+                    <li>Share this page to amplify awareness</li>
+                  </ol>
+                </div>
+
+                <div class="flex flex-wrap gap-4">
+                  <button class="inline-flex items-center gap-2 px-6 py-3 bg-white text-[var(--color-primary)] font-semibold rounded-lg hover:bg-gray-100 transition-colors">
+                    <i class="ti ti-template"></i>
+                    Use Submission Template
+                  </button>
+                  <a
+                    href="/find-mp"
+                    class="inline-flex items-center gap-2 px-6 py-3 bg-white/20 backdrop-blur-sm text-white border-2 border-white font-semibold rounded-lg hover:bg-white/30 transition-colors"
+                  >
+                    <i class="ti ti-user-search"></i>
+                    Find Your MP
+                  </a>
+                </div>
+              </div>
+            </section>
+
+            <!-- Related Bills -->
+            {bill.relatedBills.length > 0 && (
+              <section>
+                <h2 class="text-3xl font-bold text-black mb-4 flex items-center gap-3">
+                  <i class="ti ti-network text-[var(--color-primary)]"></i>
+                  Related Bills
+                </h2>
+                <div class="space-y-4">
+                  {bill.relatedBills.map((relatedBill) => (
+                    <a
+                      href={`/bills/${relatedBill.id}`}
+                      class="block bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-[var(--color-primary)] hover:shadow-lg transition-all duration-300"
+                    >
+                      <div class="flex items-start justify-between gap-4">
+                        <div>
+                          <h3 class="text-xl font-bold text-black mb-2 hover:text-[var(--color-primary)] transition-colors">
+                            {relatedBill.title}
+                          </h3>
+                          <p class="text-sm text-gray-600 flex items-center gap-2">
+                            <i class="ti ti-link text-[var(--color-primary)]"></i>
+                            {relatedBill.relationship}
+                          </p>
+                        </div>
+                        <i class="ti ti-arrow-right text-gray-400 flex-shrink-0"></i>
+                      </div>
+                    </a>
+                  ))}
+                </div>
+              </section>
+            )}
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>
+
+<style>
+  details summary::-webkit-details-marker {
+    display: none;
+  }
+</style>

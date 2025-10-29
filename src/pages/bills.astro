@@ -1,0 +1,177 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import { SITE } from '../constants/site';
+
+// TODO: When we have actual bill content, we'll import from collections
+// import { getCollection } from 'astro:content';
+// const bills = await getCollection('bills');
+
+// Sample bills data for now
+const sampleBills = [
+  {
+    id: 'cybersecurity-amendment-2025',
+    title: 'Cybersecurity (Amendment) Draft Bill 2025',
+    summary: 'Proposes amendments to existing cybersecurity laws with significant implications for tech companies and digital infrastructure.',
+    status: 'committee',
+    priority: 'urgent',
+    categories: ['Technology', 'Rights'],
+  },
+  {
+    id: 'misinformation-disinformation-2025',
+    title: 'Misinformation, Disinformation, and Hate Speech Bill',
+    summary: 'Aims to regulate online content, particularly addressing misinformation, disinformation, and hate speech on digital platforms.',
+    status: 'draft',
+    priority: 'urgent',
+    categories: ['Media', 'Rights'],
+  },
+];
+---
+
+<BaseLayout
+  title={`Tech Bills - ${SITE.name}`}
+  description="Browse all proposed bills affecting Ghana's digital innovation sector. Understand impacts on startups, tech policy, and the digital economy."
+>
+  <Header />
+
+  <main id="main-content" class="flex-1 text-gray-900">
+    <!-- Page Header -->
+    <section class="bg-gradient-to-b from-white to-gray-50 py-12 md:py-16 border-b border-gray-200">
+      <div class="container">
+        <div class="max-w-6xl mx-auto">
+          <!-- Breadcrumbs -->
+          <nav class="flex items-center gap-2 text-sm text-gray-600 mb-6">
+            <a href="/" class="hover:text-[var(--color-primary)] transition-colors">Home</a>
+            <i class="ti ti-chevron-right text-gray-400"></i>
+            <span class="text-gray-900 font-medium">Bills</span>
+          </nav>
+
+          <div>
+            <h1 class="text-4xl md:text-5xl font-bold text-black mb-4">
+              Tech Bills Affecting Digital Innovation
+            </h1>
+            <p class="text-lg md:text-xl text-gray-900 font-medium">
+              Track proposed legislation that impacts Ghana's tech sector, startups, and digital economy
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filters Section -->
+    <section class="py-8 bg-white border-b border-gray-200">
+      <div class="container">
+        <div class="flex flex-wrap gap-4 items-center justify-between">
+          <!-- Search -->
+          <div class="flex-1 min-w-[300px]">
+            <div class="relative">
+              <i class="ti ti-search absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"></i>
+              <input
+                type="text"
+                placeholder="Search bills..."
+                class="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-lg focus:border-[var(--color-primary)] focus:outline-none"
+              />
+            </div>
+          </div>
+
+          <!-- Filter Buttons -->
+          <div class="flex flex-wrap gap-2">
+            <button class="px-4 py-2 bg-[var(--color-primary)] text-white rounded-lg font-medium hover:bg-[#1E5A5A] transition-colors">
+              All Bills
+            </button>
+            <button class="px-4 py-2 bg-white text-gray-700 border-2 border-gray-200 rounded-lg font-medium hover:border-[var(--color-primary)] hover:text-[var(--color-primary)] transition-colors">
+              Urgent
+            </button>
+            <button class="px-4 py-2 bg-white text-gray-700 border-2 border-gray-200 rounded-lg font-medium hover:border-[var(--color-primary)] hover:text-[var(--color-primary)] transition-colors">
+              In Committee
+            </button>
+            <button class="px-4 py-2 bg-white text-gray-700 border-2 border-gray-200 rounded-lg font-medium hover:border-[var(--color-primary)] hover:text-[var(--color-primary)] transition-colors">
+              Tech Impact
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bills Grid -->
+    <section class="py-12 md:py-16 bg-white">
+      <div class="container">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          {sampleBills.map((bill) => (
+            <article class="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-[var(--color-primary)] hover:shadow-lg transition-all duration-300 flex flex-col">
+              <!-- Status Badge -->
+              <div class="flex items-center gap-2 mb-4">
+                <span class="px-3 py-1 bg-red-100 text-red-700 text-xs font-semibold rounded-full uppercase">
+                  Urgent
+                </span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-700 text-xs font-semibold rounded-full capitalize">
+                  {bill.status}
+                </span>
+              </div>
+
+              <!-- Title -->
+              <h2 class="text-2xl font-bold text-black mb-3 hover:text-[var(--color-primary)] transition-colors">
+                <a href={`/bills/${bill.id}`}>{bill.title}</a>
+              </h2>
+
+              <!-- Summary -->
+              <p class="text-gray-900 font-medium leading-relaxed mb-4 flex-grow">
+                {bill.summary}
+              </p>
+
+              <!-- Categories -->
+              <div class="flex flex-wrap gap-2 mb-4">
+                {bill.categories.map((category) => (
+                  <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-lg">
+                    {category}
+                  </span>
+                ))}
+              </div>
+
+              <!-- Actions -->
+              <div class="flex flex-wrap gap-3 pt-4 border-t border-gray-200">
+                <a
+                  href={`/bills/${bill.id}`}
+                  class="inline-flex items-center gap-2 px-4 py-2 bg-[var(--color-primary)] text-white font-semibold rounded-lg hover:bg-[#1E5A5A] transition-colors"
+                >
+                  <i class="ti ti-file-text"></i>
+                  Read Analysis
+                </a>
+                <button class="inline-flex items-center gap-2 px-4 py-2 bg-white text-[var(--color-primary)] border-2 border-[var(--color-primary)] font-semibold rounded-lg hover:bg-[var(--color-primary)] hover:text-white transition-colors">
+                  <i class="ti ti-speakerphone"></i>
+                  Take Action
+                </button>
+              </div>
+            </article>
+          ))}
+        </div>
+
+        <!-- Empty State (shown when no bills) -->
+        <!-- <div class="text-center py-16">
+          <i class="ti ti-file-search text-6xl text-gray-300 mb-4"></i>
+          <h3 class="text-2xl font-bold text-gray-900 mb-2">No bills found</h3>
+          <p class="text-gray-600">Try adjusting your filters or search terms</p>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-12 md:py-16 bg-gradient-to-br from-[var(--color-primary)] to-[#1E5A5A] text-white">
+      <div class="container">
+        <div class="text-center max-w-6xl mx-auto">
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Stay Updated on Tech Policy</h2>
+          <p class="text-lg opacity-95 mb-8">Get notified when new bills are introduced or when there are updates to existing legislation</p>
+          <div class="flex flex-wrap gap-4 justify-center">
+            <a href="#subscribe" class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-[var(--color-primary)] bg-white border-2 border-white rounded-lg hover:bg-gray-50 hover:-translate-y-0.5 transition-all duration-300">
+              <i class="ti ti-bell mr-2"></i>
+              Subscribe to Updates
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>
