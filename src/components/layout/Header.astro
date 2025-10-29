@@ -1,0 +1,140 @@
+---
+import { SITE, NAV_ITEMS } from '../../constants/site';
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="sticky top-0 z-50 bg-white/98 backdrop-blur-sm border-b-2 border-gray-200 shadow-sm">
+  <div class="container">
+    <div class="flex items-center justify-between gap-6 py-4">
+      <!-- Logo -->
+      <a href="/" class="flex items-center gap-3 no-underline text-gray-900 hover:opacity-80 transition-opacity">
+        <div class="flex-shrink-0 text-[var(--color-primary)]">
+          <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 2L4 10V18C4 27.94 10.84 37.14 20 39C29.16 37.14 36 27.94 36 18V10L20 2Z"
+                  stroke="currentColor" stroke-width="2.5" fill="none"/>
+            <circle cx="20" cy="20" r="2.5" fill="currentColor"/>
+            <line x1="20" y1="17.5" x2="20" y2="13" stroke="currentColor" stroke-width="2"/>
+            <line x1="20" y1="22.5" x2="20" y2="27" stroke="currentColor" stroke-width="2"/>
+            <line x1="17.5" y1="20" x2="13" y2="20" stroke="currentColor" stroke-width="2"/>
+            <line x1="22.5" y1="20" x2="27" y2="20" stroke="currentColor" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="flex flex-col gap-0.5">
+          <span class="text-xl font-bold leading-none text-[var(--color-primary)]">{SITE.name}</span>
+          <span class="text-xs leading-tight text-gray-600 font-medium max-w-[180px] md:text-sm md:max-w-[200px]">{SITE.tagline}</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden md:block flex-1" aria-label="Main navigation">
+        <ul class="flex gap-6 list-none m-0 p-0 justify-center">
+          {NAV_ITEMS.map((item) => (
+            <li>
+              <a
+                href={item.href}
+                class={`font-semibold text-base text-gray-900 no-underline py-2 border-b-2 transition-all ${
+                  currentPath === item.href
+                    ? 'text-[var(--color-primary)] border-[var(--color-primary)]'
+                    : 'border-transparent hover:text-[var(--color-primary)] hover:border-[var(--color-primary)]'
+                }`}
+                aria-current={currentPath === item.href ? 'page' : undefined}
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      <!-- Search Button (Desktop) -->
+      <button
+        class="hidden md:flex items-center gap-2 px-4 py-2 bg-[#FDFAF6] border-2 border-gray-200 rounded-lg text-gray-600 font-medium cursor-pointer transition-all hover:bg-white hover:border-[var(--color-primary)] hover:text-[var(--color-primary)] hover:shadow-md"
+        aria-label="Search bills"
+        data-search-trigger
+      >
+        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="2"/>
+          <path d="M14 14L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span class="text-sm">Search</span>
+        <kbd class="px-1.5 py-0.5 bg-white border border-gray-200 rounded text-xs font-mono text-gray-500">⌘K</kbd>
+      </button>
+
+      <!-- Mobile Menu Toggle -->
+      <button
+        class="flex md:hidden items-center justify-center w-10 h-10 bg-transparent border-none text-gray-900 cursor-pointer transition-colors hover:text-[var(--color-primary)]"
+        aria-label="Toggle menu"
+        data-mobile-menu-toggle
+      >
+        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation Menu -->
+  <div class="md:hidden bg-white border-t border-gray-200 py-4" data-mobile-menu hidden>
+    <nav aria-label="Mobile navigation">
+      <ul class="list-none m-0 p-0">
+        {NAV_ITEMS.map((item) => (
+          <li>
+            <a
+              href={item.href}
+              class={`block py-3 px-4 no-underline font-medium transition-all border-l-[3px] ${
+                currentPath === item.href
+                  ? 'bg-[#FDFAF6] text-[var(--color-primary)] border-[var(--color-primary)]'
+                  : 'text-gray-900 border-transparent hover:bg-[#FDFAF6] hover:text-[var(--color-primary)] hover:border-[var(--color-primary)]'
+              }`}
+              aria-current={currentPath === item.href ? 'page' : undefined}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))}
+        <li class="mx-4 mt-4">
+          <button
+            class="block w-full py-3 px-4 bg-[#FDFAF6] border-2 border-gray-200 rounded-lg text-left font-medium text-gray-900 cursor-pointer transition-all hover:bg-white hover:border-[var(--color-primary)] hover:text-[var(--color-primary)]"
+            data-search-trigger
+          >
+            🔍 Search Bills
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  // Mobile menu toggle
+  const menuToggle = document.querySelector('[data-mobile-menu-toggle]');
+  const mobileMenu = document.querySelector('[data-mobile-menu]');
+
+  menuToggle?.addEventListener('click', () => {
+    const isHidden = mobileMenu?.hasAttribute('hidden');
+    if (isHidden) {
+      mobileMenu?.removeAttribute('hidden');
+    } else {
+      mobileMenu?.setAttribute('hidden', '');
+    }
+  });
+
+  // Search triggers (placeholder for future search functionality)
+  const searchTriggers = document.querySelectorAll('[data-search-trigger]');
+  searchTriggers.forEach(trigger => {
+    trigger.addEventListener('click', () => {
+      console.log('Search triggered - will implement later');
+      // TODO: Implement search modal
+    });
+  });
+
+  // Keyboard shortcut for search
+  document.addEventListener('keydown', (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault();
+      console.log('Search shortcut triggered');
+      // TODO: Open search modal
+    }
+  });
+</script>

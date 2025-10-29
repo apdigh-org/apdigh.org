@@ -1,0 +1,50 @@
+/* Import Modern Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600&display=swap');
+
+/* Import Tabler Icons */
+@import '@tabler/icons-webfont/dist/tabler-icons.css';
+
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-primary: #2A7D7D;
+  --color-secondary: #C97856;
+
+  --color-ghana-red: #CE1126;
+  --color-ghana-gold: #FCD116;
+  --color-ghana-green: #006B3F;
+
+  /* Fonts */
+  --font-heading: 'Manrope', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+/* Base Styles */
+body {
+  font-family: var(--font-body);
+  background: #FDFAF6;
+  font-weight: 500;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 2rem;
+  }
+}

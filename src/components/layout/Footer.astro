@@ -1,0 +1,72 @@
+---
+import { SITE, FOOTER_LINKS } from '../../constants/site';
+
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-gray-900 text-white py-12 px-0 mt-auto">
+  <div class="container">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-8 lg:gap-12 mb-8">
+      <!-- About Section -->
+      <div class="flex flex-col gap-4">
+        <h3 class="text-base font-semibold text-white mb-2">About {SITE.name}</h3>
+        <p class="text-sm leading-relaxed text-white/90">
+          {SITE.mission}
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="flex flex-col gap-4">
+        <h3 class="text-base font-semibold text-white mb-2">Quick Links</h3>
+        <ul class="list-none p-0 m-0 flex flex-col gap-2">
+          {FOOTER_LINKS.quickLinks.map((link) => (
+            <li><a href={link.href} class="text-sm text-white/90 no-underline hover:text-white hover:underline transition-colors">{link.label}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Resources -->
+      <div class="flex flex-col gap-4">
+        <h3 class="text-base font-semibold text-white mb-2">Resources</h3>
+        <ul class="list-none p-0 m-0 flex flex-col gap-2">
+          {FOOTER_LINKS.resources.map((link) => (
+            <li><a href={link.href} class="text-sm text-white/90 no-underline hover:text-white hover:underline transition-colors">{link.label}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="flex flex-col gap-4">
+        <h3 class="text-base font-semibold text-white mb-2">Connect</h3>
+        <ul class="list-none p-0 m-0 flex flex-col gap-2">
+          <li><a href={`mailto:${SITE.contact.email}`} class="text-sm text-white/90 no-underline hover:text-white hover:underline transition-colors">{SITE.contact.email}</a></li>
+          <li><a href="/feedback" class="text-sm text-white/90 no-underline hover:text-white hover:underline transition-colors">Send Feedback</a></li>
+        </ul>
+        <div class="flex gap-4 mt-2">
+          {SITE.social.map((social) => (
+            <a href={social.url} aria-label={social.name} title={social.name} target="_blank" rel="noopener" class="text-white/90 hover:text-white transition-colors">
+              <i class={`ti ${social.icon} text-xl`}></i>
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4 pt-8 border-t border-white/10 text-center md:text-left">
+      <p class="text-sm text-white/80 m-0">
+        &copy; {currentYear} {SITE.fullName} ({SITE.name}). All rights reserved.
+      </p>
+      <div class="flex items-center gap-2 text-sm text-white/80">
+        {FOOTER_LINKS.legal.map((link, index) => (
+          <>
+            <a href={link.href} class="text-white/80 no-underline hover:text-white hover:underline transition-colors">{link.label}</a>
+            {index < FOOTER_LINKS.legal.length - 1 && <span class="text-white/50">·</span>}
+          </>
+        ))}
+        <span class="text-white/50">·</span>
+        <span class="text-white/70">Last updated: {new Date().toLocaleDateString('en-GB')}</span>
+      </div>
+    </div>
+  </div>
+</footer>

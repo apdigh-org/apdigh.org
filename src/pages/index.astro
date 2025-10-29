@@ -1,0 +1,147 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import { SITE } from '../constants/site';
+---
+
+<BaseLayout
+  title={`${SITE.name} Ghana - ${SITE.tagline}`}
+  description={SITE.mission}
+>
+  <Header />
+
+  <main id="main-content" class="flex-1 text-gray-900">
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-b from-white to-gray-50 py-16 md:py-24 overflow-hidden">
+      <!-- Ghana flag stripe at top -->
+      <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#CE1126] via-[#FCD116] via-[#006B3F] to-[var(--color-primary)]"></div>
+
+      <div class="container">
+        <div class="max-w-4xl mx-auto text-center space-y-8">
+          <h1 class="text-5xl md:text-7xl font-bold leading-tight text-black animate-[slideInLeft_0.8s_ease]">
+            Protecting Ghana's <span class="bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)] bg-clip-text text-transparent">Digital Future</span>
+          </h1>
+
+          <p class="text-xl md:text-2xl text-gray-900 font-medium max-w-3xl mx-auto animate-[slideInLeft_0.8s_ease_0.2s_both]">
+            Informing citizens about proposed bills affecting Ghana's tech sector and digital innovation.
+            Understand the impacts, engage with parliament, and protect our digital economy.
+          </p>
+
+          <div class="flex flex-wrap gap-4 justify-center animate-[slideInLeft_0.8s_ease_0.4s_both]">
+            <a href="#bills" class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-[var(--color-primary)] border-2 border-[var(--color-primary)] rounded-lg hover:bg-[#1E5A5A] hover:border-[#1E5A5A] hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
+              View Tech Bills
+            </a>
+            <a href="#about" class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-[var(--color-primary)] bg-white border-2 border-[var(--color-primary)] rounded-lg hover:bg-[var(--color-primary)] hover:text-white hover:-translate-y-0.5 transition-all duration-300">
+              Our Mission
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 md:py-24 bg-white border-t border-gray-200">
+      <div class="container">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl md:text-5xl font-bold text-black mb-4">How We Protect Digital Innovation</h2>
+          <p class="text-xl text-gray-900 font-medium max-w-2xl mx-auto">Making tech policy accessible and empowering citizen engagement</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white border-2 border-gray-200 rounded-xl p-8 text-center hover:border-[var(--color-primary)] hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
+            <div class="flex justify-center mb-4">
+              <i class="ti ti-file-text text-[var(--color-primary)] text-6xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-[var(--color-primary)] mb-3">Plain Language Summaries</h3>
+            <p class="text-gray-900 font-medium leading-relaxed">Complex legal text translated into clear, accessible explanations anyone can understand</p>
+          </div>
+
+          <div class="bg-white border-2 border-gray-200 rounded-xl p-8 text-center hover:border-[var(--color-primary)] hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
+            <div class="flex justify-center mb-4">
+              <i class="ti ti-chart-line text-[var(--color-primary)] text-6xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-[var(--color-primary)] mb-3">Tech Impact Analysis</h3>
+            <p class="text-gray-900 font-medium leading-relaxed">Understand how proposed laws affect startups, innovation, digital rights, and Ghana's tech ecosystem</p>
+          </div>
+
+          <div class="bg-white border-2 border-gray-200 rounded-xl p-8 text-center hover:border-[var(--color-primary)] hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
+            <div class="flex justify-center mb-4">
+              <i class="ti ti-speakerphone text-[var(--color-primary)] text-6xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-[var(--color-primary)] mb-3">Take Action</h3>
+            <p class="text-gray-900 font-medium leading-relaxed">Templates, guides, and deadlines to help you engage with parliament and make your voice heard</p>
+          </div>
+
+          <div class="bg-white border-2 border-gray-200 rounded-xl p-8 text-center hover:border-[var(--color-primary)] hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
+            <div class="flex justify-center mb-4">
+              <i class="ti ti-search text-[var(--color-primary)] text-6xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-[var(--color-primary)] mb-3">Search & Filter</h3>
+            <p class="text-gray-900 font-medium leading-relaxed">Find relevant bills quickly by category, impact area, or keywords across all legislation</p>
+          </div>
+
+          <div class="bg-white border-2 border-gray-200 rounded-xl p-8 text-center hover:border-[var(--color-primary)] hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
+            <div class="flex justify-center mb-4">
+              <i class="ti ti-video text-[var(--color-primary)] text-6xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-[var(--color-primary)] mb-3">Video Explainers</h3>
+            <p class="text-gray-900 font-medium leading-relaxed">Watch NotebookLM summaries that break down complex bills in minutes</p>
+          </div>
+
+          <div class="bg-white border-2 border-gray-200 rounded-xl p-8 text-center hover:border-[var(--color-primary)] hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
+            <div class="flex justify-center mb-4">
+              <i class="ti ti-network text-[var(--color-primary)] text-6xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-[var(--color-primary)] mb-3">Connected Policies</h3>
+            <p class="text-gray-900 font-medium leading-relaxed">See how different tech bills interact and their cumulative impact on the digital economy</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-12 md:py-20 bg-gradient-to-br from-[var(--color-primary)] to-[#1E5A5A] text-white">
+      <div class="container">
+        <div class="text-center max-w-3xl mx-auto">
+          <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">Protect Ghana's Tech Future</h2>
+          <p class="text-xl opacity-95 mb-8">Join the movement defending digital innovation and keeping tech policy transparent and accountable</p>
+          <div class="flex flex-wrap gap-4 justify-center">
+            <a href="#bills" class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-[var(--color-primary)] bg-white border-2 border-white rounded-lg hover:bg-gray-50 hover:-translate-y-0.5 transition-all duration-300">
+              View Tech Bills
+            </a>
+            <a href="#subscribe" class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-transparent border-2 border-white rounded-lg hover:bg-white hover:text-[var(--color-primary)] hover:-translate-y-0.5 transition-all duration-300">
+              Join the Movement
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>
+
+<style>
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
