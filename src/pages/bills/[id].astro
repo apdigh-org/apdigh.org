@@ -42,6 +42,65 @@ export async function getStaticPaths() {
         },
       },
 
+      keyConcerns: [
+        {
+          id: 'vague-definitions',
+          title: 'Vague Definitions Enable Overreach',
+          severity: 'critical',
+          description: 'Terms like "national security" and "public interest" lack clear definitions, allowing arbitrary interpretation. This creates uncertainty for businesses and risks abuse of government access powers.',
+          relatedProvisions: ['section-1', 'section-3'],
+          relatedImpacts: ['freedomOfSpeech', 'privacy'],
+        },
+        {
+          id: 'data-localization-costs',
+          title: 'Data Localization Requirements Are Unrealistic',
+          severity: 'critical',
+          description: 'The 18-month timeline to build or lease server infrastructure in Ghana is insufficient for most companies. Small startups and international services may simply exit the market rather than comply, reducing consumer choice.',
+          relatedProvisions: ['section-2'],
+          relatedImpacts: ['innovation', 'business'],
+        },
+        {
+          id: 'warrantless-access',
+          title: 'No Judicial Oversight for Data Access',
+          severity: 'critical',
+          description: 'Government agencies can demand user data without a warrant or court order. The 48-hour compliance window leaves no time for legal challenge, and users are not notified when their data is accessed.',
+          relatedProvisions: ['section-3'],
+          relatedImpacts: ['privacy'],
+        },
+        {
+          id: 'compliance-burden',
+          title: 'Excessive Compliance Costs Kill Startups',
+          severity: 'high',
+          description: 'New certification and audit requirements impose costs that established companies can afford but early-stage startups cannot. This creates barriers to entry that protect incumbents while stifling innovation in the tech sector.',
+          relatedProvisions: ['section-1', 'section-2'],
+          relatedImpacts: ['innovation', 'business'],
+        },
+        {
+          id: 'retroactive-application',
+          title: 'Retroactive Application Creates Legal Chaos',
+          severity: 'high',
+          description: 'The bill applies to existing services and data already collected, forcing companies to retroactively comply with new standards. This creates impossible situations for businesses operating under previous legal frameworks.',
+          relatedProvisions: ['section-2'],
+          relatedImpacts: ['business'],
+        },
+        {
+          id: 'platform-liability',
+          title: 'Platform Liability Threatens Free Expression',
+          severity: 'critical',
+          description: 'Platforms can be held liable for user-generated content, incentivizing over-moderation and censorship. The lack of safe harbor provisions means platforms will delete content preemptively to avoid penalties.',
+          relatedProvisions: ['section-1'],
+          relatedImpacts: ['freedomOfSpeech'],
+        },
+        {
+          id: 'undefined-penalties',
+          title: 'Unclear Penalties',
+          severity: 'medium',
+          description: 'The bill references penalties without specifying amounts or ranges, creating legal uncertainty. Companies cannot assess risk or budget for potential compliance failures.',
+          relatedProvisions: ['section-3'],
+          relatedImpacts: ['business'],
+        },
+      ],
+
       provisions: [
         {
           id: 'section-1',
@@ -185,6 +244,52 @@ const getImpactLabel = (score: string) => {
 const getProvisionLabel = (provisionId: string) => {
   const provision = bill.provisions?.find(p => p.id === provisionId);
   return provision ? `${provision.section}: ${provision.title}` : provisionId;
+};
+
+// Helper function for severity badge styling
+const getSeverityConfig = (severity: string) => {
+  switch (severity) {
+    case 'critical':
+      return {
+        icon: 'alert-triangle',
+        bgColor: 'bg-red-50',
+        borderColor: 'border-red-200',
+        iconBgColor: 'bg-red-100',
+        iconTextColor: 'text-red-600',
+        badgeClass: 'bg-red-100 text-red-700 border-red-200',
+        label: 'Critical',
+      };
+    case 'high':
+      return {
+        icon: 'alert-circle',
+        bgColor: 'bg-orange-50',
+        borderColor: 'border-orange-200',
+        iconBgColor: 'bg-orange-100',
+        iconTextColor: 'text-orange-600',
+        badgeClass: 'bg-orange-100 text-orange-700 border-orange-200',
+        label: 'High',
+      };
+    case 'medium':
+      return {
+        icon: 'info-circle',
+        bgColor: 'bg-yellow-50',
+        borderColor: 'border-yellow-200',
+        iconBgColor: 'bg-yellow-100',
+        iconTextColor: 'text-yellow-600',
+        badgeClass: 'bg-yellow-100 text-yellow-700 border-yellow-200',
+        label: 'Medium',
+      };
+    default:
+      return {
+        icon: 'alert-circle',
+        bgColor: 'bg-gray-50',
+        borderColor: 'border-gray-200',
+        iconBgColor: 'bg-gray-100',
+        iconTextColor: 'text-gray-600',
+        badgeClass: 'bg-gray-100 text-gray-700 border-gray-200',
+        label: severity,
+      };
+  }
 };
 
 // Filter impacts to only show those that have data
@@ -339,6 +444,70 @@ const impactsToDisplay = Object.entries(bill.impacts || {}).filter(([key, impact
               </div>
             </section>
 
+            <!-- Key Concerns - Prominent Alert Box -->
+            {bill.keyConcerns && bill.keyConcerns.length > 0 && (
+              <section id="key-concerns" class="scroll-mt-24">
+                <div class="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-xl p-8">
+                  <div class="flex items-start gap-4 mb-6">
+                    <div class="flex-shrink-0 w-16 h-16 bg-red-100 rounded-xl flex items-center justify-center">
+                      <i class="ti ti-alert-triangle text-4xl text-red-600"></i>
+                    </div>
+                    <div>
+                      <h2 class="text-3xl font-bold text-black mb-2">Critical Issues with This Bill</h2>
+                      <p class="text-lg text-gray-800">
+                        These concerns pose significant risks to Ghana's digital innovation ecosystem
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="overflow-x-auto -mx-8 px-8">
+                    <div class="flex items-stretch gap-4 pb-4" style="min-width: min-content;">
+                      {bill.keyConcerns.map((concern, index) => {
+                        const severityConfig = getSeverityConfig(concern.severity);
+                        return (
+                          <div id={concern.id} class="bg-white border-2 border-red-200 rounded-lg p-5 scroll-mt-24 hover:border-red-400 transition-colors flex-shrink-0 w-[340px] flex flex-col">
+                            <div class="flex items-center gap-3 mb-3">
+                              <div class="flex-shrink-0 w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center">
+                                <span class="text-lg font-bold text-red-600">{index + 1}</span>
+                              </div>
+                              <span class={`px-2 py-1 text-xs font-semibold rounded border ${severityConfig.badgeClass}`}>
+                                {severityConfig.label}
+                              </span>
+                            </div>
+
+                            <h3 class="text-lg font-bold text-black mb-3 leading-tight h-14 flex items-center">{concern.title}</h3>
+
+                            <p class="text-sm text-gray-700 leading-relaxed mb-4 flex-1">
+                              {concern.description}
+                            </p>
+
+                            <div class="pt-3 border-t border-gray-200 space-y-2 mt-auto">
+                              {concern.relatedProvisions && concern.relatedProvisions.length > 0 && (
+                                <div>
+                                  <span class="text-xs font-semibold text-gray-500 block mb-1">See Details:</span>
+                                  <div class="flex flex-wrap gap-1">
+                                    {concern.relatedProvisions.map((provisionId) => (
+                                      <a
+                                        href={`#${provisionId}`}
+                                        class="inline-flex items-center gap-1 text-xs px-2 py-1 bg-gray-100 text-gray-700 rounded hover:bg-[var(--color-primary)] hover:text-white transition-colors"
+                                      >
+                                        <i class="ti ti-arrow-down"></i>
+                                        <span>{bill.provisions?.find(p => p.id === provisionId)?.section || provisionId}</span>
+                                      </a>
+                                    ))}
+                                  </div>
+                                </div>
+                              )}
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                </div>
+              </section>
+            )}
+
             <!-- Key Provisions -->
             <section id="key-provisions">
               <div class="flex items-center justify-between mb-4">
@@ -349,7 +518,7 @@ const impactsToDisplay = Object.entries(bill.impacts || {}).filter(([key, impact
               </div>
               <div class="bg-white border-2 border-gray-200 rounded-xl divide-y divide-gray-200">
                 {bill.provisions?.map((provision) => (
-                  <details class="group" id={provision.id}>
+                  <details class="group scroll-mt-24" id={provision.id}>
                     <summary class="flex items-center justify-between p-6 cursor-pointer hover:bg-gray-50 transition-colors">
                       <div class="flex items-center gap-3">
                         <i class="ti ti-file-text text-[var(--color-primary)]"></i>
