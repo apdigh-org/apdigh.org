@@ -233,13 +233,17 @@ def extract_provisions(doc_dict: dict) -> list:
             bbox = item.get('prov', [{}])[0].get('bbox', {})
             left_margin = bbox.get('l', 0)
 
-            # Left-aligned section headers (at base margin, within 5 points tolerance)
-            is_left_aligned = abs(left_margin - base_margin) < 5
+            # Left-aligned section headers (at base margin OR first few indentation levels)
+            # Check first 3 indentation levels to catch section headers
+            indentation_levels = doc_structure.get('indentation_levels', [])
+            leftmost_margins = indentation_levels[:3] if len(indentation_levels) >= 3 else indentation_levels
+            is_left_aligned = any(abs(left_margin - margin) < 5 for margin in leftmost_margins)
 
             if is_left_aligned:
                 import re
                 # Exclude numbered clauses (they're content, not boundaries)
-                is_numbered_clause = bool(re.match(r'^\d+[\.\s]', text))
+                # Matches: "1. ", "2 ", "(1)", "(2) ", etc.
+                is_numbered_clause = bool(re.match(r'^(\d+[\.\s]|\(\d+\))', text))
                 # Exclude quoted section names (they're content being added)
                 is_quoted = text.startswith("'") or text.startswith('"')
                 # Exclude list items like "(a)", "(b)", "(i)", etc.
@@ -318,7 +322,7 @@ def create_bill_json(docling_json_path: str):
             bill_title = item.get('text', '').strip()
             break
 
-    # Build provisions array
+    # Build provisions array - minimal structure for LLM post-processing
     bill_provisions = []
     for i, prov in enumerate(provisions, 1):
         raw_text = '\n\n'.join(prov['content']).strip()
@@ -327,51 +331,11 @@ def create_bill_json(docling_json_path: str):
             "id": slugify(prov['title']),
             "index": i,
             "title": prov['title'],
-            "plainLanguage": f"TODO: Explain what '{prov['title']}' means in plain language",
-            "rawText": raw_text,
-            "relatedImpacts": []
+            "rawText": raw_text
         })
 
     bill_data = {
-        "id": bill_id,
-        "title": bill_title,
-        "pdfUrl": f"/pdfs/{base_name}.pdf",
-        "status": "draft",
-        "priority": "normal",
-        "categories": [],
-        "summary": "TODO: Write a 2-3 sentence summary of the bill's purpose and main changes",
-        "impacts": {
-            "innovation": {
-                "score": "neutral",
-                "description": "TODO: Describe impact on digital innovation and startups",
-                "relatedProvisions": []
-            },
-            "freedomOfSpeech": {
-                "score": "neutral",
-                "description": "TODO: Describe impact on freedom of speech and expression",
-                "relatedProvisions": []
-            },
-            "privacy": {
-                "score": "neutral",
-                "description": "TODO: Describe impact on privacy and data rights",
-                "relatedProvisions": []
-            },
-            "business": {
-                "score": "neutral",
-                "description": "TODO: Describe impact on business environment",
-                "relatedProvisions": []
-            }
-        },
-        "keyConcerns": [],
-        "provisions": bill_provisions,
-        "notebookLMVideo": {
-            "url": "#",
-            "duration": "0:00"
-        },
-        "publicationDate": "TODO: Add publication date",
-        "deadline": "TODO: Add deadline for submissions",
-        "submissionMethod": "TODO: Add how to submit feedback",
-        "relatedBills": []
+        "sections": bill_provisions
     }
 
     # Write output
