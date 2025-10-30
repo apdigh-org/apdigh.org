@@ -14,7 +14,11 @@
     "@tabler/icons-webfont": "^3.35.0",
     "@tailwindcss/vite": "^4.1.16",
     "astro": "^5.15.2",
+    "marked": "^16.4.1",
     "pagefind": "^1.4.0",
     "tailwindcss": "^4.1.16"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.19"
   }
 }

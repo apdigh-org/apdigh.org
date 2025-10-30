@@ -1,0 +1,8 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+
+# Note: We keep markdown files in output/ as they are important intermediate state
+# Note: We keep JSON files in output/ if any are generated there temporarily

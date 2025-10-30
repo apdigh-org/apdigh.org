@@ -5,6 +5,7 @@ import Footer from '../../components/layout/Footer.astro';
 import { SITE } from '../../constants/site';
 import { IMPACT_CATEGORIES, getImpactName, type ImpactKey } from '../../constants/impacts';
 import { getAllBills } from '../../utils/bills';
+import { marked } from 'marked';
 
 // Generate static paths for all bills from JSON files
 export async function getStaticPaths() {
@@ -64,7 +65,7 @@ const getImpactLabel = (score: string) => {
 // Helper to get provision details
 const getProvisionLabel = (provisionId: string) => {
   const provision = bill.provisions?.find(p => p.id === provisionId);
-  return provision ? `${provision.section}: ${provision.title}` : provisionId;
+  return provision ? provision.title : provisionId;
 };
 
 // Helper function for severity badge styling
@@ -313,7 +314,7 @@ const impactsToDisplay = Object.entries(bill.impacts || {}).filter(([key, impact
                                         class="inline-flex items-center gap-1 text-xs px-2 py-1 bg-gray-100 text-gray-700 rounded hover:bg-[var(--color-primary)] hover:text-white transition-colors"
                                       >
                                         <i class="ti ti-arrow-down"></i>
-                                        <span>{bill.provisions?.find(p => p.id === provisionId)?.section || provisionId}</span>
+                                        <span>{bill.provisions?.find(p => p.id === provisionId)?.title || provisionId}</span>
                                       </a>
                                     ))}
                                   </div>
@@ -343,7 +344,7 @@ const impactsToDisplay = Object.entries(bill.impacts || {}).filter(([key, impact
                     <summary class="flex items-center justify-between p-6 cursor-pointer hover:bg-gray-50 transition-colors">
                       <div class="flex items-center gap-3">
                         <i class="ti ti-file-text text-[var(--color-primary)]"></i>
-                        <span class="text-lg font-semibold text-black">{provision.section}: {provision.title}</span>
+                        <span class="text-lg font-semibold text-black">{provision.title}</span>
                       </div>
                       <i class="ti ti-chevron-down text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0"></i>
                     </summary>
@@ -381,8 +382,13 @@ const impactsToDisplay = Object.entries(bill.impacts || {}).filter(([key, impact
                           <span class="text-sm font-semibold text-gray-700">Show Original Legal Text</span>
                         </summary>
                         <div class="px-4 py-4 bg-gray-50 border-t-2 border-gray-200">
-                          <p class="text-sm text-gray-700 leading-relaxed italic border-l-4 border-[var(--color-primary)] pl-4 py-2">
-                            {provision.rawText}
+                          <div
+                            class="text-sm text-gray-700 leading-relaxed italic border-l-4 border-[var(--color-primary)] pl-4 py-2 prose prose-sm max-w-none"
+                            set:html={marked.parse(provision.rawText)}
+                          />
+                          <p class="text-xs text-gray-500 mt-3 pt-3 border-t border-gray-300">
+                            <i class="ti ti-info-circle text-gray-400"></i>
+                            Note: This text is extracted from the PDF and may contain formatting errors or inaccuracies. For full accuracy, please refer to the official PDF document.
                           </p>
                         </div>
                       </details>
