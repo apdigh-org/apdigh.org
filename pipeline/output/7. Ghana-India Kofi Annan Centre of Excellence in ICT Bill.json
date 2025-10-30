@@ -4,193 +4,321 @@
       "id": "establishment-of-the-kofi-annan-research-and-development-centre",
       "index": 1,
       "title": "Establishment of the Kofi Annan Research and Development Centre",
-      "rawText": "- (1) There is established by this Act the Kofi Annan Centre of Excellence in ICT.\n\n        - The Centre shall be a body corporate with perpetual succession and a common seal, may sue and be sued in its corporate name.\n\n        - The Centre shall for the performance of its functions have the right to acquire and hold  movable  and  immovable  property  and  enter  into  a  contract  or  any  other transaction.\n\n        - Where  there  is  a  hindrance  to  the  acquisition  of  property,  the  property  may  be acquired for the Centre under the Land Act, 2020 (Act 1036) and the cost shall be borne by the Centre.\n\n## 2. Object of the Centre\n\nThe object of the  Centre is to serve as the  Centre of Excellence dedicated to advancing research, development, innovation, and capacity building, as well as providing consultancy and advisory services in emerging digital technologies and related fields in ICT."
+      "rawText": "- (1) There is established by this Act the Kofi Annan Centre of Excellence in ICT.\n\n        - The Centre shall be a body corporate with perpetual succession and a common seal, may sue and be sued in its corporate name.\n\n        - The Centre shall for the performance of its functions have the right to acquire and hold  movable  and  immovable  property  and  enter  into  a  contract  or  any  other transaction.\n\n        - Where  there  is  a  hindrance  to  the  acquisition  of  property,  the  property  may  be acquired for the Centre under the Land Act, 2020 (Act 1036) and the cost shall be borne by the Centre.\n\n## 2. Object of the Centre\n\nThe object of the  Centre is to serve as the  Centre of Excellence dedicated to advancing research, development, innovation, and capacity building, as well as providing consultancy and advisory services in emerging digital technologies and related fields in ICT.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the establishment of a research center, its legal status, and its powers. This falls under the category of establishing rules and functions, which is a provision."
+      }
     },
     {
       "id": "functions-of-the-centre",
       "index": 2,
       "title": "Functions of the Centre",
-      "rawText": "- 1) To achieve the object, the Centre shall:\n\n        - undertake research, development, training and consultancy in ICT;\n\n        - grant no objections to public institutions seeking to apply for public funding in ICT research, subject to fulfilment of application requirements;\n\n        - collaborate with international organisations on matters of research and development in  ICT and emerging digital technologies;\n\n        - provide education and training in ICT to public institutions;\n\n        - provide consultancy and advisory services in ICT to support public and private sector initiatives;\n\n        - represent  Ghana  in  regional  and  global  forums  and  foster  cross  border  digital  cooperation in ICT;\n\n        - promote digital inclusion and equitable access to infrastructure and services across Ghana through research, advocacy, training, capacity development, coaching and\n\n        - monitor and evaluate the impact of ICT projects and grant funded initiatives to ensure alignment with national goals in ICT; and\n\n        - perform any other functions ancillary to the objects of the Centre.\n\n## Powers of the Centre"
+      "rawText": "- 1) To achieve the object, the Centre shall:\n\n        - undertake research, development, training and consultancy in ICT;\n\n        - grant no objections to public institutions seeking to apply for public funding in ICT research, subject to fulfilment of application requirements;\n\n        - collaborate with international organisations on matters of research and development in  ICT and emerging digital technologies;\n\n        - provide education and training in ICT to public institutions;\n\n        - provide consultancy and advisory services in ICT to support public and private sector initiatives;\n\n        - represent  Ghana  in  regional  and  global  forums  and  foster  cross  border  digital  cooperation in ICT;\n\n        - promote digital inclusion and equitable access to infrastructure and services across Ghana through research, advocacy, training, capacity development, coaching and\n\n        - monitor and evaluate the impact of ICT projects and grant funded initiatives to ensure alignment with national goals in ICT; and\n\n        - perform any other functions ancillary to the objects of the Centre.\n\n## Powers of the Centre",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section outlines the specific functions and responsibilities of the \"Centre,\" indicating what it is supposed to do. This falls under establishing rules and functions, which is characteristic of a provision."
+      }
     },
     {
       "id": "national-ict-research-and-development-mandate",
       "index": 3,
       "title": "National ICT Research and Development Mandate",
-      "rawText": "- (1)  The  Centre  is  hereby  designated  as  the  National  Centre  for  Research  and Development in ICT, in Ghana.\n\n    - The Centre shall;\n\n          - serve  as  the  primary  institution  for  coordinating  research  and  development initiatives in ICT in the public sector;\n\n          - be the national institution for attracting and managing public funding and technical support in ICT research and development from bilateral and multilateral partners, philanthropic foundations, and other international bodies; and\n\n          - provide  support  to  public  and  private  sectors  engaged  in  digital  innovation  and research."
+      "rawText": "- (1)  The  Centre  is  hereby  designated  as  the  National  Centre  for  Research  and Development in ICT, in Ghana.\n\n    - The Centre shall;\n\n          - serve  as  the  primary  institution  for  coordinating  research  and  development initiatives in ICT in the public sector;\n\n          - be the national institution for attracting and managing public funding and technical support in ICT research and development from bilateral and multilateral partners, philanthropic foundations, and other international bodies; and\n\n          - provide  support  to  public  and  private  sectors  engaged  in  digital  innovation  and research.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the mandate of the National Centre for Research and Development in ICT. It outlines the functions and responsibilities of the center, which are legal provisions."
+      }
     },
     {
       "id": "mandatory-consultation-for-ict-training",
       "index": 4,
       "title": "Mandatory Consultation for ICT Training",
-      "rawText": "- (1) The Centre shall serve as the primary national body for the provision, coordination, and standardization of ICT training for public sector institutions in Ghana.\n\n    - All ministries, departments, agencies, metropolitan, municipal and district assemblies, statutory bodies, public corporations, and other state institutions intending to undertake ICT training for their personnel shall first consult the Centre regarding the availability and capacity to provide the required training.\n\n    - Where the Centre confirms that it has the capacity to deliver the requested training, the institution shall procure such training from the Centre.\n\n    - Where the Centre determines that it does not have the capacity to provide the training in whole or in part, the institution may procure such training from an alternative provider, subject to any guidance or standards issued by the Centre.\n\n    - Any institution, referred to under section 5(2) that procures ICT training without prior consultation  with  the  Centre,  or  contrary  to  the  Centre's  determination  under  this section,  shall  be  deemed  non-compliant  and  may  be  subject  to  administrative sanctions as may be prescribed by regulations."
+      "rawText": "- (1) The Centre shall serve as the primary national body for the provision, coordination, and standardization of ICT training for public sector institutions in Ghana.\n\n    - All ministries, departments, agencies, metropolitan, municipal and district assemblies, statutory bodies, public corporations, and other state institutions intending to undertake ICT training for their personnel shall first consult the Centre regarding the availability and capacity to provide the required training.\n\n    - Where the Centre confirms that it has the capacity to deliver the requested training, the institution shall procure such training from the Centre.\n\n    - Where the Centre determines that it does not have the capacity to provide the training in whole or in part, the institution may procure such training from an alternative provider, subject to any guidance or standards issued by the Centre.\n\n    - Any institution, referred to under section 5(2) that procures ICT training without prior consultation  with  the  Centre,  or  contrary  to  the  Centre's  determination  under  this section,  shall  be  deemed  non-compliant  and  may  be  subject  to  administrative sanctions as may be prescribed by regulations.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes a mandatory consultation process for ICT training, outlining the responsibilities of the Centre and the obligations of other public sector institutions. This falls under establishing rules and functions, which is a provision."
+      }
     },
     {
       "id": "intermediary-role",
       "index": 5,
       "title": "Intermediary Role",
-      "rawText": "- (1)  The  Centre shall serve as the national intermediary for public institutions in Ghana, responsible for receiving, assessing, coordinating, and disbursing public funding, grants, technical  assistance,  or  other  forms  of  support  from  international  and  philanthropic organizations intended to promote research, innovation, or development in ICT.\n\n    - Without limiting subsection (1), the Centre shall;\n\n          - establish  a  framework  for  the  submission  and  evaluation  of  public  funding proposals by public institutions;\n\n          - assess the technical, operational and financial feasibility of proposed projects of public institutions;\n\n          - act as an intermediary or fund administrator for funding to public institutions, where authorized by the funding partner; and\n\n          - monitor and report on the implementation and impact of projects financed through public funding.\n\n    - A  funding  agency, development  partner  or  international  donor  may  enter  into  an agreement with the Centre for the purposes of administering, disbursing or managing public funding in accordance with this section."
+      "rawText": "- (1)  The  Centre shall serve as the national intermediary for public institutions in Ghana, responsible for receiving, assessing, coordinating, and disbursing public funding, grants, technical  assistance,  or  other  forms  of  support  from  international  and  philanthropic organizations intended to promote research, innovation, or development in ICT.\n\n    - Without limiting subsection (1), the Centre shall;\n\n          - establish  a  framework  for  the  submission  and  evaluation  of  public  funding proposals by public institutions;\n\n          - assess the technical, operational and financial feasibility of proposed projects of public institutions;\n\n          - act as an intermediary or fund administrator for funding to public institutions, where authorized by the funding partner; and\n\n          - monitor and report on the implementation and impact of projects financed through public funding.\n\n    - A  funding  agency, development  partner  or  international  donor  may  enter  into  an agreement with the Centre for the purposes of administering, disbursing or managing public funding in accordance with this section.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the role of the Centre as an intermediary for public funding. This establishes a function and power, which falls under the category of a provision."
+      }
     },
     {
       "id": "no-objection-by-the-centre",
       "index": 6,
       "title": "No Objection by the Centre",
-      "rawText": "- (1) A public institution who seeks to apply for, receive, administer or benefit from public funding from any local or international source for research or development project in ICT, shall, prior to applying for such funding, obtain a no objection from the Centre.\n\n    - The application shall be in writing and shall be accompanied by;\n\n              - such documents as shall be prescribed by regulations made pursuant to this Act; and\n\n              - prescribed fees.\n\n    - The Centre  shall keep  a  repository of public institutions  and research  and development projects certified under section 7 of this Act.\n\n    - The Centre shall issue a no objection where it is satisfied that;\n\n              - the proposed research and development project is legitimate and aligned with the national development goals in ICT;\n\n              - the public institution possesses the requisite capacity to execute the proposed research and development project; and\n\n              - the  implementation and governance framework of the proposed research and development project meets the standards prescribed by the Centre.\n\n    - A no objection granted under this section;\n\n              - shall be valid only for the specific the proposed research and development project for which it is issued;\n\n              - shall not be transferrable;\n\n              - shall  not  constitute  a  general  endorsement  of  the  public  institution's  other activities; and\n\n              - may be subject to such conditions as the Centre may prescribe.\n\n              - knowingly misrepresents or omits material information in an application for no objection commits an offence and is liable on summary conviction to a fine of not less than one thousand penalty units and not more than five thousand penalty units.\n\n    - In addition to any penalty imposed under subsection (6) the Centre may disqualify the public institution from applying for a no objection or public funding for a period not exceeding three (3) years.\n\n    - The Centre shall, within thirty (30) days of receipt of an application for no objection inform the public institution in writing of the decision of the Centre."
+      "rawText": "- (1) A public institution who seeks to apply for, receive, administer or benefit from public funding from any local or international source for research or development project in ICT, shall, prior to applying for such funding, obtain a no objection from the Centre.\n\n    - The application shall be in writing and shall be accompanied by;\n\n              - such documents as shall be prescribed by regulations made pursuant to this Act; and\n\n              - prescribed fees.\n\n    - The Centre  shall keep  a  repository of public institutions  and research  and development projects certified under section 7 of this Act.\n\n    - The Centre shall issue a no objection where it is satisfied that;\n\n              - the proposed research and development project is legitimate and aligned with the national development goals in ICT;\n\n              - the public institution possesses the requisite capacity to execute the proposed research and development project; and\n\n              - the  implementation and governance framework of the proposed research and development project meets the standards prescribed by the Centre.\n\n    - A no objection granted under this section;\n\n              - shall be valid only for the specific the proposed research and development project for which it is issued;\n\n              - shall not be transferrable;\n\n              - shall  not  constitute  a  general  endorsement  of  the  public  institution's  other activities; and\n\n              - may be subject to such conditions as the Centre may prescribe.\n\n              - knowingly misrepresents or omits material information in an application for no objection commits an offence and is liable on summary conviction to a fine of not less than one thousand penalty units and not more than five thousand penalty units.\n\n    - In addition to any penalty imposed under subsection (6) the Centre may disqualify the public institution from applying for a no objection or public funding for a period not exceeding three (3) years.\n\n    - The Centre shall, within thirty (30) days of receipt of an application for no objection inform the public institution in writing of the decision of the Centre.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes a requirement for public institutions to obtain a \"no objection\" from the Centre before applying for funding. This establishes a rule or requirement, which falls under the category of a provision."
+      }
     },
     {
       "id": "review-of-a-no-objection-decision-of-the-centre",
       "index": 7,
       "title": "Review of a no objection decision of the Centre",
-      "rawText": "- (1) A public institution whose no objection application has been denied by the Centre may, within thirty 30 days of receipt of the decision, submit a complaint in writing to the Director-General for a review of the decision. The Director-General shall within thirty (30) days of receipt of the complaint, review the complaint and inform the complainant of the outcome of the review.\n\n(2)  A  public  institution  dissatisfied  with  the  decision  of  the  Director-General  under subsection (1) may, within 28 days after the date of receipt of the decision, submit a complaint in writing to the Minister for a review of the decision of the Director-General. The Minister shall within 60 days of receipt of the complaint, review the complaint and inform the complainant of a decision.\n\n## Governance of the Centre"
+      "rawText": "- (1) A public institution whose no objection application has been denied by the Centre may, within thirty 30 days of receipt of the decision, submit a complaint in writing to the Director-General for a review of the decision. The Director-General shall within thirty (30) days of receipt of the complaint, review the complaint and inform the complainant of the outcome of the review.\n\n(2)  A  public  institution  dissatisfied  with  the  decision  of  the  Director-General  under subsection (1) may, within 28 days after the date of receipt of the decision, submit a complaint in writing to the Minister for a review of the decision of the Director-General. The Minister shall within 60 days of receipt of the complaint, review the complaint and inform the complainant of a decision.\n\n## Governance of the Centre",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes a process for reviewing a decision, which establishes a procedure and rights for public institutions. This falls under the category of legal provisions."
+      }
     },
     {
       "id": "governing-body-of-the-centre",
       "index": 8,
       "title": "Governing Body of the Centre",
-      "rawText": "- (1)  The governing body of the Centre shall be a Governing Board consisting of;\n\n          - The Chairperson;\n\n          - The Director-General of the Centre;\n\n          - One representative from the Technical, Vocational Education and Training (TVET) Service, not below the rank of a Director;\n\n          - One representative from the Ministry not below the rank of a Director;\n\n          - Two persons in academia appointed by the Ghana Tertiary Education Commission, with expertise in ICT, not below the rank of Senior Lecturer;\n\n          - Two persons with expertise in ICT, nominated by their professional bodies; and\n\n          - Two persons appointed by the President.\n\n    - Members of the Board shall be appointed by the President in accordance with Article 70 of the Constitution.\n\n    - Notwithstanding any other provision in this section, the composition of the governing board shall include not less than three (3) women as members."
+      "rawText": "- (1)  The governing body of the Centre shall be a Governing Board consisting of;\n\n          - The Chairperson;\n\n          - The Director-General of the Centre;\n\n          - One representative from the Technical, Vocational Education and Training (TVET) Service, not below the rank of a Director;\n\n          - One representative from the Ministry not below the rank of a Director;\n\n          - Two persons in academia appointed by the Ghana Tertiary Education Commission, with expertise in ICT, not below the rank of Senior Lecturer;\n\n          - Two persons with expertise in ICT, nominated by their professional bodies; and\n\n          - Two persons appointed by the President.\n\n    - Members of the Board shall be appointed by the President in accordance with Article 70 of the Constitution.\n\n    - Notwithstanding any other provision in this section, the composition of the governing board shall include not less than three (3) women as members.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the composition of the governing body of the center. This is a provision that establishes the structure and membership of the governing board."
+      }
     },
     {
       "id": "functions-of-the-board",
       "index": 9,
       "title": "Functions of the Board",
-      "rawText": "- (1) The Board shall be responsible for the performance of the functions of the Centre, the drafting and implementing of operational policies, general supervision of the management and affairs of the Centre; and such other functions conferred upon it by this Act.\n\n    - For the purposes of subsection (1);\n\n          - establish  appropriate  structures  for  the  effective  and  efficient  execution  of  the object of the  Centre;\n\n          - secure the achievement of the object of the Centre;\n\n          - take reasonable and timely action on the reports submitted to it by the DirectorGeneral;\n\n          - advise  the  Minister  on the drafting of  legislative  instruments,  regulations and policies  for  the  effective  implementation of this Act; and\n\n          - perform any other functions incidental to the achievement of the aims of the Centre."
+      "rawText": "- (1) The Board shall be responsible for the performance of the functions of the Centre, the drafting and implementing of operational policies, general supervision of the management and affairs of the Centre; and such other functions conferred upon it by this Act.\n\n    - For the purposes of subsection (1);\n\n          - establish  appropriate  structures  for  the  effective  and  efficient  execution  of  the object of the  Centre;\n\n          - secure the achievement of the object of the Centre;\n\n          - take reasonable and timely action on the reports submitted to it by the DirectorGeneral;\n\n          - advise  the  Minister  on the drafting of  legislative  instruments,  regulations and policies  for  the  effective  implementation of this Act; and\n\n          - perform any other functions incidental to the achievement of the aims of the Centre.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the responsibilities and duties of the Board, which are legal provisions. Therefore, it falls under the 'provision' category."
+      }
     },
     {
       "id": "duties-and-liabilities-of-members-of-the-board",
       "index": 10,
       "title": "Duties and Liabilities of members of the Board",
-      "rawText": "- (1) A member of the Board shall have the same fiduciary relationship with the Centre and the duty to act in good faith as a director of a company incorporated under the Companies Act, 2019 (Act 992).\n\n        - Without limiting subsection (1), a member of the Board has a duty;\n\n          - to act honestly in the performance of the functions of that member;\n\n          - to exercise the degree of care and diligence in the performance of the functions of that  member,  that  a  reasonable  person  in  that  position  would  reasonably  be expected to exercise in the circumstances;\n\n          - not  to  use  information  acquired  by  virtue  of  the  position  of  that  member  as  a member of the Board without authorization; and\n\n          - not to use the position of the member to gain directly or indirectly, a benefit for that member or for any other person; and\n\n          - not to knowingly or negligently cause loss to the Centre.\n\n      - A member of the Board who contravenes subsection (1) or (2) commits an offence and is liable on summary conviction to a fine of not less than two thousand penalty units and not more than six thousand penalty units."
+      "rawText": "- (1) A member of the Board shall have the same fiduciary relationship with the Centre and the duty to act in good faith as a director of a company incorporated under the Companies Act, 2019 (Act 992).\n\n        - Without limiting subsection (1), a member of the Board has a duty;\n\n          - to act honestly in the performance of the functions of that member;\n\n          - to exercise the degree of care and diligence in the performance of the functions of that  member,  that  a  reasonable  person  in  that  position  would  reasonably  be expected to exercise in the circumstances;\n\n          - not  to  use  information  acquired  by  virtue  of  the  position  of  that  member  as  a member of the Board without authorization; and\n\n          - not to use the position of the member to gain directly or indirectly, a benefit for that member or for any other person; and\n\n          - not to knowingly or negligently cause loss to the Centre.\n\n      - A member of the Board who contravenes subsection (1) or (2) commits an offence and is liable on summary conviction to a fine of not less than two thousand penalty units and not more than six thousand penalty units.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Duties and Liabilities of members of the Board\" suggests that the content will outline the responsibilities and potential liabilities of board members. The content preview confirms this, describing the fiduciary relationship and duties of board members. This falls under the category of establishing rules and responsibilities, which is a provision."
+      }
     },
     {
       "id": "establishment-of-centres-units-projects-and-limited-liability-entities",
       "index": 11,
       "title": "Establishment of centres, units, projects and  limited liability entities",
-      "rawText": "- (1) The Board shall have the power to establish centres, units, projects and limited liability entities with appropriate structures for the effective and efficient execution of the object of the Centre.\n\n    - Without  limiting  subsection  (1),  the  following  centres  established  prior  to  the commencement of this Act shall continue to operate under this Act as centres of the Centre;\n\n          - Open Technologies Research and Development Centre, Bolgatanga;\n\n          - Smart Technologies & AI Research Centre, Sunyani; and"
+      "rawText": "- (1) The Board shall have the power to establish centres, units, projects and limited liability entities with appropriate structures for the effective and efficient execution of the object of the Centre.\n\n    - Without  limiting  subsection  (1),  the  following  centres  established  prior  to  the commencement of this Act shall continue to operate under this Act as centres of the Centre;\n\n          - Open Technologies Research and Development Centre, Bolgatanga;\n\n          - Smart Technologies & AI Research Centre, Sunyani; and",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the power of the board to establish centers, units, projects and limited liability entities. This is a legal provision that establishes a power."
+      }
     },
     {
       "id": "meetings-of-the-board",
       "index": 12,
       "title": "Meetings of the Board",
-      "rawText": "- (1) The Board shall meet at least once every three months for the dispatch of business at a time and venue determined by the chairperson.\n\n    - The  chairperson  shall  at  the  request  in  writing  of  not  less  than  one  third  of  the membership of the Board convene an extra-ordinary meeting of the Board at a place and time determined by the chairperson.\n\n    - The quorum at a meeting of the Board is two thirds of members of the Board or a greater number determined by the Board in respect of an important matter.\n\n    - The chairperson shall preside at the meetings of the Board and in the absence of the chairperson, a  member of the Board elected by the members present from among their number shall preside.\n\n    - Matters before the Board shall be decided by a majority of the members present and voting, and in  the event  of  an equality  of  votes,  the  person  presiding  shall  have  a casting vote.\n\n    - The Board may co-opt a person to attend a Board meeting but that person shall not vote on a matter for decision at the meeting.\n\n    - The proceedings of the Board shall not be invalidated due to a vacancy among the members or a defect in the appointment or qualification of a member.\n\n    - The Board shall, subject to this section, determine the procedure for its meetings."
+      "rawText": "- (1) The Board shall meet at least once every three months for the dispatch of business at a time and venue determined by the chairperson.\n\n    - The  chairperson  shall  at  the  request  in  writing  of  not  less  than  one  third  of  the membership of the Board convene an extra-ordinary meeting of the Board at a place and time determined by the chairperson.\n\n    - The quorum at a meeting of the Board is two thirds of members of the Board or a greater number determined by the Board in respect of an important matter.\n\n    - The chairperson shall preside at the meetings of the Board and in the absence of the chairperson, a  member of the Board elected by the members present from among their number shall preside.\n\n    - Matters before the Board shall be decided by a majority of the members present and voting, and in  the event  of  an equality  of  votes,  the  person  presiding  shall  have  a casting vote.\n\n    - The Board may co-opt a person to attend a Board meeting but that person shall not vote on a matter for decision at the meeting.\n\n    - The proceedings of the Board shall not be invalidated due to a vacancy among the members or a defect in the appointment or qualification of a member.\n\n    - The Board shall, subject to this section, determine the procedure for its meetings.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes how the board should conduct meetings, including frequency, location, and quorum. This falls under establishing rules and procedures for the board, which is a provision."
+      }
     },
     {
       "id": "tenure-of-office-of-members-of-the-board",
       "index": 13,
       "title": "Tenure of office of members of the Board",
-      "rawText": "- ( 1) A member of the Board shall hold office for a period not exceeding four years and is eligible for re- appointment, but a member shall not be appointed for more than two terms.\n\n    - Subsection (1) does not apply to the Director-General of the Centre.\n\n    - A member of the Board may at any time resign from office in writing addressed to the President through the Minister.\n\n    - A member  of  the  Board,  other  than  the  Director-General  of  the  Centre,  who  is absent  from  three consecutive meetings of the Board without sufficient cause shall cease to be a member of the Board.\n\n    - The President may by letter addressed to a member revoke the appointment of that member.\n\n    - Where a member of the Board is, for a sufficient cause, unable to act as a member, the  Minister shall determine whether the inability would result in the declaration of a vacancy.\n\n    - Where there is a vacancy; under subsection (3), or subsection (4), or as a result of a declaration under subsection (6), or by reason of the death of a member, the Minister shall notify the President of the vacancy and the President shall appoint a person to fill the vacancy."
+      "rawText": "- ( 1) A member of the Board shall hold office for a period not exceeding four years and is eligible for re- appointment, but a member shall not be appointed for more than two terms.\n\n    - Subsection (1) does not apply to the Director-General of the Centre.\n\n    - A member of the Board may at any time resign from office in writing addressed to the President through the Minister.\n\n    - A member  of  the  Board,  other  than  the  Director-General  of  the  Centre,  who  is absent  from  three consecutive meetings of the Board without sufficient cause shall cease to be a member of the Board.\n\n    - The President may by letter addressed to a member revoke the appointment of that member.\n\n    - Where a member of the Board is, for a sufficient cause, unable to act as a member, the  Minister shall determine whether the inability would result in the declaration of a vacancy.\n\n    - Where there is a vacancy; under subsection (3), or subsection (4), or as a result of a declaration under subsection (6), or by reason of the death of a member, the Minister shall notify the President of the vacancy and the President shall appoint a person to fill the vacancy.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the term length and eligibility for reappointment of board members. This defines a rule or condition, so it is a provision."
+      }
     },
     {
       "id": "disclosure-of-interest",
       "index": 14,
       "title": "Disclosure of Interest",
-      "rawText": "- (1) A member of the Board who has an interest in a matter for consideration by the Board shall:\n\n          - disclose, in writing, the nature of the interest to the Board prior to or at the meeting at which the matter is to be considered; and the disclosure shall form part of the record for the consideration of the matter; and\n\n          - not be present at nor participate in the deliberations of the Board in respect of that matter.\n\n      - A member ceases to be a member of the Board, if that member has an interest in a matter before the Board but;\n\n          - fails to disclose that interest, and\n\n          - is present and participates in the deliberations of the matter."
+      "rawText": "- (1) A member of the Board who has an interest in a matter for consideration by the Board shall:\n\n          - disclose, in writing, the nature of the interest to the Board prior to or at the meeting at which the matter is to be considered; and the disclosure shall form part of the record for the consideration of the matter; and\n\n          - not be present at nor participate in the deliberations of the Board in respect of that matter.\n\n      - A member ceases to be a member of the Board, if that member has an interest in a matter before the Board but;\n\n          - fails to disclose that interest, and\n\n          - is present and participates in the deliberations of the matter.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the procedure for a board member to disclose a conflict of interest. This is a rule or requirement, so it is a provision."
+      }
     },
     {
       "id": "committees-of-the-board",
       "index": 15,
       "title": "Committees of the Board",
-      "rawText": "- (1)  The Board may establish committees consisting of members of the Board or nonmembers of the Board or both  and may assign to these committees such functions as the Board may determine.\n\n      - The  tenure  of  office  of  a  member  of  a  committee  shall  be  coterminous  with  that member's term of office on the Board.\n\n      - A committee composed of members and non-members of the Board shall be chaired by a member of the Board.\n\n      - The provisions of Section 16 on Disclosure of Interest shall apply to members of a committee of the Board."
+      "rawText": "- (1)  The Board may establish committees consisting of members of the Board or nonmembers of the Board or both  and may assign to these committees such functions as the Board may determine.\n\n      - The  tenure  of  office  of  a  member  of  a  committee  shall  be  coterminous  with  that member's term of office on the Board.\n\n      - A committee composed of members and non-members of the Board shall be chaired by a member of the Board.\n\n      - The provisions of Section 16 on Disclosure of Interest shall apply to members of a committee of the Board.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the establishment and function of committees within the Board. This outlines a specific power and function of the board, which falls under the category of a provision."
+      }
     },
     {
       "id": "allowances-for-members-of-the-board-and-committees",
       "index": 16,
       "title": "Allowances for members of the Board and Committees",
-      "rawText": "- Board members and members of committees of the Board shall be paid such allowances as are approved by the Minister in consultation with the Minister responsible for Finance."
+      "rawText": "- Board members and members of committees of the Board shall be paid such allowances as are approved by the Minister in consultation with the Minister responsible for Finance.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes allowances for board members, which is a rule or provision."
+      }
     },
     {
       "id": "policy-directives",
       "index": 17,
       "title": "Policy Directives",
-      "rawText": "- The  Minister  may  give  policy  directives  to  the  Board  in  writing,  consistent  with  the provisions of this Act and the Board shall comply.\n\n## Administration of the Centre"
+      "rawText": "- The  Minister  may  give  policy  directives  to  the  Board  in  writing,  consistent  with  the provisions of this Act and the Board shall comply.\n\n## Administration of the Centre",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Policy Directives\" and the content preview describing the Minister's power to give policy directives to the Board clearly indicate a legal provision establishing a rule or power. Therefore, the category is 'provision'."
+      }
     },
     {
       "id": "director-general-of-the-centre",
       "index": 18,
       "title": "Director- General of the Centre",
-      "rawText": "- (1) The  Director-General  shall  be  appointed  by  the  President  in  accordance  with Article  195  of  the Constitution.\n\n    - The  Director-General  shall,  subject  to  the  general  directives  of  the  Board,  be responsible  for  the effective management and administration of the Centre.\n\n    - The  Director-General  shall  hold  office  on  the  terms  and  conditions  specified  in his/her  letter  of appointment.\n\n    - The Director-General may in writing, delegate a function to an officer of the Centre, except that,  such delegation  shall not  relieve  the  Director-General  of  the  ultimate responsibility for the performance of the delegated function.\n\n    - The  Director-General  shall  be  a  person  of  high  moral  character  and  integrity  with the  relevant qualifications and experience related to the functions of the Centre."
+      "rawText": "- (1) The  Director-General  shall  be  appointed  by  the  President  in  accordance  with Article  195  of  the Constitution.\n\n    - The  Director-General  shall,  subject  to  the  general  directives  of  the  Board,  be responsible  for  the effective management and administration of the Centre.\n\n    - The  Director-General  shall  hold  office  on  the  terms  and  conditions  specified  in his/her  letter  of appointment.\n\n    - The Director-General may in writing, delegate a function to an officer of the Centre, except that,  such delegation  shall not  relieve  the  Director-General  of  the  ultimate responsibility for the performance of the delegated function.\n\n    - The  Director-General  shall  be  a  person  of  high  moral  character  and  integrity  with the  relevant qualifications and experience related to the functions of the Centre.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the appointment, responsibilities, and terms of office for the Director-General. This constitutes a legal provision."
+      }
     },
     {
       "id": "secretary-to-the-board",
       "index": 19,
       "title": "Secretary to the Board",
-      "rawText": "- (1) The Board shall designate an officer of the Centre not below the rank of a Deputy Director as Secretary to the Board.\n\n    - The Secretary shall;\n\n            - arrange the meetings of the Board;\n\n            - record and maintain minutes of meetings of the Board;\n\n            - record and maintain resolutions passed by the Board;\n\n            - maintain a Register of Board Members' Interest; and\n\n            - perform any other functions assigned by the Board.\n\n    - The  Secretary,  in  the  performance  of  the  functions  under  subsection  (2),  shall be accountable to the Board."
+      "rawText": "- (1) The Board shall designate an officer of the Centre not below the rank of a Deputy Director as Secretary to the Board.\n\n    - The Secretary shall;\n\n            - arrange the meetings of the Board;\n\n            - record and maintain minutes of meetings of the Board;\n\n            - record and maintain resolutions passed by the Board;\n\n            - maintain a Register of Board Members' Interest; and\n\n            - perform any other functions assigned by the Board.\n\n    - The  Secretary,  in  the  performance  of  the  functions  under  subsection  (2),  shall be accountable to the Board.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the role and responsibilities of the Secretary to the Board, which is a specific function and duty established by the bill. This falls under the category of a provision."
+      }
     },
     {
       "id": "appointment-of-other-staff",
       "index": 20,
       "title": "Appointment of other Staff",
-      "rawText": "- (1) The Centre may employ such staff as may be necessary for the proper and effective performance of its functions.\n\n    - The  Board  shall  determine  vacancies and  qualifications  of  staff  to  be  recruited  in accordance with Article  195 of the Constitution.\n\n    - The terms, conditions and scheme of service of a person employed by the  Centre shall be as approved by the Board.\n\n    - The  Centre  may,  on  the  recommendation  of  the  Board,  engage  the  services  of consultants and experts for the effective discharge  of the functions of the Centre.\n\n    - Other public officers may be transferred or seconded to the Centre or may otherwise provide assistance to the Centre."
+      "rawText": "- (1) The Centre may employ such staff as may be necessary for the proper and effective performance of its functions.\n\n    - The  Board  shall  determine  vacancies and  qualifications  of  staff  to  be  recruited  in accordance with Article  195 of the Constitution.\n\n    - The terms, conditions and scheme of service of a person employed by the  Centre shall be as approved by the Board.\n\n    - The  Centre  may,  on  the  recommendation  of  the  Board,  engage  the  services  of consultants and experts for the effective discharge  of the functions of the Centre.\n\n    - Other public officers may be transferred or seconded to the Centre or may otherwise provide assistance to the Centre.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the process of appointing staff and determining their terms of service. This falls under establishing rules and powers for the center, which is a provision."
+      }
     },
     {
       "id": "directorates-of-the-centre",
       "index": 21,
       "title": "Directorates of the Centre",
-      "rawText": "- (1) The Board may create such directorates as it may consider necessary for the efficient and effective  performance of the functions of the Centre.\n\n    - The directorates may include:\n\n              - research and innovation;\n\n              - studies;\n\n              - corporate affairs and media relations;\n\n              - consultancy; and\n\n              - finance and administration.\n\nFinancial Provisions"
+      "rawText": "- (1) The Board may create such directorates as it may consider necessary for the efficient and effective  performance of the functions of the Centre.\n\n    - The directorates may include:\n\n              - research and innovation;\n\n              - studies;\n\n              - corporate affairs and media relations;\n\n              - consultancy; and\n\n              - finance and administration.\n\nFinancial Provisions",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the power of the Board to create directorates within the Centre and lists potential directorates. This establishes a rule or power, so it's a provision."
+      }
     },
     {
       "id": "internal-audit",
       "index": 22,
       "title": "Internal Audit",
-      "rawText": "- The Centre shall have an internal audit unit in accordance with section 83 of the Public Financial Management Act, 2016 (Act 921)."
+      "rawText": "- The Centre shall have an internal audit unit in accordance with section 83 of the Public Financial Management Act, 2016 (Act 921).",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section establishes an internal audit unit, which is a legal provision."
+      }
     },
     {
       "id": "funds-of-the-centre",
       "index": 23,
       "title": "Funds of the Centre",
-      "rawText": "- (1) The funds of the Centre shall include:\n\n        - moneys approved by Parliament for the Centre;\n\n        - application fees;\n\n        - administrative penalties;\n\n        - any other internally generated funds;\n\n        - grants, donations and loans approved by the Minister responsible for Finance; and\n\n        - any other moneys approved by the Minister responsible for Finance."
+      "rawText": "- (1) The funds of the Centre shall include:\n\n        - moneys approved by Parliament for the Centre;\n\n        - application fees;\n\n        - administrative penalties;\n\n        - any other internally generated funds;\n\n        - grants, donations and loans approved by the Minister responsible for Finance; and\n\n        - any other moneys approved by the Minister responsible for Finance.",
+      "category": {
+        "type": "provision",
+        "reasoning": "This section outlines the sources of funding for the Centre, which is a provision related to the financial operations of the entity."
+      }
     },
     {
       "id": "budget-estimates",
       "index": 24,
       "title": "Budget Estimates",
-      "rawText": "- The Director-General shall prepare budget estimates for each financial year and present the estimates to the Board for its approval not later than four months prior to the end of the financial year."
+      "rawText": "- The Director-General shall prepare budget estimates for each financial year and present the estimates to the Board for its approval not later than four months prior to the end of the financial year.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Budget Estimates\" and the content describing the Director-General's responsibility to prepare and present budget estimates to the Board for approval clearly indicate a provision outlining a financial procedure."
+      }
     },
     {
       "id": "bank-account-of-the-centre",
       "index": 25,
       "title": "Bank Account of the Centre",
-      "rawText": "- The moneys for the Centre shall be paid into a bank account opened for the purpose, by the Centre with the approval of the Controller and Accountant-General."
+      "rawText": "- The moneys for the Centre shall be paid into a bank account opened for the purpose, by the Centre with the approval of the Controller and Accountant-General.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes how the Centre's funds are handled, specifically the establishment of a bank account. This is a functional rule or requirement, thus a provision."
+      }
     },
     {
       "id": "borrowing-powers-of-the-centre",
       "index": 26,
       "title": "Borrowing powers of the Centre",
-      "rawText": "- Subject to section 76 of the Public Financial Management Act, 2016, (Act 921), the Centre may obtain loans and any other credit facilities on the guarantee of the Government from a bank or any other financial institution approved by the Minister responsible for Finance."
+      "rawText": "- Subject to section 76 of the Public Financial Management Act, 2016, (Act 921), the Centre may obtain loans and any other credit facilities on the guarantee of the Government from a bank or any other financial institution approved by the Minister responsible for Finance.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the borrowing powers of the Centre, outlining the conditions under which it can obtain loans and credit facilities. This is a legal provision that establishes a power."
+      }
     },
     {
       "id": "expenses-of-the-centre",
       "index": 27,
       "title": "Expenses of the Centre",
-      "rawText": "- The expenses of the Centre shall be charged on the funds of the Centre."
+      "rawText": "- The expenses of the Centre shall be charged on the funds of the Centre.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Expenses of the Centre\" and the content describing how the expenses will be charged indicate that this section establishes a rule regarding the financial operations of the Centre. Therefore, it falls under the 'provision' category."
+      }
     },
     {
       "id": "accounts-and-audit",
       "index": 28,
       "title": "Accounts and Audit",
-      "rawText": "- (1) The Board shall keep books, records, returns and other documents relevant to the accounts in the form approved by the Auditor-General.\n\n    - The Board shall submit the accounts of the Centre to the Auditor-General for audit at the end of each financial year.\n\n    - The  Auditor-General  shall  within  six  months  after  the  end  of  the  immediately preceding financial year, audit the accounts and forward a copy of the audit report to the Minister and the Board.\n\n    - The  financial  year  of  the  Centre  shall  be  the  same  as  the  financial  year  of  the Government."
+      "rawText": "- (1) The Board shall keep books, records, returns and other documents relevant to the accounts in the form approved by the Auditor-General.\n\n    - The Board shall submit the accounts of the Centre to the Auditor-General for audit at the end of each financial year.\n\n    - The  Auditor-General  shall  within  six  months  after  the  end  of  the  immediately preceding financial year, audit the accounts and forward a copy of the audit report to the Minister and the Board.\n\n    - The  financial  year  of  the  Centre  shall  be  the  same  as  the  financial  year  of  the Government.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes how the board should keep accounts and how they should be audited. This falls under the category of establishing rules and functions, which is a provision."
+      }
     },
     {
       "id": "annual-report-and-other-reports",
       "index": 29,
       "title": "Annual Report and other Reports",
-      "rawText": "- (1) The Board shall within one month after the receipt of the audit report, submit an annual report to the Minister covering the activities and the operations of the Centre for the year to which the report relates.\n\n    - The annual report shall include the report of the Auditor-General.\n\n    - The Minister shall, within one month after the receipt of the annual report, submit the report  to  Parliament  with  a  statement  that  the  Minister  considers  necessary.  The Board shall submit to the Minister any other reports which the Minister may require in writing.\n\n## Miscellaneous Provisions"
+      "rawText": "- (1) The Board shall within one month after the receipt of the audit report, submit an annual report to the Minister covering the activities and the operations of the Centre for the year to which the report relates.\n\n    - The annual report shall include the report of the Auditor-General.\n\n    - The Minister shall, within one month after the receipt of the annual report, submit the report  to  Parliament  with  a  statement  that  the  Minister  considers  necessary.  The Board shall submit to the Minister any other reports which the Minister may require in writing.\n\n## Miscellaneous Provisions",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the requirement for the Board to submit an annual report to the Minister. This is a legal provision that establishes a reporting requirement."
+      }
     },
     {
       "id": "regulations",
       "index": 30,
       "title": "Regulations",
-      "rawText": "- (1)  The  Minister  on  the  advice  of  the  Centre  may  by  legislative  instrument  make regulations to provide for;\n\n          - forms and supporting documents for applications;\n\n          - authorizations;\n\n          - certification  of  ICT  products  and  technology  solutions  intended  for  research  and development purposes;\n\n          - dispute resolution;\n\n          - amendment of the penalties specified in Section 7; and\n\n          - any other matter necessary for the effective implementation of the provisions of this Act."
+      "rawText": "- (1)  The  Minister  on  the  advice  of  the  Centre  may  by  legislative  instrument  make regulations to provide for;\n\n          - forms and supporting documents for applications;\n\n          - authorizations;\n\n          - certification  of  ICT  products  and  technology  solutions  intended  for  research  and development purposes;\n\n          - dispute resolution;\n\n          - amendment of the penalties specified in Section 7; and\n\n          - any other matter necessary for the effective implementation of the provisions of this Act.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Regulations\" and the content preview indicate that this section deals with the power of the Minister to make regulations regarding various aspects of ICT products and technology solutions. This falls under the category of establishing rules and powers, which is a provision."
+      }
     },
     {
       "id": "transitional-provisions",
       "index": 31,
       "title": "Transitional provisions",
-      "rawText": "- (1) A person in the employment of the Centre immediately before the coming into force of  this  Act  shall,  on  the coming into force of this Act, be deemed to have been duly employed by the Centre established under this Act on terms and conditions which are not\n\n    - A  contract  subsisting  between  the  Centre  and  any  other  person  and  in  force immediately before the coming into force of this Act shall subsist between the Centre established under this Act and that other person.\n\n    - Any moneys and properties held by or on behalf of the Centre immediately before the coming into force of this Act are transferred to the Centre established under this Act.\n\n    - With effect from the coming into force of this Act, the centres, units and the limited liability entities as specified in section 12(2) are centres, units, projects and limited liability entities of the Centre established under this Act."
+      "rawText": "- (1) A person in the employment of the Centre immediately before the coming into force of  this  Act  shall,  on  the coming into force of this Act, be deemed to have been duly employed by the Centre established under this Act on terms and conditions which are not\n\n    - A  contract  subsisting  between  the  Centre  and  any  other  person  and  in  force immediately before the coming into force of this Act shall subsist between the Centre established under this Act and that other person.\n\n    - Any moneys and properties held by or on behalf of the Centre immediately before the coming into force of this Act are transferred to the Centre established under this Act.\n\n    - With effect from the coming into force of this Act, the centres, units and the limited liability entities as specified in section 12(2) are centres, units, projects and limited liability entities of the Centre established under this Act.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Transitional provisions\" suggests that the content will deal with the transition from a previous state to the new state established by the bill. The content preview confirms this, as it discusses the employment of people and contracts subsisting before the Act comes into force. This falls under the category of provisions."
+      }
     },
     {
       "id": "interpretation",
       "index": 32,
       "title": "Interpretation",
-      "rawText": "## 33. In this Act unless the context otherwise requires-\n\n' Board '  means  the  governing body of the  Kofi Annan  Research and Development Centre.\n\n' Centre '  means  the Kofi Annan Centre of Excellence in ICT.\n\n\"Development\" means  the  process  of  designing,  improving,  testing,  or  deploying  ICT  as defined,  based  systems,  platforms,  applications,  or  services,  with  the  aim  of  achieving technological,  educational,  social,  or  economic  advancement,  and  includes  activities  that support the practical application or scaling of research and innovation outcomes.\n\n'Entity of a public nature\" means any body corporate or unincorporated that meets all of the following criteria:\n\n  - (i) Public  Function:  The  entity  performs  functions  that  are  governmental,  statutory, regulatory,  or  are  otherwise  in  furtherance  of  a  public  mandate  or  public  interest objective;\n\n  - (ii) Public Control or Oversight: The entity is subject to significant control, supervision, or oversight  by  a  public  authority,  including  the  Government  of  Ghana  or  any  of  its agencies;\n\n  - (iii) Public Funding Dependency: The entity derives a substantial portion of its funding, whether directly or indirectly, from public sources or from funds administered for public purposes;\n\n  - (iv) Non-Profit Distribution Constraint: The entity does not operate primarily for profit and is restricted from distributing profits or surpluses to private individuals or shareholders;\n\n  - (v) Accountability:  The  entity  is  subject  to  public  accountability  mechanisms,  such  as statutory reporting requirements, audits by a public auditor, or obligations under public procurement or financial administration laws.\n\nAn entity shall be deemed not of a public nature if it is privately owned and operated for commercial purposes, and does not satisfy the above criteria.\n\n\"ICT\" means  information  and  communication  technology  which  refers  to  all  technologies, systems, infrastructure, software, and platforms used for the collection, processing, storage,\n\ntransmission and dissemination of digital information and electronic communications. For the purposes of this Act, ICT shall include;\n\n  - (i) digital hardware and software systems;\n\n  - (ii) information systems and digital applications, especially within government operations;\n\n  - (iii) data centres, hosting facilities, electronic and cloud-based infrastructure;\n\n  - (iv) digital innovation platforms, and emerging technologies deployed in the public sector; and\n\n  - (v) associated standards, architecture, and interoperability frameworks.\n\n' Minister' means the Minister responsible for Communication.\n\n' Ministry ' means the Ministry responsible for Communication.\n\n'Public funding' refers to any financial resources, whether in the form of grants, subsidies, investments, loans, or other financial support mechanisms,  allocated, disbursed, or administered, whether by the Government of Ghana or any other party, for the purpose of supporting  research  and  development  in  ICT,  where  the  ultimate  beneficiary  is  the Government of Ghana, any of its ministries, departments, agencies, statutory bodies, or any entity of a public nature.\n\n\"Public institutions\" refer to government-established, owned, or controlled entities that carry out administrative, regulatory, developmental, or service delivery functions on behalf of the state, excluding public academic institutions. This includes ministries, departments, agencies, statutory bodies, public authorities, and other entities created by or under an Act of Parliament to serve public sector objectives, other than education and academic research conducted by public universities or colleges.\n\n\"Research\" means  a  systematic  investigation  or  inquiry,  whether  theoretical  or  applied, conducted for the purpose of discovering new knowledge, validating existing knowledge, or generating solutions within the field of ICT, including data collection, analysis, experimentation, design, and evaluation."
+      "rawText": "## 33. In this Act unless the context otherwise requires-\n\n' Board '  means  the  governing body of the  Kofi Annan  Research and Development Centre.\n\n' Centre '  means  the Kofi Annan Centre of Excellence in ICT.\n\n\"Development\" means  the  process  of  designing,  improving,  testing,  or  deploying  ICT  as defined,  based  systems,  platforms,  applications,  or  services,  with  the  aim  of  achieving technological,  educational,  social,  or  economic  advancement,  and  includes  activities  that support the practical application or scaling of research and innovation outcomes.\n\n'Entity of a public nature\" means any body corporate or unincorporated that meets all of the following criteria:\n\n  - (i) Public  Function:  The  entity  performs  functions  that  are  governmental,  statutory, regulatory,  or  are  otherwise  in  furtherance  of  a  public  mandate  or  public  interest objective;\n\n  - (ii) Public Control or Oversight: The entity is subject to significant control, supervision, or oversight  by  a  public  authority,  including  the  Government  of  Ghana  or  any  of  its agencies;\n\n  - (iii) Public Funding Dependency: The entity derives a substantial portion of its funding, whether directly or indirectly, from public sources or from funds administered for public purposes;\n\n  - (iv) Non-Profit Distribution Constraint: The entity does not operate primarily for profit and is restricted from distributing profits or surpluses to private individuals or shareholders;\n\n  - (v) Accountability:  The  entity  is  subject  to  public  accountability  mechanisms,  such  as statutory reporting requirements, audits by a public auditor, or obligations under public procurement or financial administration laws.\n\nAn entity shall be deemed not of a public nature if it is privately owned and operated for commercial purposes, and does not satisfy the above criteria.\n\n\"ICT\" means  information  and  communication  technology  which  refers  to  all  technologies, systems, infrastructure, software, and platforms used for the collection, processing, storage,\n\ntransmission and dissemination of digital information and electronic communications. For the purposes of this Act, ICT shall include;\n\n  - (i) digital hardware and software systems;\n\n  - (ii) information systems and digital applications, especially within government operations;\n\n  - (iii) data centres, hosting facilities, electronic and cloud-based infrastructure;\n\n  - (iv) digital innovation platforms, and emerging technologies deployed in the public sector; and\n\n  - (v) associated standards, architecture, and interoperability frameworks.\n\n' Minister' means the Minister responsible for Communication.\n\n' Ministry ' means the Ministry responsible for Communication.\n\n'Public funding' refers to any financial resources, whether in the form of grants, subsidies, investments, loans, or other financial support mechanisms,  allocated, disbursed, or administered, whether by the Government of Ghana or any other party, for the purpose of supporting  research  and  development  in  ICT,  where  the  ultimate  beneficiary  is  the Government of Ghana, any of its ministries, departments, agencies, statutory bodies, or any entity of a public nature.\n\n\"Public institutions\" refer to government-established, owned, or controlled entities that carry out administrative, regulatory, developmental, or service delivery functions on behalf of the state, excluding public academic institutions. This includes ministries, departments, agencies, statutory bodies, public authorities, and other entities created by or under an Act of Parliament to serve public sector objectives, other than education and academic research conducted by public universities or colleges.\n\n\"Research\" means  a  systematic  investigation  or  inquiry,  whether  theoretical  or  applied, conducted for the purpose of discovering new knowledge, validating existing knowledge, or generating solutions within the field of ICT, including data collection, analysis, experimentation, design, and evaluation.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section defines terms used in the Act. This falls under the category of provisions as it establishes the meaning of specific words within the legal text."
+      }
     }
   ]
 }

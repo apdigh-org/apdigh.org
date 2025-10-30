@@ -277,13 +277,24 @@ def extract_provisions(doc_dict: dict) -> list:
     return provisions
 
 
-def create_bill_json(docling_json_path: str):
+def create_bill_json(docling_json_path: str, force: bool = False):
     """Create bill JSON from Docling JSON."""
     docling_path = Path(docling_json_path)
 
     if not docling_path.exists():
         print(f"Error: File not found: {docling_json_path}")
         sys.exit(1)
+
+    # Check if output already exists
+    base_name = docling_path.stem.replace('.docling', '')
+    output_path = docling_path.parent / f"{base_name}.json"
+
+    if output_path.exists() and not force:
+        print(f"✓ Output already exists: {output_path}")
+        print(f"  Skipping section extraction (use --force to reprocess)")
+        print(f"\nNext step:")
+        print(f"  python scripts/3_categorize_sections.py {output_path}")
+        return
 
     # Load Docling JSON
     with open(docling_path, 'r', encoding='utf-8') as f:
@@ -310,8 +321,6 @@ def create_bill_json(docling_json_path: str):
         print()
 
     # Create bill JSON structure
-    # Remove .docling suffix - keep original filename casing for output
-    base_name = docling_path.stem.replace('.docling', '')
     # Use slugified version only for internal bill ID
     bill_id = slugify(base_name)
 
@@ -338,8 +347,7 @@ def create_bill_json(docling_json_path: str):
         "sections": bill_provisions
     }
 
-    # Write output
-    output_path = docling_path.parent / f"{base_name}.json"
+    # Write output (output_path already defined at top of function)
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(bill_data, f, indent=2, ensure_ascii=False)
 
@@ -351,7 +359,11 @@ def create_bill_json(docling_json_path: str):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print("Usage: python 2_docling_to_json.py <docling-json-path>")
+        print("Usage: python 2_docling_to_json.py <docling-json-path> [--force]")
+        print("\nExample:")
+        print("  python 2_docling_to_json.py output/bill.docling.json")
+        print("  python 2_docling_to_json.py output/bill.docling.json --force  # Force reprocessing")
         sys.exit(1)
 
-    create_bill_json(sys.argv[1])
+    force = '--force' in sys.argv or '-f' in sys.argv
+    create_bill_json(sys.argv[1], force=force)

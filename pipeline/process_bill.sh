@@ -77,7 +77,7 @@ echo "         $JSON_OUTPUT"
 echo
 
 # Step 1: PDF to Text
-echo -e "${YELLOW}Step 1/2: Converting PDF to structured text...${NC}"
+echo -e "${YELLOW}Step 1/3: Converting PDF to structured text...${NC}"
 python scripts/1_pdf_to_text.py "$PDF_PATH" $FORCE_FLAG
 
 if [ $? -ne 0 ]; then
@@ -90,11 +90,24 @@ echo -e "${GREEN}✓ PDF conversion complete${NC}"
 echo
 
 # Step 2: Docling JSON to Bill JSON
-echo -e "${YELLOW}Step 2/2: Generating bill JSON template...${NC}"
-python scripts/2_docling_to_json.py "$DOCLING_JSON"
+echo -e "${YELLOW}Step 2/3: Extracting bill sections...${NC}"
+python scripts/2_docling_to_json.py "$DOCLING_JSON" $FORCE_FLAG
 
 if [ $? -ne 0 ]; then
-    echo -e "${RED}Error in JSON generation${NC}"
+    echo -e "${RED}Error in section extraction${NC}"
+    exit 1
+fi
+
+echo
+echo -e "${GREEN}✓ Section extraction complete${NC}"
+echo
+
+# Step 3: Categorize sections with LLM
+echo -e "${YELLOW}Step 3/3: Categorizing sections with LLM...${NC}"
+python scripts/3_categorize_sections.py "$JSON_OUTPUT" $FORCE_FLAG
+
+if [ $? -ne 0 ]; then
+    echo -e "${RED}Error in categorization${NC}"
     exit 1
 fi
 
@@ -106,14 +119,5 @@ echo
 echo "Generated files in output/ directory:"
 echo "  📄 Markdown:     $MARKDOWN_OUTPUT"
 echo "  📊 Docling JSON: $DOCLING_JSON"
-echo "  📦 Bill JSON:    $JSON_OUTPUT"
-echo
-echo -e "${YELLOW}Next steps:${NC}"
-echo "  1. Review the markdown and Docling JSON for accuracy"
-echo "  2. Edit the bill JSON file: $JSON_OUTPUT"
-echo "     - Fill in TODO items (impacts, concerns, plain language explanations)"
-echo "     - Set accurate deadline and submission method"
-echo "     - Review and adjust auto-extracted provisions"
-echo "  3. When complete, copy JSON to: ../src/data/bills/"
-echo "  4. Rebuild the website: cd .. && npm run build"
+echo "  📦 Bill JSON:    $JSON_OUTPUT (categorized)"
 echo

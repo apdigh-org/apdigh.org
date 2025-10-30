@@ -4,283 +4,471 @@
       "id": "application-and-objects",
       "index": 1,
       "title": "Application and objects",
-      "rawText": "- (1) This Act applies to:\n\n          - (a) the Ghana Domain Name Registry;\n\n          - (b) registrars licensed by the Registry; and\n\n          - (c) registrants of .gh domain names.\n\n        - The object of this Act is to:\n\n          - (a) establish the Ghana Domain Name Registry;\n\n          - (b) provide for the regulation of the .gh domain name space;\n\n          - (c) establish the Domain Name Registry Fund;\n\n          - (d) mandate the use of the .gh domain name for entities in the Republic; and\n\n          - (e) provide for ancillary matters.\n\n## Domain Name Registry"
+      "rawText": "- (1) This Act applies to:\n\n          - (a) the Ghana Domain Name Registry;\n\n          - (b) registrars licensed by the Registry; and\n\n          - (c) registrants of .gh domain names.\n\n        - The object of this Act is to:\n\n          - (a) establish the Ghana Domain Name Registry;\n\n          - (b) provide for the regulation of the .gh domain name space;\n\n          - (c) establish the Domain Name Registry Fund;\n\n          - (d) mandate the use of the .gh domain name for entities in the Republic; and\n\n          - (e) provide for ancillary matters.\n\n## Domain Name Registry",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the application of the act to specific entities and outlines the object of the act, which are provisions."
+      }
     },
     {
       "id": "establishment-of-the-domain-name-registry",
       "index": 2,
       "title": "Establishment of the Domain Name Registry",
-      "rawText": "- (1) There is established by this Act the Ghana Domain Name Registry.\n\n    - The Registry is a body corporate with perpetual succession and a common seal and may sue and be sued in its corporate name.\n\n    - The Registry is a non-profit making entity."
+      "rawText": "- (1) There is established by this Act the Ghana Domain Name Registry.\n\n    - The Registry is a body corporate with perpetual succession and a common seal and may sue and be sued in its corporate name.\n\n    - The Registry is a non-profit making entity.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the establishment of a Domain Name Registry, its legal status, and its nature as a non-profit entity. This clearly establishes a new entity and defines its characteristics, which falls under the category of a provision."
+      }
     },
     {
       "id": "duties-of-the-registry",
       "index": 3,
       "title": "Duties of the Registry",
-      "rawText": "- (1) The Registry shall enhance public awareness on the economic and commercial benefits of domain name registration.\n\n    - The Registry:\n\n          - (a) may  conduct  investigations  related  to  its  functions  that  it  considers necessary;\n\n          - (b) shall  conduct  research  into  and  keep  abreast  with  developments  in  the country and elsewhere on the domain name system;\n\n          - (c) shall continually survey and evaluate the extent to which the .gh domain name space meets the needs of the citizens;\n\n          - (d) may issue information on the registration of domain names in the country;\n\n          - (e) shall conduct biennial audits on all licensed registrars; and\n\n    - The Registry shall continually evaluate the effectiveness of this Act and action taken towards the management of the .gh domain name space.\n\n    - The Registry may:\n\n          - (a) liaise, consult and co-operate with any person or other Registry; and\n\n          - (b) appoint experts and other consultants on conditions that the Registry may determine."
+      "rawText": "- (1) The Registry shall enhance public awareness on the economic and commercial benefits of domain name registration.\n\n    - The Registry:\n\n          - (a) may  conduct  investigations  related  to  its  functions  that  it  considers necessary;\n\n          - (b) shall  conduct  research  into  and  keep  abreast  with  developments  in  the country and elsewhere on the domain name system;\n\n          - (c) shall continually survey and evaluate the extent to which the .gh domain name space meets the needs of the citizens;\n\n          - (d) may issue information on the registration of domain names in the country;\n\n          - (e) shall conduct biennial audits on all licensed registrars; and\n\n    - The Registry shall continually evaluate the effectiveness of this Act and action taken towards the management of the .gh domain name space.\n\n    - The Registry may:\n\n          - (a) liaise, consult and co-operate with any person or other Registry; and\n\n          - (b) appoint experts and other consultants on conditions that the Registry may determine.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section outlines the responsibilities and functions of the Registry, which are legal provisions. Therefore, it falls under the 'provision' category."
+      }
     },
     {
       "id": "functions-of-the-registry",
       "index": 4,
       "title": "Functions of the Registry",
-      "rawText": "- (1) The Registry is responsible for the .gh domain name space and shall:\n\n          - (a) be  the  only  domain name  Registry and  operate  the  only  registry  of  .gh domain names;\n\n          - (b) administer and manage the .gh domain name space;\n\n          - (c) comply  with  international  best  practice  in  the  administration  of  the  .gh domain name space;\n\n          - (d) update  and  maintain  the  central  registry  and  perform  any  function necessary to ensure the proper functioning of the .gh domain name space;\n\n          - (e) implement Domain Name System Security Extensions for all .gh domain names;\n\n          - (f) license and regulate registrars;\n\n          - (g) provide  secure  email  hosting  services  with  end-to-end  encryption  for metropolitan,  municipal  and  district  assemblies,  government  ministries, agencies and departments, and security agencies;\n\n          - (h) publish guidelines on:\n\n- (i) the  general  administration  and  management  of  the  .gh  domain name space;\n\n- (ii)  web standards for metropolitan, municipal and district assemblies, government  ministries,  agencies  and  departments,  and  security agencies;\n\n- (iii) the requirements and procedures for domain name registration; and\n\n- (iv) the maintenance of and public access to the repository, with due regard to the policy directives which the Minister may give from time to time; and\n\n          - (i) audit metropolitan, municipal and district assemblies, government ministries',  agencies',  and  departments',  and  security  agencies'  web applications at a prescribed fee.\n\n    - After the assumption of responsibility for the .gh domain space, a person shall not do anything or operate the .gh domain name or any domain name associated with the country except as provided under this Act.\n\n## Governance of the Registry"
+      "rawText": "- (1) The Registry is responsible for the .gh domain name space and shall:\n\n          - (a) be  the  only  domain name  Registry and  operate  the  only  registry  of  .gh domain names;\n\n          - (b) administer and manage the .gh domain name space;\n\n          - (c) comply  with  international  best  practice  in  the  administration  of  the  .gh domain name space;\n\n          - (d) update  and  maintain  the  central  registry  and  perform  any  function necessary to ensure the proper functioning of the .gh domain name space;\n\n          - (e) implement Domain Name System Security Extensions for all .gh domain names;\n\n          - (f) license and regulate registrars;\n\n          - (g) provide  secure  email  hosting  services  with  end-to-end  encryption  for metropolitan,  municipal  and  district  assemblies,  government  ministries, agencies and departments, and security agencies;\n\n          - (h) publish guidelines on:\n\n- (i) the  general  administration  and  management  of  the  .gh  domain name space;\n\n- (ii)  web standards for metropolitan, municipal and district assemblies, government  ministries,  agencies  and  departments,  and  security agencies;\n\n- (iii) the requirements and procedures for domain name registration; and\n\n- (iv) the maintenance of and public access to the repository, with due regard to the policy directives which the Minister may give from time to time; and\n\n          - (i) audit metropolitan, municipal and district assemblies, government ministries',  agencies',  and  departments',  and  security  agencies'  web applications at a prescribed fee.\n\n    - After the assumption of responsibility for the .gh domain space, a person shall not do anything or operate the .gh domain name or any domain name associated with the country except as provided under this Act.\n\n## Governance of the Registry",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the responsibilities and functions of the Registry, which is a legal provision."
+      }
     },
     {
       "id": "governing-body-of-the-registry",
       "index": 5,
       "title": "Governing Body of the Registry",
-      "rawText": "- (1) The governing body of the Registry is a Board consisting of:\n\n          - (a) the Executive Director of the Registry;\n\n          - (b) two persons nominated by the Minister, one of whom shall be nominated from one of the agencies of the Ministry;\n\n          - (c) one person nominated by the Minister responsible for the Interior from the law enforcement agencies;\n\n          - (d) one person nominated by the internet technical community;\n\n          - (e) one person nominated by the public universities;\n\n          - (f) one person nominated by the private universities;\n\n          - (g) one  legal  expert  with  at  least  seven  years'  experience  in  intellectual property law and cyber law; and\n\n          - (h) one person nominated by licensed local registrars.\n\n    - The members of the Board shall be appointed by the President in accordance with article 70 of the Constitution.\n\n    - The President shall appoint one of the members to be the chairperson.\n\n    - The Board shall ensure the proper and effective performance of the functions of the Registry.\n\n    - Notwithstanding  any  other  provision  in  this  section,  the  composition  of  the governing board shall include not less than three (3) women as members."
+      "rawText": "- (1) The governing body of the Registry is a Board consisting of:\n\n          - (a) the Executive Director of the Registry;\n\n          - (b) two persons nominated by the Minister, one of whom shall be nominated from one of the agencies of the Ministry;\n\n          - (c) one person nominated by the Minister responsible for the Interior from the law enforcement agencies;\n\n          - (d) one person nominated by the internet technical community;\n\n          - (e) one person nominated by the public universities;\n\n          - (f) one person nominated by the private universities;\n\n          - (g) one  legal  expert  with  at  least  seven  years'  experience  in  intellectual property law and cyber law; and\n\n          - (h) one person nominated by licensed local registrars.\n\n    - The members of the Board shall be appointed by the President in accordance with article 70 of the Constitution.\n\n    - The President shall appoint one of the members to be the chairperson.\n\n    - The Board shall ensure the proper and effective performance of the functions of the Registry.\n\n    - Notwithstanding  any  other  provision  in  this  section,  the  composition  of  the governing board shall include not less than three (3) women as members.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the composition of the governing body of the registry. This is a provision that establishes the structure and membership of a board, which falls under the category of a provision."
+      }
     },
     {
       "id": "tenure-of-office-of-board-members",
       "index": 6,
       "title": "Tenure of office of Board members",
-      "rawText": "- (1) A member of the Board shall hold office for a period not exceeding four years and is eligible for reappointment, but a member shall not be appointed for more than two terms in succession.\n\n    - Where a member of the Board, resigns, dies, is removed from office or is for a reasonable cause unable to act as a member, the Minister shall notify the President of  the  vacancy  and  the  President  shall,  acting  on  the  advice  of  the  nominating authority and in consultation with the Council  of State appoint another person to hold office for the unexpired portion of the member's term of office.\n\n    - A member of the Board, who is absent from three consecutive meetings of the Board without reasonable cause ceases to be a member of the Board.\n\n    - A member of the Board, may at any time resign from office in writing addressed to the President through the Minister."
+      "rawText": "- (1) A member of the Board shall hold office for a period not exceeding four years and is eligible for reappointment, but a member shall not be appointed for more than two terms in succession.\n\n    - Where a member of the Board, resigns, dies, is removed from office or is for a reasonable cause unable to act as a member, the Minister shall notify the President of  the  vacancy  and  the  President  shall,  acting  on  the  advice  of  the  nominating authority and in consultation with the Council  of State appoint another person to hold office for the unexpired portion of the member's term of office.\n\n    - A member of the Board, who is absent from three consecutive meetings of the Board without reasonable cause ceases to be a member of the Board.\n\n    - A member of the Board, may at any time resign from office in writing addressed to the President through the Minister.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the term length and eligibility for reappointment of board members. This is a rule or condition, so it's a provision."
+      }
     },
     {
       "id": "meetings-of-the-board",
       "index": 7,
       "title": "Meetings of the Board",
-      "rawText": "- (1) The Board shall meet at least once every three months for the despatch of business at the times and in the places determined by the chairperson.\n\n    - The  chairperson shall at the request in writing of not less than one-third of the membership of the Board convene an extraordinary meeting of the Board at the place and time determined by the chairperson.\n\n    - The quorum at a meeting of the Board shall be two thirds of members of the Board or a greater number determined by the Board in respect of specific matters.\n\n    - The chairperson shall preside at meetings of the Board and in the absence of the chairperson a member of the Board elected by the members present from among their number shall preside.\n\n    - Matters before the Board shall be decided by a majority of the members present and voting and in the event of an equality of votes, the person presiding shall have a casting vote.\n\n    - The Board may co-opt a person to attend a Board meeting, but that person shall not vote on a matter for decision at the meeting.\n\n    - The proceedings of the Board shall not be invalidated because of a vacancy among the members or a defect in the appointment or qualification of a member.\n\n    - Subject to this section, the Board may determine the procedure for its meetings."
+      "rawText": "- (1) The Board shall meet at least once every three months for the despatch of business at the times and in the places determined by the chairperson.\n\n    - The  chairperson shall at the request in writing of not less than one-third of the membership of the Board convene an extraordinary meeting of the Board at the place and time determined by the chairperson.\n\n    - The quorum at a meeting of the Board shall be two thirds of members of the Board or a greater number determined by the Board in respect of specific matters.\n\n    - The chairperson shall preside at meetings of the Board and in the absence of the chairperson a member of the Board elected by the members present from among their number shall preside.\n\n    - Matters before the Board shall be decided by a majority of the members present and voting and in the event of an equality of votes, the person presiding shall have a casting vote.\n\n    - The Board may co-opt a person to attend a Board meeting, but that person shall not vote on a matter for decision at the meeting.\n\n    - The proceedings of the Board shall not be invalidated because of a vacancy among the members or a defect in the appointment or qualification of a member.\n\n    - Subject to this section, the Board may determine the procedure for its meetings.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes how the board should conduct meetings, including frequency, location, and quorum. This falls under establishing rules and procedures for the board's operation, which is a provision."
+      }
     },
     {
       "id": "disclosure-of-interest",
       "index": 8,
       "title": "Disclosure of interest",
-      "rawText": "- (1) A member of the Board who has an interest in a matter for consideration by the Board  shall  disclose  in  writing  the  nature  of  that  interest  and  is  disqualified  from participating in the deliberations of the Board in respect of that matter.\n\n    - A member who contravenes subsection (1) ceases to be a member."
+      "rawText": "- (1) A member of the Board who has an interest in a matter for consideration by the Board  shall  disclose  in  writing  the  nature  of  that  interest  and  is  disqualified  from participating in the deliberations of the Board in respect of that matter.\n\n    - A member who contravenes subsection (1) ceases to be a member.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the rules and consequences for a board member having a conflict of interest. This establishes a rule of conduct and a consequence for violating it."
+      }
     },
     {
       "id": "establishment-of-committees",
       "index": 9,
       "title": "Establishment of committees",
-      "rawText": "- (1) The Board may appoint committees consisting of members of the Board or nonmembers or both to perform a function.\n\n    - The membership of a committee appointed under this section and the tenure of office of its members shall be coterminous with the duration of their membership of the Board.\n\n    - Non-members shall hold office for a period not exceeding four years and may be eligible for re-appointment but shall not be appointed for more than two successive terms."
+      "rawText": "- (1) The Board may appoint committees consisting of members of the Board or nonmembers or both to perform a function.\n\n    - The membership of a committee appointed under this section and the tenure of office of its members shall be coterminous with the duration of their membership of the Board.\n\n    - Non-members shall hold office for a period not exceeding four years and may be eligible for re-appointment but shall not be appointed for more than two successive terms.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the establishment of committees and their composition, which falls under the category of establishing rules and powers. Therefore, it is a provision."
+      }
     },
     {
       "id": "allowances",
       "index": 10,
       "title": "Allowances",
-      "rawText": "- Members  of  the  Board  and  members  of  a  committee  of  the  Board  shall  be  paid allowances approved by the Minister in consultation with the Minister responsible for Finance."
+      "rawText": "- Members  of  the  Board  and  members  of  a  committee  of  the  Board  shall  be  paid allowances approved by the Minister in consultation with the Minister responsible for Finance.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the payment of allowances to board members, which establishes a rule regarding financial compensation. This falls under the category of a legal provision."
+      }
     },
     {
       "id": "policy-directives",
       "index": 11,
       "title": "Policy Directives",
-      "rawText": "- The Minister may, from time to time, publish policy directives relating to the regulation and maintenance of the .gh domain name space."
+      "rawText": "- The Minister may, from time to time, publish policy directives relating to the regulation and maintenance of the .gh domain name space.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Policy Directives\" and the content preview suggest that this section deals with the power of the Minister to publish policy directives. This falls under the category of establishing rules and powers, which is a provision."
+      }
     },
     {
       "id": "the-executive-director",
       "index": 12,
       "title": "The Executive Director",
-      "rawText": "- (1) The President shall, in accordance with article 195 of the Constitution, appoint an Executive Director for the Registry.\n\n    - The Executive Director shall hold office on the terms and conditions specified in the letter of appointment."
+      "rawText": "- (1) The President shall, in accordance with article 195 of the Constitution, appoint an Executive Director for the Registry.\n\n    - The Executive Director shall hold office on the terms and conditions specified in the letter of appointment.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the appointment and terms of office of the Executive Director. This establishes a rule or function, so it is a provision."
+      }
     },
     {
       "id": "functions-of-the-executive-director",
       "index": 13,
       "title": "Functions of the Executive Director",
-      "rawText": "- (1) The Executive Director is responsible for the day-to-day administration of the affairs of the Registry and is answerable to the Board in the performance of functions under this Act.\n\n    - The Executive Director shall perform any other functions determined by the Board.\n\n    - The Executive Director may delegate a function to an officer of the Registry but shall  not  be  relieved from  the  ultimate  responsibility  for  the performance  of  the delegated function."
+      "rawText": "- (1) The Executive Director is responsible for the day-to-day administration of the affairs of the Registry and is answerable to the Board in the performance of functions under this Act.\n\n    - The Executive Director shall perform any other functions determined by the Board.\n\n    - The Executive Director may delegate a function to an officer of the Registry but shall  not  be  relieved from  the  ultimate  responsibility  for  the performance  of  the delegated function.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the responsibilities and functions of the Executive Director, which are operational aspects of the Registry. This falls under establishing rules and functions, thus it's a provision."
+      }
     },
     {
       "id": "duties-and-liability-of-the-board",
       "index": 14,
       "title": "Duties and liability of the Board",
-      "rawText": "- (1) The duties of directors contained in Part Q of Chapter two of the Companies Act, 2019 (Act 992) shall apply to members of the Board.\n\n    - A member of the Board is not personally liable for damage or injury to a third party that arises in the execution of an official duty of that member, if the member at all material times acted in good faith."
+      "rawText": "- (1) The duties of directors contained in Part Q of Chapter two of the Companies Act, 2019 (Act 992) shall apply to members of the Board.\n\n    - A member of the Board is not personally liable for damage or injury to a third party that arises in the execution of an official duty of that member, if the member at all material times acted in good faith.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the duties and liabilities of the board, which are legal provisions. Therefore, it falls under the 'provision' category."
+      }
     },
     {
       "id": "appointment-of-other-staff",
       "index": 15,
       "title": "Appointment of other staff",
-      "rawText": "- (1) The Board shall in consultation with the Public Services Commissions appoint other staff of the Registry that are necessary for the proper and effective performance of its functions.\n\n    - Other  public  officers  may  be  transferred  or  seconded  to  the  Registry  or  may otherwise give assistance to it."
+      "rawText": "- (1) The Board shall in consultation with the Public Services Commissions appoint other staff of the Registry that are necessary for the proper and effective performance of its functions.\n\n    - Other  public  officers  may  be  transferred  or  seconded  to  the  Registry  or  may otherwise give assistance to it.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the process for appointing staff to the Registry. This is a legal provision that establishes a power or function."
+      }
     },
     {
       "id": "operation-as-a-registrar",
       "index": 16,
       "title": "Operation as a registrar",
-      "rawText": "- (1) A person shall not act as a registrar unless licensed to do so by the Registry.\n\n        - A person who contravenes subsection (1) commits an offence and is liable upon summary conviction:\n\n          - (a) in the case of a body corporate or other body of persons, to a fine of not less than two thousand penalty units and not more than seven thousand penalty units;\n\n          - (b) in the case of a director of a body corporate or other body of persons, to a fine of not less than one thousand penalty units and not more than five thousand penalty units; and\n\n          - (c) in the case of an individual, to a fine of not less than one thousand penalty units and not more than three thousand penalty units.\n\n        - A person who is convicted of an offence under subsection (2) shall immediately cease operation as a registrar."
+      "rawText": "- (1) A person shall not act as a registrar unless licensed to do so by the Registry.\n\n        - A person who contravenes subsection (1) commits an offence and is liable upon summary conviction:\n\n          - (a) in the case of a body corporate or other body of persons, to a fine of not less than two thousand penalty units and not more than seven thousand penalty units;\n\n          - (b) in the case of a director of a body corporate or other body of persons, to a fine of not less than one thousand penalty units and not more than five thousand penalty units; and\n\n          - (c) in the case of an individual, to a fine of not less than one thousand penalty units and not more than three thousand penalty units.\n\n        - A person who is convicted of an offence under subsection (2) shall immediately cease operation as a registrar.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Operation as a registrar\" and the content preview describing licensing requirements and penalties for contravention clearly indicate that this section establishes rules and regulations for registrars. Therefore, it falls under the 'provision' category."
+      }
     },
     {
       "id": "application-for-a-registrar-licence",
       "index": 17,
       "title": "Application for a registrar licence",
-      "rawText": "- (1) An application to be licensed as a registrar shall be made in the prescribed manner and subject to the prescribed fees.\n\n    - The Registry may, within sixty days following the receipt of a complete application, grant or refuse the application.\n\n    - The Registry may, where it grants the licence, impose terms and conditions where the Registry deems it appropriate.\n\n    - The Registry may refuse an application where:\n\n          - (a) the application is incomplete;\n\n          - (b) the application contains false or misleading information;\n\n          - (c) the application does not meet the technical requirements prescribed by the Registry; or\n\n          - (d) the Registry is convinced upon reasonable grounds that the applicant is incapable of performing the functions of a registrar.\n\n    - An  applicant  whose  application  is  refused  may  resubmit  the  application  if  the deficiencies which formed the basis of the refusal of the initial application have been rectified.\n\n    - A licence granted under this Act shall be renewed as prescribed by the Registry."
+      "rawText": "- (1) An application to be licensed as a registrar shall be made in the prescribed manner and subject to the prescribed fees.\n\n    - The Registry may, within sixty days following the receipt of a complete application, grant or refuse the application.\n\n    - The Registry may, where it grants the licence, impose terms and conditions where the Registry deems it appropriate.\n\n    - The Registry may refuse an application where:\n\n          - (a) the application is incomplete;\n\n          - (b) the application contains false or misleading information;\n\n          - (c) the application does not meet the technical requirements prescribed by the Registry; or\n\n          - (d) the Registry is convinced upon reasonable grounds that the applicant is incapable of performing the functions of a registrar.\n\n    - An  applicant  whose  application  is  refused  may  resubmit  the  application  if  the deficiencies which formed the basis of the refusal of the initial application have been rectified.\n\n    - A licence granted under this Act shall be renewed as prescribed by the Registry.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the process of applying for a registrar license, including fees, approval timelines, and conditions. This falls under establishing rules and procedures, which is a provision."
+      }
     },
     {
       "id": "creation-of-one-central-registry",
       "index": 18,
       "title": "Creation of one central registry",
-      "rawText": "- (1) There shall be only one central registry of all .gh domain names registered in the Republic.\n\n    - The Registry shall have the sole responsibility to keep and maintain the central registry.\n\n    - No person shall maintain or update a repository, or administer a country domain name other than the Registry.\n\n    - A person who contravenes subsection (3) commits an offence and is liable upon summary conviction:\n\n          - (a) in the case of a body corporate or other body of persons, to a fine of not less  than  five  thousand  penalty  units  and  not  more  than  ten  thousand penalty units;\n\n          - (b) in the case of a director of a body corporate or other body of persons, to a fine of not less than one thousand penalty units and not more than three thousand penalty units; and\n\n          - (c) in the case of an individual, to a fine of not less than one thousand penalty units and not more than five thousand penalty units.\n\n    - The  Registry  shall  keep  and  maintain  a  register  of  registrars  in  which  shall  be recorded of the registrar:\n\n          - (a) the name;\n\n          - (b) the registration number;\n\n          - (c) the country of incorporation;\n\n          - (d) the address; and\n\n          - (e) any other information that the Registry shall prescribe.\n\n      - The  Registry  shall  publish  details  in  the  register of  registrars on  the  Registry's website and any other media which the Registry deems fit."
+      "rawText": "- (1) There shall be only one central registry of all .gh domain names registered in the Republic.\n\n    - The Registry shall have the sole responsibility to keep and maintain the central registry.\n\n    - No person shall maintain or update a repository, or administer a country domain name other than the Registry.\n\n    - A person who contravenes subsection (3) commits an offence and is liable upon summary conviction:\n\n          - (a) in the case of a body corporate or other body of persons, to a fine of not less  than  five  thousand  penalty  units  and  not  more  than  ten  thousand penalty units;\n\n          - (b) in the case of a director of a body corporate or other body of persons, to a fine of not less than one thousand penalty units and not more than three thousand penalty units; and\n\n          - (c) in the case of an individual, to a fine of not less than one thousand penalty units and not more than five thousand penalty units.\n\n    - The  Registry  shall  keep  and  maintain  a  register  of  registrars  in  which  shall  be recorded of the registrar:\n\n          - (a) the name;\n\n          - (b) the registration number;\n\n          - (c) the country of incorporation;\n\n          - (d) the address; and\n\n          - (e) any other information that the Registry shall prescribe.\n\n      - The  Registry  shall  publish  details  in  the  register of  registrars on  the  Registry's website and any other media which the Registry deems fit.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Creation of one central registry\" and the content preview describe the establishment and responsibilities of a central registry for domain names. This clearly establishes a rule and function, making it a provision."
+      }
     },
     {
       "id": "suspension-and-revocation-of-licences",
       "index": 19,
       "title": "Suspension and revocation of licences",
-      "rawText": "- (1) The Registry may revoke or suspend a licence issued under this section where the registrar:\n\n          - (a) engages in misconduct which harms consumers or the public interest;\n\n          - (b) is held liable for abuse;\n\n          - (c) fails to meet the ongoing requirements prescribed by the Minister; or\n\n          - (d) contravenes any orders, guidelines or directives issued by the Registry or the Minister.\n\n      - Subsection (1) does not limit the power of the Registry to take any other remedial or penal action against a registrar.\n\n## Security Operations Centre"
+      "rawText": "- (1) The Registry may revoke or suspend a licence issued under this section where the registrar:\n\n          - (a) engages in misconduct which harms consumers or the public interest;\n\n          - (b) is held liable for abuse;\n\n          - (c) fails to meet the ongoing requirements prescribed by the Minister; or\n\n          - (d) contravenes any orders, guidelines or directives issued by the Registry or the Minister.\n\n      - Subsection (1) does not limit the power of the Registry to take any other remedial or penal action against a registrar.\n\n## Security Operations Centre",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the conditions under which a license can be suspended or revoked. This is a legal provision that establishes rules and powers."
+      }
     },
     {
       "id": "domain-name-system-dns-security-operations-centre",
       "index": 20,
       "title": "Domain Name System (DNS) Security Operations Centre",
-      "rawText": "- (1) The Registry shall establish and maintain a mandatory DNS Security Operations Centre which shall monitor .gh domain resolutions, traffic, and logs using automated, manual, or hybrid methods as appropriate, to detect threats and attacks.\n\n    - The  DNS  Security  Operations  Centre  shall  be  responsible  for  initiating  and coordinating appropriate response actions, including but not limited to containment, notification of affected parties, mitigation of threats, and post-incident analysis.\n\n    - All metropolitan, municipal  and  district  assemblies',  government  ministries', agencies'  and  departments',  and  security  agencies'  domain  names  shall  be integrated into the DNS Security Operations Centre.\n\n    - The DNS Security Operations Centre shall publish quarterly and yearly reports on the threats detected in the domain name system.\n\n## Mandatory use of .gh domain"
+      "rawText": "- (1) The Registry shall establish and maintain a mandatory DNS Security Operations Centre which shall monitor .gh domain resolutions, traffic, and logs using automated, manual, or hybrid methods as appropriate, to detect threats and attacks.\n\n    - The  DNS  Security  Operations  Centre  shall  be  responsible  for  initiating  and coordinating appropriate response actions, including but not limited to containment, notification of affected parties, mitigation of threats, and post-incident analysis.\n\n    - All metropolitan, municipal  and  district  assemblies',  government  ministries', agencies'  and  departments',  and  security  agencies'  domain  names  shall  be integrated into the DNS Security Operations Centre.\n\n    - The DNS Security Operations Centre shall publish quarterly and yearly reports on the threats detected in the domain name system.\n\n## Mandatory use of .gh domain",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the establishment and maintenance of a DNS Security Operations Centre and its responsibilities. This falls under the category of establishing rules and functions, which is a provision."
+      }
     },
     {
       "id": "mandatory-registration",
       "index": 21,
       "title": "Mandatory registration",
-      "rawText": "- (1) All entities legally registered or operating in the Republic shall be required to:\n\n          - (a) register and maintain an active .gh domain name for any official website or digital platform intended for public access; and\n\n          - (b) use  the  .gh  domain  name  for  all  official  digital  correspondence  and transactions conducted within or from the Republic.\n\n    - Entities currently not using .gh domains shall transition to a .gh domain within six months of the coming into force of this Act to comply with subsection (1)."
+      "rawText": "- (1) All entities legally registered or operating in the Republic shall be required to:\n\n          - (a) register and maintain an active .gh domain name for any official website or digital platform intended for public access; and\n\n          - (b) use  the  .gh  domain  name  for  all  official  digital  correspondence  and transactions conducted within or from the Republic.\n\n    - Entities currently not using .gh domains shall transition to a .gh domain within six months of the coming into force of this Act to comply with subsection (1).",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes a requirement for entities to register and use .gh domain names. This is a legal provision establishing a rule."
+      }
     },
     {
       "id": "exemptions",
       "index": 22,
       "title": "Exemptions",
-      "rawText": "- (1) Notwithstanding section 20(1), the Registry in consultation with the Minister may grant an exemption to an entity if:\n\n          - (a) its digital presence is hosted exclusively outside the Republic and does not target Ghanaian users; and\n\n          - (b) it  operates  as  a  multinational  organisation  subject  to  foreign  digital jurisdiction.\n\n        - Any exemption granted under subsection (1) shall be:"
+      "rawText": "- (1) Notwithstanding section 20(1), the Registry in consultation with the Minister may grant an exemption to an entity if:\n\n          - (a) its digital presence is hosted exclusively outside the Republic and does not target Ghanaian users; and\n\n          - (b) it  operates  as  a  multinational  organisation  subject  to  foreign  digital jurisdiction.\n\n        - Any exemption granted under subsection (1) shall be:",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes specific conditions under which an entity can be exempted from certain requirements. This falls under the category of establishing rules and exceptions, which is a provision."
+      }
     },
     {
       "id": "penalties-for-non-compliance",
       "index": 23,
       "title": "Penalties for Non-Compliance",
-      "rawText": "23. (1) Any entity that fails to comply with this section shall be liable to:\n\n          - (a) an administrative penalty of not less than one thousand penalty units and not more ten thousand penalty units per year of non-compliance;\n\n          - (b) suspension or revocation of business and regulatory licences for repeated non-compliance in accordance with regulatory procedure of the relevant sector; and\n\n          - (c) disqualification  from  participating  in  public  procurement  or  tendering processes for a period of up to two years.\n\n        - A  director  or  officer  of  a  corporate  body  who  knowingly  permits  the  body  to contravene this Act shall be personally liable to an administrative penalty of not more than five thousand penalty units."
+      "rawText": "23. (1) Any entity that fails to comply with this section shall be liable to:\n\n          - (a) an administrative penalty of not less than one thousand penalty units and not more ten thousand penalty units per year of non-compliance;\n\n          - (b) suspension or revocation of business and regulatory licences for repeated non-compliance in accordance with regulatory procedure of the relevant sector; and\n\n          - (c) disqualification  from  participating  in  public  procurement  or  tendering processes for a period of up to two years.\n\n        - A  director  or  officer  of  a  corporate  body  who  knowingly  permits  the  body  to contravene this Act shall be personally liable to an administrative penalty of not more than five thousand penalty units.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes penalties for non-compliance, which is a legal provision establishing consequences for failing to follow the rules. Therefore, it falls under the 'provision' category."
+      }
     },
     {
       "id": "monitoring-and-inspection",
       "index": 24,
       "title": "Monitoring and Inspection",
-      "rawText": "- (1)  The Ministry, in collaboration with  the  Registry  shall  establish  a  Domain Compliance Unit (DCU) to:\n\n          - (a) audit and monitor domain name usage by entities; and\n\n          - (b) serve compliance notices for violations of this Act.\n\n        - The Domain Compliance unit shall be made up of officers of the Registry and persons appointed by the Minister."
+      "rawText": "- (1)  The Ministry, in collaboration with  the  Registry  shall  establish  a  Domain Compliance Unit (DCU) to:\n\n          - (a) audit and monitor domain name usage by entities; and\n\n          - (b) serve compliance notices for violations of this Act.\n\n        - The Domain Compliance unit shall be made up of officers of the Registry and persons appointed by the Minister.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the establishment of a Domain Compliance Unit and its functions, which include auditing, monitoring, and serving compliance notices. This clearly establishes rules and functions, indicating a legal provision."
+      }
     },
     {
       "id": "entities-in-breach",
       "index": 25,
       "title": "Entities in breach",
-      "rawText": "- (1) The Registry shall maintain and publish on its website a list of:\n\n          - (a) entities in breach of this Act;\n\n          - (b) entities granted exemptions or temporary waivers; and\n\n          - (c) enforcement actions undertaken and their outcomes.\n\n        - The  names  of  offending  entities  may  be  published  in  national  newspapers, government  gazettes,  and  regulatory  bulletins  as  part  of  a  compliance transparency initiative taking into consideration fundamental human rights of affected persons."
+      "rawText": "- (1) The Registry shall maintain and publish on its website a list of:\n\n          - (a) entities in breach of this Act;\n\n          - (b) entities granted exemptions or temporary waivers; and\n\n          - (c) enforcement actions undertaken and their outcomes.\n\n        - The  names  of  offending  entities  may  be  published  in  national  newspapers, government  gazettes,  and  regulatory  bulletins  as  part  of  a  compliance transparency initiative taking into consideration fundamental human rights of affected persons.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the Registry's duty to maintain and publish a list of entities in breach of the Act, entities granted exemptions, and enforcement actions. This is a legal provision that establishes a rule and function for the Registry."
+      }
     },
     {
       "id": "court-orders-and-judicial-support",
       "index": 26,
       "title": "Court orders and judicial support",
-      "rawText": "- The Registry shall have the power to apply to the High Court of Ghana for an order to:\n\n          - (a) seize, block, or deactivate any domain name registered in contravention of this Act;\n\n          - (d) authorise  entry  into  premises  to  inspect  digital  systems  under  warrant, where reasonable suspicion of concealment or fraud exists.\n\n## Financial Provisions"
+      "rawText": "- The Registry shall have the power to apply to the High Court of Ghana for an order to:\n\n          - (a) seize, block, or deactivate any domain name registered in contravention of this Act;\n\n          - (d) authorise  entry  into  premises  to  inspect  digital  systems  under  warrant, where reasonable suspicion of concealment or fraud exists.\n\n## Financial Provisions",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the powers of the Registry to apply to the High Court for orders related to domain names and digital systems. This falls under establishing rules and powers, which is a provision."
+      }
     },
     {
       "id": "funds-of-the-registry",
       "index": 27,
       "title": "Funds of the Registry",
-      "rawText": "- The funds of the Registry include:\n\n          - (a) moneys provided by Parliament;\n\n          - (b) 2% of the Digital Economy and Innovation Development Fund;\n\n          - (c) donations, grants and gifts;\n\n          - (d) fees accruing to the Registry under this Act; and\n\n          - (e) any  other  moneys  that  are  approved  by  the  Minister  responsible  for Finance."
+      "rawText": "- The funds of the Registry include:\n\n          - (a) moneys provided by Parliament;\n\n          - (b) 2% of the Digital Economy and Innovation Development Fund;\n\n          - (c) donations, grants and gifts;\n\n          - (d) fees accruing to the Registry under this Act; and\n\n          - (e) any  other  moneys  that  are  approved  by  the  Minister  responsible  for Finance.",
+      "category": {
+        "type": "provision",
+        "reasoning": "This section outlines the sources of funding for the Registry. This is a functional aspect of the Registry's operation, establishing how it will be financially supported. Therefore, it falls under the category of a provision."
+      }
     },
     {
       "id": "expenses-of-the-registry",
       "index": 28,
       "title": "Expenses of the Registry",
-      "rawText": "- The expenses of the Registry shall be paid from moneys provided from the funds of the Registry."
+      "rawText": "- The expenses of the Registry shall be paid from moneys provided from the funds of the Registry.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Expenses of the Registry\" and the content describing how the expenses of the registry will be paid indicate that this section establishes a rule regarding the financial operations of the registry. Therefore, it falls under the 'provision' category."
+      }
     },
     {
       "id": "borrowing-powers-of-the-registry",
       "index": 29,
       "title": "Borrowing powers of the Registry",
-      "rawText": "- Subject  to  article  181  of  the  Constitution,  section  76  of  the  Public  Financial Management Act, 2016 (Act 921) and any other relevant enactment, the registry may obtain loans and any other credit facility on the guarantee of the Government from a bank or any other financial institution approved by the Minister responsible for Finance."
+      "rawText": "- Subject  to  article  181  of  the  Constitution,  section  76  of  the  Public  Financial Management Act, 2016 (Act 921) and any other relevant enactment, the registry may obtain loans and any other credit facility on the guarantee of the Government from a bank or any other financial institution approved by the Minister responsible for Finance.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the borrowing powers of the registry, which is a legal provision."
+      }
     },
     {
       "id": "tax-exemption",
       "index": 30,
       "title": "Tax exemption",
-      "rawText": "- The Registry is exempted from the payment of any taxes."
+      "rawText": "- The Registry is exempted from the payment of any taxes.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Tax exemption\" and the content preview indicate that this section establishes a rule regarding tax exemption for the Registry. This falls under the category of a legal provision."
+      }
     },
     {
       "id": "accounts-and-audit",
       "index": 31,
       "title": "Accounts and audit",
-      "rawText": "- (1) The Board shall keep books of account and proper records in relation to them in the form approved by the Auditor-General.\n\n    - The Board shall submit the accounts of the Registry to the Auditor-General for audit within three months after the end of the financial year.\n\n    - The  Auditor-General  shall,  not  later  than  three  months  after  the  receipt  of  the accounts, audit the accounts and forward a copy of the audit report to the Minister.\n\n    - The  financial  year  of  the  Registry  is  the  same  as  the  financial  year  of  the Government."
+      "rawText": "- (1) The Board shall keep books of account and proper records in relation to them in the form approved by the Auditor-General.\n\n    - The Board shall submit the accounts of the Registry to the Auditor-General for audit within three months after the end of the financial year.\n\n    - The  Auditor-General  shall,  not  later  than  three  months  after  the  receipt  of  the accounts, audit the accounts and forward a copy of the audit report to the Minister.\n\n    - The  financial  year  of  the  Registry  is  the  same  as  the  financial  year  of  the Government.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the requirements for maintaining accounts and auditing them. This falls under establishing rules and functions, so it's a provision."
+      }
     },
     {
       "id": "internal-audit-unit",
       "index": 32,
       "title": "Internal Audit Unit",
-      "rawText": "- (1) The Registry shall have an Internal Audit Unit in accordance with section 83 of the Public Financial Management Act, 2016 (Act 921).\n\n    - The  Internal  Audit  Unit  shall  be  headed  by  an  Internal  Auditor  who  shall  be appointed in accordance with the Internal Audit Agency Act, 2003 (Act 658).\n\n    - The Internal Auditor is responsible for the internal audit of the Registry.\n\n    - The Internal Auditor shall, subject to subsections (3) and (4) of section 16 of the Internal Audit Agency Act, 2003 (Act 658), at intervals of three months:\n\n          - (a) prepare and submit to the Board, a report on the internal audit carried out during the period of three months immediately preceding the preparation of the report; and\n\n          - (b) recommendations in each report, with respect to matters which appear to the  Internal  Auditor  as  necessary  for  the  conduct  of  the  affairs  of  the Registry.\n\n    - The Internal Auditor shall, in accordance with subsection (4) of section 16 of the Internal Audit Agency Act, 2003 (Act 658), submit a copy of each report prepared under this section to the Executive Director and the chairperson of the Board."
+      "rawText": "- (1) The Registry shall have an Internal Audit Unit in accordance with section 83 of the Public Financial Management Act, 2016 (Act 921).\n\n    - The  Internal  Audit  Unit  shall  be  headed  by  an  Internal  Auditor  who  shall  be appointed in accordance with the Internal Audit Agency Act, 2003 (Act 658).\n\n    - The Internal Auditor is responsible for the internal audit of the Registry.\n\n    - The Internal Auditor shall, subject to subsections (3) and (4) of section 16 of the Internal Audit Agency Act, 2003 (Act 658), at intervals of three months:\n\n          - (a) prepare and submit to the Board, a report on the internal audit carried out during the period of three months immediately preceding the preparation of the report; and\n\n          - (b) recommendations in each report, with respect to matters which appear to the  Internal  Auditor  as  necessary  for  the  conduct  of  the  affairs  of  the Registry.\n\n    - The Internal Auditor shall, in accordance with subsection (4) of section 16 of the Internal Audit Agency Act, 2003 (Act 658), submit a copy of each report prepared under this section to the Executive Director and the chairperson of the Board.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the establishment and responsibilities of an Internal Audit Unit within the Registry. This falls under the category of establishing rules and functions, which is a provision."
+      }
     },
     {
       "id": "annual-report-and-other-reports",
       "index": 33,
       "title": "Annual report and other reports",
-      "rawText": "- (1) The Board shall within one month after the receipt of the audit report, submit an annual report to the Minister covering the activities and the operations of the Registry for the year to which the report relates.\n\n    - The annual report shall include the report of the Auditor-General.\n\n    - The Minister shall, within one month after the receipt of the annual report, submit the report to Parliament with a statement that the Minister considers necessary.\n\n    - The Board shall also submit to the Minister any other reports which the Minister may require in writing.\n\n    - The annual report shall be published on the Registry's website and made available to all stakeholders.\n\nDomain Name Registry Fund"
+      "rawText": "- (1) The Board shall within one month after the receipt of the audit report, submit an annual report to the Minister covering the activities and the operations of the Registry for the year to which the report relates.\n\n    - The annual report shall include the report of the Auditor-General.\n\n    - The Minister shall, within one month after the receipt of the annual report, submit the report to Parliament with a statement that the Minister considers necessary.\n\n    - The Board shall also submit to the Minister any other reports which the Minister may require in writing.\n\n    - The annual report shall be published on the Registry's website and made available to all stakeholders.\n\nDomain Name Registry Fund",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the requirement for the Board to submit an annual report to the Minister, detailing the activities and operations of the Registry. This falls under the category of a provision, as it establishes a reporting requirement."
+      }
     },
     {
       "id": "establishment-of-the-domain-name-registry-fund",
       "index": 34,
       "title": "Establishment of the Domain Name Registry Fund",
-      "rawText": "- There shall be established a fund to be known as the Domain Name Registry Fund."
+      "rawText": "- There shall be established a fund to be known as the Domain Name Registry Fund.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section establishes a fund, which is a legal provision."
+      }
     },
     {
       "id": "object-of-the-fund",
       "index": 35,
       "title": "Object of the Fund",
-      "rawText": "- The Fund shall be applied to achieve the following objectives:\n\n          - (d) any other objective as the Minister may prescribe."
+      "rawText": "- The Fund shall be applied to achieve the following objectives:\n\n          - (d) any other objective as the Minister may prescribe.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Object of the Fund\" and the content describing the objectives of the fund clearly outline the purpose and application of the fund. This falls under the category of establishing rules and functions, which is a provision."
+      }
     },
     {
       "id": "sources-of-moneys-for-the-fund",
       "index": 36,
       "title": "Sources of moneys for the Fund",
-      "rawText": "- The sources of money for the Fund are:\n\n          - (a) 5% of the fees charged by the Registry under this Act;\n\n          - (b) moneys provided by Parliament to the Fund;\n\n          - (c) moneys that accrue to the Fund from investments made by the Board;\n\n          - (d) donations, grants and gifts; and\n\n          - (e) any other moneys that may lawfully accrue to the Fund."
+      "rawText": "- The sources of money for the Fund are:\n\n          - (a) 5% of the fees charged by the Registry under this Act;\n\n          - (b) moneys provided by Parliament to the Fund;\n\n          - (c) moneys that accrue to the Fund from investments made by the Board;\n\n          - (d) donations, grants and gifts; and\n\n          - (e) any other moneys that may lawfully accrue to the Fund.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the sources of money for a fund, which establishes a rule or function. Therefore, it falls under the 'provision' category."
+      }
     },
     {
       "id": "bank-account-for-the-fund",
       "index": 37,
       "title": "Bank account for the Fund",
-      "rawText": "- (1) Moneys of the Fund shall be paid into bank accounts opened by the Board for the Fund.\n\n    - Donors  shall  pay  their  donations  directly  into  the  account  of  the  Fund  upon verification by the Board."
+      "rawText": "- (1) Moneys of the Fund shall be paid into bank accounts opened by the Board for the Fund.\n\n    - Donors  shall  pay  their  donations  directly  into  the  account  of  the  Fund  upon verification by the Board.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes how the fund's money is handled, specifically regarding bank accounts and donations. This falls under the category of establishing rules and procedures for the fund's operation."
+      }
     },
     {
       "id": "management-of-the-fund",
       "index": 38,
       "title": "Management of the Fund",
-      "rawText": "- (1) The Fund shall be managed by the Board of the Registry.\n\n    - Sections 31 and 33 of this Act shall apply to the Fund."
+      "rawText": "- (1) The Fund shall be managed by the Board of the Registry.\n\n    - Sections 31 and 33 of this Act shall apply to the Fund.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes how the fund will be managed, which is a legal provision."
+      }
     },
     {
       "id": "prioritisation-of-the-fund",
       "index": 39,
       "title": "Prioritisation of the Fund",
-      "rawText": "- (1) Projects for which moneys from the Fund are disbursed shall satisfy the criteria laid out in the order of priority.\n\n    - The order of priority for support by the Fund is as follows:\n\n          - (a) projects  aimed  at  improving  digital  inclusion  for  small  and  medium enterprises;\n\n          - (b) projects aimed at improving the capacity of the domain name system ; and\n\n          - (c) other projects that the Minister may designate as priority projects."
+      "rawText": "- (1) Projects for which moneys from the Fund are disbursed shall satisfy the criteria laid out in the order of priority.\n\n    - The order of priority for support by the Fund is as follows:\n\n          - (a) projects  aimed  at  improving  digital  inclusion  for  small  and  medium enterprises;\n\n          - (b) projects aimed at improving the capacity of the domain name system ; and\n\n          - (c) other projects that the Minister may designate as priority projects.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section outlines the order of priority for projects funded by the Fund. This establishes a rule or guideline for how the fund should be used, which falls under the category of a provision."
+      }
     },
     {
       "id": "disbursement-of-the-fund",
       "index": 40,
       "title": "Disbursement of the Fund",
-      "rawText": "- In consultation with the Minister, the Board shall determine procedures for disbursement of the Fund and disburse the Fund accordingly.\n\n## Dispute Resolution"
+      "rawText": "- In consultation with the Minister, the Board shall determine procedures for disbursement of the Fund and disburse the Fund accordingly.\n\n## Dispute Resolution",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes how the fund will be disbursed, which is a legal provision."
+      }
     },
     {
       "id": "resolution-of-disputes",
       "index": 41,
       "title": "Resolution of Disputes",
-      "rawText": "- (1) The Minister shall establish a dispute resolution process to resolve:\n\n          - (d) disputes between the Registry and any registrant.\n\n    - No party to a dispute described under subsection (1) shall institute an action in court unless the dispute resolution procedure established under this Act has been exhausted.\n\n    - The Minister may by legislative instrument make regulations on the manner and procedure for the resolution of disputes.\n\n      - The procedure shall be in line with the Uniform Domain Name Dispute Resolution Policy and its Rules."
+      "rawText": "- (1) The Minister shall establish a dispute resolution process to resolve:\n\n          - (d) disputes between the Registry and any registrant.\n\n    - No party to a dispute described under subsection (1) shall institute an action in court unless the dispute resolution procedure established under this Act has been exhausted.\n\n    - The Minister may by legislative instrument make regulations on the manner and procedure for the resolution of disputes.\n\n      - The procedure shall be in line with the Uniform Domain Name Dispute Resolution Policy and its Rules.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes a dispute resolution process, which is a legal provision."
+      }
     },
     {
       "id": "dispute-resolution-committee",
       "index": 42,
       "title": "Dispute Resolution Committee",
-      "rawText": "- (1) The Board shall establish a Dispute Resolution Committee which shall consist of five  members  with  relevant  experience  in alternative  dispute  resolution,  intellectual property, and internet law, policy and governance.\n\n    - A three-member panel of the Committee shall expeditiously hear, inquire into and investigate any matter which is brought before it.\n\n    - The Committee shall determine the periods that are reasonably necessary for the fair  and  adequate presentation  of  the  matter  by  the  respective  parties  and  the Registry may require those matters to be presented within the periods.\n\n    - The Committee may require evidence or arguments to be presented in writing and may decide the matters upon which it will hear oral evidence or written arguments.\n\n    - Each party to a matter is entitled to appear at the hearing and may be represented by a lawyer or any other person.\n\n    - The Committee shall communicate its decision to the parties within thirty days of receipt  of  the  dispute  provided  that  there  are  no  exceptional  circumstances affecting the dispute.\n\n    - Appeals from a decision by the Dispute Resolution Committee may be submitted to the High Court."
+      "rawText": "- (1) The Board shall establish a Dispute Resolution Committee which shall consist of five  members  with  relevant  experience  in alternative  dispute  resolution,  intellectual property, and internet law, policy and governance.\n\n    - A three-member panel of the Committee shall expeditiously hear, inquire into and investigate any matter which is brought before it.\n\n    - The Committee shall determine the periods that are reasonably necessary for the fair  and  adequate presentation  of  the  matter  by  the  respective  parties  and  the Registry may require those matters to be presented within the periods.\n\n    - The Committee may require evidence or arguments to be presented in writing and may decide the matters upon which it will hear oral evidence or written arguments.\n\n    - Each party to a matter is entitled to appear at the hearing and may be represented by a lawyer or any other person.\n\n    - The Committee shall communicate its decision to the parties within thirty days of receipt  of  the  dispute  provided  that  there  are  no  exceptional  circumstances affecting the dispute.\n\n    - Appeals from a decision by the Dispute Resolution Committee may be submitted to the High Court.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the establishment and function of a Dispute Resolution Committee. This falls under the category of establishing rules and functions, which is a provision."
+      }
     },
     {
       "id": "powers-of-the-dispute-resolution-committee",
       "index": 43,
       "title": "Powers of the Dispute Resolution Committee",
-      "rawText": "- The Dispute Resolution Committee may:\n\n          - (a) issue summons to compel the attendance of witnesses under the hand of the Executive Director of the Registry;\n\n          - (b) examine witnesses on oath, affirmation or otherwise;\n\n          - (c) compel the production of documents;\n\n          - (d) cite a person for trial at the High Court for contempt;\n\n          - (g) dismiss or refrain from hearing or determining a matter, in whole or in part, if it appears that the matter, or part of the matter, is trivial or vexatious or that  further  proceedings  are  not  necessary  or  desirable  in  the  public interest;\n\n          - (h) in appropriate circumstances, order any party to pay the reasonable costs and expenses of another party, including the expenses of witnesses and fees of lawyers, in bringing the matter before the Committee; and\n\n          - (i) generally, give directions and do what is necessary or expedient for the hearing and determination of the matter.\n\n## Miscellaneous Provisions"
+      "rawText": "- The Dispute Resolution Committee may:\n\n          - (a) issue summons to compel the attendance of witnesses under the hand of the Executive Director of the Registry;\n\n          - (b) examine witnesses on oath, affirmation or otherwise;\n\n          - (c) compel the production of documents;\n\n          - (d) cite a person for trial at the High Court for contempt;\n\n          - (g) dismiss or refrain from hearing or determining a matter, in whole or in part, if it appears that the matter, or part of the matter, is trivial or vexatious or that  further  proceedings  are  not  necessary  or  desirable  in  the  public interest;\n\n          - (h) in appropriate circumstances, order any party to pay the reasonable costs and expenses of another party, including the expenses of witnesses and fees of lawyers, in bringing the matter before the Committee; and\n\n          - (i) generally, give directions and do what is necessary or expedient for the hearing and determination of the matter.\n\n## Miscellaneous Provisions",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the powers of a committee, which are legal provisions. Therefore, it falls under the 'provision' category."
+      }
     },
     {
       "id": "general-penalty",
       "index": 44,
       "title": "General Penalty",
-      "rawText": "- A person who contravenes or fails to comply with any provision of this Act commits an offence and, where no penalty is expressly provided, shall upon summary conviction be liable to a fine not less than two thousand penalty units and not more than ten thousand penalty units."
+      "rawText": "- A person who contravenes or fails to comply with any provision of this Act commits an offence and, where no penalty is expressly provided, shall upon summary conviction be liable to a fine not less than two thousand penalty units and not more than ten thousand penalty units.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes a penalty for contravening the Act, which is a legal provision."
+      }
     },
     {
       "id": "regulations",
       "index": 45,
       "title": "Regulations",
-      "rawText": "- The Minister, in consultation with the Registry, may by legislative instrument make Regulations to give effect to the provisions of this Act and shall in particular, make Regulations in relation to:\n\n          - (a) the  requirements  which  registrars  must  meet  in  order  to  be  licensed, including  objective  standards  relating  to  operational  accuracy,  stability, robustness, security, privacy and efficiency;\n\n          - (b) the  circumstances and  manner  in  which  registrations  may be assigned, registered, renewed, refused, transferred or revoked;\n\n          - (c) fees;\n\n          - (d) provisions for the restoration of a domain name registration;\n\n          - (e) the terms of the domain name registration agreement which registrars must adopt and use in registering domain names, including issues in respect of privacy,  fundamental  human  rights,  consumer  protection  and  dispute resolution;\n\n          - (f) processes and procedures to avoid unfair and anti-competitive practices, including bias  to, or preferential treatment  of actual  or  prospective registrants, registrars, protocols or products;\n\n          - (g) ongoing  compliance  requirements  for  registrars  including  sustainability requirements and abuse reporting;\n\n          - (h) requirements to ensure that each domain name contains an administrative and technical contact;\n\n          - (i) the dispute resolution process or procedure;\n\n          - (j) conditions upon which appeals may be submitted to the High Court;\n\n          - (l) such other matters relating to the .gh domain name space as it may be necessary to prescribe to achieve the objectives of this Act."
+      "rawText": "- The Minister, in consultation with the Registry, may by legislative instrument make Regulations to give effect to the provisions of this Act and shall in particular, make Regulations in relation to:\n\n          - (a) the  requirements  which  registrars  must  meet  in  order  to  be  licensed, including  objective  standards  relating  to  operational  accuracy,  stability, robustness, security, privacy and efficiency;\n\n          - (b) the  circumstances and  manner  in  which  registrations  may be assigned, registered, renewed, refused, transferred or revoked;\n\n          - (c) fees;\n\n          - (d) provisions for the restoration of a domain name registration;\n\n          - (e) the terms of the domain name registration agreement which registrars must adopt and use in registering domain names, including issues in respect of privacy,  fundamental  human  rights,  consumer  protection  and  dispute resolution;\n\n          - (f) processes and procedures to avoid unfair and anti-competitive practices, including bias  to, or preferential treatment  of actual  or  prospective registrants, registrars, protocols or products;\n\n          - (g) ongoing  compliance  requirements  for  registrars  including  sustainability requirements and abuse reporting;\n\n          - (h) requirements to ensure that each domain name contains an administrative and technical contact;\n\n          - (i) the dispute resolution process or procedure;\n\n          - (j) conditions upon which appeals may be submitted to the High Court;\n\n          - (l) such other matters relating to the .gh domain name space as it may be necessary to prescribe to achieve the objectives of this Act.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Regulations\" and the content preview indicate that this section deals with the power of the Minister to make regulations related to the Act. This falls under the category of provisions, as it establishes a power and function."
+      }
     },
     {
       "id": "interpretation",
       "index": 46,
       "title": "Interpretation",
-      "rawText": "46. In this Act unless the context otherwise requires,\n\n' abuse '  includes  spamming,  spoofing,  phishing,  cache  poisoning,  hijacking,  DOS attack, and DNS tunneling as may be determined by the Registry;\n\n' Board ' means the governing body of the Registry;\n\n' ccTLD ' means country code domain at the top level of the Internet's domain name system assigned according to the two-letter codes in the International Standard ISO 3166-1 (Codes for Representation of Names of Countries and their Subdivision);\n\n' domain name ' means an alphanumeric designation that is registered or assigned in respect of an electronic address or other resource on the Internet;\n\n' domain name system ' means a system to translate domain names into IP addresses or other information;\n\n' Domain Name System Security Extension' means an extension to  the domain name system which uses cryptography to authenticate data retrieved from the domain name system;\n\n' .gh domain name space' means the .gh ccTLD assigned to the Republic according to the two-letter codes in the International Standard ISO 3166;\n\n' Government ' means any authority by which the executive authority of the Republic is duly exercised;\n\n' malicious domain name '  means a domain name which is registered under false pretences to cause consumer harm; is being used to cause consumer harm or is being used to conduct illegal activity;\n\n' Minister ' means the Minister responsible for Communications;\n\n' Ministry ' means the Ministry responsible for Communications;\n\n' registrant ' means a person who has registered a domain name in accordance with this Act;\n\n' registrar ' means an entity licensed by the Registry to register domain names;\n\n' Registry ' means the Ghana Domain Name Registry established under this Act;\n\n' repository ' means the primary register of the information maintained by the Registry;"
+      "rawText": "46. In this Act unless the context otherwise requires,\n\n' abuse '  includes  spamming,  spoofing,  phishing,  cache  poisoning,  hijacking,  DOS attack, and DNS tunneling as may be determined by the Registry;\n\n' Board ' means the governing body of the Registry;\n\n' ccTLD ' means country code domain at the top level of the Internet's domain name system assigned according to the two-letter codes in the International Standard ISO 3166-1 (Codes for Representation of Names of Countries and their Subdivision);\n\n' domain name ' means an alphanumeric designation that is registered or assigned in respect of an electronic address or other resource on the Internet;\n\n' domain name system ' means a system to translate domain names into IP addresses or other information;\n\n' Domain Name System Security Extension' means an extension to  the domain name system which uses cryptography to authenticate data retrieved from the domain name system;\n\n' .gh domain name space' means the .gh ccTLD assigned to the Republic according to the two-letter codes in the International Standard ISO 3166;\n\n' Government ' means any authority by which the executive authority of the Republic is duly exercised;\n\n' malicious domain name '  means a domain name which is registered under false pretences to cause consumer harm; is being used to cause consumer harm or is being used to conduct illegal activity;\n\n' Minister ' means the Minister responsible for Communications;\n\n' Ministry ' means the Ministry responsible for Communications;\n\n' registrant ' means a person who has registered a domain name in accordance with this Act;\n\n' registrar ' means an entity licensed by the Registry to register domain names;\n\n' Registry ' means the Ghana Domain Name Registry established under this Act;\n\n' repository ' means the primary register of the information maintained by the Registry;",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section defines terms used in the Act. This falls under the category of provisions as it establishes the meaning of specific words within the legal text."
+      }
     },
     {
       "id": "repeals-and-savings",
       "index": 47,
       "title": "Repeals and Savings",
-      "rawText": "- (1) Sections 63 to 81 of the Electronic Transactions Act, 2008 (Act 772) are hereby repealed.\n\n        - Notwithstanding the repeal:\n\n          - (a) any licence granted under the repealed sections and valid on the date of the coming into force of this Act shall continue to be in force until it expires or is renewed under this Act; and\n\n          - (b) any regulations, guidelines or directives made under the repealed sections are saved."
+      "rawText": "- (1) Sections 63 to 81 of the Electronic Transactions Act, 2008 (Act 772) are hereby repealed.\n\n        - Notwithstanding the repeal:\n\n          - (a) any licence granted under the repealed sections and valid on the date of the coming into force of this Act shall continue to be in force until it expires or is renewed under this Act; and\n\n          - (b) any regulations, guidelines or directives made under the repealed sections are saved.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Repeals and Savings\" suggests that this section deals with the legal effect of the new bill on existing laws. The content preview confirms this, as it discusses the repeal of specific sections of an existing act and provides for the continuation of licenses granted under the repealed sections. This falls under the category of provisions."
+      }
     }
   ]
 }

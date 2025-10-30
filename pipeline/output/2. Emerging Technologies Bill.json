@@ -4,217 +4,361 @@
       "id": "object-of-the-agency",
       "index": 1,
       "title": "Object of the Agency",
-      "rawText": "- The objects of the Agency are to:\n\n    - (a) advance and facilitate the adoption of emerging technology in the country;\n\n    - (b) promote research, innovation and development of emerging technology tools in the country;\n\n    - (c) deploy emerging technology to increase social and economic productivity;\n\n    - (d) provide a harmonised a body of rules on rights related to risks ethics and safety;\n\n    - (e) create awareness of emerging technology;\n\n    - (e) promote cross-border transfer of emerging-technology-based goods and services for the international development, marketing and use of  systems;\n\n    - (f) ensure  that  activities  related  to  emerging  technology  and  emerging  technology systems are consistent with human rights, democracy and the rule of law."
+      "rawText": "- The objects of the Agency are to:\n\n    - (a) advance and facilitate the adoption of emerging technology in the country;\n\n    - (b) promote research, innovation and development of emerging technology tools in the country;\n\n    - (c) deploy emerging technology to increase social and economic productivity;\n\n    - (d) provide a harmonised a body of rules on rights related to risks ethics and safety;\n\n    - (e) create awareness of emerging technology;\n\n    - (e) promote cross-border transfer of emerging-technology-based goods and services for the international development, marketing and use of  systems;\n\n    - (f) ensure  that  activities  related  to  emerging  technology  and  emerging  technology systems are consistent with human rights, democracy and the rule of law.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section outlines the objectives of the agency, which are essentially the functions and powers of the agency. This falls under the category of provisions."
+      }
     },
     {
       "id": "functions-of-the-agency",
       "index": 2,
       "title": "Functions of the Agency",
-      "rawText": "- To achieve the objects under section 2, the Agency shall:\n\n      - (a) advise the Government and public institutions on all matters related to emerging technology in the country;\n\n      - (b) optimise emerging technology for economic development of the country;\n\n      - (c) ensure  efficiency  within  the  emerging  technology  value  chain  by  promoting research, creativity and innovation;\n\n      - (d) promote  an  emerging  technology  curriculum,  an  emerging  technology-based curriculum  and  emerging  technology  education,  particularly  through  inclusive educational  programmes,  to  expand  emerging  technology  knowledge  and  to increase the number of graduates, academics, practitioners and professionals with expertise  in  emerging  technology  and  related  disciplines  in  data  science,  data engineering, computer science, among others;\n\n      - (e) equip  people,  especially  underserved  and  unserved  communities,  with  skills  in emerging technology to promote technological agency and awareness;\n\n      - (f) empower the  youth  with  skills  and  tools  to  broaden  their  participation  in  the emerging technology value chain for, job creation opportunities, involvement in the digital economy, and the digital development of the economy;\n\n      - (g) develop  digital  infrastructure  to  build  robust  emerging  technology  systems  for affordable access for all persons;\n\n      - (h) promote the adoption of emerging technology in the public sector and for public services;\n\n      - (i) to create a conducive and investment-ready environment for private organisations, start-ups and innovative companies in the emerging technology industry;\n\n      - (j) encourage competitiveness in the development of emerging technology tools and systems;\n\n      - (k) facilitate data access, data availability and data governance across institutions for the  advancement  of  emerging  technology,  while  safeguarding  citizens'  privacy, security and rights in accordance with the Data Protection Act;\n\n      - (l) build  and  coordinate  an  emerging  technology  community  for  the  sharing  of knowledge, creating synergies, and development of emerging technology;\n\n      - (m) accelerate the adoption of emerging technology in key sectors of the economy including healthcare, agriculture, transportation, energy, lands and natural resources and financial services;\n\n      - (n) encourage  investments  in  the  emerging  technology  eco-system  to  provide  for sustainable development of emerging technology;\n\n      - (o) deploy  strategies  to  implement  research  findings  towards  the  promotion  of emerging technology;\n\n      - (p) establish guidelines, standards and codes of practice for risk-protected, healthy, safe, ethical and practical use of emerging technology;\n\n      - (q) address product safety, privacy and consumer protection challenges and opportunities presented by emerging technology;\n\n      - (r) provide technical support for emerging technology developers;\n\n      - (s) promote international cooperation with respect to emerging technology; and\n\n      - (t) perform any other functions which are ancillary to the objects of the Agency."
+      "rawText": "- To achieve the objects under section 2, the Agency shall:\n\n      - (a) advise the Government and public institutions on all matters related to emerging technology in the country;\n\n      - (b) optimise emerging technology for economic development of the country;\n\n      - (c) ensure  efficiency  within  the  emerging  technology  value  chain  by  promoting research, creativity and innovation;\n\n      - (d) promote  an  emerging  technology  curriculum,  an  emerging  technology-based curriculum  and  emerging  technology  education,  particularly  through  inclusive educational  programmes,  to  expand  emerging  technology  knowledge  and  to increase the number of graduates, academics, practitioners and professionals with expertise  in  emerging  technology  and  related  disciplines  in  data  science,  data engineering, computer science, among others;\n\n      - (e) equip  people,  especially  underserved  and  unserved  communities,  with  skills  in emerging technology to promote technological agency and awareness;\n\n      - (f) empower the  youth  with  skills  and  tools  to  broaden  their  participation  in  the emerging technology value chain for, job creation opportunities, involvement in the digital economy, and the digital development of the economy;\n\n      - (g) develop  digital  infrastructure  to  build  robust  emerging  technology  systems  for affordable access for all persons;\n\n      - (h) promote the adoption of emerging technology in the public sector and for public services;\n\n      - (i) to create a conducive and investment-ready environment for private organisations, start-ups and innovative companies in the emerging technology industry;\n\n      - (j) encourage competitiveness in the development of emerging technology tools and systems;\n\n      - (k) facilitate data access, data availability and data governance across institutions for the  advancement  of  emerging  technology,  while  safeguarding  citizens'  privacy, security and rights in accordance with the Data Protection Act;\n\n      - (l) build  and  coordinate  an  emerging  technology  community  for  the  sharing  of knowledge, creating synergies, and development of emerging technology;\n\n      - (m) accelerate the adoption of emerging technology in key sectors of the economy including healthcare, agriculture, transportation, energy, lands and natural resources and financial services;\n\n      - (n) encourage  investments  in  the  emerging  technology  eco-system  to  provide  for sustainable development of emerging technology;\n\n      - (o) deploy  strategies  to  implement  research  findings  towards  the  promotion  of emerging technology;\n\n      - (p) establish guidelines, standards and codes of practice for risk-protected, healthy, safe, ethical and practical use of emerging technology;\n\n      - (q) address product safety, privacy and consumer protection challenges and opportunities presented by emerging technology;\n\n      - (r) provide technical support for emerging technology developers;\n\n      - (s) promote international cooperation with respect to emerging technology; and\n\n      - (t) perform any other functions which are ancillary to the objects of the Agency.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section outlines the specific functions and responsibilities of the Agency. This falls under establishing rules and powers, which is a characteristic of a provision."
+      }
     },
     {
       "id": "powers-of-the-agency",
       "index": 3,
       "title": "Powers of the Agency",
-      "rawText": "4. (1) The Agency shall determine the nature, process and undertakings necessary for the effective performance of its functions under this Act.\n\n- The Agency is granted the power to:\n\n        - (a) issue regulations, rules, directives and guidelines under this Act;\n\n        - (b) facilitate conciliation, mediation and negotiation on disputes arising from this Act; and\n\n        - (c) make any determination as the Agency finds just and equitable."
+      "rawText": "4. (1) The Agency shall determine the nature, process and undertakings necessary for the effective performance of its functions under this Act.\n\n- The Agency is granted the power to:\n\n        - (a) issue regulations, rules, directives and guidelines under this Act;\n\n        - (b) facilitate conciliation, mediation and negotiation on disputes arising from this Act; and\n\n        - (c) make any determination as the Agency finds just and equitable.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the powers of the agency, which falls under the category of establishing rules and functions. Therefore, it is a provision."
+      }
     },
     {
       "id": "governance-of-the-governing-body-of-the-agency",
       "index": 4,
       "title": "Governance of the Governing body of the Agency",
-      "rawText": "- The governing body of the Agency is a Board consisting of\n\n      - (a) a chairperson;\n\n      - (b) one representative from the following;\n\n          - (i) The Ministry not below the rank of a Chief Director;\n\n          - (ii) Data Protection Commission not below the rank of Deputy Director-General;\n\n          - (iii) National  Information  Technology  Agency  not  below  the  rank  of  Deputy Director-General;\n\n      - (c) one representative nominated by the Industry Forum;\n\n      - (d) one representative from the Accra Digital Centre;\n\n      - (e) two other persons nominated by the President on the advice of the Minister, at least one of whom is a woman; and\n\n      - (f) Chief Executive Officer of the Agency."
+      "rawText": "- The governing body of the Agency is a Board consisting of\n\n      - (a) a chairperson;\n\n      - (b) one representative from the following;\n\n          - (i) The Ministry not below the rank of a Chief Director;\n\n          - (ii) Data Protection Commission not below the rank of Deputy Director-General;\n\n          - (iii) National  Information  Technology  Agency  not  below  the  rank  of  Deputy Director-General;\n\n      - (c) one representative nominated by the Industry Forum;\n\n      - (d) one representative from the Accra Digital Centre;\n\n      - (e) two other persons nominated by the President on the advice of the Minister, at least one of whom is a woman; and\n\n      - (f) Chief Executive Officer of the Agency.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the composition of the governing body of the agency, which is a provision outlining the structure and membership of the board."
+      }
     },
     {
       "id": "functions-of-the-board",
       "index": 5,
       "title": "Functions of the Board",
-      "rawText": "- The Board shall, subject to the provisions of this Act,\n\n      - (a) have oversight responsibility for the Agency;\n\n      - (b) be responsible for the strategic direction and policies of the Agency; and\n\n      - (c) ensure the efficient and effective performance of the functions of the Agency."
+      "rawText": "- The Board shall, subject to the provisions of this Act,\n\n      - (a) have oversight responsibility for the Agency;\n\n      - (b) be responsible for the strategic direction and policies of the Agency; and\n\n      - (c) ensure the efficient and effective performance of the functions of the Agency.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the functions of the board, which are actual legal provisions that establish rules and powers. Therefore, it falls under the 'provision' category."
+      }
     },
     {
       "id": "tenure-of-office-of-members",
       "index": 6,
       "title": "Tenure of office of members",
-      "rawText": "7. (1)  A member of the Board shall hold office for a period not exceeding three years and is  eligible  for  re-appointment but a member shall not be appointed for more than two terms.\n\n    - Subsection (1) does not apply to the Chief Executive Officer of the Agency.\n\n(3) A member of the Board may at any time resign from office in writing addressed to the President through the Minister.\n\n(4) A member of the Board, other than the Chief Executive Officer who is absent from three consecutive meetings of the Board without sufficient cause ceases to be a member of the Board.\n\n(5) The President may by letter addressed to a member revoke the appointment of that member.\n\n(6) Where a member of the Board is, for a sufficient reason, unable to act as a member, the Minister shall determine whether the inability would result in the declaration of a vacancy.\n\n    - Where there is a vacancy\n\n(a) under subsection (3) or (4);\n\n(b) as a result of a declaration under subsection (6); or\n\n          - (c) by reason of the death of a member the Minister shall notify the President of the vacancy and the President shall appoint a person to fill the vacancy."
+      "rawText": "7. (1)  A member of the Board shall hold office for a period not exceeding three years and is  eligible  for  re-appointment but a member shall not be appointed for more than two terms.\n\n    - Subsection (1) does not apply to the Chief Executive Officer of the Agency.\n\n(3) A member of the Board may at any time resign from office in writing addressed to the President through the Minister.\n\n(4) A member of the Board, other than the Chief Executive Officer who is absent from three consecutive meetings of the Board without sufficient cause ceases to be a member of the Board.\n\n(5) The President may by letter addressed to a member revoke the appointment of that member.\n\n(6) Where a member of the Board is, for a sufficient reason, unable to act as a member, the Minister shall determine whether the inability would result in the declaration of a vacancy.\n\n    - Where there is a vacancy\n\n(a) under subsection (3) or (4);\n\n(b) as a result of a declaration under subsection (6); or\n\n          - (c) by reason of the death of a member the Minister shall notify the President of the vacancy and the President shall appoint a person to fill the vacancy.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the term length and eligibility for reappointment of board members. This is a rule governing the board, so it's a provision."
+      }
     },
     {
       "id": "meetings-of-the-board",
       "index": 7,
       "title": "Meetings of the Board",
-      "rawText": "8. (1)  The Board shall meet at least once every three months for the dispatch of business at the times and in the places determined by the chairperson.\n\n(2) The chairperson shall at the request in writing of not less than one-third of the membership of the Board convene an extraordinary meeting of the Board at the place and time determined by the chairperson.\n\n(3)  The quorum at a meeting of the Board is seven members of the Board or a greater number determined by the Board in respect of an important matter.\n\n(4)  The chairperson shall preside at meetings of the Board and in the absence of the chairperson, a member of the Board elected by the members present from among their number shall preside.\n\n(5)  Matters before the Board shall be decided by a majority of the members present and voting and in the event of an equality of votes, the person presiding shall have a casting vote.\n\n(6)  The Board may co-opt a person to attend a Board meeting but that person shall not vote on a matter for decision at the meeting."
+      "rawText": "8. (1)  The Board shall meet at least once every three months for the dispatch of business at the times and in the places determined by the chairperson.\n\n(2) The chairperson shall at the request in writing of not less than one-third of the membership of the Board convene an extraordinary meeting of the Board at the place and time determined by the chairperson.\n\n(3)  The quorum at a meeting of the Board is seven members of the Board or a greater number determined by the Board in respect of an important matter.\n\n(4)  The chairperson shall preside at meetings of the Board and in the absence of the chairperson, a member of the Board elected by the members present from among their number shall preside.\n\n(5)  Matters before the Board shall be decided by a majority of the members present and voting and in the event of an equality of votes, the person presiding shall have a casting vote.\n\n(6)  The Board may co-opt a person to attend a Board meeting but that person shall not vote on a matter for decision at the meeting.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes how the board should conduct meetings, including frequency, location, and quorum. This falls under the category of establishing rules and procedures for the board, which is a provision."
+      }
     },
     {
       "id": "disclosure-of-interest",
       "index": 8,
       "title": "Disclosure of interest",
-      "rawText": "- (1)    A member of the Board who has an interest in a matter for consideration\n\n            - (a) shall disclose the nature of the interest and the disclosure shall form part of the record of the consideration of the matter; and\n\n            - (b) shall not participate in the deliberations of the Board in respect of that matter.\n\n    - A member ceases to be a member of the Board if that member has an interest on a matter before the Board and\n\n            - (a) fails to disclose that interest; or\n\n            - (b) participates in the deliberations of the Board in respect of the matter."
+      "rawText": "- (1)    A member of the Board who has an interest in a matter for consideration\n\n            - (a) shall disclose the nature of the interest and the disclosure shall form part of the record of the consideration of the matter; and\n\n            - (b) shall not participate in the deliberations of the Board in respect of that matter.\n\n    - A member ceases to be a member of the Board if that member has an interest on a matter before the Board and\n\n            - (a) fails to disclose that interest; or\n\n            - (b) participates in the deliberations of the Board in respect of the matter.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the rules for board members disclosing interests and abstaining from deliberations. This is a legal provision establishing rules of conduct."
+      }
     },
     {
       "id": "establishment-of-committees",
       "index": 9,
       "title": "Establishment of committees",
-      "rawText": "10. (1)   The Board may establish committees consisting of members of the Board or nonmembers or both to perform a function.\n\n- A committee of the Board may be chaired by a member of the Board.\n\n- Section 8 applies to members of committees of the Board."
+      "rawText": "10. (1)   The Board may establish committees consisting of members of the Board or nonmembers or both to perform a function.\n\n- A committee of the Board may be chaired by a member of the Board.\n\n- Section 8 applies to members of committees of the Board.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the establishment of committees by the Board, outlining their composition and function. This falls under the category of establishing rules and powers, which is a provision."
+      }
     },
     {
       "id": "allowances",
       "index": 10,
       "title": "Allowances",
-      "rawText": "11. Members of the Board and members of a committee of the Board shall be paid the allowances  approved  by  the  Minister  in  consultation  with  the  Minister  responsible  for Finance."
+      "rawText": "11. Members of the Board and members of a committee of the Board shall be paid the allowances  approved  by  the  Minister  in  consultation  with  the  Minister  responsible  for Finance.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the payment of allowances to board members, which establishes a rule or provision."
+      }
     },
     {
       "id": "ministerial-directives",
       "index": 11,
       "title": "Ministerial directives",
-      "rawText": "12. The Minister may give directives to the Board on matters of policy.\n\n## Administration"
+      "rawText": "12. The Minister may give directives to the Board on matters of policy.\n\n## Administration",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Ministerial directives\" and the content preview \"The Minister may give directives to the Board on matters of policy\" clearly indicate a legal provision that grants power to the Minister. Therefore, the category is 'provision'."
+      }
     },
     {
       "id": "divisions-of-the-agency",
       "index": 12,
       "title": "Divisions of the Agency",
-      "rawText": "13. (1)  There shall be established the following divisions of the Agency for the purpose of its functions:\n\n            - (a) Artificial Intelligence Division\n\n            - (b) Blockchain-based technology Division\n\n            - (c) Internet of Things (IoT) Division\n\n            - (d) Cloud technology Division\n\n            - (e) Quantum computing Division\n\n(2)  The Board shall establish such other divisions of the Agency for the effective and efficient discharge of the functions of the Agency."
+      "rawText": "13. (1)  There shall be established the following divisions of the Agency for the purpose of its functions:\n\n            - (a) Artificial Intelligence Division\n\n            - (b) Blockchain-based technology Division\n\n            - (c) Internet of Things (IoT) Division\n\n            - (d) Cloud technology Division\n\n            - (e) Quantum computing Division\n\n(2)  The Board shall establish such other divisions of the Agency for the effective and efficient discharge of the functions of the Agency.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the establishment of divisions within an agency, which is a legal provision that establishes the structure and functions of the agency."
+      }
     },
     {
       "id": "appointment-of-chief-executive-officer",
       "index": 13,
       "title": "Appointment of Chief Executive Officer",
-      "rawText": "14. (1)   The President shall, in accordance with article 195 of the Constitution, appoint a Chief Executive Officer for the Agency.\n\n(2)   The Chief Executive Officer shall hold office on the terms and conditions specified in the letter of appointment.\n\n(3)  The Chief Executive Officer shall not be subject to suspension or dismissal by any Agency during his or her term.\n\n(4)   The Chief Executive Officer shall be a person of high moral character and integrity with the relevant professional qualifications and experience related to the functions of the Agency."
+      "rawText": "14. (1)   The President shall, in accordance with article 195 of the Constitution, appoint a Chief Executive Officer for the Agency.\n\n(2)   The Chief Executive Officer shall hold office on the terms and conditions specified in the letter of appointment.\n\n(3)  The Chief Executive Officer shall not be subject to suspension or dismissal by any Agency during his or her term.\n\n(4)   The Chief Executive Officer shall be a person of high moral character and integrity with the relevant professional qualifications and experience related to the functions of the Agency.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the process of appointing a Chief Executive Officer, specifying who makes the appointment and some terms of the appointment. This constitutes a legal provision."
+      }
     },
     {
       "id": "functions-of-the-chief-executive-officer",
       "index": 14,
       "title": "Functions of the Chief Executive Officer",
-      "rawText": "15. (1) The Chief Executive Officer is responsible for\n\n        - (a) the day-to-day administration of the affairs of the Agency and is answerable to the Board in the performance of functions under this Act, and\n\n        - (b) the implementation of the decisions of the Board.\n\n(2) The Chief Executive Officer shall perform any other functions determined by the Board.\n\n(3) The Chief Executive Officer may delegate a function to an officer of the Agency but shall not be relieved of the ultimate responsibility for the performance of the delegated function."
+      "rawText": "15. (1) The Chief Executive Officer is responsible for\n\n        - (a) the day-to-day administration of the affairs of the Agency and is answerable to the Board in the performance of functions under this Act, and\n\n        - (b) the implementation of the decisions of the Board.\n\n(2) The Chief Executive Officer shall perform any other functions determined by the Board.\n\n(3) The Chief Executive Officer may delegate a function to an officer of the Agency but shall not be relieved of the ultimate responsibility for the performance of the delegated function.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the responsibilities and functions of the Chief Executive Officer. This falls under establishing rules and functions, which is a provision."
+      }
     },
     {
       "id": "appointment-of-deputy-chief-executive-officer",
       "index": 15,
       "title": "Appointment of Deputy Chief Executive Officer",
-      "rawText": "16. (1) The President shall, in accordance with article 195 of the Constitution appoint a Deputy Chief Executive Officer for the Agency.\n\n(2) The Deputy Chief Executive Officer shall hold office on such terms and conditions as shall be specified in his letter of appointment.\n\n(3) The Deputy Chief Executive Officer shall be responsible to the Chief Executive Officer in the performance of his functions under this Act.\n\n(4) The Deputy Chief Executive Officer  shall, subject to the provisions of this Act\n\n          - (a) assist the Chief Executive Officer in the discharge of his functions and perform such other functions as the Director General may delegate to him; and\n\n          - (b) be  responsible  for  the  direction  of  the  Agency  when  the  Chief  Executive Officer is absent from Ghana or is otherwise unable to perform his functions."
+      "rawText": "16. (1) The President shall, in accordance with article 195 of the Constitution appoint a Deputy Chief Executive Officer for the Agency.\n\n(2) The Deputy Chief Executive Officer shall hold office on such terms and conditions as shall be specified in his letter of appointment.\n\n(3) The Deputy Chief Executive Officer shall be responsible to the Chief Executive Officer in the performance of his functions under this Act.\n\n(4) The Deputy Chief Executive Officer  shall, subject to the provisions of this Act\n\n          - (a) assist the Chief Executive Officer in the discharge of his functions and perform such other functions as the Director General may delegate to him; and\n\n          - (b) be  responsible  for  the  direction  of  the  Agency  when  the  Chief  Executive Officer is absent from Ghana or is otherwise unable to perform his functions.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the appointment and responsibilities of a Deputy Chief Executive Officer. This establishes a rule or function, so it's a provision."
+      }
     },
     {
       "id": "appointment-of-other-staff",
       "index": 16,
       "title": "Appointment of other staff",
-      "rawText": "17. (1) The President shall, in accordance with article 195 of the Constitution, appoint any other staff of the Agency that are necessary for the efficient and effective performance of the functions of the Agency.\n\n(2) Other public officers may be transferred or seconded to the Agency or may give assistance to the Agency.\n\n(3)   The Agency may, for the efficient and effective discharge of the functions of the Agency, engage the services of consultants and advisors on the recommendation of the Board.\n\nFinances of the Agency"
+      "rawText": "17. (1) The President shall, in accordance with article 195 of the Constitution, appoint any other staff of the Agency that are necessary for the efficient and effective performance of the functions of the Agency.\n\n(2) Other public officers may be transferred or seconded to the Agency or may give assistance to the Agency.\n\n(3)   The Agency may, for the efficient and effective discharge of the functions of the Agency, engage the services of consultants and advisors on the recommendation of the Board.\n\nFinances of the Agency",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the process of appointing staff to the agency. This is a legal provision that establishes how the agency will be staffed."
+      }
     },
     {
       "id": "funds-of-the-agency",
       "index": 17,
       "title": "Funds of the Agency",
-      "rawText": "18. The funds of the Agency include\n\n      - (a) moneys approved by Parliament;\n\n      - (b) grants and donations;\n\n      - (c) internally generated funds; and\n\n      - (d) any other moneys that are approved by the Minister responsible for Finance."
+      "rawText": "18. The funds of the Agency include\n\n      - (a) moneys approved by Parliament;\n\n      - (b) grants and donations;\n\n      - (c) internally generated funds; and\n\n      - (d) any other moneys that are approved by the Minister responsible for Finance.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the sources of funds for the agency. This is a provision that establishes how the agency will be funded."
+      }
     },
     {
       "id": "accounts-and-audit",
       "index": 18,
       "title": "Accounts and audit",
-      "rawText": "19. (1) The Board shall keep books of accounts and proper records in relation to them in the form approved by the Auditor-General.\n\n(2) The Board shall submit the accounts of the Agency to the Auditor-General for audit within three months after the end of the financial year.\n\n(3)  The  Auditor-General  shall,  not  later  than  three  months  after  the  receipt  of  the accounts, audit the accounts and forward a copy of the audit report to the Minister."
+      "rawText": "19. (1) The Board shall keep books of accounts and proper records in relation to them in the form approved by the Auditor-General.\n\n(2) The Board shall submit the accounts of the Agency to the Auditor-General for audit within three months after the end of the financial year.\n\n(3)  The  Auditor-General  shall,  not  later  than  three  months  after  the  receipt  of  the accounts, audit the accounts and forward a copy of the audit report to the Minister.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the requirements for maintaining accounts and auditing them. This falls under establishing rules and functions for the board, which is a provision."
+      }
     },
     {
       "id": "annual-report-and-other-reports",
       "index": 19,
       "title": "Annual report and other reports",
-      "rawText": "20. (1) The Board shall within one month after the receipt of the audit report, submit an annual report to the Minister covering the activities and the operations of the Agency for the year to which the report relates.\n\n(2)  The annual report shall include the report of the Auditor-General.\n\n(3)  The Minister shall, within one month after the receipt of the annual report, submit the report to Parliament with a statement that the Minister considers necessary.\n\n(4) The Board shall also submit to the Minister any other reports, which the Minister may require in writing.\n\n## General Guiding Principles"
+      "rawText": "20. (1) The Board shall within one month after the receipt of the audit report, submit an annual report to the Minister covering the activities and the operations of the Agency for the year to which the report relates.\n\n(2)  The annual report shall include the report of the Auditor-General.\n\n(3)  The Minister shall, within one month after the receipt of the annual report, submit the report to Parliament with a statement that the Minister considers necessary.\n\n(4) The Board shall also submit to the Minister any other reports, which the Minister may require in writing.\n\n## General Guiding Principles",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes the requirement for the Board to submit an annual report to the Minister, including the audit report and the Minister's subsequent submission to Parliament. This outlines a specific duty and process, which falls under the category of a provision."
+      }
     },
     {
       "id": "integrity-of-democratic-processes-and-the-rule-of-law",
       "index": 20,
       "title": "Integrity of democratic processes and the rule of law",
-      "rawText": "21. Emerging  technology  systems  shall  not  be  used  to  undermine  the  integrity, independence and effectiveness of elections and governance, democratic institutions and processes."
+      "rawText": "21. Emerging  technology  systems  shall  not  be  used  to  undermine  the  integrity, independence and effectiveness of elections and governance, democratic institutions and processes.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title and content both relate to the integrity of democratic processes and the rule of law. The content describes a restriction on the use of emerging technologies to undermine elections and governance. This is a legal provision."
+      }
     },
     {
       "id": "discrimination-and-bias",
       "index": 21,
       "title": "Discrimination and bias",
-      "rawText": "22. Emerging technology systems, shall not be used to perpetuate algorithmic biases, discriminations, and human biases, regardless of one's background or characteristics."
+      "rawText": "22. Emerging technology systems, shall not be used to perpetuate algorithmic biases, discriminations, and human biases, regardless of one's background or characteristics.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Discrimination and bias\" and the content preview discussing the use of emerging technology systems to perpetuate algorithmic biases and discriminations suggest that this section contains a legal provision establishing rules against discrimination."
+      }
     },
     {
       "id": "transparency-and-oversight",
       "index": 22,
       "title": "Transparency and oversight",
-      "rawText": "23. Emerging  technology  systems  shall  ensure  adequate  transparency  and  oversight requirements  tailored  to  the  specific  contexts  and  that  risks  are  in  place  in  respect  of activities within the lifecycle of emerging technology systems, including with regard to the identification of content generated by emerging technology systems."
+      "rawText": "23. Emerging  technology  systems  shall  ensure  adequate  transparency  and  oversight requirements  tailored  to  the  specific  contexts  and  that  risks  are  in  place  in  respect  of activities within the lifecycle of emerging technology systems, including with regard to the identification of content generated by emerging technology systems.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Transparency and oversight\" suggests a provision related to ensuring openness and accountability. The content preview further confirms this, as it discusses transparency and oversight requirements for emerging technology systems. Therefore, this section falls under the 'provision' category."
+      }
     },
     {
       "id": "personal-data-protection",
       "index": 23,
       "title": "Personal data protection",
-      "rawText": "24. Emerging  technology  systems  that  process  personal  data  shall  comply  with  the obligations under the Data Protection Act."
+      "rawText": "24. Emerging  technology  systems  that  process  personal  data  shall  comply  with  the obligations under the Data Protection Act.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Personal data protection\" and the content preview discussing compliance with the Data Protection Act indicate that this section contains legal provisions related to data protection. Therefore, it falls under the 'provision' category."
+      }
     },
     {
       "id": "consumer-protection",
       "index": 24,
       "title": "Consumer protection",
-      "rawText": "25. Any person supplying a product or service involving emerging technology shall give consumers  clear  and  unambiguous  warnings,  labelling  and  opportunities  to  give  or withhold informed consent."
+      "rawText": "25. Any person supplying a product or service involving emerging technology shall give consumers  clear  and  unambiguous  warnings,  labelling  and  opportunities  to  give  or withhold informed consent.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Consumer protection\" and the content preview describing requirements for suppliers of products/services involving emerging technology clearly indicate a legal provision establishing rules and obligations."
+      }
     },
     {
       "id": "accountability-and-responsibility",
       "index": 25,
       "title": "Accountability and responsibility",
-      "rawText": "26. Emerging technology system should provide accountability and responsibility for adverse impacts on human rights, democracy and the rule of law resulting from activities within the lifecycle of emerging technology systems."
+      "rawText": "26. Emerging technology system should provide accountability and responsibility for adverse impacts on human rights, democracy and the rule of law resulting from activities within the lifecycle of emerging technology systems.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Accountability and responsibility\" and the content preview discussing accountability for adverse impacts of emerging technology systems suggest that this section establishes a requirement or rule. Therefore, it falls under the 'provision' category."
+      }
     },
     {
       "id": "reliability",
       "index": 26,
       "title": "Reliability",
-      "rawText": "27. Emerging technology systems should be robust and reliable, meaning they should be able to handle unexpected inputs, errors, and malicious attacks, through rigorous testing, monitoring,  and  safeguards  to  ensure  the  safety  and  security  of  emerging  technology systems."
+      "rawText": "27. Emerging technology systems should be robust and reliable, meaning they should be able to handle unexpected inputs, errors, and malicious attacks, through rigorous testing, monitoring,  and  safeguards  to  ensure  the  safety  and  security  of  emerging  technology systems.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section discusses the robustness and reliability of emerging technology systems, outlining requirements for handling unexpected inputs, errors, and attacks. This falls under establishing rules and safeguards, which is a provision."
+      }
     },
     {
       "id": "risk-and-impact-management",
       "index": 27,
       "title": "Risk and impact management",
-      "rawText": "28. Emerging technology systems must adopt or maintain measures for the identification, assessment, prevention and mitigation of risks  posed  by  emerging technology  systems  by  considering  actual  and  potential  impacts  to  human  rights, democracy and the rule of law."
+      "rawText": "28. Emerging technology systems must adopt or maintain measures for the identification, assessment, prevention and mitigation of risks  posed  by  emerging technology  systems  by  considering  actual  and  potential  impacts  to  human  rights, democracy and the rule of law.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section describes requirements for managing risks associated with emerging technology systems. This falls under establishing rules and requirements, which is a provision."
+      }
     },
     {
       "id": "human-oversights",
       "index": 28,
       "title": "Human oversights",
-      "rawText": "29. Human intervention, interface or review shall be necessary for emerging technology decisions  that  substantially  affect  the  rights  of  persons,  including  decisions  related  to health, law enforcement, employment and elections."
+      "rawText": "29. Human intervention, interface or review shall be necessary for emerging technology decisions  that  substantially  affect  the  rights  of  persons,  including  decisions  related  to health, law enforcement, employment and elections.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Human oversights\" and the content preview discussing the necessity of human intervention in technology decisions that affect rights of persons clearly indicate a legal provision establishing a rule or requirement."
+      }
     },
     {
       "id": "misinformation-and-disinformation",
       "index": 29,
       "title": "Misinformation and disinformation",
-      "rawText": "30. Emerging technology systems shall not spread false information including emerging technology-generated misinformation and disinformation."
+      "rawText": "30. Emerging technology systems shall not spread false information including emerging technology-generated misinformation and disinformation.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Misinformation and disinformation\" combined with the content preview \"Emerging technology systems shall not spread false information\" clearly indicates a legal provision establishing a rule against spreading false information."
+      }
     },
     {
       "id": "security",
       "index": 30,
       "title": "Security",
-      "rawText": "31. Emerging technology systems should provide robust security protection of its cyber system."
+      "rawText": "31. Emerging technology systems should provide robust security protection of its cyber system.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Security\" and the content preview suggest that this section contains a rule or requirement related to the security of emerging technology systems. This falls under the category of a legal provision."
+      }
     },
     {
       "id": "environmental-safeguards",
       "index": 31,
       "title": "Environmental safeguards",
-      "rawText": "- Developers of emerging technology systems, particularly those requiring extensive energy  consumption  and  likelihood  of  increased  carbon-dioxide  emissions,  leading  to massive introduction of electronic waste should ensure environmental safeguards."
+      "rawText": "- Developers of emerging technology systems, particularly those requiring extensive energy  consumption  and  likelihood  of  increased  carbon-dioxide  emissions,  leading  to massive introduction of electronic waste should ensure environmental safeguards.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Environmental safeguards\" and the content preview suggest that this section contains rules or requirements related to environmental protection for developers of emerging technologies. This falls under the category of legal provisions."
+      }
     },
     {
       "id": "intellectual-property",
       "index": 32,
       "title": "Intellectual Property",
-      "rawText": "- Developers of emerging technology and emerging technology systems should be entitled to intellectual property rights in accordance with the existing laws."
+      "rawText": "- Developers of emerging technology and emerging technology systems should be entitled to intellectual property rights in accordance with the existing laws.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section discusses intellectual property rights for developers of emerging technology. This is a legal provision that establishes a right."
+      }
     },
     {
       "id": "right-to-redress",
       "index": 33,
       "title": "Right to Redress",
-      "rawText": "- Notwithstanding section 35(2), a person shall have a right of redress for breach of any provision of this Act in Court.\n\n## Miscellaneous"
+      "rawText": "- Notwithstanding section 35(2), a person shall have a right of redress for breach of any provision of this Act in Court.\n\n## Miscellaneous",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Right to Redress\" and the content describing the right to redress for breach of the Act clearly indicate a legal provision."
+      }
     },
     {
       "id": "enforcement",
       "index": 34,
       "title": "Enforcement",
-      "rawText": "35. (1) For the time being and until such time as the Minister may direct, the following regulatory bodies shall monitor and enforce compliance in accordance with the general guiding principles and subsection (2):\n\n          - (a) the Electoral Commission of Ghana shall be responsible for section 20;\n\n          - (b) the  Commission  on  Human  Rights  and  Administrative  Justice  shall  be responsible for section 21, and where appropriate, the Ministry in charge of labour affairs or the National Labour Commission shall be responsible for section 21;\n\n          - (c) the National Information Technology Agency shall be responsible for section 22;\n\n          - (d) the Data Protection Authority shall be responsible for section 23;\n\n          - (e) the  Ghana  Standards  Authority,  Foods  and  Drugs  Authority  shall  be responsible  for  section  24,  and  depending  on  the  sector,  the  applicable regulatory body shall also be responsible for section 24;\n\n          - (f) the  Commission  on  Human  Rights  and  Administrative  Justice  shall  be responsible for section 25;\n\n          - (g) the National Information Technology Agency shall be responsible for section 26;\n\n          - (h) the Cybersecurity Authority shall be responsible for section 27;\n\n          - (i) depending on the sector, the applicable ministry or regulatory body shall also be responsible for section 28;\n\n          - (j) the  National  Communications  Authority,  Ghana  Standards  Authority  and Foods  and  Drugs  Authority  and  Data  Protection Authority shall be responsible  for  section  29,  and  depending  on  the  sector,  the  applicable regulatory body, shall also be responsible for section 29;\n\n          - (k) the Cybersecurity Authority shall be responsible for section 30;\n\n          - (l) the Environmental Protection Agency shall be responsible for section 31; and\n\n          - (m) the Registrar General's Department, Ghana Patent Registry and the Copyright Office shall be responsible for section 32.\n\n(2) Without prejudice to other penalties under any other enactment or law, a person who  breaches  any  of  the  guiding  principles  under  this  Act  shall  be  liable  to  an administrative penalty of not less than one thousand penalty units and not more than five thousand penalty units, depending on the severity of the infraction."
+      "rawText": "35. (1) For the time being and until such time as the Minister may direct, the following regulatory bodies shall monitor and enforce compliance in accordance with the general guiding principles and subsection (2):\n\n          - (a) the Electoral Commission of Ghana shall be responsible for section 20;\n\n          - (b) the  Commission  on  Human  Rights  and  Administrative  Justice  shall  be responsible for section 21, and where appropriate, the Ministry in charge of labour affairs or the National Labour Commission shall be responsible for section 21;\n\n          - (c) the National Information Technology Agency shall be responsible for section 22;\n\n          - (d) the Data Protection Authority shall be responsible for section 23;\n\n          - (e) the  Ghana  Standards  Authority,  Foods  and  Drugs  Authority  shall  be responsible  for  section  24,  and  depending  on  the  sector,  the  applicable regulatory body shall also be responsible for section 24;\n\n          - (f) the  Commission  on  Human  Rights  and  Administrative  Justice  shall  be responsible for section 25;\n\n          - (g) the National Information Technology Agency shall be responsible for section 26;\n\n          - (h) the Cybersecurity Authority shall be responsible for section 27;\n\n          - (i) depending on the sector, the applicable ministry or regulatory body shall also be responsible for section 28;\n\n          - (j) the  National  Communications  Authority,  Ghana  Standards  Authority  and Foods  and  Drugs  Authority  and  Data  Protection Authority shall be responsible  for  section  29,  and  depending  on  the  sector,  the  applicable regulatory body, shall also be responsible for section 29;\n\n          - (k) the Cybersecurity Authority shall be responsible for section 30;\n\n          - (l) the Environmental Protection Agency shall be responsible for section 31; and\n\n          - (m) the Registrar General's Department, Ghana Patent Registry and the Copyright Office shall be responsible for section 32.\n\n(2) Without prejudice to other penalties under any other enactment or law, a person who  breaches  any  of  the  guiding  principles  under  this  Act  shall  be  liable  to  an administrative penalty of not less than one thousand penalty units and not more than five thousand penalty units, depending on the severity of the infraction.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Enforcement\" suggests that the content will describe how the provisions of the bill will be enforced. The content preview confirms this, as it discusses which regulatory bodies will monitor and enforce compliance. Therefore, this section falls under the \"provision\" category."
+      }
     },
     {
       "id": "regulations",
       "index": 35,
       "title": "Regulations",
-      "rawText": "- The Minister may, by legislative instrument, make Regulations:\n\n          - (a) on  specific  matters  relating  to  enforcement  and  compliance  of  the  general guiding principles;\n\n- (b) on specific measures related to penalties for breach of the Act;\n\n- (c) to prescribe the procedure for collaboration with other public institutions;\n\n- (d) to prescribe matters related to administrative decision-making;\n\n- (e) on codes of practice;\n\n          - (f) generally, on matters for the effective implementation of the Act."
+      "rawText": "- The Minister may, by legislative instrument, make Regulations:\n\n          - (a) on  specific  matters  relating  to  enforcement  and  compliance  of  the  general guiding principles;\n\n- (b) on specific measures related to penalties for breach of the Act;\n\n- (c) to prescribe the procedure for collaboration with other public institutions;\n\n- (d) to prescribe matters related to administrative decision-making;\n\n- (e) on codes of practice;\n\n          - (f) generally, on matters for the effective implementation of the Act.",
+      "category": {
+        "type": "provision",
+        "reasoning": "The section title \"Regulations\" and the content preview describing the Minister's power to make regulations on specific matters related to the Act clearly indicate that this section contains legal provisions."
+      }
     },
     {
       "id": "interpretation",
       "index": 36,
       "title": "Interpretation",
-      "rawText": "## 37. In this Act, unless the context otherwise requires,\n\n'algorithm' means a set of instructions designed to accomplish a task;\n\n'artificial intelligence' means technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision-making, creativity and autonomy;\n\n'block -chain based technology' means an advanced decentralised digital record or digital ledger of transactions, that enables recording of transactions, tracking of assets, and sharing of records across computer networks in a transparent and immutable way;\n\n'Court' means High Court of Ghana;\n\n'cloud  technology'  means  technology  that  delivers  computing  services  and  offers  on -demand  access  to  computing  resources  such  as  physical  or  virtual  services,  data\n\nstorage, servers, databases, networking, intelligence, analytics, and software over the internet;'\n\n- 'emerging  technology'  means  novel  or  evolving  systems,  tools  or  methods  that  have transformative impacts ndustry, society, economy, and governance, and include but is not limited to:\n\n        - (a) Artificial Intelligence\n\n        - (b) Blockchain-based technology\n\n        - (c) Internet of Things (IoT)\n\n        - (d) Cloud technology\n\n        - (e) Quantum computing\n\n  - 'emerging technology systems' means newly developed or evolving technological systems of emerging technology that integrate automation, data processing, connectivity, and intelligence.\n\n- 'Internet  of  Things  (IoT)'  means  a  network  of  interrelated  physical  devices,  vehicles, appliances  and  other  physical  objects  that  connect  and  exchange  data  with  other devices  and  the  cloud  across  wireless  networks,  and  are  typically  embedded  with sensors,  processing  ability  and  software  and  can  include  mechanical  and  digital machines and consumer objects;'\n\n'Minister'  means  Minister  responsible  for  Communication,  Digital  Technology  and Innovations;\n\n'Ministry' means Ministry of Communication, Digital Technology and Innovations;\n\n- 'quantum  computing'  means  technology  that  solves  complex  problems  based  on principles of quantum mechanics."
+      "rawText": "## 37. In this Act, unless the context otherwise requires,\n\n'algorithm' means a set of instructions designed to accomplish a task;\n\n'artificial intelligence' means technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision-making, creativity and autonomy;\n\n'block -chain based technology' means an advanced decentralised digital record or digital ledger of transactions, that enables recording of transactions, tracking of assets, and sharing of records across computer networks in a transparent and immutable way;\n\n'Court' means High Court of Ghana;\n\n'cloud  technology'  means  technology  that  delivers  computing  services  and  offers  on -demand  access  to  computing  resources  such  as  physical  or  virtual  services,  data\n\nstorage, servers, databases, networking, intelligence, analytics, and software over the internet;'\n\n- 'emerging  technology'  means  novel  or  evolving  systems,  tools  or  methods  that  have transformative impacts ndustry, society, economy, and governance, and include but is not limited to:\n\n        - (a) Artificial Intelligence\n\n        - (b) Blockchain-based technology\n\n        - (c) Internet of Things (IoT)\n\n        - (d) Cloud technology\n\n        - (e) Quantum computing\n\n  - 'emerging technology systems' means newly developed or evolving technological systems of emerging technology that integrate automation, data processing, connectivity, and intelligence.\n\n- 'Internet  of  Things  (IoT)'  means  a  network  of  interrelated  physical  devices,  vehicles, appliances  and  other  physical  objects  that  connect  and  exchange  data  with  other devices  and  the  cloud  across  wireless  networks,  and  are  typically  embedded  with sensors,  processing  ability  and  software  and  can  include  mechanical  and  digital machines and consumer objects;'\n\n'Minister'  means  Minister  responsible  for  Communication,  Digital  Technology  and Innovations;\n\n'Ministry' means Ministry of Communication, Digital Technology and Innovations;\n\n- 'quantum  computing'  means  technology  that  solves  complex  problems  based  on principles of quantum mechanics.",
+      "category": {
+        "type": "provision",
+        "reasoning": "This section defines terms used within the bill. This falls under the category of provisions as it establishes the meaning of specific words and phrases for the purpose of the law."
+      }
     }
   ]
 }
