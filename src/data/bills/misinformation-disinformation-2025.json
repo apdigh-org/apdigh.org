@@ -1,0 +1,41 @@
+{
+  "id": "misinformation-disinformation-2025",
+  "title": "Misinformation, Disinformation, and Hate Speech Bill",
+  "status": "draft",
+  "priority": "urgent",
+  "categories": ["Media", "Rights", "Technology"],
+  "summary": "This bill aims to regulate online content, particularly addressing misinformation, disinformation, and hate speech on digital platforms. It introduces new obligations for social media companies, content creators, and platform operators operating in Ghana.",
+  "impacts": {
+    "innovation": {
+      "score": "medium-negative",
+      "description": "Compliance requirements for content moderation may discourage new social platforms from entering the Ghanaian market. User-generated content platforms face increased liability."
+    },
+    "freedomOfSpeech": {
+      "score": "high-negative",
+      "description": "Vague definitions of \"misinformation\" and \"disinformation\" create risks of legitimate speech being censored. Lack of clear appeal mechanisms is problematic."
+    },
+    "privacy": {
+      "score": "medium-negative",
+      "description": "Content verification requirements may necessitate increased user identification and tracking, reducing online anonymity."
+    },
+    "business": {
+      "score": "medium-negative",
+      "description": "Platform operators will face significant content moderation costs. Liability provisions may force smaller platforms to exit the market."
+    }
+  },
+  "keyConcerns": [],
+  "provisions": [],
+  "notebookLMVideo": {
+    "url": "#",
+    "duration": "15:22"
+  },
+  "deadline": "2025-11-30",
+  "submissionMethod": "Online form at parliament.gh/submissions",
+  "relatedBills": [
+    {
+      "id": "cybersecurity-amendment-2025",
+      "title": "Cybersecurity (Amendment) Draft Bill 2025",
+      "relationship": "Overlaps on content regulation"
+    }
+  ]
+}
