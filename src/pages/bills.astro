@@ -84,27 +84,41 @@ function renderSummary(summary: string, maxLength: number = 300): string {
         <div id="bills-grid" class="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {bills.map((bill) => (
             <article
-              class="bill-card bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-[var(--color-primary)] hover:shadow-lg transition-all duration-300 flex flex-col"
+              class="bill-card bg-white border-2 border-gray-200 rounded-xl overflow-hidden hover:border-[var(--color-primary)] hover:shadow-lg transition-all duration-300 flex flex-col"
               data-title={bill.title.toLowerCase()}
               data-summary={bill.summary.toLowerCase()}
             >
-              <!-- Title -->
-              <h2 class="text-2xl font-bold text-black mb-3 hover:text-[var(--color-primary)] transition-colors">
-                <a href={`/bills/${bill.id}`}>{bill.title}</a>
-              </h2>
+              <!-- OG Image -->
+              <a href={`/bills/${bill.id}`} class="block">
+                <img
+                  src={`/images/og/${bill.id}.png`}
+                  alt={`${bill.title} - Impact Analysis`}
+                  class="w-full h-auto"
+                  width="1200"
+                  height="630"
+                  loading="lazy"
+                />
+              </a>
 
-              <!-- Summary -->
-              <div class="text-gray-900 font-medium leading-relaxed mb-4 flex-grow prose prose-sm max-w-none" set:html={renderSummary(bill.summary)} />
+              <div class="p-6 flex flex-col flex-grow">
+                <!-- Title -->
+                <h2 class="text-2xl font-bold text-black mb-3 hover:text-[var(--color-primary)] transition-colors">
+                  <a href={`/bills/${bill.id}`}>{bill.title}</a>
+                </h2>
 
-              <!-- Actions -->
-              <div class="pt-4 border-t border-gray-200">
-                <a
-                  href={`/bills/${bill.id}`}
-                  class="w-full inline-flex items-center justify-center gap-2 px-4 py-3 bg-[var(--color-primary)] text-white font-semibold rounded-lg hover:bg-[#1E5A5A] transition-colors"
-                >
-                  <i class="ti ti-file-text"></i>
-                  Read Analysis
-                </a>
+                <!-- Summary -->
+                <div class="text-gray-900 font-medium leading-relaxed mb-4 flex-grow prose prose-sm max-w-none" set:html={renderSummary(bill.summary)} />
+
+                <!-- Actions -->
+                <div class="pt-4 border-t border-gray-200">
+                  <a
+                    href={`/bills/${bill.id}`}
+                    class="w-full inline-flex items-center justify-center gap-2 px-4 py-3 bg-[var(--color-primary)] text-white font-semibold rounded-lg hover:bg-[#1E5A5A] transition-colors"
+                  >
+                    <i class="ti ti-file-text"></i>
+                    Read Analysis
+                  </a>
+                </div>
               </div>
             </article>
           ))}
