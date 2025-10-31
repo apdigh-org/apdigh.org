@@ -5,6 +5,7 @@ import Footer from '../../components/layout/Footer.astro';
 import { SITE } from '../../constants/site';
 import { IMPACT_CATEGORIES, getImpactName, type ImpactKey } from '../../constants/impacts';
 import { getAllBills } from '../../utils/bills';
+import { getBillOGImage } from '../../utils/seo';
 import { marked } from 'marked';
 
 // Generate static paths for all bills from JSON files
@@ -214,6 +215,7 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
 <BaseLayout
   title={`${bill.title} | Impact Analysis & Key Concerns`}
   description={metaDescription}
+  ogImage={getBillOGImage(bill.id)}
   ogType="article"
   canonicalURL={`https://apdigh.org/bills/${bill.id}`}
 >

@@ -30,6 +30,10 @@ export function generateSEO(props: SEOProps) {
   };
 }
 
+export function getBillOGImage(billId: string): string {
+  return `/images/og/${billId}.png`;
+}
+
 export function truncateDescription(text: string, maxLength: number = 160): string {
   if (text.length <= maxLength) return text;
 

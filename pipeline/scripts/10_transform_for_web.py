@@ -13,6 +13,7 @@ import sys
 from pathlib import Path
 import re
 import shutil
+import subprocess
 from shared import TOPICS, slugify
 
 
@@ -148,6 +149,258 @@ def transform_bill(bill_data: dict, filename: str) -> dict:
     return web_bill
 
 
+def generate_og_image_svg(web_bill: dict) -> str:
+    """Generate SVG for Open Graph image using og-default.svg template.
+
+    Args:
+        web_bill: Transformed bill data
+
+    Returns:
+        SVG string for OG image (1200x630px)
+    """
+    import html
+    title = html.escape(web_bill['title'])
+
+    # Split title into multiple lines with max width constraint (900px at 64px font ≈ 35 chars)
+    # Using character-based wrapping for precise width control
+    max_chars_per_line = 35
+    words = title.split()
+    lines = []
+    current_line = ''
+
+    for word in words:
+        test_line = (current_line + ' ' + word).strip() if current_line else word
+        if len(test_line) <= max_chars_per_line:
+            current_line = test_line
+        else:
+            if current_line:
+                lines.append(current_line)
+            # Handle single words longer than max
+            if len(word) > max_chars_per_line:
+                lines.append(word[:max_chars_per_line - 3] + '...')
+                current_line = ''
+            else:
+                current_line = word
+
+    if current_line:
+        lines.append(current_line)
+
+    # Limit to 2 lines max to keep layout clean
+    if len(lines) > 2:
+        lines = lines[:2]
+        lines[-1] = lines[-1][:max_chars_per_line - 3] + '...'
+
+    # Generate title tspans (centered with proper line spacing)
+    title_tspans = ''
+    for i, line in enumerate(lines):
+        dy = '0' if i == 0 else '70'
+        title_tspans += f'<tspan x="600" dy="{dy}">{line}</tspan>'
+
+    # Get top 4 impacts by severity
+    IMPACT_CATEGORIES = {
+        'innovation': {'name': 'Innovation', 'icon': 'bulb'},
+        'freedomOfSpeech': {'name': 'Free Speech', 'icon': 'speakerphone'},
+        'privacy': {'name': 'Privacy', 'icon': 'shield-lock'},
+        'business': {'name': 'Business', 'icon': 'briefcase'},
+    }
+
+    impact_colors = {
+        'severe-negative': '#DC2626',
+        'high-negative': '#EA580C',
+        'medium-negative': '#F59E0B',
+        'low-negative': '#EAB308',
+        'neutral': '#6B7280',
+        'low-positive': '#3B82F6',
+        'medium-positive': '#10B981',
+        'high-positive': '#059669',
+        'severe-positive': '#16A34A',
+    }
+
+    impacts = []
+    for key, impact_data in web_bill.get('impacts', {}).items():
+        if impact_data.get('score'):
+            category = IMPACT_CATEGORIES.get(key, {})
+            impacts.append({
+                'key': key,
+                'name': category.get('name', key),
+                'icon': category.get('icon', 'alert-circle'),
+                'score': impact_data.get('score', 'neutral')
+            })
+
+    # Sort by severity
+    severity_order = ['severe-negative', 'high-negative', 'medium-negative', 'low-negative',
+                     'neutral', 'low-positive', 'medium-positive', 'high-positive', 'severe-positive']
+    impacts.sort(key=lambda x: severity_order.index(x['score']))
+
+    # Take top 4 impacts
+    top_impacts = impacts[:4]
+
+    # Generate 2x2 grid of impact cards (centered)
+    impact_cards = ''
+    card_width = 250
+    card_height = 90
+    gap = 30
+    total_width = (card_width * 2) + gap
+    start_x = (1200 - total_width) // 2
+    start_y = 300
+
+    positions = [
+        (start_x, start_y),
+        (start_x + card_width + gap, start_y),
+        (start_x, start_y + card_height + gap),
+        (start_x + card_width + gap, start_y + card_height + gap)
+    ]
+
+    for i, impact in enumerate(top_impacts):
+        if i >= 4:
+            break
+        x, y = positions[i]
+        color = impact_colors.get(impact['score'], '#6B7280')
+        name = html.escape(impact['name'])
+
+        # Shorten name if too long
+        if len(name) > 12:
+            name = name[:10] + '...'
+
+        # Format impact severity label
+        score_map = {
+            'severe-negative': 'SEVERE IMPACT',
+            'high-negative': 'HIGH IMPACT',
+            'medium-negative': 'MEDIUM IMPACT',
+            'low-negative': 'LOW IMPACT',
+            'neutral': 'NEUTRAL',
+            'low-positive': 'LOW BENEFIT',
+            'medium-positive': 'MEDIUM BENEFIT',
+            'high-positive': 'HIGH BENEFIT',
+            'severe-positive': 'MAJOR BENEFIT',
+        }
+        score_label = score_map.get(impact['score'], impact['score'].upper())
+
+        impact_cards += f'''
+  <g transform="translate({x}, {y})">
+    <rect x="0" y="0" width="{card_width}" height="{card_height}" rx="8" fill="{color}" opacity="0.15"/>
+    <rect x="0" y="0" width="{card_width}" height="{card_height}" rx="8" fill="none" stroke="{color}" stroke-width="2"/>
+    <text x="{card_width // 2}" y="35" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="{color}" text-anchor="middle">{name}</text>
+    <text x="{card_width // 2}" y="70" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="{color}" text-anchor="middle" opacity="0.8">{score_label}</text>
+  </g>'''
+
+    # Modified template: large shield watermark, centered title, impact grid
+    return f'''<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#FDFAF6"/>
+
+  <!-- Ghana flag stripe at top -->
+  <rect x="0" y="0" width="400" height="8" fill="#CE1126"/>
+  <rect x="400" y="0" width="400" height="8" fill="#FCD116"/>
+  <rect x="800" y="0" width="400" height="8" fill="#006B3F"/>
+
+  <!-- Main content area with subtle border -->
+  <rect x="60" y="80" width="1080" height="470" fill="white" stroke="#E5E7EB" stroke-width="2" rx="12"/>
+
+  <!-- APDI Logo/Shield as watermark (huge, centered) -->
+  <g transform="translate(40, -40) scale(28)" opacity="0.08">
+    <path d="M20 2L4 10V18C4 27.94 10.84 37.14 20 39C29.16 37.14 36 27.94 36 18V10L20 2Z"
+          fill="none" stroke="#2A8181" stroke-width="2.5"/>
+    <circle cx="20" cy="20" r="2.5" fill="#2A8181"/>
+    <line x1="20" y1="17.5" x2="20" y2="13" stroke="#2A8181" stroke-width="2"/>
+    <line x1="20" y1="22.5" x2="20" y2="27" stroke="#2A8181" stroke-width="2"/>
+    <line x1="17.5" y1="20" x2="13" y2="20" stroke="#2A8181" stroke-width="2"/>
+    <line x1="22.5" y1="20" x2="27" y2="20" stroke="#2A8181" stroke-width="2"/>
+  </g>
+
+  <!-- Bill Title (larger, centered, bold) -->
+  <text x="600" y="200" font-family="Inter, system-ui, sans-serif" font-size="64" font-weight="700" fill="#111827" text-anchor="middle">
+    {title_tspans}
+  </text>
+
+  <!-- URL at bottom -->
+  <text x="100" y="500" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="600" fill="#2A8181">
+    apdigh.org
+  </text>
+
+  <!-- Impact indicators (2x2 grid) -->
+  {impact_cards}
+</svg>'''
+
+
+def convert_svg_to_png(svg_path: Path, png_path: Path) -> bool:
+    """Convert SVG to PNG using rsvg-convert or ImageMagick fallback.
+
+    Args:
+        svg_path: Input SVG file
+        png_path: Output PNG file
+
+    Returns:
+        True if successful, False otherwise
+    """
+    # Try rsvg-convert first (best quality)
+    try:
+        cmd = ['rsvg-convert', '-w', '1200', '-h', '630', '-o', str(png_path), str(svg_path)]
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        if result.returncode == 0 and png_path.exists():
+            return True
+    except FileNotFoundError:
+        pass
+
+    # Fallback to ImageMagick (magick)
+    try:
+        cmd = ['magick', str(svg_path), '-resize', '1200x630', str(png_path)]
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        if result.returncode == 0 and png_path.exists():
+            return True
+    except FileNotFoundError:
+        pass
+
+    # Fallback to ImageMagick 6 (convert)
+    try:
+        cmd = ['convert', str(svg_path), '-resize', '1200x630', str(png_path)]
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        if result.returncode == 0 and png_path.exists():
+            return True
+    except FileNotFoundError:
+        pass
+
+    # No converter found
+    print("  ⚠ Warning: No SVG converter found. Install one to generate PNG OG images.")
+    print("     macOS: brew install librsvg  (or brew install imagemagick)")
+    print("     Ubuntu: sudo apt-get install librsvg2-bin  (or imagemagick)")
+    return False
+
+
+def generate_og_image(web_bill: dict, bill_id: str, project_root: Path):
+    """Generate Open Graph image for the bill.
+
+    Args:
+        web_bill: Transformed bill data
+        bill_id: Bill slug ID
+        project_root: Project root directory
+    """
+    try:
+        # Create output directory
+        og_dir = project_root / 'public' / 'images' / 'og'
+        og_dir.mkdir(parents=True, exist_ok=True)
+
+        # Generate SVG
+        svg_content = generate_og_image_svg(web_bill)
+        svg_path = og_dir / f"{bill_id}.svg"
+
+        with open(svg_path, 'w', encoding='utf-8') as f:
+            f.write(svg_content)
+
+        print(f"✓ Generated OG SVG: {svg_path.relative_to(project_root)}")
+
+        # Convert to PNG
+        png_path = og_dir / f"{bill_id}.png"
+        if convert_svg_to_png(svg_path, png_path):
+            size_kb = png_path.stat().st_size // 1024
+            print(f"✓ Converted to PNG: {png_path.relative_to(project_root)} ({size_kb}KB)")
+        else:
+            print(f"  ⚠ PNG conversion failed, but SVG is available")
+
+    except Exception as e:
+        print(f"  ⚠ Warning: Could not generate OG image: {e}")
+
+
 def process_bill(json_path: Path, web_app_dir: Path, dry_run: bool = False):
     """Transform and copy a bill to the web app.
 
@@ -208,6 +461,9 @@ def process_bill(json_path: Path, web_app_dir: Path, dry_run: bool = False):
 
     print(f"✓ Saved to: {output_path.relative_to(web_app_dir.parent.parent.parent)}")
 
+    # Get project root
+    project_root = web_app_dir.parent.parent.parent
+
     # Copy PDF to public directory if available
     if web_bill.get('pdfPath'):
         pdf_filename = json_path.stem + '.pdf'
@@ -215,7 +471,6 @@ def process_bill(json_path: Path, web_app_dir: Path, dry_run: bool = False):
 
         if source_pdf.exists():
             # Create public/pdfs directory if it doesn't exist
-            project_root = web_app_dir.parent.parent.parent
             public_pdfs_dir = project_root / 'public' / 'pdfs'
             public_pdfs_dir.mkdir(parents=True, exist_ok=True)
 
@@ -224,6 +479,9 @@ def process_bill(json_path: Path, web_app_dir: Path, dry_run: bool = False):
             print(f"✓ Copied PDF to: {dest_pdf.relative_to(project_root)}")
         else:
             print(f"⚠ Warning: PDF not found at {source_pdf}")
+
+    # Generate Open Graph image
+    generate_og_image(web_bill, bill_id, project_root)
 
 
 def main():
