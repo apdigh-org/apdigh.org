@@ -184,23 +184,6 @@
         "repeals-and-savings"
       ]
     },
-    "freedomOfSpeech": {
-      "score": "neutral",
-      "description": null,
-      "relatedProvisions": [
-        "object-of-the-company",
-        "digital-inclusion-and-accessibility",
-        "multi-stakeholder-advisory-forum",
-        "power-of-an-inspector",
-        "obstruction-of-an-inspector",
-        "enforcement-powers-of-the-authority",
-        "other-enforcement-measures",
-        "interference-with-technical-clearance",
-        "publication-of-notices-and-directives",
-        "public-engagement",
-        "regulations"
-      ]
-    },
     "privacy": {
       "score": "neutral",
       "description": null,
@@ -229,6 +212,23 @@
         "obstruction-of-compliance-reviews",
         "administrative-penalty",
         "other-offences",
+        "regulations"
+      ]
+    },
+    "freedomOfSpeech": {
+      "score": "neutral",
+      "description": null,
+      "relatedProvisions": [
+        "object-of-the-company",
+        "digital-inclusion-and-accessibility",
+        "multi-stakeholder-advisory-forum",
+        "power-of-an-inspector",
+        "obstruction-of-an-inspector",
+        "enforcement-powers-of-the-authority",
+        "other-enforcement-measures",
+        "interference-with-technical-clearance",
+        "publication-of-notices-and-directives",
+        "public-engagement",
         "regulations"
       ]
     }

@@ -59,14 +59,6 @@
         "transitional-provisions"
       ]
     },
-    "freedomOfSpeech": {
-      "score": "neutral",
-      "description": null,
-      "relatedProvisions": [
-        "requirement-for-licence-to-operate",
-        "confidentiality"
-      ]
-    },
     "privacy": {
       "score": "neutral",
       "description": null,
@@ -78,6 +70,14 @@
         "confidentiality",
         "power-to-enter-land-or-premises",
         "interpretation"
+      ]
+    },
+    "freedomOfSpeech": {
+      "score": "neutral",
+      "description": null,
+      "relatedProvisions": [
+        "requirement-for-licence-to-operate",
+        "confidentiality"
       ]
     }
   },

@@ -67,14 +67,6 @@ def transform_bill(bill_data: dict, filename: str) -> dict:
                 'relatedProvisions': []  # Will be populated from provisions
             }
 
-    # Initialize a separate dict to collect provisions for ALL categories (even those without analyses)
-    all_category_provisions = {
-        'innovation': [],
-        'freedomOfSpeech': [],
-        'privacy': [],
-        'business': []
-    }
-
     # Transform provisions
     provisions = []
     sections = bill_data.get('sections', [])
@@ -96,14 +88,16 @@ def transform_bill(bill_data: dict, filename: str) -> dict:
                     impact_key = topic_to_key.get(topic, slugify(topic))
                     related_impacts.append(impact_key)
 
-                    # Add to impact's related provisions (for categories with analyses)
-                    if impact_key in impacts:
-                        if 'relatedProvisions' not in impacts[impact_key]:
-                            impacts[impact_key]['relatedProvisions'] = []
-                        impacts[impact_key]['relatedProvisions'].append(provision_id)
-                    # Collect for categories WITHOUT analyses (for potential linking)
-                    elif impact_key in all_category_provisions:
-                        all_category_provisions[impact_key].append(provision_id)
+                    # Ensure this impact category exists in impacts dict
+                    if impact_key not in impacts:
+                        impacts[impact_key] = {
+                            'score': 'neutral',
+                            'description': None,
+                            'relatedProvisions': []
+                        }
+
+                    # Add this provision to the impact's related provisions list
+                    impacts[impact_key]['relatedProvisions'].append(provision_id)
 
         provisions.append({
             'id': provision_id,
@@ -132,17 +126,6 @@ def transform_bill(bill_data: dict, filename: str) -> dict:
 
     # Get PDF path from metadata if available
     pdf_path = metadata.get('pdfPath', None)
-
-    # Add relatedProvisions to categories that don't have impact analyses
-    # This ensures even categories without severe/high impacts can link to relevant provisions
-    for category_key, provision_ids in all_category_provisions.items():
-        if category_key not in impacts and provision_ids:
-            # Category has no analysis but has some provisions - add them for frontend linking
-            impacts[category_key] = {
-                'score': 'neutral',
-                'description': None,  # Frontend will show default message
-                'relatedProvisions': provision_ids
-            }
 
     # Build final bill object
     web_bill = {
