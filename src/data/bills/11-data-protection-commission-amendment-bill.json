@@ -401,6 +401,66 @@
         "national-security"
       ],
       "relatedImpacts": []
+    },
+    {
+      "id": "unchecked-ministerial-power-over-government-hiring-data",
+      "title": "Unchecked Ministerial Power Over Government Hiring Data",
+      "severity": "high",
+      "description": "The Minister can unilaterally exempt all government employment and presidential appointment vetting from data transparency requirements, with no defined limits or oversight. Applicants would have no right to know what personal information is collected about them, enabling discriminatory screening practices and chilling political participation. This open-ended exemption power lacks the proportionality safeguards and independent oversight required by international data protection standards.",
+      "relatedProvisions": [
+        "public-service-or-ministerial-appointment"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "immediate-business-shutdown-without-proportionality-safeguards",
+      "title": "Immediate Business Shutdown Without Proportionality Safeguards",
+      "severity": "high",
+      "description": "The Authority can order immediate cessation of all business operations for ANY data protection violation, regardless of severity. A minor technical breach—like late paperwork or a procedural error—could trigger the same immediate shutdown as serious violations like unauthorized data sales. This disproportionate enforcement power lacks graduated remedies, cure periods, or apparent procedural protections before shutdown, creating existential risk for businesses and a severe chilling effect on digital innovation.",
+      "relatedProvisions": [
+        "request-for-assessment"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "criminal-penalties-for-regulatory-non-compliance",
+      "title": "Criminal Penalties for Regulatory Non-Compliance",
+      "severity": "high",
+      "description": "Businesses face up to one year imprisonment for failing to comply with enforcement notices, even without intentional wrongdoing. This criminalizes what should be administrative matters and creates extreme compliance risk, particularly for SMEs lacking legal expertise to interpret vague compliance standards. The provision also imposes penalties 15x higher (150,000 units) for \"recklessly\" providing false information - a vague standard that could capture honest mistakes about complex data processing activities.",
+      "relatedProvisions": [
+        "failure-to-comply-with-notice"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "business-shutdown-without-due-process-protections",
+      "title": "Business Shutdown Without Due Process Protections",
+      "severity": "high",
+      "description": "The Authority can immediately suspend or cancel a data controller's registration - effectively shutting down their business operations - without requiring prior notice, opportunity to fix violations, or a hearing. This \"business death penalty\" applies equally to minor technical violations and serious breaches, creating existential risk for companies that cannot reliably predict what triggers enforcement or defend themselves before suspension takes effect.",
+      "relatedProvisions": [
+        "cancellation-or-suspension-of-registration"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "undefined-licensing-requirement-enables-arbitrary-market-control",
+      "title": "Undefined Licensing Requirement Enables Arbitrary Market Control",
+      "severity": "high",
+      "description": "The provision requires government licensing for \"data protection service\" providers but fails to define what services require licensing or specify approval criteria, while imposing penalties up to 50,000 penalty units for unlicensed operation. This vague requirement gives the Authority unchecked discretion to determine who can enter the market, creating barriers for startups and consultants while enabling selective enforcement against disfavored competitors or politically inconvenient service providers.",
+      "relatedProvisions": [
+        "accreditation-of-data-protection-service-providers"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "unchecked-law-enforcement-data-access",
+      "title": "Unchecked Law Enforcement Data Access",
+      "severity": "high",
+      "description": "Law enforcement and tax authorities can exempt themselves from data protection rules for \"crime prevention\" or \"tax collection\" without independent oversight, judicial authorization, or proportionality requirements. Unlike international standards, this provision lacks safeguards against abuse—authorities unilaterally decide when exemptions apply, with no mechanism for individuals to challenge whether their data is being legitimately accessed or whether surveillance is necessary and proportionate to the stated purpose.",
+      "relatedProvisions": [
+        "crime-and-taxation"
+      ],
+      "relatedImpacts": []
     }
   ],
   "provisions": [

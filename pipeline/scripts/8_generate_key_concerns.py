@@ -166,10 +166,8 @@ def process_bill(json_path: Path, dry_run: bool = False, force: bool = False):
 
     print()
 
-    # Collect provisions with severe/high negative impacts
-    # Strategy:
-    # - If severe provisions >= 5: use ALL severe (no cap)
-    # - If severe provisions < 5: pad with high-negative (sorted by confidence) up to 5 total
+    # Collect ALL provisions with severe-negative or high-negative impacts
+    # Strategy: Use ALL severe and high provisions (no caps)
     severe_provisions = []
     high_provisions = []
 
@@ -209,18 +207,11 @@ def process_bill(json_path: Path, dry_run: bool = False, force: bool = False):
         elif high_impact:
             high_provisions.append({**provision_data, 'impact_level': high_impact['level'], 'topic': high_impact['topic']})
 
-    # Sort high provisions by confidence (descending)
+    # Sort high provisions by confidence (descending) for consistent ordering
     high_provisions.sort(key=lambda x: x['confidence'], reverse=True)
 
-    # Build final list
-    if len(severe_provisions) >= 5:
-        # Use all severe provisions (no cap)
-        impactful_provisions = severe_provisions
-    else:
-        # Pad with high provisions up to 5 total
-        impactful_provisions = severe_provisions.copy()
-        needed = 5 - len(severe_provisions)
-        impactful_provisions.extend(high_provisions[:needed])
+    # Use ALL severe and high provisions (no caps)
+    impactful_provisions = severe_provisions + high_provisions
 
     if not impactful_provisions:
         print("No provisions with severe-negative or high-negative impact found")
@@ -232,9 +223,8 @@ def process_bill(json_path: Path, dry_run: bool = False, force: bool = False):
         return
 
     print(f"Found {len(severe_provisions)} SEVERE-negative provision(s)")
-    if len(impactful_provisions) > len(severe_provisions):
-        print(f"Added {len(impactful_provisions) - len(severe_provisions)} HIGH-negative provision(s) (sorted by confidence)")
-    print(f"Generating {len(impactful_provisions)} key concern(s)")
+    print(f"Found {len(high_provisions)} HIGH-negative provision(s)")
+    print(f"Generating {len(impactful_provisions)} key concern(s) from ALL severe and high provisions")
     print()
 
     # Generate one concern per provision
