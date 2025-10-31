@@ -11,6 +11,7 @@
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.10",
     "@astrojs/markdown-remark": "^6.3.8",
+    "@astrojs/sitemap": "^3.6.0",
     "@tabler/icons-webfont": "^3.35.0",
     "@tailwindcss/vite": "^4.1.16",
     "astro": "^5.15.2",

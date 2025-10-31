@@ -7,7 +7,7 @@ export const SITE = {
   name: 'APDI',
   fullName: 'Association for the Protection of Digital Innovation',
   tagline: 'Protecting Digital Innovation',
-  url: 'https://apdi.org.gh',
+  url: 'https://apdigh.org',
 
   mission: "Protecting Ghana's digital innovation sector by informing citizens about tech bills and their impacts on startups, innovation, and the digital economy.",
 

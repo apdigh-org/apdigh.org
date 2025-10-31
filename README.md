@@ -8,7 +8,7 @@ Ghana is undertaking a comprehensive reform of its digital rights framework thro
 
 APDI Ghana bridges the gap between complex legal language and public understanding by providing AI-powered analysis that explains what these bills really mean and how they might affect you.
 
-**Live Site:** [https://apdi.org.gh](https://apdi.org.gh)
+**Live Site:** [https://apdigh.org](https://apdigh.org)
 
 ## Features
 
@@ -156,9 +156,7 @@ We strongly encourage users to:
 
 ## Contact
 
-- **Email**: contact@apdi.org.gh
-- **Twitter**: [@apdi_ghana](https://twitter.com/apdi_ghana)
-- **Facebook**: [apdi.ghana](https://facebook.com/apdi.ghana)
+- **Twitter**: [@apdigh](https://twitter.com/apdigh)
 
 ---
 

@@ -215,7 +215,7 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
   title={`${bill.title} | Impact Analysis & Key Concerns`}
   description={metaDescription}
   ogType="article"
-  canonicalURL={`https://apdighana.org/bills/${bill.id}`}
+  canonicalURL={`https://apdigh.org/bills/${bill.id}`}
 >
   <!-- Structured Data for SEO -->
   <script type="application/ld+json" set:html={JSON.stringify({
@@ -225,12 +225,12 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
     "description": metaDescription,
     "author": {
       "@type": "Organization",
-      "name": "Africa Policy & Digital Integrity Group (APDI Ghana)"
+      "name": SITE.fullName
     },
     "publisher": {
       "@type": "Organization",
-      "name": "APDI Ghana",
-      "url": "https://apdighana.org"
+      "name": SITE.fullName,
+      "url": "https://apdigh.org"
     },
     "about": {
       "@type": "LegislativeProposal",
