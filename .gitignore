@@ -22,3 +22,7 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Generated PDFs (source is in pipeline/pdfs/)
+public/pdfs/*
+!public/pdfs/.gitkeep

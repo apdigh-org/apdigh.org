@@ -1,0 +1,1418 @@
+{
+  "id": "1-national-information-technology-authority-amendment-bill",
+  "title": "National Information Technology Authority (Amendment) Bill",
+  "summary": "The National Information Technology Authority (Amendment) Bill establishes a powerful regulatory body to oversee Ghana's entire ICT sector, introducing **mandatory licensing for all ICT businesses** and **certification requirements for ICT professionals** across public and private sectors. The Authority gains extensive powers including licensing enforcement, technical clearance approval for government ICT projects, and the ability to conduct searches, seize equipment, and close non-compliant facilities.\n\n**Key provisions and their implications:**\n\nThe bill requires all ICT service providers—from infrastructure operators to software developers—to obtain licenses from the Authority. Operating without a license becomes a criminal offense punishable by fines (2,000-5,000 penalty units) and imprisonment (6 months-2 years). The Authority can suspend or revoke licenses for non-compliance, insolvency, or public interest concerns. **License transfers require written Authority approval**, and unauthorized transfers result in criminal penalties and license forfeiture. Public institutions must obtain **technical clearance before starting ICT projects**, use Authority-designated shared services unless exempted, and source services only from certified providers. The Authority conducts mandatory compliance audits, and institutions failing to implement corrective plans face fines.\n\nThe bill creates an e-government ICT infrastructure company to manage government digital systems, funded through various sources including customs duties on ICT equipment, license fees, and portions of taxes. The Authority receives **tax exemptions** (determined by the Minister of Finance with parliamentary approval) and can borrow funds with ministerial consent. Corporate officers are **personally liable** for company violations unless they prove they took reasonable steps to prevent the offense. The Authority has **enforcement powers equivalent to police authority**, including conducting searches with warrants, seizing equipment without proper documentation, and closing premises that pose safety risks or provide poor service.\n\n**Concerns and potential challenges:**\n\nThe **broad licensing requirements** could create significant barriers to entry for startups and small ICT businesses, potentially stifling innovation and competition. The **mandatory certification for all ICT professionals** may limit the talent pool and increase operational costs across sectors. The **technical clearance requirement for public projects** could slow government digitalization initiatives and create bureaucratic bottlenecks. **Equipment seizure provisions** allow confiscation for lacking documentation or suspected regulatory bypass, raising **due process concerns**. The **personal liability for corporate officers** creates significant risk for business leaders, potentially deterring investment in Ghana's ICT sector.\n\nWhile the bill includes progressive elements—a regulatory sandbox for innovation testing, adaptive regulation principles, and a multi-stakeholder advisory forum—these are counterbalanced by extensive compliance requirements and centralized control. The dispute resolution system (committee and tribunal) provides appeal mechanisms, but the Authority's broad discretionary powers in licensing, suspension, and enforcement could create uncertainty for businesses. The bill's success will depend heavily on how the Authority exercises its powers and whether it balances regulatory oversight with the need to foster a competitive, innovative ICT ecosystem that attracts investment and supports Ghana's digital economy goals.",
+  "pdfPath": "pdfs/1. National Information Technology Authority (Amendment) Bill.pdf",
+  "impacts": {
+    "innovation": {
+      "score": "severe-negative",
+      "description": {
+        "score": "severe-negative",
+        "analysis": "The National Information Technology Authority (Amendment) Bill poses a severe threat to digital innovation in Ghana by establishing a comprehensive licensing and certification regime that fundamentally restricts entrepreneurial activity in the ICT sector. The mandatory licensing requirement for all ICT businesses—from software developers to infrastructure operators—combined with criminal penalties for non-compliance creates prohibitive barriers to entry that will particularly harm startups, individual developers, and small tech companies. The requirement that all ICT professionals obtain Authority certification before employment in either public or private institutions further constrains the talent ecosystem, potentially driving skilled professionals to less regulated markets and increasing operational costs across the sector. These provisions transform Ghana's digital economy from an open, market-driven environment into a heavily regulated space where innovation requires government permission rather than market validation.\n\nThe Authority's extensive enforcement powers create an environment of regulatory uncertainty that is fundamentally incompatible with the risk-taking and experimentation essential to digital innovation. Provisions allowing equipment seizure for lacking documentation, premises closure for deteriorating service quality, and personal liability for corporate officers establish existential risks that will deter investment and entrepreneurial activity. The requirement for Authority approval before any business sale, merger, or alteration prevents the normal market dynamics—including pivots, acquisitions, and strategic partnerships—that characterize successful innovation ecosystems. Administrative penalties reaching 50,000 penalty units, combined with the Authority's discretionary power to suspend or revoke licenses, create a compliance-first culture that prioritizes regulatory approval over customer value and market fit.\n\nWhile the bill includes a regulatory sandbox provision intended to support innovation, this single positive element is overwhelmed by the surrounding restrictive framework and appears more symbolic than substantive. The sandbox offers temporary regulatory relief for testing innovations, but participants must still navigate the broader licensing regime, and the framework explicitly maintains obligations under data protection and consumer protection laws. More fundamentally, a sandbox approach assumes that innovation can be contained within controlled parameters and predetermined timelines—a model that contradicts the organic, unpredictable nature of breakthrough innovations. The overall impact is a regulatory environment that will stifle Ghana's digital innovation ecosystem, discourage foreign investment in the tech sector, drive talent and companies to more innovation-friendly jurisdictions, and ultimately undermine the country's ability to participate competitively in the global digital economy."
+      },
+      "relatedProvisions": [
+        "functions-of-the-authority",
+        "powers-of-the-authority",
+        "regulatory-and-best-practice-of-the-authority",
+        "governing-body-of-the-authority",
+        "establishment-of-committees",
+        "independence-of-the-authority",
+        "funds-of-the-authority",
+        "establishment-of-the-e-government-ict-infrastructure-company",
+        "object-of-the-company",
+        "use-of-funds",
+        "reports-and-audits",
+        "requirement-for-licence",
+        "categories-of-licences",
+        "qualification-for-licence",
+        "application-for-licence",
+        "consideration-of-an-application-for-licence",
+        "grant-of-licence",
+        "validity-and-renewal-of-licence",
+        "non-transferability-of-licence",
+        "suspension-of-licence",
+        "restoration-of-suspended-licence",
+        "revocation-of-licence",
+        "certification-of-ict-professionals",
+        "closure-of-premises-or-facility",
+        "sale-merger-amalgamation-and-alteration-of-nature-of-business-by-ict-service-provider",
+        "performance-standards",
+        "specifications-for-ict-products-and-services",
+        "compliance-monitoring-and-technical-clearance",
+        "national-digital-architecture",
+        "ict-project-registry",
+        "shared-services-and-infrastructure",
+        "audit-and-standards-for-public-ict",
+        "performance-monitoring-and-reporting",
+        "ict-performance-standards-and-certification-tiers",
+        "capacity-building-and-local-innovation-support",
+        "regulatory-sandbox-for-ict-innovation",
+        "risk-based-and-principles-oriented-approach",
+        "future-technologies-and-adaptive-regulation",
+        "digital-inclusion-and-accessibility",
+        "multi-stakeholder-advisory-forum",
+        "periodic-review-of-regulatory-instruments",
+        "collaboration-with-other-agencies",
+        "submission-of-reports-by-ict-service-providers",
+        "inspector",
+        "power-of-an-inspector",
+        "obstruction-of-an-inspector",
+        "enforcement-powers-of-the-authority",
+        "other-powers-of-the-authority",
+        "other-enforcement-measures",
+        "negotiation",
+        "dispute-resolution-committee",
+        "composition-and-procedure-of-the-dispute-resolution-committee",
+        "appeal-against-the-decision-of-the-dispute-resolution-committee",
+        "establishment-of-the-national-information-technology-authority-tribunal",
+        "composition-of-the-tribunal",
+        "right-of-appeal",
+        "decisions-of-the-tribunal",
+        "appeal-against-a-decision-of-the-tribunal",
+        "general-offences-and-penalties",
+        "offences-relating-to-licensing-and-certification",
+        "interference-with-technical-clearance",
+        "obstruction-of-compliance-reviews",
+        "offence-by-a-body-corporate",
+        "administrative-penalty",
+        "other-offences",
+        "procedure-for-decision-making-by-the-authority",
+        "publication-of-notices-and-directives",
+        "public-engagement",
+        "regulations",
+        "interpretation",
+        "transitional-provisions"
+      ]
+    },
+    "business": {
+      "score": "severe-negative",
+      "description": {
+        "score": "severe-negative",
+        "analysis": "This bill creates a severely hostile business environment for Ghana's ICT sector through comprehensive regulatory overreach that will fundamentally undermine the country's digital economy ambitions. The mandatory licensing requirement for all ICT activities—from infrastructure installation to software development—combined with criminal penalties of up to 5,000 penalty units and two years imprisonment for unlicensed operation, establishes prohibitive barriers to entry that will particularly devastate startups and small businesses. The requirement that all ICT professionals in both public and private sectors obtain Authority certification further constrains the talent pool and increases operational costs across the entire economy. The Authority's broad discretionary powers to refuse license renewals for vague reasons like \"deteriorated service standards\" or \"public interest concerns\" creates an environment of regulatory uncertainty where businesses cannot reliably plan for the future.\n\nThe bill's enforcement mechanisms compound these challenges by granting the Authority police-equivalent powers to conduct searches, seize equipment for lacking proper documentation, and close facilities deemed to provide substandard service—all with minimal due process protections. The provision making corporate officers personally criminally liable unless they prove they exercised due diligence reverses the burden of proof and creates extraordinary personal risk for business leaders, likely deterring both domestic entrepreneurship and foreign investment. The requirement for Authority approval before any business sale, merger, or alteration (with agreements void without approval) severely restricts normal business operations and makes Ghana's ICT sector unattractive for investors who need flexibility in exit strategies and corporate restructuring.\n\nThe cumulative effect of these provisions—high entry barriers, mandatory professional certification, operational restrictions, aggressive enforcement, personal liability, and transaction controls—will likely drive ICT businesses to relocate to more favorable regulatory environments, discourage new investment, and stifle the innovation necessary for digital economy growth. While the regulatory sandbox provision offers a small positive element for testing innovations, it is vastly insufficient to counterbalance the severe negative impact of the comprehensive regulatory framework. The bill risks transforming Ghana from a potential digital economy leader into a cautionary tale of regulatory overreach that prioritizes government control over economic dynamism, ultimately harming the very public interest it purports to protect by limiting access to ICT services, increasing costs, and reducing competition."
+      },
+      "relatedProvisions": [
+        "functions-of-the-authority",
+        "powers-of-the-authority",
+        "regulatory-and-best-practice-of-the-authority",
+        "governing-body-of-the-authority",
+        "duties-and-liabilities-of-a-member-of-the-board-of-directors",
+        "meetings-of-the-board-of-directors",
+        "disclosure-of-interest",
+        "declaration-of-registrable-interests",
+        "establishment-of-committees",
+        "policy-directives",
+        "independence-of-the-authority",
+        "functions-of-the-director-general-and-deputy-director-general",
+        "appointment-of-other-staff",
+        "internal-audit-unit",
+        "funds-of-the-authority",
+        "exemption-from-tax",
+        "borrowing-powers",
+        "accounts-and-audit",
+        "annual-report-and-other-reports",
+        "establishment-of-the-e-government-ict-infrastructure-company",
+        "object-of-the-company",
+        "use-of-funds",
+        "reports-and-audits",
+        "requirement-for-licence",
+        "categories-of-licences",
+        "qualification-for-licence",
+        "application-for-licence",
+        "consideration-of-an-application-for-licence",
+        "grant-of-licence",
+        "validity-and-renewal-of-licence",
+        "non-transferability-of-licence",
+        "suspension-of-licence",
+        "restoration-of-suspended-licence",
+        "revocation-of-licence",
+        "certification-of-ict-professionals",
+        "register-of-ict-products-and-service-providers",
+        "closure-of-premises-or-facility",
+        "sale-merger-amalgamation-and-alteration-of-nature-of-business-by-ict-service-provider",
+        "performance-standards",
+        "specifications-for-ict-products-and-services",
+        "compliance-monitoring-and-technical-clearance",
+        "national-digital-architecture",
+        "ict-project-registry",
+        "shared-services-and-infrastructure",
+        "audit-and-standards-for-public-ict",
+        "performance-monitoring-and-reporting",
+        "ict-performance-standards-and-certification-tiers",
+        "capacity-building-and-local-innovation-support",
+        "regulatory-sandbox-for-ict-innovation",
+        "risk-based-and-principles-oriented-approach",
+        "future-technologies-and-adaptive-regulation",
+        "digital-inclusion-and-accessibility",
+        "multi-stakeholder-advisory-forum",
+        "periodic-review-of-regulatory-instruments",
+        "collaboration-with-other-agencies",
+        "submission-of-reports-by-ict-service-providers",
+        "inspector",
+        "power-of-an-inspector",
+        "obstruction-of-an-inspector",
+        "enforcement-powers-of-the-authority",
+        "other-powers-of-the-authority",
+        "other-enforcement-measures",
+        "negotiation",
+        "dispute-resolution-committee",
+        "composition-and-procedure-of-the-dispute-resolution-committee",
+        "decisions-of-the-dispute-resolution-committee",
+        "appeal-against-the-decision-of-the-dispute-resolution-committee",
+        "establishment-of-the-national-information-technology-authority-tribunal",
+        "composition-of-the-tribunal",
+        "administration-of-the-tribunal",
+        "expenses-of-the-tribunal",
+        "allowances",
+        "rules-of-procedure-of-the-tribunal",
+        "right-of-appeal",
+        "decisions-of-the-tribunal",
+        "appeal-against-a-decision-of-the-tribunal",
+        "general-offences-and-penalties",
+        "offences-relating-to-licensing-and-certification",
+        "interference-with-technical-clearance",
+        "obstruction-of-compliance-reviews",
+        "offence-by-a-body-corporate",
+        "administrative-penalty",
+        "other-offences",
+        "procedure-for-decision-making-by-the-authority",
+        "code-of-conduct",
+        "publication-of-notices-and-directives",
+        "public-engagement",
+        "regulations",
+        "interpretation",
+        "transitional-provisions",
+        "repeals-and-savings"
+      ]
+    },
+    "freedomOfSpeech": {
+      "score": "neutral",
+      "description": null,
+      "relatedProvisions": [
+        "object-of-the-company",
+        "digital-inclusion-and-accessibility",
+        "multi-stakeholder-advisory-forum",
+        "power-of-an-inspector",
+        "obstruction-of-an-inspector",
+        "enforcement-powers-of-the-authority",
+        "other-enforcement-measures",
+        "interference-with-technical-clearance",
+        "publication-of-notices-and-directives",
+        "public-engagement",
+        "regulations"
+      ]
+    },
+    "privacy": {
+      "score": "neutral",
+      "description": null,
+      "relatedProvisions": [
+        "functions-of-the-authority",
+        "regulatory-and-best-practice-of-the-authority",
+        "duties-and-liabilities-of-a-member-of-the-board-of-directors",
+        "establishment-of-the-e-government-ict-infrastructure-company",
+        "object-of-the-company",
+        "use-of-funds",
+        "register-of-ict-products-and-service-providers",
+        "national-digital-architecture",
+        "shared-services-and-infrastructure",
+        "performance-monitoring-and-reporting",
+        "ict-performance-standards-and-certification-tiers",
+        "regulatory-sandbox-for-ict-innovation",
+        "future-technologies-and-adaptive-regulation",
+        "digital-inclusion-and-accessibility",
+        "periodic-review-of-regulatory-instruments",
+        "submission-of-reports-by-ict-service-providers",
+        "inspector",
+        "power-of-an-inspector",
+        "obstruction-of-an-inspector",
+        "enforcement-powers-of-the-authority",
+        "other-enforcement-measures",
+        "obstruction-of-compliance-reviews",
+        "administrative-penalty",
+        "other-offences",
+        "regulations"
+      ]
+    }
+  },
+  "keyConcerns": [
+    {
+      "id": "equipment-seizure-without-defined-standards-or-due-process",
+      "title": "Equipment Seizure Without Defined Standards or Due Process",
+      "severity": "critical",
+      "description": "The Authority can seize ICT equipment during random audits if it \"lacks necessary documentation\" or is used to \"bypass regulatory oversight\"—terms that are completely undefined in the bill. There is no requirement for prior notice, hearing, warrant for seizure, or opportunity to cure deficiencies before equipment is confiscated. This means any ICT business could face immediate operational shutdown based on the Authority's subjective interpretation of undefined compliance standards, with no procedural safeguards to prevent arbitrary enforcement.",
+      "relatedProvisions": [
+        "other-enforcement-measures"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "criminal-penalties-for-undefined-technical-obstruction",
+      "title": "Criminal Penalties for Undefined Technical \"Obstruction\"",
+      "severity": "critical",
+      "description": "This provision makes it a crime to \"obstruct or circumvent\" the technical clearance process, with penalties up to 2 years imprisonment—yet these terms are completely undefined. Government agencies seeking second opinions, contractors proposing alternative technical approaches, or stakeholders questioning specifications could face criminal prosecution without clear notice of what conduct is prohibited. This vague criminalization will create a severe chilling effect on innovation in government ICT projects, as participants avoid any action that might be interpreted as \"circumvention.\"",
+      "relatedProvisions": [
+        "interference-with-technical-clearance"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "guilty-until-proven-innocent-for-business-leaders",
+      "title": "Guilty Until Proven Innocent for Business Leaders",
+      "severity": "critical",
+      "description": "Corporate officers and shareholders are automatically considered criminally guilty when their company violates this law, and must prove they did everything possible to prevent it—reversing the fundamental presumption of innocence. With undefined \"due diligence\" standards and potential imprisonment, business leaders face criminal liability for violations they may not have known about or been able to prevent, creating severe uncertainty and deterring investment in Ghana's ICT sector.",
+      "relatedProvisions": [
+        "offence-by-a-body-corporate"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "instant-business-shutdown-without-due-process",
+      "title": "Instant Business Shutdown Without Due Process",
+      "severity": "critical",
+      "description": "The Authority can immediately suspend any ICT business for \"obstructing\" compliance officers, with no court approval, no hearing, and no defined timeline for restoration. This provision allows indefinite operational shutdown based on a compliance officer's subjective determination, with no opportunity to contest the allegation before losing your business. For startups and SMEs, this creates existential risk from arbitrary enforcement, as a single compliance dispute can destroy a company overnight without any procedural safeguards.",
+      "relatedProvisions": [
+        "other-offences"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "all-business-sales-require-undefined-government-approval",
+      "title": "All Business Sales Require Undefined Government Approval",
+      "severity": "high",
+      "description": "ICT companies cannot sell, merge, or restructure their businesses without Authority approval—but the law provides no criteria for approval, no timeline, and no standards. Agreements made without approval are automatically void, creating catastrophic risk for investors and acquirers. This undefined approval requirement with severe penalties effectively blocks M&A activity, venture capital exits, and business restructuring across Ghana's entire ICT sector.",
+      "relatedProvisions": [
+        "sale-merger-amalgamation-and-alteration-of-nature-of-business-by-ict-service-provider"
+      ],
+      "relatedImpacts": []
+    }
+  ],
+  "provisions": [
+    {
+      "id": "establishment-of-the-national-information-technology-authority",
+      "section": 3,
+      "title": "Establishment of the National Information Technology Authority",
+      "plainLanguage": "This provision creates the National Information Technology Authority as a legal entity. The Authority can manage property and enter into contracts to perform its duties. It also has the power to acquire land under the Land Act, 2020 if needed.",
+      "rawText": "1. (1) There is established by this Act, the National Information Technology Authority as a body corporate.\n\n(2)  The  Authority  may,  for  the  performance  of  its  functions  acquire  and  hold  property, dispose of property and enter into a contract or any other related transaction.\n\n(3) Where there is a hindrance to the acquisition of land, the land may be acquired for the Authority under the Land Act, 2020 (Act 1036) and the cost shall be borne by the Authority.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "object-of-the-authority",
+      "section": 4,
+      "title": "Object of the Authority",
+      "plainLanguage": "The Authority aims to improve Ghana's technology and digital services by regulating and promoting them. This includes ensuring quality and efficiency in the ICT sector and developing skilled ICT professionals within the government.",
+      "rawText": "2. The object of the Authority is to regulate, coordinate, promote, and develop information and communications technology and digital services in Ghana in line with national development goals and to\n\n    - (a) ensure the provision of quality information and communications technology,\n\n    - (b) promote  standards  of  efficiency  and  ensure  high  quality  of  service  in  the Information and Communications Technology ecosystem, and\n\n    - (c) coordinate the management and development of information and communications technology personnel or practitioners in the public services",
+      "relatedImpacts": []
+    },
+    {
+      "id": "functions-of-the-authority",
+      "section": 5,
+      "title": "Functions of the Authority",
+      "plainLanguage": "The Authority is responsible for regulating and developing Ghana's ICT sector by licensing providers, setting standards, and coordinating government ICT initiatives. It also protects consumers, promotes fair competition, and ensures responsible technology use. The Authority's functions aim to create a well-managed and secure ICT ecosystem in Ghana.",
+      "rawText": "3. (1) To achieve the object under section 2, the Authority shall\n\n          - license and regulate ICT infrastructure, products and service providers;\n\n          - develop  and  enforce  standards  to  ensure  consistency  and  accountability across the  people,  technology,  and  processes  involved  in  ICT  systems, services, and architectures\n\n          - provide technical clearance for ICT procurement, investments and projects undertaken by public institutions;\n\n          - maintain a national repository of ICT assets, investments and public digital infrastructure;\n\n          - act  as  the  exclusive  government  body  empowered  to  coordinate  the development,  capacity  building,  and  certification  of  ICT  professional serving  public  institutions  to  ensure  a  skilled  and  well-managed  ICT workforce in the public service;\n\n          - advise the Minister on ICT development and regulation in Ghana and lead the review  of the national ICT policy;\n\n          - regulate the use of emerging technologies;\n\n          - maintain a register of ICT personnel in the public service;\n\n          - regulate ICT associations and related professional bodies;\n\n          - coordinate the development and enforcement of safeguards to ensure the responsible and secure use of technology in the country;\n\n          - coordinate  the  implementation  of  anti-trust  policies  to  safeguard  fair competition and prevent monopolies within the ICT ecosystem in Ghana;\n\n          - perform  the  functions  of  the  certifying  Agency  established  under  the Electronic Transactions Act, 2025 (Act …);\n\n          - coordinate the systematic implementation and monitoring of the national information and communications technology policy;\n\n          - coordinate the implementation and enforcement of the provisions of this Act, the Electronic Transactions Act, 2025 (Act …);and regulations made under this Act;\n\n          - resolve  matters  that  involve  domain  names  between  the  Domain  Name Registrar under the Electronic Transactions Act 2025  (  Act….)  in accordance with the provisions of this Act;\n\n          - maintain registers for approvals given for equipment under the Electronic Transactions Act 2025 ( Act….);\n\n          - provide  access  to  registers  for  licences,  applications  for  licences  and approvals for equipment except where commercial confidentiality does not allow for access;\n\n          - collect fees and other charges to be paid to the Authority under this Act;\n\n          - investigate and  resolve disputes  between  licence  holders  under  the Electronic  Transactions  Act  2025  (  Act….)  referred  to  the  Authority  by licence holders;\n\n          - investigate complaints by users who fail to obtain redress from a licence holder;\n\n          - carry out investigations on the conduct of persons at the Authority's own initiative or at the request of another person to determine whether any person is engaging in acts contrary to the provisions of this Act;\n\n          - establish quality of service indicators and reporting requirements that apply to licence holders under the Electronic Transactions Act 2025 ( Act….);\n\n          - aa. issue and publish on its website and in the Gazette necessary guidelines and standards;\n\n          - bb. obtain from persons the necessary information for the performance of its functions;\n\n          - carry  out  investigations  and  determine  complaints  that  involve  anticompetitive,  price-fixing  and  unfair  trade  practices  by  persons  under  the Electronic Transactions Act 2025 ( Act….);\n\n          - formulate the strategy of the Authority;\n\n          - ee. ensure that the policy directions given by the Minister are implemented;\n\n          - ff. ensure high standards of propriety within the Authority;\n\n          - jj. perform any other function necessary to achieve its object.\n\n- In discharging its functions, the Authority shall take into account the following:\n\n          - (a) the principle that regulatory activities should be transparent, accountable, proportionate, consistent and targeted only at cases in which action is needed;\n\n          - (b) any other principle that represents best regulatory practice;\n\n          - (c) the  protection  of  the  interests  of  consumers  under  the  Electronic Transactions Act 2025 ( Act….) as regards the choice, price, quality of service and value for money;\n\n          - (d) the  needs  of  persons  who  are  physically  challenged,  the  elderly  and those on low incomes;\n\n          - (e) the opinions of consumers and of members of the public generally; and\n\n          - (f) the different interests of persons living in rural and urban areas.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "powers-of-the-authority",
+      "section": 6,
+      "title": "Powers of the Authority",
+      "plainLanguage": "The Authority has the power to contract for goods and services, invest funds with the Minister's approval, and share information about its work. It can also fund training programs and conduct or support research to advance the information and communications technology industry.",
+      "rawText": "- The Authority may exercise the following powers\n\n          - (a) enter into a contract for the supply of goods and services;\n\n          - (b) invest the funds of the Authority that are not immediately required for\n\n          - the performance of its functions and ensure the judicious use of the funds, with the prior  written approval of the Minister responsible for Finance;\n\n          - (c) publish information that is relevant to its functions and activities in a manner that it  considers appropriate;\n\n          - (d) promote  and  where  necessary  fund  the  training  of  persons  for  the information and communications technology industry;\n\n          - (e) undertake research and development work related to its functions; and\n\n          - (f) promote  research  and  the  development  by  other  persons  of  the  ICT industry.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "regulatory-and-best-practice-of-the-authority",
+      "section": 7,
+      "title": "Regulatory and best practice of the Authority",
+      "plainLanguage": "The Authority must operate transparently and accountably, protecting users' rights and promoting competition and innovation. It should also consider the environmental impact of ICT and adhere to international standards, ensuring that both urban and rural communities benefit from ICT infrastructure. This ensures responsible and inclusive development of ICT in Ghana.",
+      "rawText": "- The Authority shall in the performance of its functions have regard to\n\n          - (a) the principles of transparency, accountability, proportionality, innovationenablement, and consistency in ICT regulation;\n\n          - (b) best  regulatory  practices relevant  to  information  and  communications technology and digital governance;\n\n          - (c) the protection of the rights and interests of users of public digital services, with particular attention to user choice, data protection, quality of service, and value for money;\n\n          - (d) the environmental impact of ICT infrastructure, digital devices, and e-waste management in the deployment of public ICT systems;\n\n          - (e) the promotion  of  inclusive  competition  and  local  innovation,  including incentives for Ghanaian  technology  firms  and  start-ups in the  ICT ecosystem;\n\n          - (h) the  interests  of  both urban  and  rural  communities in  the  planning  and deployment of ICT infrastructure;\n\n          - (i) any  applicable international  ICT  standards  and  best  practices,  including those  developed  by  the  International  Organization  for  Standardization (ISO),  International  Telecommunication  Union  (ITU),  World  Wide  Web Consortium (W3C), and relevant multilateral conventions ratified by Ghana.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "governing-body-of-the-authority",
+      "section": 8,
+      "title": "Governing body of the Authority",
+      "plainLanguage": "This provision establishes the Board of Directors for the Authority, specifying its members must include representatives from various ministries, ICT professionals, and experts in fields like digital innovation, law, and economics. The board must also have at least three women members. The President appoints the chairperson and other board members.",
+      "rawText": "- ( 1 ) The governing body of the Authority is a Board of Directors consisting of\n\n          - (a) a chairperson nominated by the President;\n\n          - (b) one representative of the Ministry responsible for Communication, Digital Technology, and Innovations, not below the rank of Director;\n\n          - (c) one representative of the Ministry of Finance, not below the rank of Director;\n\n          - (d) the Director-General of the Authority;\n\n          - (e) one representative from a recognised ICT professional body, nominated by the executive body of that professional association;\n\n          - (f) two persons with expertise in digital innovation, ICT, governance, or law, nominated by the President;\n\n          - (g) one person with expertise in digital innovation, ICT, governance, or IT law nominated by the Minister responsible for Gender or Social Protection;\n\n          - (h) one lawyer with expertise in digital economy or ICT law.\n\n          - (i) one representative of the National Security Council; and\n\n          - (j) three other persons with knowledge or expertise in electronic engineering, law, economics, business or public administration and at least one of whom is a woman.\n\n- At least three (3) members of the Board of Directors shall be women.\n\n- The President shall, in accordance with article 70 of the Constitution, appoint the chairperson and other members of the Board of Directors.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "functions-of-the-board-of-directors",
+      "section": 9,
+      "title": "Functions of the Board of Directors",
+      "plainLanguage": "The Board of Directors is responsible for guiding the Authority's strategic direction and ensuring it meets its objectives. They also ensure the Authority operates efficiently. This provision clarifies the Board's oversight role in the organization.",
+      "rawText": "- The Board of Directors shall\n\n          - (a) exercise general oversight responsibility for the strategic direction of the Authority;\n\n          - (b) ensure the achievement of the object of the Authority; and\n\n          - (c) ensure  the  effective  and  efficient  performance  of  the  functions  of  the Authority.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "duties-and-liabilities-of-a-member-of-the-board-of-directors",
+      "section": 10,
+      "title": "Duties and liabilities of a member of the Board of Directors",
+      "plainLanguage": "Board members must act in the best interest of the Authority, similar to directors of a company. They are prohibited from misusing their position for personal gain or disclosing confidential information. If their actions cause the Authority to suffer a loss, they may be required to pay compensation.",
+      "rawText": "- 8 (1) A member of the Board of Directors has the same fiduciary relationship with the Authority and the same duty to act with loyalty and in good faith as a director of a company incorporated under the Companies Act, 2019 (Act 992).\n\n    - Without limiting subsection (1), a member of the Board of Directors has a duty (a) to  act  honestly  and  in  the  best  interest  of  the  Authority  in  the performance of the functions of the Authority;\n\n          - (c) not to disclose information acquired in the capacity of the member as a member of the Board of Directors to any person or make use of that information, except in the performance of functions;\n\n          - (d) not to abuse the position of the office; and\n\n          - (e) not to pursue personal interests at the expense of the Authority.\n\n(3) A member of the Board of Directors, other than the Director General, shall not participate in the day-to-day running of the Authority.\n\n(4) Where a court determines that the Authority has suffered a loss or damage as a result of the act or omission of a member of the Board of Directors, the court may, in addition to imposing a fine, order the member to pay appropriate compensation to the Authority.",
+      "relatedImpacts": [
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "tenure-of-office-of-members-of-the-board-of-directors",
+      "section": 11,
+      "title": "Tenure of office of members of the Board of Directors",
+      "plainLanguage": "Board members serve four-year terms and can be reappointed once. Members can resign, be removed for excessive absences, or have their appointment revoked by the President. Vacancies are filled by presidential appointment for the remainder of the term.",
+      "rawText": "- 9 (1) A member of the Board of Directors shall hold office for a period of four years and is eligible for reappointment for another term only.\n\n    - Subsection (1) does not apply to the Director General.\n\n    - A member of the Board of Directors may, at any time, resign from office in writing, addressed to the President through the Minister.\n\n    - A member of the Board of Directors, other than the Director General, who is absent from three consecutive meetings of the Board of Directors without sufficient cause ceases to be a member of the Board of Directors.\n\n    - The President may, by letter addressed to a member, revoke the appointment of that member.\n\n    - Where a member of the Board of Directors is, for a sufficient reason unable to act as a member, the Minister shall determine whether the inability of the member to act would result in the declaration of a vacancy.\n\n    - Where there is a vacancy\n\n          - (a) under subsection (3), (4), (5), or subsection (2) of section 11,\n\n          - (b) as a result of a declaration under subsection (6),\n\n          - (c) under subsection (3) of section 12; or\n\n          - (d) by reason of the death of a member,\n\nthe Minister shall notify the President of the vacancy and the President shall appoint another person to fill the vacancy for the unexpired term.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "meetings-of-the-board-of-directors",
+      "section": 12,
+      "title": "Meetings of the Board of Directors",
+      "plainLanguage": "The Board of Directors must meet at least once every three months, and special meetings can be called if requested by one-third of the members. Decisions are made by a majority vote, with the chairperson having a tie-breaking vote. The meetings' proceedings remain valid even if there are vacancies or issues with member appointments.",
+      "rawText": "- 10 (1) The Board of Directors shall meet at least once every three months for the conduct of business at a time and place determined by the chairperson.\n\n(2)  The chairperson shall, at the request in writing of not less than one-third of the membership of the Board of Directors, convene an extraordinary meeting of the Board of Directors at a time and place determined by the chairperson.\n\n(3) The quorum for a meeting of the Board of Directors is seven members.\n\n(4)  The  chairperson  shall  preside  at  meetings  of  the  Board  of  Directors  and  in  the absence of the chairperson, a member of the Board of Directors elected by the members present from among their number shall preside.\n\n(5) Matters before the Board of Directors shall be decided by a majority of the members present and voting and in the event of an equality of votes, the person presiding shall have a casting vote.\n\n(6) The Board of Directors may co-opt a person to attend a meeting of the Board of Directors but that person shall not vote on a matter for decision at the meeting.\n\n(7) The proceedings of the Board of Directors shall not be invalidated by reason of a vacancy  among  the  members  or  a  defect  in  the  appointment  or  qualification  of  a member\n\n(8) Subject to this section, the Board of Directors may determine the procedure for the meeting of the Board of Directors.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "disclosure-of-interest",
+      "section": 13,
+      "title": "Disclosure of interest",
+      "plainLanguage": "Board members with a conflict of interest must disclose it and cannot participate in related discussions. Failure to disclose or improper participation can lead to removal from the board and recovery of any benefits obtained due to the conflict. This ensures transparency and prevents board members from using their position for personal gain.",
+      "rawText": "11.(1)  A  member  of  the  Board  of  Directors  who  has  an  interest  in  a  matter  for consideration by the Board\n\n            - (a) shall disclose in writing the nature of that interest and the disclosure shall form part of the record of the consideration of the matter; and\n\n            - (b) is disqualified from being present at or participating in the deliberations of the Board of Directors in respect of that matter.\n\n(2) A member ceases to be a member of the Board of Directors if that member has an interest in a matter before the Board of Directors and\n\n(a) fails to disclose that interest; or\n\n(b)  is  present  at  or  participates  in  the  deliberations  of  the  Board  of Directors in respect of that matter.\n\n(3)  Without  limiting  any  further  cause  of  action  that  may  be  instituted  against  the member, the Board of Directors shall recover any benefit derived by a member who\n\ncontravenes  subsection  (1),  in  addition  to  the  revocation  of  the  appointment  of  the member.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "declaration-of-registrable-interests",
+      "section": 14,
+      "title": "Declaration of registrable interests",
+      "plainLanguage": "Board members must declare any registrable interests they have, both before starting their term and whenever those interests change. Failure to accurately declare these interests can lead to removal from the Board. This requirement promotes transparency and prevents conflicts of interest.",
+      "rawText": "12. (1) Each member of the Board shall, prior to taking office, submit to the Authority a written declaration of that member's registrable interest whether directly or indirectly owned by the member.\n\n(2) A member of the Board shall inform the Authority of any change in respect of that member's registrable interest from the date of the change.\n\n(3) A member who without reasonable excuse fails to declare a registrable interest, or knowingly makes a false declaration, contravenes subsections (1) and (2), ceases to be a  member  of  the  Board  and  the  appointment  of  the  member  to  the  Board  shall  be revoked by the President",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "establishment-of-committees",
+      "section": 15,
+      "title": "Establishment of committees",
+      "plainLanguage": "The Board of Directors can create committees with board members and non-members to help with its work. Certain committees, like the Technical, Audit, and Risk committees, must be established, and the board decides who sits on these committees and what they do. Non-members serving on committees can only advise the Board.",
+      "rawText": "13. (1) The Board of Directors may establish committees or advisory bodies consisting of members of the Board of Directors, non-members, or both, to perform a function of the Board of Directors.\n\n(2)  A  committee  composed  of  members  and  non-members  of  the  Board  of Directors shall be chaired by a member of the Board of Directors.\n\n(3) A committee composed exclusively of non-members may only advise the Board\n\n    - Without limiting subsection (1), the Board of Directors shall establish the following committees:\n\n              - (a) Technical Committee;\n\n              - (b) Audit Committee; and\n\n              - (c) Risk Committee.\n\n(5) The Board of Directors shall determine the composition and functions of the committees established under subsection (3).\n\n    - Section 11 applies to a member of a committee of the Board of Directors",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "allowance",
+      "section": 16,
+      "title": "Allowance",
+      "plainLanguage": "This provision states that members of the Board of Directors and its committees will receive allowances and benefits. The specific allowances and benefits must be approved by the relevant Minister, in consultation with the Minister of Finance. This ensures that board members are compensated appropriately, subject to governmental oversight.",
+      "rawText": "14.A member  of the Board of Directors and members of a committee of the Board of Directors shall be paid allowances and benefits approved by the Minister in consultation with the Minister responsible for Finance.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "policy-directives",
+      "section": 17,
+      "title": "Policy  directives",
+      "plainLanguage": "This section allows the Minister to provide written policy guidance to the Authority's Board of Directors, as long as it aligns with the Authority's goals. However, the Minister cannot dictate specific technical or operational decisions, ensuring the Authority maintains control over its day-to-day activities.",
+      "rawText": "15.(1) The Minister may give written directives to the Board of Directors on matters of policy in line with the object and functions of the Authority, and the Board of Directors shall comply in a manner consistent with the effective performance of the functions of the Authority.\n\n(2) Subsection (1) shall not be construed to confer on the Minister the power to instruct the Authority on specific technical or operational mattera in relation to the object and functions of the Authority.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "independence-of-the-authority",
+      "section": 18,
+      "title": "Independence of the Authority",
+      "plainLanguage": "This provision ensures the Authority's independence in its regulatory functions. It means the Authority can make decisions without being controlled by other entities, except where the Act specifies otherwise. This protects the Authority from undue influence.",
+      "rawText": "16.Except as otherwise provided in this Act, the Authority shall not be subject to the direction  or  control  of  any  person  or  authority  in  the  exercise  of  its  mandate  and regulatory functions.\n\n## Administrative Provisions",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "appointment-of-director-general-and-deputy-director-general",
+      "section": 19,
+      "title": "Appointment of Director General and Deputy Director General",
+      "plainLanguage": "The President will appoint a Director-General and a Deputy Director-General for the Authority. Their job conditions will be detailed in their appointment letters, and the Director-General can serve up to four years and be reappointed.",
+      "rawText": "17.(1) The President shall, in accordance with article 195 of the Constitution, appoint a Director-General and one Deputy Director-General for the Authority.\n\n(2)  The  Director-General  and  the  Deputy  Director-General  shall  hold  office  on  the terms and conditions specified in the letters of appointment\n\n(3) The Director-General shall hold office for a period of not more than four years and is eligible for re-appointment.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "functions-of-the-director-general-and-deputy-director-general",
+      "section": 20,
+      "title": "Functions of the Director-General and Deputy Director-General",
+      "plainLanguage": "The Director-General is in charge of the Authority's daily operations and must implement the Board's decisions. The Deputy Director-General fills in when the Director-General is away and takes on other responsibilities assigned by the Board. The Director-General can delegate tasks but is still accountable.",
+      "rawText": "18.(1) The Director General\n\n(a)  is  responsible  for  the  day-to-day  administration  of  the  affairs  of  the Authority and is answerable to the Board in the performance of the functions under this Act; and\n\n(b)  shall ensure the implementation of the decisions of the Board of Directors.\n\n(2) The Director General may delegate a function to an officer of the Authority but shall not be relieved of the ultimate responsibility for the performance of the delegated function.\n\n- The Deputy Director-General shall act in the absence of the Director-General.\n\n- The Deputy Director-General shall be assigned other responsibilities as the Board may determine.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "secretary",
+      "section": 21,
+      "title": "Secretary",
+      "plainLanguage": "This section describes how the Board's Secretary is appointed by the President upon the Board's recommendation. The Secretary is responsible for administrative tasks such as keeping meeting minutes and advising the Board, but cannot vote. The Secretary must be at least a Deputy Director of the Authority.",
+      "rawText": "19.(1) The President shall, on the recommendation of the Board of Directors, and in accordance with article 195 of the Constitution appoint an employee, not below the rank of a Deputy Director of the Authority,  as Secretary of the Board of Directors.\n\n(2) The Secretary shall hold office on the terms and conditions specified in the letter of appointment.\n\n(3) The Secretary shall be responsible for -\n\n            - (a) recording and keeping minutes of meetings of the Board;\n\n            - (b) maintaining records and correspondence of the Board;\n\n            - (e) formulating  agenda  for  meetings  with  the  chairperson  and  the Director-General;\n\n            - (f) advising the Board on\n\n                - (i) content,\n\n                - (ii) organisation of memoranda, or\n\n                - (iii) presentations for Board meetings.\n\n(4) The Secretary shall attend all meetings of the Board but shall not have a right to vote on any matter before the Board.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "appointment-of-other-staff",
+      "section": 22,
+      "title": "Appointment of other staff",
+      "plainLanguage": "The President will appoint staff to the Authority as needed, following constitutional rules. The Authority can also utilize existing public officers through transfers or secondments. Additionally, the Authority can hire advisors and consultants if the Board of Directors recommends it.",
+      "rawText": "20.(1) The President shall, in accordance with article 195 of the Constitution, appoint other staff of the Authority that are necessary for the effective and efficient performance of the functions of the Authority.\n\n(2) Other public officers may be transferred or seconded to the Authority or may otherwise give assistance to the Authority.\n\n(3) The Authority may, for the effective and efficient performance of the functions of the Authority, engage the services of advisors and consultants on the recommendations of the Board of Directors.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "offices-divisions-directorates-departments-and-units-of-the-authority",
+      "section": 23,
+      "title": "Offices, divisions, directorates, departments and units of the Authority",
+      "plainLanguage": "The Authority's Board of Directors can create internal offices, divisions, and departments. This allows the Authority to organize itself in a way that best supports its operations and ensures it can effectively perform its duties.",
+      "rawText": "21.The Authority may establish offices, divisions, directorates, departments and units of the Authority as determined by the Board of Directors for the effective and efficient performance of the functions of the Authority.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "internal-audit-unit",
+      "section": 24,
+      "title": "Internal Audit Unit",
+      "plainLanguage": "This section mandates the creation of an Internal Audit Unit within the Authority to ensure financial oversight. The unit, led by an Internal Auditor, will conduct regular audits and report findings to the Board of Directors. This process aims to improve the Authority's operations through regular monitoring and recommendations.",
+      "rawText": "22.(1) The Authority shall have an Internal Audit Unit in accordance with section 83 of the Public Financial Management Act, 2016 (Act 921).\n\n(2)  The  Internal  Audit Unit shall be headed by an Internal Auditor who shall be appointed in accordance with the Internal Audit Agency Act, 2003 (Act 658).\n\n(3) The Internal Auditor is responsible for the internal audit of the Authority.\n\n(4) The Internal Auditor shall, subject to subsections (3) and (4) of section 16 of the Internal Audit Agency Act, 2003 (Act 658), at intervals of three months\n\n(a) prepare and submit to the Board of Directors a report on the internal audit carried  out  during  the  period  of  three  months  immediately  preceding  the preparation of the report; and\n\n(b) make recommendations in each report with respect to matters necessary for the conduct of the affairs of the Authority.\n\n(5) The Internal Auditor shall, in accordance with subsection (4) of section 16 of the Internal  Audit  Agency  Act,  2003  (Act  658),  submit  a  copy  of  each  report  prepared under this section to the Director General and the chairperson of the Board of Directors.\n\n## Financial Provisions",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "funds-of-the-authority",
+      "section": 25,
+      "title": "Funds of the Authority",
+      "plainLanguage": "The Authority's funds come from various sources, including parliamentary allocations, customs duties on ICT equipment, fees, penalties, portions of taxes and other funds, ICT business revenue, loans, grants, donations, and investment income. These funds are used to support the Authority's operations and fulfill its responsibilities.",
+      "rawText": "23. The funds of the Authority include -\n\n(a) moneys approved by Parliament;\n\n(b)  a  percentage  of  customs  duties  paid  on  imported  ICT  equipment,  as approved by Parliament;\n\n(c)  fees  and  charges  that  accrue  to  the  Authority  in  the  performance  of  its functions under this Act;\n\n(d) administrative penalties imposed and collected under this Act;\n\n(e) a portion of the communications service tax, as approved by Parliament;\n\n(f)  a  portion  of  the  funds  of  the  Ghana  Infrastructure  Investment  Fund,  as approved by Parliament;\n\n(g) a portion of fees generated from the use of the government.gov portal, as approved by Parliament;\n\n(h) one percent (1%) of regulatory fees on gross revenue of all ICT businesses;\n\n(i) loans, grants, and donations;\n\n(j) fees and charges payable under this Act or the Electronic Transactions Act, 2025(Act …); and\n\n(k) income derived from the investment of the funds of the Authority.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "bank-account-of-the-authority",
+      "section": 26,
+      "title": "Bank account of the Authority",
+      "plainLanguage": "The Authority is required to open a bank account to manage its finances. This account needs approval from the Controller and Accountant-General. This ensures proper oversight and accountability of the Authority's funds.",
+      "rawText": "- Moneys for the Authority shall be paid into a bank account opened for the purpose with the approval of the Controller and Accountant-General.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "expenses-of-the-authority",
+      "section": 27,
+      "title": "Expenses of the Authority",
+      "plainLanguage": "The Authority's operating costs are paid from its own funds. Any surplus funds remaining after expenses are generally transferred to the government's Consolidated Fund, unless the relevant ministers allow the Authority to retain the funds. This ensures that excess funds are either returned to the government or reinvested as approved.",
+      "rawText": "25.(1) The expenses of the Authority shall be charged on the funds of the Authority.\n\n(2) Where after having defrayed the outstanding expenses, the Authority has an excess amount, the Authority shall transfer that amount to the Consolidated Fund unless the Minister for Finance in consultation with the Minister approves the retention by the Authority of a part or the whole of that excess amount.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "exemption-from-tax",
+      "section": 28,
+      "title": "Exemption from tax",
+      "plainLanguage": "This provision exempts the Authority from paying certain taxes. The Minister of Finance, with Parliament's approval, will decide which taxes are exempt. This exemption is in line with the Constitution and the Exemptions Act.",
+      "rawText": "26.Subject to article 174 of the Constitution and the Exemptions Act, 2022 (Act 1083), the Authority is exempt from the payment of taxes that the Minister responsible for Finance may, in writing, determine with the prior approval of Parliament.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "borrowing-powers",
+      "section": 29,
+      "title": "Borrowing powers",
+      "plainLanguage": "This section allows the Authority to borrow money from organizations or individuals, but only with the Minister's written approval and in accordance with financial regulations. The Authority can also use its assets as security for these loans, again with the Minister's consent. This enables the Authority to secure funding for its operations or projects.",
+      "rawText": "27.(1) Subject to article 181 of the Constitution and section 76 of the Public Financial Management Act, 2016 (Act 921), and with the prior consent in writing of the Minister, the Authority may borrow money from a body corporate or any other person.\n\n(2) For the purposes of securing the money borrowed, the Authority may, with the prior consent in writing of the Minister mortgage, charge or pledge a right, title or an interest in any of the properties of the Authority.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "accounts-and-audit",
+      "section": 30,
+      "title": "Accounts and audit",
+      "plainLanguage": "This provision mandates that the Authority maintain financial records that are approved by the Auditor-General, who will then audit these records annually. The audit report will be shared with the Minister and the Board of Directors. The Authority's financial year will match the government's.",
+      "rawText": "28. (1) The Authority shall keep books, records, returns of account and other documents relevant to the accounts in the form approved by the Auditor-General.\n\n(2) The Board of Directors shall submit the accounts of the Authority to the AuditorGeneral for audit within six months at the end of the financial year.\n\n(3) The Auditor-General shall, within six months after the end of the immediately preceding financial year, audit the accounts of the Authority and forward a copy of the report to the Minister and the Board of Directors.\n\n(4) The financial year of the Authority shall be the same as the financial year of the Government.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "annual-report-and-other-reports",
+      "section": 31,
+      "title": "Annual report and other reports",
+      "plainLanguage": "The Board of Directors must submit an annual report to the Minister within 30 days of receiving the audit report, detailing the Authority's activities, audit findings, target assessments, and stakeholder feedback. The Minister then has 30 days to submit this report to Parliament, along with any necessary statements, and can also request additional reports from the Board.",
+      "rawText": "29. (1) The Board of Directors shall, within thirty days after the receipt of the audit report, submit an annual report to the Minister, covering the activities and operations of the Authority for the year to which the report relates.\n\n(2) The annual report shall include -\n\n          - (a) the report of the Auditor-General;\n\n          - (b) an assessment of the targets of the Authority; and\n\n          - (c) a summary of challenges and feedback from stakeholders and recommendations to improve the efficiency and effectiveness of the Authority.\n\n(3) The annual report shall be prepared in accordance with the format and content set out in the Schedule to this Act.\n\n(4) The Minister shall, within thirty days after the receipt of the annual report, submit the report to Parliament with a statement that the Minister considers necessary. (5) The Board of Directors shall submit to the Minister any other report that the Minister or the Minister responsible for Communication, Digital Technology, and Innovations may require in writing",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "budget-estimates",
+      "section": 32,
+      "title": "Budget Estimates",
+      "plainLanguage": "This provision mandates that the Board must present its yearly budget to Parliament for approval. This budget outlines the Authority's planned operations and expenditures for the upcoming financial year. The budget submission must occur within the first three months of the financial year.",
+      "rawText": "30. The Board shall submit a budget for the operations of the  Authority for the following year to Parliament for approval through the Minister within three months after the commencement of the financial year.\n\n## e-government ICT infrastructure operator",
+      "relatedImpacts": []
+    },
+    {
+      "id": "establishment-of-the-e-government-ict-infrastructure-company",
+      "section": 33,
+      "title": "Establishment of the e-government ICT infrastructure company",
+      "plainLanguage": "This provision requires the government to create a company to manage its e-government technology infrastructure. The company will be overseen by an independent board with members from government, the private sector, and civil society. This aims to create a specialized entity to develop and maintain the digital systems needed for government services.",
+      "rawText": "31. (1) The Minister shall ensure the incorporation of a company to be licensed by the Authority  as  the  Government  e-government  ICT  infrastructure  operator  within  six months of the coming into force of this Act.\n\n(2)  The  company  shall  be  governed  by  an  independent  board  consisting  of representatives from:\n\n          - (a) the Ministry,\n\n          - (b) the Authority,\n\n          - (c) the private sector, and\n\n          - (d) civil society and academia with expertise in digital infrastructure.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "object-of-the-company",
+      "section": 34,
+      "title": "Object of the Company",
+      "plainLanguage": "The company's main goal is to build and manage the technology behind government digital services. This includes things like government data storage, cloud services for public institutions, digital ID systems, shared IT systems, and specialized software, all to support e-government initiatives.",
+      "rawText": "32 (1) The object of the Company is to deploy, maintain, and manage e-government infrastructure and platforms for the public sector, including -\n\n          - (a) government data centers;\n\n          - (b) cloud hosting environments for public institutions;\n\n          - (c) platforms for national digital identity services;\n\n          - (d) shared government systems and digital services; and\n\n          - (e) enterprise software solutions deployed solely for e-government purposes.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "use-of-funds",
+      "section": 35,
+      "title": "Use of  Funds",
+      "plainLanguage": "The Company must use its funds to build and maintain secure digital systems for the government. It will also invest in cloud computing, cybersecurity, and reliable business solutions, while reducing its dependence on outside contractors. Finally, the Company will provide services to public institutions according to agreed-upon standards.",
+      "rawText": "33 (1) The Company shall apply its funds to\n\n(a)  develop  and  maintain  secure and  interoperable digital infrastructure for government use,\n\n(b)  invest  in  cloud  computing,  cybersecurity  systems,  and  business  continuity solutions,\n\n(c) reduce dependence on external contractors for critical ICT systems, and\n\n(d)provide  services  to  public  institutions  under  agreed  service  level  agreements (SLAs).",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "reports-and-audits",
+      "section": 36,
+      "title": "Reports and audits",
+      "plainLanguage": "This provision requires the Company to regularly report its financial and operational performance to the Authority. The Company will also be subject to annual financial audits and technical reviews to ensure compliance and performance standards are met. This ensures transparency and accountability in the Company's operations.",
+      "rawText": "34The Company shall:\n\n(a) submit quarterly financial and operational performance reports to the Authority;\n\n(b)  undergo  annual  audits  by  the  Auditor-General  or  an  auditor  approved  by  the Authority, and\n\n(c)  be  subject  to  technical  audits  and  performance  reviews  conducted  by  the Authority.\n\n## Licensing Provisions",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "requirement-for-licence",
+      "section": 37,
+      "title": "Requirement for licence",
+      "plainLanguage": "To operate an ICT business, including infrastructure installation or product development, you must obtain a license from the Authority. Operating without a license is a criminal offense. Penalties include fines between two thousand and five thousand penalty units, imprisonment between six months and two years, or both.",
+      "rawText": "35. (1) A person shall not engage in a business or a related activity in the ICT sector unless that person has been granted a licence by the Authority.\n\n(2)  For  the  purpose  of  subsection  (1),  a  business  or  a  related  activity  in  the information and communications technology sector includes\n\n          - (a) the installation of ICT infrastructure;\n\n          - (b) the development or provision of ICT products and services; and\n\n          - (c) all activities requiring licensing or certification under this Act.\n\n(3) The Authority shall determine the mode of operations for the activities permitted under this section.\n\n(4) A person who engages in a business or other related activity under this Act or Regulations made under this Act without a licence commits an offence and is liable on summary conviction to a fine of not less than two thousand penalty units and not more than five thousand penalty units or to a term of imprisonment of not less than six months and not more than two years, or to both.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "categories-of-licences",
+      "section": 38,
+      "title": "Categories of licences",
+      "plainLanguage": "This section specifies the different types of licenses the ICT Authority can grant to businesses in the ICT sector, such as those dealing with infrastructure, cloud services, or data centers. The Authority is also responsible for publishing the rules for each license and can change the license categories as needed.",
+      "rawText": "36. (1) The Authority may issue the following categories of licences to a person engaged in a business or related activity in ICT  sector\n\n          - (a) Public/commercial ICT Infrastructure Licence;\n\n          - (b) Cloud Hosting Service Licence;\n\n          - (c) Software as a Service (SaaS) Provider Licence;\n\n          - (d) Government Digital Services Partnership Licence;\n\n          - (e) National Digital Platform Operator Licence;\n\n          - (f) Data Centre Operator Licence;\n\n          - (g) Any other categories of licences as determined by the Authority.\n\n(2) The Authority shall publish the terms and conditions of each licence category in the Gazette.\n\n    - The Authority may, by regulations, expand, modify or repeal any category of licence as may be necessary.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "qualification-for-licence",
+      "section": 39,
+      "title": "Qualification for licence",
+      "plainLanguage": "This provision defines who can apply for a license, specifying that eligible individuals must be adult citizens. Companies and other organizations can also apply if they are fully owned by a citizen. This ensures that licenses are primarily granted to citizens or entities controlled by citizens.",
+      "rawText": "- (1) A person qualifies to apply for a licence under this Act if that person is\n\n          - (a) a citizen of eighteen years or above; or\n\n(b) a company, a partnership, an association or other body, whether incorporated or unincorporated, which is wholly owned by a citizen.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "application-for-licence",
+      "section": 40,
+      "title": "Application for licence",
+      "plainLanguage": "To get a license, eligible individuals must apply to the Authority using the correct form and fulfill all requirements. A fee must be paid along with the application.",
+      "rawText": "38.(1) A person who qualifies under section 37 shall\n\n          - (a) apply for a licence to the Authority in the prescribed form; and\n\n          - (b) comply with the prescribed requirements.\n\n    - An application under subsection (1) shall be accompanied with the prescribed fee.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "consideration-of-an-application-for-licence",
+      "section": 41,
+      "title": "Consideration of an application for licence",
+      "plainLanguage": "This provision requires the Authority to review a license application within 10 days of receiving it. This ensures that applications are processed quickly.",
+      "rawText": "- The  Authority  shall,  within  ten  days  of  receipt  of  an  application,  consider  the application.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "grant-of-licence",
+      "section": 42,
+      "title": "Grant of licence",
+      "plainLanguage": "If an applicant meets all requirements, the Authority will grant a license within 60 days. However, the Authority can refuse a license if it's against public interest or if the applicant doesn't follow the Authority's rules, and they must explain why.",
+      "rawText": "- 40.(1) Where the Authority is satisfied that an applicant has met the requirements for the grant of a licence, the Authority shall\n\n          - (a)  approve  the  application  and  issue  the  applicant  with  a  licence  in  the prescribed form; and\n\n          - (b) within sixty days, communicate the decision in writing to the applicant.\n\n- Despite subsection (1), the Authority may refuse an application for a licence where\n\n          - (a) it is against the public interest, public safety or public security; or\n\n          - (b) the applicant fails to comply with a directive of the Authority\n\n    - The Authority shall communicate the reason for the refusal of an application to the applicant.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "validity-and-renewal-of-licence",
+      "section": 43,
+      "title": "Validity and renewal of licence.",
+      "plainLanguage": "Licenses issued under this Act are valid for a specific time and can be renewed by applying to the Authority. However, the Authority can refuse renewal if the ICT service provider violates the license terms, fails to pay fees, or poses a risk to the public. The Authority can also refuse renewal if the ICT service provider fails to comply with the provisions of this Act.",
+      "rawText": "41.(1) A licence issued under this Act is valid for the period specified in the licence and may be renewed.\n\n## (2) An application for renewal of a licence shall\n\n          - (a) be made to the Authority in the prescribed manner;\n\n(3) The Authority may refuse to renew a licence where\n\n(a) the ICT service provider fails to comply with the terms and conditions of the licence;\n\n(b) the ICT service provider fails to pay in full the prescribed fee for the renewal of the licence;\n\n(c) the ICT service provider fails to use the licence for the intended purpose one year after issuance;\n\n(d) the ICT service provider uses falsified documents in an application for the licence;\n\n(e) the ICT service provider fails to comply with the provisions of this Act or Regulations made under this Act;\n\n(f) the continued operation of the business or related activity in the ICT sector poses a risk to public health, public safety or public security;\n\n(g) the services provided by the ICT service provider have deteriorated below the required standards;\n\n(h)  an  offence  under  this  Act  or  Regulations  made  under  this  Act  is  being investigated in relation to the ICT service provider;\n\n(i)  the  ICT  service  provider  fails  to  honour  a  financial  obligation  to  the Authority or another public institution regarding sanctions, penalties, levies and taxes; or\n\n(j) the ICT service provider fails to comply with a directive of the Authority.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "non-transferability-of-licence",
+      "section": 44,
+      "title": "Non-transferability of licence",
+      "plainLanguage": "Licenses issued under this law cannot be transferred to another person unless the Authority gives written permission first. Transferring a license without approval is a crime that can result in a fine, imprisonment, and the loss of the license.",
+      "rawText": "42. (1) A licence granted under this Act is not transferable except with the prior written approval of the Authority.\n\n(2) A person who transfers a licence contrary to subsection (1) commits an offence and is liable on summary conviction to a fine of not less than fifty thousand penalty units  and  not  more  than  two  hundred  thousand  penalty  units  or  to  a  term  of imprisonment of not less than five years and not more than ten years or to both and in addition the Authority shall revoke the licence of that person.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "suspension-of-licence",
+      "section": 45,
+      "title": "Suspension of licence",
+      "plainLanguage": "This section allows the Authority to temporarily revoke an ICT service provider's license if they violate the terms of their license, fail to meet service standards, or become insolvent. Before suspension, the Authority must notify the provider and give them a chance to explain or fix the issue. This ensures providers meet their obligations and maintain service quality.",
+      "rawText": "43. (1) The Authority may suspend a licence issued under this Act where\n\n(a)  the  ICT  service  provider  fails  to  comply  with  the  terms  and conditions of the licence;\n\n(b)  the  ICT  service  provider  fails  to  use  the  licence  for  the  intended purpose one year after the issuance of the licence;\n\nc) the ICT service provider uses a falsified document in an application for the licence;\n\n(d)the ICT service provider fails to comply with the provisions of this Act or Regulations made under this Act;\n\n(f) the services provided by the ICT service provider have deteriorated below the required standards;\n\n(g)  an  offence  under  this  Act  or  Regulations  made  under  this  Act  in relation to the ICT service provider is being investigated;\n\n(h) the ICT service provider fails to honour a financial obligation to the Authority  or  another  public  institution  regarding  sanctions,  penalties, levies and taxes;\n\n(i)  the  ICT  service  provider  fails  to  comply  with  a  directive  of  the Authority; or\n\n              - (i) the ICT service provider\n\n                - (i) becomes insolvent or bankrupt;\n\n(ii) enters into an arrangement or scheme of composition with the creditors of the ICT service provider; or\n\n(iii)  takes  advantage  of  an  enactment  for  the  benefit  of  the debtors  of  the  ICT  service  provider  or  goes  into  liquidation, except as part of a scheme for an arrangement or amalgamation.\n\n(2) The Authority shall, before suspending a licence,\n\n(a) give the ICT service provider fifteen days' notice in writing of the intention to suspend the licence;\n\n(b) specify in the notice the reasons for the intended suspension; and\n\n(c) give an opportunity to the ICT service provider to make a written representation within ten days of receipt of the notice or remedy the breach if the breach is capable of remedy.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "restoration-of-suspended-licence",
+      "section": 46,
+      "title": "Restoration of suspended licence",
+      "plainLanguage": "If an ICT service provider's license is suspended, the Authority can restore it if the provider fixes the problem. The Authority must restore the license within 60 days of the issue being resolved and reinstate the provider's name on the register. This ensures that providers who correct their mistakes can resume operations.",
+      "rawText": "44. (1) The Authority may restore a suspended licence if the ICT service provider remedies the breach in the manner specified by the Authority.\n\n(2) The Authority shall restore a licence of a ICT service provider within sixty days of the ICT service provider remedying the breach that resulted in the suspension.\n\n(3)  Where the Authority restores the licence of a ICT service provider, the Authority shall reinstate the name of the ICT products and service provider in the register of ICT products and service providers.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "revocation-of-licence",
+      "section": 47,
+      "title": "Revocation of licence",
+      "plainLanguage": "The Authority can revoke an ICT service provider's license if the provider doesn't fix the problem that caused its suspension. Before revoking the license, the Authority must give the provider written notice and a chance to explain or correct the issue. This ensures providers have an opportunity to maintain their license.",
+      "rawText": "45. (1) The Authority may revoke the licence of a ICT service provider, where the licence of the ICT service provider has been suspended and the ICT service provider fails to remedy the breach that resulted in the suspension.\n\n(2) The Authority shall, before revoking a licence,\n\n(a)give the ICT service provider fifteen days' notice in writing of the intention to revoke the licence;\n\n(b) specify in the notice the reasons for the intended revocation; and\n\n(c) give an opportunity to the ICT service provider to make a written representation within ten days of receipt of the notice or remedy the breach within twenty-one days if the breach is capable of remedy.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "certification-of-ict-professionals",
+      "section": 48,
+      "title": "Certification of ICT Professionals",
+      "plainLanguage": "This provision mandates that all ICT professionals working in public and private institutions must be certified by the Authority. The Authority will also establish the specific requirements and process for obtaining this certification. This aims to ensure a standard level of competence among ICT professionals.",
+      "rawText": "46.(1) A person shall not be appointed as an ICT professional in a public  or private institution unless that person is certified by the Authority.\n\n(2)  The  Authority  shall  determine  the  criteria  and  procedure  for  the  certification  of  ICT professionals.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "register-of-ict-products-and-service-providers",
+      "section": 49,
+      "title": "Register of ICT products and service providers",
+      "plainLanguage": "This provision requires the Authority to create a public record of all licensed ICT products and service providers. The register will include important details like contact information, license types, and equipment approvals. This aims to increase transparency and provide a central source of information for the public and other stakeholders.",
+      "rawText": "47.(1)  The  Authority  shall  establish  and  maintain  a  register  of  ICT  products  and  service providers in which the Authority shall record\n\n(a) the names and particulars of ICT products and service providers issued with licences under this Act;\n\n(b) the categories of licences issued to ICT products and service providers;\n\n(c) licence applications;\n\n(d) equipment approvals;\n\n(e) infrastructure service providers; and\n\n(f) any other information that the Authority may determine.\n\n(2) The Authority shall update the register of ICT products and service providers every six months.\n\nClosure of Premises or Facility by the Authority",
+      "relatedImpacts": [
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "closure-of-premises-or-facility",
+      "section": 50,
+      "title": "Closure of premises or facility",
+      "plainLanguage": "This section allows the Authority to shut down ICT businesses if they pose a risk to public safety, provide poor service, or break the rules. Usually, the business gets a 15-day warning, but in emergencies, the Authority can act immediately. The Authority will also provide guidelines on how these powers will be used.",
+      "rawText": "48.(1) The Authority may close down the operations of any premises or a facility used for a business or related activity in the  ICT sector  where\n\n(a) the continued operation of the business or related activity poses a risk to public health, public safety, public security or the environment;\n\n(b) the services provided by the ICT provider have deteriorated below the required standard;\n\n(c) the ICT service provider fails to comply with any of the terms and conditions of the licence; or\n\n(d) the provisions of this Act or Regulations made under this Act are not being complied with.\n\n(2) The Authority shall, before closing down the operations of any premises or facility\n\n(a) give the ICT service provider fifteen days' notice in writing of the intention to close down the operations of the premises or facility; and\n\n(b) specify in the notice the reason for the intended closure.\n\n(3) Despite subsection (2), where the operation of premises or a facility poses imminent danger to public health, public safety, public security or is injurious to the public interest, the Authority may take necessary interim measures including\n\n(a) the immediate seizure of ICT products or equipment;\n\n(b) the suspension of the business or related activities; or\n\n(c) the closure of the premises or facility.\n\n(4) The Authority shall issue guidelines to govern the exercise of the powers of the Authority under this section.\n\nSale, Merger, Amalgamation and Alteration of the Nature of Business",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "sale-merger-amalgamation-and-alteration-of-nature-of-business-by-ict-service-provider",
+      "section": 51,
+      "title": "Sale, merger, amalgamation and alteration of nature of business by ICT service provider",
+      "plainLanguage": "ICT service providers must get permission from the Authority before selling their business, merging with another provider, or making significant changes to their business operations. This requirement ensures that the Authority can oversee and regulate changes within the ICT sector. Agreements made without this approval are not legally valid.",
+      "rawText": "49.(1) An ICT service provider shall not enter into an agreement or arrangement for\n\n(a) the sale, disposal or transfer of the whole or part of the business of the ICT service provider,\n\n(b) the amalgamation or merger of the business of the ICT service provider with another ICT service provider, or\n\n(c) the alteration of the business of the ICT service provider, except with the prior written approval of the Authority.\n\n(2)  Despite  the  provisions  specified  in  the  Companies  Act,  2019  (Act  992)  a  sale,  merger, amalgamation  or  the  alteration  of  the  nature  of  a  business  which  involves  an  ICT  service provider shall not take effect unless approved by the Authority.\n\n(3) A person who acquires shares of a ICT service provider in connection with a sale, merger, or amalgamation shall meet the requirements of this Act before applying for approval under the Securities Industry Act, 2016 (Act 929).\n\n(4) An agreement or arrangement entered into in contravention of subsection (1) is null and void.\n\n## Performance Standards and Specifications",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "performance-standards",
+      "section": 52,
+      "title": "Performance standards",
+      "plainLanguage": "The Authority is required to set performance standards for the ICT sector. These standards will be made public and the Authority will ensure that the ICT sector adheres to them. This aims to improve the quality and reliability of ICT services.",
+      "rawText": "- 50.The Authority shall\n\n- (a) develop performance standards in the ICT sector;\n\n- (b) publish the performance standards in the Gazette; and\n\n- (c) enforce the performance standards in the ICT sector.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "specifications-for-ict-products-and-services",
+      "section": 53,
+      "title": "Specifications for ICT products and services",
+      "plainLanguage": "This provision tasks the Authority with creating standards for ICT (Information and Communication Technology) products and services. These standards will then be officially published. This ensures clarity and consistency in the ICT sector.",
+      "rawText": "- The Authority shall\n\n- (a) set specifications for ICT products and services; and\n\n- (b) publish the specifications in the Gazette.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "compliance-monitoring-and-technical-clearance",
+      "section": 54,
+      "title": "Compliance Monitoring and Technical Clearance",
+      "plainLanguage": "The Authority will oversee licensees and certified individuals to ensure they follow the rules. Public institutions need the Authority's approval before starting large information and communications technology (ICT) projects. The Authority can set guidelines to clarify which ICT projects require this approval.",
+      "rawText": "52. (1) The Authority shall monitor the activities of licensees and certified persons to ensure compliance with this Act.\n\n(2) A public institution shall obtain technical clearance from the Authority before undertaking any major ICT procurement or deployment.\n\n(3) The Authority may issue guidelines to define the thresholds for what constitutes a major ICT project requiring technical clearance.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "national-digital-architecture",
+      "section": 55,
+      "title": "National Digital Architecture",
+      "plainLanguage": "This provision requires the Authority to create a National Digital Architecture. This architecture will establish standards for government ICT systems to ensure they are compatible, secure, and can share data effectively. The goal is to improve coordination and efficiency in the public sector's use of technology.",
+      "rawText": "53(1) The Authority shall develop and maintain a National Digital Architecture to guide the deployment and integration of ICT systems across the public sector.\n\n(2) The architecture shall include standards for data exchange, interoperability, cybersecurity, user authentication, and shared platforms.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "ict-project-registry",
+      "section": 56,
+      "title": "ICT Project Registry",
+      "plainLanguage": "This provision establishes a registry for all public sector ICT projects. Public institutions must register their projects before starting any work, allowing the Authority to review and ensure they meet national standards. This aims to ensure that public ICT projects are aligned with national priorities and are implemented effectively.",
+      "rawText": "54.(1) The Authority shall establish and maintain an ICT Project Registry to record all public sector ICT projects.\n\n(2) A public institution shall register a project before initiating procurement or implementation.\n\n(3) The Authority may review registered projects to ensure alignment with national priorities and standards.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "shared-services-and-infrastructure",
+      "section": 57,
+      "title": "Shared Services and Infrastructure",
+      "plainLanguage": "This provision directs the Authority to manage shared technology infrastructure and services, such as hosting and security, for government organizations. Public institutions are required to use these shared services unless they are specifically exempted. This aims to streamline technology resources and promote efficiency across the public sector.",
+      "rawText": "55.(1) The Authority shall coordinate the deployment of shared ICT infrastructure and services for public institutions.\n\n(2) Shared services shall include hosting platforms, security frameworks, and cross-sectoral digital tools.\n\n(3) A public institution shall use shared services designated by the Authority unless otherwise exempted in writing.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "audit-and-standards-for-public-ict",
+      "section": 58,
+      "title": "Audit and Standards for Public ICT",
+      "plainLanguage": "The Authority will regularly audit public ICT systems to ensure they meet required standards. If improvements are needed, the Authority will issue a plan, and institutions that don't follow the plan will face a fine. This ensures public institutions maintain their ICT systems to a certain standard.",
+      "rawText": "56. (1) The Authority shall conduct periodic audits of public ICT systems to assess compliance with prescribed standards.\n\n(2) The Authority may issue improvement plans to public institutions based on audit findings. (3)  An  institution  that  fails  to  implement  an  improvement  plan  commits  an  administrative breach and shall pay  to the Authority an administrative penalty of not less than five thousand and not more than ten thousand penalty units.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "performance-monitoring-and-reporting",
+      "section": 59,
+      "title": "Performance Monitoring and Reporting",
+      "plainLanguage": "This section requires the Authority to track and report on the digital performance of public institutions. Public institutions must submit regular reports, and the Authority will create an annual public report. The Authority will also manage a registry of certified professionals and can revoke certifications for misconduct.",
+      "rawText": "57.(1) The Authority shall develop a framework for monitoring performance indicators for digital governance.\n\n(2) Each public institution shall submit periodic ICT performance reports in a manner directed by the Authority.\n\n(3) The Authority shall compile an annual Public Sector Digital Index Report for submission to the Minister and publication.\n\n(4) The Authority shall maintain a register of certified professionals and may suspend or revoke certification for misconduct or breach of standards.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "ict-performance-standards-and-certification-tiers",
+      "section": 60,
+      "title": "ICT Performance Standards and Certification Tiers",
+      "plainLanguage": "This provision requires the Authority to set ICT performance standards and create certification levels for ICT infrastructure, services, and professionals. Public institutions must then obtain ICT services from providers that meet the Authority's certification standards. This aims to ensure that public institutions use secure, reliable, and accessible ICT services.",
+      "rawText": "58. (1) The Authority shall prescribe and enforce ICT performance standards and certification tiers for infrastructure, services, and professionals.\n\n(2)  Certification  tiers  shall  reflect  levels  of  security,  interoperability,  reliability,  and  user accessibility.\n\n(3) A public institution shall procure ICT services and systems only from providers certified by the Authority at a prescribed tier.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "capacity-building-and-local-innovation-support",
+      "section": 61,
+      "title": "Capacity Building and Local Innovation Support",
+      "plainLanguage": "The Authority will provide training programs for government ICT staff to improve their skills. It will also work with tech companies, new businesses, and universities to encourage and support local innovation in the ICT sector.",
+      "rawText": "59.  (1)  The  Authority  shall  implement  programmes  for  the  training  and  professional development of ICT officers in the public sector.\n\n(2) The Authority shall promote partnerships with technology firms, start-ups, and academia to support indigenous ICT innovation.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "regulatory-sandbox-for-ict-innovation",
+      "section": 62,
+      "title": "Regulatory Sandbox for ICT Innovation",
+      "plainLanguage": "This provision creates a regulatory sandbox where innovators can test new technology products and services under supervision. Participants may receive temporary relief from some regulations. The Authority will set the rules for the sandbox, but standard protections for data, consumers, and money laundering will still apply.",
+      "rawText": "60.(1)  The  Authority  shall  establish  a  Regulatory  Sandbox  Framework  to  allow  eligible innovators to test new ICT products, services, business models, or delivery mechanisms in a controlled environment, subject to defined parameters and duration.\n\n(2) A person or entity that qualifies for participation in the sandbox shall receive temporary regulatory reliefs as determined by the Authority.\n\n(3) The Authority shall issue guidelines governing the eligibility, application, monitoring, exit, and evaluation criteria for participation in the Regulatory Sandbox.\n\n(4)  Participation  in  the  sandbox  shall  not  exempt  a  person  from  obligations  under  data protection, consumer protection, and anti-money laundering laws, unless explicitly provided for by the Authority.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "risk-based-and-principles-oriented-approach",
+      "section": 63,
+      "title": "Risk-Based and Principles-Oriented Approach",
+      "plainLanguage": "The Authority will regulate ICT activities by focusing on risks and desired outcomes like consumer protection. It will categorize risks based on the size and impact of the activity and use proportionate regulatory measures. This approach aims to promote flexibility and innovation in the ICT sector.",
+      "rawText": "61.(1) The Authority shall exercise its regulatory functions using a risk-based and principlesoriented approach, focusing on the outcomes of compliance, consumer protection, security, and innovation facilitation.\n\n(2) The Authority shall develop a risk categorisation model to differentiate regulatory oversight based on the scale, nature, and impact of the ICT activity or service.\n\n(3) In applying this Act or Regulations, the Authority shall adopt regulatory measures that are proportionate to the risks posed and shall promote flexibility and innovation within the ICT ecosystem.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "future-technologies-and-adaptive-regulation",
+      "section": 64,
+      "title": "Future Technologies and Adaptive Regulation",
+      "plainLanguage": "This provision requires the Authority to create regulations that don't favor specific technologies and encourage innovation. It also mandates regular reviews of existing rules to ensure they are up-to-date with new technologies like artificial intelligence and blockchain. This helps ensure regulations remain relevant and don't stifle technological advancement.",
+      "rawText": "62.(1) The Authority shall ensure that regulatory instruments under this Act are technologyneutral and do not unduly constrain innovation.\n\n(2) The Authority shall periodically review its rules, standards, and procedures to accommodate emerging  technologies,  including  but  not  limited  to  artificial  intelligence,  blockchain,  the Internet of Things, cryptocurrency and cross-border cloud services.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "digital-inclusion-and-accessibility",
+      "section": 65,
+      "title": "Digital Inclusion and Accessibility",
+      "plainLanguage": "This provision requires the Authority to promote equal access to ICT services, especially for people with disabilities and other marginalized groups. It will create national standards for ICT accessibility and work with other organizations to improve digital literacy. The aim is to ensure everyone can use and benefit from digital technologies.",
+      "rawText": "63.(1)  The  Authority  shall  promote  universal  and  inclusive  access  to  ICT  services,  with particular  focus  on  persons  with  disabilities,  women,  rural  populations,  and  marginalized groups.\n\n(2) The Authority shall develop and implement national standards for ICT accessibility based on international best practices, including the Web Content Accessibility Guidelines (WCAG).\n\n(3) The Authority shall collaborate with relevant agencies and civil society organizations to implement digital literacy programs and gender-responsive digital empowerment initiatives.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "multi-stakeholder-advisory-forum",
+      "section": 66,
+      "title": "Multi-Stakeholder Advisory Forum",
+      "plainLanguage": "This provision creates a Multi-Stakeholder Advisory Forum to give policy advice to the Authority. The forum will include representatives from the ICT sector, civil society, academia, and other relevant groups, and will meet at least once a year. The Authority will then publish a summary of the forum's discussions and responses in its annual report.",
+      "rawText": "64.(1) There is established by this Act a Multi-Stakeholder Advisory Forum to provide policy and strategic advice to the Authority.\n\n(2) The Forum shall comprise representatives from:\n\n(a) the private ICT sector;\n\n(b) civil society organizations;\n\n- (c) academic and research institutions;\n\n- (d) certified ICT professionals;\n\n(e) international development partners; and\n\n(f) any other stakeholder the Authority may determine.\n\n(3) The Forum shall meet at least once a year and submit recommendations to the Board of Directors.\n\n(4) The Authority shall publish a summary of the Forum's deliberations and responses in its annual report.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "periodic-review-of-regulatory-instruments",
+      "section": 67,
+      "title": "Periodic Review of Regulatory Instruments",
+      "plainLanguage": "This provision requires the Authority to review its regulations at least every five years. The review will assess if the regulations are still relevant and effective, considering changes in technology and the market. The Authority must also consult with the public and publish a report on the review's impact.",
+      "rawText": "65. (1) The Authority shall undertake a comprehensive review of all regulatory instruments made under this Act at least once every five (5) years.\n\n(2)  The  review  shall  evaluate  the  continued  relevance,  effectiveness,  and  flexibility  of regulations  in  light  of  technological  advancements,  market  developments,  and  stakeholder needs.\n\n(3)  The  Authority  shall  conduct  public  consultations  and  publish  a  Regulatory  Impact Assessment Report following each review.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "collaboration-with-other-agencies",
+      "section": 68,
+      "title": "Collaboration with Other Agencies",
+      "plainLanguage": "This provision requires the Authority to work with public and private organizations, both domestically and internationally. This collaboration will help the Authority to better perform its duties and achieve its goals. By working together, the Authority can leverage expertise and resources from various sectors.",
+      "rawText": "66. The Authority shall collaborate with public sector institutions, regulatory bodies, private sector actors, and international development partners and organisations in the discharge of its mandate.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "submission-of-reports-by-ict-service-providers",
+      "section": 69,
+      "title": "Submission of reports by ICT service providers",
+      "plainLanguage": "ICT service providers are required to submit annual reports to the Authority about their business activities. The Authority can request more information and must review the reports within 30 days. This allows the Authority to monitor the activities of ICT service providers and ensure compliance.",
+      "rawText": "67. (1) A ICT service provider shall submit annual reports on the business and related activities of the ICT service provider to the Authority.\n\n- A report under subsection (1) shall be submitted within\n\n- (a) fifteen days after the end of month ending December 31 in any year; or\n\n- (b) a period specified in guidelines issued by the Authority.\n\n- The  Authority  may  request  additional  information  from  a  ICT  service  provider  on  the following\n\n- (a) the conduct, practices and management of the business of the ICT service provider;\n\n- (b) the transactions related to the operations of the ICT service provider; and\n\n- (c) financial and operational compliance with applicable enactments.\n\n(4) The Authority shall, within thirty days after receipt of the report, consider the report and take necessary action.\n\nInvestigation and Enforcement",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "inspector",
+      "section": 70,
+      "title": "Inspector",
+      "plainLanguage": "The Director General can appoint inspectors to check if ICT businesses are following the law. These inspectors need written permission before conducting an inspection and must follow a code of conduct. This ensures businesses in the ICT sector are operating legally and ethically.",
+      "rawText": "68. (1) The Director General, in consultation with the Board of Directors, may for the purpose of this Act, designate an officer as an inspector to, subject to strict ethical guidelines, inspect premises or a facility engaged in a business or related activity in the  ICT sector to ensure compliance with this Act.\n\n(2) An inspector shall, before conducting an inspection, obtain prior written authorisation from the Director General, and if required, produce the authorisation to the person in charge of the premises or facility.\n\n(3) An inspector shall be subject to a code of conduct with penalties for misconduct.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "power-of-an-inspector",
+      "section": 71,
+      "title": "Power of an inspector",
+      "plainLanguage": "Inspectors have the authority to enter and inspect premises and vehicles to investigate potential illegal activities in the ICT sector. They can examine records, seize materials, and must report their findings, with seizures requiring validation from a tribunal. They may be accompanied by law enforcement during these inspections.",
+      "rawText": "69. (1)  An inspector may, at any reasonable time, enter premises or a facility to investigate activities if there is reason to believe the premises or facility is being used for an unlicensed business or related activity in the ICT sector.\n\n- The inspector shall, upon entry into the premises or facility, inspect\n\n- (a) the licence of the ICT service provider;\n\n- (b) the premises of the ICT service provider; and\n\n- (c) any records relevant to compliance with this Act.\n\n(3) An inspector may, at any reasonable time, enter premises, a vehicle, a vessel or an aircraft to\n\n- (a) examine records or documents related to ICT transactions;\n\n- (b) search for evidence of illegal ICT transactions or unlicensed operations;\n\n(c) require the owner or manager of the premises, vehicle, vessel or aircraft to provide relevant documents;\n\n(d) seize and detain ICT product or related materials suspected to be used in contravention of this Act; and\n\n(e) ascertain whether a ICT service provider is conducting business in accordance with this Act and Regulations made under this Act.\n\n(4)  Upon  the  seizure  and  detention  of    ICT  products  or  equipment  by  an  inspector  of  the Authority, the Authority shall within seven (7) days after the seizure and detention, apply to the  Tribunal  under    section  77  of  this  Act  for  validation  or  otherwise  of  the  seizure  and detention.\n\n(5) An inspector may be accompanied by a police officer or any other security personnel in the exercise of powers under this section.\n\n(6) An inspector who conducts an inspection under this section shall, within forty-eight (48) hours of the conduct of the inspection, submit a written report of the inspection to the Director General.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "obstruction-of-an-inspector",
+      "section": 72,
+      "title": "Obstruction of an inspector",
+      "plainLanguage": "This provision makes it a crime to obstruct an inspector who is carrying out their duties. Violators may face fines between two thousand and five thousand penalty units, imprisonment between six months and two years, or both.",
+      "rawText": "70. A person who obstructs an inspector in the exercise of a power under section 67 commits an offence and is liable on summary conviction to a fine of not less than two thousand penalty units and not more than five thousand penalty units or to a term of imprisonment of not less than six months and not more than two years or to both.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "enforcement-powers-of-the-authority",
+      "section": 73,
+      "title": "Enforcement powers of the Authority",
+      "plainLanguage": "This section details the Authority's power to enforce the ICT Act, including the ability to demand information, conduct searches with a warrant, and penalize service providers who violate the rules. The Authority can also award damages to third parties harmed by a service provider's actions. These powers are similar to those of a police officer in conducting searches and investigations.",
+      "rawText": "71. (1) The Authority may\n\n(a) require an applicant for a licence or a ICT service provider to produce a document or other relevant information;\n\n- (b) apply to a court of competent jurisdiction for a warrant to\n\n- (i) search premises and seize evidence; or\n\n- (ii) seize any materials related to a contravention of this Act·\n\n- (c) require the attendance of a witness for investigation;\n\n- (d) restrain a ICT service provider who has breached a condition of the licence from engaging\n\n- in a business or a related activity in the ICT sector; and\n\n(e) assess and award damages against a ICT service provider in favour of an injured third party.\n\n- The Authority shall have custody of all confiscated ICT products and equipment.\n\n(3) For the purpose of subsection (1), an officer authorised by the Authority may exercise the power of search or investigation conferred on a police officer under the Criminal and Other Offences (Procedure) Act, 1960 (Act 30).",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "other-powers-of-the-authority",
+      "section": 74,
+      "title": "Other powers of the Authority",
+      "plainLanguage": "This section details the Authority's powers to enforce the Act. If someone breaks the rules, the Authority can issue warnings, confiscate illegal equipment, order them to stop the activity, suspend or cancel their license, or take other actions to ensure they follow the law.",
+      "rawText": "72.Without  limiting  section  69,  where  a  person  contravenes  a  provision  of  this  Act  or Regulations  made under this Act, the Authority may\n\n- (a) issue a warning to the violator;\n\n(b) order the forfeiture of ICT products or equipment obtained illegally;\n\n- (c) issue a cease-and-desist order;\n\n- (d) suspend or revoke a licence in accordance with this Act; and\n\n(e) take any other action necessary to ensure compliance with this Act.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "other-enforcement-measures",
+      "section": 75,
+      "title": "Other enforcement measures",
+      "plainLanguage": "The Authority can conduct random audits of ICT infrastructure and service providers. It also has the power to seize ICT equipment if it lacks proper documentation, is used to bypass regulations, or violates anti-money laundering and counter-terrorism financing laws. This ensures compliance and prevents illegal activities within the ICT sector.",
+      "rawText": "73(1) The Authority shall, in collaboration with relevant institutions conduct a random ICT audit of a public/commercial ICT infrastructure or an ICT service provider.\n\n- The Authority may seize and confiscate ICT products or equipment  if\n\n- (a) the  ICT  product  or equipment  lacks necessary documentation;\n\n- (b) a ICT service provider or any other person seeks to bypass regulatory oversight; or\n\n- (c) the ICT operations violates anti-money laundering and counter-terrorism financing laws.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "negotiation",
+      "section": 77,
+      "title": "Negotiation",
+      "plainLanguage": "ICT companies that have a disagreement must first try to solve it by talking to each other. If they can't agree, either company can take the issue to a special committee to help resolve it.",
+      "rawText": "74.(1) Where a dispute arises between ICT service providers regarding licensed activities, the ICT service providers shall resolve the dispute amicably through negotiation.\n\n(2) Where the parties are unable to resolve the dispute through negotiations, either party to the dispute may refer the dispute to the Dispute Resolution Committee established under section 75.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "dispute-resolution-committee",
+      "section": 78,
+      "title": "Dispute Resolution Committee",
+      "plainLanguage": "This provision creates a Dispute Resolution Committee to quickly and fairly resolve disagreements between ICT service providers. The committee will investigate disputes, conduct transparent proceedings, and issue decisions within 30 days. This aims to provide a swift and impartial mechanism for resolving conflicts in the ICT sector.",
+      "rawText": "- (l) There is established by this Act a Dispute Resolution Committee.\n\n- The Dispute Resolution Committee shall\n\n- (a) investigate and hear disputes between ICT service providers without delay;\n\n- (b) conduct proceedings fairly and transparently; and\n\n- (c) deliver decisions within thirty days from the date of receipt of a dispute.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "composition-and-procedure-of-the-dispute-resolution-committee",
+      "section": 79,
+      "title": "Composition and procedure of the Dispute Resolution Committee",
+      "plainLanguage": "The Board of Directors decides who sits on the Dispute Resolution Committee and how it works. However, the committee must be led by a lawyer with at least 10 years of experience in alternative dispute resolution. The rules of the committee will be published for the public to see.",
+      "rawText": "- (1) The Board of Directors shall determine the composition and the rules of procedure of the Dispute Resolution Committee.\n\n(2) Despite subsection (1), the Dispute Resolution Committee shall be chaired by a lawyer with at least ten years' experience in the practice of alternative dispute resolution.\n\n- The Authority shall publish the rules of procedure of the Dispute Resolution Committee in the Gazette.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "decisions-of-the-dispute-resolution-committee",
+      "section": 80,
+      "title": "Decisions of the Dispute Resolution Committee",
+      "plainLanguage": "The Dispute Resolution Committee has the authority to make decisions about disputes, including determining each party's responsibilities and issuing temporary orders. They can also manage the dispute process, dismiss irrelevant claims, assign costs, and make other necessary directives to resolve the issue. This ensures the committee has the tools to fairly and effectively settle disagreements.",
+      "rawText": "- The Dispute Resolution Committee may, in resolving a dispute\n\n- (a) declare the rights and obligations of the parties;\n\n- (b) make a provisional order or an interim order;\n\n- (c) provide directions to facilitate the proceedings;\n\n- (d) dismiss a frivolous or a vexatious claim;\n\n- (e) award costs against a party, where appropriate; and\n\n- (f) issue any other directive necessary to resolve the matter.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "appeal-against-the-decision-of-the-dispute-resolution-committee",
+      "section": 81,
+      "title": "Appeal against the decision of the Dispute Resolution Committee",
+      "plainLanguage": "If someone disagrees with a decision from the Dispute Resolution Committee, they can appeal to the National Information Technology Tribunal. This tribunal offers a formal process to review the committee's decision. It provides an avenue for those affected to seek a different resolution.",
+      "rawText": "79. A person who is aggrieved by a decision of the Dispute Resolution Committee may appeal to the National Information Technology Tribunal established under this Act.\n\nNational Information Technology Tribunal",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "establishment-of-the-national-information-technology-authority-tribunal",
+      "section": 82,
+      "title": "Establishment of the National Information Technology Authority Tribunal",
+      "plainLanguage": "This provision creates the National Information Technology Tribunal. The Tribunal will handle appeals related to decisions from the National Information Technology Authority, licensing, or the Dispute Resolution Committee. This provides a formal process for appealing IT-related decisions.",
+      "rawText": "- 80.(1) There is established by this Act, the National Information Technology Tribunal.\n\n- The Tribunal shall be constituted to consider appeals regarding\n\n- (a) a decision made by the Authority;\n\n- (b) a matter relating to a licence issued under this Act; or\n\n- (c) a decision of the Dispute Resolution Committee.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "composition-of-the-tribunal",
+      "section": 83,
+      "title": "Composition of the Tribunal",
+      "plainLanguage": "This provision describes who can serve on the Tribunal. The chairperson must be a retired judge or a lawyer with extensive experience in ICT or dispute resolution, and the other two members must have ICT expertise; all are appointed by the Minister. Members of the Tribunal are subject to rules regarding conflicts of interest and allowances.",
+      "rawText": "- (1) The Tribunal consists of\n\n- (a) a chairperson, who is\n\n- (i) a retired Justice of the Superior Courts of Judicature, or\n\n- (ii) a lawyer with at least fifteen years' experience in the regulation of the ICT sector or the practice of alternative dispute resolution; and\n\n- (b) two other members with expertise in ICT.\n\n- The Minister shall appoint the chairperson and other members of the Tribunal\n\n- Sections  9  and  11  on  disclosure  of  interest  and  allowances  apply  to  a  member  of  the Tribunal.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "administration-of-the-tribunal",
+      "section": 84,
+      "title": "Administration of the Tribunal",
+      "plainLanguage": "This provision states that the Minister must appoint a Registrar to manage the Tribunal's administration and hire other staff as needed. The Registrar will be in charge of the Tribunal's daily operations. This ensures the Tribunal has the necessary administrative support to function effectively.",
+      "rawText": "- 82.(1) The Minister shall appoint\n\n- (a) a Registrar to manage the administrative affairs of the Tribunal; and\n\n- (b) other staff necessary for the efficient and effective operation of the Tribunal.\n\n- The Registrar shall oversee the day-to-day operations of the Tribunal.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "expenses-of-the-tribunal",
+      "section": 85,
+      "title": "Expenses of the Tribunal",
+      "plainLanguage": "The Tribunal's operational costs will be covered by the Authority's funds. The Tribunal's chairperson is responsible for creating a budget that must be approved by the Board of Directors. The Board must then ensure the Tribunal receives its funding early in the financial year.",
+      "rawText": "- (1) The expenses of the Tribunal shall be a charge on the funds of the Authority.\n\n- The chairperson of the Tribunal shall submit an annual budget for approval by the Board of Directors.\n\n- The Board of Directors shall release funds for the operations of the Tribunal no later than the first quarter of the financial year.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "allowances",
+      "section": 86,
+      "title": "Allowances",
+      "plainLanguage": "This provision states that members and staff of the Tribunal will receive allowances when they hear cases. The amount of these allowances will be determined by the Minister in consultation with the Minister responsible for Finance. This ensures fair compensation for their work.",
+      "rawText": "- The members and staff of the Tribunal shall be paid such allowances determined by the Minister  in consultation with the Minister responsible for Finance as and when the Tribunal hears cases.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "rules-of-procedure-of-the-tribunal",
+      "section": 87,
+      "title": "Rules of procedure of the Tribunal",
+      "plainLanguage": "The Board of Directors must create the Tribunal's operating procedures within 90 days of this law taking effect. These procedures will then be published for public access. This ensures the Tribunal has a clear and transparent process for its operations.",
+      "rawText": "- (1) The Board of Directors shall, within ninety days of the coming into force of this Act, prescribe rules of procedure for the Tribunal.\n\n- (2)The Board of Directors shall publish the rules in the Gazette.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "right-of-appeal",
+      "section": 88,
+      "title": "Right of appeal",
+      "plainLanguage": "This provision allows individuals who are unhappy with a decision from the Authority or Dispute Resolution Committee to appeal to a Tribunal. The appeal must be filed within 21 days and include specific information about the decision and the reasons for the appeal. The Tribunal will then hear the appeal within 30 days.",
+      "rawText": "- (1) A person aggrieved by a decision of the Authority or the Dispute Resolution Committee may, within twenty-one days of the date of the decision, appeal to the Tribunal.\n\n- A notice of appeal under subsection (1) shall specify\n\n- (a) the decision being appealed against;\n\n- (b) the legal provisions under which the decision was made; and\n\n- (c) the grounds for appeal.\n\n- The Tribunal shall convene to hear the appeal within thirty days of receipt of the notice of appeal.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "decisions-of-the-tribunal",
+      "section": 89,
+      "title": "Decisions of the Tribunal",
+      "plainLanguage": "The Tribunal, after hearing an appeal, can overturn, partially allow, or dismiss the original decision. If the appeal is partially allowed, the Tribunal can change the decision with specific conditions. The Tribunal's final decision holds the same legal weight as a judgment from the High Court.",
+      "rawText": "- 87(1) The Tribunal may, after hearing an appeal,\n\n- (a) overturn the decision being appealed;\n\n(b) partially allow the appeal; or\n\n(c) dismiss the appeal and uphold the decision of the Dispute Resolution Committee or the Authority.\n\n(2) Where the Tribunal allows an appeal in part, the Tribunal may modify the decision of the Authority  or  the  Dispute  Resolution  Committee  subject  to  conditions  that  the  Tribunal considers appropriate.\n\n(3) The decision of the Tribunal shall have the same effect as a judgment of the High Court.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "appeal-against-a-decision-of-the-tribunal",
+      "section": 90,
+      "title": "Appeal against a decision of the Tribunal",
+      "plainLanguage": "If you disagree with a Tribunal's decision, you can appeal to the Court of Appeal, but only on legal grounds. You must file this appeal within 30 days of the original decision.",
+      "rawText": "- (1) A party who is dissatisfied with a decision of the Tribunal on a matter may appeal to the Court of Appeal.\n\n- An appeal under subsection (1) shall be\n\n- (a) on a point of law only; and\n\n(b) filed within thirty days of the decision of the Tribunal.\n\nOffence, Penalties  and Administrative Penalty",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "general-offences-and-penalties",
+      "section": 91,
+      "title": "General offences and penalties",
+      "plainLanguage": "This section lists illegal activities in the ICT sector, such as damaging equipment or providing false information. Individuals who commit these offenses may face fines between two thousand and five thousand penalty units, imprisonment between six months and two years, or both.",
+      "rawText": "89. (1) A person shall not\n\n(a) unlawfully destroy, damage, or interfere with equipment, installations, or facilities used in the ICT sector ;\n\n(b) provide false information or fraudulent documentation related to ICT transactions;\n\n(c)  fail or neglect to comply with the terms and conditions of a licence;\n\n(d) offer a bribe or incentive to an officer of the Authority to circumvent this Act or Regulations made under this Act;\n\n(e) front or connive to acquire a licence under this Act or Regulations made under this Act.\n\n(2) A person who contravenes a provision of subsection (1) commits an offence and is liable on summary conviction to a fine of not less than two thousand penalty units and not more than five thousand penalty units or to a term of imprisonment of not less than six months years and not more than two years or to both.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "embezzlement-misappropriation-or-diversion-of-funds",
+      "section": 92,
+      "title": "Embezzlement, misappropriation or diversion of funds",
+      "plainLanguage": "This provision makes it illegal to steal or misuse funds that are meant for the Authority or the Republic under this law. Violators will face a fine between 5,000 and 10,000 penalty units, imprisonment between 5 and 20 years, or both.",
+      "rawText": "90.(1) A person shall not embezzle, misappropriate or divert funds meant for the Authority or the Republic under this Act.\n\n(2)A person who contravenes subsection (1) commits an offence and is liable on summary conviction to a fine of not less than five thousand penalty units and not more than ten thousand penalty units or to a term of imprisonment of not less than five years and not more than twenty years or to both.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "offences-relating-to-licensing-and-certification",
+      "section": 93,
+      "title": "Offences Relating to Licensing and Certification",
+      "plainLanguage": "This provision makes it illegal to operate in the ICT sector without the required licenses or certifications. It also prohibits individuals from misrepresenting their credentials or providing false information to obtain licenses. Violators may face fines, imprisonment, or both.",
+      "rawText": "91.(1) A person who\n\n(a) provides ICT services or operates ICT infrastructure without a valid licence,\n\n(b) falsely represents themselves as a certified ICT professional, or\n\n(c) submits false information to obtain a licence or certification, commits an offence and is liable on summary conviction to a fine of not less than one thousand penalty units and not more than two thousand penalty units  or to a term of imprisonment of not less than six months years and not more than two years, or to both.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "interference-with-technical-clearance",
+      "section": 94,
+      "title": "Interference with Technical Clearance",
+      "plainLanguage": "This provision makes it a crime to interfere with the Authority's technical clearance process. Those found guilty could face a fine, jail time, or both. This aims to ensure the Authority can properly conduct its technical reviews without obstruction.",
+      "rawText": "92. A person who obstructs or circumvents the technical clearance process of the Authority commits an offence and is liable on summary conviction to a fine of not  less than one thousand penalty units and not more than two thousand penalty units  or to a term of imprisonment of not less than six months years and not more than two years, or to both.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "obstruction-of-compliance-reviews",
+      "section": 95,
+      "title": "Obstruction of Compliance Reviews",
+      "plainLanguage": "This provision makes it a crime to obstruct compliance reviews by refusing to provide information, blocking access to IT systems, or altering/destroying documents. Those found guilty face fines between two thousand and five thousand penalty units, imprisonment between twelve months and two years, or both. This aims to ensure that compliance inspectors can effectively perform their duties.",
+      "rawText": "93. A person who\n\n(a)  refuses  to  provide  information  lawfully  requested  by  a  Compliance  Inspector  of  the Authority,\n\n(b) prevents or delays access to ICT systems or facilities during an inspection, or\n\n(c) conceals, alters, or destroys relevant documentation, commits an offence and is liable on summary conviction to a fine of not less than two thousand penalty units  and not more than five thousand penalty units or to imprisonment for a term of not less that twelve months and not more than two years, or to both.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "offence-by-a-body-corporate",
+      "section": 96,
+      "title": "Offence by a body corporate",
+      "plainLanguage": "If a company commits an offense under this law, its directors, managers, officers, and responsible shareholders are also considered guilty. However, they can avoid liability if they prove they did everything reasonably possible to prevent the offense from happening. This holds company leaders accountable for ensuring their company follows the law.",
+      "rawText": "94.Where a body corporate commits an offence under this Act, every director, manager, officer and shareholder responsible for the operations of the body corporate is considered to have committed the  offence  unless  the  director,  manager,  officer  or  shareholder  proves  that  the director, manager, officer or shareholder exercised due diligence to prevent the commission of the offence.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "administrative-penalty",
+      "section": 97,
+      "title": "Administrative penalty",
+      "plainLanguage": "This section states that ICT service providers who don't follow the Authority's instructions or provide necessary information will be fined. If they don't pay the fine, their license can be suspended or revoked, and they could be banned from working in the ICT sector. This ensures ICT service providers comply with regulatory requirements.",
+      "rawText": "95.(1) A ICT service provider or any other entity regulated under this Act or Regulations made under this Act who\n\n(a) fails to comply with a directive issued by the Authority, or\n\n(b) refuses or neglects to provide required information to the Authority, is  liable  to  pay  to  the  Authority an administrative penalty of not less than twenty thousand penalty units and not more than fifty thousand penalty units.\n\n(2) Where a person fails to pay an administrative penalty imposed under subsection (1), the Authority may\n\n(a) suspend or revoke the licence of the person; or\n\n(b) prohibit the person from engaging in a business or related activity in the ICT sector within the country.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "other-offences",
+      "section": 98,
+      "title": "Other Offences",
+      "plainLanguage": "This provision defines several offenses related to cybersecurity and ICT, such as false declarations, data breaches, and obstructing compliance officers. Penalties for these offenses include fines, imprisonment, suspension or revocation of licenses, and mandatory audits. Retaliating against whistleblowers results in double the penalty of the original offense.",
+      "rawText": "## 96. A person who\n\n(a)makes a false declaration in an application for a licence,\n\n(b)makes a false declaration in an application for registration of a licence, wilfully destroys or damages a register kept under this Act commits an offence and is liable on summary conviction to a fine of not more than five hundred penalty units or co a term of imprisonment of not more than two years or to both and in the case of a continuing offence to a further fine of ten penalty units for each day during which the offence continues after written notice has been served on the offender by the Authority .\n\n97.(1) A person who negligently causes a cybersecurity breach commits an offence and is liable on conviction to a fine of up to two thousand penalty units or to imprisonment for a term not exceeding five years, or to both.\n\n(2)  A  person  who  engages  in  fraudulent  ICT  practices,  including  but  not  limited  to cryptocurrency scams, commits an offence and is liable on conviction to a fine of up to five thousand penalty units or to imprisonment for a term not exceeding ten years, or to both.\n\n(3) A data center operator who fails to meet licensing or operational standards prescribed by the Authority commits an offence and is liable to a fine of up to three thousand penalty units and/or suspension of operations.\n\n(4) A person who hosts critical data without accreditation as required by the Authority commits an offence and is liable on conviction to a fine of five thousand penalty units or to imprisonment for a term not exceeding seven years, or to both.\n\n(5) A person who fails to conduct and submit an audit report as required by the Authority commits an offence and is liable to a fine of one thousand penalty units for each month of delay.\n\n(6) A person who submits a false report to the Authority commits an offence and is liable on conviction to a fine of five thousand penalty units or to imprisonment for a term not exceeding five years, or to both.\n\n(7). A person who obstructs Compliance Officers by rejecting, interfering with, or evading their lawful duties commits an offence and is liable to immediate suspension of ICT operations until compliance is achieved.\n\n(8)A person who repeatedly violates multiple provisions of this Act or Regulations commits an offence and is liable on conviction to a fine of  five thousand penalty units and permanent revocation of operating licences.\n\n(9) A person whose gross negligence leads to data breaches or system failures commits an offence and is liable on conviction to a fine of up to ten thousand penalty units or ten percent of annual turnover (whichever is higher), plus mandatory third-party audits.\n\n(10) A person who retaliates against a whistleblower in connection with any offence under this Act commits an offence and is liable on conviction to double the maximum penalty prescribed for the underlying offence.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "procedure-for-decision-making-by-the-authority",
+      "section": 100,
+      "title": "Procedure for decision-making by the Authority",
+      "plainLanguage": "This section ensures the Board acts fairly and promptly when making decisions. It requires the Board to publish decisions, allow affected individuals to provide input, and consider all evidence. The Board also has the power to review and change its decisions if necessary.",
+      "rawText": "98.(1) In the exercise of its function under this Act and the Electronic Transactions Act, 2025 (Act …) , the Board shall\n\n      - (a) observe reasonable standards of procedural fairness,\n\n      - (b) act timeously, and\n\n      - (c) observe the rules of natural justice.\n\nwhen making decisions that affect a person.\n\n(2) Without limiting subsection (1), the Board shall\n\n- (a) publish a matter for decision in the Gazette as considered  necessary or as required by the Electronic Transactions Act, 2025 (Act …) prior to making a decision;\n\n- (b) grant a person who is or is likely to be affected by a decision  of the Board, an opportunity;\n\n- (i) to make a submission to the Board,\n\n- (ii) to be heard by the Board, or\n\n- (iii) to consult with the Board in good faith, 'and\n\n              - (  c)  have  regard  to  evidence  adduced  and  matters  contained  in  a submission made or received in the course of any  consultation.\n\n(3) Where the Board makes a decision, it shall\n\n    - The Board may, on application or on its own motion, review,  rescind or vary a decision made by it or hear a matter again before  rendering a decision.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "register-of-interests",
+      "section": 101,
+      "title": "Register of interests",
+      "plainLanguage": "This provision requires a public register to be kept with details of Board members' financial interests and appointments. The register will be available for public inspection, copying, or extraction, potentially for a fee. This promotes transparency and accountability within the Board.",
+      "rawText": "99.(1) The Director-General shall cause to be kept and maintained a Register in which shall be recorded details of\n\n      - (a) any share or debenture owned by a member of the Board;\n\n      - (b) other financial interests a member of the Board has in a  corporate body;\n\n      - (c) any public or charitable appointment or directorship held  by a member; and\n\n      - (d) any other matter required to be registered.\n\n(2)The Register shall be publicly accessible, in both physical and  electronic form.\n\n(3) The Register shall be open to the public for physical inspection  during normal working hours and subject to the payment of a fee determined by the Authority.\n\n(4) A person may\n\n(a) make a copy of the content of the Register, or\n\n(b) take an extract from the Register, at the fee that the Authority may determine.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "code-of-conduct",
+      "section": 102,
+      "title": "Code of conduct",
+      "plainLanguage": "The Board must create a code of conduct within a year for its members, staff, and those working with the Authority. This code will cover ethical and disciplinary matters. The Board will update the code as needed to keep up with changes in communications regulations.",
+      "rawText": "100.(1) The Board shall establish within one year of the commencement of this Act, a code of conduct for members of the Board, staff and persons whose services the Authority engages.\n\n(2)The Code of Conduct shall among other provide for disciplinary and ethical matters\n\n(3) The Board shall revise the code of conduct from time to time having regard to the changing regulatory objectives in the communications industry.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "publication-of-notices-and-directives",
+      "section": 103,
+      "title": "Publication of notices and directives",
+      "plainLanguage": "This section allows the Authority to publicize important notices and directives through various channels, including the Gazette, newspapers, radio, television, and its website. The goal is to ensure that these notices are easily accessible to everyone who needs to know about them.",
+      "rawText": "101.(1) Where a provision of this Act requires publication of a notice or a directive in the Gazette, the Authority may, in addition to publication in the Gazette, publish the notice or directive\n\n(a) in a daily newspaper of national circulation;\n\n(b) on radio and television; and\n\n(c) on the website of the Authority.\n\n(2) The Authority shall ensure that a notice or directive is accessible to relevant stakeholders.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "public-engagement",
+      "section": 104,
+      "title": "Public engagement",
+      "plainLanguage": "The Authority is required to hold regular public events to discuss its activities. This ensures the public is informed about the Authority's work and has opportunities to provide input.",
+      "rawText": "102.  The  Authority  shall  organise  periodic  public  engagement  on  the  operations  of  the Authority.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "regulations",
+      "section": 105,
+      "title": "Regulations",
+      "plainLanguage": "This section allows the Minister to create regulations for the ICT sector. These regulations can address various aspects like business definitions, complaint procedures, service standards, consumer protection, and promoting local content. This gives the Minister the authority to shape and update the rules governing the ICT industry.",
+      "rawText": "103. The Minister may, by legislative instrument, make Regulations to\n\n(a) define,  expand  or  modify  the  scope  of  activities  that  constitute  business  or  related activities in the ICT sector;\n\n(b) specify procedures for submitting, investigating and resolving complaints in the ICT sector;\n\n(c) establish disciplinary procedures for ICT service providers;\n\n- (d) regulate the licensing process for business and related activities in the ICT sector;\n\n- (e) set guidelines and standards of performance for ICT services;\n\n- (i) establish health and safety protocols for the ICT sector ;\n\n- (g) provide for the digitalisation of the operations of the Authority;\n\n- (h) prescribe  rules for Ghanaian  content and Ghanaian participation in the ICT sector;\n\n- (i) prescribe rules for consumer protection in the ICT sector;\n\n- (j) prescribe licensing procedures and categories;\n\n- (k) certification standards;\n\n- (l) compliance monitoring mechanisms;\n\n- (m) public sector ICT governance;\n\n- (g) prescribe for fair trade practices and anti-competition rules in the ICT sector;\n\n- (h) regulate data centres and ICT infrastructure;\n\n- (i) prescribe fees chargeable under this Act,\n\n- (j) provide for forms for applications,\n\n- (k) prescribe requirements for licences and approvals for equipment,\n\n- (l) provide procedures for the systematic implementation of a national information communications technology policy,\n\n(m) provide for any other matter necessary for the effective and efficient implementation of this Act.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "interpretation",
+      "section": 106,
+      "title": "Interpretation",
+      "plainLanguage": "This section defines the meaning of various terms used in the Act, such as \"adaptive regulation,\" \"Authority,\" \"ICT,\" and \"public institution,\" among others. These definitions provide a common understanding of the concepts discussed in the Act. Some terms used in the Electronic Transactions Act 2025 also apply to this Act.",
+      "rawText": "## 104. (1) In this Act, unless the context otherwise requires, -\n\n\"adaptive regulation \" means regulatory practices designed to evolve in response to emerging technologies and changing market dynamics;\n\n- \"Authority\" means the National Information Technology Authority established under section 1;\n\n\"Board\" means the Governing Board of the Authority;\n\n- \"certification tiers\" means graduated levels of certification that indicate the performance, reliability, and compliance level of ICT services or professionals;\n\n- \"certified professional\" means a person certified under this Act to provide ICT services in the public sector;\n\n- \"chairperson\" means the chairperson of the Board;\n\n- \"cloud computing\" means delivery of computing services -including servers, storage, databases, networking, software -over the internet ('the cloud') ;\n\n- \"cloud hosting environments\" means virtualized computing platforms provided over the internet to host data, applications, and services;\n\n- \"compliance inspector\" means an officer designated by the Authority to monitor, audit, and inspect entities for compliance with this Act;\n\n- \"data centre\" means a facility used to house computer systems, servers, and associated\n\ncomponents such as telecommunications and storage systems for data processing and storage; \"domain name\" means a unique, human-readable identifier that corresponds to a numeric Internet Protocol address and is used to locate websites or digital services on the internet; \"enactment\" includes an Act of Parliament, a legislative instrument, or any subsidiary legislation or regulation made under statutory authority and having the force of law in Ghaba; \"enterprise software solutions\" means integrated digital systems designed to manage core operations of an organization, including finance, human resources, and supply chain; means a company licensed by the Authority to\n\n\"Government ICT Infrastructure Operator \" manage, operate, and develop core government digital infrastructure;\n\n\"ICT\" means information and communications technology which refers to all technologies, systems, infrastructure, software, and platforms used for the collection, processing, storage, transmission, and dissemination of digital information and electronic communications. For the purposes of this Act, ICT shall include -\n\n- digital hardware and software systems;\n\n- information systems and digital applications, especially within government operations;\n\n- data centres, hosting facilities, electronic and cloud-based infrastructure;\n\n- digital innovation, platforms, and emerging technologies deployed in the public sector; and e) associated standards, architecture, and interoperability frameworks;\n\n\"ICT infrastructure\" includes physical and virtual systems such as servers, networks, data centers, cloud platforms, and related hardware or software required for digital operations;\n\n\"ICT service provider\" means an individual or entity licensed by the Authority to provide ICT products, services, platforms, or infrastructure within the ICT sector;\n\n\"improvement plan\" means a set of recommendations and steps issued by the Authority to guide an entity towards compliance with performance standards;\n\n\"information technology\" means the application of digital systems, computing devices, software, networks, and electronic data processing tools to collect, process, store, retrieve, and disseminate information for operational, administrative, or strategic purposes;\n\n\"internet protocol address\" means a unique numerical label assigned to a device or node connected to a computer network that uses the Internet Protocol for identification and communication;\n\n- \"interoperability\" means the ability of different ICT systems and applications to communicate, exchange data, and use the information effectively;\n\n- \"Minister\" means the Minister responsible for Communication, Digital Technology, and Innovations;\n\n- \"Ministry\" means the Ministry responsible for Information Communications Technology or Digitalisation;\n\n- \"national digital identity services\" means digital systems and platforms that authenticate and manage unique identities of individuals or institutions for electronic services;\n\n- \"performance standards\" means formalized metrics and criteria prescribed by the Authority to evaluate the quality, efficiency, security, and user experience of ICT systems and services; \"prescribed\" means specified by or in accordance with this Act or Regulations, directives, notices or guidelines issued under this Act;\n\n\"principles-oriented regulation \" means a regulatory approach focused on broad objectives and outcomes rather than prescriptive rules;\n\n- \"public institution\" means a Ministry, Department, Agency, Metropolitan, Municipal or District Assembly, a statutory or constitutional body, or any entity owned wholly or partly by the Republic;\n\n\"registrable interest\" includes any direct or indirect financial interest, shareholding, beneficial ownership, partnership, trusteeship, or fiduciary obligation held by a person, which is required to be disclosed under section 12 or section 99 of this Act;\n\n\"risk-based approach\" means a method that allocates regulatory resources and scrutiny based on the potential risks posed by ICT activities or providers;\n\n\"sandbox\" means a controlled regulatory environment where innovations can be tested temporarily under relaxed regulatory requirements;\n\n\"service level agreements (SLAs)\" means formal contracts between service providers and clients that define expected service performance, responsibilities, and penalties for noncompliance;\n\n\"technical clearance\" means approval issued by the Authority confirming that an ICT project meets prescribed technical standards and compliance requirements;\n\n\"technology-neutral\" means a regulatory stance that does not favor any particular technology or solution and promotes innovation across alternatives; and\n\n(2) In this Act unless the context otherwise requires, words and expressions defined in the Electronic Transactions Act  2025 (Act ….) have the same meaning in this Act.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "transitional-provisions",
+      "section": 107,
+      "title": "Transitional Provisions",
+      "plainLanguage": "This section transfers all assets, employees, and existing contracts from the old National Information Technology Agency to the new National Information Technology Authority. Existing ICT licenses and permits will remain valid for six months, after which individuals can apply for a new license from the Authority. This ensures a smooth transition and continuity of operations.",
+      "rawText": "105. (1) The rights, assets and liabilities that have accrued in respect of the properties vested in the National Information Technology Agency in existence immediately before the coming into  force  of  this  Act  are  transferred  to  the  National  Information  Technology  Authority established under this Act.\n\n(2)A person in the employment of the National Information Technology Agency immediately before the coming into force of this Act shall, on the coming into force of this Act, be deemed to have been duly employed by the National Information Technology Authority established under this Act on the terms and conditions which are not less favourable in aggregate to the terms and conditions attached to the post held by the person before the coming into force of this Act.\n\n(3)A contract subsisting between the National Information Technology Agency and another person and in effect immediately before the coming into force of this Act shall subsist between the  National  Information  Technology  Authority  established  under  this  Act  and  that  other person subject to modifications that are necessary to ensure compliance with this Act.\n\n(4)A licence, permit, or certificate issued by the Ministry or any other public body for matters related to ICT before the coming into force of this Act shall remain valid for six months unless revoked earlier by the Authority.\n\n(5) A person whose licence ceases to be valid under subsection (4) may apply to the National Information Technology Authority for a licence under this Act.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "repeals-and-savings",
+      "section": 108,
+      "title": "Repeals and Savings",
+      "plainLanguage": "This provision repeals the old law governing the National Information Technology Agency, but ensures that past actions remain valid. It also details what information NITA must include in its annual report, such as performance, finances, and governance. This ensures transparency and accountability in NITA's operations.",
+      "rawText": "106.(1) The National Information Technology Agency Act, 2008 (Act 771) is hereby repealed. (2)Despite  the repeal, any action lawfully taken under the repealed Act shall be deemed to have been taken under the corresponding provisions of this Act.\n\n## SCHEDULE (Section 29)\n\nForm and Content of Annual Report of the National Information Technology Authority\n\n| Part of Report | Description |\n| --- | --- |\n| PART I - Introductory Information | Table of contents. Index of terms. Glossary of technical and legal terms and acronyms. Contact details of officer(s) responsible for preparing the report. Official website address of the Authority and hyperlink to the published report. |\n| PART II - Review by the Board and Executive Management | A review by the Board of the Authority ency, which shall include - |\n\n|  | (a) a concise overview of NITA's legal mandate and strategic focus; (b) a description of the Authority's statutory roles and core functions; (c) a summary of significant policy, regulatory, or operational developments during the year; (d) the organisational structure and changes therein; (e) performance highlights, including achievements in service delivery, infrastructure development, and regulatory enforcement; (f) financial performance overview; and (g) strategic outlook and key initiatives planned for the ensuing year. |\n| --- | --- |\n| PART III - Policy and Legal Mandate Implementation | A report on implementation of NITA's statutory functions under the Act, including - (a) the development, review, and enforcement of ICT and digital economy policies and standards; (b) progress on digital government enablement and ICT architecture across the public sector; (c) coordination with MDAs, MMDAs, and international agencies; (d) monitoring of compliance by regulated ICT entities; and (e) stakeholder engagements, capacity- |\n| PART IV - Regulatory Performance | building and advisory services. A report on the performance of the Authority's regulatory functions, including - (a) ICT systems certification and audit outcomes; (b) issuance, suspension, or revocation of ICT licences, accreditations, or authorisations; (c) cyber and digital resilience assessments conducted under applicable laws or frameworks; (d) enforcement actions and compliance statistics; (e) number and resolution of complaints or investigations initiated; (f) key findings from sector monitoring and evaluation; (g) summary of public consultations, stakeholder feedback, and regulatory |\n\n|  | reforms initiated; (h) risk-based supervision and regulatory reliefs granted; (i) use and outcomes of regulatory sandbox initiatives. |\n| --- | --- |\n| PART V - Service Delivery and Infrastructure Development | An operational performance review, including - (a) implementation status of national ICT infrastructure projects; (b) digital platforms commissioned, upgraded, or maintained by the Authority; (c) contributions to the national digital transformation agenda; (d) alignment of services with service charters, quality assurance benchmarks, and turnaround times; (e) innovations deployed and lessons learned; (f) user satisfaction levels and complaints management performance. |\n| PART VI - Financial and Resource Reporting | A financial performance report, including - (a) audited financial statements; (b) analysis of budgeted versus actual expenditure and income; (c) explanation of significant financial variances; (d) summary of internally generated funds, donor funding, and government allocations; (e) procurement activities and compliance with the Public Procurement Act; (f) summary of assets held, asset performance, and life cycle management. |\n| PART VII - Governance and Accountability | A corporate governance report, including - (a) Board and Executive membership and roles; (b) meetings held, attendance records, and decisions made; (c) risk management strategies and major risks identified; (d) ethical standards and anti-fraud measures implemented; (e) mechanisms for internal control and audit compliance; (f) external oversight reports including Auditor-General, Parliament and others; (g) tribunal appeals and Dispute Resolution Committee outcomes. |\n\n| PART VIII - Human Capital Management | Report on human resource development and management, including - (a) staffing levels, turnover, and retention rates; (b) training and professional development initiatives; (c) staff productivity and performance incentives; (d) implementation of workplace health and safety measures; (e) initiatives to promote gender equity, disability inclusion, and diversity. |\n| --- | --- |\n| PART IX - Sectoral Collaboration and Research | Report on national or sectoral initiatives including - (a) public-private partnerships in ICT; (b) sponsored or commissioned research activities; (c) support for innovation, digital entrepreneurship, and SME digitalisation; (d) international engagements or technical cooperation. |\n| PART X - Cross-Cutting and Legal Compliance Matters | Report on - (a) freedom of information compliance; (b) advertising and public education campaigns; (c) ecologically sustainable ICT practices; (d) accessibility of digital services for persons with disabilities; (e) digital literacy programmes and gender-responsive ICT outreach; (f) any corrections to material errors from prior reports. |\n| PART XI - Performance Monitoring and Indicators | Report on - (a) performance against key indicators and benchmarks set by the Authority; (b) public sector digital readiness and impact evaluation; (c) institutional compliance with service level agreements (SLAs). |\n| PART XII - Discretionary and Statutory Grants | Summary of discretionary or statutory grants issued, including purpose, beneficiaries, and value. |\n\nDate of Gazette notification:",
+      "relatedImpacts": [
+        "business"
+      ]
+    }
+  ],
+  "notebookLMVideo": {
+    "url": "",
+    "duration": "10:00"
+  },
+  "deadline": "2025-12-31",
+  "submissionMethod": "Email to clerk@parliament.gov.gh",
+  "relatedBills": []
+}

@@ -1,0 +1,858 @@
+{
+  "id": "3-postal-courier-logistics-services-commission-amendment-bill",
+  "title": "Postal, Courier & Logistics Services Commission (Amendment) Bill",
+  "summary": "The Postal, Courier & Logistics Services Commission (Amendment) Bill expands Ghana's postal regulatory framework to include logistics services, creating a unified regulatory body for the entire delivery services sector. The bill establishes the Postal, Courier and Logistics Services Commission with broad powers to license operators, set quality standards, regulate pricing, and enforce compliance across postal, courier, and logistics services. **All businesses providing these services (except Ghana Post) must obtain licenses or face fines up to 1,000 penalty units and imprisonment up to three years**. The Commission operates under a Board appointed by the President, with the Minister empowered to issue binding policy directives.\n\n**Ghana Post retains exclusive monopoly rights** over delivering letters, postcards, printed materials, and small parcels under 500 grams, effectively limiting competition in basic postal services. The bill requires courier and logistics operators to implement tracking technology and meet specific service standards, though the Commission can license smaller businesses that don't immediately meet all requirements. **Service providers gain authority to detain and open packages suspected of containing prohibited items or customs violations**, raising potential privacy concerns despite requiring police notification. The bill contains extensive criminal provisions with penalties ranging from 50 to 1,000 penalty units and imprisonment terms up to three years for offenses including mail tampering, unauthorized operations, stamp fraud, and interference with postal facilities.\n\nFor Ghana's digital economy and business environment, the bill creates a structured regulatory framework that could improve service quality and consumer protection through licensing standards and dispute resolution mechanisms. However, **businesses using third-party delivery services must ensure those providers are licensed, creating compliance obligations throughout supply chains**. The technology requirements for tracking and efficient service delivery may benefit larger, established operators while potentially creating barriers for smaller logistics startups. The Commission's power to modify licenses with 60 days' notice (though with compensation provisions) and the Minister's authority to issue binding policy directives introduce regulatory uncertainty that businesses must navigate.\n\nThe bill's national security provisions allow the Commission to issue directives to licensees \"in the interest of national security and international relations,\" with government compensation for resulting losses. While this ensures regulatory flexibility for security concerns, **the broad discretionary powers combined with presidential appointment of the Board and ministerial policy authority concentrate significant control over Ghana's delivery services sector in executive hands**. The transition provisions ensure continuity by transferring all assets, staff, and existing licenses from the old Commission to the new entity, minimizing disruption to current operations.",
+  "pdfPath": "pdfs/3. Postal, Courier & Logistics Services Commission (Amendment) Bill.pdf",
+  "impacts": {
+    "innovation": {
+      "score": "high-negative",
+      "description": {
+        "score": "high-negative",
+        "analysis": "The Postal, Courier & Logistics Services Commission (Amendment) Bill creates substantial obstacles to digital innovation in Ghana's delivery and logistics sector. The licensing requirements capture virtually every digital business model involving delivery services - e-commerce platforms, food delivery apps, logistics aggregators, online marketplaces, and on-demand service platforms must all obtain licenses before operating. Combined with severe criminal penalties (up to 1,000 penalty units and three years imprisonment), these requirements create significant barriers to entry for digital startups and discourage the rapid experimentation and iteration that drives innovation. The bill's requirement that businesses cannot use unlicensed third-party delivery services extends compliance obligations throughout digital supply chains, forcing platforms to verify and monitor their partners' licensing status - an administrative burden particularly challenging for marketplace and gig economy models that connect multiple independent service providers.\n\nGhana Post's exclusive monopoly over delivering items under 500 grams directly conflicts with digital innovation in last-mile delivery, protecting a state incumbent while limiting competition in precisely the segment where digital platforms could offer the most value through technology-enabled efficiency. Many innovative digital business models depend on delivering small items - from document services to e-commerce parcels - making this monopoly a direct constraint on digital commerce development. The framework appears designed for traditional postal services rather than digital platforms, applying the same regulatory approach to app-based aggregators as to conventional delivery companies, failing to accommodate the unique characteristics of platform-based business models.\n\nThe broad discretionary powers granted to the Minister and Commission introduce regulatory uncertainty that is particularly damaging to digital innovation. The Minister's authority to issue binding policy directives and the Commission's power to modify licenses with only 60 days' notice create an unpredictable environment where approved business models could be restricted through policy changes. This uncertainty undermines the stable regulatory environment needed to attract investment in digital platforms, which require significant capital and operate on long development cycles. While the bill's technology and tracking requirements might benefit tech-enabled operators, this potential advantage is overwhelmed by the overall regulatory burden, licensing barriers, monopoly protections for incumbents, and discretionary powers that collectively constrain rather than enable digital innovation in Ghana's delivery services sector."
+      },
+      "relatedProvisions": [
+        "object-of-the-commission",
+        "functions-of-the-commission",
+        "policy-directives",
+        "licence-to-provide-postal-courier-and-logistics-services",
+        "qualification-for-licence",
+        "application-for-licence",
+        "grant-of-licence",
+        "courier-service",
+        "designation-of-national-postal-service-provider",
+        "reserved-postal-services",
+        "licence-not-transferable-without-written-approval",
+        "renewal-of-licence",
+        "power-to-modify-licence",
+        "suspension-or-cancellation-of-licence",
+        "complaint-to-the-minister",
+        "production-of-books-of-account-and-records",
+        "power-to-detain-and-open-prohibited-articles",
+        "acts-infringing-on-reserved-rights",
+        "prohibition-of-false-notice-as-to-reception-of-letter-and-sale-of-stamps",
+        "unlawful-disclosure-of-contents-of-postal-article",
+        "general-penalty",
+        "offences-committed-by-a-body-of-persons",
+        "settlement-of-dispute",
+        "inspectors",
+        "directions-in-the-interest-of-national-security-and-international-relations",
+        "interpretation"
+      ]
+    },
+    "freedomOfSpeech": {
+      "score": "high-negative",
+      "description": {
+        "score": "high-negative",
+        "analysis": "The Postal, Courier & Logistics Services Commission (Amendment) Bill poses a substantial threat to freedom of speech and expression in Ghana through its broad content-based restrictions on materials that can be transmitted through delivery services. Section 39 prohibits the sending of materials deemed \"indecent, pornographic, scurrilous, threatening or grossly offensive\" and any content \"which may be prejudicial to public safety or to the peace and public order.\" These vague and subjective terms lack clear legal definitions and create a dangerous framework for censorship. What one person considers \"grossly offensive\" or \"scurrilous\" may be legitimate political criticism, social commentary, or artistic expression to another. The phrase \"may be prejudicial\" to public order sets an extremely low threshold that doesn't require actual harm—only the potential for harm as determined by authorities—opening the door to suppression of dissent and controversial but protected speech.\n\nThe impact is amplified by the bill's comprehensive scope and enforcement mechanisms. Since the legislation covers all postal, courier, and logistics services and requires licensing for virtually all delivery providers, these content restrictions effectively create a nationwide censorship infrastructure for physical communications and publications. Service providers are granted authority to detain and open packages suspected of containing prohibited materials, meaning private communications can be inspected based on subjective suspicions. Combined with criminal penalties of up to 1,000 penalty units and three years imprisonment, these provisions create a severe chilling effect that will discourage individuals, publishers, activists, and organizations from distributing materials that might be deemed problematic by authorities. The lack of clear judicial oversight, appeals processes, or independent review mechanisms for content determinations makes this particularly concerning.\n\nThe national security provisions further compound these concerns by allowing prohibition of \"any other article\" in the interest of national security without clear standards or limitations. This open-ended authority, combined with the bill's concentration of power in executive-appointed bodies (the Presidential-appointed Board and Minister with policy directive authority), creates a system where political considerations could drive content restrictions. For journalists, publishers, political activists, artists, and civil society organizations, this bill represents a significant constraint on their ability to distribute materials and communicate ideas through Ghana's delivery infrastructure. While some prohibited items (explosives, narcotics, dangerous substances) serve legitimate safety purposes, the content-based speech restrictions go far beyond what is necessary and proportionate, undermining Ghana's democratic values and international human rights obligations regarding freedom of expression."
+      },
+      "relatedProvisions": [
+        "exemption-from-postal-charges",
+        "prohibition-on-sending-certain-articles-by-post-or-courier-or-logistics",
+        "power-to-detain-and-open-prohibited-articles",
+        "power-to-open-postal-articles-suspected-to-contain-dutiable-goods",
+        "prohibition-of-false-notice-as-to-reception-of-letter-and-sale-of-stamps",
+        "unlawful-disclosure-of-contents-of-postal-article",
+        "directions-in-the-interest-of-national-security-and-international-relations"
+      ]
+    },
+    "privacy": {
+      "score": "high-negative",
+      "description": {
+        "score": "high-negative",
+        "analysis": "The Postal, Courier & Logistics Services Commission (Amendment) Bill poses significant threats to privacy and data rights in Ghana by granting broad search and detention powers to private sector delivery companies. Section 41 authorizes postal, courier, and logistics service providers to detain and open packages based merely on \"reasonable suspicion\" of customs violations or prohibited items. While the provision nominally requires opening packages in the addressee's presence, it permits unilateral opening if the recipient fails to attend after notification—effectively allowing private company employees to search citizens' mail and packages without warrant, judicial oversight, or the constitutional protections that would apply to government searches. This represents a fundamental shift in privacy expectations, as virtually any package moving through Ghana's delivery infrastructure becomes subject to inspection by private actors exercising quasi-law enforcement powers.\n\nThe privacy concerns extend beyond package searches to the bill's content restrictions and data handling gaps. Section 39's prohibition on sending \"indecent, pornographic, scurrilous, threatening or grossly offensive\" materials creates vague standards that could enable content-based censorship and require service providers to make subjective judgments about customers' correspondence. The bill mandates tracking technology implementation across the sector but contains no data protection provisions governing how customer information, tracking data, or records of package inspections must be handled, stored, or protected from misuse. This creates risks of surveillance, data breaches, and potential abuse of sensitive information about citizens' communications and commercial activities.\n\nFor Ghanaians' privacy rights, this bill establishes a regulatory framework that prioritizes enforcement convenience over constitutional protections. The combination of broad search authority for private companies, vague content restrictions, mandatory tracking without data protection safeguards, and the absence of judicial oversight mechanisms creates multiple pathways for privacy violations. While the bill's stated purposes of preventing contraband and ensuring customs compliance are legitimate, the provisions lack the procedural safeguards, proportionality limits, and accountability mechanisms necessary to protect fundamental privacy rights in a democratic society. Citizens and businesses using delivery services will face reduced privacy expectations and increased exposure to searches, content monitoring, and data collection without corresponding legal protections."
+      },
+      "relatedProvisions": [
+        "policy-directives",
+        "courier-service",
+        "production-of-books-of-account-and-records",
+        "quality-of-postal-service",
+        "prohibition-on-sending-certain-articles-by-post-or-courier-or-logistics",
+        "power-to-detain-and-open-prohibited-articles",
+        "power-to-open-postal-articles-suspected-to-contain-dutiable-goods",
+        "unlawfully-taking-away-or-opening-mail-bag-sent-by-post",
+        "unlawful-interference-with-mail",
+        "retaining-mail-bags-or-postal-articles",
+        "unlawful-disclosure-of-contents-of-postal-article",
+        "establishment-of-register",
+        "inspectors",
+        "directions-in-the-interest-of-national-security-and-international-relations"
+      ]
+    },
+    "business": {
+      "score": "high-negative",
+      "description": {
+        "score": "high-negative",
+        "analysis": "This bill significantly deteriorates Ghana's business environment by imposing extensive licensing requirements and criminal penalties across virtually the entire delivery services sector. The licensing mandate captures an extraordinarily broad range of businesses - from dedicated logistics companies to restaurants offering food delivery, e-commerce platforms, supermarkets, pharmacies, and even individual motorcycle couriers. Critically, businesses using third-party delivery services face criminal liability (fines up to 1,000 penalty units and imprisonment up to 3 years) if their delivery partners lack proper licenses, forcing companies to conduct compliance due diligence throughout their supply chains. This creates substantial administrative burdens and legal risks, particularly for small and medium enterprises that may lack resources for comprehensive vendor vetting. The corporate liability provisions extend criminal responsibility to directors and officers personally, making business leadership positions riskier and potentially deterring entrepreneurship in delivery-adjacent sectors.\n\nThe regulatory framework concentrates significant discretionary power in government hands, creating substantial uncertainty for business planning and investment. The Minister can issue binding policy directives to the Commission, which can then modify or revoke licenses with just 60 days' notice. While compensation provisions exist, the Commission's authority to issue directives \"in the interest of national security and international relations\" provides extremely broad grounds for regulatory intervention with minimal defined constraints. This unpredictability makes long-term business planning difficult and may deter both domestic and foreign investment in Ghana's logistics and e-commerce sectors. Ghana Post's exclusive monopoly over letters, postcards, printed materials, and parcels under 500 grams eliminates competition in basic postal services, potentially stifling innovation and limiting service quality improvements that competition typically drives.\n\nThe bill's impact is particularly severe for Ghana's emerging digital economy and startup ecosystem. E-commerce platforms, online marketplaces, and delivery aggregators face mandatory licensing with technology requirements that may favor established operators over innovative startups with limited capital. The compliance costs - including licensing fees, technology implementation, and legal expenses to navigate the complex regulatory framework - create significant barriers to entry that could suppress entrepreneurship and innovation in the logistics sector. While the bill theoretically provides consumer protection and service quality standards, the immediate effect is a more restrictive, uncertain, and costly business environment that disadvantages smaller players and concentrates market power among established operators who can absorb compliance costs and navigate regulatory relationships."
+      },
+      "relatedProvisions": [
+        "object-of-the-commission",
+        "functions-of-the-commission",
+        "governing-body-of-the-commission",
+        "tenure-of-office-of-members-of-the-commission",
+        "duties-and-liabilities-of-a-member-of-the-board",
+        "disclosure-of-interest",
+        "policy-directives",
+        "executive-secretary",
+        "appointment-of-other-staff-of-the-commission",
+        "internal-audit-unit",
+        "annual-report-and-other-reports",
+        "licence-to-provide-postal-courier-and-logistics-services",
+        "qualification-for-licence",
+        "application-for-licence",
+        "grant-of-licence",
+        "courier-service",
+        "designation-of-national-postal-service-provider",
+        "reserved-postal-services",
+        "contract-to-convey-postal-articles",
+        "licence-not-transferable-without-written-approval",
+        "renewal-of-licence",
+        "power-to-modify-licence",
+        "suspension-or-cancellation-of-licence",
+        "complaint-to-the-minister",
+        "production-of-books-of-account-and-records",
+        "quality-of-postal-service",
+        "postage-stamp",
+        "postal-charges",
+        "exemption-from-postal-charges",
+        "prohibition-on-sending-certain-articles-by-post-or-courier-or-logistics",
+        "power-to-detain-and-open-prohibited-articles",
+        "power-to-open-postal-articles-suspected-to-contain-dutiable-goods",
+        "unlawful-use-of-stamp-or-franking-machine",
+        "unlawful-interference-with-mail",
+        "unlawful-entry-into-post-office-premises",
+        "fraudulent-use-of-philatelic-material",
+        "acts-infringing-on-reserved-rights",
+        "prohibition-of-false-notice-as-to-reception-of-letter-and-sale-of-stamps",
+        "destruction-or-damage-to-post-office-letterbox",
+        "evasion-of-post-office-laws",
+        "unlawful-disclosure-of-contents-of-postal-article",
+        "general-penalty",
+        "offences-committed-by-a-body-of-persons",
+        "settlement-of-dispute",
+        "establishment-of-register",
+        "inspectors",
+        "directions-in-the-interest-of-national-security-and-international-relations",
+        "regulations",
+        "interpretation",
+        "repeal-and-savings",
+        "transitional-provisions"
+      ]
+    }
+  },
+  "keyConcerns": [
+    {
+      "id": "imprisonment-for-licensing-violations-violates-proportionality",
+      "title": "Imprisonment for Licensing Violations Violates Proportionality",
+      "severity": "critical",
+      "description": "The provision imposes criminal imprisonment up to 3 years for operating delivery services without a license—treating administrative paperwork violations as serious crimes. Businesses also face imprisonment for using unlicensed third-party couriers, extending criminal liability throughout supply chains for vendors' compliance status. This disproportionate penalty structure exceeds international norms, where licensing violations are handled through civil fines, and creates chilling effects on startups and innovation in Ghana's delivery sector.",
+      "relatedProvisions": [
+        "licence-to-provide-postal-courier-and-logistics-services"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "state-monopoly-blocks-delivery-innovation",
+      "title": "State Monopoly Blocks Delivery Innovation",
+      "severity": "high",
+      "description": "Ghana Post receives an exclusive monopoly over delivering letters, postcards, printed materials, and small parcels under 500 grams, preventing any private sector competition or innovation in these categories. Unlike postal monopolies in other countries that come with universal service obligations and quality standards, this monopoly operates without performance requirements while private operators face strict licensing rules and criminal penalties for unauthorized service. This creates an uneven playing field that stifles logistics innovation and prevents startups from offering technology-driven delivery solutions for basic postal services.",
+      "relatedProvisions": [
+        "reserved-postal-services"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "minister-can-override-regulator-without-oversight",
+      "title": "Minister Can Override Regulator Without Oversight",
+      "severity": "high",
+      "description": "The Minister can issue binding policy directives to the regulatory Board on undefined \"matters of policy\" without parliamentary approval, transparency requirements, or judicial review standards. This creates severe regulatory uncertainty for businesses—licensing requirements, technology standards, or service obligations could change through ministerial directive without predictable process. Combined with criminal penalties up to 3 years imprisonment for non-compliance, this concentrates unchecked executive control over Ghana's entire delivery services sector.",
+      "relatedProvisions": [
+        "policy-directives"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "vague-public-safety-ban-threatens-political-speech",
+      "title": "Vague \"Public Safety\" Ban Threatens Political Speech",
+      "severity": "high",
+      "description": "The prohibition on materials \"prejudicial to public safety or peace\" is dangerously undefined and backed by criminal penalties including up to 3 years imprisonment. This vague language could be weaponized to intercept and criminalize legitimate political materials, investigative journalism, or activism by labeling them threats to \"public order.\" Combined with the bill's authority for service providers to open suspected packages without judicial oversight, this creates a legal framework for censorship and surveillance of dissent under the guise of postal regulation.",
+      "relatedProvisions": [
+        "prohibition-on-sending-certain-articles-by-post-or-courier-or-logistics"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "private-companies-can-open-your-mail-without-warrants",
+      "title": "Private Companies Can Open Your Mail Without Warrants",
+      "severity": "high",
+      "description": "Postal, courier, and logistics companies can detain and open packages based solely on their own \"reasonable suspicion\" of customs violations—no court approval required. This delegates police search powers to private businesses without independent oversight, violating the democratic principle that coercive state authority requires judicial authorization. The provision creates obvious abuse potential: companies could selectively target packages from competitors, activists, or disfavored customers with no accountability.",
+      "relatedProvisions": [
+        "power-to-open-postal-articles-suspected-to-contain-dutiable-goods"
+      ],
+      "relatedImpacts": []
+    }
+  ],
+  "provisions": [
+    {
+      "id": "establishment-of-the-commission",
+      "section": 1,
+      "title": "Establishment of the Commission",
+      "plainLanguage": "This provision creates the Postal, Courier and Logistics Commission as a legal entity. The Commission can own property, make contracts, and if necessary, acquire land under the Land Act, with the Commission responsible for covering the expenses. This establishes the commission's legal standing and provides it with the necessary powers to operate.",
+      "rawText": "1. (1) There is established by this Act  the Postal, Courier and Logistics Commission as a body corporate.\n\n(2) The Commission may for the performance of functions of the Commission, acquire and  hold  property,  dispose  of  property  and  enter  into  a  contract  or  any  other  related transaction.\n\n(3) Where there is a hinderance to the acquisition of land, the land may be acquired for the Commission under the Land Act, 2020 (Act 1036) and the cost shall be borne by the Commission.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "object-of-the-commission",
+      "section": 2,
+      "title": "Object of the Commission",
+      "plainLanguage": "The Commission aims to build a standardized and efficient postal service system. This system will be regulated to ensure it meets the needs of all consumers, especially those with disabilities or in rural areas. The Commission will regulate service providers to achieve this goal.",
+      "rawText": "2. The object of the Commission shall be to create an efficient system for the provision of standardized  postal,  courier  and  logistics  services  in  a  manner  responsive  to  the  needs  of consumers particularly of persons with physical disability and persons living in underserved and rural areas through the regulation of service providers.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "functions-of-the-commission",
+      "section": 3,
+      "title": "Functions of the Commission",
+      "plainLanguage": "The Commission is responsible for ensuring postal services are available throughout the country and that providers are efficient and responsive to customer needs. It also grants licenses, regulates postage stamps and rates, sets quality standards, and ensures the needs of people with disabilities are considered. Additionally, the Commission assists licensees, maintains a register, and ensures compliance with relevant laws.",
+      "rawText": "- The functions of the Commission are to\n\n    - (a) ensure as far as practicable the provision of postal, courier and logistics services throughout the country to meet the demand for the services;\n\n    - (b) ensure that providers of postal, courier and logistics services achieve the highest level of efficiency in the provision of the services and are responsive to customer and community needs;\n\n    - (c) grant licences for the operation of postal, courier and logistics services;\n\n    - (d) regulate  the  issue  of  postage  stamps  including  definitive,  commemorative  and special issue postage stamps and any other philatelic items;\n\n    - (e) provide guidelines on rates of postage and other fees chargeable in respect of postal articles;\n\n    - (f) designate quality standards of equipment for the provision of postal, courier and logistics  services where necessary;\n\n    - (g) ensure that the needs of persons with disability are considered in the provision of postal, courier and logistics services;\n\n    - (h) provide assistance to licensees, where practicable;\n\n    - (i) maintain a register of licensees;\n\n    - (j) submit inputs for policy formulation to the Minister for consideration as may be necessary;\n\n    - (k) ensure strict compliance with this Act and Regulations made under it; and\n\n    - (l) perform any other functions assigned to the Commission under this Act or any other enactment; or\n\n(m) perform any other function incidental to the object of the Commission.\n\n## Governance of the Commission",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "governing-body-of-the-commission",
+      "section": 4,
+      "title": "Governing body of the Commission",
+      "plainLanguage": "This provision establishes the governing board of the Commission, which includes a chairperson appointed by the President, a representative from the Ministry of Communication, and the Executive Secretary. The President is responsible for appointing the chairperson and other board members. This board oversees the operations and decision-making of the Commission.",
+      "rawText": "- (1) The governing body of the Commission is a Board consisting of\n\n          - (a) a chairperson;\n\n          - (b) one representative  of  the  Ministry  of  Communication,  Digital  Technology and Innovations not below the rank of a Director nominated by the Minister;\n\n          - (c) the Executive Secretary; and\n\n(2) The President shall, in accordance with article 70 of the Constitution, appoint the chairperson and other members of the Board.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "functions-of-the-board",
+      "section": 5,
+      "title": "Functions of the Board",
+      "plainLanguage": "The Board is responsible for setting the Commission's strategic direction and policies. It also manages the Commission's resources and ensures the Commission operates efficiently. Essentially, the Board is in charge of the overall management and direction of the Commission.",
+      "rawText": "5. The Board\n\n(a) is responsible for the strategic direction and policies of the Commission; and\n\n    - (b) shall\n\n              - (i) oversee the sound and proper management of the resources of the Commission; and\n\n              - (ii) ensure the efficient and effective performance of the functions of the Commission.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "tenure-of-office-of-members-of-the-commission",
+      "section": 6,
+      "title": "Tenure of office of members of the Commission",
+      "plainLanguage": "Commission members, excluding the Executive Secretary, serve four-year terms and can be reappointed once. A member may resign, be removed for cause (like unexcused absences or by the President), or be deemed unable to serve. Vacancies are filled by presidential appointment for the remainder of the term.",
+      "rawText": "6. (1)  A  member  of  the  Commission  other  than  the  Executive  Secretary  shall  hold office for a term of four years and is eligible for re-appointment for another term only.\n\n(2) A member of the Board may, in writing addressed to the President, resign from office.\n\n(3) A member of the Board other than the Executive Secretary who is absent from three  consecutive  meetings  of  the  Commission  without  sufficient  cause  ceases  to  be  a member of the Commission.\n\n(4) The President may, in writing addressed to a member, revoke the appointment of the member for stated reasons.\n\n(5) Where  a  member  of  the  Board  is  for  a  sufficient  reason  unable  to  act  as  a member, the Minister shall determine whether the inability would result in the declaration of a vacancy.\n\n(6) Where there is a vacancy\n\n          - (a) under subsection (2), (3) or (4) or subsection (2) of section 9;\n\n          - (b) as a result of a declaration under subsection (5); or\n\n          - (c) by reason of the death of a member,\n\nthe Minister shall notify the President of the vacancy and the President shall appoint another person to fill the vacancy for the unexpired term.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "duties-and-liabilities-of-a-member-of-the-board",
+      "section": 7,
+      "title": "Duties and liabilities of a member of the Board",
+      "plainLanguage": "Board members must act in the best interest of the Commission, avoid misusing information or abusing their position, and disclose their assets and affiliations. Violations can result in fines and orders to compensate the Commission for any losses. This ensures accountability and ethical conduct among board members.",
+      "rawText": "7. (1) A member of the Board has the same fiduciary relationship with the Commission and the same duty to act with loyalty and in good faith as a director of the company incorporated under the Companies Act, 2019 (Act 992).\n\n(2) Without limiting subsection (1), a member of the Board has a duty\n\n                    - (c) to avoid making improper use of information acquired by virtue of the position of that member so as to benefit that member or to the detriment of the Commission; and\n\n                    - (d) not to abuse the position of the office.\n\n(3) A member of the Board shall, before assuming office, file with the Commission a disclosure statement declaring all assets, business affiliations and details of past and recent employment.\n\n(4) A member of the Board who contravenes subsection (1) or (2) commits an offence and liable on summary conviction to a fine of not less than one hundred penalty units and not more than two hundred and fifty penalty units.\n\n(5) Where a court determines that the Commission has suffered loss or damage as a consequent of an act or omission of a member of the Board, the court may, in addition to imposing  a  fine,  order  the  person  convicted  to  pay  appropriate  compensation  to  the Commission.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "meetings-of-the-board",
+      "section": 8,
+      "title": "Meetings of the Board",
+      "plainLanguage": "The Board must meet at least every two months, and special meetings can be called if requested by one-third of the members. Decisions are made by a majority vote, with the chairperson having a tie-breaking vote. The Board can also invite people to meetings who are not members, but these people cannot vote.",
+      "rawText": "8. (1) The Board shall meet at least once every two months at a time and place determined by the chairperson.\n\n(2) The  chairperson  shall,  at  the  request  in  writing  of  not  less  than  one-third  of  the membership of the Board, convene an extraordinary meeting of the Board at a time and place determined by the chairperson.\n\n(3) The chairperson shall preside at meetings of the Board and in the absence of the chairperson, a member of the Board elected by the members present from among their number shall preside.\n\n(4) The quorum at a meeting of the Board is four members including the Executive Secretary.\n\n(5) Matters before the Board shall be decided by a majority of the members present and voting and in the event of an equality of votes, the person presiding shall have a casting vote.\n\n(6) The Board may co-opt a person to attend a meeting of the Board but that person shall not vote on a matter for a decision at the meeting.\n\n(7) The proceedings of the Board are not invalidated by reason of a vacancy among the members of the Board or by a defect in the appointment or the disqualification of a member.\n\n(8) Subject to this Act, the Board shall regulate the procedure for the meetings of the Board.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "disclosure-of-interest",
+      "section": 9,
+      "title": "Disclosure of interest",
+      "plainLanguage": "This provision requires board members to disclose any conflicts of interest they may have regarding matters before the board, and it prohibits them from participating in discussions where such conflicts exist. Failure to disclose or participating despite a conflict can result in removal from the board and forfeiture of any benefits obtained due to the conflict. The chairperson is responsible for reporting violations to the Minister, who then informs the President.",
+      "rawText": "- (1) A member of the Board who has an interest in a matter for consideration by the Board\n\n            - (a) shall disclose in writing the nature of the interest and the disclosure shall form part of the record of the consideration of the matter; and\n\n            - (b) is disqualified from being present at or participating in the deliberation of the Board in respect of that matter.\n\n(2) A member ceases to be a member of the Board if that member has an interest in a matter before the Board and\n\n          - (a) fails to disclose that interest; and\n\n          - (b) is present at or participates in the deliberations of the Board in respect of that matter.\n\n(3)  Where  a  member  contravenes  subsection  (1),  the  chairperson  shall  notify  the Minister who shall inform the President in writing to revoke the appointment of that member.\n\n(4)  Without  limiting  any  further  cause  of  action  that  may  be  instituted  against  the member, the Board shall recover any benefit derived by a member who contravenes subsection (1) in addition to the revocation of the appointment of the member.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "committees-of-the-board",
+      "section": 10,
+      "title": "Committees of the Board",
+      "plainLanguage": "The Board can form committees with its own members or outside individuals to help with its work. If a committee includes both Board members and non-members, a Board member must lead the committee. All committee members are subject to the same rules of conduct as Board members.",
+      "rawText": "10. (1) The Board may establish committees consisting of members of the Board or nonmembers or both to perform a function of the Board.\n\n(2) A committee composed of members and non-members shall be chaired by a member of the Board.\n\n(3) Section 9 applies to members of a committee of the Board.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "allowances-of-members",
+      "section": 11,
+      "title": "Allowances of members",
+      "plainLanguage": "This section states that members of the Board and its committees will receive allowances. The amount of these allowances will be determined by the Minister, with input from the Minister responsible for Finance. This ensures that board members are compensated for their time and contributions.",
+      "rawText": "11. Members  of  the  Board  or  members  of  a  committee  of  the  Board  shall  be  paid allowances determined by the Minister in consultation with the Minister responsible for Finance.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "policy-directives",
+      "section": 12,
+      "title": "Policy directives",
+      "plainLanguage": "This section allows the Minister to provide written policy instructions to the Board, which the Board must then implement. These instructions must be in line with the goals of this law. This ensures the Board's actions are consistent with the government's policy objectives.",
+      "rawText": "12. (1) The Minister may give directives in writing on matters of policy to the Board and the Board shall comply.\n\n(2) The directives shall be consistent with the object of this Act.\n\n## Administrative Provisions",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "executive-secretary",
+      "section": 13,
+      "title": "Executive Secretary",
+      "plainLanguage": "The President appoints an Executive Secretary for the Commission who is in charge of the daily administration and making sure the Board's decisions are carried out. The Executive Secretary can delegate tasks to other officers but remains responsible for them. This ensures smooth operation and accountability within the Commission.",
+      "rawText": "13. (1) The President, shall in accordance with article 195 of the Constitution, appoint the Executive Secretary for the Commission.\n\n(2) The Executive Secretary shall hold office on the terms and conditions specified in the letter of appointment.\n\n(3) The Executive Secretary\n\n(a) is responsible for the day-to-day administration of the Commission; and\n\n(b) shall ensure the implementation of the decisions of the Board.\n\n(4) The Executive Secretary may delegate a function to an officer of the Commission but shall not be relieved of the ultimate responsibility for the performance of the delegated function.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "appointment-of-other-staff-of-the-commission",
+      "section": 14,
+      "title": "Appointment of other staff of the Commission",
+      "plainLanguage": "The President is responsible for appointing staff to the Commission, and may delegate this responsibility to the Board. Public officers can be transferred to the Commission, and the Commission can also hire consultants or experts to help it function effectively. This ensures the Commission has the necessary personnel to carry out its duties.",
+      "rawText": "14. (1) The President shall, in accordance with article 195 of the Constitution, appoint other staff that are necessary for the effective and efficient performance of the functions of the Commission.\n\n(2) The President may, in writing, delegate the power of appointment in subsection (1) to the Board.\n\n(3) Other public officers may be transferred or seconded to the Commission or may otherwise give assistance to the Commission.\n\n(4) The  Commission  may,  for  the  effective  and  efficient  performance  of  the functions  of  the  Commission,  engage  the  services  of  consultants  or  experts  on  the recommendation of the Executive Secretary.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "internal-audit-unit",
+      "section": 15,
+      "title": "Internal Audit Unit",
+      "plainLanguage": "This provision mandates the creation of an Internal Audit Unit within the Commission to ensure financial oversight. The Internal Auditor will conduct regular audits and report findings to the Board. This promotes accountability and helps improve the Commission's operations.",
+      "rawText": "15. (1) The Commission shall have an Internal Audit Unit in accordance with section 83 of the Public Financial Management Act, 2016 (Act 921).\n\n(2)  The  Internal  Audit  Unit  shall  be  headed  by  an  Internal  Auditor  who  shall  be appointed in accordance with the Internal Audit Agency Act, 2003 (Act 658).\n\n(3) The Internal Auditor is responsible for the internal audit of the Commission.\n\n(4) The Internal Auditor shall, subject to subsections (3) and (4) of section 16 of the Internal Audit Agency Act, 2003 (Act 658), at intervals of three months\n\n          - (a) prepare and submit to the Board, a report on the internal audit carried out during the period of three months immediately preceding the preparation of the report; and\n\n          - (b) make recommendations in each report with respect to matters which appear to the Internal  Auditor as  necessary  for the conduct  of  the  affairs of the Commission.\n\n(5) The Internal Auditor shall, in accordance with subsection (4) of section 16 of the Internal Audit Agency Act, 2003 (Act 658), submit a copy of each report prepared under this section to the Executive Secretary and the chairperson of the Board.\n\n## Financial Provisions",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "funds-of-the-commission",
+      "section": 16,
+      "title": "Funds of the Commission",
+      "plainLanguage": "This section explains how the commission receives its funding, which includes money from Parliament, fees it collects, and other financial contributions. The commission is also allowed to invest any funds it doesn't need right away.",
+      "rawText": "16. (1) The sources of funds of the Commission are\n\n      - (a) moneys approved by Parliament;\n\n      - (b) fees, and\n\n      - (c) loans, grants and donations.\n\n(2) The Commission may invest moneys not required for immediate use as the Commission considers appropriate.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "bank-account",
+      "section": 17,
+      "title": "Bank account",
+      "plainLanguage": "The Commission will deposit its funds into a bank account. This account must be approved by the Controller and Accountant-General. This process ensures proper oversight of the Commission's finances.",
+      "rawText": "17. Moneys  for  the  Commission  shall  be  paid  into  a  bank  account  opened  for  the purpose by the Commission with the approval of the Controller and Accountant-General.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "accounts-and-audit",
+      "section": 18,
+      "title": "Accounts and audit",
+      "plainLanguage": "The Commission must maintain financial records that are approved by the Auditor-General. These records will be audited annually by the Auditor-General, who will then submit a report to Parliament, the Minister, and the Board. The Commission's financial year is the same as the government's.",
+      "rawText": "18. (1) The Commission shall keep books, records, returns of account and other documents in relevant to the accounts in the form approved by the Auditor-General.\n\n(2)  The  Board  shall,  at  the  end  of  each  financial  year,  submit  the  accounts  of  the Commission to the Auditor-General for audit.\n\n(3)  The Auditor-General  shall,  within  six  months  after  the  end  of  the  immediately preceding  financial  year,  audit  the  accounts  of  the  Commission  and  submit  the  report  to Parliament and forward a copy each of the audit report to the Minister and the Board.\n\n(4)  The  financial  year  of  the  Commission  is  the  same  as  the  financial  year  of Government.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "annual-report-and-other-reports",
+      "section": 19,
+      "title": "Annual report and other reports",
+      "plainLanguage": "The Board must submit an annual report to the Minister within 30 days of receiving the audit report, which the Minister then presents to Parliament within 30 days, along with any necessary statements. The annual report must include the Auditor-General's report. The Minister can also request additional reports from the Board as needed.",
+      "rawText": "19. (1) The Board shall, within thirty days after the receipt of the audit report, submit an annual report to the Minister covering the activities and operations of the Commission for the year to which the annual report relates.\n\n(2) The annual report shall include the report of the Auditor-General.\n\n(3) The Minister shall, within thirty days after the receipt of the annual report, submit the report to Parliament with a statement that the Minister considers necessary.\n\n(4) The Board shall submit to the Minister any other report which the Minister may require in writing.\n\n## Licensing and Regulation of Postal, Courier and Logistics Services",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "licence-to-provide-postal-courier-and-logistics-services",
+      "section": 20,
+      "title": "Licence to provide postal, courier and logistics services",
+      "plainLanguage": "This provision requires most businesses and individuals offering postal, courier, and logistics services in Ghana to obtain a license, with Ghana Post being the exception. Operating these services without a license can result in fines or imprisonment. Businesses using third-party delivery services must ensure those services are also licensed.",
+      "rawText": "20. (1) The Commission shall license the following persons or businesses:\n\n    - (a) a private courier operator solely established to provide courier and logistics services;\n\n    - (b) a  public  or  private  entity  which  engages  in  delivery  services  in  the  course  of business;\n\n    - (c) an  operator  of  an  online  shop  or  e-commerce  platform  that  operates  courier  or logistics services;\n\n    - (d) a courier and logistics aggregator;\n\n    - (e) a supermarket, shop, mall, restaurant, pharmacy, pharmaceutical company or other commercial concern that operates courier or logistics services as part of business activity;\n\n    - (f) a public or private transport operator in Ghana engaged in delivery whether by land, sea or air;\n\n    - (g) a courier or logistics service operator; and\n\n    - (h) an individual engaged in courier or logistics services with the use of a vehicle, cycle, motorcycle or tri-cycle.\n\n(2) Despite subsection (1), the Ghana Post Company Limited shall operate without a licence issued by the Commission.\n\n(3) A person shall not establish, operate, facilitate, provide or offer postal, courier or logistics services except under a license issued by the Commission under this Act.\n\n(4) A person or business who contravenes subsection (3) commits an offence and is liable on summary conviction to a fine of not less than two hundred and fifty penalty units and not more than one thousand penalty units or to a term of imprisonment of not less than………. and not more than three years or, to both.\n\n(5) A person or business specified in paragraph (b), (c) or (d) of subsection (1) shall not engage the services of a third party courier or logistics operator that is not licensed by the Commission.\n\n(6) A person or business that contravene subsection (5) commits an offence and is liable on summary conviction to a fine of not less than two hundred and fifty penalty units and not more  than  one  thousand  penalty  units  or  to  a  term  of  imprisonment  of  not  less  than\n\n………..years and not more than three years or, to both.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "qualification-for-licence",
+      "section": 21,
+      "title": "Qualification for licence",
+      "plainLanguage": "To get a license for postal, courier, or logistics services, you must be a Ghanaian citizen, a registered company or partnership, a registered external company, a locally registered foreign franchise, or an individual using a vehicle for these services. This provision outlines the different types of individuals and businesses that can qualify for a license to operate in these sectors.",
+      "rawText": "21. A licence to provide a postal, courier or logistics service may be granted to\n\n    - (a) a  citizen  of  Ghana  operating  under  a  registered  sole  proprietorship  under  the Registration of Business Names Act, 1962 (Act 151);\n\n    - (b) a body corporate registered under the Companies Act, 2019 (Act 992);\n\n    - (c) a partnership registered under the Incorporated Private Partnerships Act, 1962 (Act 152);\n\n    - (d) an external company duly registered in Ghana;\n\n    - (e) a foreign franchise entity registered as a local entity; and\n\n    - (f) an individual engaged in courier or logistics  services  who uses a vehicle, cycle, motorcycle or tri-cycle.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "application-for-licence",
+      "section": 22,
+      "title": "Application for licence",
+      "plainLanguage": "To apply for a license, you must submit a form, fee, and required documents to the Commission. The Commission will acknowledge your application within five days and inform you of their decision within sixty days. The Commission will assess your ability to provide the service related to the license.",
+      "rawText": "22. (1) An application for a licence shall be\n\n            - (a) made  to  the  Commission  on  a  form  determined  by  the Commission; and\n\n            - (b) accompanied with the prescribed fee and documents.\n\n(2) The Commission shall\n\n          - (a) within five working days of receipt of an application, acknowledge in writing the receipt of the application; and\n\n          - (b) within sixty days after acknowledgment of receipt, inform the applicant in writing of the decision of the Commission.\n\n(3) The Commission shall in considering an application under this Act, require an applicant to show proof of ability to provide the service to which the application relates.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "grant-of-licence",
+      "section": 23,
+      "title": "Grant of licence",
+      "plainLanguage": "The Commission can issue licenses for postal and courier services, except for services that are specifically reserved. These licenses will detail what services are covered, how long the license is valid, and any associated fees payable to the Commission. This allows companies to legally operate postal and courier services under the Commission's regulation.",
+      "rawText": "23. (1) The Commission may, subject to conditions that it may determine, grant a licence to an applicant to provide a postal or courier service other than a reserved postal service.\n\n(2) Without limiting subsection (1) a licence shall state the\n\n(a) type of services to be provided;\n\n(b) period of validity of the licence; and\n\n(c) payment to the Commission\n\n(i) of a fee for the grant of the licence; or\n\n(ii) of periodic payments during the existence of the licence or both.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "courier-service",
+      "section": 24,
+      "title": "Courier service",
+      "plainLanguage": "To get a courier or logistics license, businesses must commit to tracking deliveries, meeting timeframes, and using technology for efficient service. The regulatory body can still license smaller businesses that don't meet all requirements right away. This aims to balance service standards with opportunities for new and smaller businesses.",
+      "rawText": "24. (1) A person shall not be licensed to provide a courier or logistics service unless the person undertakes to\n\n                  - the courier or logistics operates;\n\n            - (b) follow  and  trace  items  received  or  collected  for  delivery  by  the  business undertaking of that person;\n\n            - (c) deliver items within the acceptable delivery time set by the person and approved by the Commission;\n\n(d) put in place requisite technological and logistical infrastructure approved by the\n\nCommission for\n\n                  - (i) prompt order fulfilment;\n\n                  - (ii) standard packaging and labeling;\n\n                  - (iii) real-time online tracking, monitoring and delivery confirmation;\n\n                  - (iv) bar code scanning;\n\n                  - (v) pricing of courier charges;\n\n                  - (vi) identifying prohibited items;\n\n(vii) payment collection;\n\n                  - (viii) delivery of items within the acceptable delivery time set by each operator and approved by the Commission;\n\n                  - (ix) operating within standards acceptable to the Commission; and\n\n                  - (x) reverse logistics and refund.\n\n(2) Despite subsection (1), the Commission may exercise its sole discretion to grant licenses to prospective courier or logistics operators that are small and medium enterprises or start-up enterprises, irrespective of their inability to fulfil all the requirements herein from the onset of their operations.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "designation-of-national-postal-service-provider",
+      "section": 25,
+      "title": "Designation of National Postal Service Provider",
+      "plainLanguage": "This provision officially names Ghana Post as the main provider for postal, courier, and logistics services in the country. Ghana Post has the exclusive right to offer certain postal services and use the name \"Post Office,\" and can also delegate some of its responsibilities to others. They can also provide a combination of postal, courier, and logistics services if they have the required resources.",
+      "rawText": "25. (1) The Ghana Post Company Limited referred to in this Act as \"Ghana Post\" is by this  Act designated  as the national postal,  courier  and  logistics service provider with the exclusive right to provide the reserved postal, courier and logistics services specified in the Schedule.\n\n(2) The Commission shall upon the coming into force of this Act, accordingly grant\n\nto Ghana Post as soon as practicable the exclusive licence for the provision of the reserved postal services.\n\n(3) Ghana Post shall have the exclusive use of the words \"Post Office\".\n\n(4) For the effective and efficient implementation of the reserved function, Ghana Post  may  subject  to  such  conditions  as  it  may  determine  in  writing,  delegate  the performance of a function conferred on it under this Act to a person.\n\n(5) Ghana Post may provide a hybrid of postal courier and logistic services and in the case of courier and logistics services, Ghana Post shall put in place the requisite technological and logistical infrastructure specified in paragraph (d) of subsection (1) of section 24 of this Act and approved by the Commission.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "reserved-postal-services",
+      "section": 26,
+      "title": "Reserved postal services",
+      "plainLanguage": "This provision gives Ghana Post the exclusive right to deliver letters, postcards, printed materials, and small parcels. This means only Ghana Post can legally provide these specific postal services within Ghana. The details of what qualifies under this exclusive right are further defined in the Schedule.",
+      "rawText": "26. The function reserved for Ghana Post confers on it the exclusive power to convey letters,  post  cards,  printed  matters,  small  parcels  and  other  postal  articles  within  the requirements specified in paragraph 1 of the Schedule.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "contract-to-convey-postal-articles",
+      "section": 27,
+      "title": "Contract to convey postal articles",
+      "plainLanguage": "This provision allows Ghana Post to hire outside parties to help deliver mail by land, sea, or air. The specific details of these delivery arrangements will be agreed upon between Ghana Post and the company or person they hire.",
+      "rawText": "27. Ghana Post may contract a person to convey a postal article by land, sea or air on its behalf and on conditions that may be agreed upon between Ghana Post and the person contracted.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "licence-not-transferable-without-written-approval",
+      "section": 28,
+      "title": "Licence not transferable without written approval",
+      "plainLanguage": "Licenses issued under this law cannot be transferred to someone else without the Commission's written permission. This rule allows the Commission to control who holds the licenses.",
+      "rawText": "28. A licence  issued  under  this  Act  is  not  transferable  except  with  the  prior  written approval of the Commission.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "renewal-of-licence",
+      "section": 29,
+      "title": "Renewal of licence",
+      "plainLanguage": "To renew a postal or courier service license, companies must apply to the Commission at least three months before the current license expires, following the same procedure as the original application. If a license is not renewed or the renewal application is rejected, the company must stop providing services within 90 days of the license expiration. This ensures a structured process for license maintenance and service continuity.",
+      "rawText": "29. (1)  A  licence  may be renewed upon an application made to the Commission for renewal of the licence, not later than three months before the expiration of the licence.\n\n(2) The procedure for renewal of a licence shall be the same as that applicable to the grant of the original licence.\n\n(3) A licensee who fails to renew a licence or whose application for the renewal is rejected by the Commission shall cease to provide the postal or courier service ninety days after the expiration of the licence.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "power-to-modify-licence",
+      "section": 30,
+      "title": "Power to modify licence",
+      "plainLanguage": "The Commission can change a license if it benefits the public, but must give the licensee 60 days' notice and consider their concerns. Public notice of the change must be given. The Commission may compensate the licensee for any costs or damages caused by the change.",
+      "rawText": "30. (1) The Commission may, subject to this Act, modify a licence if the Commission considers that the modification is required in the public interest.\n\n(2) A modification shall not be made unless the Commission has given at least sixty working days' notice in writing to the licensee\n\n(3) The Commission shall, before making a modification, consider the representation or objection made to the Commission.\n\n(4) A notice under subsection (2) shall be published in the Gazette and in a national media.\n\n(5) A copy of the notice shall be submitted to the licensee.\n\n(6) The  Commission  may  compensate  the  licensee  for  any  expense  incurred  or damage caused as a result of a modification to a licence made under subsection (1).",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "suspension-or-cancellation-of-licence",
+      "section": 31,
+      "title": "Suspension or cancellation of licence",
+      "plainLanguage": "The Commission can suspend or cancel a license if the licensee violates its conditions, but must first provide a written warning and a chance to correct the issue. The Commission must also consider the impact on affected individuals before suspending or cancelling a license. A license will automatically expire if it is not used within six months of being granted.",
+      "rawText": "31. (1) Where the Commission is satisfied that a licensee is not complying with or has not complied with the conditions of the licence, the Commission may suspend or cancel the licence.\n\n(2) A suspension or cancellation shall not be made unless the Commission gives the licensee a written notice specifying the cause of dissatisfaction of the Commission and giving directions for rectification of the breach and the action proposed to be taken by the Commission in the event of non-compliance with the notice.\n\n(3) The Commission shall not suspend or cancel a licence without first giving the licensee an opportunity to be heard and to comply with the directives of the Commission if any, within a reasonable period.\n\n(4) The  Commission  shall  in  determining  whether  it  is  necessary  to  suspend  or cancel a licence, consider the extent of loss or damage to persons likely to be affected by the suspension or cancellation.\n\n(5) A licence which is not utilised within six months from the date of its grant shall lapse.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "complaint-to-the-minister",
+      "section": 32,
+      "title": "Complaint to the Minister",
+      "plainLanguage": "This section explains how to appeal a licensing decision made by the Commission. If you disagree with the decision, you can file a complaint with the Minister, and if you're still not satisfied, you can pursue other resolution methods or go to court. The Minister has 30 days to respond to the complaint.",
+      "rawText": "32. (1)  A person aggrieved by\n\n                - a rejection or refusal of the Commission to grant or renew the licence of that person; or\n\n                - a modification, suspension or cancellation of a licence\n\nmay lodge a complaint in writing with the Minister who shall within thirty days of receipt of the complaint, make a decision on the complaint.\n\n(6) A person dissatisfied with the decision of the Minister or with the failure of the Minister to make a decision within thirty days as required under subsection (1), may\n\npursue the matter in accordance with any alternative dispute resolution process available or  in the court.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "production-of-books-of-account-and-records",
+      "section": 33,
+      "title": "Production of books of account and records",
+      "plainLanguage": "To ensure licensees are following the law, the Commission can request to inspect their financial records and other relevant documents. Licensees must provide these documents to the Commission when requested. This allows the Commission to monitor compliance with the Act.",
+      "rawText": "33. The Commission, for the purpose of ensuring compliance with this Act may, by notice  in  writing,  direct  a  licensee to  submit  its  accounts,  records  and  other documents specified in the notice for inspection by the Commission.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "quality-of-postal-service",
+      "section": 34,
+      "title": "Quality of Postal Service",
+      "plainLanguage": "This provision enables the Commission to appoint an expert to evaluate the quality of postal services offered by a specific licensee. The consultant will then recommend ways to improve these services. This process helps ensure that postal services maintain a satisfactory level of quality.",
+      "rawText": "34. (1) The Commission may for the purpose of monitoring the quality of postal services provided by a licensee, appoint an independent consultant who shall by a written report make recommendations to the Commission on measures to be taken to improve the quality of services.\n\n(2) The Commission shall, in appointing an independent consultant under subsection (1), specify the type of postal services and licensee to be monitored.\n\n## Postage Stamps and Postal Operations",
+      "relatedImpacts": [
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "postage-stamp",
+      "section": 35,
+      "title": "Postage stamp",
+      "plainLanguage": "Ghana Post is the only entity authorized to issue postage stamps in Ghana. These stamps must be used to pay for postal services, although Ghana Post can allow other forms of payment if it chooses.",
+      "rawText": "35. (1) Ghana Post  has the sole right to issue postage stamps.\n\n(2) A postage stamp shall be used in respect of postal articles, for the prepayment of postage other sum chargeable under this Act, except where Ghana Post determines that prepayment may be made in some other form.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "postal-charges",
+      "section": 36,
+      "title": "Postal charges",
+      "plainLanguage": "Ghana Post must publicly display its postal service charges at every post office. Any increases to these charges for specific services need to follow guidelines set by the Postal and Courier Services Regulatory Commission. This ensures transparency and regulatory oversight of postal service pricing.",
+      "rawText": "36. (1) Ghana Post shall publish at every post office in the country a notice showing the charges and other conditions to provide postal services.\n\n(2) Increase in charges for reserved postal services provided by Ghana Post shall be determined by Ghana Post in accordance with guidelines given by the Commission.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "copyright-in-stamps-and-other-philatelic-materials",
+      "section": 37,
+      "title": "Copyright in stamps and other philatelic materials",
+      "plainLanguage": "This provision states that the Government owns the copyright to stamps and other philatelic materials produced by Ghana Post. This gives the government control over how these items are copied and distributed. Philatelic materials include items like postage stamps.",
+      "rawText": "37. (1) Copyright  in  philatelic materials  produced  by  Ghana  Post  belongs  to  the Government.\n\n(2) For the purpose of subsection (1), \"philatelic materials\" include\n\n            - (a) philatelic stamp;",
+      "relatedImpacts": []
+    },
+    {
+      "id": "exemption-from-postal-charges",
+      "section": 38,
+      "title": "Exemption from postal charges",
+      "plainLanguage": "This provision allows the Commission to exempt certain groups of people from paying for postal services provided by Ghana Post. This means that some individuals or organizations could receive free mail services. The Commission will announce these exemptions in the Gazette.",
+      "rawText": "38. The Commission may, by notice published in the Gazette , exempt specified classes of persons from paying for postal services provided by Ghana Post.",
+      "relatedImpacts": [
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "prohibition-on-sending-certain-articles-by-post-or-courier-or-logistics",
+      "section": 39,
+      "title": "Prohibition on sending certain articles by post or courier or logistics",
+      "plainLanguage": "This law prohibits sending dangerous, illegal, or offensive items through the regular postal service. However, valuable items like money, jewelry, and precious metals can be sent via courier services. The goal is to ensure safety and prevent the distribution of harmful materials through the mail.",
+      "rawText": "39. (1) A person shall not send by post\n\n      - (a) any explosive, inflammable, dangerous, filthy, noxious or deleterious substances;\n\n      - (b) any sharp instrument not properly protected;\n\n      - (c) any living creature which is either noxious or likely to damage other postal articles in the course of conveyance by post or injure a postal officer;\n\n      - (d) any  indecent  or  pornographic  printing,  painting,  photograph,  lithograph, engraving, book, card or any other indecent pornographic article in whatever form;\n\n      - (e) any postal article that bears on the cover of it any words, marks or designs of an indecent, pornographic, scurrilous, threatening or grossly offensive character;\n\n      - (f) opium, morphine, cocaine or any other narcotics;\n\n      - (g) a postal article that bears a fictitious postage or purports to be prepaid with a postage stamp which has been previously used to prepay another postal article;\n\n      - (h) any  printing,  painting,  photograph,  lithograph,  book  or  card  which  may  be prejudicial to public safety or to the peace and public order of any part of the country; or\n\n      - (i) any other article prohibited for carriage in the interest of national security or International  Air  Traffic  Association  regulations  or  any  other  international rules of carriage.\n\n(2) Despite subsection (1), a person may send by courier, coins, bank notes, currency notes,  securities  or  cheques,  platinum,  gold  or  silver  whether  manufactured  or  not, precious stones, jewels or other valuable articles.",
+      "relatedImpacts": [
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "power-to-detain-and-open-prohibited-articles",
+      "section": 40,
+      "title": "Power to detain and open prohibited articles",
+      "plainLanguage": "If a postal, courier, or logistics service suspects a package contains illegal items, they can hold the package. They must then report their suspicions to the police or Narcotics Control Commission for further investigation.",
+      "rawText": "40. Where a postal, courier or logistics service provider has reason to believe that a postal\n\narticle  or  courier  or  logistic  package  contains  anything  in  contravention  of  section  39  the service provider may detain the package and immediately report to the relevant state agency such as the Ghana Police Service or Narcotics Control Commission for further investigation.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "power-to-open-postal-articles-suspected-to-contain-dutiable-goods",
+      "section": 41,
+      "title": "Power to open postal articles suspected to contain dutiable goods",
+      "plainLanguage": "Postal, courier, or logistics service providers can hold and open packages if they suspect they contain goods violating customs laws. The recipient has the right to be present during the opening. If the recipient doesn't attend after being notified, the provider can open the package without them.",
+      "rawText": "41. (1)  A  postal  or  courier  or  a  logistics  service  provider  may  detain  a  postal  article reasonably suspected to contain goods in contravention of the customs legislation and the officer of the postal or courier provider may open the article in the presence of the addressee or a person appointed agent of the addressee.\n\n(2) Where that person or the agent of that person after being duly notified fails or neglects to attend, the officer may open and examine the postal article.\n\n(3) A postal article that has been opened and examined under this section shall be delivered to the addressee unless the article is required for the purpose of proceedings under this Act or any other enactment.\n\n## Offences and Penalties",
+      "relatedImpacts": [
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "unlawfully-taking-away-or-opening-mail-bag-sent-by-post",
+      "section": 42,
+      "title": "Unlawfully taking away or opening mail bag sent by post",
+      "plainLanguage": "This law makes it illegal to tamper with mail bags or steal items from them. If someone breaks this law, they could face a fine, jail time, or both.",
+      "rawText": "42. (1) A person shall not\n\n      - (a) unlawfully  take  away  or  open  a  mail  bag  used  for  the  transmission  or conveyance of a postal article; or\n\n      - (b) unlawfully take out of a mail bag a postal article or any other article in the course of transmission or conveyance of that article by post.\n\n(2) A  person  who  contravenes  subsection  (1)  commits  an  offence  and  is  liable summary on conviction to a fine of not less than ………… and not more than five hundred penalty units or to a term of imprisonment for a term of not less than ………… and not more than two years or, to both.",
+      "relatedImpacts": [
+        "privacy"
+      ]
+    },
+    {
+      "id": "unlawful-use-of-stamp-or-franking-machine",
+      "section": 43,
+      "title": "Unlawful use of stamp or franking machine",
+      "plainLanguage": "This law prohibits fraudulent activities involving postage stamps and franking machines, such as removing stamps to reuse them or tampering with franking machines. Violators may face fines or jail time. This aims to prevent people from cheating the postal system.",
+      "rawText": "43. A person who with intent to defraud\n\n(a) removes from a postal article any postage stamp fixed to that postal article;\n\n(b) removes from a used stamp a mark made on that stamp at a post office:\n\n    - (c) uses a postage stamp which has been obliterated or defaced by a mark made on the postage stamp as having been previously used to prepay any revenue, duty or tax on any postal article; or\n\n(d) tampers with a franking machine or superscripts a postal article with a franking machine which has been tampered with commits an offence and is liable on summary conviction to a fine of not less than fifty penalty  units  and  not  more  than  two  hundred  and  fifty  penalty  units  or  to  term  of imprisonment for not less than ……….. and not more than twelve months or to both.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "unlawful-interference-with-mail",
+      "section": 44,
+      "title": "Unlawful interference with mail",
+      "plainLanguage": "This law protects the integrity of the postal system by making it illegal to interfere with mail or tamper with postal markings. Those who violate this law could face fines or jail time. This ensures that mail reaches its intended recipient without being altered or stolen.",
+      "rawText": "44. (1) A person shall not\n\n      - (a) interfere with any mail or postal article otherwise than in accordance with the provisions of this Act or Regulations made under this Act; or\n\n      - (b) fraudulently put, alter, remove or erase any official mark on a postal article\n\n(2) A person who contravenes subsection (1) commits an offence and is liable on summary conviction to a fine of not less than fifty penalty units and not more than two hundred and fifty penalty units or to a term of imprisonment of not less than ……..and not more than twelve months or, to both.",
+      "relatedImpacts": [
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "unlawful-entry-into-post-office-premises",
+      "section": 45,
+      "title": "Unlawful entry into post office premises",
+      "plainLanguage": "This law prohibits unauthorized entry into restricted areas of post offices and obstructing postal workers. Violators may face fines between fifty and two hundred penalty units, imprisonment up to twelve months, or both. This aims to protect postal facilities and ensure smooth postal operations.",
+      "rawText": "45. (1) A person shall not\n\n      - (a) without permission enter any premises used for the purpose of postal services provided  by  Ghana Post and to which the public has no right of access, and refuses or fails to leave the premises when asked to do so by a person employed on the premises; or\n\n      - (b) unlawfully obstruct or impede an employee of a license in the discharge of the duty of the employee in connection with postal services.\n\n(2) A person who contravenes subsection (1) commits an offence and is liable on summary conviction to a fine of not less than fifty penalty units and not more than two hundred penalty units or to a term of imprisonment of not less than………. and not more than twelve months or, to both.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "fraudulent-use-of-philatelic-material",
+      "section": 46,
+      "title": "Fraudulent use of philatelic material",
+      "plainLanguage": "This law makes it illegal to fake stamps, use Ghana Post stamps without permission, or use old, invalid stamps for postage. People who break this law can be fined or sent to jail.",
+      "rawText": "46. (1) A person shall not\n\n    - (a) counterfeit any philatelic material;\n\n    - (b) use without authority, proof of which shall be on that person, a stamp designed for Ghana Post; or\n\n    - (c) use a commemorative or definitive postage stamps for postage purpose after the stamp has been demonetized or invalidated.\n\n(2) A person who contravenes subsection (1) commits an offence and is liable on summary conviction to a fine of not less than… and not more than five hundred penalty units or to a term of imprisonment of not less than……. and not more than two years or, to both.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "acts-infringing-on-reserved-rights",
+      "section": 47,
+      "title": "Acts infringing on reserved rights",
+      "plainLanguage": "This provision makes it a crime to perform postal services that are specifically reserved, such as delivering letters, without proper permission. Individuals found guilty of this offense may face a fine between 250 and 1000 penalty units, imprisonment for a term up to three years, or both.",
+      "rawText": "47. A person who without lawful authority or excuse performs any of the reserved postal functions  specified  in  the  Schedule  commits  an  offence  and  is  liable  on  summary conviction to a fine of not less than two hundred and fifty penalty units and not more than one thousand penalty units or to a term of imprisonment of not less than ………….and not more than three years or, to both.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "prohibition-of-false-notice-as-to-reception-of-letter-and-sale-of-stamps",
+      "section": 48,
+      "title": "Prohibition of false notice as to reception of letter and sale of stamps",
+      "plainLanguage": "This law prevents people from falsely advertising a location or vehicle as an official Ghana Post office or mail carrier without permission. Those who violate this rule may face fines or jail time. This helps ensure the public is not misled about where to send or receive mail.",
+      "rawText": "48. (1)  A  person  shall  not inscribe  on  any  receptacle  placed  or  maintained  in  any premises under the  control of that person or on any premises\n\n                - (a) the words \"post office\" or \"letter box\" or\n\n                - (b) any  other  words,  letter  or  marks  which  signify or  may  lead  the  public  to believe that it is a post office or a post office letter box\n\nwithout the authority of Ghana Post.\n\n(2) A person shall not inscribe on any vehicle or vessel, any words, letters or marks which signify or may reasonably lead any other person to believe that the vehicle or vessel  is  used  for  the  conveyance  of  mails  from  a  post  office,  except  with  the  written permission of Ghana Post.\n\n(3) A person who contravenes subsection (1) or (2) commits an offence and is liable on summary conviction to a fine of not less than ……….. and not more than two hundred and fifty penalty units or to a term of imprisonment of not less than ……… and not more than twelve months or, to both.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "destruction-or-damage-to-post-office-letterbox",
+      "section": 49,
+      "title": "Destruction or damage to post office letterbox",
+      "plainLanguage": "This law makes it a crime to damage or destroy Ghana Post letterboxes or any notices attached to them. If someone is caught, they could face a fine, jail time, or both.",
+      "rawText": "49. A person who destroys or damages any receptacle provided by Ghana Post for the reception of postal articles or any notices on any receptacle, commits an offence and is liable on summary conviction to a fine of not less than fifty penalty units and not more than two hundred and fifty penalty units or to a term of imprisonment of not less than.. … and not more than twelve months or, to both.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "evasion-of-post-office-laws",
+      "section": 50,
+      "title": "Evasion of post office laws",
+      "plainLanguage": "This provision prohibits fraudulent activities related to postal services, such as sending deceptive items, misrepresenting contents, or falsely claiming exemptions. Violators may face fines or imprisonment.",
+      "rawText": "50. (1) A person shall not\n\n      - (a) fraudulently put into a post office anything in which or in the cover of which or\n\n      - (b) make a false declaration of the contents of anything sent by post; or\n\n      - (c) fraudulently send by post anything which the person claims to be a thing that falls within an exemption or privilege granted under this Act in respect of the postal article.\n\n(2) A person who contravenes subsection (1) commits an offence and is liable on summary conviction to a fine of not less than 50 penalty units and not exceeding 250 penalty units or to a term of imprisonment for term not less than………..and not more than twelve months or, to both.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "retaining-mail-bags-or-postal-articles",
+      "section": 51,
+      "title": "Retaining mail bags or postal articles",
+      "plainLanguage": "This law makes it illegal to steal, destroy, or withhold mail that's being delivered, especially if you intend to prevent the recipient from getting it. If you break this law, you could be fined or imprisoned.",
+      "rawText": "## 51. (1) A person shall not\n\n      - (a) fraudulently retain, control or destroy; or\n\n        - (b) neglect or refuse to deliver when requested to do so by an officer of Ghana Post\n\nany mail bag or postal article in the course of its transmission by post, with the apparent intention of not being delivered to the addressee.\n\n(2) A person who contravenes subsection (1) commits an offence and is liable on summary conviction to a fine of not less than one hundred penalty units and not more than five hundred penalty units or to a term of imprisonment of not less than………. and not more than two years or, to both.",
+      "relatedImpacts": [
+        "privacy"
+      ]
+    },
+    {
+      "id": "unlawful-disclosure-of-contents-of-postal-article",
+      "section": 52,
+      "title": "Unlawful disclosure of contents of postal article",
+      "plainLanguage": "This law protects the privacy of mail by making it illegal for unauthorized people to open and reveal the contents of postal items. Only Ghana Post officers or those with written permission can disclose the contents. Violators may face fines or jail time.",
+      "rawText": "52. (1) Except for the purpose or returning a postal article to the sender, a person shall not  without authorisation in writing from Ghana Post, disclose or in any manner make known to any person other than an officer of Ghana Post, the contents of a postal article.\n\n(2) A person who contravenes subsection (1) commits an offence and is liable on summary conviction to a fine of not less than……….. and not more than two hundred and fifty penalty units  or to a term of imprisonment of not less than …………and not more than twelve months or, to both.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "general-penalty",
+      "section": 53,
+      "title": "General penalty",
+      "plainLanguage": "This section states that if someone breaks a rule in this law and there isn't a specific punishment already defined, they can be fined or imprisoned, or both. The fine will be between a certain minimum and maximum amount, and the imprisonment will be between a certain minimum and maximum length.",
+      "rawText": "53. A person who contravenes or fails to comply with a provision of this Act commits an offence and, where no penalty is expressly provided, shall on summary conviction be liable to a fine  of not less than …………penalty units and not more than two hundred and fifty penalty units or to a term of imprisonment of not less than …………and not more than twelve months or, to both.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "offences-committed-by-a-body-of-persons",
+      "section": 54,
+      "title": "Offences committed by a body of persons",
+      "plainLanguage": "This section states that if a company breaks the law, its directors or officers are also considered guilty. However, they can avoid responsibility if they prove they didn't know about the offense or tried to prevent it. This ensures that individuals in leadership positions are held accountable for their organization's actions.",
+      "rawText": "54. (1) Where a body of persons is convicted of an offence under this Act,\n\n            - (a) in the case of a body corporate, every director or officer of that body corporate shall be deemed to have committed that offence; and\n\n            - (b) in the case of a partnership or a firm, every partner of the partnership or firm shall be deemed to have committed that offence.\n\n(2) A person shall not be deemed to have committed an offence under subsection (1) where the person\n\n            - (a) proves that the offence was committed by some other person without the knowledge or connivance of that person; or\n\n            - (b) exercised diligence to prevent the commission of that act as the person ought to, having regard to the circumstances.\n\n## Miscellaneous Provisions",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "article-addressed-to-deceased-person",
+      "section": 55,
+      "title": "Article addressed to deceased person",
+      "plainLanguage": "This rule explains what happens to mail addressed to someone who has died. The mail can be delivered to the person in charge of the deceased's estate (executor or administrator) if they show proof of their legal authority to manage the estate.",
+      "rawText": "55. A postal article addressed to a deceased person may be delivered to the executors or administrators of the estates of the deceased person on presentation of probate or letters of administration.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "settlement-of-dispute",
+      "section": 56,
+      "title": "Settlement of dispute",
+      "plainLanguage": "If a postal service customer believes they have been unfairly treated by a licensee (e.g., through discrimination or unauthorized charges), they can bring their complaint to the Commission. The Commission will investigate the issue and make a decision on the matter. The Commission will also set the procedure for resolving such disputes.",
+      "rawText": "56. (1) Any dispute between a customer and a licensee in which it is alleged that the licensee\n\n            - (a) has exercised undue discrimination in the provision of a postal service against the customer in respect of charges or terms applied or to be applied;\n\n            - (b) has  shown  undue  preference  to  any  other  person  to  the  detriment  of  the customer; or\n\n            - (c) has  applied  or  proposes  to  apply  to  the  customer  any  charge  related  to provision of a postal service which is not authorised under this Act\n\nmay be referred to the Commission by either party.\n\n(2) Where a dispute is referred to the Commission, the Commission or a person appointed by the Commission shall determine whether the allegation is well founded and where  the  allegation  is  well  founded,  the  Commission  or  the  person  appointed  by  the Commission  shall  make  the  determination  as  considered  appropriate  together  with  a statement of reasons for the determination made.\n\n    - An  act  or  omission  of  a  licensee  which  is  authorised  by  any  condition\n\nincluded in the licence for the purpose of this section shall not be taken to constitute undue discrimination.\n\n(4) The Commission shall determine the procedure for determining a dispute under this section.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "establishment-of-register",
+      "section": 57,
+      "title": "Establishment of register",
+      "plainLanguage": "This provision requires the Commission to create and maintain a public register of licenses, including their status and conditions. The Commission can exclude information from the register if it's not in the public or commercial interest. The public can access extracts from this register for a fee.",
+      "rawText": "57. (1) The Commission shall establish and keep a register in a form that the Commission determines and shall record in the register\n\n            - (a) licences issued under this Act and the conditions for the licences:\n\n            - (b) licences suspended or cancelled; and\n\n            - (c) any  other  information  relating  to  licences  that  the  Commission  considers appropriate.\n\n(2) Where it appears to the Commission that entry of any condition in the register would  be  contrary  to  the  public  interest  or  the  commercial  interest  of  any  person,  the Commission shall not enter that condition in the register.\n\n(3) A person may on payment of a fee, obtain an extract from the register.",
+      "relatedImpacts": [
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "inspectors",
+      "section": 58,
+      "title": "Inspectors",
+      "plainLanguage": "The Commission will appoint inspectors to ensure the Act is followed. These inspectors can enter premises and access relevant documents. Inspectors will have an official identity card and must return it if they are no longer an inspector.",
+      "rawText": "58. (1)The Commission shall appoint inspectors for the effective and efficient implementation of this Act.\n\n(2) An inspector\n\n                  - (a) may, at all reasonable times and for purposes of this Act or Regulations made under this Act, enter any premises; and\n\n                  - (b) shall have access to all books, records, returns and any other documents relevant for purposes of this Act or Regulations made under this Act.\n\n(3) The Commission shall issue an inspector an identity card.\n\n(4) The identity card shall include a recent photograph of the inspector and signed by the Executive Secretary.\n\n(5) A person ceases to be an inspector where\n\n          - (a) the appointment of the person is revoked; and\n\n          - (b) the person resigns or retires from the Commission.\n\n(6) A person who ceases to be an inspector shall immediately return the identity card to the Commission.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "directions-in-the-interest-of-national-security-and-international-relations",
+      "section": 59,
+      "title": "Directions in the interest of national security and international relations",
+      "plainLanguage": "This provision allows the Commission to instruct licensees to take certain actions if it's important for national security or international relations. Licensees must follow these instructions, and the government may provide compensation for any resulting losses. This ensures that the Commission can act quickly to address issues affecting national security and international relations.",
+      "rawText": "59. (1)  The Commission may, in consultation with the Minister, give to a licensee,\n\nspecific or general direction as the Commission considers necessary or expedient in the interest of\n\n                  - (b) the international relations with other countries.\n\n(2) The licensee  shall  give  effect  to  any  direction  given  by  the  Commission, despite any other duty imposed on the licensee under this Act.\n\n(3) The Minister may, in consultation with the Minister responsible for Finance and with the approval of Parliament, compensate the licensee for loss sustained through compliance with directions given under this section.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "regulations",
+      "section": 60,
+      "title": "Regulations",
+      "plainLanguage": "The Minister, guided by the Commission, can create regulations to manage postal services effectively. These regulations address issues like compensation for lost items, prohibited articles, undeliverable mail, and other operational details. The goal is to ensure the smooth and efficient functioning of the postal system.",
+      "rawText": "60. The Minister, on the advice of the Commission, may by legislative instrument make Regulations\n\n  - (a) to  provide for the payment of compensation for loss or damage in the course of transmission of postal articles including any limit to the amount payable;\n\n  - (b) to prohibit the transmission by post of articles not proscribed under section 38;\n\n  - (c) for the detention, disposal or destruction of postal articles the transmission of which is prohibited under this Act;\n\n  - (d) for the safe keeping pending further action of valuable or saleable enclosures found in postal articles lawfully opened under this Act;\n\n  - (e) prescribing the period within which undelivered postal articles shall be returned to the sender;\n\n  - (f) to provide for the publication of a list of undelivered postal articles;\n\n  - (g) to amend the Schedule to this Act;\n\n  - (h) to provide for the manner in which undelivered postal articles shall be finally disposed of; and\n\n  - (i) generally, for the effective and efficient implementation of this Act.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "interpretation",
+      "section": 61,
+      "title": "Interpretation",
+      "plainLanguage": "This section defines key terms used in the Act related to postal, courier, and logistics services. These definitions clarify the meaning of terms like \"Commission,\" \"courier service,\" \"logistics service,\" \"postal article,\" and other relevant concepts to ensure consistent interpretation and application of the law. Understanding these definitions is essential for anyone working within or regulated by this legislation.",
+      "rawText": "61. In this Act unless the context otherwise requires\n\n  - \"Commission\" means the Postal, Courier and Logistics Commission established under section 1;\n\n' person' refers to natural and artificial persons;\n\n- \"Ghana Post\" means the Ghana Post Company Limited registered under the Companies Act 2019 (Act 992);\n\n- 'courier service' means the receipt and delivery of correspondence, items of value or both for which no postage stamp is required;\n\n'logistics service' means a service for the movement and delivery of goods;\n\n- 'courier and logistics aggregators' mean entities that facilitate courier and logistics services through independent third-party courier and logistics service providers and through a digital platform.\n\n- 'electronic commerce' means the exchange of information or data or the sale or purchase of goods or services between individuals, businesses, governments or public or private organizations, conducted over the world wide web (internet) using computer-mediated networks such as desktop and laptop computers, tablets, smartphones and other smart devices.\n\n- 'payment collection' means the processing of payments from customers for goods delivered to the customers;\n\n- 'reverse logistics' refers to the process of managing the return of a package after it has been delivered to the customer.\n\n\"inspector\" means an inspector appointed for the Commission under section 58;\n\n\"letter\" means any communication in writing directed to a specified person or address;\n\n\"licence\" means an authorisation granted by the Commission under sections 13 and 15 (2) of this Act for the provision of postal service;\n\n\"licensee\" means a person to whom a licence is granted under this Act;\n\n- \"mail\" includes little articles collected for conveyance by post, loose articles and a mail bag or conveyance of any kind by which articles are carried whether or not the bag or conveyance contains postal articles;\n\n- \"mail bag\" includes any container, bag, parcel, basket, envelope or other covering in which postal articles are conveyed whether or not it contains postal articles;\n\n\"Minister\" means the Minister responsible for Communications;\n\n\"money order\" means a money order issued by a licensee for payment;\n\n- \"post\" means any system for the collection, despatch, or conveyance of postal articles;\n\n\"post office\" includes ………………………………………\n\n  - (a) a house, building, room, vehicle place or structure where postal articles are received, sorted, delivered, made up or dispatched or which is used for any other postal purpose in connection with the rendering of any postal money transfer or other services by Ghana Post; and\n\n  - (b) a pillar box or any other receptacle provider by or under the authority of Ghana Post for the reception of postal articles;\n\n- \"postage stamp\" includes a label or stamp for denoting postage or other sum payable in respect  of  a  postal  article  and  which  is  an  adhesive  stamp,  printed,  impressed  or otherwise indicated on a postal article whether the stamp is issued under this Act or by the government of any other country; and\n\n\"postal  article\"  includes  a  letter,  postcard,  reply  postcard,  lettercard,  newspaper,  book, packet,  printed paper, pattern or sample packet, small packet or parcel and every other packet  article  when  in  course  of  conveyance  by  post  and  includes  a  telegram  when conveyed by post.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "repeal-and-savings",
+      "section": 62,
+      "title": "Repeal and savings",
+      "plainLanguage": "This provision replaces the old law governing postal services but ensures a smooth transition. Existing rules and licenses remain valid under the new law until they are updated or cancelled by the new commission. This prevents disruption for postal operators and the public.",
+      "rawText": "62. (1)  The Postal and Courier Services Regulatory Commission Act, 2003 (Act 649) is repealed.\n\n(2) Despite the repeal of Act 649 in subsection (1), any Regulations, authorisation, order, rule or instructions made or done under the repealed enactment and in force immediately before the coming into force of this Act shall continue to have effect as if made or done under this Act until the Regulations, authorisation, order, rule or instruction is revoked, reviewed, cancelled or terminated.\n\n(3) A licence granted by Ghana Post which is in force prior to the coming into force of this Act is deemed to have been granted under this Act by the Commission.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "transitional-provisions",
+      "section": 63,
+      "title": "Transitional provisions",
+      "plainLanguage": "This section transfers all assets, contracts, and responsibilities from the old Postal and Courier Services Regulatory Commission to the new Postal, Courier and Logistics Commission. Employees of the old commission will also be transferred to the new commission under similar terms and conditions. This ensures a smooth transition and continued operation of postal and courier services.",
+      "rawText": "63. (1) The assets, rights and liabilities of the Postal and Courier Services Regulatory Commission established under Act 649 and in force immediately before the coming into force  of  this  Act  are  transferred  to  the  Postal,  Courier  and  Logistics  Commission established under this Act and accordingly proceedings taken by or against the Postal and Courier  Services  Regulatory  Commission  may  be  continued  by  or  against  the  Postal, Courier and Logistics Commission established under this Act.\n\n(2) A contract subsisting between the Commission established under Act 649 and another person and in effect immediately before the coming into force of this Act shall subsist between the Commission established under this Act and that other person.\n\n(3) A  person  in  the  employment  of  the  Commission  established  under  Act  649 immediately before the coming into force of this Act shall, on the coming into force of this Act, be deemed to have been duly employed by the Commission established under this Act on the\n\nterms and conditions which are not less favourable in aggregate to the terms and conditions attached to the post held by that person before the coming into force of this Act.\n\n## POSTAL SERVICES EXCLUSIVE TO GHANA POST\n\n(Section 25,26 and 60)\n\n- Sole authority to convey letters, postcards, printed matters, small parcels and other postal articles of a weight up to and including one hundred grams.\n\n2. Printing and selling of postage and commemorative stamps.\n\n3. Printing and selling of Postal Order and Money Order.\n\n## SCHEDULE\n\n## APPLICATION FOR LICENCE\n\n(Section 22)\n\n1. Sole",
+      "relatedImpacts": [
+        "business"
+      ]
+    }
+  ],
+  "notebookLMVideo": {
+    "url": "",
+    "duration": "10:00"
+  },
+  "deadline": "2025-12-31",
+  "submissionMethod": "Email to clerk@parliament.gov.gh",
+  "relatedBills": []
+}

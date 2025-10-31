@@ -1,0 +1,761 @@
+{
+  "id": "13-cyber-security-amendment-bill",
+  "title": "Cyber Security (Amendment) Bill",
+  "summary": "The Cyber Security (Amendment) Bill fundamentally transforms Ghana's Cybersecurity Authority from a regulatory body into a law enforcement agency with sweeping powers. The bill grants the Director-General, Deputy Directors-General, and authorized officers **full police powers** including arrest, search, and seizure authority, while simultaneously empowering the Authority to investigate and prosecute cybercrimes, confiscate assets, and freeze property during investigations.\n\n**Mandatory licensing creates significant business compliance requirements**. All cybersecurity service providers—whether paid or unpaid—must obtain licenses from the Authority, and all cybersecurity professionals must be accredited. Violations trigger substantial fines that can include both the cost of damages caused and the value of financial gains made. The bill establishes new certification programs for emerging technologies (AI, blockchain, cloud computing) and requires certified professionals to remit 30% of their certification earnings to a cybersecurity fund. Critical information infrastructure owners face registration requirements, mandatory incident reporting within 24 hours, and administrative penalties for non-compliance. These provisions create substantial operational and financial burdens for technology companies, startups, and digital service providers.\n\n**Enhanced surveillance and data collection powers raise privacy concerns**. The Authority gains broad powers to request information during investigations, obtain court orders to collect computer data, compel service providers to preserve data, and execute search warrants that can extend to connected computer systems. While court oversight is required for some actions, the bill allows expedited data disclosure in \"emergencies\" (defined as immediate risk to life or safety) and permits 14-day data preservation requests without initial court orders. The bill protects witness identities but provides limited safeguards for individuals whose data is collected during investigations. These provisions significantly expand government access to private digital information.\n\n**New criminal offenses target online behavior with serious penalties**. The bill criminalizes cyberbullying, cyberstalking, and online harassment with prison terms of 3-10 years and fines up to 25,000 penalty units. It creates offenses for computer-related forgery and fraud, and requires online platforms to protect children from abuse. While these provisions address legitimate concerns about online safety, the **broad definitions and severe penalties** could create chilling effects on free expression and digital innovation. The bill also expands funding for the Authority through multiple revenue streams including percentages of communication service taxes, corporate taxes, and fees from electronic government services, creating a well-resourced enforcement apparatus. Overall, the bill prioritizes security and control over digital activities while creating significant compliance costs and potential risks to privacy, innovation, and civil liberties in Ghana's digital ecosystem.",
+  "pdfPath": "pdfs/13. Cyber Security (Amendment) Bill.pdf",
+  "impacts": {
+    "innovation": {
+      "score": "severe-negative",
+      "description": {
+        "score": "severe-negative",
+        "analysis": "The Cyber Security (Amendment) Bill poses severe threats to digital innovation in Ghana by creating a regulatory environment that prioritizes control over entrepreneurship and growth. The mandatory licensing requirements for all cybersecurity service providers—including those operating on a not-for-profit basis—combined with professional accreditation mandates and the requirement to remit 30% of certification earnings to a government fund, create prohibitive barriers to entry for startups, independent developers, and innovation-focused ventures. These compliance costs are compounded by administrative penalties that can equal \"the cost of damage caused and value of the financial gain made\" or reach up to 100,000 penalty units, creating existential risks for early-stage companies that may lack resources to navigate complex regulatory requirements. The bill's broad authority to issue directives to \"innovators\" and \"developers\" with penalties for non-compliance introduces regulatory uncertainty that will discourage risk-taking and experimentation essential to innovation.\n\nThe transformation of the Cybersecurity Authority into a law enforcement agency with full police powers—including arrest, search, seizure, and asset confiscation authority—creates a chilling effect on digital innovation. Innovators working on cutting-edge technologies (AI, blockchain, cloud computing) face the prospect of criminal investigation and prosecution by the same agency that regulates their activities, eliminating the traditional separation between regulatory oversight and law enforcement. The broad criminal provisions for cyberbullying, cyberstalking, and online harassment, carrying prison terms of 3-10 years, create significant liability risks for platform operators, social media innovators, and communication technology developers who may face prosecution for user-generated content. The vague definitions of these offenses and severe penalties will likely cause innovators to avoid developing platforms that facilitate user interaction, stifling innovation in social technologies, collaborative tools, and community-building applications.\n\nThe cumulative effect of these provisions will be capital flight, brain drain, and the relocation of digital innovation activities to more favorable jurisdictions. International investors and venture capital firms will view Ghana's digital sector as high-risk due to regulatory unpredictability, severe penalties, and the Authority's sweeping enforcement powers. Local innovators and technology entrepreneurs will face the choice of either accepting substantial compliance burdens and regulatory risks or relocating to countries with more innovation-friendly environments. The bill's approach to emerging technologies—requiring certification programs and subjecting innovators to Authority directives—suggests a command-and-control model fundamentally incompatible with the experimental, iterative nature of digital innovation. Rather than positioning Ghana as a competitive hub for African digital innovation, this bill will likely marginalize the country's technology sector and undermine its potential to participate in the global digital economy."
+      },
+      "relatedProvisions": [
+        "section-3-of-act-1038-amended",
+        "section-4a-inserted",
+        "section-13-of-act-1038-amended",
+        "section-20b-inserted",
+        "section-31-of-act-1038-amended",
+        "section-35-of-act-1038-amended",
+        "section-36-of-act-1038-amended",
+        "section-37-of-act-1038-amended",
+        "section-40-of-act-1038-amended",
+        "section-47-of-act-1038-amended",
+        "section-49-of-act-1038-amended",
+        "section-57-of-act-1038-amended",
+        "section-57a-inserted",
+        "section-57b-inserted",
+        "section-57c-inserted",
+        "section-58a-inserted",
+        "section-59-of-act-1038-amended",
+        "section-59a-inserted",
+        "section-59b-inserted",
+        "section-59c-inserted",
+        "section-59d-inserted",
+        "section-59e-inserted",
+        "section-59f-inserted",
+        "section-59h-inserted",
+        "section-59i",
+        "section-59j",
+        "section-67-of-act-1038-amended",
+        "section-67a-inserted",
+        "section-67b-inserted",
+        "section-68-of-act-1038-amended",
+        "section-83-of-act-1038-amended",
+        "section-91-of-act-1038-amended",
+        "section-92-of-act-1038-amended",
+        "section-94-of-act-1038-amended",
+        "section-94a-inserted",
+        "section-94b-inserted",
+        "second-schedule-to-act-1038-amended"
+      ]
+    },
+    "freedomOfSpeech": {
+      "score": "severe-negative",
+      "description": {
+        "score": "severe-negative",
+        "analysis": "This bill poses a severe threat to freedom of speech in Ghana's digital ecosystem through the creation of broadly-defined criminal offenses that target online expression with harsh penalties. The new cyberbullying, cyberstalking, and online harassment provisions (sections 67A and 67B) criminalize speech that is \"offensive,\" \"rude,\" \"insulting,\" \"derogatory,\" or causes \"emotional distress\"—terms so vague and subjective that they could encompass legitimate political criticism, investigative journalism, satire, social commentary, or any expression that powerful actors find uncomfortable. With penalties ranging from 3 to 10 years imprisonment and fines up to 25,000 penalty units, these provisions will create massive chilling effects as citizens, journalists, activists, and commentators self-censor to avoid prosecution. The prohibition on spreading \"false or misleading information\" lacks clear standards for determining truth or intent, creating a tool for suppressing dissenting viewpoints under the guise of combating misinformation.\n\nThe threat to free expression is amplified by the institutional structure created in this bill. Section 20B grants the Cybersecurity Authority's Director-General, Deputy Directors-General, and authorized officers full police powers including arrest, search, and seizure authority. This creates a specialized law enforcement apparatus focused specifically on online activities, operating outside traditional police structures with their established (if imperfect) civil liberties protections. The combination of vague speech-restricting offenses, severe penalties, and a dedicated enforcement agency with police powers creates a powerful mechanism for suppressing online dissent and controlling digital discourse.\n\nThe impact extends beyond individual prosecutions to fundamentally reshape Ghana's digital public sphere. The severe penalties and broad definitions will deter citizens from engaging in robust online debate, criticizing government officials or policies, exposing corruption, or discussing controversial social issues. Journalists and media organizations will face pressure to avoid investigative reporting that might be characterized as \"harassing\" or \"spreading false information.\" Civil society organizations, opposition political parties, and activists will struggle to mobilize support or critique government actions without risking criminal prosecution. While the bill purports to address legitimate concerns about online harassment and child safety, its vague language and severe penalties create a framework that prioritizes state control over digital expression rather than protecting genuine speech rights while addressing specific harms. This represents a fundamental threat to democratic discourse and civic participation in Ghana's increasingly digital society."
+      },
+      "relatedProvisions": [
+        "section-13-of-act-1038-amended",
+        "section-20b-inserted",
+        "section-40-of-act-1038-amended",
+        "section-49-of-act-1038-amended",
+        "section-59d-inserted",
+        "section-59e-inserted",
+        "section-59g-inserted",
+        "section-59h-inserted",
+        "section-59i",
+        "section-59k-inserted",
+        "section-67-of-act-1038-amended",
+        "section-67a-inserted",
+        "section-67b-inserted",
+        "section-68-of-act-1038-amended",
+        "section-83-of-act-1038-amended"
+      ]
+    },
+    "privacy": {
+      "score": "severe-negative",
+      "description": {
+        "score": "severe-negative",
+        "analysis": "This bill represents a severe threat to privacy and data rights in Ghana, creating a comprehensive surveillance framework with inadequate safeguards. The transformation of the Cybersecurity Authority into a law enforcement agency with full police powers, combined with expansive data collection and search authorities, fundamentally shifts the balance away from individual privacy rights. The provisions allow government officials to compel information disclosure, preserve data for extended periods, execute broad search warrants that can extend to connected systems, and obtain expedited access to stored data in loosely-defined \"emergencies\"—all with minimal independent oversight or accountability mechanisms.\n\nThe cumulative effect of these provisions creates multiple pathways for government access to private digital information while eroding traditional privacy protections. Service providers must preserve data for 14 days on written request alone, without initial judicial authorization. Warrants can extend searches from one computer system to any connected system, potentially enabling dragnet surveillance. The \"emergency\" exception for expedited data disclosure is defined so broadly (any \"significant and imminent risk to life or safety\") that it could be invoked routinely to bypass normal legal processes. Meanwhile, individuals face criminal penalties of up to two years imprisonment for refusing to provide information to investigators, creating coercive pressure to surrender privacy rights.\n\nThe bill provides virtually no countervailing protections for privacy rights. There are no data minimization requirements, no clear limitations on how long collected data can be retained, no independent privacy oversight body, no mandatory transparency reporting, and no meaningful remedies for individuals whose privacy is violated. The warrantless inspection powers for business premises, combined with mandatory licensing and registration requirements, create opportunities for routine surveillance of technology companies and their users. For a digital economy increasingly dependent on user trust and data protection, these provisions could undermine Ghana's competitiveness while exposing citizens, businesses, and civil society organizations to unprecedented government surveillance with minimal legal recourse or accountability."
+      },
+      "relatedProvisions": [
+        "section-3-of-act-1038-amended",
+        "section-13-of-act-1038-amended",
+        "section-20b-inserted",
+        "section-36-of-act-1038-amended",
+        "section-47-of-act-1038-amended",
+        "section-59b-inserted",
+        "section-59c-inserted",
+        "section-59d-inserted",
+        "section-59e-inserted",
+        "section-59f-inserted",
+        "section-59g-inserted",
+        "section-59h-inserted",
+        "section-59i",
+        "section-59j",
+        "section-59k-inserted",
+        "section-67-of-act-1038-amended",
+        "section-67b-inserted",
+        "section-83-of-act-1038-amended",
+        "section-94-of-act-1038-amended"
+      ]
+    },
+    "business": {
+      "score": "severe-negative",
+      "description": {
+        "score": "severe-negative",
+        "analysis": "The Cyber Security (Amendment) Bill creates a profoundly hostile business environment for Ghana's digital economy through a combination of mandatory licensing requirements, punitive penalties, and expansive enforcement powers. Every cybersecurity service provider—whether operating for profit or on a not-for-profit basis—must obtain licenses or accreditation from the Authority, with violations triggering administrative penalties equivalent to both the cost of damages caused AND the value of financial gains made, plus fines ranging from 50,000 to 100,000 penalty units. This dual penalty structure creates potentially unlimited financial liability that could bankrupt businesses for compliance failures. Additionally, certified professionals must remit 30% of their certification service revenue to a government cybersecurity fund, effectively imposing a direct tax on business income that reduces competitiveness and profitability. These requirements create substantial barriers to entry for startups and small businesses while imposing significant ongoing compliance costs on existing operators.\n\nThe bill's enforcement mechanisms compound these burdens by giving the Authority sweeping powers to investigate, prosecute, confiscate assets, and freeze property during investigations—with only a 14-day window before court confirmation is required. Businesses face criminal penalties of up to 5 years imprisonment and 20,000 penalty units for violations, with corporate directors held personally liable for entity offenses. The Authority can also impose administrative penalties, suspend or terminate licenses, seek injunctions, and take \"any other action that it considers appropriate,\" creating multiple enforcement pathways that maximize business risk. The inspection and audit powers allow the Authority to enter premises and examine systems with just 7 days' notice (or immediately with a warrant), disrupting operations and exposing proprietary information. The Authority's power to issue binding directives to service providers, innovators, and developers—backed by administrative penalties—gives it broad regulatory control over business operations and technology development.\n\nThe severe criminal penalties for cybercrimes create additional liability risks that will particularly impact digital platforms, social media services, and online businesses. Offenses like cyberbullying, cyberstalking, and online harassment carry prison terms of 3-10 years and fines up to 25,000 penalty units, with broad definitions that could expose platforms to criminal liability for user-generated content. The unlawful access provisions impose 2-5 year prison terms even for attempts to access systems, potentially criminalizing legitimate security research and penetration testing. Combined with the Authority's transformation into a law enforcement agency with full police powers, these provisions create an environment where businesses face constant risk of criminal investigation, asset seizure, and operational disruption. The overall effect will be to deter foreign investment, drive existing businesses to relocate to more favorable jurisdictions, stifle innovation in Ghana's technology sector, and significantly increase the cost of doing business in the digital economy—fundamentally undermining Ghana's competitiveness in the global digital marketplace."
+      },
+      "relatedProvisions": [
+        "section-3-of-act-1038-amended",
+        "section-4a-inserted",
+        "section-13-of-act-1038-amended",
+        "section-20a-inserted",
+        "section-20b-inserted",
+        "section-31-of-act-1038-amended",
+        "section-35-of-act-1038-amended",
+        "section-36-of-act-1038-amended",
+        "section-37-of-act-1038-amended",
+        "section-40-of-act-1038-amended",
+        "section-47-of-act-1038-amended",
+        "section-49-of-act-1038-amended",
+        "section-57-of-act-1038-amended",
+        "section-57a-inserted",
+        "section-57b-inserted",
+        "section-57c-inserted",
+        "section-58a-inserted",
+        "section-59-of-act-1038-amended",
+        "section-59a-inserted",
+        "section-59b-inserted",
+        "section-59c-inserted",
+        "section-59d-inserted",
+        "section-59e-inserted",
+        "section-59f-inserted",
+        "section-59h-inserted",
+        "section-59i",
+        "section-59j",
+        "section-67-of-act-1038-amended",
+        "section-67a-inserted",
+        "section-67b-inserted",
+        "section-68-of-act-1038-amended",
+        "section-83-of-act-1038-amended",
+        "section-91-of-act-1038-amended",
+        "section-92-of-act-1038-amended",
+        "section-94-of-act-1038-amended",
+        "section-94a-inserted",
+        "section-94b-inserted",
+        "section-97-of-act-1038-amended",
+        "section-99-of-act-1038-amended",
+        "second-schedule-to-act-1038-amended"
+      ]
+    }
+  },
+  "keyConcerns": [
+    {
+      "id": "regulatory-agency-granted-full-police-powers",
+      "title": "Regulatory Agency Granted Full Police Powers",
+      "severity": "critical",
+      "description": "The Cybersecurity Authority's leadership and undefined \"authorized officers\" receive full police powers including arrest, search, and seizure authority—powers typically reserved for independent law enforcement agencies with robust oversight. This creates a dangerous concentration of investigative, prosecutorial, and enforcement functions in a single regulatory body with financial incentives from fines, enabling arbitrary enforcement without the procedural safeguards, training requirements, or accountability mechanisms that govern professional police forces.",
+      "relatedProvisions": [
+        "section-20b-inserted"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "criminal-penalties-for-undefined-cybercrime",
+      "title": "Criminal Penalties for Undefined \"Cybercrime\"",
+      "severity": "critical",
+      "description": "Section 67 criminalizes unspecified \"cybercrime\" with 3-10 years imprisonment, replacing specific \"Online Sexual Offences\" language with a generic term that provides no clarity about what conduct is prohibited. This violates the fundamental legal principle that criminal offenses must be clearly defined, creating a regime where any online activity could potentially trigger severe criminal penalties at the discretion of enforcement authorities.",
+      "relatedProvisions": [
+        "section-67-of-act-1038-amended"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "criminal-penalties-for-false-information-online",
+      "title": "Criminal Penalties for \"False Information\" Online",
+      "severity": "critical",
+      "description": "This provision criminalizes posting \"false information\" about someone online with penalties of 1-10 years imprisonment, without defining what constitutes \"false information\" or requiring proof of intent, malice, or actual harm. This vague language could criminalize inadvertent errors, satire, opinion, or good-faith factual disputes, creating severe chilling effects on journalism, activism, and public debate. The provision effectively makes defamation a serious criminal offense online while it remains a civil matter offline.",
+      "relatedProvisions": [
+        "section-67b-inserted"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "decade-long-prison-terms-for-online-speech",
+      "title": "Decade-Long Prison Terms for Online Speech",
+      "severity": "critical",
+      "description": "This provision establishes criminal penalties of 3-10 years imprisonment for cyberbullying and online harassment—treating online speech violations with the same severity as violent felonies. These disproportionate penalties create a severe chilling effect on legitimate online expression, criticism, and debate. The mandatory minimum of 3 years removes judicial discretion, ensuring even minor violations trigger life-altering consequences that far exceed international democratic norms.",
+      "relatedProvisions": [
+        "section-68-of-act-1038-amended"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "mandatory-licensing-kills-open-source-security-research",
+      "title": "Mandatory Licensing Kills Open-Source Security Research",
+      "severity": "high",
+      "description": "This provision requires government accreditation for ALL cybersecurity work—even unpaid volunteer research and open-source contributions. Security researchers, startup developers, and community contributors must obtain licenses before conducting any cybersecurity activities, with penalties calculated using undefined terms like \"cost of damage caused.\" This blanket requirement far exceeds international norms and will chill legitimate security research, drive talent abroad, and create barriers that don't exist in competing markets.",
+      "relatedProvisions": [
+        "section-49-of-act-1038-amended"
+      ],
+      "relatedImpacts": []
+    }
+  ],
+  "provisions": [
+    {
+      "id": "section-3-of-act-1038-amended",
+      "section": 1,
+      "title": "Section 3 of Act 1038 Amended",
+      "plainLanguage": "This amendment updates the objectives of the Cybersecurity Authority to include regulating cybersecurity activities, preventing cyber threats, and promoting a secure digital environment. It also focuses on preventing cybercrime, fostering collaboration, raising awareness, and working with international partners to enhance the nation's cybersecurity.",
+      "rawText": "- The Cybersecurity Act, 2020 (Act 1038) referred to in the Act as the 'principal enactment' is amended by substitution for section 3, of\n\n## ' Objects of the Authority\n\n  - The objects of the Authority are to:\n\n    - (a) regulate cybersecurity activities in the country;\n\n    - (b) prevent, manage and respond to cybersecurity threats and cybersecurity incidents;\n\n    - (c) regulate  owners  of  critical  information  infrastructure  in  respect  of cybersecurity activities, cybersecurity service providers, cybersecurity professionals and practitioners, and cybersecurity establishments in the country;\n\n    - (d) promote the development of cybersecurity in the country to ensure a secured and resilient digital ecosystem;\n\n    - (e) prevent and detect cybercrime;\n\n    - (f) to facilitate the confiscation of proceeds of cybercrime;\n\n    - (g) establish  a  platform  for  cross-sector  engagement  on  matters  of cybersecurity for effective co-ordination and co-operation between key public institutions and the private sector;\n\n    - (h) create awareness of cybersecurity matters; and\n\n    - (i) collaborate  with  States,  inter-governmental  bodies,  international organisations and international agencies to promote the cybersecurity of the country.'.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "section-4a-inserted",
+      "section": 2,
+      "title": "Section 4A inserted",
+      "plainLanguage": "This section expands the Authority's role to include fighting cybercrime through investigation and prosecution, setting security standards for new technologies like AI and blockchain, and certifying the security of these technologies. It also tasks the Authority with protecting vulnerable groups online and promoting digital rights related to cybersecurity.",
+      "rawText": "- The principal enactment is amended by the insertion after section 4, of\n\n## ' Further Functions of the Authority\n\n  - 4A. The Authority, shall in addition to the functions in section 4, carry out the following functions:\n\n    - (a) subject  to  article  88  of  the  Constitution,  to  investigate  and  on  the authority of the Attorney-General, prosecute cybercrime under this Act;\n\n    - (b) establish standards for certifying the security of innovative products, Artificial  Intelligence,  cloud  technology,  quantum  computing,  big data, Internet of Things (IoT) , blockchain-based technology and any other emerging technologies;\n\n    - (c) certify  the  security  of  innovative  products    Artificial  Intelligence, cloud technology, quantum computing, big data, Internet of Things (IoT), blockchain-based technology and any other emerging technologies, in accordance with the standards established pursuant to paragraph (b);\n\n    - (d) accredit  the  cybersecurity  establishments  of critical  information infrastructure owners, cybersecurity service providers, cybersecurity practitioners and professionals and other relevant persons or institutions;\n\n    - (e) accredit non-profit cybersecurity institutions and cybersecurity professional bodies;\n\n    - (f) promote  the  online  protection  of  women,  elderly,  persons  with disabilities and underserved populations;\n\n    - (g) collaborate with relevant institutions to develop mechanisms including technical security solutions and guidelines on the usage of smart technology and other emerging technologies; and\n\n    - (h) promote the protection of digital rights as it relates to cybersecurity.'.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "section-5-of-act-1038-amended",
+      "section": 3,
+      "title": "Section 5 of Act 1038 amended",
+      "plainLanguage": "This provision modifies an existing law (Act 1038) to include \"Foreign Affairs and Regional Integration\" and \"Gender, Children and Social Protection\" in a specific section. This change likely expands the scope or responsibilities of the section being amended to include these two areas.",
+      "rawText": "- The principal enactment is amended in section 5 by the addition after subparagraph (iv) of paragraph (a) of subsection (1), of\n\n        - '(v) Foreign Affairs and Regional Integration; and\n\n        - (vi) Gender, Children and Social Protection.'.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "section-13-of-act-1038-amended",
+      "section": 4,
+      "title": "Section 13 of Act 1038 amended",
+      "plainLanguage": "This section updates the membership of a committee by renaming some positions and allowing the Minister to appoint additional members. It also establishes rules for removing members who are frequently absent and a process for filling those vacancies. These changes ensure the committee has the right expertise and remains active.",
+      "rawText": "- The principal enactment is amended in section 13 by:\n\n  - (a) the substitution for paragraph (d) of subsection (2), of\n\n    - '(d) the Executive Director of the Data Protection Commission or any successor  official  or  entity  by  whatever  name  designated,  or  a representative of the Executive Director with the requisite knowledge  and  skills  in cybercrime  and  cybersecurity  matters, nominated by the Executive Director;';\n\n  - (b) the substitution for paragraph (g) and (k) respectively of subsection (2), of\n\n    - '(g) the  Director  of  the  National  Intelligence  Bureau  or  any  successor official or entity by whatever name designated, or a representative of the Director with the requisite knowledge and skills in cybercrime, and cybersecurity matters, nominated by the Director;\n\n- (k) the  Director  General  of  National  Signals  Bureau  or  any  successor official or entity by whatever name designated, or a representative of the Director with the requisite knowledge and skills in cybercrime and cybersecurity matters, nominated by the Director;';\n\n  - (c) the addition after paragraph (r) of subsection (2), of\n\n- '(s) Any other person the Minister may nominate, on the advice of the Authority.'.\n\n  - (d) the addition after subsection (13), of\n\n- '(14)  A member of the JCC who is absent from three consecutive meetings without sufficient cause ceases to be a member of the JCC.\n\n- Where there is a vacancy, the Minister shall notify the President of the vacancy, and the President shall appoint a person to fill the vacancy for the unexpired term.'.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "section-14-of-act-1038-amended",
+      "section": 5,
+      "title": "Section 14 of Act 1038 amended",
+      "plainLanguage": "This amendment details how the Joint Cybersecurity Committee will work with the Authority and other sectors to improve the country's cybersecurity. The committee will identify risks, create policies, coordinate efforts, share information, fight cybercrime, measure success, and educate the public. This aims to create a unified and effective approach to protecting critical information and systems.",
+      "rawText": "- The principal enactment is amended  in section 14 by the substitution for subsection (1), of\n\n- '14     (1). The Joint Cybersecurity Committee shall collaborate with the Authority and the  sectors  or  institutions  represented  on  the  Committee  for  the  implementation  of relevant cybersecurity measures including but not limited to the following ways:\n\n  - (a) identification  of  cybersecurity  risks  that  may  affect  critical  information infrastructure or the overall cybersecurity of the country;\n\n  - (b) development  of  cybersecurity  policies  and  guidelines  based  on  identified risks,  best  practices  and  international  standards  to  mitigate  cybersecurity risks;\n\n  - (c) coordination  of  cybersecurity  activities  between  sectors  and  entities  to ensure that all cybersecurity efforts are aligned to prevent overlap and gaps;\n\n  - (d) facilitate the sharing of information between sectors and entities in a secure manner and in compliance with relevant data protection laws;\n\n  - (e) collaboration with sectors or institutions to tackle cybercrime including the provision  of  a  platform  for  incidence  sharing  and  incidence  response mechanisms to facilitate;\n\n  - (f) evaluation of the effectiveness of implemented cybersecurity measures based on established metrics with a view to continuously improve the cybersecurity measures; and\n\n  - (g) collaboration with the Authority to educate the public on matters related to cybercrime and cybersecurity.'.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "section-15a-inserted",
+      "section": 6,
+      "title": "Section 15A inserted",
+      "plainLanguage": "This provision allows the President to appoint Deputy Directors-General to the Authority. These deputies will support the Director-General, perform delegated tasks, and act as Director-General when he/she is absent. Their specific duties and terms of service will be detailed in their appointment letters.",
+      "rawText": "- The principal enactment is amended by the insertion after section 15, of\n\n## ' Appointment of Deputy-Directors General\n\n- 15A. (1) The President shall in accordance with article 195 of the Constitution appoint  such  Deputy  Directors-General  as  are  necessary  for  the  performance  of  the functions of the Authority.\n\n- The Deputy Directors-General shall hold office  on  the terms  and conditions specified in the letters of appointment.\n\n- The  Deputy  Directors-General  shall  act  in  the  absence  of  the Director-General and perform any other functions as determined by the  Board.\n\n- The Deputy Directors-General shall, subject to the provisions of this Act:\n\n    - (a) assist  the  Director-General  in  the  discharge  of  his  functions  and perform such other functions as the Director-General or the Board may delegate to him;\n\n    - (b) perform  functions  related  to  the  object  and  functions  of  the Authority on the direction or authority of the Director-General or the Board; and\n\n    - (c) be responsible for the direction of the Authority when the DirectorGeneral is absent from Ghana or is otherwise unable to perform his functions.'.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "section-20a-inserted",
+      "section": 7,
+      "title": "Section 20A inserted",
+      "plainLanguage": "This provision ensures that staff of the Authority receive terms and conditions of service that are competitive with those in security and intelligence agencies and the Attorney-General's office. It guarantees that staff are eligible for benefits such as gratuities, allowances, and pensions. This aims to attract and retain qualified personnel by offering competitive compensation and benefits packages.",
+      "rawText": "- The principal enactment is amended by the insertion after section 20, of\n\n## ' Terms and Conditions of Service of Staff of the Authority\n\n  - 20A. (1) The terms and conditions of service of the staff of the Authority shall not be less favourable than the staff of the security and intelligence agencies.\n\n  - The conditions of service attached to posts of legal officers of the Authority shall not be less than that of the posts attached to that of legal officers of the Attorney-General of the same rank.\n\n  - Staff shall, in addition to monthly salaries, be eligible for the payment of any gratuity, allowance, pension, subsidy or benefit to members in respect of their service or resignation or retirement.'.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "section-20b-inserted",
+      "section": 8,
+      "title": "Section 20B inserted",
+      "plainLanguage": "This provision gives the Director-General, Deputy Director-General, and other authorized officers the powers of a police officer, including the ability to arrest, search, and seize. These officers also receive the same legal protections as police officers. This change allows them to enforce the law more effectively within their area of responsibility.",
+      "rawText": "- The principal enactment is amended by the insertion after section 20, of\n\n## ' Powers of police\n\n  - 20B. (1) The Director-General, Deputy Director-General and other authorised  officers  shall  exercise  the  powers  of  a  Police  Officer,  including  the powers  of  arrest,  search  and  seizure  and  have  the  same  rights,  protections immunities  conferred  on  a  Police  officer  in  the  Criminal  and  Other  Offences (Procedure) Act, 1960 (Act 30), the Police Service Act, 1970 (Act 350) and any other law related to a Police officer in the performance of their functions under the Act.'.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "section-31-of-act-1038-amended",
+      "section": 9,
+      "title": "Section 31 of Act 1038 amended",
+      "plainLanguage": "This section outlines where the Fund gets its money. Funding sources include parliamentary allocations, a portion of fines related to the Act, donations, percentages of communication service and corporate taxes, fees from Bank of Ghana licensees, and a share of fees from government electronic services.",
+      "rawText": "- The principal enactment is amended by substitution for section 31, of:\n\n## ' Sources of money for the Fund\n\n  - The sources of moneys for the Fund include:\n\n    - (a) seed money approved by Parliament;\n\n    - (b) moneys which may become lawfully payable to the Authority for the Fund;\n\n    - (c) 50% of all fines arising from criminal penalties under the Act;\n\n    - (f) grants, gifts, donations and other voluntary contributions;\n\n    - (g) 12% of the communications service tax for the Fund per annum;\n\n    - (h) 9 % corporate tax for the Fund per annum;\n\n    - (i) a charge determined by the Authority in accordance with the Fees and  Charges  (Miscellaneous  Provisions)  Act,  2018  (Act  983)  and levied on persons licensed by the Bank of Ghana to carry on business;\n\n    - (j) a  proportion  of  the  fees  charged  on  all  government  electronic services determined by the Authority; and\n\n    - (h) any other moneys approved by Parliament for the Fund.'.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "section-35-of-act-1038-amended",
+      "section": 10,
+      "title": "Section 35 of Act 1038 amended",
+      "plainLanguage": "This provision empowers the Minister to identify and designate computer systems or networks vital to national security, the economy, or public safety as \"critical information infrastructure.\" Once designated, these infrastructures will be subject to regulation, and the owner will be notified. This aims to protect essential digital services and systems from potential threats.",
+      "rawText": "- The principal enactment is amended by substitution for section 35, of\n\n## ' Designation of critical information infrastructure\n\n- (1) The  Minister  may,  on  the  advice  of  the  Authority,  designate  a computer  system  or  computer  network  as  a  critical  information  infrastructure  if  the Minister considers that the computer system or computer network is essential for\n\n    - (a) national security,\n\n    - (b) the economic and social well-being of citizens, or\n\n    - (c) public health and safety.\n\n- Where  the  Minister  designates  a  computer  system  or  computer network as a critical information infrastructure, the Minister shall publish the sector of the designated critical information infrastructure in the Gazette and, the owner of the Critical Information Infrastructure shall be notified of the designation.\n\n- The Minister shall, in making a determination under subsection (1), consider if the computer system or computer network is necessary for:\n\n    - (a) the security, defence or international relations of the country;\n\n    - (b) the production, preservation or identity of a confidential source of information related to the enforcement of criminal law;\n\n    - (c) the provision of services directly related to\n\n        - (i) communications and telecommunications infrastructure;\n\n        - (ii) banking and financial services;\n\n        - (iii) public utilities\n\n        - (iv) public transportation; and\n\n        - (v) public key infrastructure;\n\n    - (d) the protection of public safety and public health, including systems related to essential emergency services;\n\n    - (e) an  international  business  or  communication  affecting  a  citizen  of Ghana  or  any  other  international  business  in  which  a  citizen  of Ghana or the Government has an interest;\n\n    - (f) the Legislature, Executive, Judiciary, Public Services or security agencies; or\n\n    - (g) digital services;\n\n    - (h) services  related  to  the  supply  chain  in  the  critical  information infrastructure ecosystem; and\n\n    - (i) any other services determined by the Minister, on the advice of the Authority.\n\n- The  Minister  shall,  by  publication  in  the Gazette ,  establish  the procedure for the regulation of a critical information infrastructure.'.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "section-36-of-act-1038-amended",
+      "section": 11,
+      "title": "Section 36 of Act 1038 amended",
+      "plainLanguage": "This section mandates that owners of critical information infrastructure must register with the Authority, pay fees, and provide necessary details. The Authority will validate the information and issue a registration certificate, and failure to register can result in penalties. Owners must also inform the Authority of any changes in legal ownership within seven days.",
+      "rawText": "- The principal enactment is amended by substitution for section 36, of\n\n## ' Registration of critical information infrastructure\n\n  - (1) The Owner of the designated critical information infrastructure shall register their critical information infrastructure with the Authority, and shall pay the prescribed annual registration and designation fee as determined by the Authority or stipulated in a legislative instrument.\n\n  - For  compliance  purposes,  the  owner  of  an  unregistered  critical information infrastructure shall receive a notification of registration letter from the Authority to comply with the Act.\n\n  - During registration, the owner of a critical information infrastructure shall  nominate  a  point  of  contact  and  submit  details  of  the  nominee  to  the Authority.\n\n  - The owner of a critical information infrastructure shall submit to the Authority,  verified  details  of  critical  information  infrastructure,  through  the channels and modalities determined by the Authority.\n\n  - The Authority shall validate the information submitted by the owner of  a critical information infrastructure, and the owner shall receive a Certificate of Registration upon completion of registration requirements.\n\n  - The Authority shall through the issuance of guidelines or directives determine:\n\n    - (a) further  requirements  for  the  registration  of  a  critical  information infrastructure;\n\n    - (b) the procedure for the registration of a critical information infrastructure; and\n\n    - (c) any other matter relating to the registration of a critical information infrastructure.\n\n  - Where there is  any  change  in  the  legal  ownership  of  a  designated critical information infrastructure, the owner of the designated critical information infrastructure shall, within seven days after the change, inform the Authority of the change in ownership.\n\n  - An  owner  of  a  designated  critical  information  infrastructure  who contravenes subsection (1) and (3) is liable to pay to the Authority the administrative penalty specified in the Second Schedule.'.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "section-37-of-act-1038-amended",
+      "section": 12,
+      "title": "Section 37 of Act 1038 amended",
+      "plainLanguage": "This section allows the Minister to remove the \"critical infrastructure\" label from a computer system if it no longer qualifies, after consulting with the Authority. The owner of the system will be notified, and the removal may be publicly announced. This ensures that resources are focused on truly critical infrastructure.",
+      "rawText": "- The principal enactment is amended by substitution for section 37, of\n\n## ' Withdrawal of designation of critical information infrastructure\n\n- '37. (1) The  Minister  may,  on  the  advice  of  the  Authority,  withdraw  the designation of a critical information infrastructure at any time if the Minister considers that\n\nthe computer or computer network no longer satisfies the criteria of a critical information infrastructure.\n\n- The  Minister  may  publish  the  withdrawal  of  critical  information infrastructure sector in the Gazette .\n\n- The owner of a designated critical  information  infrastructure  shall receive notification of the withdrawal of the designation  by letter from the Minister.'.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "section-40-of-act-1038-amended",
+      "section": 13,
+      "title": "Section 40 of Act 1038 amended",
+      "plainLanguage": "This provision modifies the penalty for violating a specific rule (subsection 1) within the existing law. The new penalty is a fine between 4,000 and 25,000 penalty units, or potentially both a fine and imprisonment, if convicted in court.",
+      "rawText": "- The principal enactment is amended in section 40 by substitution for subsection (2), of\n\n- '(2) A person who contravenes subsection (1) commits an offence and is liable on summary conviction to a fine of not less than four thousand penalty units and not more than twenty-five thousand penalty units, or both.'.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "section-47-of-act-1038-amended",
+      "section": 14,
+      "title": "Section 47 of Act 1038 Amended",
+      "plainLanguage": "This amendment requires Sectoral Computer Emergency Response Teams to report cybersecurity incidents to the National team within 24 hours. Sectoral teams that fail to report incidents will face an administrative penalty. This change aims to ensure swift communication and coordination in response to cybersecurity threats.",
+      "rawText": "- The principal enactment is amended in section 47 by:\n\n- (a) the addition after subsection (6), of\n\n- '(7) A Sectoral Computer Emergency Response Team shall within twenty-four hours after receiving a report of a cybersecurity incident from the owner of a designated critical  information  infrastructure,  a  service  provider,  a  licensee  or  any  relevant  person report the cybersecurity incident to the National Computer Emergency Response Team.'.\n\n- (b) the addition after subsection (7), of\n\n- '(8) A  Sectoral Computer  Emergency  Response  Team  who  contravenes subsection (7) is liable to pay to the Authority the administrative penalty specified in the Second Schedule.'.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "section-49-of-act-1038-amended",
+      "section": 15,
+      "title": "Section 49 of Act 1038 Amended",
+      "plainLanguage": "This amendment requires anyone offering cybersecurity services, regardless of whether they are paid or not, to be licensed or accredited by the Authority. Failure to comply can result in significant fines, potentially including the cost of damages caused and value of the financial gain made. This aims to ensure that all cybersecurity service providers meet certain standards and are accountable for their actions.",
+      "rawText": "- The principal enactment is amended in section 49 by\n\n- (a) the substitution for subsection (1), of\n\n- '(1) A person shall not provide a cybersecurity service for a reward unless that person obtains a licence issued by the Authority in accordance with the Act.'.\n\n- (b) the substitution for subsection (2), of\n\n- '(2) A person shall not provide a cybersecurity service on a not-for-profit basis unless that person obtains an accreditation issued by the Authority in accordance with the Act.'.\n\n- (c) addition after subsection (2), of\n\n- '(3) A  person  who  contravenes  subsection  (1)  and  (2)  is  liable  to  pay  to  the Authority the administrative penalty the equivalent to the cost of damage caused and value of the financial gain made, or an administrative penalty of not less than fifty thousand penalty units and not more than one hundred thousand penalty units.'.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "section-57-of-act-1038-amended",
+      "section": 16,
+      "title": "Section 57 of Act 1038 Amended",
+      "plainLanguage": "This provision requires cybersecurity professionals to be accredited by the Authority. It is illegal to practice as a cybersecurity professional or hire one who is not accredited. Violators will face administrative penalties.",
+      "rawText": "- The principal enactment is amended by the substitution for section 57, of\n\n- The  Authority shall establish a mechanism  for  the  accreditation of cybersecurity professionals and practitioners.\n\n- An  individual shall not practise as a cybersecurity professional or cybersecurity practitioner unless that individual has been accredited by the Authority;\n\n- A  person  shall  not  knowingly  engage  the  services  of  a  cybersecurity professional or cybersecurity practitioner who has not been accredited by the Authority;\n\n- A  person  who  contravenes  subsection  (2)  or  (3)  is  liable  to  pay  to  the Authority an administrative penalty of not less than two hundred and fifty penalty units and not more than twenty thousand penalty units.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "section-57a-inserted",
+      "section": 17,
+      "title": "Section 57A inserted",
+      "plainLanguage": "This provision directs the Cyber Security Authority to develop a certification program for cybersecurity professionals and service providers. The program will serve as an alternative to existing international security standards. The Authority will also monitor compliance and address any complaints.",
+      "rawText": "- The principal enactment is amended by the insertion after section 57, of\n\n## ' Cyber hygiene certification scheme\n\n- 57B. (1) The Authority shall establish a scheme for the certification of cybersecurity professionals and practitioners, and cybersecurity service providers who will be entrusted to perform cyber hygiene certification service as an alternative to other international best practice security frameworks.\n\n- The  Cyber  Security  Authority  shall  conduct  periodic  audits  to  ensure compliance with the  cyber  hygiene  certification  scheme  and  associated  prescribed  fees.\n\n- Any  complaints  regarding  non-compliance    shall  be  investigated,  and appropriate enforcement actions shall be taken.'.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "section-57b-inserted",
+      "section": 18,
+      "title": "Section 57B inserted",
+      "plainLanguage": "This section establishes the application process for cybersecurity service providers who want to offer the Authority's cyber hygiene certification service. Licensed providers must apply in writing to the Authority, including documentation and a fee. This process ensures that only qualified providers are certified to offer this service.",
+      "rawText": "- The principal enactment is amended by the insertion after section 58A, of\n\n## ' Application for certification to provide the Cyber hygiene certification services\n\n- 57B. (1) A  licensed  cybersecurity  service  provider  or  accredited  CP  who  seeks  to provide  the  Authority's  cyber  hygiene  certification  service  shall  apply  in  writing  to  the Authority.\n\n- The application shall be made in the prescribed form and accompanied by the:\n\n- (a) supporting documentation, and\n\n- (b) prescribed fee that the Authority may determine.'.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "section-57c-inserted",
+      "section": 19,
+      "title": "Section 57C inserted",
+      "plainLanguage": "This provision allows the Cyber Security Authority to set standard fees for cyber hygiene certifications. Certified professionals cannot charge more than the approved rate, and must pay 30% of their earnings from these certifications into a cybersecurity fund. The Authority will publish and periodically review these rates.",
+      "rawText": "- The principal enactment is amended by the insertion after section 58B, of\n\n## ' Standardised, Review and Administration of Fees for Cyber Hygiene Certification Service\n\n- 57C. (1) A certified cybersecurity professional or practitioner or cybersecurity service provider shall charge a fee for cyber hygiene certification services as determined by the Cyber Security Authority.\n\n- A certified cybersecurity professional or practitioner or cybersecurity service provider  shall  not  charge  fees  exceeding  the  approved  flat  rate  for  cyber  hygiene certification services.\n\n- A certified cybersecurity professional or practitioner or cybersecurity service provider who fails to comply with subsection (2) shall be liable to pay to the Authority an administrative penalty specified in the Second Schedule (not less than two hundred and fifty penalty units and not more than five thousand penalty units)\n\n- 30% of the revenue generated by a certified cybersecurity professional or practitioner  or  cybersecurity  service  provider  under  the  scheme  shall  be  paid  into  the cybersecurity fund.\n\n- The  Cyber  Security  Authority  shall,  by  notice  published  in  the  Gazette, determine the applicable flat rate for cyber hygiene certification services.\n\n- The flat rate shall be reviewed periodically based on, industry trends, and the affordability needs of stakeholders.'.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "section-58a-inserted",
+      "section": 20,
+      "title": "Section 58A inserted",
+      "plainLanguage": "This provision requires the Authority to develop a process for certifying the security of innovative and emerging technologies. This certification aims to ensure that new technologies meet established security standards. The goal is to promote trust and security in the adoption of these technologies.",
+      "rawText": "- The principal enactment is amended by the insertion after section 58, of\n\n## ' Certification of the security of innovative and emerging technologies.\n\n- 58A. The Authority shall establish a mechanism for the certification of the security of innovative and emerging technologies.'.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "section-58b-inserted",
+      "section": 21,
+      "title": "Section 58B inserted",
+      "plainLanguage": "This provision requires the relevant Authority to develop a process for officially recognizing and approving non-profit organizations that specialize in cybersecurity. This accreditation aims to ensure quality and standards within the non-profit cybersecurity sector. Ultimately, this will help the public identify reputable non-profit cybersecurity institutions.",
+      "rawText": "- The principal enactment is amended by the insertion after section 58A, of\n\n## 'Accreditation of non-profit cybersecurity institutions\n\n- 58B. The  Authority  shall  establish  a  mechanism  for  the  accreditation  of  non-profit cybersecurity institutions.'.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "section-59-of-act-1038-amended",
+      "section": 22,
+      "title": "Section 59 of Act 1038 Amended",
+      "plainLanguage": "This provision expands the scope of Act 1038 to include security certifications for new technologies like AI, cloud computing, and blockchain. This aims to ensure these emerging technologies meet certain security standards. The change helps to build trust and security in these rapidly developing fields.",
+      "rawText": "- The principal enactment is amended  in section 59 by the addition after paragraph (e) of subsection (1), of\n\n'(g) certification of the security of innovative and emerging technologies including Artificial  Intelligence,  cloud  technology,  quantum computing, big data, and blockchainbased technology.'.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "section-59a-inserted",
+      "section": 23,
+      "title": "Section 59A inserted",
+      "plainLanguage": "This section defines the penalties for not following the rules and guidelines of this Act, including fines and imprisonment. It also allows the Authority to issue warnings, stop orders, seek court orders, change or revoke licenses, and impose fines for violations. The Authority can choose to pursue criminal, administrative, or both types of enforcement actions.",
+      "rawText": "- The principal enactment is amended by the insertion after section 59, of\n\n## ' Enforcement powers\n\n- 59A. (1) A person who:\n\n  - (a) knowingly  fails  to  comply  with  or  acts  in  contravention  of  this  Act, regulations or directives issued under this Act;\n\n  - (b) knowingly  fails  to  comply  with  prescribed  cybersecurity  standards  and requirements;\n\n  - (c) provides cybersecurity services without a licence or acts as a cybersecurity professional or practitioner without accreditation;\n\n  - (d) willfully obstructs, hinders, molests or assaults personnel of the Authority duly engaged in the exercise of power conferred on the Authority under this Act.\n\ncommits an offence and is liable on summary conviction to a term of imprisonment of not more than five years or to a fine of not more than twenty thousand penalty units, or to both.\n\n  - Where an offence is committed by a corporate entity, that entity is liable to a fine of not more than twenty thousand penalty units and each director of that entity shall be deemed to have committed the offence.\n\n  - Despite subsection (1), the Authority may, where a person has breached this Act, Regulations or directives or where a licensee, an accreditation holder has breached a condition contained in its licence or accreditation:\n\n    - (a) warn the person, licensee, or accreditation holder,\n\n    - (b) issue a cease-and-desist order,\n\n    - (c) apply to the High Court for\n\n        - (i) an injunction to restrain the person, licensee, or accreditation holder from continuing the breach, or\n\n        - (ii) other appropriate order to enforce compliance with this Act,\n\n    - (d) propose amendments to the licence or accreditation in accordance with this Act or Regulations\n\n    - (e) suspend or terminate the licence or accreditation in accordance with this Act, or\n\n    - (f) impose  administrative  penalties  in  accordance  with  the  second schedule of the Act\n\n    - (g) or take any other action that it considers appropriate and that is not contrary to this Act.\n\n    - Nothing  shall  prevent  the  Authority  from  pursuing  only  criminal enforcement  actions  under  subsection  (1)  or  only  administration enforcement  actions  under  subsection  (2),  or  a  combination  of both.'.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "section-59b-inserted",
+      "section": 24,
+      "title": "Section 59B inserted",
+      "plainLanguage": "This provision empowers the Authority to investigate and prosecute cybercrimes, including those under the Electronic Transactions Act. It enables the Authority to confiscate assets gained from cybercrimes and to freeze property during investigations, subject to court approval. This aims to combat cybercrime by allowing for both criminal prosecution and civil recovery of ill-gotten gains.",
+      "rawText": "- The principal enactment is amended by the insertion after section 59A, of\n\n' Power to conduct investigations and to prosecute cybercrime '\n\n59B. (1) The Authority shall upon the occurrence of a  cybersecurity incident or a cybercrime conduct criminal investigations and prosecute same.'\n\n  - The Authority shall have the jurisdiction to prosecute all offences under the Electronic Transactions Act, 2008 (Act 772).\n\n- Where a person is convicted of a cybercrime under this Act, the Authority may apply to the Court for an order to confiscate moneys, proceeds, benefits, properties and assets purchased by a person with proceeds derived from or in the commission of the cybercrime.\n\n- Despite subsection (5), nothing shall prevent the Authority from instituting a  civil  action  independently  or  at the  same  time  as  the  prosecution  to  recover  moneys, proceeds, benefits, properties and assets purchased by a person with proceeds derived from or in the commission of the cybercrime.\n\n- In relation to subsection (6) if criminal prosecution fails, civil asset recovery should still  proceed,  and  confiscation  orders  should  have  the  effect  of  a  civil  judgment appealable from the High Court to the Court of Appeal.'.\n\n- Where  the  Authority  considers  that  freezing  of  property  is  necessary  to facilitate an investigation or prosecution, the Authority shall in writing direct the freezing of:\n\n    - (a) the property of a person or entity  being investigated; or\n\n    - (b) specified property held by a person or entity other than the person or entity being investigated or prosecuted.\n\n- The Authority shall within 14 days after the freezing of the property apply to the Court for a confirmation of the freezing.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "section-59c-inserted",
+      "section": 25,
+      "title": "Section 59C inserted",
+      "plainLanguage": "This provision empowers the Authority to request information from relevant parties during investigations into potential violations. If someone is legally restricted from sharing information, the Authority must seek a court order. Failure to comply with an information request can result in fines or imprisonment.",
+      "rawText": "- The principal enactment is amended by the insertion after section 59B, of\n\n## 'Power to request for information\n\n- 59C. (1) The  Authority  may,  for  the  purposes  of  carrying  out  an  investigation  in respect of a contravention of the Act, Regulations or any other relevant enactment by the owner of a critical information infrastructure, a licensee, a service provider or any other person, by notice in writing, require a person to:\n\n  - (a) attend at a time and place specified in the notice; and\n\n  - (b) furnish the Authority with information related to a matter relevant to the investigation.\n\n- A notice under subsection (1) shall indicate the subject matter and purpose of the request.'.\n\n- Where a person required to furnish the Authority with an information is under an obligation not to disclose, or asserts a right not to disclose, the Authority shall apply to the High Court for an order for the production of the information.\n\n  - Where  an  information  is  furnished  to  the  Authority,  the  Authority  shall make  copies  or  extract  from  the  Information  and  request  the  person\n\n(5) A person who appears before the Authority may be represented by a Counsel of the choice of that person at any stage of the process.\n\n- Except as provided in subsection (2) where a person contravenes subsection (1) (a) and (b), that person commits an offence and is liable on summary conviction to a fine of not less than two hundred and fifty penalty units and not more than ten thousand penalty units or to a term of imprisonment of not less than one year and not more than two years or to both.'.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "section-59d-inserted",
+      "section": 26,
+      "title": "Section 59D inserted",
+      "plainLanguage": "This provision allows investigative officers to apply for a court order to collect specific computer data needed for criminal investigations. To obtain the order, officers must demonstrate a reasonable belief that the data is relevant to the investigation and explain the type of data sought, related offenses, and measures to protect the privacy of uninvolved parties. This process aims to balance law enforcement needs with individual privacy rights.",
+      "rawText": "- The principal enactment is amended by the insertion after section 59C, of\n\n## ' Application for Production Order to Collect Computer Data\n\n- 59D. (1) An  investigative  officer  may  apply ex-parte to  the  High  Court  for  a production order to collect computer data.\n\n- A production order under section (1) shall require a person in possession or control of a computer or computer system to submit specified computer data which is stored in the computer or computer system to the investigative officer.\n\n- An investigative officer who makes an application under section (1) shall demonstrate to the satisfaction of the Court that there are reasonable grounds to believe that  the  computer  data  is  reasonably  required  for  the  purposes  of  a  specific  criminal investigation.\n\n- Where an investigative officer makes an application under section (1), that investigative officer shall:\n\n  - (a) explain why the investigative officer believes the computer data sought, will be available to the person in control of the computer or computer system;\n\n  - (b) identify and explain with specificity the type of computer data suspected to be found on the computer or computer system;\n\n  - (c) identify and explain with specificity the computer data that may be found on a  computer or computer system that is the subject of an investigation or prosecution;\n\n  - (d) identify  and  explain  with  specificity  the  offences  in  respect  of  which  the production order is sought; and\n\n  - (e) indicate what measures shall be taken to ensure that the computer data will be procured\n\n    - (ii) without the disclosure of the computer data of any party not part of the investigation.'.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "section-59e-inserted",
+      "section": 27,
+      "title": "Section 59E inserted",
+      "plainLanguage": "This section allows the High Court to order service providers to hand over computer data if it's needed for a criminal investigation. The court will only grant the order if the request is reasonable, protects privacy, and is crucial to the investigation. Service providers must keep the order secret.",
+      "rawText": "- The principal enactment is amended by the insertion after section 59D, of\n\n## 'Grant of production order\n\n59E. (1) The High Court may  grant an application for a production order under   subsection (1) of section 59D, if the Court is satisfied that\n\n  - (a) the investigative officer has complied with subsection (3) and (4) of section 59D;\n\n  - (b) the information requested is commensurate, proportionate and necessary for the purposes of a specific criminal investigation or prosecution;\n\n  - (c) measures shall be taken to ensure that the computer data is produced whilst maintaining  the  privacy  of  other  users,  customers  and  third  parties  and without the disclosure of information and data of any party not part of the investigation; and\n\n  - (d) the  investigation  may  be  frustrated  or  seriously  prejudiced  unless  the production of the information is permitted.\n\n  - The  Court  shall  require  the  service  provider  to  keep  confidential  the production  order  and  the  execution  of  the  production  order  under  this section.\n\n  - A production order granted under this Act shall be served on a domestic service  provider,  foreign  service  provider  or  both,  or  any  other  relevant person.'.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "section-59f-inserted",
+      "section": 28,
+      "title": "Section 59F inserted",
+      "plainLanguage": "This provision allows investigative officers to obtain warrants to search computers and seize data related to criminal investigations. Individuals with knowledge of the computer systems can be compelled to assist in the execution of the warrant. The warrant's scope can extend to other computer systems if relevant data is believed to be accessible there.",
+      "rawText": "- The principal enactment is amended by the insertion after section 59E, of\n\n## ' Application for Warrant to Access, Search and Seize Computer Data, Computer or Computer System\n\n- 59F. (1)   An investigative officer may apply ex-parte to the High Court for a warrant to:\n\n  - (a) access data on a computer or computer system;\n\n  - (b) search and seize a computer or a computer system; or\n\n  - (c) make or retain a copy of computer data on a computer or computer system;\n\n  - (d) maintain the integrity of computer data on a computer or computer system;\n\n  - (e) remove  or  render  inaccessible  computer  data  on  a  computer  or  computer system\n\nthat is suspected to contain information relevant to an investigation.\n\n  - A warrant under  subsection  (1)  shall  require  a  person  who  has  knowledge about the functioning of the computer or computer system to provide the necessary information to enable an investigative officer undertake the actions required under paragraphs (a) to (e) of subsection (1).\n\n  - An investigative officer who makes an application under subsection (1) shall demonstrate to the satisfaction of the court that there are reasonable grounds to believe that the warrant is reasonably required for the purposes of a specific criminal investigation.\n\n  - A  warrant  under  subsection  (1)  shall  permit  a  law  enforcement  officer  to expeditiously extend the search for data from a computer or computer system to another computer or computer system or part of it in Ghana where the law enforcement officer has reasonable grounds to believe that the data sought is accessible from or available to that other computer or computer system or part of it in Ghana.'.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "section-59g-inserted",
+      "section": 29,
+      "title": "Section 59G inserted",
+      "plainLanguage": "This section allows the High Court to issue warrants for computer data if certain conditions are met, including that the request is necessary for a criminal investigation, respects the privacy of others, and that the investigation would be hindered without the warrant. Service providers must keep the warrant and its execution confidential.",
+      "rawText": "- The principal enactment is amended by the insertion after section 59F, of\n\n## ' Grant of warrant\n\n59G. (1) The High Court may grant an application for a warrant under subsection 1 of section 59F if the Court is satisfied that\n\n  - (a) the investigative officer has complied with subsection (3) of section 59F.\n\n  - (b) the information requested is commensurate, proportionate and necessary for the purposes of a specific criminal investigation or prosecution;\n\n  - (c) measures shall be taken to ensure that the computer data is produced whilst maintaining  the  privacy  of  other  users,  customers  and  third  parties  and without the disclosure of information and data of any party not part of the investigation; and\n\n  - (d) the  investigation  may  be  frustrated  or  seriously  prejudiced  unless  the production of the information is permitted.\n\n  - The  Court  shall  require  the  service  provider  to  keep  confidential  the warrant and the execution of the warrant under this section.\n\n  - A warrant granted under this section shall be served on a domestic service provider, foreign service provider or both, or any other relevant person.'.",
+      "relatedImpacts": [
+        "freedomOfSpeech",
+        "privacy"
+      ]
+    },
+    {
+      "id": "section-59h-inserted",
+      "section": 30,
+      "title": "Section 59H inserted",
+      "plainLanguage": "This provision allows law enforcement to ask service providers to preserve computer data while they obtain a court order. If a court order isn't obtained within 14 days, the provider no longer needs to preserve the data. Investigators can also request a court order to preserve vulnerable computer data.",
+      "rawText": "- The principal enactment is amended by the insertion after section 59G, of\n\n## ' Application for preservation order to preserve computer data\n\n- A  provider  of  wire  or  electronic  communication  services  or  a  remote computing  service  on  the  written  request  of  a  law  enforcement  agency,  shall  take  the necessary steps to preserve records and other evidence in its possession pending the issue of a Court order and shall take steps to ensure that the request by the law enforcement agency is not disclosed to third parties during the period.\n\n- Where an order from the Court is not obtained and served for fourteen days after the receipt of the written request, the wire or electronic communication services, or remote computing service provider is not under any obligation to preserve the evidence.\n\n- An investigative officer authorised by a designated officer may apply ex-parte to  the  Court  for  an  order  to  require  a  service  provider  or  any  person  in  control  of  a computer or computer system to preserve specified computer data, including traffic data that has been stored by a computer system.\n\n- An investigative officer who makes an application under subsection (1) shall demonstrate  to  the  satisfaction  of  the  Court  that  the  computer  data  is  particularly vulnerable to loss or modification.'.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "section-59i",
+      "section": 31,
+      "title": "Section 59I",
+      "plainLanguage": "This section allows the High Court to issue orders to preserve computer data relevant to criminal investigations, ensuring the data isn't lost or altered. The order is granted only if specific conditions are met, including protecting the privacy of others and demonstrating the order's necessity. These orders are valid for 90 days and can be renewed once.",
+      "rawText": "- The principal enactment is amended by the insertion after section 59H, of\n\n## ' Grant of preservation order\n\n- 59I. (1) The High Court may grant an application for a preservation order under subsection (1) of section 59F if the Court is satisfied that:\n\n  - (a) the designated officer has complied with subsection (2) of section 59H;\n\n  - (b) the  extent  of  the  preservation  order  is  commensurate,  proportionate  and necessary for the purposes of a specific criminal investigation or prosecution;\n\n  - (c) measures shall be taken to ensure that the computer data is preserved whilst maintaining  the  privacy  of  other  users,  customers  and  third  parties  and without the disclosure of information and data of any party not part of the investigation; and\n\n  - (d) the  investigation  may  be  frustrated  or  seriously  prejudiced  unless  the preservation order is permitted.\n\n  - The preservation order issued under subsection (1)\n\n  - (a) is valid for a period of ninety days, and\n\n  - (b) may be renewed for a further period of ninety days upon application to the Court.\n\n  - The  Court shall require the service provider to keep confidential a preservation order issued under this regulation.'.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "section-59j",
+      "section": 32,
+      "title": "Section 59J",
+      "plainLanguage": "This section allows designated inspectors to enter and inspect premises to ensure compliance with the Act and its regulations. Inspectors can obtain warrants or provide seven days' notice for inspections, and they have the authority to examine documents, equipment, and request information. This excludes private residences from these inspections.",
+      "rawText": "- The principal enactment is amended by the insertion after section 59I, of\n\n## 'Power of entry, inspection and audit\n\n- 59J. (1) The Authority may designate a person as an inspector to inspect premises.\n\n  - A person designated as an inspector by the Authority may\n\n  - (a) obtain a warrant to:\n\n    - (i) enter and inspect premises; and\n\n    - (ii) conduct an audit of a computer system\n\n  - (b) at any reasonable time, enter  inspect premises and conduct and audit of a computer system without a warrant where the inspector\n\n    - (i) reasonably believes that an inspection of the premises is necessary to ensure compliance by the owner of a critical information infrastructure, a licensee or a service provider or any other relevant person with the Act or Regulations; and\n\n    - (ii) has given the occupier of the premises seven days' notice in writing of the intention to enter, inspect the premises and conduct an audit of a computer system.\n\n  - An inspector shall, before exercising a power of entry and inspection,\n\n  - (a) produce evidence of the identity of the inspector; and\n\n  - (b) indicate the purpose of entry and inspection.\n\n  - An inspector may\n\n  - (a) enter a premises;\n\n  - (b) inspect the premises;\n\n  - (c) inspect a document or equipment found on the premises;\n\n  - (d) require a person on the premises to provide any information, or produce any document  in  the  possession  or  control  of  that  person  that  the  inspector considers relevant to ensure compliance with the Act and Regulation and\n\n  - (e) require any person on the premises to provide information in respect of a document or the location of a document.\n\n- For  the  purpose  of  this  regulation,  'premises'  does  not  include  domestic premises.'.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "section-59k-inserted",
+      "section": 33,
+      "title": "Section 59K inserted",
+      "plainLanguage": "This provision protects witnesses and informants who report cybercrimes or administrative infractions by keeping their identity secret unless they consent to its release. The Authority is required to protect the safety and welfare of these individuals and their families. Information provided by the witness is considered privileged and cannot be disclosed in legal proceedings.",
+      "rawText": "- The principal enactment is amended by the insertion after section 59J, of\n\n## 'Witness and Informant Protection\n\n59K. (1) Except with the  written,  informed,  explicit  and  freely  given  consent of  a witness  or  informant,  no  witness  or  informant  who  discloses  information  relating  to cybercrime under this Act or administrative infractions under this Act, shall be obliged to disclose  his   name  or  address  or  other personal  information, or state any matter which might lead to their discovery.\n\n(2) Unless otherwise provided, the information and the identity of the witness or informant shall be held to be secret between the Authority and the witness or informer; and all matters relating to such information should be privileged and shall not be disclosed in any proceedings before any court, tribunal, commission, or authority.\n\n- The Authority take all necessary and reasonable steps to protect the safety and welfare of a witness or informant, and such the protection shall extend to persons by virtue of being related to a witness or informant, or on account of a testimony given by a witness  or  informer,  or  for  any  other  reason  upon  which  the  Authority  may  consider sufficient.'.",
+      "relatedImpacts": [
+        "freedomOfSpeech",
+        "privacy"
+      ]
+    },
+    {
+      "id": "section-67-of-act-1038-amended",
+      "section": 34,
+      "title": "Section 67 of Act 1038 amended",
+      "plainLanguage": "This provision broadens the scope of Section 67 from online sexual offenses to general cybercrime. It also modifies the penalties for violating the section, setting a minimum prison term of three years and a maximum of ten, along with a fine between 250 and 25,000 penalty units, or both.",
+      "rawText": "- The principal enactment is amended by:\n\n- (a) the  substitution  for  the  heading  before  section  67  'Other  Online  Sexual Offences, of\n\n'Other cybercrime'.\n\n  - (b) the substitution for subsection (2) of section 67, of\n\n- '(2) A person who contravenes subsection (1) commits an offence and is liable on summary conviction to a term of imprisonment of not less than three years and not more than ten years or a fine of not less than two hundred and fifty penalty units and not more than twenty-five thousand penalty units or to both.'.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "section-67a-inserted",
+      "section": 35,
+      "title": "Section 67A inserted",
+      "plainLanguage": "This provision makes cyberbullying and online harassment illegal, outlining specific actions like sending threats, creating fake profiles to harass someone, or tracking a person's location without their consent. It also requires online platforms to protect children from online abuse. Violators could face fines and jail time.",
+      "rawText": "- The principal enactment is amended by the insertion after section 67, of\n\n## ' Cyberbullying and online harassment\n\n  - 67A. (1) A person shall not use the internet or any form of electronic medium or technology to bully a child or an adult.\n\n    - A person shall not use a computer or any other electronic medium to\n\n    - (a) send a threatening message or a lewd message to a child;\n\n    - (b) make sexual advances towards a child; or\n\n    - (c) persistently make contact with\n\n        - (i) a child, whether or not the contact is acceptable; or\n\n        - (ii) another person where the contact is unacceptable.\n\n  - A person shall not create a false identity online or a fake social media profile for the purposes of following\n\n    - (a) a child, whether or not the contact is acceptable; or\n\n    - (b) an adult, where the contact is unacceptable.\n\n  - A  person  shall  not  use  any  online  computer  service  or  any  other electronic device to:\n\n    - (a) track the location of a child;\n\n    - (b) monitor the real-world activities of a child;\n\n    - (c) track  the  location  of  another  person  without  the  consent  of  that person;\n\n    - (e) obsessively track the location of\n\n        - (i) a child; or\n\n        - (ii) another person without the consent of that person.\n\n  - Despite  subsection  (4),  a  parent  or  legal  guardian  may  for  the purposes of ensuring the safety of a child, track the location of the child, or monitor the real-world activities of the child.\n\n    - A person shall not use an electronic device or medium to send\n\n    - (a) an unwanted,\n\n    - (b) an unsolicited,\n\n    - (c) a frightening,\n\n    - (d) an obscene,\n\n    - (e) a harassing, or\n\n    - (f) a  threatening  electronic  mail,  text  message  or  instant message  to  a child or an adult.\n\n    - A service provider of a user-to-user service including\n\n    - (a) a chatroom,\n\n    - (b) a social network site,\n\n    - (c) an online gaming platform, or\n\n    - (d) a virtual, augmented and mixed reality shall protect a child from all forms of online violence and cyberbullying from users of the userto-user service.\n\n    - A person shall not use an electronic device or an electronic medium to deliberately spread false or misleading information with the intent to deceive or manipulate a person or a fact.\n\n    - A person who contravenes subsections (1), (2), (3), (4) or (6) commits an offence and is liable on summary conviction to a fine of not less than two thousand, five hundred penalty units and not more than five thousand penalty units or to a term of imprisonment of not less than one year and not more than three years or to both.\n\n    - For  the  purpose  of  this  Act,  'cyberbullying'  includes  any  digital communication and any other activity which strips the recipient of the dignity of the recipient, or causes fear or physical or emotional harm such as\n\n        - (a) repeatedly sending offensive, rude and insulting messages to a person;\n\n        - (b) distributing derogatory information about a child or any other person;\n\n        - (c) posting or sending offensive photos of a child or any other person, whether or not the photos\n\n- (i) have been digitally altered, or\n\n- (ii) were  taken  with  the  consent  of  the  victim,  with  the intention to humiliate or embarrass the victim;\n\n        - (d) breaking  into  an  electronic  mail,  social  networking  or  any electronic account and using the virtual identity of a victim to send, upload or distribute embarrassing materials to or about others;\n\n        - (e) sharing  sensitive  personal  information  or  any  embarrassing information,  or  tricking  a  child  or  any  person  to  reveal personal or embarrassing information about that child or any other  person  and  sharing  the  information  obtained  with others;\n\n        - (f) repeatedly sending threatening or intimidating messages with threats of harm, or engaging in online activities that cause fear in a child or puts any other person in fear;\n\n        - (g) sending  messages  to  another  person  telling  the  person  to commit suicide;\n\n        - (h) sending grossly offensive, indecent or obscene communication  with  the  intention  of  causing  emotional distress to a child or any other person; or\n\n        - (i) sending electronic messages that denigrate a child or any other person on the basis of\n\n- (i) colour;\n\n          - (iii) ethnic or national origins;\n\n          - (iv) religion;\n\n          - (v) gender; or\n\n          - (vi) disability.'.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "section-67b-inserted",
+      "section": 36,
+      "title": "Section 67B inserted",
+      "plainLanguage": "This provision makes cyberstalking a crime. It prohibits using the internet to harass, stalk, or spread false information about someone. Violators could face jail time, a fine, or both.",
+      "rawText": "- The principal enactment is amended by the insertion after section 67A, of\n\n## ' Cyberstalking of a person\n\n- ' 67B. (1)   In  furtherance of section 65 of the Act, a person shall not use the internet,  chatroom,  a  social  network  site,  an  online  gaming  platform,  or  a  virtual, augmented and mixed reality to\n\n- (a)   harass or stalk a person;\n\n- (b)   assume a false identity to anonymously harass or stalk a person;\n\n- (c)   create false information about a person; or\n\n- (d)   post or disseminate false information about a person.\n\n- A person who contravenes subsection (1) commits an offence and is liable on summary conviction to a term of imprisonment of not less than one year and not more than ten years or a fine of less than one  hundred penalty units and not more than ten thousand penalty units or to both.'.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "section-68-of-act-1038-amended",
+      "section": 37,
+      "title": "Section 68 of Act 1038 amended",
+      "plainLanguage": "This amendment changes the penalties for violating subsection (1) of section 68. Individuals convicted of this offense could face imprisonment between 3 and 10 years, a fine between 250 and 25,000 penalty units, or both. This applies upon a summary conviction.",
+      "rawText": "- The principal enactment is amended in section 68 by substitution for subsection (2), of\n\n- '(2) A person who contravenes subsection (1) commits an offence and is liable on summary conviction to a term of imprisonment of not less than three years and not more than ten years or a fine of less than two hundred and fifty penalty units and not more than twenty-five thousand penalty units or to both.'.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "section-83-of-act-1038-amended",
+      "section": 38,
+      "title": "Section 83 of Act 1038 amended",
+      "plainLanguage": "This section modifies the law to allow authorities to request information about domain name registration and to expedite the disclosure of stored computer data from service providers in emergencies. An emergency is defined as a situation where there's an immediate risk to someone's life or safety. These changes aim to facilitate quicker access to information in critical situations.",
+      "rawText": "- The principal enactment is amended in section 83 by:\n\n- (a) the substitution for paragraph (e) of subsection (4), of\n\n  - '(e) requesting for information regarding domain name registration;'.\n\n- (b) the addition after paragraph (e) of subsection (4), of\n\n  - '(f) expedited disclosure of specified stored computer data in a service provider's possession  or  control  in  an  emergency  situation  without  a  request  for  mutual assistance;'.\n\n- (c) the addition after paragraph (f) of subsection (4), of\n\n  - '(g) any other matter related to paragraphs (a) to (f).'.\n\n- (d) the addition after paragraph (g) of subsection (4), of\n\n- '(5) For the purpose of this section an emergency means, a situation in which there is a significant and imminent risk to the life or safety of any natural person.'.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "section-90-of-act-1038-amended",
+      "section": 39,
+      "title": "Section 90 of Act 1038 amended",
+      "plainLanguage": "This change gives the Circuit Court the authority to hear cases involving offenses listed in sections 62 to 68A of the act. This clarifies that the Circuit Court has jurisdiction over these specific offenses, regardless of any other conflicting rules. This ensures that these cases can be tried in the Circuit Court.",
+      "rawText": "- The principal enactment is amended in section 90 by the addition after subsection (2), of\n\n- '(3) Despite  section  90(1)  and  section  90A,  the  Circuit  Court  shall  have  the jurisdiction to try an offence under sections 62 to 68A of this Act.'.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "section-91-of-act-1038-amended",
+      "section": 40,
+      "title": "Section 91 of Act 1038 amended",
+      "plainLanguage": "This amendment expands the scope of Section 91 to address various aspects of cybersecurity. It includes the designation and accreditation of cybersecurity entities, the protection of children online, and the regulation of cybersecurity service providers and professionals. These changes aim to strengthen the nation's overall cybersecurity posture.",
+      "rawText": "- The principal enactment is amended in section 91 by the addition after paragraph (h), of\n\n  - '(i) the designation of Sectoral Computer Emergency Response Team;\n\n  - (j) the accreditation of Sectoral Computer Emergency Response Team;\n\n  - (k) the accreditation of cybersecurity establishments;\n\n  - (l) the accreditation of non-profit cybersecurity institution;\n\n  - (m) the protection of children;\n\n  - (n) safeguarding the development and deployment of innovative and emerging technologies or solutions;\n\n  - (o) licensing of cyber security service providers;\n\n  - (p) accreditation of cybersecurity professionals and practitioners;\n\n  - (p) any other matter required for ensuring the cybersecurity of the country.'.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "section-92-of-act-1038-amended",
+      "section": 41,
+      "title": "Section 92 of Act 1038 amended",
+      "plainLanguage": "This amendment broadens the Cybersecurity Authority's power to issue directives to innovators and developers, in addition to owners of critical information infrastructure and cybersecurity service providers. These directives aim to ensure cybersecurity and secure the use of new technologies. Failure to comply with these directives will result in a penalty.",
+      "rawText": "- The principal enactment is amended in section 92 by:\n\n  - (a) the substitution for subsection (1), of\n\n- '(1) the  Authority  may  issue  directives  to  an  owner  of  a  critical  information infrastructure, a cybersecurity service provider or service provider, innovators, developers for the purpose of ensuring the cybersecurity of the country.\n\n  - (b) the substitution for subsection (2), of\n\n- '(2) An  owner  of  a  critical  information  infrastructure,  cybersecurity  service provider  or  service  provider,  innovator,  developer  or  any  relevant  person  who  fails  to comply with the directives issued under this section is liable to pay to the Authority the administrative penalty specified in the Second Schedule.'.\n\n  - (c) the insertion after subsection (2), of\n\n- '(3) The  Authority  may  issue  directives  to  innovators,  developers,  service providers and cybersecurity service providers for the purpose of securing the adoption and deployment of innovative and emerging technologies or solutions.'.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "section-94-of-act-1038-amended",
+      "section": 42,
+      "title": "Section 94 of Act 1038 amended",
+      "plainLanguage": "This law makes it a crime to access private data like subscriber information or to interfere with critical computer systems. Penalties for these offenses include significant fines and jail time. Tampering with critical infrastructure is treated as unlawful access, with similar penalties.",
+      "rawText": "- The principal enactment is amended by the substitution for section 94, of\n\n- '(1) A  person  who,  without  lawful  authority  accesses  or  retrieves  subscriber information or intercepts traffic data or content data, commits an offence and is liable on summary conviction to a fine of not less than two thousand five hundred penalty units and not more than fifteen thousand penalty units or to a term of imprisonment of not less than two years and not more than five years or, to both.\n\n- An  attempt  to  gain  access  to  a  critical  information  infrastructure  or  its dependencies, successful or not, constitutes an unlawful access to the critical information infrastructure.\n\n- Any  person  who  attempts  to  secure  access  to  a  critical  information infrastructure or its dependencies, successful or not commits an offence and is liable on summary conviction to a term of imprisonment of not less than two years and not more than five years or a fine of not less than four thousand penalty units and not more than twenty-five thousand penalty units or to both.\n\n- The tampering and or destruction of critical information infrastructure or its components  which  affects  the  confidentiality,  integrity  or  availability  of  the  critical information infrastructure constitutes unlawful access to critical information infrastructure, and a person shall be subject to the same criminal penalties specified in subsection (1).'.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "section-94a-inserted",
+      "section": 43,
+      "title": "Section 94A inserted",
+      "plainLanguage": "This provision makes it a crime to intentionally alter computer data to create fake information for legal use. Those who commit this crime will face the same penalties as someone who commits traditional forgery. This aims to protect the integrity of digital information used in legal contexts.",
+      "rawText": "- The principal enactment is amended by the insertion after section 94, of\n\n## ' Computer related Forgery\n\n- 95A. (1) A person shall not intentionally and without right, input, alter, delete or  suppress  computer  data  resulting  in  inauthentic  data  with  the  intent  that  they  be considered or acted upon for legal purposes as if they were authentic, regardless of whether or not the data are directly readable and intelligible.'\n\n- A person who contravenes subsection (1) commits an offence and shall  be  deemed  to  have  committed  the  offence  of  forgery  under  Chapter  Two  of  the\n\nCriminal Offences Act, 1960 (Act 29), and shall liable on summary conviction to the same punishment for that particular kind of forgery under the law.'.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "section-94b-inserted",
+      "section": 44,
+      "title": "Section 94B inserted",
+      "plainLanguage": "This provision makes it illegal to intentionally use computers to cause someone to lose property through data manipulation, system interference, or deception. Violators will be prosecuted under the same laws as those who commit fraud by false pretense. This aims to protect individuals and organizations from financial harm caused by computer-related crimes.",
+      "rawText": "- The principal enactment is amended by the insertion after section 94A, of\n\n## 'Computer related Fraud\n\n- 95B. (1) A person shall not intentionally and without right, cause the loss of property to another person by means of:\n\n    - (a) Any input, alteration, deletion or suppression of computer data;\n\n    - (b) Any interference with the functioning of a computer system;\n\n- (c) Any deception as to factual circumstances made through a computer system that causes a person to do or omit to do anything which that person would not otherwise do or omit to do; with the fraudulent or dishonest intent of procuring for oneself or for another person, without right, a gain in money or other property.\n\n- A person who contravenes subsection (1) commits an offence and shall  be  deemed  to  have  committed  the offence  of  defrauding  by  false  pretence  under section  131  of  the  Criminal  Offences  Act,  1960  (Act  29),  and  shall  liable  on  summary conviction to the same punishment for defrauding by false pretence under that law.'.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "section-97-of-act-1038-amended",
+      "section": 45,
+      "title": "Section 97 of Act 1038 amended",
+      "plainLanguage": "This section updates the definitions of several key terms related to technology and law enforcement within the principal enactment. These updated definitions clarify the scope and meaning of terms like \"Artificial Intelligence,\" \"blockchain,\" \"digital services,\" and \"law enforcement agency,\" ensuring the law remains relevant in the face of technological advancements. The changes provide a more precise understanding of these terms for legal and practical applications.",
+      "rawText": "- The principal enactment is amended in section 97 by:\n\n- (a) the insertion before 'Authority', of\n\n'Artificial  Intelligence  is  technology  that  enables  computers  and  machines  to simulate human learning, comprehension, problem solving, decision-making, creativity and autonomy;';\n\n'block-chain based technology' means an advanced decentralised digital record or digital ledger of transactions, that enables recording of transactions, tracking of assets, and sharing of records across computer networks in a transparent and immutable way;'.\n\n'big data' means a collection of extremely large organized, semi-structured, and unstructured information that grows exponentially over time;';\n\n- (b)\n\n  - the insertion after 'child', of 'cloud technology' means technology that delivers computing services and offers on-demand access to computing resources such as physical or virtual services, data storage, servers, databases, networking, intelligence, analytics, and software over the\n\ninternet;';\n\n- (c) the insertion after 'cloud technology', of\n\n'confiscation', which includes forfeiture where applicable, shall mean  the permanent  deprivation  of  property  by  order  of  a  court  or  other  competent authority;';\n\n## (d) the insertion after 'digital ecosystem' of\n\n'digital services' means services delivered electronically whether traditionally or by internet, with minimal physical interaction, and includes:\n\n  - (a) social media platforms;\n\n  - (b) e-commerce platforms;\n\n  - (c) video-on-demand or streaming platforms;\n\n  - (d) messaging applications,\n\n  - (e) fintech software platforms;\n\n  - (f) online banking platforms;\n\n## (e) the insertion after 'Director-General', of\n\n'Emergency' shall mean a situation in which there is a significant and imminent risk to the life or safety of any natural person;';\n\n## (f) the insertion after 'e-services', of\n\n'Freezing'  or  'seizure'  mean  temporarily  prohibiting  the  transfer,  conversion, disposition or movement of property or temporarily assuming custody or control of  property  on  the  basis  of  an  order  issued  by  a  court  or  other  competent authority;';\n\n## (g) the insertion after 'interception of warrant', of\n\n'Internet of Things (IoT) means a network of interrelated physical devices, vehicles, appliances and other physical objects that connect and exchange data with other devices and the cloud across wireless networks, and are typically embedded with sensors,  processing  ability  and  software  and  can  include  mechanical  and  digital machines and consumer objects;';\n\n## (h) the substitution for 'computer system', of\n\n'computer  system'  means  an  arrangement  of  interconnected  computers  that  is designed to perform one or more specific functions, and includes\n\n  - (a) an information processing system;\n\n  - (b) an operational technology system, a programmable logic controller, a supervisory control and data acquisition system, or a distributed control system; and\n\n  - (c) dependency systems that support the functionality of a computer or computer network;';\n\n- (i) the substitution for 'law enforcement agency', of\n\n'law enforcement agency' means\n\n  - (a) The Police\n\n  - (b) The Customs Division of the Ghana Revenue Authority and\n\n  - (c) Cyber Security Authority\n\n  - (d) Any other agency authorised by law to exercise the powers of the Police\n\n- (j)\n\n  - the insertion after 'prohibited intimate image and visual recording', of\n\n'property'  means  assets  of  every  kind,  in  the  country  or  elsewhere  whether corporeal or incorporeal, movable or immovable, tangible or intangible, including virtual assets, and legal documents or instruments evidencing title to, or interest in, such property assets;';\n\n- (k) the insertion after 'property', of\n\n'property of or in the possession or control of a person' includes a gift made by that person;\n\n- (l) the insertion after 'publish', of\n\n'quantum computing' means technology that solves complex problems based on principles of quantum mechanics;'.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "section-98-of-act-1058-amended",
+      "section": 46,
+      "title": "Section 98 of Act 1058 amended",
+      "plainLanguage": "This provision repeals specific sections of the Electronic Transaction Act of 2008. However, any existing regulations or actions taken under those repealed sections will remain in effect. This ensures a smooth transition and avoids disruption of ongoing processes.",
+      "rawText": "- The principal enactment is amended  by substitution for section 98, of\n\n## ' Repeals and savings\n\n  - Sections 118 and 136 of the Electronic Transaction Act, 2008 (Act 772) are repealed.\n\n  - Sections 35 to 40 this Act repeals sections 55 to 62 of the Electronic Transaction Act, 2008 (Act 772).\n\n  - Despite  the  repeal  of  sections,  any  Regulations,  bye-laws,  directives, notices, orders, directions, appointments or other acts lawfully made or done under the repealed enactment and in force immediately before the",
+      "relatedImpacts": []
+    },
+    {
+      "id": "section-99-of-act-1038-amended",
+      "section": 47,
+      "title": "Section 99 of Act 1038 amended",
+      "plainLanguage": "This amendment makes it easier to extradite people accused of cybercrimes between Ghana and countries that have signed the Budapest Convention on Cybercrime. Even if Ghana doesn't have a specific extradition agreement with another country, it can still extradite cybercriminals based on the rules of the Convention. This helps Ghana work with other countries to fight cybercrime.",
+      "rawText": "- The Extradition Act, 1960 (Act 22) is amended by:\n\n- (a) the addition after subsection (3) of section, of\n\n'(4) Despite  subsection  (1),  for  the  purposes  of  extradition,  Cybercrime  and Cyber  Offences  under  the  First  Schedule  to  this  Act,  in  the  absence  of  a  separate arrangement, bilateral or multilateral agreement between Ghana and another signatory of the Budapest Convention on Cybercrime or any other convention, extradition of fugitive criminals  may  still  take  place  between  Ghana  and  another  signatory  of  the  Budapest Convention  on  Cybercrime  or  any  other  convention  and  shall  be  governed  by  the provisions of the said convention.'.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "second-schedule-to-act-1038-amended",
+      "section": 49,
+      "title": "Second schedule to Act 1038 amended",
+      "plainLanguage": "This provision modifies the penalties for offenses related to critical information infrastructure. It introduces fines for failing to register infrastructure, report ownership changes, or comply with cybersecurity directives. The penalties range from five thousand to fifty thousand penalty units, depending on the violation.",
+      "rawText": "49. The principal enactment is amended by substitution for administrative penalties for sections 36(4), 39(2)(a), 39(2)(b), 39(2)(c) and 92(2) and addition of administrative penalties for sections 36(1) and 39(3)(c).\n\n| No. | Sections of Act creating contravention | Contravention | Administrative Penalty |\n| --- | --- | --- | --- |\n| 1. | 36(1) | The Owner of the designated critical information infrastructure shall register their critical information infrastructure with the Authority, and shall pay the prescribed annual registration and designation fee as determined by the Authority or stipulated in a legislative instrument. | Not less than five thousand penalty units, not more than fifty thousand penalty units. |\n| 2. | 36(4) | Owner of a registered critical information infrastructure failing to inform the Authority within seven days of the change in legal ownership of the registered critical | Not less than five thousand penalty units, not more than |\n\n|  |  | information infrastructure. | fifty thousand penalty units. |\n| --- | --- | --- | --- |\n| 3. | 39(2)(a) | Owner of a critical information infrastructure failing to report a cybersecurity incident. | Not less than ten thousand penalty units, not more than fifty thousand penalty units. |\n| 4. | 39(2)(b) | Owner of a critical information infrastructure failing to cause an audit to be performed on the critical information infrastructure. | Not less than five thousand penalty units, not more than twenty thousand penalty units. |\n| 5. | 39(3)(c) | Owner of a critical information infrastructure failing to submit a copy of the audit report to the Authority. | Not less than five thousand penalty units, not more than twenty thousand penalty units. |\n| 6. | 92(2) | Owner of a critical information infrastructure, a cybersecurity service provider or a provider of a digital service failing to comply with a directive issued by the Authority. | Not less than ten thousand penalty units, not more than fifty thousand penalty units |",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "third-schedule-to-act-1038-amended",
+      "section": 50,
+      "title": "Third schedule to Act 1038 amended",
+      "plainLanguage": "This provision adds the \"Official Oath\" to the list of oaths required by Act 1038. The Official Oath is a pledge to serve Ghana faithfully and to protect the country's constitution. This oath is taken by individuals holding public office in Ghana.",
+      "rawText": "## 50.   The principal enactment is amended by addition after the 'Oath of Secrecy', of\n\n## The Official Oath (section 5)\n\nI,\n\n……………………………………………………………..……………………………\n\ndo (in the name of the Almighty God swear) (solemnly affirm) that I will at all times well and truly serve the Republic of Ghana in the office of …….and that I will uphold, preserve, protect and defend the constitution of the Republic of Ghana as by law established (so help me God).",
+      "relatedImpacts": []
+    }
+  ],
+  "notebookLMVideo": {
+    "url": "",
+    "duration": "10:00"
+  },
+  "deadline": "2025-12-31",
+  "submissionMethod": "Email to clerk@parliament.gov.gh",
+  "relatedBills": []
+}

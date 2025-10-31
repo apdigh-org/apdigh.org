@@ -1,0 +1,568 @@
+{
+  "id": "2-emerging-technologies-bill",
+  "title": "Emerging Technologies Bill",
+  "summary": "The Emerging Technologies Bill establishes a new regulatory Agency to oversee the development and deployment of artificial intelligence, blockchain, cloud computing, and other emerging technologies in Ghana. The Agency operates under a Board comprising government representatives, industry stakeholders, and presidential appointees, with funding from Parliament, grants, and self-generated revenue. The Agency's mandate includes promoting technology adoption, supporting research and development, creating ethical guidelines, and ensuring these technologies advance economic growth while protecting human rights.\n\nThe bill imposes comprehensive compliance requirements on technology developers and users. **Key obligations include**: implementing transparency and oversight mechanisms, conducting risk and impact assessments, ensuring systems can identify AI-generated content, obtaining explicit consumer consent before deployment, maintaining robust cybersecurity protections, and providing human oversight for decisions affecting healthcare, law enforcement, employment, and elections. The bill prohibits using emerging technologies to undermine democratic processes, spread misinformation, or discriminate based on personal characteristics. All systems handling personal data must comply with Ghana's Data Protection Act. **Environmental safeguards** require developers to minimize energy consumption, carbon emissions, and electronic waste, though specific standards are not defined.\n\n**Significant concerns** arise from the governance structure and enforcement provisions. The Minister holds directive authority over the Board, creating potential for political influence over technology regulation. The Agency possesses broad powers to create rules, resolve disputes, and make adjudicative decisions without clearly defined limits or appeal processes. Multiple regulatory bodies share enforcement responsibilities, which may create jurisdictional confusion and inconsistent application. **Penalties range from 1,000 to 5,000 penalty units** for violations, but the bill does not specify which violations warrant which penalty levels. The human oversight requirement for high-impact automated decisions, while protecting rights, may create practical implementation challenges for businesses operating AI systems at scale.\n\nFor Ghana's digital economy, this bill creates both opportunities and compliance burdens. It provides legal clarity for intellectual property rights in emerging technologies and establishes a framework for responsible innovation. However, businesses face substantial regulatory obligations including mandatory risk assessments, transparency requirements, consumer consent protocols, and human oversight systems. International technology companies entering Ghana's market must adapt their systems to meet these requirements, potentially affecting the speed and cost of technology deployment. The bill's success depends heavily on how the Agency exercises its broad discretionary powers and whether enforcement remains consistent, predictable, and free from political interference.",
+  "pdfPath": "pdfs/2. Emerging Technologies Bill.pdf",
+  "impacts": {
+    "innovation": {
+      "score": "medium-positive",
+      "description": {
+        "score": "medium-positive",
+        "analysis": "The Emerging Technologies Bill creates a mixed but cautiously favorable environment for digital innovation in Ghana. The establishment of a dedicated Agency with explicit mandates to advance technology adoption, promote research and development, build digital infrastructure, and create investment-ready conditions represents a significant governmental commitment to fostering innovation. The bill's comprehensive approach to skills development—particularly targeting underserved communities and youth—addresses critical human capital needs for a thriving digital innovation ecosystem. The intellectual property protections provide essential legal certainty for developers and innovators, while the Agency's functions to facilitate data access, promote cross-border technology transfer, and accelerate adoption in key economic sectors create enabling conditions for innovation to flourish.\n\nHowever, the bill simultaneously imposes substantial regulatory burdens that could constrain innovation velocity and increase barriers to entry. The Agency's broad discretionary powers to issue regulations and make determinations \"as it finds just and equitable\" creates regulatory uncertainty that may deter risk-averse investors and innovators. The prohibition on misinformation and disinformation, while addressing legitimate concerns, lacks definitional clarity and could be interpreted to restrict legitimate experimentation with AI-generated content and automated systems. The extensive compliance requirements—including mandatory risk assessments, transparency mechanisms, consumer consent protocols, and human oversight for automated decisions—create operational complexity and costs that disproportionately affect startups and smaller innovators who lack dedicated compliance resources.\n\nThe net impact on digital innovation is moderately positive but contingent on implementation. If the Agency exercises its powers to facilitate rather than restrict innovation, provides clear guidance on compliance requirements, and maintains predictable enforcement, the bill could catalyze significant growth in Ghana's digital economy. The success depends on whether the promotional objectives outlined in the Agency's functions outweigh the constraining effects of regulatory compliance burdens, and whether the governance structure—with ministerial oversight and broad Agency discretion—maintains the stable, predictable environment that innovation ecosystems require. For international technology companies and local startups alike, the bill creates both opportunities for market entry with governmental support and risks of regulatory overreach that could slow innovation cycles."
+      },
+      "relatedProvisions": [
+        "object-of-the-agency",
+        "functions-of-the-agency",
+        "powers-of-the-agency",
+        "governance-of-the-governing-body-of-the-agency",
+        "functions-of-the-board",
+        "tenure-of-office-of-members",
+        "disclosure-of-interest",
+        "ministerial-directives",
+        "divisions-of-the-agency",
+        "appointment-of-chief-executive-officer",
+        "integrity-of-democratic-processes-and-the-rule-of-law",
+        "discrimination-and-bias",
+        "transparency-and-oversight",
+        "personal-data-protection",
+        "consumer-protection",
+        "accountability-and-responsibility",
+        "reliability",
+        "risk-and-impact-management",
+        "human-oversights",
+        "misinformation-and-disinformation",
+        "security",
+        "environmental-safeguards",
+        "intellectual-property",
+        "right-to-redress",
+        "enforcement",
+        "regulations",
+        "interpretation"
+      ]
+    },
+    "freedomOfSpeech": {
+      "score": "high-negative",
+      "description": {
+        "score": "high-negative",
+        "analysis": "The Emerging Technologies Bill poses significant threats to freedom of speech in Ghana through its prohibition on \"false information\" and \"misinformation and disinformation\" spread by emerging technology systems. While combating AI-generated deepfakes and synthetic media manipulation represents a legitimate regulatory concern, the provision's sweeping language creates dangerous ambiguity that could chill legitimate expression. The bill fails to define what constitutes \"false information,\" \"misinformation,\" or \"disinformation,\" leaving these determinations to an Agency subject to ministerial direction. This vagueness is particularly problematic for political speech, investigative journalism, satire, and contested factual claims where truth is often disputed or context-dependent. Technology platforms, developers, and users face potential penalties of 1,000-5,000 penalty units without clear guidance on what content crosses the line, creating strong incentives for over-censorship to avoid liability.\n\nThe governance structure amplifies these free speech concerns. The Minister's directive authority over the Board, combined with the Agency's broad enforcement discretion and adjudicative powers, creates pathways for politically-motivated content suppression. The bill provides no procedural safeguards such as judicial pre-approval for content restrictions, clear appeal processes, or requirements that enforcement target only the most egregious harms. International human rights standards recognize that restrictions on false information must be narrowly tailored, clearly defined, and subject to independent oversight—requirements this bill does not meet. Technology companies operating in Ghana may implement aggressive content filtering to comply, potentially removing legitimate speech alongside genuinely harmful content.\n\nThe practical impact extends beyond direct censorship to create a chilling effect on innovation and expression. Developers of AI systems, social media platforms, and communication tools must now assess whether their technologies might spread content the Agency deems false, creating liability risks that may discourage investment in Ghana's digital economy. Citizens using these technologies for political organizing, journalism, or public debate face uncertainty about whether their speech could trigger enforcement action. While the bill's intent to prevent technology-enabled manipulation of democratic processes is laudable, its execution sacrifices fundamental free expression protections. Without substantial amendments to narrow the provision's scope, establish clear definitions, and create independent oversight mechanisms, this bill represents a significant regression for freedom of speech in Ghana's digital sphere."
+      },
+      "relatedProvisions": [
+        "powers-of-the-agency",
+        "functions-of-the-board",
+        "disclosure-of-interest",
+        "ministerial-directives",
+        "integrity-of-democratic-processes-and-the-rule-of-law",
+        "transparency-and-oversight",
+        "accountability-and-responsibility",
+        "risk-and-impact-management",
+        "misinformation-and-disinformation",
+        "right-to-redress",
+        "regulations"
+      ]
+    },
+    "business": {
+      "score": "high-negative",
+      "description": {
+        "score": "high-negative",
+        "analysis": "The Emerging Technologies Bill creates a paradoxical business environment that simultaneously promises support while establishing potentially destabilizing regulatory uncertainty. While the Agency's mandate explicitly includes creating an \"investment-ready environment\" for private organizations, start-ups, and innovative companies, and provides valuable protections like intellectual property rights and technical support, these benefits are substantially undermined by the bill's governance structure. The Agency possesses extraordinarily broad powers to issue regulations, rules, and directives and to \"make any determination as the Agency finds just and equitable\" without clearly defined procedural limits, appeal processes, or constraints on discretion. This creates an unpredictable regulatory landscape where businesses cannot confidently forecast compliance requirements or enforcement approaches—a fundamental obstacle to investment planning and business development.\n\nThe political risk embedded in the governance structure poses a particularly serious concern for business confidence. The Minister's directive authority over the Board means technology regulation could shift with political changes or priorities, rather than following consistent, predictable policy frameworks. This political exposure, combined with the Agency's adjudicative powers and the prohibition on misinformation without clear definitional boundaries, creates compliance anxiety that may deter both domestic innovation and foreign investment. International technology companies considering Ghana's market must weigh the costs of adapting their systems to meet Ghana-specific requirements—including mandatory risk assessments, transparency mechanisms, consumer consent protocols, and human oversight systems—against the uncertainty of how these requirements will be interpreted and enforced.\n\nFor businesses already operating in Ghana's technology sector, the bill imposes substantial compliance burdens that will increase operational costs and complexity. The requirement for human oversight in high-impact automated decisions, while protecting rights, creates practical implementation challenges for companies operating AI systems at scale. The penalty structure ranging from 1,000 to 5,000 penalty units without clear violation-penalty mapping adds financial uncertainty to business planning. While the bill's provisions for promoting technology adoption across key economic sectors and facilitating data access could create market opportunities, businesses will likely adopt a cautious approach until the Agency demonstrates how it will exercise its broad discretionary powers and whether enforcement will remain consistent and free from political interference. The bill's ultimate impact on Ghana's business environment depends critically on implementation—whether the Agency prioritizes enabling innovation or becomes a source of regulatory burden and unpredictability."
+      },
+      "relatedProvisions": [
+        "object-of-the-agency",
+        "functions-of-the-agency",
+        "powers-of-the-agency",
+        "governance-of-the-governing-body-of-the-agency",
+        "functions-of-the-board",
+        "tenure-of-office-of-members",
+        "disclosure-of-interest",
+        "ministerial-directives",
+        "divisions-of-the-agency",
+        "appointment-of-chief-executive-officer",
+        "annual-report-and-other-reports",
+        "integrity-of-democratic-processes-and-the-rule-of-law",
+        "discrimination-and-bias",
+        "transparency-and-oversight",
+        "personal-data-protection",
+        "consumer-protection",
+        "accountability-and-responsibility",
+        "reliability",
+        "risk-and-impact-management",
+        "human-oversights",
+        "misinformation-and-disinformation",
+        "security",
+        "environmental-safeguards",
+        "intellectual-property",
+        "right-to-redress",
+        "enforcement",
+        "regulations",
+        "interpretation"
+      ]
+    },
+    "privacy": {
+      "score": "neutral",
+      "description": null,
+      "relatedProvisions": [
+        "functions-of-the-agency",
+        "powers-of-the-agency",
+        "governance-of-the-governing-body-of-the-agency",
+        "functions-of-the-board",
+        "disclosure-of-interest",
+        "ministerial-directives",
+        "discrimination-and-bias",
+        "transparency-and-oversight",
+        "personal-data-protection",
+        "consumer-protection",
+        "accountability-and-responsibility",
+        "reliability",
+        "risk-and-impact-management",
+        "human-oversights",
+        "misinformation-and-disinformation",
+        "security",
+        "right-to-redress",
+        "enforcement",
+        "regulations"
+      ]
+    }
+  },
+  "keyConcerns": [
+    {
+      "id": "unchecked-agency-power-without-defined-standards",
+      "title": "Unchecked Agency Power Without Defined Standards",
+      "severity": "critical",
+      "description": "The Agency can make \"any determination as the Agency finds just and equitable\" without defined criteria, procedural safeguards, or clear appeal rights. This vague standard combined with concentrated legislative, judicial, and executive powers creates regulatory unpredictability that prevents businesses from reliably planning compliance, challenging arbitrary decisions, or understanding what rules will govern their operations. The absence of defined limits enables selective enforcement and political influence over technology regulation.",
+      "relatedProvisions": [
+        "powers-of-the-agency"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "undefined-false-information-ban-enables-censorship",
+      "title": "Undefined \"False Information\" Ban Enables Censorship",
+      "severity": "critical",
+      "description": "The bill prohibits emerging technologies from spreading \"false information\" and \"misinformation\" without defining these terms or establishing objective standards. This gives the Agency unchecked discretion to determine what content is prohibited, creating arbitrary enforcement risk and forcing technology companies to over-censor legitimate speech. Political commentary, satire, and contested claims could all be classified as violations subject to penalties of up to 5,000 penalty units.",
+      "relatedProvisions": [
+        "misinformation-and-disinformation"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "unconstrained-ministerial-control-over-technology-regulation",
+      "title": "Unconstrained Ministerial Control Over Technology Regulation",
+      "severity": "high",
+      "description": "The Minister can issue policy directives to the regulatory Board without any procedural safeguards, limits on scope, publication requirements, or appeal mechanisms. This creates fundamental regulatory uncertainty for businesses, as compliance requirements and enforcement priorities can be changed by political directive at any time. Companies cannot reliably plan investments or operations when the regulatory framework can be overridden without notice, transparency, or recourse.",
+      "relatedProvisions": [
+        "ministerial-directives"
+      ],
+      "relatedImpacts": []
+    }
+  ],
+  "provisions": [
+    {
+      "id": "object-of-the-agency",
+      "section": 1,
+      "title": "Object of the Agency",
+      "plainLanguage": "The Agency aims to encourage the use of new technologies in the country, support research and development in this area, and use these technologies to improve the economy and society. It will also create rules for the ethical and safe use of these technologies, raise awareness about them, and ensure they are used in accordance with human rights.",
+      "rawText": "- The objects of the Agency are to:\n\n    - (a) advance and facilitate the adoption of emerging technology in the country;\n\n    - (b) promote research, innovation and development of emerging technology tools in the country;\n\n    - (c) deploy emerging technology to increase social and economic productivity;\n\n    - (d) provide a harmonised a body of rules on rights related to risks ethics and safety;\n\n    - (e) create awareness of emerging technology;\n\n    - (e) promote cross-border transfer of emerging-technology-based goods and services for the international development, marketing and use of  systems;\n\n    - (f) ensure  that  activities  related  to  emerging  technology  and  emerging  technology systems are consistent with human rights, democracy and the rule of law.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "functions-of-the-agency",
+      "section": 2,
+      "title": "Functions of the Agency",
+      "plainLanguage": "The Agency is responsible for advising the government and promoting the development and adoption of emerging technologies. This includes fostering education, innovation, infrastructure development, investment, and data governance, as well as ensuring ethical and safe use of these technologies across various sectors. The Agency will also work to equip people with the skills needed to participate in the digital economy and promote international cooperation in the field.",
+      "rawText": "- To achieve the objects under section 2, the Agency shall:\n\n      - (a) advise the Government and public institutions on all matters related to emerging technology in the country;\n\n      - (b) optimise emerging technology for economic development of the country;\n\n      - (c) ensure  efficiency  within  the  emerging  technology  value  chain  by  promoting research, creativity and innovation;\n\n      - (d) promote  an  emerging  technology  curriculum,  an  emerging  technology-based curriculum  and  emerging  technology  education,  particularly  through  inclusive educational  programmes,  to  expand  emerging  technology  knowledge  and  to increase the number of graduates, academics, practitioners and professionals with expertise  in  emerging  technology  and  related  disciplines  in  data  science,  data engineering, computer science, among others;\n\n      - (e) equip  people,  especially  underserved  and  unserved  communities,  with  skills  in emerging technology to promote technological agency and awareness;\n\n      - (f) empower the  youth  with  skills  and  tools  to  broaden  their  participation  in  the emerging technology value chain for, job creation opportunities, involvement in the digital economy, and the digital development of the economy;\n\n      - (g) develop  digital  infrastructure  to  build  robust  emerging  technology  systems  for affordable access for all persons;\n\n      - (h) promote the adoption of emerging technology in the public sector and for public services;\n\n      - (i) to create a conducive and investment-ready environment for private organisations, start-ups and innovative companies in the emerging technology industry;\n\n      - (j) encourage competitiveness in the development of emerging technology tools and systems;\n\n      - (k) facilitate data access, data availability and data governance across institutions for the  advancement  of  emerging  technology,  while  safeguarding  citizens'  privacy, security and rights in accordance with the Data Protection Act;\n\n      - (l) build  and  coordinate  an  emerging  technology  community  for  the  sharing  of knowledge, creating synergies, and development of emerging technology;\n\n      - (m) accelerate the adoption of emerging technology in key sectors of the economy including healthcare, agriculture, transportation, energy, lands and natural resources and financial services;\n\n      - (n) encourage  investments  in  the  emerging  technology  eco-system  to  provide  for sustainable development of emerging technology;\n\n      - (o) deploy  strategies  to  implement  research  findings  towards  the  promotion  of emerging technology;\n\n      - (p) establish guidelines, standards and codes of practice for risk-protected, healthy, safe, ethical and practical use of emerging technology;\n\n      - (q) address product safety, privacy and consumer protection challenges and opportunities presented by emerging technology;\n\n      - (r) provide technical support for emerging technology developers;\n\n      - (s) promote international cooperation with respect to emerging technology; and\n\n      - (t) perform any other functions which are ancillary to the objects of the Agency.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "powers-of-the-agency",
+      "section": 3,
+      "title": "Powers of the Agency",
+      "plainLanguage": "This section grants the Agency the authority to decide how it will operate, create rules and guidelines, and help resolve disputes. It also allows the Agency to make fair decisions related to its responsibilities.",
+      "rawText": "4. (1) The Agency shall determine the nature, process and undertakings necessary for the effective performance of its functions under this Act.\n\n- The Agency is granted the power to:\n\n        - (a) issue regulations, rules, directives and guidelines under this Act;\n\n        - (b) facilitate conciliation, mediation and negotiation on disputes arising from this Act; and\n\n        - (c) make any determination as the Agency finds just and equitable.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "governance-of-the-governing-body-of-the-agency",
+      "section": 4,
+      "title": "Governance of the Governing body of the Agency",
+      "plainLanguage": "This provision establishes the Agency's governing board, which includes representatives from various government bodies like the Ministry, Data Protection Commission, and National Information Technology Agency. It also includes representatives from the Industry Forum, Accra Digital Centre, presidential appointees, and the Agency's CEO. This structure aims to create a well-rounded leadership for the Agency.",
+      "rawText": "- The governing body of the Agency is a Board consisting of\n\n      - (a) a chairperson;\n\n      - (b) one representative from the following;\n\n          - (i) The Ministry not below the rank of a Chief Director;\n\n          - (ii) Data Protection Commission not below the rank of Deputy Director-General;\n\n          - (iii) National  Information  Technology  Agency  not  below  the  rank  of  Deputy Director-General;\n\n      - (c) one representative nominated by the Industry Forum;\n\n      - (d) one representative from the Accra Digital Centre;\n\n      - (e) two other persons nominated by the President on the advice of the Minister, at least one of whom is a woman; and\n\n      - (f) Chief Executive Officer of the Agency.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "functions-of-the-board",
+      "section": 5,
+      "title": "Functions of the Board",
+      "plainLanguage": "The Board is responsible for supervising the Agency and setting its overall direction and policies. It also makes sure the Agency is working efficiently and achieving its goals. Essentially, the Board guides and oversees the Agency's operations.",
+      "rawText": "- The Board shall, subject to the provisions of this Act,\n\n      - (a) have oversight responsibility for the Agency;\n\n      - (b) be responsible for the strategic direction and policies of the Agency; and\n\n      - (c) ensure the efficient and effective performance of the functions of the Agency.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "tenure-of-office-of-members",
+      "section": 6,
+      "title": "Tenure of office of members",
+      "plainLanguage": "Board members, excluding the CEO, serve terms up to three years and can be re-appointed for a maximum of two terms. Members can resign, are removed after three unexcused absences, and can have their appointment revoked by the President. Vacancies are filled by Presidential appointment.",
+      "rawText": "7. (1)  A member of the Board shall hold office for a period not exceeding three years and is  eligible  for  re-appointment but a member shall not be appointed for more than two terms.\n\n    - Subsection (1) does not apply to the Chief Executive Officer of the Agency.\n\n(3) A member of the Board may at any time resign from office in writing addressed to the President through the Minister.\n\n(4) A member of the Board, other than the Chief Executive Officer who is absent from three consecutive meetings of the Board without sufficient cause ceases to be a member of the Board.\n\n(5) The President may by letter addressed to a member revoke the appointment of that member.\n\n(6) Where a member of the Board is, for a sufficient reason, unable to act as a member, the Minister shall determine whether the inability would result in the declaration of a vacancy.\n\n    - Where there is a vacancy\n\n(a) under subsection (3) or (4);\n\n(b) as a result of a declaration under subsection (6); or\n\n          - (c) by reason of the death of a member the Minister shall notify the President of the vacancy and the President shall appoint a person to fill the vacancy.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "meetings-of-the-board",
+      "section": 7,
+      "title": "Meetings of the Board",
+      "plainLanguage": "The Board must meet at least every three months, and special meetings can be called if requested by a third of the members. A quorum of seven members is required for meetings, and decisions are made by a majority vote, with the chairperson having a tie-breaking vote. The Board can also invite people to attend meetings who don't have voting rights.",
+      "rawText": "8. (1)  The Board shall meet at least once every three months for the dispatch of business at the times and in the places determined by the chairperson.\n\n(2) The chairperson shall at the request in writing of not less than one-third of the membership of the Board convene an extraordinary meeting of the Board at the place and time determined by the chairperson.\n\n(3)  The quorum at a meeting of the Board is seven members of the Board or a greater number determined by the Board in respect of an important matter.\n\n(4)  The chairperson shall preside at meetings of the Board and in the absence of the chairperson, a member of the Board elected by the members present from among their number shall preside.\n\n(5)  Matters before the Board shall be decided by a majority of the members present and voting and in the event of an equality of votes, the person presiding shall have a casting vote.\n\n(6)  The Board may co-opt a person to attend a Board meeting but that person shall not vote on a matter for decision at the meeting.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "disclosure-of-interest",
+      "section": 8,
+      "title": "Disclosure of interest",
+      "plainLanguage": "This provision requires board members to disclose any personal interests they have in a matter being discussed. If a board member has a conflict of interest, they cannot participate in the board's discussion or decision-making on that issue. Failing to disclose an interest or participating despite a conflict will result in removal from the board.",
+      "rawText": "- (1)    A member of the Board who has an interest in a matter for consideration\n\n            - (a) shall disclose the nature of the interest and the disclosure shall form part of the record of the consideration of the matter; and\n\n            - (b) shall not participate in the deliberations of the Board in respect of that matter.\n\n    - A member ceases to be a member of the Board if that member has an interest on a matter before the Board and\n\n            - (a) fails to disclose that interest; or\n\n            - (b) participates in the deliberations of the Board in respect of the matter.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "establishment-of-committees",
+      "section": 9,
+      "title": "Establishment of committees",
+      "plainLanguage": "This section allows the Board to form committees to help with its work. These committees can include people who are not on the Board, and a Board member can lead the committee. Committee members are subject to the same conflict of interest rules as Board members.",
+      "rawText": "10. (1)   The Board may establish committees consisting of members of the Board or nonmembers or both to perform a function.\n\n- A committee of the Board may be chaired by a member of the Board.\n\n- Section 8 applies to members of committees of the Board.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "allowances",
+      "section": 10,
+      "title": "Allowances",
+      "plainLanguage": "This section states that members of the Board and its committees will receive allowances. The amount of these allowances must be approved by the Minister, in consultation with the Minister responsible for Finance. This ensures proper oversight of Board member compensation.",
+      "rawText": "11. Members of the Board and members of a committee of the Board shall be paid the allowances  approved  by  the  Minister  in  consultation  with  the  Minister  responsible  for Finance.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "ministerial-directives",
+      "section": 11,
+      "title": "Ministerial directives",
+      "plainLanguage": "This provision allows the Minister to instruct the Board on policy matters. It gives the Minister the power to guide the Board's decisions by issuing directives. This ensures the Board's actions align with the Minister's policy objectives.",
+      "rawText": "12. The Minister may give directives to the Board on matters of policy.\n\n## Administration",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "divisions-of-the-agency",
+      "section": 12,
+      "title": "Divisions of the Agency",
+      "plainLanguage": "This section establishes several divisions within the Agency that will focus on key technology areas such as artificial intelligence, blockchain, and cloud computing. It also allows the Agency's Board to create other divisions to help it operate effectively. This ensures the Agency has specialized units to address different technological advancements.",
+      "rawText": "13. (1)  There shall be established the following divisions of the Agency for the purpose of its functions:\n\n            - (a) Artificial Intelligence Division\n\n            - (b) Blockchain-based technology Division\n\n            - (c) Internet of Things (IoT) Division\n\n            - (d) Cloud technology Division\n\n            - (e) Quantum computing Division\n\n(2)  The Board shall establish such other divisions of the Agency for the effective and efficient discharge of the functions of the Agency.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "appointment-of-chief-executive-officer",
+      "section": 13,
+      "title": "Appointment of Chief Executive Officer",
+      "plainLanguage": "The President will appoint a qualified Chief Executive Officer for the Agency, whose job terms will be outlined in an appointment letter. The Agency cannot suspend or fire the CEO during their term. The CEO must be a person of high moral character with relevant professional experience.",
+      "rawText": "14. (1)   The President shall, in accordance with article 195 of the Constitution, appoint a Chief Executive Officer for the Agency.\n\n(2)   The Chief Executive Officer shall hold office on the terms and conditions specified in the letter of appointment.\n\n(3)  The Chief Executive Officer shall not be subject to suspension or dismissal by any Agency during his or her term.\n\n(4)   The Chief Executive Officer shall be a person of high moral character and integrity with the relevant professional qualifications and experience related to the functions of the Agency.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "functions-of-the-chief-executive-officer",
+      "section": 14,
+      "title": "Functions of the Chief Executive Officer",
+      "plainLanguage": "The Chief Executive Officer manages the Agency's daily operations and is accountable to the Board. They are responsible for implementing the Board's decisions and can delegate tasks, but remain responsible for their completion. The CEO also performs other functions as determined by the Board.",
+      "rawText": "15. (1) The Chief Executive Officer is responsible for\n\n        - (a) the day-to-day administration of the affairs of the Agency and is answerable to the Board in the performance of functions under this Act, and\n\n        - (b) the implementation of the decisions of the Board.\n\n(2) The Chief Executive Officer shall perform any other functions determined by the Board.\n\n(3) The Chief Executive Officer may delegate a function to an officer of the Agency but shall not be relieved of the ultimate responsibility for the performance of the delegated function.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "appointment-of-deputy-chief-executive-officer",
+      "section": 15,
+      "title": "Appointment of Deputy Chief Executive Officer",
+      "plainLanguage": "This section describes how the Deputy Chief Executive Officer is appointed by the President and outlines their role in supporting the Chief Executive Officer. The Deputy assists with the Chief Executive Officer's duties and leads the agency when the Chief Executive Officer is absent. The specific terms of their employment are detailed in their appointment letter.",
+      "rawText": "16. (1) The President shall, in accordance with article 195 of the Constitution appoint a Deputy Chief Executive Officer for the Agency.\n\n(2) The Deputy Chief Executive Officer shall hold office on such terms and conditions as shall be specified in his letter of appointment.\n\n(3) The Deputy Chief Executive Officer shall be responsible to the Chief Executive Officer in the performance of his functions under this Act.\n\n(4) The Deputy Chief Executive Officer  shall, subject to the provisions of this Act\n\n          - (a) assist the Chief Executive Officer in the discharge of his functions and perform such other functions as the Director General may delegate to him; and\n\n          - (b) be  responsible  for  the  direction  of  the  Agency  when  the  Chief  Executive Officer is absent from Ghana or is otherwise unable to perform his functions.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "appointment-of-other-staff",
+      "section": 16,
+      "title": "Appointment of other staff",
+      "plainLanguage": "The President will appoint staff necessary for the Agency's functions, and other public officers can be transferred to the Agency. Additionally, the Agency can hire consultants and advisors if the Board recommends it, ensuring the Agency has the expertise it needs.",
+      "rawText": "17. (1) The President shall, in accordance with article 195 of the Constitution, appoint any other staff of the Agency that are necessary for the efficient and effective performance of the functions of the Agency.\n\n(2) Other public officers may be transferred or seconded to the Agency or may give assistance to the Agency.\n\n(3)   The Agency may, for the efficient and effective discharge of the functions of the Agency, engage the services of consultants and advisors on the recommendation of the Board.\n\nFinances of the Agency",
+      "relatedImpacts": []
+    },
+    {
+      "id": "funds-of-the-agency",
+      "section": 17,
+      "title": "Funds of the Agency",
+      "plainLanguage": "The Agency's funding comes from several sources, including money approved by Parliament, grants and donations it receives, and funds it generates itself. Additional funds can also be approved by the Minister responsible for Finance. This ensures the Agency has a variety of financial resources to support its operations.",
+      "rawText": "18. The funds of the Agency include\n\n      - (a) moneys approved by Parliament;\n\n      - (b) grants and donations;\n\n      - (c) internally generated funds; and\n\n      - (d) any other moneys that are approved by the Minister responsible for Finance.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "accounts-and-audit",
+      "section": 18,
+      "title": "Accounts and audit",
+      "plainLanguage": "The Agency must keep financial records in a format approved by the Auditor-General. These records must be submitted to the Auditor-General for auditing within three months after the end of each financial year, and the Auditor-General must then provide an audit report to the Minister within three months.",
+      "rawText": "19. (1) The Board shall keep books of accounts and proper records in relation to them in the form approved by the Auditor-General.\n\n(2) The Board shall submit the accounts of the Agency to the Auditor-General for audit within three months after the end of the financial year.\n\n(3)  The  Auditor-General  shall,  not  later  than  three  months  after  the  receipt  of  the accounts, audit the accounts and forward a copy of the audit report to the Minister.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "annual-report-and-other-reports",
+      "section": 19,
+      "title": "Annual report and other reports",
+      "plainLanguage": "The Board must provide the Minister with an annual report on the Agency's activities, including an audit report. The Minister then submits this report to Parliament. The Board must also provide any other reports that the Minister requests.",
+      "rawText": "20. (1) The Board shall within one month after the receipt of the audit report, submit an annual report to the Minister covering the activities and the operations of the Agency for the year to which the report relates.\n\n(2)  The annual report shall include the report of the Auditor-General.\n\n(3)  The Minister shall, within one month after the receipt of the annual report, submit the report to Parliament with a statement that the Minister considers necessary.\n\n(4) The Board shall also submit to the Minister any other reports, which the Minister may require in writing.\n\n## General Guiding Principles",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "integrity-of-democratic-processes-and-the-rule-of-law",
+      "section": 20,
+      "title": "Integrity of democratic processes and the rule of law",
+      "plainLanguage": "This provision prevents the use of new technologies to compromise the fairness and effectiveness of elections, government operations, and democratic institutions. It ensures that these technologies are not used in ways that could undermine the integrity and independence of democratic processes. This helps maintain public trust in elections and governance.",
+      "rawText": "21. Emerging  technology  systems  shall  not  be  used  to  undermine  the  integrity, independence and effectiveness of elections and governance, democratic institutions and processes.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "discrimination-and-bias",
+      "section": 21,
+      "title": "Discrimination and bias",
+      "plainLanguage": "This provision prohibits the use of new technologies in ways that discriminate against people based on their background or characteristics. It ensures that algorithms and systems do not perpetuate unfair biases. The goal is to prevent technology from reinforcing existing inequalities.",
+      "rawText": "22. Emerging technology systems, shall not be used to perpetuate algorithmic biases, discriminations, and human biases, regardless of one's background or characteristics.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "transparency-and-oversight",
+      "section": 22,
+      "title": "Transparency and oversight",
+      "plainLanguage": "This provision requires emerging technology systems to be transparent and have oversight mechanisms. These systems must be able to identify content they generate and adapt to different situations and risks. This ensures accountability and responsible use of new technologies.",
+      "rawText": "23. Emerging  technology  systems  shall  ensure  adequate  transparency  and  oversight requirements  tailored  to  the  specific  contexts  and  that  risks  are  in  place  in  respect  of activities within the lifecycle of emerging technology systems, including with regard to the identification of content generated by emerging technology systems.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "personal-data-protection",
+      "section": 23,
+      "title": "Personal data protection",
+      "plainLanguage": "This provision ensures that new and developing technologies that use personal data must follow the rules outlined in the Data Protection Act. This means these technologies must protect personal information and handle it responsibly, just like existing systems. The goal is to maintain consistent data protection standards as technology evolves.",
+      "rawText": "24. Emerging  technology  systems  that  process  personal  data  shall  comply  with  the obligations under the Data Protection Act.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "consumer-protection",
+      "section": 24,
+      "title": "Consumer protection",
+      "plainLanguage": "This provision ensures that companies using new technologies clearly warn consumers about potential risks. It also requires these companies to get consumers' explicit consent before they use these technologies in a way that affects them. This protects consumers by giving them the information and control they need when interacting with emerging technologies.",
+      "rawText": "25. Any person supplying a product or service involving emerging technology shall give consumers  clear  and  unambiguous  warnings,  labelling  and  opportunities  to  give  or withhold informed consent.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "accountability-and-responsibility",
+      "section": 25,
+      "title": "Accountability and responsibility",
+      "plainLanguage": "This provision ensures that those creating and using new technologies are held accountable for any negative impacts on human rights, democracy, and the rule of law. It aims to make sure that if these technologies cause harm, there is a clear path to address and rectify the issues. This promotes responsible development and deployment of emerging technologies.",
+      "rawText": "26. Emerging technology system should provide accountability and responsibility for adverse impacts on human rights, democracy and the rule of law resulting from activities within the lifecycle of emerging technology systems.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "reliability",
+      "section": 26,
+      "title": "Reliability",
+      "plainLanguage": "Emerging technologies must be reliable and secure by being able to handle errors, unexpected inputs, and malicious attacks. This requires thorough testing, continuous monitoring, and the implementation of security measures. These steps are necessary to protect the safety and security of these new technologies.",
+      "rawText": "27. Emerging technology systems should be robust and reliable, meaning they should be able to handle unexpected inputs, errors, and malicious attacks, through rigorous testing, monitoring,  and  safeguards  to  ensure  the  safety  and  security  of  emerging  technology systems.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "risk-and-impact-management",
+      "section": 27,
+      "title": "Risk and impact management",
+      "plainLanguage": "Emerging technology systems must have measures to identify, assess, and mitigate risks. These measures should consider the potential impacts on human rights, democracy, and the rule of law. This helps ensure responsible development and use of new technologies.",
+      "rawText": "28. Emerging technology systems must adopt or maintain measures for the identification, assessment, prevention and mitigation of risks  posed  by  emerging technology  systems  by  considering  actual  and  potential  impacts  to  human  rights, democracy and the rule of law.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "human-oversights",
+      "section": 28,
+      "title": "Human oversights",
+      "plainLanguage": "This provision requires human review of emerging technology decisions that significantly impact people's rights. This applies to areas like healthcare, law enforcement, employment, and elections. The goal is to prevent automated systems from making critical decisions without human oversight.",
+      "rawText": "29. Human intervention, interface or review shall be necessary for emerging technology decisions  that  substantially  affect  the  rights  of  persons,  including  decisions  related  to health, law enforcement, employment and elections.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "misinformation-and-disinformation",
+      "section": 29,
+      "title": "Misinformation and disinformation",
+      "plainLanguage": "This provision prohibits emerging technologies from spreading false information. It aims to ensure that new technologies do not contribute to the spread of misinformation or disinformation. This helps maintain the integrity of information shared through these systems.",
+      "rawText": "30. Emerging technology systems shall not spread false information including emerging technology-generated misinformation and disinformation.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "security",
+      "section": 30,
+      "title": "Security",
+      "plainLanguage": "Emerging technology systems must have strong cybersecurity to protect their systems. This means they need to be designed with security in mind to prevent cyberattacks and data breaches. The goal is to ensure these new technologies are safe and reliable.",
+      "rawText": "31. Emerging technology systems should provide robust security protection of its cyber system.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "environmental-safeguards",
+      "section": 31,
+      "title": "Environmental safeguards",
+      "plainLanguage": "This provision requires developers of new technologies to protect the environment. They must implement safeguards, especially if the technologies use a lot of energy, increase carbon emissions, or create large amounts of electronic waste. This aims to minimize the negative environmental impacts of emerging technologies.",
+      "rawText": "- Developers of emerging technology systems, particularly those requiring extensive energy  consumption  and  likelihood  of  increased  carbon-dioxide  emissions,  leading  to massive introduction of electronic waste should ensure environmental safeguards.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "intellectual-property",
+      "section": 32,
+      "title": "Intellectual Property",
+      "plainLanguage": "This provision ensures that creators of new technologies can obtain intellectual property rights, like patents or copyrights, for their work. This protection encourages innovation by giving developers control over their inventions and creations in the emerging technology field. These rights will be granted according to existing intellectual property laws.",
+      "rawText": "- Developers of emerging technology and emerging technology systems should be entitled to intellectual property rights in accordance with the existing laws.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "right-to-redress",
+      "section": 33,
+      "title": "Right to Redress",
+      "plainLanguage": "This provision gives individuals the right to sue in court if any part of this law is broken. This right to legal action is guaranteed regardless of any other potentially limiting sections within the law.",
+      "rawText": "- Notwithstanding section 35(2), a person shall have a right of redress for breach of any provision of this Act in Court.\n\n## Miscellaneous",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "enforcement",
+      "section": 34,
+      "title": "Enforcement",
+      "plainLanguage": "This section designates various regulatory bodies to oversee and enforce different parts of the law. It also establishes financial penalties for violations, with fines ranging from one thousand to five thousand penalty units depending on the severity of the breach.",
+      "rawText": "35. (1) For the time being and until such time as the Minister may direct, the following regulatory bodies shall monitor and enforce compliance in accordance with the general guiding principles and subsection (2):\n\n          - (a) the Electoral Commission of Ghana shall be responsible for section 20;\n\n          - (b) the  Commission  on  Human  Rights  and  Administrative  Justice  shall  be responsible for section 21, and where appropriate, the Ministry in charge of labour affairs or the National Labour Commission shall be responsible for section 21;\n\n          - (c) the National Information Technology Agency shall be responsible for section 22;\n\n          - (d) the Data Protection Authority shall be responsible for section 23;\n\n          - (e) the  Ghana  Standards  Authority,  Foods  and  Drugs  Authority  shall  be responsible  for  section  24,  and  depending  on  the  sector,  the  applicable regulatory body shall also be responsible for section 24;\n\n          - (f) the  Commission  on  Human  Rights  and  Administrative  Justice  shall  be responsible for section 25;\n\n          - (g) the National Information Technology Agency shall be responsible for section 26;\n\n          - (h) the Cybersecurity Authority shall be responsible for section 27;\n\n          - (i) depending on the sector, the applicable ministry or regulatory body shall also be responsible for section 28;\n\n          - (j) the  National  Communications  Authority,  Ghana  Standards  Authority  and Foods  and  Drugs  Authority  and  Data  Protection Authority shall be responsible  for  section  29,  and  depending  on  the  sector,  the  applicable regulatory body, shall also be responsible for section 29;\n\n          - (k) the Cybersecurity Authority shall be responsible for section 30;\n\n          - (l) the Environmental Protection Agency shall be responsible for section 31; and\n\n          - (m) the Registrar General's Department, Ghana Patent Registry and the Copyright Office shall be responsible for section 32.\n\n(2) Without prejudice to other penalties under any other enactment or law, a person who  breaches  any  of  the  guiding  principles  under  this  Act  shall  be  liable  to  an administrative penalty of not less than one thousand penalty units and not more than five thousand penalty units, depending on the severity of the infraction.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "regulations",
+      "section": 35,
+      "title": "Regulations",
+      "plainLanguage": "This section allows the Minister to create regulations to enforce the law and ensure it is followed. These regulations can address penalties, collaboration with other organizations, decision-making processes, and other practical aspects of implementing the law. This gives the Minister the power to create specific rules needed to make the law work effectively.",
+      "rawText": "- The Minister may, by legislative instrument, make Regulations:\n\n          - (a) on  specific  matters  relating  to  enforcement  and  compliance  of  the  general guiding principles;\n\n- (b) on specific measures related to penalties for breach of the Act;\n\n- (c) to prescribe the procedure for collaboration with other public institutions;\n\n- (d) to prescribe matters related to administrative decision-making;\n\n- (e) on codes of practice;\n\n          - (f) generally, on matters for the effective implementation of the Act.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "interpretation",
+      "section": 36,
+      "title": "Interpretation",
+      "plainLanguage": "This section defines important terms related to emerging technologies like AI, blockchain, and cloud computing, as well as relevant government bodies. These definitions provide a common understanding of the terms used throughout the law. This ensures everyone interprets the law's language in the same way.",
+      "rawText": "## 37. In this Act, unless the context otherwise requires,\n\n'algorithm' means a set of instructions designed to accomplish a task;\n\n'artificial intelligence' means technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision-making, creativity and autonomy;\n\n'block -chain based technology' means an advanced decentralised digital record or digital ledger of transactions, that enables recording of transactions, tracking of assets, and sharing of records across computer networks in a transparent and immutable way;\n\n'Court' means High Court of Ghana;\n\n'cloud  technology'  means  technology  that  delivers  computing  services  and  offers  on -demand  access  to  computing  resources  such  as  physical  or  virtual  services,  data\n\nstorage, servers, databases, networking, intelligence, analytics, and software over the internet;'\n\n- 'emerging  technology'  means  novel  or  evolving  systems,  tools  or  methods  that  have transformative impacts ndustry, society, economy, and governance, and include but is not limited to:\n\n        - (a) Artificial Intelligence\n\n        - (b) Blockchain-based technology\n\n        - (c) Internet of Things (IoT)\n\n        - (d) Cloud technology\n\n        - (e) Quantum computing\n\n  - 'emerging technology systems' means newly developed or evolving technological systems of emerging technology that integrate automation, data processing, connectivity, and intelligence.\n\n- 'Internet  of  Things  (IoT)'  means  a  network  of  interrelated  physical  devices,  vehicles, appliances  and  other  physical  objects  that  connect  and  exchange  data  with  other devices  and  the  cloud  across  wireless  networks,  and  are  typically  embedded  with sensors,  processing  ability  and  software  and  can  include  mechanical  and  digital machines and consumer objects;'\n\n'Minister'  means  Minister  responsible  for  Communication,  Digital  Technology  and Innovations;\n\n'Ministry' means Ministry of Communication, Digital Technology and Innovations;\n\n- 'quantum  computing'  means  technology  that  solves  complex  problems  based  on principles of quantum mechanics.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    }
+  ],
+  "notebookLMVideo": {
+    "url": "",
+    "duration": "10:00"
+  },
+  "deadline": "2025-12-31",
+  "submissionMethod": "Email to clerk@parliament.gov.gh",
+  "relatedBills": []
+}

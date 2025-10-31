@@ -1,0 +1,92 @@
+{
+  "impactLevels": {
+    "severe-negative": {
+      "label": "Severe Negative",
+      "description": "Fundamental violations of rule of law or human rights standards that would be struck down as unconstitutional in established democracies. Includes violations of judicial independence, proportionality, legal certainty, due process, or separation of powers.",
+      "color": "red"
+    },
+    "high-negative": {
+      "label": "High Negative",
+      "description": "Significant departures from international best practices that exceed norms in most OECD countries. Creates substantial barriers, compliance burdens, or discretionary powers that go beyond what is typical in functioning democracies.",
+      "color": "orange"
+    },
+    "medium-negative": {
+      "label": "Medium Negative",
+      "description": "Within the range of democratic practice but missing some procedural refinements or safeguards. Common regulatory approaches that may be on the stricter end but are found in some democratic jurisdictions. Standard government powers (licensing, exemptions, enforcement) that lack optimal oversight.",
+      "color": "yellow"
+    },
+    "low-negative": {
+      "label": "Low Negative",
+      "description": "Minor administrative or technical changes with negligible practical impact. Routine adjustments to existing frameworks.",
+      "color": "light-yellow"
+    },
+    "neutral": {
+      "label": "Neutral",
+      "description": "No meaningful impact on this topic area.",
+      "color": "gray"
+    },
+    "low-positive": {
+      "label": "Low Positive",
+      "description": "Minor beneficial changes or improvements to existing frameworks.",
+      "color": "light-green"
+    },
+    "medium-positive": {
+      "label": "Medium Positive",
+      "description": "Moderate improvements to rights, processes, or innovation. Strengthens existing protections or enables new opportunities.",
+      "color": "green"
+    },
+    "high-positive": {
+      "label": "High Positive",
+      "description": "Significant benefits that enable innovation or meaningfully protect important rights. Represents substantial progress toward international best practices.",
+      "color": "bright-green"
+    },
+    "severe-positive": {
+      "label": "Severe Positive",
+      "description": "Transformative positive change for rights, freedoms, or innovation. Establishes new protections or enables breakthrough developments.",
+      "color": "emerald"
+    }
+  },
+  "topics": {
+    "Digital Innovation": {
+      "description": "Impact on technology startups, market entry, innovation barriers, compliance costs, and chilling effects on experimentation with new technologies."
+    },
+    "Freedom of Speech": {
+      "description": "Impact on content monitoring, censorship mechanisms, platform regulations, journalist protections, and online expression."
+    },
+    "Privacy & Data Rights": {
+      "description": "Impact on data protection, retention policies, government access to data, surveillance capabilities, and user privacy rights."
+    },
+    "Business Environment": {
+      "description": "Impact on operational costs, compliance requirements, data localization mandates, market barriers, and enforcement risks for businesses."
+    }
+  },
+  "terms": {
+    "Rule of Law": {
+      "definition": "Legal certainty, non-arbitrariness, equality before the law, and judicial independence. Laws must be clear, predictable, and applied equally to all."
+    },
+    "Fundamental Justice": {
+      "definition": "Presumption of innocence, right to fair trial, and no punishment without law (nullum crimen sine lege). Core principles protecting individuals from arbitrary state action."
+    },
+    "Separation of Powers": {
+      "definition": "Checks and balances ensuring that investigative, prosecutorial, and judicial functions are not concentrated in a single entity. Prevents conflicts of interest and abuse of power."
+    },
+    "Proportionality": {
+      "definition": "Penalties and restrictions must be proportionate to the harm being prevented. Requires using the least restrictive means to achieve legitimate government objectives."
+    },
+    "Due Process": {
+      "definition": "Right to notice, hearing, and appeal before coercive government action. Includes independent review of enforcement decisions and procedural fairness."
+    },
+    "Democratic Accountability": {
+      "definition": "Transparency, parliamentary oversight, and limits on executive power. Ensures government actions are subject to public scrutiny and legislative control."
+    },
+    "Legal Certainty": {
+      "definition": "Laws must be clear and precise enough that individuals can predict what conduct is prohibited and what penalties may result. Vague or undefined terms violate this principle."
+    },
+    "Perverse Incentives": {
+      "definition": "Institutional design flaws where enforcers profit financially from enforcement actions, creating motivation for aggressive or unfair prosecution rather than neutral application of law."
+    },
+    "Chilling Effects": {
+      "definition": "When legal uncertainty or harsh penalties discourage legitimate activity. People self-censor or avoid lawful conduct because they fear arbitrary enforcement."
+    }
+  }
+}

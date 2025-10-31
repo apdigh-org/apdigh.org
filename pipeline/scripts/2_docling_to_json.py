@@ -10,15 +10,7 @@ import json
 import re
 import sys
 from pathlib import Path
-
-
-def slugify(text: str) -> str:
-    """Convert text to a URL-friendly slug."""
-    text = text.lower()
-    text = re.sub(r'[^a-z0-9\s-]', '', text)
-    text = re.sub(r'\s+', '-', text)
-    text = re.sub(r'-+', '-', text)
-    return text.strip('-')
+from shared import slugify
 
 
 def infer_document_structure(texts: list) -> dict:

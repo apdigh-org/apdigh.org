@@ -103,8 +103,9 @@ def process_bill(json_path: Path, dry_run: bool = False, force: bool = False):
     print(f"Processing {len(sections)} sections")
     print()
 
-    # Categorize each section and flush to disk after each one
+    # Categorize each section and batch disk writes
     category_counts = {"provision": 0, "preamble": 0, "metadata": 0}
+    BATCH_SIZE = 10  # Save every 10 sections
 
     for i, section in enumerate(sections, 1):
         # Skip if already categorized (unless force mode)
@@ -113,6 +114,16 @@ def process_bill(json_path: Path, dry_run: bool = False, force: bool = False):
 
         title = section['title']
         raw_text = section.get('rawText', '')
+
+        # Skip sections with no content - likely page headers or parsing artifacts
+        if not raw_text or not raw_text.strip():
+            print(f"[SKIP] Section {i}: {title[:50]} - No content")
+            section['category'] = {
+                "type": "metadata",
+                "reasoning": "Section header with no content (likely page break or parsing artifact)"
+            }
+            category_counts["metadata"] += 1
+            continue
 
         # Categorize
         category_result = categorize_section(title, raw_text)
@@ -127,10 +138,16 @@ def process_bill(json_path: Path, dry_run: bool = False, force: bool = False):
         # Show progress
         print(f"[{i}/{len(sections)}] {category_type.upper()}: {title[:60]}")
 
-        # Flush to disk after each section (unless dry run)
-        if not dry_run:
+        # Batch disk writes - save every BATCH_SIZE sections (unless dry run)
+        if not dry_run and i % BATCH_SIZE == 0:
             with open(json_path, 'w', encoding='utf-8') as f:
                 json.dump(bill_data, f, indent=2, ensure_ascii=False)
+            print(f"  💾 Saved progress ({i}/{len(sections)})")
+
+    # Final save for remaining sections
+    if not dry_run:
+        with open(json_path, 'w', encoding='utf-8') as f:
+            json.dump(bill_data, f, indent=2, ensure_ascii=False)
 
     print()
     print("Categorization complete!")

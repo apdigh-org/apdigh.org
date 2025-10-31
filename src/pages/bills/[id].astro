@@ -22,6 +22,8 @@ const { bill } = Astro.props;
 // Helper function for impact badge styling
 const getImpactBadgeClass = (score: string) => {
   switch (score) {
+    case 'severe-negative':
+      return 'bg-red-200 text-red-900 border-red-300';
     case 'high-negative':
       return 'bg-red-100 text-red-700 border-red-200';
     case 'medium-negative':
@@ -36,6 +38,8 @@ const getImpactBadgeClass = (score: string) => {
       return 'bg-green-100 text-green-700 border-green-200';
     case 'high-positive':
       return 'bg-emerald-100 text-emerald-700 border-emerald-200';
+    case 'severe-positive':
+      return 'bg-emerald-200 text-emerald-900 border-emerald-300';
     default:
       return 'bg-gray-100 text-gray-700 border-gray-200';
   }
@@ -43,6 +47,8 @@ const getImpactBadgeClass = (score: string) => {
 
 const getImpactLabel = (score: string) => {
   switch (score) {
+    case 'severe-negative':
+      return 'Severe Negative Impact';
     case 'high-negative':
       return 'High Negative Impact';
     case 'medium-negative':
@@ -57,8 +63,35 @@ const getImpactLabel = (score: string) => {
       return 'Medium Positive Impact';
     case 'high-positive':
       return 'High Positive Impact';
+    case 'severe-positive':
+      return 'Severe Positive Impact';
     default:
       return 'Unknown Impact';
+  }
+};
+
+const getImpactDescription = (score: string) => {
+  switch (score) {
+    case 'severe-negative':
+      return 'Fundamental violations of rule of law or human rights standards that would be struck down as unconstitutional in established democracies.';
+    case 'high-negative':
+      return 'Significant departures from international best practices that exceed norms in most OECD countries.';
+    case 'medium-negative':
+      return 'Within the range of democratic practice but missing some procedural refinements or safeguards. Standard government powers that lack optimal oversight.';
+    case 'low-negative':
+      return 'Minor administrative or technical changes with negligible practical impact.';
+    case 'neutral':
+      return 'No meaningful impact on this topic area.';
+    case 'low-positive':
+      return 'Minor beneficial changes or improvements to existing frameworks.';
+    case 'medium-positive':
+      return 'Moderate improvements to rights, processes, or innovation.';
+    case 'high-positive':
+      return 'Significant benefits that enable innovation or meaningfully protect important rights.';
+    case 'severe-positive':
+      return 'Transformative positive change for rights, freedoms, or innovation.';
+    default:
+      return '';
   }
 };
 
@@ -211,9 +244,10 @@ const impactsToDisplay = Object.entries(bill.impacts || {}).filter(([key, impact
                 Executive Summary
               </h2>
               <div class="bg-white border-2 border-gray-200 rounded-xl p-6">
-                <p class="text-lg text-gray-900 font-medium leading-relaxed">
-                  {bill.summary}
-                </p>
+                <div
+                  class="text-lg text-gray-900 font-medium leading-relaxed prose prose-lg max-w-none"
+                  set:html={marked.parse(bill.summary)}
+                />
               </div>
             </section>
 
@@ -236,14 +270,18 @@ const impactsToDisplay = Object.entries(bill.impacts || {}).filter(([key, impact
                         </div>
                         <div class="flex-1">
                           <h3 class="text-xl font-bold text-black mb-2">{category.name}</h3>
-                          <span class={`inline-block px-3 py-1 text-xs font-semibold rounded-full border ${getImpactBadgeClass(impact.score)}`}>
+                          <span
+                            class={`inline-block px-3 py-1 text-xs font-semibold rounded-full border ${getImpactBadgeClass(impact.score)} cursor-help`}
+                            title={getImpactDescription(impact.score)}
+                          >
                             {getImpactLabel(impact.score)}
                           </span>
                         </div>
                       </div>
-                      <p class="text-gray-900 leading-relaxed mb-4">
-                        {impact.description}
-                      </p>
+                      <div
+                        class="text-gray-900 leading-relaxed mb-4 prose max-w-none"
+                        set:html={marked.parse(impact.description)}
+                      />
                       {impact.relatedProvisions && impact.relatedProvisions.length > 0 && (
                         <div class="pt-3 border-t border-gray-200">
                           <span class="text-sm font-semibold text-gray-600 block mb-2">Related Provisions:</span>
@@ -299,9 +337,10 @@ const impactsToDisplay = Object.entries(bill.impacts || {}).filter(([key, impact
 
                             <h3 class="text-lg font-bold text-black mb-3 leading-tight h-14 flex items-center">{concern.title}</h3>
 
-                            <p class="text-sm text-gray-700 leading-relaxed mb-4 flex-1">
-                              {concern.description}
-                            </p>
+                            <div
+                              class="text-sm text-gray-700 leading-relaxed mb-4 flex-1 prose prose-sm max-w-none"
+                              set:html={marked.parse(concern.description)}
+                            />
 
                             <div class="pt-3 border-t border-gray-200 space-y-2 mt-auto">
                               {concern.relatedProvisions && concern.relatedProvisions.length > 0 && (
@@ -370,9 +409,10 @@ const impactsToDisplay = Object.entries(bill.impacts || {}).filter(([key, impact
                       {/* Plain language explanation */}
                       <div>
                         <h4 class="text-sm font-semibold text-gray-600 mb-2">Plain Language Summary</h4>
-                        <p class="text-gray-900 leading-relaxed">
-                          {provision.plainLanguage}
-                        </p>
+                        <div
+                          class="text-gray-900 leading-relaxed prose max-w-none"
+                          set:html={marked.parse(provision.plainLanguage)}
+                        />
                       </div>
 
                       {/* Raw text with toggle */}

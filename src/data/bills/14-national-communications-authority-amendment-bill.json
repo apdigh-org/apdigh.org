@@ -1,0 +1,409 @@
+{
+  "id": "14-national-communications-authority-amendment-bill",
+  "title": "National Communications Authority (Amendment) Bill",
+  "summary": "The National Communications Authority (Amendment) Bill restructures Ghana's telecommunications regulator with enhanced governance, accountability, and expanded regulatory powers. The bill establishes a reconstituted Board with mandatory gender representation (minimum two women members), four-year renewable terms, and strict conflict-of-interest requirements including public disclosure of registrable interests. The Board gains explicit strategic oversight duties and must establish Technical, Audit, and Risk committees, while an Internal Audit Unit provides ongoing financial oversight.\n\n**Key regulatory expansions raise significant concerns**: The Minister gains authority to create regulations requiring **pre-approval for services using personal data**, potentially creating barriers to digital innovation and raising privacy questions about government oversight of data-driven services. The Minister can also issue written policy directives that the Board must follow, creating tension with the Authority's stated independence—though technical and operational matters remain protected from ministerial interference. Additional ministerial powers cover emergency communications protocols, local content requirements, and universal service standards. The Authority's funding becomes more diversified (fees, parliamentary allocations, investments, donations) with tax exemptions subject to Finance Minister and parliamentary approval, though all borrowing requires ministerial consent.\n\n**Transparency and accountability mechanisms** include quarterly board meetings, public consultation requirements for major decisions, written justifications for board actions, and comprehensive annual reporting to Parliament covering performance, finances, and governance. Board members face removal for conflicts of interest, excessive absences, or failure to disclose interests. The Director-General manages daily operations while remaining accountable to the Board, and staff appointments require presidential approval.\n\n**Business and rights implications**: The pre-approval requirement for data-using services could delay product launches and increase compliance costs for tech companies, startups, and digital service providers. Local content requirements may affect international service providers' operations. However, the bill's emphasis on consumer protection, innovation promotion, and consideration of vulnerable groups suggests balanced regulatory intent. The transition provisions ensure continuity by transferring all assets, liabilities, and existing licenses to the restructured Authority, minimizing disruption to current operators while establishing a more robust regulatory framework for Ghana's evolving communications sector.",
+  "pdfPath": "pdfs/14. National Communications Authority (Amendment) Bill.pdf",
+  "impacts": {
+    "innovation": {
+      "score": "high-negative",
+      "description": {
+        "score": "high-negative",
+        "analysis": "The National Communications Authority (Amendment) Bill poses significant challenges to Ghana's digital innovation ecosystem through its introduction of mandatory pre-approval requirements for services processing personal data. This provision fundamentally alters the regulatory landscape by requiring joint evaluation by both the National Communications Authority and the Data Protection Commission before any new telecom-related service involving personal data can launch. For Ghana's growing tech startup sector, this creates a substantial barrier to entry and innovation. Companies developing AI-powered applications, fintech solutions, digital health platforms, or any data-driven services will face extended timelines and increased compliance costs before bringing products to market. This pre-approval bottleneck could discourage entrepreneurship, reduce Ghana's competitiveness in attracting tech investment, and slow the pace of digital transformation across sectors.\n\nThe impact extends beyond startups to established technology companies and international digital service providers operating in Ghana. The requirement for dual-agency approval introduces regulatory uncertainty and potential delays that conflict with the rapid development cycles characteristic of the digital economy. Companies may face situations where innovative services are delayed for months during evaluation processes, causing them to lose first-mover advantages or miss market opportunities entirely. The provision's broad scope—covering \"all new telecom-related services involving the processing of personal data\"—creates ambiguity about which services require approval, potentially leading to over-cautious compliance strategies that further stifle innovation. Additionally, the local content and equity participation requirements may create additional operational constraints for international platforms and digital service providers.\n\nWhile the bill includes positive elements such as promoting innovation, protecting consumers, and ensuring public consultation on major decisions, these benefits are substantially undermined by the pre-approval mechanism. The enhanced governance structures and transparency requirements may improve regulatory predictability in some areas, but the fundamental shift from a permissive to a restrictive regulatory approach for data-driven services represents a significant setback for digital innovation. Ghana's ambitions to become a regional tech hub could be compromised if entrepreneurs and investors perceive the regulatory environment as overly burdensome compared to neighboring countries with more innovation-friendly frameworks."
+      },
+      "relatedProvisions": [
+        "powers-of-the-authority",
+        "regulatory-and-best-practice-of-the-authority",
+        "declaration-of-registrable-interests",
+        "policy-directives",
+        "independence-of-the-authority",
+        "procedure-for-decision-making-by-the-authority",
+        "regulations",
+        "interpretation"
+      ]
+    },
+    "business": {
+      "score": "high-negative",
+      "description": {
+        "score": "high-negative",
+        "analysis": "The National Communications Authority (Amendment) Bill introduces significant regulatory barriers that will substantially reshape Ghana's telecommunications and digital services business environment. The most consequential change is the mandatory pre-approval requirement for any service processing personal data, requiring joint evaluation by both the National Communications Authority and the Data Protection Commission before launch. This dual-agency gatekeeping process will directly impact technology companies, startups, fintech providers, telecommunications operators, and any business offering AI-powered services or data-driven applications. Companies will face extended time-to-market delays, increased compliance costs for navigating two regulatory bodies simultaneously, and uncertainty about approval criteria—potentially deterring innovation and foreign investment in Ghana's digital economy. For startups and smaller companies with limited resources, these barriers may prove prohibitive, while established players will need to build substantial regulatory affairs capacity.\n\nAdditional provisions compound these challenges for businesses. Local content and equity participation requirements may force international service providers to restructure operations, find local partners, or modify their business models to comply with ownership mandates. Universal service obligations could require operators to provide services in commercially unviable areas, affecting profitability calculations. The Minister's authority to issue policy directives to the Board, even with protections for technical matters, introduces regulatory uncertainty as businesses cannot fully predict how ministerial priorities might shift regulatory approaches. Interconnection requirements and emergency communications protocols will require infrastructure investments and operational adjustments, particularly for network operators.\n\nThe bill does offer some positive elements for business planning: enhanced transparency through mandatory public consultations, quarterly board meetings, and comprehensive parliamentary reporting should create more predictable regulatory processes; the reconstituted Board with professional governance standards and conflict-of-interest rules may reduce arbitrary decision-making; and explicit mandates to promote innovation and consider consumer protection suggest balanced regulatory intent. Transition provisions ensuring continuity of existing licenses prevent immediate disruption. However, these governance improvements cannot offset the fundamental shift toward pre-market approval and expanded regulatory control. The overall effect is a more restrictive business environment where market entry becomes slower and more expensive, regulatory compliance becomes more complex, and the balance tips decidedly toward control over facilitation of business activity in Ghana's communications sector."
+      },
+      "relatedProvisions": [
+        "powers-of-the-authority",
+        "regulatory-and-best-practice-of-the-authority",
+        "governing-body-of-the-authority",
+        "functions-of-the-board-of-the-authority",
+        "duties-and-liabilities-of-a-member-of-the-board-of-the-authority",
+        "tenure-of-office-of-members-of-the-board-of-the-authority",
+        "disclosure-of-interest",
+        "declaration-of-registrable-interests",
+        "establishment-of-committees",
+        "policy-directives",
+        "independence-of-the-authority",
+        "internal-audit-unit",
+        "exemption-from-tax",
+        "borrowing-powers",
+        "accounts-and-audit",
+        "annual-report-and-other-reports",
+        "procedure-for-decision-making-by-the-authority",
+        "code-of-conduct",
+        "regulations",
+        "interpretation",
+        "transitional-provisions",
+        "repeal-and-savings"
+      ]
+    },
+    "privacy": {
+      "score": "neutral",
+      "description": null,
+      "relatedProvisions": [
+        "regulatory-and-best-practice-of-the-authority",
+        "duties-and-liabilities-of-a-member-of-the-board-of-the-authority",
+        "declaration-of-registrable-interests",
+        "procedure-for-decision-making-by-the-authority",
+        "regulations"
+      ]
+    }
+  },
+  "keyConcerns": [
+    {
+      "id": "pre-approval-bottleneck-for-all-data-using-services",
+      "title": "Pre-Approval Bottleneck for All Data-Using Services",
+      "severity": "high",
+      "description": "This provision requires government pre-licensing approval for \"all new telecom-related services involving the processing of personal data\"—a category so broad it could encompass most modern digital services, from messaging apps to AI-powered platforms. With no defined approval timelines, decision criteria, or appeal mechanisms, this creates an indefinite gatekeeping bottleneck administered by two separate agencies. Startups and innovators face existential delays while established players can absorb compliance costs, fundamentally shifting Ghana from a \"test and learn\" innovation environment to a \"seek permission first\" regime that will deter investment and slow digital economic growth.",
+      "relatedProvisions": [
+        "regulations"
+      ],
+      "relatedImpacts": []
+    }
+  ],
+  "provisions": [
+    {
+      "id": "powers-of-the-authority",
+      "section": 1,
+      "title": "Powers of the Authority",
+      "plainLanguage": "This section details what the Authority is allowed to do. It can sign contracts for goods and services, invest its money following government rules, share information about its work, and support training programs for people working on communication systems.",
+      "rawText": "4. The Authority may exercise the following powers:\n\n(a) enter into a contract for the supply of goods and services;\n\n(b) invest the funds of the Authority in accordance with the Public Financial Management Act;\n\n(c) publish information that is relevant to its functions and activities in a manner that it considers appropriate;\n\n(d)  promote, and where necessary and within available resources, support the training of\n\npersons specifically in the development, operation, and maintenance of communications infrastructure, in collaboration with relevant public or private agencies; and",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "regulatory-and-best-practice-of-the-authority",
+      "section": 2,
+      "title": "Regulatory and Best Practice of the Authority",
+      "plainLanguage": "This section requires the Authority to consider various factors when making decisions, such as being transparent, protecting consumers, promoting innovation, and considering the needs of vulnerable groups. It also emphasizes the importance of following international standards and best practices in its operations.",
+      "rawText": "5. The Authority shall, in the performance of its functions, have regard to:\n\n(a) the principles of transparency, accountability, proportionality, and consistency;\n\n(b) best regulatory practice;\n\n(c) the protection of the interests of consumers or users of communications networks or communications services and, in particular, to the interests of consumer choice, quality of service, and value for money;\n\n(d) the impact on the environment of the activities undertaken by telecommunications service providers and telecommunications network providers;\n\n(e) the promotion of innovation and competition, and the establishment of incentives to encourage local participation in the provision of communications services;\n\n(f) the various demands, interests, and uses of the electromagnetic spectrum;\n\n(g) the needs and interests of persons with disability, the elderly, low-income earners, and the vulnerable;\n\n(h) the opinions of consumers and members of the general public;\n\n(i) the interest of both rural and urban dwellers; and\n\n(j) any applicable international standards and best practices, including International Telecommunication Union guidelines and such other regional or bilateral protocols ratified or adopted by the country.\n\n## Governance of the Authority",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "governing-body-of-the-authority",
+      "section": 3,
+      "title": "Governing body of the Authority",
+      "plainLanguage": "This section outlines who sits on the Authority's Board of Directors, ensuring representation from key organizations and expertise in relevant fields. It also prevents individuals with conflicts of interest from being appointed and mandates that at least two board members be women. The President appoints the chairperson and other board members, and the board is responsible for the Authority's effective functioning.",
+      "rawText": "6.(1) The governing body of the Authority is a Board of  Directors consisting of\n\n          - (a) the chairperson\n\n          - (b) the Director-General appointed under section 18;\n\n          - (c) one representative of the\n\n                - (i) the National Security Council,\n\n                - (ii) the National Media Commission,\n\n                - (iii) Ministry responsible for Communications, not below the rank  of a director.\n\n          - (d) one person with experience and expertise in communications; and\n\n          - (e) three other persons each of whom has knowledge or expertise in telecommunication engineering, law, business or public administration.\n\n    - At least two (2) members  of the governing body of the Authority shall  be women.\n\n    - A person is not qualified for appointment if that person\n\n          - (a) is directly or indirectly involved in the management of; or\n\n(b) has a financial or commercial interest in  a communications network operator, a communications service provider,  a communications equipment manufacturer or supplier either of whom  operates within the country or outside the country or any other entity  with an interest in the communications industry of this country.\n\n(4) The  Board  of  the Authority  shall  ensure  the  proper  and  effective  performance  of    the functions of the Authority\n\n(5) The  President  shall,  in  accordance  with  article  70  of  the  Constitution,  appoint  the chairperson and  other members of the Board of the Authority.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "functions-of-the-board-of-the-authority",
+      "section": 4,
+      "title": "Functions of the Board of the Authority",
+      "plainLanguage": "The Board of the Authority is responsible for overseeing the Authority's strategic direction. They must also ensure the Authority achieves its objectives and performs its functions effectively and efficiently. This provision clarifies the Board's key oversight duties.",
+      "rawText": "7.\n\nThe Board of the Authority shall\n\n        - (a) exercise general oversight responsibility for the strategic direction of the Authority;\n\n        - (b) ensure the achievement of the object of the Authority; and\n\n        - (c) ensure the effective and efficient performance of the functions of the Authority.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "duties-and-liabilities-of-a-member-of-the-board-of-the-authority",
+      "section": 5,
+      "title": "Duties and liabilities of a member of the Board of the Authority",
+      "plainLanguage": "Board members of the Authority must act honestly and in the Authority's best interest, similar to company directors. They are protected from personal liability if they act in good faith, but can be held responsible for losses caused by their actions. The Authority will cover legal costs for members acting in good faith.",
+      "rawText": "8. (1) A  member  of  the  Board  of  the Authority  has  the  same  fiduciary  relationship  with  the Authority and the same duty to act with  loyalty  and  in good faith as a director of a company incorporated under the Companies Act, 2019 (Act 992).\n\n(2)Without limiting subsection (1), a member of the Board of the Authority has a duty\n\n(a) to act honestly and in the best interest of the Authority in the performance of the functions of the Authority;\n\n- (b) to exercise the degree of care and diligence in the performance of functions that a person in that position would reasonably be expected to exercise in the circumstances;\n\n- (c) not to disclose information acquired in the capacity of the member as a member of the Board of  the Authority  to  any  person  or  make  use  of  that  information,  except  in  the  performance  of functions;\n\n- (d) not to abuse the position of the office; and\n\n- (e) not to pursue personal interests at the expense of the Authority.\n\n- A member of the Board of the Authority, other than the Director General, shall not participate in the day-to-day running of the Authority.\n\n- A member of the Board is not personally liable for damage or  injury to a third party that arises in the execution of an official duty of  that member, if the member at all material times acted in good faith.\n\n- The Authority  shall  indemnify  and  hold  harmless  such  a  member  against  any  legal  costs, including attorney's fees, expenses, and liabilities reasonably incurred in connection with any legal proceedings instituted against the member in respect of acts done or purported to have been done in  the  performance  of  official  duties,  provided  that the  member  acted  in  good  faith  and  in  the interest of the Authority.\n\n- Where a court determines that the Authority has suffered a loss or damage as a result of the act or omission of a member of the Board of the Authority, the court may, in addition to imposing a fine, order the member to pay appropriate compensation to the Authority.",
+      "relatedImpacts": [
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "tenure-of-office-of-members-of-the-board-of-the-authority",
+      "section": 6,
+      "title": "Tenure of office of members of the Board of the Authority",
+      "plainLanguage": "Board members serve four-year terms and can be reappointed once, excluding the Director General. A member can resign, be removed for excessive absence, or have their appointment revoked by the President. Vacancies are filled by presidential appointment for the remainder of the term.",
+      "rawText": "- (1) A member of the Board of the Authority shall hold office for a period of four years and is eligible for reappointment for another term only.\n\n        - Subsection (1) does not apply to the Director General.\n\n(3) A member of the Board of the Authority may, at any time, resign from office in writing, addressed to the President through the Minister.\n\n(4) A member of the Board of the Authority, other than the Director General, who is absent from three consecutive meetings of the Board of the Authority without sufficient cause ceases to be a member of the Board of the Authority.\n\n        - The President may, by letter addressed to a member, revoke the appointment of that member.\n\n        - Where a member of the Board of the Authority is, for a sufficient reason unable to act as a member, the Minister shall determine whether the inability of the member to act would result in the declaration of a vacancy.\n\n        - Where there is a vacancy\n\n              - (a) under subsection (3), (4), (5), 11 (2) or 12(3) ; or\n\n              - (b) as a result of a declaration under subsection (6), or\n\n              - (c) by reason of the death of a member,\n\nthe Minister shall notify the President of the vacancy and the President shall appoint another person to fill the vacancy for the unexpired term.\n\n              - (d) Where the person is appointed to fill a vacancy, that person shall subject to the provisions of this Act be eligible for re-appointment.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "meetings-of-the-board-of-the-authority",
+      "section": 7,
+      "title": "Meetings of the Board of the Authority",
+      "plainLanguage": "The Board of the Authority must meet at least quarterly, and special meetings can be called if requested by one-third of the members. Decisions are made by a majority vote, with the chairperson having a tie-breaking vote, and the Board can invite people to attend meetings without voting rights. The Board can also set its own meeting procedures.",
+      "rawText": "10. (1) The Board of the Authority shall meet at least once every three months for the conduct of business at a time and place determined by the chairperson.\n\n(2) The chairperson shall, at the request in writing of  not less than one-third of the membership of the Board of the Authority, convene an extraordinary meeting of the Board of the Authority at a time and place determined by the chairperson.\n\n(3) The quorum for a meeting of the Board of the Authority is four members of the Board or a greater number determined by the Board in respect of an important matter.\n\n(4) The chairperson shall preside at meetings of the Board of the Authority and in the absence of the chairperson, a member of the Board of the Authority elected by the members present from among their number shall preside.\n\n(5) Matters before the Board of the Authority shall be decided by a majority of the members present and voting and in the event of an equality of votes, the person presiding shall have a casting vote.\n\n(6) The Board of the Authority may co-opt a person to attend a meeting of the Board of the Authority but that person shall not vote on a matter for decision at the meeting.\n\n(7) The proceedings of the Board of the Authority shall not be invalidated by reason of a vacancy among the members or a defect in the appointment or qualification of a member\n\n        - Subject to this section, the Board of the Authority may determine the procedure for the meeting of the Board of the Authority.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "disclosure-of-interest",
+      "section": 8,
+      "title": "Disclosure of interest",
+      "plainLanguage": "Board members must disclose any personal interests they have in matters being discussed and cannot participate in those discussions. Failure to disclose or participating despite a conflict of interest can result in removal from the board and recovery of any benefits gained. This ensures transparency and prevents board members from using their position for personal gain.",
+      "rawText": "- (1) A member of the Board of the Authority who has an interest in a matter for consideration shall disclose in writing the nature of that interest and the disclosure shall\n\n(a) form part of the record of the consideration of the matter; and\n\n(b) is disqualified from being present at or participating in the deliberations of the Board of the Authority in respect of that matter.\n\n(2) A member ceases to be a member of the Board of the Authority if that member has an interest in a matter before the Board of the Authority and\n\n              - (a) fails to disclose that interest; or\n\n              - (b) is present at or participates in the deliberations of the Board of the Authority in respect of that matter.\n\n(3) Without  limiting  any  further  cause  of  action  that  may  be  instituted  against  the member, the Board of the Authority shall recover any benefit derived by a member who contravenes subsection (1), in addition to the revocation of the appointment of the member.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "declaration-of-registrable-interests",
+      "section": 9,
+      "title": "Declaration of registrable interests",
+      "plainLanguage": "Board members must declare any relevant interests to the Minister before starting their term and report any changes to the Authority. Failure to accurately disclose these interests will lead to removal from the board. This ensures transparency and avoids conflicts of interest.",
+      "rawText": "12.    (1) Each member of the Board shall, prior to taking office, submit to the Minister a written declaration  of  that  member's  registrable  interest  whether  directly  or  indirectly  owned  by  the member.\n\n(2) A member of the Board shall inform the Authority of any  change in respect of that member's registrable interest from the date of  the change.\n\n(3) A member who\n\n(a) without reasonable excuse fails to declare a registrable  interest, or\n\n              - (b) knowingly makes a false declaration,  contravenes subsections (1) and (2),\n\nceases to be a member of the  Board and the appointment of the member to the Board shall be revoked  by the President",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "establishment-of-committees",
+      "section": 10,
+      "title": "Establishment of committees",
+      "plainLanguage": "The Authority's Board can form committees, including people who are not on the Board, to help with its work. The Board must create Technical, Audit, and Risk committees. The Board decides who sits on these committees and what they do.",
+      "rawText": "13. (1) The Board of the Authority may establish committees consisting of members of the Board of the Authority, non-members, or both, to perform a function of the Board of the Authority.\n\n(2) A  committee  composed  of  members  and  non-members  of  the  Board  of  the Authority shall be chaired by a member of the Board of the Authority.\n\n(3) Without  limiting  subsection  (1),  the  Board  of  the Authority  shall  establish  the following committees:\n\n- (a) Technical Committee;\n\n- (b) Audit Committee; and\n\n- (c) Risk Committee.\n\n(4)  Subject to the Act, the  Board of  the Authority  shall  determine  the  composition  and functions of the committees established under subsection (3).\n\n(5) Section 12 applies to a member of a committee of the Board.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "allowances",
+      "section": 11,
+      "title": "Allowances",
+      "plainLanguage": "This section states that members of the Authority's Board and committees will receive allowances and benefits. The Minister, after consulting with the Finance Minister, must approve these payments. This ensures that board members are compensated for their time and contributions, subject to ministerial oversight.",
+      "rawText": "14. A member of the Board of the Authority and  members of a committee of the  Board of the Authority shall be paid allowances and other benefits approved by the Minister in consultation with the Minister responsible for Finance.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "policy-directives",
+      "section": 12,
+      "title": "Policy  directives",
+      "plainLanguage": "This provision allows the Minister to provide written policy guidance to the Authority's Board, which the Board must follow. However, the Minister cannot dictate technical or operational details to the Authority. This ensures ministerial oversight on policy while preserving the Authority's independence in its day-to-day operations.",
+      "rawText": "15.       (1)  The Minister may give written directives to the Board of the Authority on matters of policy in line with the object and functions of the Authority and the Board of the Authority shall comply in a manner consistent with  the effective performance of the functions of the Authority.\n\n(2)   Subsection (1) shall not  be  construed to confer  on the  Minister the power to instruct the Authority on specific technical or operational matters in relation to the object and functions of the Authority.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "independence-of-the-authority",
+      "section": 13,
+      "title": "Independence of the Authority",
+      "plainLanguage": "This provision protects the Authority's independence, ensuring it can make unbiased decisions without being influenced by other parties. The Authority is free from external control in its regulatory functions, except where the law specifies otherwise.",
+      "rawText": "16. Except as otherwise provided in this Act, the Authority shall not be subject to the direction or control of any person or authority in the exercise of its mandate and regulatory functions.\n\nAdministrative Provisions",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "appointment-of-director-general-and-deputy-director-general",
+      "section": 14,
+      "title": "Appointment of Director General and Deputy Director General",
+      "plainLanguage": "This provision states that the President will appoint a Director-General and two Deputy Directors-General for the Authority. Their job terms will be outlined in their appointment letters. The Deputy Directors-General will report to the Director-General.",
+      "rawText": "- (1)  The  President  shall,  in  accordance  with  article  195  of  the  Constitution,  appoint  a Director-General and two Deputy Directors-General  for the Authority.\n\n        - The Director General and Deputy Directors-General shall hold office on the terms and conditions specified in the letters of appointment.\n\n        - The  Deputy  Directors-General  shall  be  responsible  to  the  Director  General  in  the performance of their functions.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "functions-of-the-director-general",
+      "section": 15,
+      "title": "Functions of the Director-General",
+      "plainLanguage": "The Director-General manages the Authority's daily activities and ensures the Board's decisions are implemented. While the Director-General can delegate tasks to other officers, they are still accountable for the outcome. This ensures clear lines of responsibility within the Authority.",
+      "rawText": "- (1) The Director General\n\n- (a)  is responsible for the day-to-day administration of the affairs of the Authority; and (b)  shall ensure the implementation of the decisions of the Board of the Authority.\n\n- The Director-General may delegate a function to an officer of the Authority but shall not be relieved of the ultimate responsibility for the performance of the delegated function.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "secretary",
+      "section": 16,
+      "title": "Secretary",
+      "plainLanguage": "The President will appoint a Secretary for the Board of the Authority, based on the Board's recommendation. The Secretary is responsible for supporting the Board's operations by managing meetings, records, and information flow, as well as providing advice and carrying out other assigned duties. This ensures the Board functions efficiently and effectively.",
+      "rawText": "- (1)  The  President  shall,  on  the  recommendation  of  the  Board  of  the Authority,  and  in accordance with article 195 of the Constitution appoint an officer, not below the rank of a Deputy Director of the Authority,  as Secretary of the Board of the Authority.\n\n- The Secretary shall hold office on the terms and conditions  specified in the letter of appointment.\n\n(3)The Secretary shall\n\n            - (a) facilitate the efficient operation of the Authority's formal decision making and reporting processes;\n\n            - (b) attend meetings of the Board;\n\n            - (c) record and keep the certified minutes of all meetings of the  Board;\n\n            - (d) collect,  organise  and  distribute  to  members  of  the  Board    relevant information and documents for the purpose of  meetings of the Board;\n\n            - (e) advise the Board on matters related to memoranda and  presentations for meetings of the Board; and\n\n            - (f) perform any other function determined by the Board or by  the DirectorGeneral.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "appointment-of-other-staff",
+      "section": 17,
+      "title": "Appointment of other staff",
+      "plainLanguage": "The President appoints staff to the Authority as needed, and public officials can be transferred to assist. The Authority can also hire advisors and consultants with Board approval. The Authority manages the training and placement of its staff.",
+      "rawText": "20. (1) The President shall, in accordance with article 195 of the Constitution, appoint other staff of the Authority that are necessary for the effective and efficient performance of the functions of the Authority.\n\n        - Other  public  officers  may  be  transferred  or  seconded  to  the  Authority  or  may otherwise give assistance to the Authority.\n\n        - The Authority may, for the effective and efficient performance of the functions of the Authority, engage the services of advisors and consultants on the recommendations of the Board of the Authority.\n\n        - The Authority  shall  exercise  control  over  the  assignment,  training  and  appropriate induction of a person employed as an officer or staff of the Authority in accordance with the Scheme of Service of the Authority.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "offices-divisions-directorates-departments-or-units-of-the-authority",
+      "section": 18,
+      "title": "Offices, divisions, directorates, departments or units of the Authority",
+      "plainLanguage": "This provision allows the Authority to create internal offices and departments as needed. This helps the Authority to organize itself efficiently and effectively carry out its responsibilities. The Board of the Authority will decide on the structure that works best.",
+      "rawText": "- The Authority may establish offices, divisions, directorates, departments  or units of the Authority as determined by the Board of the Authority for the effective and efficient performance of the functions of the Authority.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "internal-audit-unit",
+      "section": 19,
+      "title": "Internal Audit Unit",
+      "plainLanguage": "This section mandates the creation of an Internal Audit Unit within the Authority to ensure financial oversight. The unit, led by an appointed Internal Auditor, will conduct regular audits and report findings to the Authority's Board, Director General, and Chairperson. This promotes transparency and accountability in the Authority's operations.",
+      "rawText": "22. (1) The Authority shall have an Internal Audit Unit in accordance with section 83 of the Public Financial Management Act, 2016 (Act 921).\n\n- The Internal Audit Unit shall be headed by an Internal Auditor who shall be appointed in accordance with the Internal Audit Agency Act, 2003 (Act 658).\n\n- The Internal Auditor is responsible for the internal audit of the Authority.\n\n- The Internal Auditor shall, subject to subsections (3) and (4) of section 16 of the Internal Audit Agency Act, 2003 (Act 658), at intervals of three months\n\n- (a) prepare and submit to the Board of the Authority a report on the internal audit carried out during the period of three months immediately preceding the preparation of the report; and\n\n(b) make recommendations in each report with respect to matters necessary for the conduct of the affairs of the Authority.\n\n(5) The Internal Auditor shall, in accordance with subsection (4) of section 16 of the Internal Audit Agency Act,  2003  (Act  658),  submit  a  copy  of  each  report  prepared  under  this  section  to  the Director General and the chairperson of the Board of the Authority.\n\n## Financial Provisions",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "funds-of-the-authority",
+      "section": 20,
+      "title": "Funds of the Authority",
+      "plainLanguage": "The Authority's funding comes from several sources, including fees and charges, government funding from Parliament, donations and gifts, and income earned from investments. Additional funds can be approved by the Minister responsible for Finance. This ensures the Authority has diverse means to support its operations.",
+      "rawText": "- The funds of the Authority include\n\n          - (a) fees, charges or any other moneys payable under this Act, or  any other enactment,\n\n          - (b) any moneys provided by Parliament,\n\n          - (c) donations, grants and gifts,\n\n          - (d) moneys derived from the investment of the Authority's  funds, and\n\n          - (e) any other moneys that are approved by the Minister  responsible for Finance.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "bank-account-of-the-authority",
+      "section": 21,
+      "title": "Bank account of the Authority",
+      "plainLanguage": "The Authority is required to have a bank account specifically for its funds. This account needs approval from the Controller and Accountant-General. This ensures that the Authority's finances are properly managed and monitored.",
+      "rawText": "- Moneys for the Authority shall be paid into a bank account opened for the purpose with the approval of the Controller  and Accountant-General.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "expenses-of-the-authority",
+      "section": 22,
+      "title": "Expenses of the Authority",
+      "plainLanguage": "This provision means the Authority is responsible for paying its own expenses. The Authority will use its own funds to cover operational costs.",
+      "rawText": "- The expenses of the Authority shall be charged on the funds of the Authority.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "exemption-from-tax",
+      "section": 23,
+      "title": "Exemption from tax",
+      "plainLanguage": "This provision exempts the Authority from paying certain taxes, as decided by the Minister of Finance with Parliament's approval. This exemption is in accordance with the Constitution and the Exemptions Act, 2022. This aims to reduce the Authority's financial burden, allowing it to focus resources on its core functions.",
+      "rawText": "- Subject to article 174 of the Constitution and the Exemptions Act, 2022 (Act 1083), the Authority is exempt from the payment of taxes that the Minister responsible for Finance may, in writing, determine with the prior approval of Parliament.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "borrowing-powers",
+      "section": 24,
+      "title": "Borrowing powers",
+      "plainLanguage": "This provision allows the Authority to borrow money from various sources, but it needs written permission from the Minister. The Authority can also use its assets as collateral to secure these loans, but again, it needs the Minister's approval.",
+      "rawText": "- (1)  Subject  to  article  181  of  the  Constitution  and  section  76  of  the  Public  Financial Management Act, 2016 (Act 921), and with the prior consent in writing of the Minister, the Authority may borrow money from a body corporate or any other person.\n\n(2) For the purposes of securing the money borrowed, the Authority may, with the prior consent in writing of the Minister, mortgage, charge or pledge a right, title or an interest in any of the properties of the Authority.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "accounts-and-audit",
+      "section": 25,
+      "title": "Accounts and audit",
+      "plainLanguage": "The Authority is required to keep financial records approved by the Auditor-General and submit them for an annual audit. The Auditor-General must then provide an audit report to both the Minister and the Authority's board within six months. The Authority's financial year mirrors that of the government.",
+      "rawText": "- (1)  The  Authority  shall  keep  books,  records,  returns  of  account  and  other  documents relevant to the accounts in the form approved by the Auditor-General.\n\n(2) The Board of the Authority shall submit the accounts of the Authority  to the AuditorGeneral for audit at the end of the financial year.\n\n(3)  The  Auditor-General  shall,  within  six  months  after  the  end  of  the  immediately preceding financial year, audit the accounts of the  Authority and forward a copy of the report to the Minister and the Board of the Authority.\n\n(4)  The  financial  year  of  the  Authority  shall  be  the  same  as  the  financial  year  of  the Government.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "annual-report-and-other-reports",
+      "section": 26,
+      "title": "Annual report and other reports",
+      "plainLanguage": "The Authority's Board must provide an annual report to the Minister, including an audit report and performance assessment. The Minister then submits this report to Parliament. The Board must also provide any other reports the Minister requests.",
+      "rawText": "- (1) The Board of the Authority shall, within thirty days after the receipt of the audit report, submit  an  annual  report  to  the  Minister,  covering  the  activities  and  operations  of  the Authority for the year to which the report relates.\n\n(2) The annual report shall include\n\n        - (a) the report of the Auditor-General;\n\n(b) an assessment of the targets of the Authority; and\n\n(c) a summary of challenges and feedback from stakeholders and recommendations to improve the efficiency and effectiveness of the Authority.\n\n(3)  The Minister shall, within thirty days after the receipt of the annual report, submit the report to Parliament with a statement that the Minister considers necessary.\n\n(4)  The  Board  of  the Authority  shall  submit  to  the  Minister  any  other  report  that  the Minister may require in writing.\n\n## Miscellaneous provisions",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "procedure-for-decision-making-by-the-authority",
+      "section": 27,
+      "title": "Procedure for decision-making by the Authority",
+      "plainLanguage": "This section details how the Board makes decisions, ensuring fairness and transparency by requiring them to publish decisions, allow public input, and provide written justifications. It also mandates a public register of Board members' financial interests to ensure accountability. The Board can also review its decisions if needed.",
+      "rawText": "30. (1) In the exercise of its function under this Act and the Electronic Communications Act, 2025 (Act …) the Board shall\n\n(a)observe reasonable standards of procedural fairness;\n\n(b)act timeously; and\n\n(c )observe the rules of natural justice when making decisions that affect a person.\n\n(2)Without limiting subsection (1), the Board shall\n\n(a)publish a matter for decision in the Gazette as considered  necessary or as required by the Electronic Communications Act, 2025 (Act …) prior to making a decision;\n\n(b)grant  a  person  who  is  or  is  likely  to  be  affected  by  a  decision    of  the  Board,  an opportunity;\n\n(i) to make a submission to the Board,\n\n(ii)to be heard by the Board, or\n\n(iii) to consult with the Board in good faith, and\n\n(c)  have  regard  to  evidence  adduced  and  matters  contained  in  a    submission  made  or received in the course of any  consultation.\n\n(d)Where the Board makes a decision, it shall\n\n(i)state in writing the reasons for the decision; and\n\n(ii)provide in accordance with its procedure; notification of  the decision to the relevant persons.\n\n(3) The Board may, on application or on its own motion, review,  rescind or vary a decision made by it or hear a matter again before  rendering a decision.\n\n## Register of interests\n\n31(1) The Director-General shall cause to be kept and maintained a Register in which shall be recorded details of\n\n          - (a) any share or debenture owned by a member of the Board;\n\n          - (b) other financial interests a member of the Board has in a  corporate body;\n\n          - (c) any public or charitable appointment or directorship held  by a member; and\n\n          - (d) any other matter required to be registered.\n\n(2) The Register shall be publicly accessible, in both physical and  electronic form.\n\n(3)The Register shall be open to the public for physical inspection  during normal working hours and subject to the payment of a fee determined by the Authority.\n\n(4) A person may\n\n(a) make a copy of the content of the Register, or\n\n(b) take an extract from the Register, at the fee that the Authority may determine.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "code-of-conduct",
+      "section": 28,
+      "title": "Code of conduct",
+      "plainLanguage": "This provision requires the Board to create a code of conduct for its members, staff, and those working with the Authority. This code must be updated regularly to keep pace with changes in communications regulations.",
+      "rawText": "32. (1) The Board shall establish within one year of the commencement of this Act, a code of conduct for members of the Board, staff and  persons whose services the Authority engages.\n\n(2) The Authority shall revise the code of conduct from time to time having regard to the changing regulatory objectives in the communications industry.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "application",
+      "section": 29,
+      "title": "Application",
+      "plainLanguage": "This law applies to the South African government. The government and all its departments must follow this law.",
+      "rawText": "33.This Act binds the Republic.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "regulations",
+      "section": 30,
+      "title": "Regulations",
+      "plainLanguage": "This section allows the Minister to create regulations for the telecom industry, including pre-approvals for services using personal data, rules for connecting communication systems, and universal service standards. It also covers emergency communications, local content requirements, and other necessary measures to implement the law effectively.",
+      "rawText": "34. The Minister may, on the advice of the Board by legislative  instrument make Regulations to\n\n          - (c) prescribe that all new telecom-related services involving the processing of personal data, including AI-powered customer service applications, shall be subject to prelicensing approval following a joint evaluation by the National Communications Authority and the Data Protection Commission;\n\n          - (d) prescribe conditions for interconnection of communication  systems;\n\n          - (e) provide  procedures  for  the  implementation  of  a  system  of    universal  service provision including the quality of service  standards;\n\n          - (f) provide procedures for the use of\n\n                - (i) network facilities,\n\n                - (ii) network services,\n\n                - (iii) application services,\n\n                - (iv) content application services,\n\n          - (g) provide procedures for an integrated framework for robust, multi-hazard emergency communications on the declaration of an emergency in accordance with law; and\n\n          - (h) provide  for  local  content  and  local  equity  participation  in  the  provision  of communication services;\n\n          - (i) provide  for  any  other  matter  necessary  for  the  effective    implementation  of  the provisions of this Act.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "interpretation",
+      "section": 31,
+      "title": "Interpretation",
+      "plainLanguage": "This section defines important terms used in the Act, such as \"Authority,\" \"Application,\" \"communications network,\" and \"user.\" These definitions clarify the meaning of these terms as they are used throughout the Act, ensuring consistent interpretation. This helps to avoid confusion and ensures everyone understands the specific meaning of these terms within the context of the law.",
+      "rawText": "35. In this Act, unless the context 'otherwise requires\n\n\"Authority\" means the National Communications Authority established under section 1;\n\n'Application'  means  any  software-based  mechanism,  digital  platform,  or  computer program that is designed to:\n\n(a) process and transmit  information or execute functions,  including  but not limited to processing, storing, displaying, or transmitting data or communications that are delivered to end users\n\n            - (b) enable  interactive  or  content-based  functionality  or  provide  interactive services, facilitate  user  engagement  or  offer  content  enhancements  such  as multimedia, informational or entertainment features in conjunction with telecommunications network\n\n            - (c) operate via digital or telecommunication infrastructure or be deployed on, or function over, networks that include traditional telecommunications or internetbased systems, thereby complementing or augmenting core voice, messaging , or data transmission services\n\n'Application services' means\n\n\"Board\" means the governing body of the Authority established under section 6;\n\n'Communication  ecosystem' means the interconnected network of individuals, organizations,  technologies,  and  information  flows  that  shape  how  messages  are produced, disseminated, and received within a specific context.\n\n\"communications  network\"  means  a  communications  network  used  to  provide  a communications service;\n\n\"communications operator\"  means  a  person  authorised  or  licensed  under  this Act  to operate a communications network;\n\n'Communication services'  means the transmission, conveyance, or routing of  voice, data, text, sound, images, video, signals, signs, intelligence or any other information by wire,  radio,  optical,  electromagnetic  systems,  or  other  means.  This  includes  but  not limited to services such as telephone services, mobile cellular services, internet access, broadcasting, satellite services, and any related ancillary services\n\n\"communications supplier\" means a person authorised or licensed under this Act to provide communications service;\n\n'Licence' means\n\n\"Minister\" means the Minister responsible for Communications;\n\n\"Universal Access Policy\" means the eligibility of\n\n- (a) a person licensed under the Electronic Communications Act, 2025 communications network; and (Act …) to operate\n\n- (b) a person licensed under the Electronic Communications Act, 2025 (Act …) to provide a  communications service;\n\nand\n\n\"user\"  means  a  customer  or  subscriber  of  a  communications    network  or  a communications  or  broadcasting  service  and    includes  a  customer  that  is  an operator of  a  communications    network  and  a  customer  that  is  a  provider  of  a communications service.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "transitional-provisions",
+      "section": 32,
+      "title": "Transitional provisions",
+      "plainLanguage": "This provision transfers all assets, liabilities, rights, and employees from the old National Communications Authority to the new one. It also ensures that any existing contracts remain in effect under the new Authority. This is to ensure a smooth transition between the old and new laws.",
+      "rawText": "36.  (1)  The  rights,  assets  and  liabilities  accrued  in  respect  of  the  properties    vested  in  the Authority  established  under  the  National  Communications    Authority  Act  2008  (Act  769) immediately before the commencement of  this Act and the persons employed by the Authority shall be transferred  to the Authority established under this Act  and accordingly proceedings taken by or against the former Authority  may be continued by or against the Authority.\n\n(2) A  contract  subsisting  between  the  former Authority  established    under  the  National Communications Authority, 2008 (Act 679) and  another person and in effect immediately before the commencement of  this Act shall subsist between the Authority under this Act and that other person.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "repeal-and-savings",
+      "section": 33,
+      "title": "Repeal and savings",
+      "plainLanguage": "This section replaces the old National Communications Authority Act but ensures that current licenses and regulations remain in effect until reviewed. It also details what information the Authority needs to include in its yearly report, such as performance, finances, and governance practices. This ensures transparency and accountability in the Authority's operations.",
+      "rawText": "37. (1) The National Communications Authority Act, 2008 (Act 769)  is hereby repealed.\n\n(2) Despite the repeal of Act 769 any licence, frequency,  authorisation, Regulation, notice, order, direction, appointment or any  other act lawfully made or done under the repealed enactment and in force  immediately before the commencement of this Act shall be considered to  have been made  or  done  under  this Act  and  shall  continue  to  have  effect    until  reviewed,  cancelled  or terminated.\n\n## SCHEDULE\n\n## FORM AND CONTENT OF ANNUAL REPORT\n\n(Section 29)\n\n| Ref. | Part of Report | Description |\n| --- | --- | --- |\n| 1 2 3 4 5 6 6.1 6.2 6.3 6.4 6.5 6.6 7 | Review by the Board Report on Policy | Table of contents Index Glossary Contact officer(s) Internet home page address and Internet address for report Review by the board Overview description of Authority Role and functions Summary of significant issues and de- velopment Organisational structure Overview of the Authority's performance and financial results Significant issues and development Outlook for the following year Review of adherence and implementation of policy objec- |\n\n|  | Objectives | tives and measurements of achievement in period. |\n| --- | --- | --- |\n| 8 | Report on Performance | Review of performance during the year in relation to out- puts and contribution to outcomes |\n| 8.1 |  | Actual performance in relation to performance targets set in the preceding year |\n| 8.2 |  | Where performance targets differ from those set in the pre- ceding year details of both former and new targets, and reason for the change |\n| 8.3 |  | Narrative discussion and analysis of performance |\n| 8.4 |  | Trend information |\n| 8.5 |  | Factors, events or trends influencing the Authority's per- formance |\n| 8.6 |  | Significant changes in nature of principal functions/services |\n| 8.7 |  | Performance against service charter customer service stan- dards, complaints data, and the Authority's response to complainsts |\n| 8.8 |  | Social justice and equity impacts |\n| 8.9 |  | Discussion and ananlysis of the Authority's financial per- formance |\n| 8.10 |  | Discussion of any significant changes from the prior year or from budget |\n\n| Ref. | Part of Report | Description |\n| --- | --- | --- |\n| 8.11 |  | Summary of resource tables by outcomes |\n| 8.12 |  | Developments since the end of the financial year that have affected or may significantly affect the Authority's operations or financial results in future |\n| 9 | Interconnection | Number of interconnection agreements submitted to the Authority's and the names of parties to the |\n|  | Agreements |  |\n|  | Licences and | Agreements Applications for licences received and number of Ii censes granted and names of beneficiaries, license revoked or suspended. |\n| 10 | Authorisations |  |\n| 11 | Numbers issued |  |\n| 12 | Frequencies issued |  |\n| 13 | Fees collected |  |\n| 14 | Management Accountability |  |\n| 15 | Corporate Governance | Statement of the main corporate governance practice in place |\n| 15.1 |  | Names of the senior executives and their responsibilities |\n| 15.2 |  | Senior management committees and their roles |\n| 15.3 |  | Board Committees established or in existence and their roles |\n| 15.4 |  | Corporate and operational planning and associated performance reporting and review |\n\n| 15.5 |  | Approach adapted to identifying areas of significant financial or operational risk and arrangements in place to manage risks |\n| --- | --- | --- |\n| 15.6 |  | Certification of fraud measures in place |\n| 15.7 |  | Policy and practices and the establishment and maintenance of appropriate ethical standards |\n| 15.8 |  | How nature and amount of remuneration far senior executive service employees is determined |\n| 16 16.1 | External Scrutiny | Code of conduct far directors any change Significant developments in external scrutiny Judicial decisions and decisions of the Telecornmunications Tribunal |\n| 16.2 |  | Reports by the Auditor-General, Parliamentary Committee or other competent government body |\n| Ref. | Part of Report | Description |\n| 17 | Management of Human Resources | Assessment of effectiveness in managing and developing human resources to achieve, staff turnover and retention |\n| 17.1 |  | Workforce planning, staff turnover and retention |\n| 17.2 |  | Training and development undertaken and their im- pact |\n| 17.3 17.4 |  | Occupational health and safety performance Productivity gains |\n| 17.5 17.6 |  | Statistics on staffing Performance pay |\n| 18 | Purchasing | Assessment of purchasing against core policies and principles |\n| 19 | Assets management | Assessment of effectiveness of assets management |\n| 20 | Consultants and Competitive Tendering and Contracting | Number and nature of consultancy services and con- tracts and total expenditure on consultancy services. |\n| 20.1 20.2 |  | Competitive tendering and contracting contracts awarded and outcomes For all contracts indication of how the provisions |\n| 21 | Providing access to people with disabilities | Report on performance in implementing the Disability Strategy or ensuring compliance with the Disability Act. |\n| 22 23 | Financial Statements Other Information | Audited Financial Statements |\n| 23.1 23.3 |  | Occupational health and safety Freedom of Information Advertising and Market Research |\n| 23.2 |  |  |\n| 23.4 |  | Ecologically sustainable development and environmental performance |\n| 24 |  | Research sponsored and effect Human Resource Capacity holding initiatives |\n|  |  | and outcomes |\n| 24.1 | Other | Discretionary Grants Correction of material errors in previous annual report |\n\n*Date of Gazette",
+      "relatedImpacts": [
+        "business"
+      ]
+    }
+  ],
+  "notebookLMVideo": {
+    "url": "",
+    "duration": "10:00"
+  },
+  "deadline": "2025-12-31",
+  "submissionMethod": "Email to clerk@parliament.gov.gh",
+  "relatedBills": []
+}

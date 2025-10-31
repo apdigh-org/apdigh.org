@@ -1,0 +1,1297 @@
+{
+  "id": "4-electronic-transactions-amendment-bill",
+  "title": "Electronic Transactions (Amendment) Bill",
+  "summary": "The Electronic Transactions (Amendment) Bill fundamentally transforms Ghana's digital legal framework by establishing comprehensive rules for electronic commerce, government digitalization, and online platform regulation. The bill grants full legal recognition to electronic records, signatures, and transactions, requiring public agencies to accept digital filings and payments while allowing the official Gazette to be published electronically with the same legal effect as print versions.\n\n**Digital Business Environment & Licensing Requirements**: The bill creates a mandatory licensing regime for authentication and encryption service providers, administered by the National Information Technology Agency (NITA). Licensed entities must maintain **liability insurance of at least GHS 10,000,000** and face strict liability for losses from fraudulent certificates or failure to revoke compromised credentials. The licensing system includes non-transferable licenses, mandatory audits, and penalties of **up to 5,000 penalty units per day plus 2 years imprisonment** for directors who fail to surrender revoked licenses within 24 hours. These requirements create significant barriers to entry for digital service providers while establishing accountability mechanisms.\n\n**Platform Regulation & Content Moderation**: The bill introduces substantial new obligations for large online platforms and search engines, requiring **annual risk assessments** for harmful content including disinformation, hate speech, and illegal content, with **biennial independent audits** and public reporting. Platforms must provide **algorithmic disclosure** explaining how their recommendation systems work and allow users to opt out of personalized recommendations. **Child protection provisions** mandate age verification for services accessible to children and prohibit using children's personal data for targeted advertising. While these measures aim to enhance online safety and transparency, they impose significant compliance costs and raise questions about how \"large platforms\" will be defined and whether Ghanaian platforms face competitive disadvantages compared to foreign services.\n\n**Critical Infrastructure & National Security Powers**: The bill grants the Minister **broad authority to designate computer systems as \"protected\"** and electronic records as \"critical\"** based on national security or public welfare considerations. Unauthorized access to protected systems becomes a criminal offense, and critical databases must be registered with detailed information about their management and contents. The Minister can order audits of ICT infrastructure and restrict disclosure of information from critical database registers. **These provisions concentrate significant power in ministerial discretion** with limited oversight mechanisms, potentially affecting businesses operating essential services or handling sensitive data. The National Security Council can take unspecified actions based on audit findings, creating uncertainty for affected entities.\n\n**Consumer Protections & Privacy Safeguards**: The bill establishes strong consumer rights including **14-day cooling-off periods for goods and 7-day periods for services** purchased electronically, mandatory disclosure requirements for e-commerce transactions, and protection from liability for unauthorized use of electronic payment methods. It prohibits financial institutions from sharing customer payment information without consent (with criminal penalties) and bans unsolicited electronic communications without opt-in consent. Service providers gain safe harbor protections when acting as mere conduits, but must implement takedown procedures for copyright infringement and cannot be required to actively monitor private communications except under court order. The bill balances innovation with consumer protection, though the extraterritorial jurisdiction provisions (applying to anyone, anywhere who commits offenses under the Act) may create enforcement challenges and international friction.",
+  "pdfPath": "pdfs/4. Electronic Transactions (Amendment) Bill.pdf",
+  "impacts": {
+    "innovation": {
+      "score": "high-positive",
+      "description": {
+        "score": "high-positive",
+        "analysis": "The Electronic Transactions (Amendment) Bill represents a transformative advancement for digital innovation in Ghana by establishing comprehensive legal recognition for electronic transactions and creating the foundational infrastructure for a digital economy. The bill's most significant contribution is removing legal uncertainty that has historically impeded digital innovation—by granting electronic records, signatures, and contracts the same legal status as their paper equivalents, the legislation enables innovators to build digital-first solutions without fear that their transactions will be legally invalid. The provisions requiring government agencies to accept electronic filings and payments create a powerful forcing function for public sector digitalization, which will drive demand for innovative digital services and establish Ghana as a regional leader in e-government. The safe harbor protections for intermediaries operating as mere conduits, hosting providers, and information location tools are particularly crucial, as they allow platforms and digital service providers to innovate without bearing unlimited liability for user-generated content, following international best practices that have enabled the growth of the global digital economy.\n\nHowever, the bill introduces several provisions that could constrain certain forms of digital innovation through regulatory uncertainty and severe penalties. The licensing regime for authentication and encryption service providers, while establishing accountability, creates barriers to entry with its GHS 10 million insurance requirement and draconian penalties for license surrender violations—up to 5,000 penalty units per day plus two years imprisonment for directors. These provisions may discourage entrepreneurs from entering the digital identity and security space, potentially limiting innovation in critical infrastructure areas. More concerning are the broad ministerial powers to designate computer systems as \"protected\" and the National Security Council's authority to take unspecified actions based on audit findings, which create regulatory unpredictability that could chill innovation in sectors deemed sensitive. The severe criminal penalties for unsolicited electronic communications (up to 10 years imprisonment) may also have unintended consequences for legitimate digital marketing innovation and startup growth strategies.\n\nOn balance, the bill's impact on digital innovation is strongly positive because it addresses the most fundamental barrier—legal recognition—while establishing clear rules that enable entrepreneurs and businesses to build with confidence. The recognition of foreign certifying authorities facilitates international collaboration and cross-border digital commerce, positioning Ghana as an attractive destination for regional digital innovation hubs. The consumer protection provisions, including cooling-off periods and consent requirements for electronic communications, build trust in digital channels that will ultimately expand the market for innovative digital services. While the compliance burdens and discretionary government powers introduce friction, they are targeted at specific activities (authentication services, protected systems, spam) rather than digital innovation broadly. The bill creates a legal environment where digital innovation can flourish, though innovators in regulated sectors will need to navigate new compliance requirements and regulatory uncertainties."
+      },
+      "relatedProvisions": [
+        "scope-of-act",
+        "recognition-of-electronic-message",
+        "original-writing",
+        "admissibility-and-evidential-weight-of-electronic-records",
+        "retention-of-electronic-records",
+        "secure-electronic-record",
+        "digital-and-electronic-signatures",
+        "equal-treatment-of-digital-and-electronic-signatures",
+        "signing-of-an-electronic-record",
+        "conduct-of-a-person-relying-on-a-digital-or-electronic-signature",
+        "recognition-of-digital-certificates-and-digital-and-electronic-signatures",
+        "notarisation-acknowledgement-and-certification",
+        "other-requirements",
+        "automated-transactions-or-decision-making",
+        "despatch-of-electronic-record",
+        "receipt-of-electronic-record",
+        "expression-of-intent-or-other-statement",
+        "attribution-of-electronic-records-to-originator",
+        "acknowledgement-of-receipt-of-electronic-record",
+        "formation-and-validity-of-agreements",
+        "variation-by-agreement-between-parties",
+        "acceptance-of-electronic-filing-and-issuing-of-documents",
+        "public-agency-and-electronic-records",
+        "publication-in-electronic-format",
+        "prohibited-acts",
+        "provision-of-authentication-encryption-services",
+        "certifying-agency",
+        "functions-of-the-certifying-agency",
+        "revocation-or-suspension-of-licence",
+        "surrender-of-licence",
+        "recognition-of-foreign-certifying-authorities",
+        "repository-of-digital-and-electronic-signatures",
+        "register-of-licence-holders",
+        "application-for-licence",
+        "grant-of-licence",
+        "display-of-licence",
+        "duties-of-licensed-entities",
+        "procedure-for-grant-or-rejection-of-renewal-of-licence",
+        "notification-of-adverse-event",
+        "procedures-to-be-followed-by-licensed-person",
+        "information-to-be-provided",
+        "performance",
+        "grace-period",
+        "unsolicited-goods-services-or-communications",
+        "liability-for-misuse-of-electronic-payment-medium",
+        "protected-computer",
+        "identification-of-critical-electronic-record-and-critical-databases",
+        "scope-of-critical-database-protection",
+        "registration-of-critical-databases",
+        "restrictions-on-disclosure-of-information",
+        "audits",
+        "non-compliance-with-act",
+        "establishment-of-the-information-communication-technology-tribunal",
+        "composition-of-the-tribunal",
+        "appeals-against-decisions-of-the-agency",
+        "decision-of-tribunal",
+        "establishment-of-industry-forum",
+        "industry-code",
+        "mere-conduit",
+        "electronic-record-transmission",
+        "hosting",
+        "information-location-tools",
+        "take-down-notification",
+        "monitoring-and-compliance",
+        "risk-assessments-and-mitigation",
+        "transparency-obligations",
+        "protection-of-children",
+        "due-diligence-obligations",
+        "limitations-and-prohibited-acts",
+        "savings",
+        "territorial-scope-of-offences-under-this-act",
+        "regulations",
+        "interpretation"
+      ]
+    },
+    "privacy": {
+      "score": "medium-positive",
+      "description": {
+        "score": "medium-positive",
+        "analysis": "The Electronic Transactions (Amendment) Bill introduces a mixed but ultimately moderately positive framework for privacy and data rights in Ghana. The legislation establishes robust consumer privacy protections in the commercial sphere, particularly through provisions prohibiting financial institutions from sharing customer payment information without explicit written consent, backed by criminal penalties of up to 2,500 penalty units or five years imprisonment for directors who fail to ensure compliance. The bill also protects the privacy of electronic communications by restricting service providers from divulging communication contents except under specific lawful circumstances, including with user consent, by court order, or when inadvertently discovering evidence of crime. These provisions create a strong baseline of privacy protection for ordinary Ghanaians engaging in digital commerce and communications.\n\nThe bill's child protection provisions represent a significant advancement in privacy rights for minors, prohibiting the use of children's personal data for targeted advertising and requiring robust age verification mechanisms for services likely to be accessed by children. These measures address growing concerns about the exploitation of children's data by digital platforms and align Ghana with international best practices in child online safety. Combined with the broader restrictions on unsolicited electronic communications requiring opt-in consent, the bill establishes a privacy-protective framework for consumer interactions in the digital economy.\n\nHowever, these positive consumer protections are partially offset by concerning national security provisions that grant the Minister broad authority to designate databases as \"critical\" and require their registration with detailed information about locations and contents. The audit powers allowing ministerial orders for ICT infrastructure inspections, combined with provisions enabling the National Security Council to take unspecified actions based on audit findings, create potential pathways for government surveillance and data access with limited oversight mechanisms. While the consumer privacy protections will benefit the broader population in their daily digital activities, businesses and organizations handling sensitive data face new compliance burdens and potential government scrutiny. The net effect is moderately positive because the concrete consumer protections outweigh the more discretionary national security provisions in terms of immediate impact on most Ghanaians' privacy rights, though the latter creates legitimate concerns about potential overreach that will require careful monitoring during implementation."
+      },
+      "relatedProvisions": [
+        "original-writing",
+        "retention-of-electronic-records",
+        "secure-electronic-record",
+        "digital-and-electronic-signatures",
+        "signing-of-an-electronic-record",
+        "automated-transactions-or-decision-making",
+        "attribution-of-electronic-records-to-originator",
+        "prohibited-acts",
+        "functions-of-the-certifying-agency",
+        "recognition-of-foreign-certifying-authorities",
+        "repository-of-digital-and-electronic-signatures",
+        "register-of-licence-holders",
+        "restrictions-on-disclosure-of-information",
+        "grant-of-licence",
+        "duties-of-licensed-entities",
+        "notification-of-adverse-event",
+        "procedures-to-be-followed-by-licensed-person",
+        "information-to-be-provided",
+        "unsolicited-goods-services-or-communications",
+        "liability-for-misuse-of-electronic-payment-medium",
+        "electronic-payment-medium-lists-prohibited",
+        "non-exclusion",
+        "protected-computer",
+        "identification-of-critical-electronic-record-and-critical-databases",
+        "scope-of-critical-database-protection",
+        "registration-of-critical-databases",
+        "restrictions-on-disclosure-of-information",
+        "audits",
+        "non-compliance-with-act",
+        "composition-of-the-tribunal",
+        "mere-conduit",
+        "monitoring-and-compliance",
+        "risk-assessments-and-mitigation",
+        "transparency-obligations",
+        "protection-of-children",
+        "due-diligence-obligations",
+        "limitations-and-prohibited-acts",
+        "savings",
+        "interpretation"
+      ]
+    },
+    "business": {
+      "score": "high-positive",
+      "description": {
+        "score": "high-positive",
+        "analysis": "The Electronic Transactions (Amendment) Bill fundamentally transforms Ghana's business environment by establishing a comprehensive legal framework for digital commerce that will enable businesses to operate efficiently in the digital economy. The bill's core provisions granting full legal recognition to electronic records, signatures, and contracts remove longstanding barriers to electronic commerce and create legal certainty for digital transactions. Businesses can now confidently conduct transactions electronically, knowing that digital agreements have the same legal standing as paper-based contracts. The requirement that public agencies accept electronic filings, issue digital permits and licenses, and receive electronic payments modernizes government-business interactions and reduces the time and cost associated with regulatory compliance. The safe harbor protections for intermediaries operating as mere conduits, hosting providers, or information location tools encourage the development of digital platforms and services by limiting liability for user-generated content, fostering innovation in Ghana's digital economy.\n\nHowever, the bill simultaneously introduces significant regulatory burdens and risks that will constrain certain business activities and create compliance challenges. The mandatory licensing regime for authentication and encryption service providers imposes substantial barriers to entry, requiring GHS 10,000,000 in liability insurance and subjecting providers to strict liability for losses from fraudulent certificates. The draconian penalties for failing to surrender revoked licenses—up to 5,000 penalty units per day plus two years imprisonment for directors—create severe personal liability risks that may deter entrepreneurs from entering this sector. The provisions on unsolicited electronic communications, while protecting consumers, impose criminal penalties of up to ten years imprisonment for violations, which could affect legitimate marketing activities and create legal uncertainty for businesses engaging in email marketing or customer outreach. These provisions require businesses to implement robust consent management systems and maintain detailed records of customer permissions, adding compliance costs.\n\nThe most significant business environment concern stems from the broad ministerial powers to designate computer systems as \"protected\" and electronic records as \"critical\" based on national security or public welfare considerations. Businesses operating in sectors like banking, utilities, communications infrastructure, or public transportation face the risk that their systems could be designated as protected, making unauthorized access a criminal offense and subjecting them to mandatory registration requirements and government audits. The Minister's authority to order audits of ICT infrastructure and the National Security Council's power to take unspecified actions based on audit findings create regulatory uncertainty and potential for arbitrary enforcement. While these provisions aim to protect critical infrastructure, they concentrate significant discretionary power in government hands with limited oversight mechanisms, potentially affecting business operations and investment decisions in strategic sectors. Overall, the bill creates a more favorable environment for digital commerce while introducing targeted regulatory constraints that businesses in specific sectors must carefully navigate."
+      },
+      "relatedProvisions": [
+        "scope-of-act",
+        "recognition-of-electronic-message",
+        "original-writing",
+        "admissibility-and-evidential-weight-of-electronic-records",
+        "retention-of-electronic-records",
+        "secure-electronic-record",
+        "digital-and-electronic-signatures",
+        "equal-treatment-of-digital-and-electronic-signatures",
+        "signing-of-an-electronic-record",
+        "conduct-of-a-person-relying-on-a-digital-or-electronic-signature",
+        "recognition-of-digital-certificates-and-digital-and-electronic-signatures",
+        "notarisation-acknowledgement-and-certification",
+        "other-requirements",
+        "automated-transactions-or-decision-making",
+        "despatch-of-electronic-record",
+        "receipt-of-electronic-record",
+        "expression-of-intent-or-other-statement",
+        "attribution-of-electronic-records-to-originator",
+        "acknowledgement-of-receipt-of-electronic-record",
+        "formation-and-validity-of-agreements",
+        "variation-by-agreement-between-parties",
+        "acceptance-of-electronic-filing-and-issuing-of-documents",
+        "public-agency-and-electronic-records",
+        "publication-in-electronic-format",
+        "prohibited-acts",
+        "provision-of-authentication-encryption-services",
+        "certifying-agency",
+        "functions-of-the-certifying-agency",
+        "revocation-or-suspension-of-licence",
+        "surrender-of-licence",
+        "recognition-of-foreign-certifying-authorities",
+        "repository-of-digital-and-electronic-signatures",
+        "register-of-licence-holders",
+        "restrictions-on-disclosure-of-information",
+        "application-for-licence",
+        "grant-of-licence",
+        "display-of-licence",
+        "duties-of-licensed-entities",
+        "procedure-for-grant-or-rejection-of-renewal-of-licence",
+        "notification-of-adverse-event",
+        "procedures-to-be-followed-by-licensed-person",
+        "information-to-be-provided",
+        "performance",
+        "grace-period",
+        "unsolicited-goods-services-or-communications",
+        "liability-for-misuse-of-electronic-payment-medium",
+        "electronic-payment-medium-lists-prohibited",
+        "applicability-of-foreign-law",
+        "protected-computer",
+        "identification-of-critical-electronic-record-and-critical-databases",
+        "scope-of-critical-database-protection",
+        "registration-of-critical-databases",
+        "management-of-critical-databases",
+        "restrictions-on-disclosure-of-information",
+        "audits",
+        "non-compliance-with-act",
+        "establishment-of-the-information-communication-technology-tribunal",
+        "composition-of-the-tribunal",
+        "appeals-against-decisions-of-the-agency",
+        "decision-of-tribunal",
+        "appeals-against-the-decisions-of-the-tribunal",
+        "establishment-of-industry-forum",
+        "industry-code",
+        "mere-conduit",
+        "electronic-record-transmission",
+        "hosting",
+        "information-location-tools",
+        "take-down-notification",
+        "monitoring-and-compliance",
+        "risk-assessments-and-mitigation",
+        "transparency-obligations",
+        "protection-of-children",
+        "due-diligence-obligations",
+        "savings",
+        "territorial-scope-of-offences-under-this-act",
+        "regulations",
+        "interpretation",
+        "repeals-and-savings",
+        "transitional-provisions"
+      ]
+    },
+    "freedomOfSpeech": {
+      "score": "neutral",
+      "description": null,
+      "relatedProvisions": [
+        "publication-in-electronic-format",
+        "unsolicited-goods-services-or-communications",
+        "protected-computer",
+        "identification-of-critical-electronic-record-and-critical-databases",
+        "scope-of-critical-database-protection",
+        "registration-of-critical-databases",
+        "restrictions-on-disclosure-of-information",
+        "non-compliance-with-act",
+        "mere-conduit",
+        "electronic-record-transmission",
+        "hosting",
+        "information-location-tools",
+        "take-down-notification",
+        "monitoring-and-compliance",
+        "risk-assessments-and-mitigation",
+        "transparency-obligations",
+        "protection-of-children",
+        "limitations-and-prohibited-acts"
+      ]
+    }
+  },
+  "keyConcerns": [
+    {
+      "id": "criminal-imprisonment-for-administrative-license-surrender-delays",
+      "title": "Criminal Imprisonment for Administrative License Surrender Delays",
+      "severity": "critical",
+      "description": "Directors face up to 2 years imprisonment and unlimited escalating fines (5,000 penalty units per day) for failing to physically surrender a revoked license within 24 hours—with no defenses for reasonable excuse or procedural errors. This criminalizes an administrative compliance matter with penalties far exceeding democratic norms, creating severe personal liability that will deter qualified professionals from serving as directors of digital service providers and undermining Ghana's ability to build robust authentication and encryption infrastructure.",
+      "relatedProvisions": [
+        "surrender-of-licence"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "ten-years-prison-for-sending-spam",
+      "title": "Ten Years Prison for Sending Spam",
+      "severity": "critical",
+      "description": "This provision imposes up to 10 years imprisonment for sending unsolicited commercial emails or text messages—treating spam as seriously as violent crimes. Most democratic countries handle this as a civil matter with fines, not criminal imprisonment. This grossly disproportionate penalty will chill legitimate digital marketing and email communications, particularly harming startups and small businesses who may avoid email marketing entirely due to fear of criminal prosecution for compliance errors.",
+      "relatedProvisions": [
+        "unsolicited-goods-services-or-communications"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "ministerial-power-to-criminalize-system-access",
+      "title": "Ministerial Power to Criminalize System Access",
+      "severity": "high",
+      "description": "The Minister can unilaterally declare any computer system \"protected\" through Gazette notification, making unauthorized access a crime punishable by up to 10 years imprisonment—without defined criteria, oversight, or appeal rights. Businesses cannot reliably determine whether their systems might be designated without warning, creating severe regulatory uncertainty. The flat 10-year penalty applies equally to accidental access attempts and malicious intrusions, exceeding proportionality standards in comparable democracies (UK: 2 years; US: graduated 1-10 years based on intent).",
+      "relatedProvisions": [
+        "protected-computer"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "unlimited-ministerial-power-over-business-data",
+      "title": "Unlimited Ministerial Power Over Business Data",
+      "severity": "high",
+      "description": "The Minister can unilaterally declare any business information \"critical\" based on vague criteria like \"economic well-being\" without parliamentary oversight or judicial review. Companies cannot predict which systems will be designated or what restrictions will follow, creating fundamental uncertainty for any business handling data. This blank-check authority enables arbitrary classification of databases and systems as subject to government control.",
+      "relatedProvisions": [
+        "identification-of-critical-electronic-record-and-critical-databases"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "unsecured-government-database-of-critical-infrastructure",
+      "title": "Unsecured Government Database of Critical Infrastructure",
+      "severity": "high",
+      "description": "This provision requires organizations to register their \"critical databases\" with the government, disclosing administrator details, physical locations, and data categories, but provides no safeguards for how this sensitive registry will be secured or who can access it. The Minister has unlimited discretion to determine what qualifies as \"critical\" and set registration requirements without parliamentary oversight or appeal rights. This creates a centralized government map of Ghana's most sensitive data infrastructure that could facilitate surveillance, selective enforcement, or become a high-value target for cyberattacks if compromised.",
+      "relatedProvisions": [
+        "registration-of-critical-databases"
+      ],
+      "relatedImpacts": []
+    }
+  ],
+  "provisions": [
+    {
+      "id": "application",
+      "section": 4,
+      "title": "Application",
+      "plainLanguage": "This law covers all types of electronic transactions and records. This means that any digital agreement or documentation falls under the rules outlined in this Act.",
+      "rawText": "2. This Act applies to electronic transactions and electronic records of every type.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "scope-of-act",
+      "section": 5,
+      "title": "Scope of Act",
+      "plainLanguage": "This law ensures that existing laws still apply to electronic transactions and records. It doesn't force anyone to use electronic methods, nor does it stop them from setting their own rules for accepting electronic documents. Also, this law does not override any other laws that already address the use of electronic records.",
+      "rawText": "3. (1) This Act shall not be interpreted so as to exclude statutory law or the principles of the common law being applied to, recognising or accommodating electronic transactions, electronic records or any other matter provided for in this Act.\n\n(2) Unless otherwise provided, this Act shall not be construed as\n\n        - (a) requiring a person to generate, communicate, produce,  process, send, receive, record, retain, store or display information, document or signature by or in electronic form; or\n\n        - (b) prohibiting a person from establishing requirements in respect of the manner in which that person will accept electronic records.\n\n(3) This  Act  does  not  limit  the  operation  of  law  that  expressly authorises, prohibits or regulates the use of electronic records and any legal  requirement  law  for  information  to  be  posted,  displayed  or transmitted in a specified manner.\n\n## Electronic transactions",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "recognition-of-electronic-message",
+      "section": 6,
+      "title": "Recognition of electronic message",
+      "plainLanguage": "This provision updates legal requirements for written documents to include electronic formats. If a law requires something to be in writing, it can now be provided electronically as long as it's accessible and can be saved. This makes it easier to comply with laws in the digital age.",
+      "rawText": "4. Except as provided in this Act, where a law provides that information or any  other  matter  shall  be  in  writing,  typewritten  or  in  printed  form,  the requirement shall be deemed to have been satisfied if the information or matter is\n\n        - (a) rendered or made available in an electronic form,\n\n        - (b) accessible, and\n\n        - (c) capable of being retained for a subsequent reference despite the contrary intention in the law.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "original-writing",
+      "section": 7,
+      "title": "Original writing",
+      "plainLanguage": "This provision states that electronic records can fulfill legal requirements for original documents if their integrity is reliably assured. Integrity is determined by ensuring the information is complete, unaltered, and assessed based on the circumstances in which it was created. This allows for the use of electronic documents in situations where original documents are legally required.",
+      "rawText": "5. (1) Where a law requires information to be presented or retained in its original  form, the requirement shall  be deemed to have been satisfied by an electronic record if\n\n        - (a) there is reliable assurance of the integrity of the electronic record, and\n\n(2) The criteria to assess integrity shall be whether the information has remained complete and unaltered and the information shall be assessed taking into consideration the relevant circumstances for which the information was generated to determine the standard of reliability.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "admissibility-and-evidential-weight-of-electronic-records",
+      "section": 8,
+      "title": "Admissibility and evidential weight of electronic records",
+      "plainLanguage": "This provision ensures that electronic records are generally admissible as evidence in court. When evaluating the credibility of electronic evidence, the court will consider factors such as how reliably the record was created, stored, and maintained, as well as how the originator was identified. This helps the court determine how much weight to give the electronic record as evidence.",
+      "rawText": "6. (1)  The  admissibility  of  an  electronic  record  shall  not  be  denied  as evidence in legal proceedings except as provided in this Act.\n\n(2) In assessing the evidential weight of an electronic record the Court shall have regard to\n\n        - (a) the reliability of the manner in which the electronic record was generated, displayed, stored or communicated,\n\n        - (b) the  reliability  of  the  manner  in  which  the    integrity  of  the information was maintained,\n\n        - (c) the manner in which its originator was identified, and\n\n        - (d) any other facts that the Court may consider relevant.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "retention-of-electronic-records",
+      "section": 9,
+      "title": "Retention of electronic records",
+      "plainLanguage": "This provision allows documents, records, and information to be retained electronically instead of physically, as long as they are accessible, can be kept for future use, and accurately reflect the original information. These electronic records must be kept for at least six years, and the system must be able to identify where the record came from and when it was sent or received. Information used only to send or receive a message does not need to be retained.",
+      "rawText": "7. (1) Where a law requires that a document, record or information shall be retained, that requirement is deemed to have been met if the document, record or information is held in electronic form and\n\n        - (a) is accessible,\n\n        - (b) is capable of retention for subsequent reference,\n\n        - (c) is  retained  in  the  format  in  which  it  was  generated,  sent  or received, or in a format which can be demonstrated to represent accurately the information generated, sent or received, and\n\n        - (d) is retained to enable the identification of the origin  and destination of the electronic record and the date and time when it was sent or received.\n\n(2) The document, record or information shall be kept in electronic form for at least six years.\n\n(3) An obligation to retain a document, record or information does not extend to information which is only to enable the message to be sent or received.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "secure-electronic-record",
+      "section": 10,
+      "title": "Secure electronic record",
+      "plainLanguage": "This section defines a secure electronic record as one with a security procedure applied to it. Tampering with the security measures without authorization makes the record invalid. Essentially, it ensures the integrity and reliability of electronic records by protecting them from unauthorized modification.",
+      "rawText": "8. (1) Where a security procedure has been applied to an electronic record at a specific point in time, the record is deemed to be a secure electronic record during the period when the security procedure was applied.\n\n(2) An unauthorised alteration of the security procedure renders the record invalid.\n\n(3) An alteration is unauthorised if it is done by a person without the  lawful  authority  of  the  person  who  originally  applied  the  security procedure.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "digital-and-electronic-signatures",
+      "section": 11,
+      "title": "Digital and electronic signatures",
+      "plainLanguage": "This provision makes digital and electronic signatures legally equivalent to traditional signatures. For a digital or electronic signature to be considered valid, it must be verifiably linked to the person signing and secured against tampering. Issuing authorities must use strict identity checks, including biometrics, before issuing digital signature certificates.",
+      "rawText": "9. (1) Where a law requires the signature of a person, that requirement is deemed to be satisfied in relation to an electronic record if a digital or electronic signature is used.\n\n      - A digital or electronic signature is deemed to be authentic if\n\n        - (a) the means of creating the digital or electronic signature is, within the context in which it is used, linked to the signatory and not to another person,\n\n        - (b) the means of creating the digital or electronic signature was, at the time of signing, under the control of the signatory and not another person without duress or undue influence,\n\n        - (c) an alteration to the digital or electronic signature, made after the time of signing, is detectable\n\n      - Subsection (2) does not limit the right of a person\n\n        - (a) to prove the authenticity of a digital or electronic signature in any other way,  or\n\n        - (b) to adduce evidence in respect of the non-authenticity of a digital or electronic signature.\n\n- Digital and electronic signature certificates shall be issued only upon the conduct of rigorous identity verification, including but not limited to biometric authentication and validation against a national identification  database,  in  accordance  with  the  provisions  of  the National Identification Authority Act, 2006 (Act 707), any Regulations made thereunder, or any other applicable enactments for the time being in force.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "equal-treatment-of-digital-and-electronic-signatures",
+      "section": 12,
+      "title": "Equal treatment of digital and electronic signatures",
+      "plainLanguage": "This provision ensures that digital and electronic signatures are legally valid and treated the same as traditional signatures. It confirms that the law does not prevent the use of any digital or electronic signature method that meets legal or contractual requirements. This encourages the adoption of electronic signatures in various transactions.",
+      "rawText": "10. Except as provided in this Act, the provisions of this Act do not exclude, restrict,  or  deprive  of  legal  effect,  any  method  of  creating  a  digital  or electronic signature which\n\n      - (a) satisfies the requirements of this Act,\n\n      - (b) meets the requirements of other statutory provision, or\n\n      - (c) is provided for under a contract.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "signing-of-an-electronic-record",
+      "section": 13,
+      "title": "Signing of an electronic record",
+      "plainLanguage": "This provision allows people to sign electronic documents using digital signatures or other secure methods. These methods must be agreed upon by all parties involved or be recognized as safe and reliable within the industry. This makes it easier to legally sign documents electronically.",
+      "rawText": "11. A person may sign an electronic record by affixing a personal digital or electronic  signature  or  using  any  other  recognised,  secure  and  verifiable mode of signing agreed by the parties or recognised by the industry to be safe, reliable and acceptable.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "conduct-of-a-person-relying-on-a-digital-or-electronic-signature",
+      "section": 14,
+      "title": "Conduct of a person relying on a digital or electronic signature",
+      "plainLanguage": "If you use a digital or electronic signature, you must take reasonable steps to confirm it's real and valid. If you don't, you'll be legally responsible for any problems that arise. This means users can't blindly trust digital signatures and must verify their authenticity.",
+      "rawText": "12 . A person who relies on a digital or electronic signature shall bear the legal consequences of failure to\n\n        - (a) take  reasonable  steps  to  verify  the  authenticity  of  a  digital  or electronic signature, or\n\n        - (b) take reasonable steps where a digital or electronic signature is supported by a certificate, to\n\n            - (i) verify the validity of the certificate, or\n\n            - (ii) observe any limitation with respect to the certificate.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "recognition-of-digital-certificates-and-digital-and-electronic-signatures",
+      "section": 15,
+      "title": "Recognition of digital certificates and digital and electronic signatures",
+      "plainLanguage": "This provision allows individuals to choose their preferred digital signatures and certificates, unless the law states otherwise. The Minister can also recognize digital signatures and certificates from foreign providers for use by public servants. This aims to provide flexibility while also allowing for official recognition of foreign digital credentials.",
+      "rawText": "13 . (1)  Unless  otherwise  prescribed  by  law,  a  person  may  determine  the digital or electronic signature, certificate or authentication the person will use.\n\n(2)  The  Minister  may  recognise  a  digital  or  electronic  signature, certificate or authentication of a foreign information security service provider for use by a public servant by notice published in the Gazette.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "notarisation-acknowledgement-and-certification",
+      "section": 16,
+      "title": "Notarisation, acknowledgement and certification",
+      "plainLanguage": "This section states that an electronic or digital signature can be used in place of a traditional signature when a law requires notarization, acknowledgement, verification, or an oath. It also allows for certified copies of documents to be provided electronically with a digital signature from the certifying person. This makes it easier to use electronic documents in legal and official contexts.",
+      "rawText": "14 . (1)  Where  a  law  requires  a  signature,  statement  or  document  to  be notarised,  acknowledged,  verified  or  made  under  oath,  that  requirement  is deemed  to  be  satisfied  if  the  electronic  or  digital  signature  of  the  person authorised to perform those acts is affixed to an electronic record.\n\n(2) Where a law requires or permits a person to provide a certified copy of a document and the document exists in paper or in another physical form,\n\nthat requirement is deemed to be satisfied if an electronic copy of the document is certified to be a true copy by using the electronic or digital signature of the certifying person.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "other-requirements",
+      "section": 17,
+      "title": "Other requirements",
+      "plainLanguage": "This provision updates requirements for submitting documents. Instead of multiple paper copies, a single electronic copy is acceptable, and a corporate body's digital signature can replace a physical corporate seal.",
+      "rawText": "15 . (1)  A  requirement  in  law  for  multiple  copies  of  a  document  to  be submitted to a single addressee at the same time, is satisfied by the submission of  a  single  electronic  record  that  is  capable  of  being  reproduced  by  the addressee.\n\n(2) Where a corporate seal is required to be affixed to a document, that requirement is deemed to be satisfied if the electronic or digital signature of the corporate  body  is  affixed  to  the  electronic  record  in  accordance  with  the provisions relating to the use of the corporate seal.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "automated-transactions-or-decision-making",
+      "section": 18,
+      "title": "Automated transactions or decision-making",
+      "plainLanguage": "Platforms using automated systems must be transparent about how these systems work and their potential effects. Users should be able to opt out of personalized recommendations when possible. Automated transactions are valid, but users are protected if they make errors when dealing with electronic agents, provided they take steps to rectify the error.",
+      "rawText": "16 . (1) A platform or service provider that uses automated decisionmaking, including algorithmic curation, profiling, or recommendation systems, shall\n\n(a)  ensure  transparency  of  the  system  by  disclosing  key  parameters, logic and potential impacts;\n\n(b) provide users with meaningful information on how such systems affect access to goods, services, or content;\n\n(c)  allow  users  to  opt-out  of  personalised  recommendations,  where feasible.\n\n(2) The Minister may issue guidelines or regulations for the ethical use of  artificial  intelligence  and  automated  systems,  having  regard  to  fairness, accountability, transparency, and non-discrimination.\n\n(3)An automated transaction is valid even if an electronic agent is involved at any stage of its formation.\n\n(4) A party interacting with an electronic agent to make an agreement is not bound by the terms of the agreement unless the terms were capable at  first  of  being  accessed  by  the  party  prior  to  the  formation  of  the contract.\n\n(5) An electronic contract is not valid where an individual interacts directly  with  the  electronic  agent  and  has  made  a  material  error during the creation of an electronic record and\n\n        - (b) that person notifies the party creating the electronic record of the error as soon as practicable after noticing it;\n\n        - (c) that  person  takes  reasonable  steps  to  return  to  the  previous situation; and\n\n        - (d) that  person  has  not  used  or  received  material  benefit  or  value from performance received from the other person.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "despatch-of-electronic-record",
+      "section": 19,
+      "title": "Despatch of electronic record",
+      "plainLanguage": "This section clarifies when an electronic record is considered officially sent. It's sent when it leaves the sender's computer system, unless the sender and receiver have agreed on a different arrangement. This helps determine responsibility and timing for electronic communications.",
+      "rawText": "17 . Unless otherwise agreed between the originator and the addressee, the despatch of an electronic record occurs when it enters an information processing system outside the control of the originator or the agent of the originator.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "receipt-of-electronic-record",
+      "section": 20,
+      "title": "Receipt of electronic record",
+      "plainLanguage": "This section defines when an electronic record is officially received. If a recipient has a specific system for receiving records, it's received when it enters that system. Otherwise, it's received when it enters a system the recipient uses to retrieve it, and the location of sending and receipt is based on the parties' registered places of business.",
+      "rawText": "18 . The time of receipt of an electronic record shall be determined as follows\n\n        - (a) if  the  addressee  has  designated  an  information  system  for  the purpose of receiving electronic records, receipt occurs at the time when  the  electronic  record  enters  the  designated  information system; or\n\n        - (b) if the addressee has not designated an information system, receipt occurs when the electronic record enters an information system of  the  addressee  through  which  the  addressee  retrieves  the electronic record.\n\n(2) An electronic record is deemed to be despatched at the originator's registered place of business and is deemed to be received at the registered place where the addressee has its place of business unless otherwise agreed by the originator and the addressee.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "expression-of-intent-or-other-statement",
+      "section": 21,
+      "title": "Expression of intent or other statement",
+      "plainLanguage": "This provision allows electronic records, like emails or online agreements, to be used as evidence in court. If the record shows what the sender and receiver intended, it can be considered relevant and admissible. This makes it easier to prove agreements or intentions using electronic communication.",
+      "rawText": "19 . An expression of intent or other electronic representation of an electronic record  between  the  originator  and  the  addressee  of  an  electronic  record  is admissible in circumstances where the intent or other electronic representation is relevant in law.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "attribution-of-electronic-records-to-originator",
+      "section": 22,
+      "title": "Attribution of electronic records to originator",
+      "plainLanguage": "This section clarifies who is considered the sender of an electronic message. It states that a message is attributed to the originator if sent by them, their system, or someone with access to their identification methods, unless proven otherwise. It also protects recipients who act on messages appearing to be from the originator, unless they have reason to believe otherwise.",
+      "rawText": "20 . (1) An electronic record is considered to be that of the originator if it was sent by\n\n(a) the originator personally;\n\n        - (c) an  information  system  programmed  by  or  on  behalf  of  the originator to operate automatically, unless  it  is  proved that the information system did not properly execute the programme.\n\n(2) An addressee is entitled to regard an electronic record as being that of the originator and to act on that assumption, if\n\n        - (a) the  addressee  properly  applied  a  procedure  previously  agreed with the originator in order to  ascertain  whether  the  electronic record was that of the originator; or\n\n        - (b) the electronic record received by the addressee resulted from the actions of a person whose relationship with the originator or with an agent of the originator enabled that person to gain access to a method used by the originator to identify an electronic record as the originator's own.\n\n(3) Where  a  procedure  has  not  been  agreed  by  both  parties  to ascertain the originator, the person who appears to be the originator shall be presumed to be the originator.\n\n      - The presumption in subsection (3) does not apply where\n\n        - (a) the  addressee  has  received  notice  from  the  originator  that  the electronic record was issued without the knowledge or consent of the originator;\n\n        - (b) the addressee knew or should reasonably have known, or used any agreed procedure to know that the electronic record was not that of the originator and that the person who sent the electronic record did not have the authority of the originator to issue or send the electronic record; or\n\n        - (c) the addressee knew or should reasonably have known, that the transmission  resulted  in  an  error  in  the  electronic  record  as received.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "acknowledgement-of-receipt-of-electronic-record",
+      "section": 23,
+      "title": "Acknowledgement of receipt of electronic record",
+      "plainLanguage": "This section explains how to acknowledge receiving an electronic message, such as through a reply or other action. Unless specifically agreed upon, a formal acknowledgement isn't legally necessary for the message to be valid. This provides flexibility in how electronic communications are handled.",
+      "rawText": "21 . (1) An acknowledgement of receipt may be given through\n\n        - (a) a  communication  by  the  addressee,  whether  automated  or otherwise; or\n\n        - (b) any conduct of the addressee to indicate to the originator that the electronic record has been received.\n\n(2) An acknowledgement of receipt is not necessary to give legal effect to a message unless otherwise agreed by the parties.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "formation-and-validity-of-agreements",
+      "section": 24,
+      "title": "Formation and validity of agreements",
+      "plainLanguage": "This provision clarifies that agreements made online or through other electronic means are just as valid as traditional paper agreements. It ensures that contracts and deals conducted electronically are legally enforceable. This promotes the use of digital platforms for business and transactions.",
+      "rawText": "22 . An agreement is valid even if it was concluded partly or in whole through an electronic medium.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "variation-by-agreement-between-parties",
+      "section": 25,
+      "title": "Variation by agreement between parties",
+      "plainLanguage": "Sections 4 to 22 of this bill regarding electronic records only apply if the involved parties haven't already made their own agreements on these matters. This means that existing contracts or understandings between parties take precedence over the specific rules outlined in those sections. The provision promotes flexibility and respects private agreements.",
+      "rawText": "23 . Sections 4 to 22 only apply if the parties involved in generating, sending, receiving, storing or otherwise processing electronic records have not agreed on the issues provided for by these sections.\n\n## Electronic government services",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "acceptance-of-electronic-filing-and-issuing-of-documents",
+      "section": 26,
+      "title": "Acceptance of electronic filing and issuing of documents",
+      "plainLanguage": "This provision requires public bodies to make their services and information available electronically or online. The goal is to ensure that people can access government functions and documents digitally. This promotes efficiency and convenience for the public.",
+      "rawText": "24. A public body shall take steps or enter into arrangements to ensure that its functions are carried out, delivered or accessed electronically or online.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "public-agency-and-electronic-records",
+      "section": 27,
+      "title": "Public agency and electronic records",
+      "plainLanguage": "This law requires public agencies to accept electronic documents and payments. Agencies can set standards for these electronic transactions, including formats and signature types. This change aims to modernize government processes and improve accessibility.",
+      "rawText": "25. (1)  A  public  agency  that,  pursuant  to  any  law  accepts  the  filing  of documents,  requires  that  documents  be  created  or  retained,  issues  a  permit, licence or approval or provides for a payment in accordance with law, shall\n\n        - (a) accept the filing of a document, or the creation or  retention of documents in the form of an electronic record;\n\n        - (b) issue the permit, licence or approval in the form of an electronic record; or\n\n        - (c) make or receive payment in electronic form or by electronic means.\n\n        - Any public agency may specify by notice in the Gazette:\n\n        - (a) the manner and format in which the electronic records shall be filed, created, retained or issued;\n\n        - (b) the  type  of  electronic  or  digital  signature  required  where  the electronic record has to be signed;\n\n        - (c) the manner and format in which an electronic or digital signature shall be attached to, incorporated in or otherwise associated with the electronic record;\n\n        - (d) the  identity  or  criteria  required  of  an  authentication  service provider used  by the person  filing  the  electronic  record or the\n\n        - (f) any other requirements for electronic records or payments.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "publication-in-electronic-format",
+      "section": 28,
+      "title": "Publication in electronic format",
+      "plainLanguage": "This law allows official government publications to be released electronically instead of in print. The electronic version (E-Gazette) has the same legal standing as the printed version and can be used as evidence in court. The publication date is the date it first appears online.",
+      "rawText": "26. (1) Where a law requires publication in the Gazette the requirement is deemed to have been satisfied if published in electronic format referred to as an E-Gazette.\n\n(2) The date of publication is deemed to be the date of first publication in the Gazette.\n\n(3) Despite any other enactment, the E-Gazette shall have the same legal force and effect as the printed version of the Gazette.\n\n(4) The E-Gazette shall be admissible in all judicial, quasi-judicial and administrative  proceedings  as  conclusive  evidence  of  the  contents  therein, without further proof of authenticity, where it bears a valid electronic or digital signature issued under this Act.\n\n## Certifying Agency",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "prohibited-acts",
+      "section": 29,
+      "title": "Prohibited acts",
+      "plainLanguage": "This law makes it illegal to sell or provide encryption or authentication services if it goes against the rules outlined in this act. This is to ensure that these services are used responsibly and legally.",
+      "rawText": "27. A person shall not sell or provide encryption or authentication service contrary to the provisions of this Act.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "provision-of-authentication-encryption-services",
+      "section": 30,
+      "title": "Provision of authentication encryption services",
+      "plainLanguage": "This provision clarifies when an encryption or authentication service is considered to be provided within a country's borders. It includes services offered from within the country, by local companies, to individuals present in the country, or through locally associated websites. This definition helps determine which services are subject to the country's laws and regulations.",
+      "rawText": "28. An encryption or an authentication service or product is deemed to have been provided in the country if it is made available\n\n        - (a) from premises within the country;\n\n        - (b) from a body incorporated in the country;\n\n        - (c) to a person who is present or operating from any system in the country when that person makes use of the service or product; or\n\n        - (d) from a Ghanaian associated or related domain name or website.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "certifying-agency",
+      "section": 31,
+      "title": "Certifying Agency",
+      "plainLanguage": "This provision designates the National Information Technology Agency as the official Certifying Agency. The Agency is also required to operate a website to provide information related to the Act to the public.",
+      "rawText": "29. (1)  The  National  Information  Technology  Agency  established  under National Information Technology Agency Act … (Act …) shall serve as the Certifying Agency under this Act.\n\n(2)  The  Certifying  Agency  shall  maintain  a  website  and  provide information at the website in accordance with this Act.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "functions-of-the-certifying-agency",
+      "section": 32,
+      "title": "Functions of the Certifying Agency",
+      "plainLanguage": "The Certifying Agency is responsible for licensing and overseeing encryption and authentication service providers. It monitors these providers to ensure they follow the rules, and can suspend or revoke licenses if necessary. The agency also appoints auditors to check for compliance and publishes a list of approved auditors.",
+      "rawText": "30. (1)The functions of the Agency are to:\n\n        - (a) issue licences for encryption and authentication service;\n\n        - (b) monitor the  conduct,  system  and  operation  of  encryption  and authentication  service  providers  to  ensure  compliance  with conditions of the licence, and the provisions of this Act;\n\n        - (c) suspend a licence of a licence holder;\n\n        - (d) revoke a licence of a licence holder; and\n\n        - (e) appoint,  accredit  and  gazette  independent  auditing  firms    to conduct periodic audits of a licence holder to ensure compliance with  the terms and conditions of any  licences issued under  this Act.\n\n(2)  The Agency  shall  publish  and  maintain  on  its  official  website  a  list  of accredited auditors, duly certified in accordance with the provisions of this Act and any Regulations made thereunder.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "revocation-or-suspension-of-licence",
+      "section": 33,
+      "title": "Revocation or suspension of licence",
+      "plainLanguage": "The Agency can suspend or revoke a license if the authentication service provider fails to meet the requirements of their license. However, the Agency must first notify the license holder of the issue and give them a chance to fix it, unless there is an immediate risk of harm to consumers. The Agency is also required to publish any suspensions or revocations on its website.",
+      "rawText": "31. (1) The Agency may suspend or revoke a licence if it is satisfied that the authentication  service  provider  has  failed  or  ceased  to  meet  any  of  the requirements,  conditions  or  restrictions  subject  to  which  the  licence  was granted or recognition was given.\n\n(2) The Agency shall not suspend or revoke a licence unless it has\n\n        - (a) notified the licence holder in writing of its intention to do  so,\n\n        - (b) given a description of the alleged breach, and\n\n        - (c) afforded the licensed holder the opportunity to\n\n            - (i) respond to the allegations in writing, and\n\n            - (ii) remedy the alleged breach.\n\n(3) The  Agency  may  suspend  a  licence  with  immediate effect for a period not exceeding ninety days pending implementation\n\nof  the  procedures  required  to  remedy  the  breach  where  there  is  the likelihood of irreparable harm to consumers or third parties involved in an electronic transaction.\n\n(4) A  licence  holder  may  surrender  the  licence  to  the Agency subject to the provisions of the licence and third party rights.\n\n(5) The Agency shall publish the suspension or revocation of a licence on its website.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "surrender-of-licence",
+      "section": 34,
+      "title": "Surrender of licence",
+      "plainLanguage": "If a license is suspended or revoked, the licensee must return it to the Agency within 24 hours of receiving notice. If the licensee fails to surrender the license, each director can be fined or imprisoned. The fine can be up to five thousand penalty units for each day the license is not surrendered, and imprisonment can be up to two years.",
+      "rawText": "32. (1) A licensee with a suspended or revoked licence shall surrender the licence to the Agency within twenty-four hours of receipt of notice of the suspension or revocation of its licence.\n\n(2) Where a licensee fails to surrender the licence, each director of the licensee commits an offence and is liable on summary conviction to a fine of not more than five thousand penalty units for each day that the licence  is  not  surrendered or to  a term  of  imprisonment of  not  more than two years or to both.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "recognition-of-foreign-certifying-authorities",
+      "section": 35,
+      "title": "Recognition of foreign certifying authorities",
+      "plainLanguage": "This provision allows the Agency to recognize foreign entities as certifying agencies for electronic signatures if they meet certain standards. Electronic signatures or certificates issued by these recognized foreign entities will have the same legal effect as those issued locally. The National Information Technology Authority will develop a framework for this mutual recognition.",
+      "rawText": "33. (1) Subject to the conditions and restrictions that may be specified by law, the Agency may, by notification in the Gazette, recognise a foreign entity as a certifying agency.\n\n(2) An  electronic  or  digital  signature  or  certificate  issued  by  a foreign  certification  service  provider  shall  have  the  same  legal  effect  as  a signature or certificate issued under this Act, if\n\n(a)  the  foreign  certification  service  provider  operates  under  a  regime  that provides substantially similar levels of trust and reliability; or\n\n(b)  the  certificate  is  recognised  by  the  Certifying  Agency  through  mutual recognition arrangements or approved interoperability frameworks.\n\n(3) The Minister may, by legislative instrument, specify the countries, regimes or classes of certificates deemed to offer substantially equivalent assurance.\n\n(4) Where a foreign entity is recognised, as a certifying agency, service and products issued by a person pursuant to the directives of that foreign certifying agency are valid.\n\n(5) The Agency by notification in the Gazette may revoke the recognition if it is  satisfied  that  a  foreign  certifying  agency    has  contravened  any  of  the conditions and restrictions subject to which it was granted recognition .\n\n(6)  The  National  Information  Technology  Authority,  as  the  designated certifying agency, shall develop and publish a regulatory framework for the mutual recognition of foreign certifying authorities.\n\n(7) A foreign certifying authority that seeks recognition under the framework referred to in subclause (4) shall comply with\n\n(a) the interoperability standards prescribed under the framework; and\n\n(b) applicable international best practices on electronic certification",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "repository-of-digital-and-electronic-signatures",
+      "section": 36,
+      "title": "Repository of digital and electronic signatures",
+      "plainLanguage": "The Agency is designated as the central storage for digital and electronic signature certificates. It must use secure systems to protect these signatures. The Agency will also keep a public database of keys so people can verify digital signatures.",
+      "rawText": "34. (1)  The  Agency  shall  be  the  repository  of  Digital  and  Electronic Signature Certificates issued under this Act.\n\n          - The Agency shall\n\n        - (a) make use of hardware, software and procedures that are secure from intrusion and misuse; and\n\n        - (b) observe other standards that may be prescribed, to ensure that the secrecy  and  security  of  digital  or  electronic  signatures  are assured.\n\n(3) The Agency  shall  maintain  a  computerised  data  base  of  the public keys to make them verifiable by a member of the public.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "register-of-licence-holders",
+      "section": 37,
+      "title": "Register of licence holders",
+      "plainLanguage": "The Agency must create and maintain a public register of all licensed entities, including their contact information, services offered, and any license suspensions or revocations. This register will be available online and in other formats, ensuring transparency. Confidential business information will be protected.",
+      "rawText": "35. (1) The Agency shall establish and maintain a register of licence holders.\n\n(2) The Agency shall record the following particulars in respect of each licence holder\n\n(a) the name and address of the licence holder;\n\n        - (b) a description of the type of service or product provided;\n\n        - (c) other particulars that may be prescribed to identify and locate the license holder or its products or services;\n\n        - (d) licensed encryption and authentication products or services under this Act;\n\n        - (e) licensed  encryption  and  authentication  products  and  services recognised under this Act;\n\n        - (f) suspended and revoked licences or recognition; and\n\n        - (g) any other information that may be prescribed or may be deemed appropriate by the Agency.\n\n(3) The Agency shall provide notice of the suspension or revocation at its website.\n\n(4) The Agency shall publish the list of licence holders, revoked or suspended licences in electronic and other media, subject to the rules relating to confidentiality.\n\n(5) A licence holder shall not be required to disclose confidential information or trade secrets in respect of its products or services.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "restrictions-on-disclosure-of-information",
+      "section": 38,
+      "title": "Restrictions on disclosure of information",
+      "plainLanguage": "This section allows the disclosure of information to law enforcement, for use in court cases, and to government agencies ensuring safety and security, if they make an official request. Information can also be shared with third parties to confirm a license or statements made by a license holder.",
+      "rawText": "36. Subject  to  the  provisions  of  the  Constitution,  a  person  may  disclose information under this Act\n\n        - (a) to a law enforcement agency;\n\n        - (b) for criminal or civil proceedings;\n\n        - (c) to  government  agencies  responsible  for  safety  and  security  on official request; and\n\n        - (d) to a  third  party  enquiry  for  confirmation  of  a licence or representations made by a licence holder.",
+      "relatedImpacts": [
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "application-for-licence",
+      "section": 39,
+      "title": "Application for licence",
+      "plainLanguage": "This section explains how to apply for a license from the Agency. Licenses are only granted to organizations, not individuals, and cannot be transferred without the Agency's permission. The Agency will review the applicant's finances, systems, and procedures to ensure they meet the necessary standards.",
+      "rawText": "37. (1)  A  licence  shall  not  be  issued  or  granted  by  the  Agency  to  an individual.\n\n(2) Each  application  for  the  issue  of  a  licence  shall  be  in  the prescribed form.\n\n(3) A licence issued under this  Act shall not be assigned, transferred, sub-licensed, or otherwise disposed of, whether wholly or partly, to  any  other  person  or  entity,  except  with  the  prior  written  approval  of  the Agency and subject to any terms and conditions that may be prescribed.\n\n(4)\n\nEach application for a licence shall be accompanied with,\n\n        - (a) a certificate of incorporation,\n\n        - (b) a statement including the procedures with respect to the identification of the applicant.\n\n        - (c) payment of a non-refundable application fee, and\n\n        - (d) other prescribed documents.\n\n- The Agency shall,  in considering an application  for a licence, take into account the following\n\n(a)  the  financial  and  human  resources  available  to  the  applicant, including its capital and other assets;\n\n(b) the quality, reliability, and security of the applicant's hardware and software systems;\n\n(c)  the  adequacy  and  integrity  of  the  applicant's  procedures  for\n\n(e) the regularity and extent of audits conducted by an independent body;\n\n(f)  the  technical  and  other  requirements  to  be  met  by  certificates issued by the licence holder;\n\n(g)  the  procedures  and  standards  applicable  to  the  issuance  of certificates;\n\n(h) the requirements relating to certification practice statements;\n\n(i) the responsibilities of the certification service provider;\n\n(j) the liability of the certification service provider;\n\n(k) the nature and format of records to be maintained, and the manner and duration for which such records shall be kept;\n\n(l) the procedures governing certificate suspension and revocation;\n\n(m)  the  procedures  for  notification  of  certificate  suspension  and revocation;\n\n(n) any other conditions, restrictions, or factors as may be prescribed or as the Agency may consider necessary or appropriate; and\n\n(o) the applicant's compliance with any minimum capital requirement prescribed by the Agency.\n\n(6) A licence is valid for the period and on the terms and conditions that may be determined by the Agency.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "grant-of-licence",
+      "section": 40,
+      "title": "Grant of licence",
+      "plainLanguage": "This provision states that the Agency can only grant a license if the applicant's security procedures ensure user identification, control, and record integrity. The Agency can also set specific requirements for licensed authentication services, such as technical standards and responsibilities. Licenses granted under this act are not transferable.",
+      "rawText": "38. (1) The Agency shall not grant a licence under this Act unless the Agency is satisfied that a security procedure related to or issued by an applicant,\n\n        - (a) is uniquely linked to the user;\n\n        - (b) is capable of identifying that user;\n\n        - (c) is  created  using  means  that  can  be  maintained  under  the  sole control of that user; and\n\n        - (d) will be linked to the electronic record to which it relates so that any subsequent change of the electronic record is detectable.\n\n(2) The Agency may, prior to licensing any authentication products or services, stipulate\n\n        - (a) the  technical  and  other  requirements  to  be  met  by  certificates issued by the licence holder;\n\n        - (d) the responsibilities of the certification service provider;\n\n        - (e) the liability of the certification service provider;\n\n        - (f) the records to be kept and the manner in which and length of time for which they must be kept;\n\n        - (g) requirements  concerning  certificate  suspension  and  revocation procedures;\n\n        - (h) requirements as to notification procedures relating to certificate suspension and revocation; and\n\n        - (i) other  conditions  or  restrictions  that  the Agency  may  consider necessary.\n\n          - A licence is not transferable.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "display-of-licence",
+      "section": 41,
+      "title": "Display of licence",
+      "plainLanguage": "This provision mandates that businesses must clearly display their license at their primary place of business. This makes it easy for the public and authorities to see that the business is properly licensed and operating legally.",
+      "rawText": "39. A licensee shall display its licence conspicuously on the premises of its principal place of business.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "duties-of-licensed-entities",
+      "section": 42,
+      "title": "Duties of licensed entities",
+      "plainLanguage": "Licensed entities must ensure their employees follow the law, maintain liability insurance of at least GHS 10,000,000.00, and compensate subscribers for losses from fraudulent certificates or failure to revoke compromised certificates. This provision aims to protect subscribers and ensure responsible operation by licensed entities.",
+      "rawText": "40. A licensee shall\n\n(a) ensure that each person employed or engaged by it complies with the provisions  of  this Act,  Regulations  made  under  this  Act  and  the  licence conditions;\n\n(b) obtain  and  maintain  liability  insurance  coverage,  with  a  minimum coverage amount of Ten Million Ghana Cedis (GHS 10,000,000.00), or such other amount as may be prescribed by the Agency;\n\n(c) compensate subscribers for any loss or damage arising from\n\n  - (i) the issuance of fraudulent certificates; or\n\n- (ii) the failure to promptly revoke compromised certificates; or\n\n(iii) from any act or omission of the licensee in breach of its obligations under this Act or any Regulations made under the Act.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "renewal-of-licence",
+      "section": 43,
+      "title": "Renewal of licence",
+      "plainLanguage": "To renew a license, you must use the application form provided by the Agency. This form ensures the Agency receives all the required information for processing your renewal.",
+      "rawText": "41. An application for renewal of a licence shall be\n\n(a) in the form prescribed by the Agency, and",
+      "relatedImpacts": []
+    },
+    {
+      "id": "procedure-for-grant-or-rejection-of-renewal-of-licence",
+      "section": 44,
+      "title": "Procedure for grant or rejection of renewal of licence",
+      "plainLanguage": "The Agency can approve or deny license renewal applications after reviewing the documents. If the Agency denies the renewal, they must provide a written explanation to the applicant. This ensures transparency and allows the applicant to understand the basis for the decision.",
+      "rawText": "42. (1) The Agency may grant or reject the application for the renewal after considering the documents accompanying the application for renewal and other factors considered necessary.\n\n(2) The Agency shall provide reasons for the rejection of the application in writing to the applicant.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "notification-of-adverse-event",
+      "section": 45,
+      "title": "Notification of adverse event",
+      "plainLanguage": "This provision requires the Agency to notify people affected by events that negatively impact its computer systems or licenses. Licensees and certifying authorities must submit their plan for responding to security breaches to the Agency within 24 hours of the event. This ensures a swift response and coordinated effort to address security incidents.",
+      "rawText": "43. (1)The Agency shall\n\n        - (a) use reasonable efforts to notify any person who is likely to be affected by the occurrence of an adverse event; or\n\n        - (b) deal with the event or situation in accordance with the procedure specified in its certification practice statement\n\nwhere in the opinion of the Agency an event has occurred or a situation has arisen which may materially and adversely affect the integrity of its computer system or the conditions subject to which a licence was granted.\n\n(2) A  licensee  or  certifying  authority  shall,  within  twenty-four  hours  of  the occurrence or discovery of a breach or suspected breach affecting the security or integrity of its systems or services, submit its Incident Response Plan to the Agency in the form and manner prescribed by the Agency.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "procedures-to-be-followed-by-licensed-person",
+      "section": 46,
+      "title": "Procedures to be followed by licensed person",
+      "plainLanguage": "This provision requires licensed individuals to maintain secure and reliable services. They must use secure technology and follow security procedures to protect the secrecy and privacy of their products or services. They must also adhere to any additional security standards that are set.",
+      "rawText": "44. A licensed person shall\n\n        - (a) make use of hardware, software and procedures that are secure from intrusion and misuse;\n\n        - (b) provide  such  level  of  reliability in its services which  are reasonably suited to the performance of the intended functions;\n\n        - (c) adhere  to  security  procedures  to  ensure  that  the  secrecy  and privacy of the product or service are assured; and\n\n        - (d) adhere  to  such  security  procedures  and  observe  such  other standards as may be prescribed.\n\n## Consumer protection",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "scope-of-application",
+      "section": 47,
+      "title": "Scope of application",
+      "plainLanguage": "This section clarifies that sections 46 through 53 of the bill only apply to transactions conducted electronically. This means these sections do not govern traditional, paper-based transactions.",
+      "rawText": "45. Sections 46 to 53 apply only to electronic transactions.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "information-to-be-provided",
+      "section": 48,
+      "title": "Information to be provided",
+      "plainLanguage": "When you buy something online, the seller must give you detailed information about themselves, the product, and the terms of the sale, including costs and return policies. If they don't provide this information, you have the right to cancel the purchase within 14 days. The seller must also use a secure payment system and is responsible if you suffer damages due to an insecure system.",
+      "rawText": "46. (1) A supplier offering goods or services for sale, hire or exchange in an electronic transaction shall make available to the consumer on the electronic platform  where  the  goods  or  services  are  offered  the  following  information related to the supplier\n\n        - (a) full name and legal status;\n\n        - (b) physical address and telephone number;\n\n        - (c) website address and e-mail address;\n\n        - (d) membership  of  any  self-regulatory  or  related  bodies  and  the contact details of the body;\n\n        - (e) a code of conduct to which that supplier subscribes and how that code of conduct may be accessed electronically by the consumer;\n\n        - (f) the registration number, the names of office bearers and the place of registration of the supplier as a legal person;\n\n        - (g) sufficient description of the main characteristics of the goods or services offered by that supplier to enable a consumer to make an informed decision on the proposed electronic transaction;\n\n        - (h) the full price of the goods or services, including transport costs, taxes and any other fees or costs;\n\n        - (i) the manner of payment;\n\n        - (j) terms of agreement including guarantees that will apply to the transaction  and  how these terms  may  be  accessed, stored and reproduced electronically by consumers;\n\n        - (k) the time within which the goods will be despatched or delivered or within which the services will be rendered;\n\n        - (l) the manner and period within which consumers can access and maintain a full record of the transaction;\n\n        - (m) the return, exchange and refund policy;\n\n        - (n) the  alternative  dispute  resolution  code  to  which  that  supplier subscribes and access to the code by the consumer;\n\n        - (o) the  security  procedures  and  privacy  policy  of  that  supplier  as regards payment, payment information and personal information;\n\n      - The supplier shall provide a consumer with an opportunity to\n\n        - (a) read, store and reproduce  the contract  terms and general conditions;\n\n        - (b) identify and correct handling errors; and\n\n        - (c) withdraw from the transaction before concluding a contract.\n\n(3) If a supplier fails to comply with the provisions of this section, the consumer may cancel the contract within fourteen days of receipt of the goods or services under the transaction.\n\n(4) If  a  transaction  is  cancelled  as  a  result  of  the  failure  of  the supplier to comply with the provisions of this section\n\n        - (a) the consumer shall return the goods received, or where applicable, cease using the services performed; and\n\n        - (b) the supplier shall refund payments made by the consumer within thirty days.\n\n(5) The supplier shall utilise a payment system that is sufficiently secure with reference to accepted technological  standards at the time of the transaction and the type of transaction concerned.\n\n(6) The supplier is liable for damage suffered by a consumer due to failure by the supplier to apply a secure payment system.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "performance",
+      "section": 49,
+      "title": "Performance",
+      "plainLanguage": "A supplier must fulfill an order within 14 days unless agreed otherwise. If the supplier fails to deliver within this timeframe, the customer can cancel the order. If the supplier cannot fulfill the order because the product is unavailable, they must notify the customer and refund their money within seven days.",
+      "rawText": "47. (1) The supplier shall execute the order within fourteen days after the day on  which  the  supplier  receives  the  order,  unless  the  parties  have  agreed otherwise.\n\n(2) Where a supplier fails to execute the order within the fourteen days or within the agreed period, the contract is voidable.\n\n(3) If a supplier is unable to perform on the grounds that the goods or services ordered are unavailable, the supplier shall immediately notify the consumer of this fact and refund any payment within seven days after the date of notification.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "grace-period",
+      "section": 50,
+      "title": "Grace period",
+      "plainLanguage": "Consumers have a grace period to cancel purchases: 14 days for goods and 7 days for services, without penalty, only paying for return shipping. This right doesn't apply to certain transactions like financial services, auctions, or perishable items. This provision does not limit any other consumer rights provided by law.",
+      "rawText": "48. (1) A consumer is entitled to cancel a transaction and any related credit agreement for the supply\n\n        - (a) of goods within fourteen days after the date of the receipt of the goods; or\n\n        - (b) of services within seven days after the date of the conclusion of the agreement,\n\nwithout reason and without penalty.\n\n(2) The only charge that may be levied on the consumer is the direct cost of returning the goods.\n\n(3) This  section  shall  not  be  construed  to  limit  the  rights  of  a consumer provided for in any other law.\n\n      - This section does not apply to an electronic transaction\n\n        - (a) for  financial  services,  including  but  not  limited  to,  investment services, insurance and reinsurance operations, banking services and operations relating to dealings in securities;\n\n        - (b) by way of an auction;\n\n        - (c) for the supply of foodstuffs, beverages or other goods intended for  everyday  consumption  supplied  to  the  home,  residence  or workplace of the consumer;\n\n        - (d) for services which began with the consumer's consent before the end of the seven-day grace period;\n\n        - (e) where the price for the supply of goods or services is dependent on  fluctuations  in  the  financial  markets  and  which  cannot  be controlled by the supplier;\n\n        - (f) where the goods\n\n            - (i) are made to the consumer's specification,\n\n            - (ii) by reason of their nature cannot be returned, or\n\n            - (iii) are perishable;\n\n        - (g) where  audio  or  video  recordings  or  computer  software  were unsealed by the consumer;\n\n        - (h) for the sale of newspapers, periodicals, magazines and books;\n\n        - (i) for the provision of gaming and lottery services; or\n\n        - (j) for the provision of accommodation, transport, catering or leisure services  where  the  supplier  has  commenced  the  provision  of these services on a specific date or within a specific period.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "unsolicited-goods-services-or-communications",
+      "section": 51,
+      "title": "Unsolicited goods, services or communications",
+      "plainLanguage": "This provision protects consumers from unwanted electronic messages by requiring senders to get consent before sending them. Consumers must also be given a way to unsubscribe from mailing lists. Violators may face fines or imprisonment.",
+      "rawText": "49. (1) Except in the case of a notice sent by an electronic communications provider  to  a  customer  in  relation  to  the  service,  a  person  shall  not  send unsolicited  electronic  communications  to  a  consumer  without  obtaining  the prior consent of the consumer.\n\n(2) A person who sends electronic commercial communication to a consumer shall provide the consumer\n\n        - (a) with the option to cancel the subscription to the mailing list of that person, and\n\n        - (b) with  the  identifying  particulars  of  the  source  from  which  that person  obtained  the  consumer's  personal  information  at  the request of the consumer.\n\n(3) An  agreement  shall  not  be  deemed  to  have  been  concluded where a consumer fails to respond to an unsolicited communication; and the consumer is entitled to recover the costs associated with  the cancellation of unsolicited communication.\n\n(4) A person who contravenes subsection (1) commits an offence and is liable on summary conviction to a fine of not more than five thousand penalty  units or a term of imprisonment of not more than ten years or to both.\n\n(5) A person who sends unsolicited commercial communications to another person or who continues to send unsolicited commercial communications after cancellation of the subscription commits an offence and is liable on summary conviction to a fine of not more than five thousand penalty units or a term of imprisonment of not more than ten years or to both.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "liability-for-misuse-of-electronic-payment-medium",
+      "section": 52,
+      "title": "Liability for misuse of electronic payment medium",
+      "plainLanguage": "This provision protects electronic payment users from being liable for unauthorized use of their payment method if they didn't contribute to the misuse. However, users can be held responsible if they were negligent, gave consent to the person misusing the medium, or failed to report the loss or theft promptly. Any initial payment for the payment method can be used to cover potential liabilities.",
+      "rawText": "50. (1) A holder of an electronic payment medium shall not, unless acting in collusion with another person, be liable to the issuer for loss arising from use of the medium by a person who is not acting or being treated as acting as the agent of the holder.\n\n      - Subsection (1) does not prevent\n\n        - (a) the holder of the electronic payment medium from being made liable  for loss to the issuer arising  from use of the  medium  by another  person  during  a  period  beginning  when  the  medium ceases to be in the possession of an authorised person and ending\n\n        - (b) the holder from being made liable to any extent for loss to the issuer  from  use  of  the  medium  by  a  person  who  acquired possession of it with the holder's consent.\n\n- Subsections  (2)  does  not  apply  to  the  use  of  the  electronic payment medium after the issuer has been given  notice of loss and does not apply unless the issuer provides the holder with particulars of the name, address and telephone number of a person stated to be the person to whom notice is to be given.\n\n- The  notice  takes  effect  when  received,  but  where  it  is  given orally, shall be confirmed in writing within fourteen clear days.\n\n- A sum paid by the holder for the issue of the electronic payment medium is treated as paid towards satisfaction of liability under this section to the extent that it has not been previously offset by use made of the medium.\n\n- The  holder  or  a  person  authorised  by  the  holder  to  use  the electronic  payment  medium  is  an  authorised  person  for  the  purpose  of subsection (2).",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "electronic-payment-medium-lists-prohibited",
+      "section": 53,
+      "title": "Electronic payment medium lists prohibited",
+      "plainLanguage": "This law prevents banks from sharing lists of customers' electronic payment information (like card numbers and addresses) without their permission or a court order. Banks can share credit ratings with other banks if they notify the customer within a week. Banks that break this law, and their directors, can be fined or imprisoned.",
+      "rawText": "- (1) A financial institution shall not\n\n- (a) make available;\n\n- (b) lend; or\n\n        - (c) sell any list or portion of a list of holders of an electronic payment medium and their addresses and account numbers to any person without the prior written consent of the holders except by order of a Court.\n\n- A financial institution may make available to another financial institution  information  about  an  electronic  payment  medium  holder's  credit rating  without  the  holder's  prior  written  consent  if  written  notice  of  the disclosure is given to the holder within seven days subject to any law regulating credit rating institutions.\n\n- A financial institution which contravenes subsection (1) commits an offence and each director and officer of the institution who fails to ensure compliance with this Act is liable on summary conviction to a fine of not more than two thousand five hundred penalty units or imprisonment for a term of not more than five years or to both.",
+      "relatedImpacts": [
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "applicability-of-foreign-law",
+      "section": 54,
+      "title": "Applicability of foreign law",
+      "plainLanguage": "This provision ensures that consumer protection laws of the consumer's country apply to the sale of goods, even if a contract states otherwise. This means local consumer laws always protect buyers in their own country.",
+      "rawText": "52. Despite a provision of an agreement to the contrary, the supply of goods pursuant to a contract to consumers in this country is subject to the provisions of this Act.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "non-exclusion",
+      "section": 55,
+      "title": "Non-exclusion",
+      "plainLanguage": "This provision ensures that consumer rights outlined in the Act cannot be taken away by any agreement. Any clause attempting to exclude these rights is legally void. This protects consumers by guaranteeing they always receive the protections provided by the Act.",
+      "rawText": "- A provision in an agreement which excludes consumer rights provided for in this Act is void.\n\n## Protected computers and critical database",
+      "relatedImpacts": [
+        "privacy"
+      ]
+    },
+    {
+      "id": "protected-computer",
+      "section": 56,
+      "title": "Protected computer",
+      "plainLanguage": "This provision allows the Minister to declare certain computer systems as \"protected,\" especially those related to national security, essential services, or government functions. Unauthorized access to these protected systems is a crime, punishable by a fine or imprisonment. The Minister can also authorize access to these systems.",
+      "rawText": "54. (1)  The  Minister  may  declare  that  a  computer,  computer  system  or computer network is a protected system by notification in the Gazette .\n\n- The Minister may authorise access to a protected system by or in writing.\n\n- Until the Minister by Gazette publication declares a computer, computer system or computer network to be a protected system, the computer ,computer  system  or  computer  network    shall  be  treated  as  a  'protected computer'  if  the  computer,  program  or  electronic  record  is  used  directly  in connection with or for\n\n        - (a) the security, defence or international relations of the country;\n\n        - (b) the existence or identity of a confidential source of information related to the enforcement of  criminal law;\n\n        - (c) the  provision  of  services  directly  related  to  communications infrastructure,  banking  and  financial  services,  public  utilities, public transportation or public key infrastructure;\n\n        - (d) the  protection  of  public  safety  and  public  health,  including systems related to essential emergency services;\n\n        - (e) foreign commerce or communication affecting a citizen of Ghana or  business in which a citizen of Ghana or the Government has an interest; or\n\n        - (f) the legislative, executive or judicial service, the public services and security agencies.\n\n- A person who secures access or attempts to secure access to a protected system in contravention of the provisions of this section commits an offence and is liable on summary conviction to a fine of not more than five\n\nthousand penalty units or imprisonment for a term of not more than ten years or to both.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "identification-of-critical-electronic-record-and-critical-databases",
+      "section": 57,
+      "title": "Identification of critical electronic record and critical databases",
+      "plainLanguage": "This provision allows the Minister to identify and declare certain electronic records as critical for national security or citizen well-being. The Minister can also establish a procedure for identifying critical databases. These declarations will be published in the Gazette.",
+      "rawText": "55. The Minister may by notice in the Gazette\n\n        - (a) declare certain classes of information which are of importance to the  protection  of  the  national  security  of  the  Republic  or  the economic  and  social  well-being  of  its  citizens  to  be  critical electronic records for the purpose of this Act; and\n\n        - (b) establish  a  procedure  to  be  followed  in  the  identification  of critical databases for the purposes of this Act.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "scope-of-critical-database-protection",
+      "section": 58,
+      "title": "Scope of critical database protection",
+      "plainLanguage": "This provision allows the Minister to classify certain information related to national security or public well-being as \"critical electronic records.\" This classification means that these records will be subject to specific protections and regulations outlined in sections 56 to 60. The goal is to safeguard sensitive information vital to the country's security and stability.",
+      "rawText": "56. The  Minister  may  declare  certain  classes  of  information  relating  to national security or the economic or social wellbeing of the public to be critical electronic record for the purposes of sections 56 to 60.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "registration-of-critical-databases",
+      "section": 59,
+      "title": "Registration of critical databases",
+      "plainLanguage": "This provision allows the Minister to set up a system for registering critical databases. Registration involves providing information about who manages the database, where it's located, and what kind of information it holds. This helps keep track of important databases and who is responsible for them.",
+      "rawText": "57. (1) The Minister may by notice in the Gazette determine\n\n        - (a) requirements for the registration of a critical database;\n\n        - (b) procedures for the registration of a critical database; and\n\n        - (c) any other matter relating to registration.\n\n(2)  Registration  of  a  critical  database  means  recording  the  following information\n\n        - (a) the full name, address and contact details of the critical database administrator;\n\n        - (b) the location of the critical database, including the locations of the component parts where a critical database is not stored at a single location; and\n\n        - (c) a  general  description  of  the  categories  or types  of  information stored in the critical database.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "management-of-critical-databases",
+      "section": 60,
+      "title": "Management of critical databases",
+      "plainLanguage": "This section allows the Minister to create rules for managing and protecting important databases. These rules will cover things like who can access the database, how to keep the data secure, and the safety of the people managing the database. The law does not prevent public bodies from performing their duties as defined in other laws.",
+      "rawText": "58. (1) The Minister shall prescribe minimum standards for prohibitions in respect of\n\n(a) the general management of a critical database;\n\n(b) access to, transfer and control of a critical database;\n\n(c) infrastructural or procedural rules and requirements to secure  the integrity and authenticity of a critical electronic record;\n\n(f) the security of the databases;\n\n(g) the physical safety of a person in control of the critical database; and\n\n        - (h) any other matter required for the adequate protection, management and control of a critical database.\n\n(2) This Act shall not be construed to limit the right of a public body to perform an authorised function in terms of any other law.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "restrictions-on-disclosure-of-information",
+      "section": 61,
+      "title": "Restrictions on disclosure of information",
+      "plainLanguage": "This provision limits who can access information in the critical database register to protect sensitive data. The Agency can share information with law enforcement and other government entities. The Agency can also withhold information in court if it harms national security or public interests.",
+      "rawText": "59. (1) Information contained in the register of a critical database shall not be disclosed to another person other than to employees of the Agency who are responsible for the keeping of the register.\n\n          - The Agency is at liberty to disclose information to\n\n        - (a) a law enforcement agency; and\n\n        - (b) a Ministry, Department or Agency.\n\n(3) Nothing in this law shall preclude the Agency from pleading in proceedings  relating  to  information  held  in  its  custody  or  records  that production or disclosure of a matter may be prejudicial to the security of the State or injurious to the public  interest in accordance with article 135 of Constitution.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "audits",
+      "section": 62,
+      "title": "Audits",
+      "plainLanguage": "This provision allows the Minister to order audits to ensure compliance with this Act. The National Information Technology Authority is designated as the administrator responsible for overseeing the country's ICT infrastructure and will conduct these audits.",
+      "rawText": "60. (1) The  Minister  may  direct  that  audits  be  conducted  by  the  critical database administrator to assess compliance with the provisions of this Act.\n\n(2) For the purposes of subsection (1), the National Information Technology Authority shall act as the critical electronic records and database administrator responsible for overseeing ICT infrastructure of the Republic.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "non-compliance-with-act",
+      "section": 63,
+      "title": "Non-compliance with Act",
+      "plainLanguage": "If an audit finds non-compliance, the Minister reviews the findings and reports to the National Security Council. The Council can then take necessary actions to protect national security. The National Information Technology Authority provides expert advice to the Minister regarding the audit.",
+      "rawText": "61. (1) The Minister on receipt of the audit report shall consider,\n\n        - (a) any action recommended to remedy the non-compliance; and\n\n        - (b) the period within which the remedial action shall be performed.\n\n(2) The Minister shall report the recommendation to the National Security  Council  and  the  Council  may  take  action  or  give  directions  that  it considers necessary for the protection of national security.\n\n(3) The National Information Technology Authority shall advise the Minister  on  matters  relating  to  the  audit  of  the  ICT  infrastructure  of  the Republic.\n\n## Appeal Tribunal",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "establishment-of-the-information-communication-technology-tribunal",
+      "section": 64,
+      "title": "Establishment of the Information Communication Technology Tribunal",
+      "plainLanguage": "This provision creates the Information Communication Technology Tribunal to handle appeals related to decisions made by the Agency or issues concerning licenses. The Tribunal will meet on an ad hoc basis to address these appeals. This ensures a formal avenue for resolving disputes in the information and communication technology sector.",
+      "rawText": "62. (1)  There  is  established  by  this Act  an  appeal  tribunal,  known  as  the Information Communication Technology Tribunal referred to in this Act as 'the Tribunal'.\n\n(2) The Tribunal shall be convened on an ad hoc basis to consider an appeal\n\n        - (a) against a decision or order made by the Agency;\n\n        - (b) on a particular matter under a licence.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "composition-of-the-tribunal",
+      "section": 65,
+      "title": "Composition of the Tribunal",
+      "plainLanguage": "This section describes who makes up the Tribunal, including a chairperson with legal or electronic communication expertise and two members with knowledge in technology or related fields. The Minister appoints these members and a Registrar to help the Tribunal operate efficiently. The Agency covers the Tribunal's costs and provides staff.",
+      "rawText": "63 . (1) The Tribunal consists of\n\n        - (a) a chairperson who is either a retired Justice of the Superior Court or a lawyer of at least fifteen years standing who has experience in electronic communication law, policy and regulatory matters or arbitration, and\n\n        - (b) two  other  members  with  knowledge  of  or  experience  in  the information communication technology related matters, industry, electronic engineering, law, economics,  business or public administration.\n\n(2) The members of the Tribunal shall be appointed by the Minister.\n\n(3) The  Minister  shall  also  appoint  a  Registrar  for  the Tribunal for the smooth operations of the Tribunal.\n\n(4) The  Registrar  and  other  staff  are  employees  of  the Agency.\n\n(5) The expenses of the Tribunal shall be paid out of income derived by the Agency and shall be part of the annual budget of the Agency.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "rules-of-procedure-of-tribunal",
+      "section": 66,
+      "title": "Rules of Procedure of Tribunal",
+      "plainLanguage": "The Board will create the rules for how the Tribunal operates. This includes defining the procedures the Tribunal will follow when making decisions. These rules ensure the Tribunal functions in a structured and organized manner.",
+      "rawText": "64. The Board shall, propose rules of procedure for the Tribunal.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "appeals-against-decisions-of-the-agency",
+      "section": 67,
+      "title": "Appeals against decisions of the Agency",
+      "plainLanguage": "If you disagree with a decision made by the Agency, you can appeal to the Tribunal within 28 days. Your appeal notice must explain the decision you're challenging, the legal basis for the decision, and why you believe it's wrong. The Tribunal will then meet within a month to review your appeal.",
+      "rawText": "65 . (1) A person affected by a decision of the Agency may appeal against the decision by  notice  of  appeal  to the Tribunal  in  accordance  with  the  rules  of procedure of the Tribunal.\n\n(2) The notice of appeal shall be sent within twenty-eight days after the date the decision is announced or the date of receipt of the decision that is being appealed against.\n\n      - The notice of appeal shall set out\n\n        - (a) the decision appealed against;\n\n        - (b) the  provision  under  which  the  decision  appealed  against  was taken; and\n\n        - (c) the grounds of appeal.\n\n(4) After  the  receipt  of  a  notice  of  appeal,  the  Tribunal  shall  be convened within one month to consider the appeal.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "decision-of-tribunal",
+      "section": 68,
+      "title": "Decision of Tribunal",
+      "plainLanguage": "After an appeal, the Tribunal can change, cancel, or uphold the original decision, but it cannot exceed the Agency's legal authority. The Tribunal can consider input from anyone during its decision-making. The Tribunal's decision is legally binding, just like a ruling from the High Court.",
+      "rawText": "66. (1) The Tribunal, after hearing the appeal, may\n\n        - (a) quash the decision;\n\n        - (b) allow the appeal in whole or in part;\n\n        - (c) vary the decision of the Agency in any manner and subject to any conditions  or  limitations  it  thinks  fit  but  shall  not  impose  any condition or requirement beyond the powers of the Agency under the Act; or\n\n        - (d) dismiss the appeal and confirm the decision of the Agency.\n\n(2) The Tribunal may take into account a submission filed by any person in reaching a decision on an appeal brought before it.\n\n(3) A  decision  of  the  Tribunal  shall  have  the  same  effect  as  a judgment of the High Court.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "appeals-against-the-decisions-of-the-tribunal",
+      "section": 69,
+      "title": "Appeals against the decisions of the Tribunal",
+      "plainLanguage": "Decisions made by the Tribunal can be appealed to the Court of Appeal, but only on legal grounds. Appeals must be filed within 90 days of the original decision, and this deadline cannot be extended. This ensures that appeals are focused on legal correctness and are handled in a timely manner.",
+      "rawText": "67. (1) A decision of the Tribunal may be the subject of an appeal.\n\n          - An appeal under this section\n\n        - (a) lies to the Court of Appeal;\n\n        - (b) shall relate only to a point of law arising from the decision of the Tribunal; and\n\n(3) The appeal shall be filed in the Court of Appeal ninety days after the decision of the Tribunal and there shall be no extension of time.\n\n## Industry Forum",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "establishment-of-industry-forum",
+      "section": 70,
+      "title": "Establishment of Industry Forum",
+      "plainLanguage": "This section creates an Industry Forum for industry stakeholders to discuss relevant issues. The Agency can designate an existing industry body to manage the Forum if it meets specific requirements. Until a body is designated, the Agency will facilitate the Forum's meetings.",
+      "rawText": "68. (1)  There  is  hereby  established  an  Industry  Forum  which  shall  be  a platform to bring the industry together from time to time to discuss matters of common interest that relate to the industry.\n\n(2) The Agency may designate an industry body to be the Forum by notifying that body in writing if the Agency is satisfied that\n\n        - (a) the membership of the body is open to the relevant parties and is fully representative of the industry;\n\n        - (b) the body is capable of performing as required under the relevant provisions of this Act; and\n\n        - (c) the body has the administrative capacity to service the Forum.\n\n(3) The body shall agree in writing to be the Forum, before being designated by the Agency.\n\n(4) Despite the designation, each  licensed entity under the Act is deemed to be a member of the Forum.\n\n(5) The Agency may decide that an existing industry body that was previously designated under subsection (2) to be an Industry Forum is no longer an Industry Forum if satisfied that the body does not meet the requirements of this section any longer.\n\n(6) A designation or withdrawal of designation under this section takes effect from the date specified by the Agency.\n\n(7) Until  the  Agency  designates  a  body,  the  Agency  has  the obligation to facilitate the meeting of the industry to perform the functions of the Forum.\n\n(8) The Ministry and the Agency shall participate in the Forum as observers.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "industry-code",
+      "section": 71,
+      "title": "Industry code",
+      "plainLanguage": "This section allows the Forum to create voluntary industry codes that address issues covered by the Act. These codes must be registered by the Agency to ensure they align with the Act's goals and regulations, and that the public has been consulted in their development. The Agency has the power to refuse registration if these conditions are not met.",
+      "rawText": "69. (1) The Forum may prepare a  voluntary  industry code to deal with a matter provided for in this Act\n\n(2) The  code  shall  not  be  effective  until  it  is  registered  by  the Agency.\n\n(3) The Agency  shall  register  a  voluntary  industry  code  if  it  is consistent with\n\n        - (a) the objects of this Act;\n\n        - (b) regulations, standards or guidelines made under this Act; and\n\n        - (c) provisions of this Act which are relevant to the particular matter or activity.\n\n(4) The Agency may refuse to register the code, if the Agency is not satisfied that there has been sufficient opportunity for public consultation in the development of the code by the Forum.\n\n(5) The Agency shall notify the Forum in writing and provide the reasons for the refusal to register the code within thirty days after the refusal.\n\n(6) Where  the Agency  does  not  register  or  refuses  to  register  a voluntary industry code within a period of thirty days after the date that the voluntary industry code was submitted for registration, the Agency is deemed to  have  refused  the  registration  of  the  voluntary  industry  code  unless  the Industry  Forum  receives  a  written  notice  of  registration  of  the  voluntary industry code after that period.\n\n## Liability of service providers and intermediaries",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "mere-conduit",
+      "section": 72,
+      "title": "Mere conduit",
+      "plainLanguage": "This provision protects internet service providers and similar entities from being held liable for simply transmitting or storing electronic data for others. As long as they don't initiate the transmission, select the recipient, modify the content, or store it longer than necessary, they are not responsible for the content. This encourages the free flow of information online by shielding intermediaries from liability for user actions.",
+      "rawText": "70. (1) An intermediary or service provider is not liable for providing access to or for operating facilities for information systems or transmitting, routing or storage of electronic records through an information system under its control, as long as the intermediary or service provider\n\n        - (a) does not initiate the transmission;\n\n        - (b) does not select the addressee;\n\n        - (c) performs the functions in an automatic, technical manner without selection of the electronic record; and\n\n        - (d) does not modify the electronic record contained in the transmission.\n\n(2) The acts of transmission, routing and provision of access include the automatic, intermediate and transient storage of the information transmitted in so far as this takes place\n\n        - (a) for  the  sole  purpose  of  carrying  out  the  transmission  in  the information system;\n\n        - (b) in a manner that makes it ordinarily inaccessible to anyone other than an anticipated recipient; and\n\n        - (c) for  a  period  no  longer  than  is  reasonably  necessary  for  the transmission.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "electronic-record-transmission",
+      "section": 73,
+      "title": "Electronic record transmission",
+      "plainLanguage": "This provision shields service providers from being held responsible for temporarily storing electronic records to improve delivery speeds. This protection is granted only if the service provider doesn't alter the record, follows certain rules about access and updates, and removes the record if asked. This encourages efficient online communication by protecting intermediaries.",
+      "rawText": "71. An intermediary or service provider who transmits an electronic record provided by a recipient of the service through an information system under its control is not liable for the automatic, intermediate and temporary storage of that electronic record, where the purpose of storing the electronic record is to make the onward transmission of the electronic record more efficient to other recipients of the service on their request, as long as the service provider\n\n        - (a) does not modify the electronic record;\n\n        - (b) complies with conditions on access to the electronic record;\n\n        - (c) complies  with  rules  regarding  the  updating  of  the  electronic record, specified in a manner widely recognised and used by the industry;\n\n        - (d) does  not  interfere  with  the  lawful  use  of  technology  widely recognised and used by the industry to obtain information on the use of the electronic record; and\n\n        - (e) removes or disables access to the electronic record it had stored upon receiving a take-down notice under this Act.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "hosting",
+      "section": 74,
+      "title": "Hosting",
+      "plainLanguage": "This section protects hosting service providers from liability for user-generated content that infringes copyright, provided they don't know about the infringement and act quickly to remove it after receiving a notification. To be protected, the service provider must also provide contact information for copyright infringement notices. This encourages hosting services to cooperate in addressing copyright issues without fear of being held responsible for their users' actions.",
+      "rawText": "72. (1)  An  intermediary  or  service  provider  who  provides  a  service  that consists of the storage of electronic records provided to a user of the service, is not  liable  for  damages  arising  from  information  stored  at the  request of  the recipient of the service, as long as the service provider\n\n        - (a) does not have actual knowledge that the information or an activity relating to the information is infringing the rights of a third party,\n\n        - (c) upon  receipt  of  a  take-down  notification  under  this Act,  takes action  expeditiously  to  remove  or  to  disable  access  to  the information.\n\n(2) The limitations on liability established by this section do not apply to a service provider unless\n\n        - (a) it has provided an address to receive notifications of infringement; or\n\n        - (b) it has an agent for receipt of notification of infringement.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "information-location-tools",
+      "section": 75,
+      "title": "Information location tools",
+      "plainLanguage": "This provision protects service providers from liability if they link to websites containing copyright infringement, as long as they don't know about the infringement, don't financially benefit from it, and remove the link when notified. This encourages the free flow of information online while still respecting copyright laws.",
+      "rawText": "73. An intermediary or service provider is not liable for damages incurred by a person if the service provider refers or links users to a web page containing an  infringing  electronic  record  or  infringing  activity,  by  using  information location  tools,  including  a  directory,  index,  reference,  pointer,  or  hyperlink, where the intermediary or service provider\n\n        - (a) does not have actual knowledge that the electronic record or an activity relating to the electronic record is infringing the rights of that person or the State;\n\n        - (b) is not aware of facts or circumstances from which the infringing activity  or  the  infringing  nature  of  the  electronic  record  is apparent or can be reasonably inferred;\n\n        - (c) does  not  receive  a  financial  benefit  directly  attributable  to  the infringing activity; and\n\n        - (d) removes  or  disables  access  to  the  reference  or  link  to  the electronic record or activity within a reasonable time after being informed that the electronic record or the activity relating to the electronic record, fringes the rights of a person or the State.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "take-down-notification",
+      "section": 76,
+      "title": "Take-down notification",
+      "plainLanguage": "This provision explains how to report illegal content published online. The report must include details about the unlawful material, the specific right that is being violated, and what action should be taken. There are penalties for false reports, and publishers can be held liable for removing content improperly.",
+      "rawText": "74. (1) A person who claims that an electronically published matter is illegal or unlawful shall notify the publisher.\n\n(2) A notification of unlawful activity shall be in a permanent medium addressed by the complainant to the intermediary or service provider or its designated agent and shall include\n\n        - (c) identification of the right that has allegedly been infringed\n\n        - (d) identification of the material or activity that is claimed to be the subject of unlawful activity;\n\n        - (e) the remedial action required to be taken by the intermediary or service provider in respect of the complaint; and\n\n        - (f) telephonic and electronic contact details, if any, of the complainant.\n\n(3) A person who lodges a notification of unlawful activity with a service provider knowing that it materially misrepresents the facts is liable to pay a pecuniary penalty equivalent to five hundred penalty units.\n\n(4) The intermediary or service provider is liable for wrongful takedown in response to a notification.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "monitoring-and-compliance",
+      "section": 77,
+      "title": "Monitoring and compliance",
+      "plainLanguage": "This section states that online service providers don't have to actively monitor personal electronic communications for illegal activity. However, they must still comply with court orders or contractual obligations to remove content. This aims to protect user privacy while still allowing for legal action against illegal online activity.",
+      "rawText": "75. (1) An intermediary or service provider shall not be required to monitor an electronic record processed by means of a personal system in order to ascertain whether its processing would constitute or give rise to an offence or give rise to civil liability.\n\n(2)  Nothing  in  this  section  shall  relieve  an  intermediary  or  service provider from\n\n(a) an obligation to comply with an order or direction of a Court or other competent Agency; or\n\n(b) any contractual obligation.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "risk-assessments-and-mitigation",
+      "section": 78,
+      "title": "Risk Assessments and Mitigation",
+      "plainLanguage": "Large online platforms and search engines must conduct yearly risk assessments for harmful content like disinformation and hate speech. They also need to create plans to reduce these risks. Independent audits will occur every two years to ensure they are following through, and the results will be made public.",
+      "rawText": "76. (1) Very Large Online Platforms (VLOPs) and Very Large Online Search Engines (VLOSEs) shall conduct annual risk assessments to identify systemic risks associated with their platforms, including but not limited to disinformation, hate speech, child exploitation, and other harmful content.\n\n(2)  VLOPs  and  VLOSEs  shall  submit  risk  mitigation  plans  to  the  National Information Technology Authority within thirty (30) days following completion of the assessment.\n\n(3) Risk management practices shall be subject to independent third-party audits every  two  (2)  years,  and  the  audit  reports  shall  be  submitted  to  National Information Technology Authority and made publicly available in accordance with prescribed guidelines.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "transparency-obligations",
+      "section": 79,
+      "title": "Transparency Obligations",
+      "plainLanguage": "This provision requires large online platforms and certifying authorities to publish regular reports about their content moderation, complaint handling, use of automated tools, algorithms, and digital certificate management. This aims to increase transparency and accountability in how these entities operate and impact users.",
+      "rawText": "77. (1) VLOPs, VLOSEs, and Certifying Authorities shall publish biannual transparency reports detailing\n\n(i) content moderation actions undertaken, including removals and account suspensions;\n\n(ii) complaints received and the nature and resolution of such complaints;\n\n(iii) the use of automated tools, including artificial intelligence systems, for filtering or moderating content; and\n\n(iv) algorithmic disclosure, which shall include the criteria used in content ranking, targeted advertising, and recommendation systems.\n\n(2)  Certifying  Authorities  shall  also  publish  annual  transparency  reports detailing:\n\n(i) the number of digital certificates issued, revoked, or suspended; and\n\n(ii) the reasons and circumstances surrounding such actions.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "protection-of-children",
+      "section": 80,
+      "title": "Protection of Children",
+      "plainLanguage": "This provision aims to protect children online by requiring age verification for services they might access. It also stops companies from using children's personal data to target them with advertising. This ensures a safer and more private online experience for children.",
+      "rawText": "78. (1) Service providers offering services directed at or likely to be accessed by  childrens  shall  implement  robust  age-verification  mechanisms  to  prevent unauthorised access by underage users.\n\n(2) No person or entity shall deliver targeted advertising based on the personal data of childrens, whether directly or through automated profiling systems.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "due-diligence-obligations",
+      "section": 81,
+      "title": "Due diligence obligations",
+      "plainLanguage": "Licensees must regularly assess risks to their systems and services based on standards from the National Information Technology Authority. This helps them find and fix potential security problems. The goal is to protect the integrity, confidentiality, and availability of their systems.",
+      "rawText": "79. A licensee shall conduct periodic risk assessments in accordance with standards prescribed by the National Information Technology Authority, with a view to identifying, managing, and mitigating potential threats to the integrity, confidentiality, and availability of its systems and services.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "limitations-and-prohibited-acts",
+      "section": 82,
+      "title": "Limitations and prohibited acts",
+      "plainLanguage": "This section generally prevents electronic communication and remote computing services from sharing the content of your communications. However, they can share your communications if required by law, with your consent, or to protect their own operations. They can also share information with law enforcement if they unintentionally discover evidence of a crime.",
+      "rawText": "80. (1) Except as provided in this Act\n\n        - (a) any person or entity that provides an electronic communication service to the public shall not knowingly divulge the contents of a communication while in electronic storage by that service to any person or entity; and\n\n        - (b) a  person  or  entity  providing  remote  computing  service  to  the public shall not knowingly divulge the contents of any\n\ntransmission from  a  subscriber  or  customer  of  the service; and\n\n        - (ii) solely for the purpose of providing storage or computer processing services to the subscriber or customer,\n\nif the provider is not authorised to access the contents of the communications to provide any service other than storage or computer processing.\n\n(2) A person or entity may divulge the contents of a communication\n\n        - (a) to an addressee or intended recipient of the communication or an agent of the addressee or intended recipient;\n\n        - (b) as otherwise authorised by law;\n\n        - (c) with the lawful consent of the originator, an addressee, intended recipient of the communication, or the subscriber in the case of remote computing service;\n\n        - (d) to a person employed, authorised or whose facilities are used to forward the communication to its destination;\n\n        - (e) as may be necessarily incident to the provision of the service or to the protection of the rights or property of the provider of that service; or\n\n        - (f) to a law enforcement agency if the contents were inadvertently and unintentionally obtained by the service provider and appear to relate to the commission of a crime.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy"
+      ]
+    },
+    {
+      "id": "savings",
+      "section": 83,
+      "title": "Savings",
+      "plainLanguage": "This section clarifies that the new rules don't override existing agreements, the obligations of regulated service providers, or court orders related to removing or blocking access to electronic records. It ensures that current legal and contractual obligations remain in effect despite the new regulations.",
+      "rawText": "81. Sections 70 to 80 do not affect\n\n        - (a) an obligation founded on an agreement;\n\n        - (b) the  obligation  of  a  service  provider  acting  as  in  that  capacity under a  licensing  or  other  regulatory  regime  established  by  or under any law; and\n\n        - (c) an  obligation  imposed  by  law  or  by  a  Court  order  to  remove, block or deny access to an electronic record.\n\nMiscellaneous matters communication which is carried or maintained on that service to any other person or entity",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "territorial-scope-of-offences-under-this-act",
+      "section": 84,
+      "title": "Territorial scope of offences under this Act",
+      "plainLanguage": "This law applies to anyone, anywhere, who commits an offense covered by it. Even if the person is outside of the country, they can be prosecuted as if the crime happened within the country if certain conditions are met, such as if they were in the country at the time or if the crime involved a payment method or computer system located in the country. It also applies to offenses committed on Ghanaian ships or planes.",
+      "rawText": "82. (1) This Act has effect in  relation  to  a  person  of  whatever  nationality outside as well as within the country and where an offence under this Act is committed by a person in any place outside the country, the person may be dealt with as if the offence had been committed within the country.\n\n(2) This Act shall apply if, for the offence in question\n\n        - (a) the accused was in the country at the material time;\n\n        - (b) the  electronic  payment  medium, computer or electronic record was issued in or located or stored in the country at the material time;\n\n        - (c) the  electronic  payment  medium  was  issued  by  a  financial institution in the country; or\n\n        - (d) the  offence  occurred  within  the  country,  on  board  a  Ghanaian registered ship or aircraft or on a voyage or flight to or from this country  at  the  time  that  the  offence  was  committed,  whether paragraph (a), (b) or (c) applies.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "guidelines-directives-or-codes-of-practice",
+      "section": 85,
+      "title": "Guidelines, directives, or codes of practice",
+      "plainLanguage": "This provision allows the National Information Technology Authority to create guidelines and directives to help put this law into action. These guidelines will ensure the law is implemented and enforced effectively. This gives the Authority the power to provide practical guidance on how to follow the law.",
+      "rawText": "83. The National Information Technology Authority may, for the purpose of giving effect to the provisions of this Act, issue guidelines, directives, or codes of  practice  as  it  considers  necessary  for  the  effective  implementation  and enforcement of this Act and any Regulations made under it.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "regulations",
+      "section": 86,
+      "title": "Regulations",
+      "plainLanguage": "This provision allows the Minister to create regulations that clarify and implement the Act. These regulations can cover definitions, exceptions, records, electronic signatures, electronic communication, and other necessary matters. This ensures the Act can be effectively put into practice.",
+      "rawText": "84. The Minister may by legislative instrument make regulations\n\n        - (a) to define, enlarge or restrict the meaning of a word or expression used in this Act;\n\n        - (b) to specify provisions of or requirements under another enactment to which this Act does not apply;\n\n        - (c) to prescribe records, information  or classes of records or information not applicable to this Act;\n\n        - (d) to prescribe records or classes of records for which a requirement under law for the signature of a person must be satisfied by an electronic signature and proof that, in view of the circumstances including  any  relevant  agreement  and  the  time  the  electronic signature was made,\n\n        - (e) to provide for electronic signatures;\n\n        - (f) to provide for the electronic means  to be used to send, receive or retain information or records in electronic form if an  enactment  requires  a  person  to  send,  receive  or  retain  the information or records; and\n\n        - (g) to  provide  for  any  other  matter  necessary  for  the  effective implementation of this Act.",
+      "relatedImpacts": [
+        "innovation",
+        "business"
+      ]
+    },
+    {
+      "id": "interpretation",
+      "section": 87,
+      "title": "Interpretation",
+      "plainLanguage": "This section defines key terms used in the Act, such as \"access\" to data, \"addressee\" of electronic records, and \"algorithmic disclosure,\" which requires platforms to provide information about the algorithms they use. It also defines \"automated profiling,\" \"digital platforms,\" \"electronic signatures,\" and other terms related to electronic transactions and cybersecurity. These definitions ensure consistent understanding and application of the law.",
+      "rawText": "85 . In this Act, unless the context otherwise requires,\n\n\"access\" includes the actions of a person who, after taking note of data, becomes aware of the fact that there is no authorisation to access that data and still continues to access that data;\n\n\"addressee\", in respect of an electronic record, means a person who is intended by the originator to receive the electronic record, but not a person acting as an intermediary with respect to that electronic record;\n\n\"Agency\" means the National Information Technology Agency;\n\n\"algorithmic disclosure\" means the obligation of a platform or service provider to make available meaningful information about the logic, significance, parameters, and potential impact of algorithms used in ranking, recommending, or filtering content or advertisements;\n\n\"authentication products or services \" means products or services designed to identify the holder of an electronic signature to other persons;\n\n\" authentication service provider \" means a person whose authentication products or services have been accredited by the Certifying Agency under this Act;\n\n\"automated profiling \" means the use of automated processing techniques, including artificial intelligence or machine learning, to analyse personal data in order to evaluate certain aspects of a person, in particular to predict or assess behaviour, preferences, interests, or location;\n\n\"automated transaction \" means an electronic transaction conducted or performed, in whole or in part, by means of electronic records in which the conduct or electronic records of one or both parties are not reviewed by an individual in the ordinary course of the individual's business or employment;\n\n\"Biometric authentication \" means the process of verifying an individual's identity based on measurable physiological or behavioural characteristics, including but not limited to fingerprints, facial features, voice patterns, retinal scans, or other biometric identifiers, used in connection with electronic identification or digital signatures;\n\n\"Board\" means Board of the Agency;\n\n\"browser\" means a computer programme which allows a person to read hyperlinked electronic records;\n\n\"cache\" means high speed memory that stores data for relatively short periods of time, under computer control, in order to speed up data transmission or processing;\n\n\"ccTLD\" means country code domain at the top level of the Internet's domain name system assigned according to the two-letter codes in the International Standard ISO 3166-1 (Codes for Representation of Names of Countries and their Subdivision);\n\n\"Certificate practice statement\" means a statement published by a certification service provider that outlines the practices, procedures, and security controls used in the issuance, management, revocation, and renewal of digital certificates;\n\n\"certification service provider \" means a person providing an authentication product or service in the form of a digital certificate attached to, incorporated in or logically associated with an electronic record;\n\n\"Certifying Agency \" means the Certifying Agency established under this Act;\n\n\"clear days \" means complete days excluding the day of dispatch;\n\n\"computer\" means a device or a group of inter-connected or related devices, including the Internet, one or more of which, pursuant to a programme, performs automatic processing of data or any other function but does not include\n\n(a) portable hand held calculator;\n\n- (b) an automated typewriter or typesetter;\n\n(c) a similar device which is non-programmable or which does not contain any data storage facility; or\n\n(d) any other device that the Minister may prescribe in the Gazette;\n\n\" computer output\" or \" output \" means a statement or representation, whether in written, printed, pictorial, graphical, electronic, digital or any other form, purporting to be a statement or representation of fact\n\n- (a) produced by a computer; or\n\n(b) accurately translated from a statement or representation so produced;\n\n\"computer service\" includes computer time, computer output, data processing and the storage or retrieval of a programme or data;\n\n\"consumer\" means an individual person who enters or intends entering into an electronic transaction with a supplier as the end user of the goods or services offered by that supplier;\n\n\"controller\" means a person who electronically requests, collects, collates, processes or stores personal information from or in respect of a data subject;\n\n\"Court\" means any judicial, quasi-judicial or other administrative tribunal established by law;\n\n\"critical database\" means a crucial set of data in an electronic record related to national security or the economic well-being of the public determined by the Minister;\n\n\"critical database administrator\" means the person responsible for the management and control of a critical database;\n\n\"critical electronic record\" means an electronic record, group or classification of electronic record which is declared by the Minister to be of importance to the protection of the national security of the Republic or the economic and social well-being of its citizens;\n\n\"cyber inspector\" means a staff of the National Information Technology Agency with power to monitor, investigate, prosecute any offence under this Act and any other law enforcement agency acting under any provision of this Act;\n\n\"damage \" includes impairment to a computer or the integrity or availability of a programme or data held in a computer that:\n\n(a) causes loss within the period prescribed under the Limitation Decree, 1972 (N.R.C.D. 54),\n\n(b) modifies or impairs, or potentially modifies or impairs, the medical examination, diagnosis, treatment or care of a person,\n\n- (c) causes or threatens physical injury or death to a person, or\n\n(d) threatens the public interest;\n\n\"decryption information \" means information or technology that enables a person to readily retransform or unscramble an encrypted programme or data from its unreadable and incomprehensible format to its plain text version;\n\n\"device\" means any thing or apparatus that is used or capable of being used to intercept a function of a computer or electronic record;\n\n\"digital platform\" means an online-based system or interface, including webbased platforms and app-based ecosystems, that facilitates interaction between users for the exchange of goods, services, information, or content, including social media platforms, online marketplaces, and digital service aggregators;\n\n\"digital signature\" means data attached to, incorporated in, or logically associated with other data and which is intended by the user to serve as a signature;\n\n\"domain name system \" means a system to translate domain names into IP addresses or other information;\n\n\" E-Gazette\" means an official Government publication issued in electronic format, which is accessible online, authenticated by electronic or digital signature, and which carries the same legal effect and admissibility in court as the print version of the Gazette;\n\n\"e-government services\" means a public service provided by electronic means by a public body in the country;\n\n\"e-mail \" means electronic mail, an electronic record used or intended to be used as a mail message between the originator and addressee in an electronic communication;\n\n\"electronic agent\" means a computer programme or an electronic or other automated means used independently to initiate an action or respond to electronic records or performances in whole or in part, in an automated transaction;\n\n\"electronic communication \" means a communication by means of electronic records;\n\n\"electronic payment medium\" includes any medium issued to a holder capable of being used to make an electronic financial transaction;\n\n- \"electronic record\" includes data generated, sent, received or stored by electronic means:\n\n- (a) voice, where voice is used in an automated transaction; and (b) a stored record;\n\n\"electronic signature\" means any data in electronic form, affixed to or logically associated with a data message, which is used by a person to indicate their agreement to the content of that data message or transaction, and which is capable of identifying the signatory and maintaining the integrity of the signed information;\n\n\"electronic transaction\" means a transaction by an electronic agent;\n\n- \"encrypted product\" means a product that makes use of encryption techniques and is used by a sender or recipient of electronic record to ensure\n\n- (a) that the data can be accessed only by relevant persons,\n\n- (b) the authenticity of the data,\n\n- (c) the integrity of the data, or\n\n- (d) that the source of the data can be correctly ascertained;\n\n\"encrypted programme or electronic record\" means a programme or data which has been transformed or scrambled from its plain text version to an unreadable or incomprehensible format, regardless of the technique utilized for the transformation or scrambling and irrespective of the medium in which the programme or data occurs or can be found for the purposes of protecting the content of the programme or data;\n\n\"encryption provider\" means any person who provides or who proposes to provide encryption services or products in the country;\n\n\"encryption service \" means a service which is provided to a sender or a recipient of an electronic record or to anyone storing an electronic record, which is designed to facilitate the use of encryption techniques to ensure (a) that the data or electronic record can be accessed or can be put into an intelligible form only by certain persons,\n\n- (b) that the authenticity or integrity of the data or electronic record is capable of being ascertained,\n\n- (c) the integrity of the data or electronic record, or\n\n- (d) that the source of the data or electronic record can be correctly ascertained;\n\n\"essential emergency service\" means a vital service to avoid the imminent occurrence of a situation which is out of the ordinary which threatens to endanger a person, public safety or cause damage to property;\n\n\"financial institution\" means an entity that undertakes financial intermediation;\n\n\"financial intermediation\" means a process of transferring funds from one entity to another entity;\n\n\"Forum\" means Industry Forum;\n\n\"function\" includes logic, control, arithmetic, deletion, storage and retrieval, and communication or telecommunication to, from or within a computer;\n\n\"Gazette\" includes an electronic record of the Gazette and publication on the website of the appropriate Government Agency;\n\n\".gh domain name space\" means the .gh ccTLD assigned to the Republic according to the two-letter codes in the International Standard ISO 3166;\n\n\"Government\" means any authority by which the executive authority of the Republic is duly exercised;\n\n\"home page\" means the primary entry point webpage of a website;\n\n\"hyperlink\" means a reference or link from some point in one electronic record directing a browser or other technology or functionality to another electronic record or point in that electronic record or to another place in the same electronic record;\n\n\"hyper text\" means a reference or link from some point in one electronic record directing a browser or other technology or functionality to another electronic record or point or to another place in the same electronic record;\n\n\"incorporated body\" means an entity registered under the Companies Act 2019 (Act 992), the Incorporated Private Partnerships Act 1962 (Act 152) or the Trustees Incorporation Act, 1962 (Act 106);\n\n\"incident response plan \" means a formal set of procedures established by a licensed entity or certifying authority for detecting, reporting, responding to, and recovering from cybersecurity incidents or breaches that affect the integrity, availability, or confidentiality of its systems or services;\n\n\"industry \" means the communications industry;\n\n\"Industry Forum\" means the communications industry meeting from time to time to discuss matters of common interest to and concerning the industry;\n\n\"information system\" includes a system for generating, sending, receiving, storing, displaying or otherwise processing electronic records and the Internet;\n\n\"information system services\" includes the provision of connections, the operation of facilities for information systems, the provision of access to information systems, the transmission or routing of electronic records between or among points specified by a user and the processing and storage of data at the individual request of the recipient of the service;\n\n\"intercept\" includes, in relation to a function of a computer or electronic record, listening to or recording a function of a computer or electronic record, or acquiring the substance, meaning or purport of it;\n\n\"intermediary\" means a person who, on behalf of another person, whether as agent or not, sends, receives or stores a particular electronic record or provides other services with respect to that electronic record;\n\n\"interoperability standards \" means technical specifications that ensure digital systems, applications, and processes are capable of exchanging and using information securely, effectively, and consistently across different platforms, jurisdictions, or certifying authorities;\n\n\"Internet\" means the interconnected system of networks that connects computers around the world using the TCP/IP and future versions of the interconnected system;\n\n\"IP address\" means the number identifying the point of connection of a computer or other device to the internet;\n\n\"law enforcement agency\" means the police, customs, excise and preventive service and any other law enforcement agency authorised by law to exercise police powers;\n\n\"Minister\" means the Minister responsible for Communications;\n\n\"Ministry\" means the Ministry responsible for Communications;\n\n\"notice\" means transactional message or notification intended to elicit the subscriber's choice to opt-in or opt-out of a service, or an emergency communication prescribed by law;\n\n\"originator\" means a person by whom, or on whose behalf, an electronic record purports to have been sent or generated prior to storage, but does not mean a person acting as an intermediary with respect to that electronic record;\n\n\"person \" includes a public agency;\n\n\"personal information \" means information about an identifiable individual, including, but not limited to: (a) information relating to the race, gender, sex, pregnancy, marital status, nationality, ethnic or social origin, colour, sexual orientation, age, physical or mental health, well-being; disability, religion, conscience, belief, culture, language and birth of the individual; (b) information relating to the education or the medical, criminal or employment history of the individual or information relating to financial transactions in which the individual has been involved; (c) any identifying number, symbol, or other particular assigned to the individual; (d) the address, fingerprints or blood type of the individual; (e) the personal opinions, views or preferences of the individual, except where they are about another individual or about a proposal for a grant, an award or a prize to be made to another individual; (f) correspondence sent by the individual that is implicitly or explicitly of a private or confidential nature or further correspondence that would reveal the contents of original correspondence; (g) the views or opinions of another individual about the individual; (h) the views or opinions of another individual about a proposal for a grant, an award or a prize to be made to the individual, but excluding the name of the other individual where it appears with the views or opinions of the other individual; and (i) the name of the individual where it appears with other personal information relating to the individual or where the disclosure of the name itself would reveal information about the individual, but excludes information about an individual who has been dead for more than twenty years;\n\n\"plain text version\" means a programme or original data before it has been transformed or scrambled to an unreadable or incomprehensible format;\n\n\"prescribe\" means prescribe by directive, notice or Regulation under this Act;\n\n\"programme or computer programme\" means data representing instructions or statements which when executed in a computer, causes the computer to perform a function;\n\n\"programme or data\" includes a reference to a programme or data held in any removable storage medium which is for the time being in the computer;\n\n\"public agency\" means a body set-up by Government in the public interest with or without an Act of Parliament;\n\n- (a) department of central government or a department in local government; or (b) any other functionary or institution when\n\n- (i) exercising a power or discharging a duty in terms of the Constitution; or\n\n- (ii) exercising a power or performing a function in terms of any legislation;\n\n\"public interest\" includes a right or advantage which enures or is intended to enure to the general benefit of the people of this country, including but not limited to access to essential digital services, protection of personal data, promotion of cybersecurity, and the safeguarding of national digital infrastructure;\n\n\"public key\" means the key which is available to the public for purposes of the encryption of an electronic key which is linked to a private decryption key held exclusively by the issuer of the key available to the public;\n\n\"Public Key Infrastructure\" (PKI) means a system of policies, roles, hardware, software, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and public keys, enabling secure electronic transactions and communication through authentication, confidentiality, integrity, and non-repudiation;\n\n\"Qualified Electronic Signature\" means an electronic signature that-\n\n- (a) is uniquely linked to the signatory;\n\n- (b) is capable of identifying the signatory;\n\n- (c) is created using means that the signatory can maintain under their sole control; and\n\n(d) is based on a qualified certificate issued by a certification service provider accredited or recognised under this Act;\n\n\"recommendation system\" means an automated system used by an online platform to suggest content, products, services, or interactions to users based on data collected from or about those users or other users;\n\n\"repository\" means the primary register of electronic records or information maintained by a registry or certification service provider, for the purpose of storing, publishing, or retrieving digital certificates, public keys, or related transactional data;\n\n\"risk management practices\" means structured processes, tools, and procedures employed to assess, monitor, and address operational, technological, legal, and reputational risks within an electronic communication environment;\n\n\"risk mitigation plan \" means a documented strategy developed by a service provider or platform to identify, reduce, and manage potential systemic risks and vulnerabilities associated with its operations, systems, or content dissemination processes;\n\n\"Root CA\" means the Root Certification Authority, being the top-level trusted entity in a Public Key Infrastructure that issues and digitally signs certificates for subordinate certification authorities, and serves as the foundational trust anchor for the validation of all digital certificates issued under the infrastructure;\n\n\"second level domain\" means the sub domain immediately following the ccTLD;\n\n\"security agency\" means a body connected with national security;\n\n\"service provider\" means any person providing information system services;\n\n\"statutory provision \" means by or under an Act of Parliament;\n\n\"sub domain\" means any subdivision of the .gh domain name space which is the second level domain;\n\n\"Subscriber\" means a person or entity that is the subject named or identified in a digital certificate, who has applied for and been issued the certificate by a certification service provider, and who holds the corresponding private key associated with the public key listed in the certificate;\n\n\"TCP/IP\" means the Transmission Control Protocol Internet Protocol used by an information system to connect to the Internet;\n\n\"TI-D\" means a top level domain of the domain name system;\n\n\"third party\" in relation to a service provider, means a subscriber to the service provider's services or any other user of the service provider's services or a user of information systems;\n\n\"transaction\" means a transaction of either a commercial or non-commercial nature and the provision of information and e-government services;\n\n\"transparency report\" means a periodic report published by a service provider, certifying authority, or platform detailing the scope and nature of content moderation activities, use of automated tools, algorithmic processes, complaints received and resolved, and other operational metrics as required under this Act;\n\n\"unauthorised access \" is access of any kind by a person to a programme or data held in a computer without authority if:\n\n(a) the person is not personally entitled to control access of the kind in question to the programme or data; and\n\n(b) the person does not have consent to access the kind of programme or data from the person who is entitled to control access;\n\n\"unincorporated body\" means an entity registered under the Registration of Business Names Act, 1962 (Act 151) or any person carrying on business without a registration or without a certificate of incorporation;\n\n\"universal access\" means access by all citizens of Ghana to internet connectivity and electronic transactions;\n\n\"user-generated content\" means any form of content, including text, images, videos, or audio, created and uploaded by a user of an online platform, which is not pre-selected or controlled by the service provider other than through moderation or algorithmic curation;\n\n\"Very Large Online Platforms\" or \"VLOPs\" means online platforms that provide intermediary services primarily consisting of hosting user-generated content, which reach an average of forty-five million or more monthly active users within the jurisdiction or relevant region, and which, due to their size, have a significant societal or systemic impact on the dissemination of information, public discourse, or access to goods and services online;\n\n\"Very Large Online Search Engines\" or \"VLOSEs\" means online search engines that allow users to input queries to retrieve information from websites across the internet, and which reach an average of forty-five million or more monthly active users, thereby having a considerable effect on the visibility of online information and the flow of digital traffic;\n\n\"webpage\" means an electronic record on the World Wide Web;\n\n\"website\" means a location on the Internet containing a home page or web page; and\n\n\"World Wide Web\" means an information browsing framework that allows a user to locate and access information stored on a remote computer and to follow references from one computer to related information on another computer.",
+      "relatedImpacts": [
+        "innovation",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "repeals-and-savings",
+      "section": 88,
+      "title": "Repeals and savings",
+      "plainLanguage": "This provision replaces the old Electronic Transactions Act with a new one, but any existing licenses or authorizations remain valid under the new law. The old law will still apply to any legal cases or penalties that were started before this change. This ensures a seamless transition without disrupting ongoing processes.",
+      "rawText": "86 . (1) The Electronic Transactions Act, 2008 (Act 772) is hereby repealed. (2) Despite the repeal under subsection (1), any licence, authorisation, notice, or other lawful act issued or done under the repealed enactment, and in force immediately before the coming into force of this Act, shall, to the extent that it is not inconsistent with this Act, be deemed to have been issued or done under\n\nthis Act  and  shall  continue  in  force  until  it  is  revoked,  reviewed,  cancelled, terminated, or expires.\n\n(3) The Act shall not affect the repealed enactment in the operation of offences committed, penalties imposed or proceedings commenced before the coming into force of this Act.",
+      "relatedImpacts": [
+        "business"
+      ]
+    },
+    {
+      "id": "modification-of-existing-enactments",
+      "section": 89,
+      "title": "Modification of existing enactments",
+      "plainLanguage": "This section modifies existing laws to align with this new Act, ensuring it can be properly implemented. If any existing law clashes with this new Act, the provisions of this new Act will take precedence. This helps to avoid confusion and ensures the new law is followed.",
+      "rawText": "87. (1)  The provisions of any enactment relevant to this Act and in existence before  the  coming  into  force  of  this  Act  shall  have  effect  subject  to  such modifications necessary to give effect to this Act.\n\n(2) Where there is a conflict or inconsistency between the provisions of this Act and any other enactment relevant to this Act, the provisions of this Act shall prevail.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "transitional-provisions",
+      "section": 90,
+      "title": "Transitional Provisions",
+      "plainLanguage": "Existing licenses for electronic communications, spectrum, or broadcasting services will remain valid under the new law until they expire or are revoked. Licensees have up to 12 months (or longer if the Minister prescribes) to comply with any new requirements introduced by this Act. This allows a transition period for businesses to adjust to the updated regulations.",
+      "rawText": "88 .  (1) A  licence, frequency  authorisation, permit or certificate issued by the National Communications Authority in respect of electronic communications, spectrum,  or  broadcasting  services  shall  remain  valid  until  it  is  revoked, cancelled, terminated by the Authority, or expires in accordance with its terms. (2)  Licensees  and  entities  subject  to  new  obligations  under  this Act  shall  be given a period of twelve months from the commencement of this Act, or such longer period as may be prescribed by the Minister, to bring their operations into full compliance.\n\n*Date of Gazette notification:",
+      "relatedImpacts": [
+        "business"
+      ]
+    }
+  ],
+  "notebookLMVideo": {
+    "url": "",
+    "duration": "10:00"
+  },
+  "deadline": "2025-12-31",
+  "submissionMethod": "Email to clerk@parliament.gov.gh",
+  "relatedBills": []
+}

@@ -47,6 +47,13 @@ echo "Each bill will be processed through:"
 echo "  1. PDF → Docling JSON (OCR + structure extraction)"
 echo "  2. Docling JSON → Bill JSON (section extraction)"
 echo "  3. Bill JSON → Categorized (LLM categorization)"
+echo "  4. Categorized → Summarized (plain language summaries)"
+echo "  5. Summarized → Executive Summary (bill overview)"
+echo "  6. Executive Summary → Impact Assessed (topic-specific impact levels)"
+echo "  7. Impact Assessed → Impact Analyses (topic-level analyses)"
+echo "  8. Impact Analyses → Key Concerns (critical issues)"
+echo "  9. Key Concerns → Metadata Enriched (add publication info, etc.)"
+echo " 10. Metadata → Web App (transformed and copied to src/data/bills)"
 echo
 read -p "Continue? (y/n) " -n 1 -r
 echo
@@ -60,9 +67,21 @@ SUCCESS_COUNT=0
 ERROR_COUNT=0
 FAILED_FILES=()
 
+# Temporarily excluded files (already processed)
+EXCLUDED_FILES=(
+    # "11. Data Protection Commission (Amendment) Bill.pdf"
+#    '3. Postal, Courier & Logistics Services Commission (Amendment) Bill.pdf'
+)
+
 # Process each PDF
 for PDF_FILE in "${PDF_FILES[@]}"; do
     PDF_BASENAME=$(basename "$PDF_FILE")
+
+    # Skip excluded files
+    if [[ " ${EXCLUDED_FILES[@]} " =~ " ${PDF_BASENAME} " ]]; then
+        echo -e "${BLUE}⊘ Skipping (excluded): $PDF_BASENAME${NC}"
+        continue
+    fi
 
     echo
     echo "================================================================================"

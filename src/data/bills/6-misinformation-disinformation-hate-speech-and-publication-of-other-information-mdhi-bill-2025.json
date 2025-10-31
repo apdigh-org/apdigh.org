@@ -1,0 +1,1713 @@
+{
+  "id": "6-misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+  "title": "Misinformation, Disinformation, Hate Speech and Publication of Other Information (MDHI) Bill, 2025",
+  "summary": "The **Misinformation, Disinformation, Hate Speech and Publication of Other Information (MDHI) Bill, 2025** creates a new regulatory Division within Ghana's communications authority to combat false information, hate speech, disclosure of private facts, and publication of confidential government information. The bill establishes civil, administrative, and criminal penalties for violations, with enforcement mechanisms that raise **significant concerns about freedom of expression, press freedom, and digital rights** in Ghana.\n\n**Key Provisions & Impacts:**\n\nThe bill makes it illegal to publish \"false information\" that affects \"the public interest\" - a broad standard covering public health, elections, government reputation, and international relations. **Media outlets, journalists, influencers, and ordinary citizens** must conduct \"due diligence\" to verify information accuracy before publication or face liability. The Division can investigate complaints, issue binding correction orders, demand content removal, and impose **administrative penalties up to 500,000 penalty units** (with additional daily penalties for non-compliance). Criminal penalties include fines and imprisonment for false information causing \"public harm, violence, or fear.\" **Critically, the government and public institutions can sue for misinformation against themselves**, while the bill explicitly prohibits using these provisions against criticism of the ruling political party - creating asymmetric enforcement power that could suppress legitimate government criticism.\n\n**Business & Compliance Burdens:**\n\nThe bill imposes extensive compliance requirements on media houses, internet platforms, content creators, and government ministries. Organizations must conduct **annual human rights audits, misinformation risk assessments, establish fact-checking departments, obtain fact-checking certification** (required for license renewal), and provide bi-annual staff training. Internet intermediaries regulated in Ghana must align content moderation policies with the Act. **Non-compliance triggers escalating penalties**: compliance warnings, daily compounding fines, and potential license suspension or revocation. These requirements create substantial operational costs and legal risks, particularly for smaller media outlets and digital businesses. However, the bill only applies to internet intermediaries \"regulated in Ghana,\" potentially limiting its impact on major international platforms like Facebook, Twitter, or YouTube unless they have formal regulatory presence in Ghana.\n\n**Freedom of Expression & Privacy Concerns:**\n\nWhile the bill includes constitutional safeguards stating it must be interpreted to protect freedom of speech and privacy, **the practical enforcement mechanisms create significant chilling effects**. The Division's decisions are immediately enforceable even during appeals (unless compliance is \"technically impossible\"), and respondents have only **two days to respond** to complaints. The bill prohibits disclosure of \"private facts\" about individuals, including politicians and public figures, unless the information affects national security or reveals exploitation - potentially limiting investigative journalism. **Hate speech provisions** criminalize speech that \"promotes hostility\" or uses \"discriminatory language\" against groups, with courts having sole authority to determine what constitutes hate speech. The bill claims **extraterritorial jurisdiction** over Ghanaians abroad and foreigners targeting Ghanaians, though enforcement mechanisms for foreign actors remain unclear.\n\n**Systemic Risks:**\n\nThe bill's broad definitions, vague standards (\"public interest,\" \"public harm\"), and severe penalties create substantial risks for democratic discourse in Ghana. **Daily compounding fines, criminal prosecution, and license revocation** for publishing information later deemed false could force media outlets into self-censorship. The requirement that individuals prove information accuracy (burden of proof on publisher) reverses normal legal standards. The Division operates with significant autonomy, though the Minister can issue \"high-level\" directives. **Most concerning: the explicit protection allowing government to sue for misinformation while prohibiting use against ruling party criticism** creates a legal framework that could be weaponized against opposition voices, investigative journalists, and civil society organizations. The bill's transitional provisions terminate all ongoing prosecutions under older speech-related laws, suggesting recognition that previous frameworks were problematic - yet this bill introduces even broader restrictions.",
+  "pdfPath": "pdfs/6. Misinformation, Disinformation, Hate Speech and Publication of Other Information (MDHI) Bill, 2025.pdf",
+  "impacts": {
+    "innovation": {
+      "score": "severe-negative",
+      "description": {
+        "score": "severe-negative",
+        "analysis": "The MDHI Bill 2025 poses an existential threat to digital innovation in Ghana by creating a regulatory environment characterized by crushing compliance burdens, unpredictable legal liability, and severe penalties that will fundamentally reshape the country's digital ecosystem. The bill requires all media houses, internet intermediaries, and content creators to conduct annual misinformation risk assessments, establish fact-checking departments, obtain annual fact-checking certification (required for license renewal), and provide bi-annual staff training - with administrative penalties reaching 500,000 penalty units plus daily compounding fines for non-compliance. These requirements impose operational costs that will be prohibitive for startups, small digital businesses, and independent content creators, effectively creating barriers to entry that favor large, established entities while stifling entrepreneurial innovation. The requirement that digital platforms prove information accuracy before publication (reversing normal burden of proof) and the Division's power to issue immediately enforceable orders with only two-day response windows create operational impossibilities that will force platforms into aggressive, risk-averse content moderation strategies.\n\nThe bill's impact on Ghana's emerging tech sector extends beyond compliance costs to fundamental questions of viability and investment attractiveness. Digital entrepreneurs face the prospect of criminal prosecution (including imprisonment) for publishing information later deemed false if it causes broadly-defined \"public harm,\" \"fear,\" or \"unrest\" - standards so vague they could encompass almost any controversial content. The threat of license suspension or revocation after three compliance warnings creates existential risk for any digital business operating in Ghana, while the bill's extraterritorial claims and application to internet intermediaries \"regulated in Ghana\" introduce additional uncertainty about jurisdictional scope. International tech companies may simply avoid establishing formal regulatory presence in Ghana to escape the bill's reach, depriving the country of foreign investment and technology transfer. Domestic platforms, however, have no such escape - they must either absorb massive compliance costs, over-moderate content to minimize legal risk, or cease operations entirely.\n\nMost devastatingly for innovation, the bill's asymmetric enforcement provisions and political weaponization potential will create a chilling effect that suppresses the very experimentation, risk-taking, and free expression that drive digital innovation. The explicit protection allowing government to sue for misinformation while prohibiting use against ruling party criticism creates a legal framework designed to suppress dissent and critical discourse. Digital platforms hosting political content, civic tech applications enabling government accountability, investigative journalism platforms, and social media spaces for public debate will face constant threat of enforcement actions, correction orders, content removal demands, and administrative penalties. Content creators, influencers, and digital media entrepreneurs will self-censor to avoid liability, while platforms will implement overly broad content restrictions to minimize legal exposure. This regulatory environment will drive digital innovation offshore, discourage venture capital investment in Ghanaian tech startups, and transform Ghana's digital ecosystem from a space of creative experimentation into a heavily policed, risk-averse environment where only the most cautious, well-resourced, and politically connected entities can survive. For a country seeking to build a vibrant digital economy, this bill represents a catastrophic policy failure that will set back Ghana's tech sector by years and position it as a cautionary tale of how regulatory overreach can destroy digital innovation."
+      },
+      "relatedProvisions": [
+        "scope-of-the-act",
+        "balancing-private-benefit-against-public-benefit",
+        "application-and-interpretation-in-favour-of-constitutional-rights",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "functions-of-the-division",
+        "director-of-the-division",
+        "communication-of-information",
+        "false-information",
+        "control-over-the-information",
+        "exclusion-of-persons",
+        "misinformation-and-disinformation",
+        "due-diligence-of-the-certainty-or-accuracy-of-information",
+        "business-misinformation-or-disinformation",
+        "public-interest",
+        "misinformation-or-disinformation-by-or-against-the-government",
+        "misinformation-or-disinformation-against-public-institutions",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "misinformation-or-disinformation-by-or-against-a-government-official-or-public-officer",
+        "misinformation-or-disinformation-against-by-or-against-a-private-individual-or-private-entity",
+        "false-or-inaccurate-public-health-information",
+        "false-or-inaccurate-election-information",
+        "sensationalism-which-leads-to-inaccuracy",
+        "communication-made-outside-the-territory",
+        "defences-for-misinformation-and-disinformation",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "prohibition-of-hate-speech",
+        "definition-of-hate-speech",
+        "communication-of-hate-speech",
+        "control-over-the-communication-of-hate-speech",
+        "other-forms-of-indecent-expressions",
+        "disclosure-of-private-facts",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "entertainment",
+        "private-facts-of-private-individuals-government-officials-public-officers-politician-and-celebrities",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "persons-who-can-claim",
+        "publication-of-confidential-information-concerning-the-republic",
+        "categories-of-protected-confidential-information",
+        "publication-of-protected-information",
+        "complaint-to-the-division",
+        "response",
+        "jurisdiction-of-the-division",
+        "findings-and-decisions-of-the-division",
+        "enforcement-of-decisions-of-the-division",
+        "appeal-against-the-division",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "sanctions-and-remedies",
+        "correction-direction",
+        "stop-communication-direction",
+        "removal-of-communication-direction",
+        "non-compliance-with-a-direction",
+        "removal-of-account-request",
+        "access-blocking-order",
+        "monetary-damages",
+        "suspension-or-revocation-of-licence",
+        "cease-and-desist-order",
+        "administrative-penalty",
+        "criminal-penalty",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "offences-by-entities",
+        "internet-intermediaries",
+        "internet-intermediaries-regulated-in-ghana",
+        "content-restriction",
+        "algorithm-and-content-moderation",
+        "misinformation-and-disinformation-risk-assessment",
+        "fact-checking",
+        "training",
+        "paid-content",
+        "regulations",
+        "repeals-amendments-and-savings"
+      ]
+    },
+    "freedomOfSpeech": {
+      "score": "severe-negative",
+      "description": {
+        "score": "severe-negative",
+        "analysis": "The MDHI Bill, 2025 poses an existential threat to freedom of speech in Ghana, creating a comprehensive legal framework for government censorship that rivals the most restrictive regimes globally. The bill's prohibition of \"false information\" affecting \"public interest\" - covering government reputation, public health, elections, and international relations - establishes such broad grounds for liability that virtually any critical speech about government institutions could trigger prosecution. Combined with criminal penalties including imprisonment, administrative fines up to 500,000 penalty units with daily compounding increases, and immediate enforcement even during appeals, the bill creates overwhelming incentives for self-censorship across media, civil society, and ordinary citizens. The requirement that publishers prove information accuracy reverses fundamental legal presumptions and makes investigative journalism practically impossible, as journalists cannot always verify every detail before publication, especially when relying on confidential sources or reporting on government wrongdoing.\n\nMost alarmingly, the bill explicitly creates asymmetric enforcement power by allowing government and public institutions to sue for misinformation against themselves while prohibiting use of these provisions against criticism of the ruling political party. This provision transforms the law from a neutral framework into a political weapon specifically designed to suppress opposition voices, investigative journalism, and civil society criticism while protecting those in power from accountability. The Division's authority to issue binding correction orders, demand content removal, impose escalating penalties, and recommend license revocation - all with minimal due process (two-day response windows) and immediate enforcement - creates a censorship apparatus with few checks on its power. While the bill includes constitutional language about protecting freedom of speech, these safeguards are rendered meaningless by enforcement mechanisms that systematically punish speech.\n\nThe bill's impact extends beyond direct censorship to create a pervasive climate of fear. Media houses facing potential license revocation and bankruptcy-level fines will avoid controversial topics entirely. Journalists facing imprisonment will self-censor rather than risk prosecution. Citizens will hesitate to share information on social media knowing they could face criminal charges if authorities later deem it \"false.\" The hate speech provisions, while addressing a legitimate concern, use vague definitions (\"promotes hostility,\" \"discriminatory language\") that could be weaponized against political speech, satire, and social commentary. The extensive compliance requirements - annual human rights audits, misinformation risk assessments, fact-checking certification, mandatory training - impose costs that smaller media outlets cannot bear, consolidating media power among large organizations more susceptible to government pressure. This bill represents not merely a restriction on freedom of speech but a fundamental transformation of Ghana's democratic character, replacing robust public discourse with government-controlled information and transforming the press from a check on power into an instrument of state control."
+      },
+      "relatedProvisions": [
+        "scope-of-the-act",
+        "enforcement-and-interpretation-of-constitutional-rights",
+        "balancing-private-benefit-against-public-benefit",
+        "application-and-interpretation-in-favour-of-constitutional-rights",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "imposition-of-sanctions-and-grant-of-remedies",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "powers-of-the-division",
+        "functions-of-the-division",
+        "director-of-the-division",
+        "ministerial-directive",
+        "information",
+        "communication-of-information",
+        "false-information",
+        "control-over-the-information",
+        "exclusion-of-persons",
+        "misinformation-and-disinformation",
+        "due-diligence-of-the-certainty-or-accuracy-of-information",
+        "business-misinformation-or-disinformation",
+        "public-interest",
+        "misinformation-or-disinformation-by-or-against-the-government",
+        "misinformation-or-disinformation-against-public-institutions",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "misinformation-or-disinformation-by-or-against-a-government-official-or-public-officer",
+        "misinformation-or-disinformation-against-by-or-against-a-private-individual-or-private-entity",
+        "false-or-inaccurate-public-health-information",
+        "false-or-inaccurate-election-information",
+        "sensationalism-which-leads-to-inaccuracy",
+        "evidence-of-misinformation-and-disinformation",
+        "communication-made-outside-the-territory",
+        "defences-for-misinformation-and-disinformation",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "prohibition-of-hate-speech",
+        "definition-of-hate-speech",
+        "communication-of-hate-speech",
+        "control-over-the-communication-of-hate-speech",
+        "hate-speech-that-incites-genocide-or-aggravated-violence",
+        "evaluation-of-hate-speech",
+        "other-forms-of-indecent-expressions",
+        "liability-and-enforceability-for-hate-speech-and-other-forms-of-indecent-expressions",
+        "guidelines-and-code-of-ethics-on-hate-speech-and-other-forms-of-indecent-expressions",
+        "disclosure-of-private-facts",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "publication-of-facts",
+        "entertainment",
+        "private-facts-of-private-individuals-government-officials-public-officers-politician-and-celebrities",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "persons-who-can-claim",
+        "publication-of-confidential-information-concerning-the-republic",
+        "categories-of-protected-confidential-information",
+        "publication-of-protected-information",
+        "complaint-to-the-division",
+        "response",
+        "jurisdiction-of-the-division",
+        "findings-and-decisions-of-the-division",
+        "enforcement-of-decisions-of-the-division",
+        "appeal-against-the-division",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "jurisdiction-of-the-high-court",
+        "sanctions-and-remedies",
+        "correction-direction",
+        "stop-communication-direction",
+        "removal-of-communication-direction",
+        "service-of-directions-or-order",
+        "non-compliance-with-a-direction",
+        "removal-of-account-request",
+        "access-blocking-order",
+        "monetary-damages",
+        "suspension-or-revocation-of-licence",
+        "cease-and-desist-order",
+        "compliance-warnings",
+        "administrative-penalty",
+        "criminal-penalty",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "offences-by-entities",
+        "internet-intermediaries",
+        "internet-intermediaries-regulated-in-ghana",
+        "content-restriction",
+        "algorithm-and-content-moderation",
+        "misinformation-and-disinformation-risk-assessment",
+        "fact-checking",
+        "training",
+        "paid-content",
+        "national-security-interventions",
+        "regulations",
+        "repeals-amendments-and-savings"
+      ]
+    },
+    "privacy": {
+      "score": "high-negative",
+      "description": {
+        "score": "high-negative",
+        "analysis": "The MDHI Bill poses significant threats to privacy and data rights in Ghana, primarily through its enforcement mechanisms rather than explicit data collection mandates. The bill's sanctions framework empowers the Division and courts to issue content removal orders, account deletion requests, and access blocking directives - all of which require internet service providers and platforms to monitor, track, and control user activity. The Access Blocking Order provision is particularly problematic, as it compels ISPs to disable access to specific online locations based on vague criteria like content \"prejudicial to friendly relations\" with other countries. Implementing such blocks necessarily involves surveillance infrastructure to identify which users are accessing targeted content, creating a framework for monitoring internet activity that could be expanded beyond the bill's stated purposes.\n\nThe bill's procedural deficiencies compound these privacy risks. Respondents have only two days to respond to complaints, and Division decisions are immediately enforceable even during appeals unless compliance is \"technically impossible.\" This rushed process provides inadequate time to challenge orders that may involve accessing private communications, personal data, or confidential sources. The Division's investigative powers, combined with the requirement that publishers prove information accuracy, could pressure journalists and media outlets to reveal confidential sources or expose their research methods, undermining privacy protections essential for investigative journalism. The bill's prohibition on disclosing \"private facts\" about individuals, while ostensibly protective, creates ambiguity about what constitutes legitimate public interest reporting versus privacy violations, potentially chilling journalism that exposes corruption or misconduct by public figures.\n\nWhile the bill includes constitutional safeguards requiring interpretation consistent with privacy rights, the practical enforcement mechanisms create substantial risks. The combination of broad investigative authority, vague standards for content removal, mandatory access blocking infrastructure, and severe penalties for non-compliance establishes a framework where privacy protections may be routinely subordinated to content control objectives. The bill's extraterritorial claims and application to internet intermediaries \"regulated in Ghana\" create additional uncertainty about data flows and privacy protections for cross-border communications. Most concerning is the potential for these enforcement tools to be weaponized against political opponents, activists, or journalists, with privacy violations justified under the guise of combating misinformation - a pattern observed in other jurisdictions with similar legislation."
+      },
+      "relatedProvisions": [
+        "enforcement-and-interpretation-of-constitutional-rights",
+        "balancing-private-benefit-against-public-benefit",
+        "application-and-interpretation-in-favour-of-constitutional-rights",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "functions-of-the-division",
+        "communication-of-information",
+        "misinformation-or-disinformation-by-or-against-the-government",
+        "misinformation-or-disinformation-against-public-institutions",
+        "misinformation-or-disinformation-by-or-against-a-government-official-or-public-officer",
+        "misinformation-or-disinformation-against-by-or-against-a-private-individual-or-private-entity",
+        "false-or-inaccurate-election-information",
+        "definition-of-hate-speech",
+        "communication-of-hate-speech",
+        "disclosure-of-private-facts",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "definition-of-private-facts",
+        "publication-of-facts",
+        "entertainment",
+        "private-facts-of-private-individuals-government-officials-public-officers-politician-and-celebrities",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "persons-who-can-claim",
+        "data-privacy-breaches",
+        "publication-of-confidential-information-concerning-the-republic",
+        "categories-of-protected-confidential-information",
+        "publication-of-protected-information",
+        "complaint-to-the-division",
+        "findings-and-decisions-of-the-division",
+        "appeal-against-the-division",
+        "sanctions-and-remedies",
+        "correction-direction",
+        "stop-communication-direction",
+        "removal-of-communication-direction",
+        "access-blocking-order",
+        "monetary-damages",
+        "administrative-penalty",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "offences-by-entities",
+        "internet-intermediaries",
+        "fact-checking",
+        "regulations"
+      ]
+    },
+    "business": {
+      "score": "severe-negative",
+      "description": {
+        "score": "severe-negative",
+        "analysis": "The MDHI Bill 2025 represents a catastrophic intervention in Ghana's business environment, particularly for media, digital, and communications sectors. The bill transforms routine business operations into high-risk activities by criminalizing \"business misinformation\" - making it illegal to publish false information for financial reward or reputation. This provision, combined with vague standards for what constitutes \"false information\" and \"public interest,\" creates existential uncertainty for media houses, content creators, influencers, digital advertising intermediaries, and internet platforms. Businesses face a compliance regime of unprecedented scope: mandatory annual misinformation risk assessments, establishment of fact-checking departments, obtaining fact-checking certification (required for license renewal), bi-annual staff training, and human rights audits. These requirements impose substantial operational costs that will disproportionately burden smaller enterprises while creating barriers to market entry.\n\nThe enforcement mechanisms establish a punitive regulatory environment that fundamentally alters business risk calculations. Administrative penalties reach 500,000 penalty units with additional daily compounding fines for non-compliance, while the Division can suspend or revoke licenses for businesses that fail to comply with directives after three warnings. The two-day response window to complaints, immediate enforceability of Division decisions during appeals, and burden of proof on publishers (who must prove information accuracy) create a legal framework where businesses operate with minimal due process protections. Criminal penalties including fines and imprisonment for publishing false information that causes \"public harm, violence, or fear\" expose business owners and employees to personal legal jeopardy. The bill's explicit prohibition on using misinformation provisions against ruling party criticism while allowing government institutions to sue creates asymmetric enforcement power that could be weaponized against opposition-aligned businesses, creating a politicized business environment that undermines investor confidence.\n\nThe bill's impact extends beyond direct compliance costs to create systemic chilling effects that will reshape Ghana's business landscape. Media outlets and digital platforms will likely engage in aggressive self-censorship to avoid liability, reducing the diversity and quality of information available to Ghanaian consumers and businesses. The requirement that fact-checking certification is necessary for license renewal gives the Division effective veto power over which businesses can operate in the media sector. International businesses face particular complexity: while the bill only applies to internet intermediaries \"regulated in Ghana\" (potentially limiting impact on major platforms like Facebook or Twitter), the extraterritorial jurisdiction claims, mandatory content moderation alignment requirements, and threat of access-blocking orders create compliance uncertainty. The cumulative effect will be reduced foreign direct investment in Ghana's digital economy, closure of smaller media outlets unable to afford compliance costs, consolidation of media ownership among entities with resources to navigate the regulatory regime, and migration of digital businesses to jurisdictions with more predictable legal frameworks. This represents a fundamental deterioration in Ghana's business environment that will have long-term consequences for economic growth, innovation, and competitiveness."
+      },
+      "relatedProvisions": [
+        "scope-of-the-act",
+        "balancing-private-benefit-against-public-benefit",
+        "application-and-interpretation-in-favour-of-constitutional-rights",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "imposition-of-sanctions-and-grant-of-remedies",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "powers-of-the-division",
+        "functions-of-the-division",
+        "director-of-the-division",
+        "information",
+        "communication-of-information",
+        "false-information",
+        "control-over-the-information",
+        "exclusion-of-persons",
+        "misinformation-and-disinformation",
+        "due-diligence-of-the-certainty-or-accuracy-of-information",
+        "business-misinformation-or-disinformation",
+        "public-interest",
+        "misinformation-or-disinformation-by-or-against-the-government",
+        "misinformation-or-disinformation-against-public-institutions",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "misinformation-or-disinformation-by-or-against-a-government-official-or-public-officer",
+        "misinformation-or-disinformation-against-by-or-against-a-private-individual-or-private-entity",
+        "false-or-inaccurate-public-health-information",
+        "false-or-inaccurate-election-information",
+        "sensationalism-which-leads-to-inaccuracy",
+        "communication-made-outside-the-territory",
+        "defences-for-misinformation-and-disinformation",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "prohibition-of-hate-speech",
+        "definition-of-hate-speech",
+        "communication-of-hate-speech",
+        "control-over-the-communication-of-hate-speech",
+        "hate-speech-that-incites-genocide-or-aggravated-violence",
+        "evaluation-of-hate-speech",
+        "other-forms-of-indecent-expressions",
+        "guidelines-and-code-of-ethics-on-hate-speech-and-other-forms-of-indecent-expressions",
+        "disclosure-of-private-facts",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "publication-of-facts",
+        "entertainment",
+        "private-facts-of-private-individuals-government-officials-public-officers-politician-and-celebrities",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "persons-who-can-claim",
+        "publication-of-confidential-information-concerning-the-republic",
+        "categories-of-protected-confidential-information",
+        "publication-of-protected-information",
+        "complaint-to-the-division",
+        "response",
+        "jurisdiction-of-the-division",
+        "findings-and-decisions-of-the-division",
+        "enforcement-of-decisions-of-the-division",
+        "appeal-against-the-division",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "jurisdiction-of-the-high-court",
+        "sanctions-and-remedies",
+        "correction-direction",
+        "stop-communication-direction",
+        "removal-of-communication-direction",
+        "service-of-directions-or-order",
+        "non-compliance-with-a-direction",
+        "removal-of-account-request",
+        "access-blocking-order",
+        "monetary-damages",
+        "suspension-or-revocation-of-licence",
+        "cease-and-desist-order",
+        "compliance-warnings",
+        "administrative-penalty",
+        "criminal-penalty",
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+        "offences-by-entities",
+        "internet-intermediaries",
+        "internet-intermediaries-regulated-in-ghana",
+        "content-restriction",
+        "algorithm-and-content-moderation",
+        "misinformation-and-disinformation-risk-assessment",
+        "fact-checking",
+        "training",
+        "paid-content",
+        "regulations",
+        "repeals-amendments-and-savings"
+      ]
+    }
+  },
+  "keyConcerns": [
+    {
+      "id": "undefined-misinformation-scope-enables-arbitrary-prosecution",
+      "title": "Undefined \"Misinformation\" Scope Enables Arbitrary Prosecution",
+      "severity": "critical",
+      "description": "The Act criminalizes \"misinformation\" and \"disinformation\" without providing clear definitions, relying instead on vague standards like \"public interest\" and \"public harm.\" This legal uncertainty, combined with criminal penalties including imprisonment, creates a chilling effect where publishers cannot know in advance what content is prohibited. The undefined scope enables selective enforcement, particularly concerning given the bill explicitly allows government to sue for misinformation against itself while protecting ruling party criticism—creating a legal framework that could be weaponized against opposition voices and investigative journalists.",
+      "relatedProvisions": [
+        "scope-of-the-act"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "vague-balancing-test-enables-arbitrary-speech-suppression",
+      "title": "Vague Balancing Test Enables Arbitrary Speech Suppression",
+      "severity": "critical",
+      "description": "Courts must weigh undefined \"public benefit\" against \"private benefit\" of free speech when applying this law, but the bill provides no clear standards for this balancing test. Combined with asymmetric enforcement rules that protect the ruling party while allowing government to sue critics, this provision legitimizes suppression of legitimate speech under the guise of judicial oversight. The mandatory balancing requirement forces courts to potentially suppress constitutionally protected speech without clear legal standards.",
+      "relatedProvisions": [
+        "balancing-private-benefit-against-public-benefit"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "undefined-public-interest-standard-enables-arbitrary-censorship",
+      "title": "Undefined \"Public Interest\" Standard Enables Arbitrary Censorship",
+      "severity": "critical",
+      "description": "The bill criminalizes publishing \"false or inaccurate information\" that is \"prejudicial to public interest\" without defining either term, creating a legal standard so vague that journalists, media outlets, and citizens cannot reliably determine what speech is prohibited. Combined with criminal penalties including imprisonment, reversed burden of proof requiring publishers to prove accuracy, and no protection for opinion or good-faith error, this provision enables authorities to prosecute virtually any government criticism after the fact by claiming it's \"false\" or harms \"public interest.\" The undefined standard violates fundamental rule of law principles requiring legal certainty in criminal matters and creates severe chilling effects on investigative journalism, political commentary, and democratic discourse.",
+      "relatedProvisions": [
+        "misinformation-and-disinformation"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "criminalization-of-paid-journalism-and-commentary",
+      "title": "Criminalization of Paid Journalism and Commentary",
+      "severity": "critical",
+      "description": "This provision makes it a crime to receive payment for publishing information later deemed \"false,\" with no requirement to prove intent or knowledge of falsity. Anyone with a reputation for publishing false information is presumed to be engaged in criminal activity, reversing the burden of proof. This could criminalize freelance journalists, media outlets, citizen journalists receiving donations, and anyone compensated for content creation - creating a severe chilling effect on independent journalism and commentary in Ghana.",
+      "relatedProvisions": [
+        "business-misinformation-or-disinformation"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "ruling-party-immune-from-misinformation-liability",
+      "title": "Ruling Party Immune from Misinformation Liability",
+      "severity": "critical",
+      "description": "Section 26(2) explicitly prohibits the government from enforcing misinformation provisions against statements \"concerning the political party of the incumbent Government,\" while maintaining full enforcement authority against opposition parties, journalists, and citizens. This creates a two-tier legal system where the ruling party is immune from the same severe penalties—including criminal prosecution, 500,000 penalty unit fines, and license revocation—that it can impose on political opponents for identical conduct. This asymmetric enforcement framework violates equality before the law and creates a legal weapon for suppressing opposition voices while protecting the party in power from accountability.",
+      "relatedProvisions": [
+        "misinformation-or-disinformation-by-or-against-the-government"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "ruling-party-gets-explicit-legal-immunity",
+      "title": "Ruling Party Gets Explicit Legal Immunity",
+      "severity": "critical",
+      "description": "The bill explicitly exempts the ruling political party from misinformation enforcement while allowing the government to prosecute everyone else under the same law. This codified double standard means false information about the party in power cannot be challenged, while identical false claims about opposition parties, journalists, or citizens face criminal prosecution, fines, and license revocation. This creates a legal weapon that can only be used against political opponents.",
+      "relatedProvisions": [
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "officials-can-sue-critics-for-misinformation",
+      "title": "Officials Can Sue Critics for \"Misinformation\"",
+      "severity": "critical",
+      "description": "Government officials, judges, and political candidates receive special legal standing to sue anyone for publishing \"false information\" about them, while ordinary citizens lack equivalent protection. Combined with vague standards, reversed burden of proof, and severe penalties including imprisonment, this creates a powerful tool for officials to silence legitimate criticism and investigative journalism. Most troubling: judges can sue under laws they enforce, violating judicial independence and creating conflicts of interest in cases they may oversee.",
+      "relatedProvisions": [
+        "misinformation-or-disinformation-by-or-against-a-government-official-or-public-officer"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "criminalized-health-speech-with-reversed-burden-of-proof",
+      "title": "Criminalized Health Speech with Reversed Burden of Proof",
+      "severity": "critical",
+      "description": "This provision makes it a crime to publish \"unverified\" or \"misinterpreted\" health information, requiring the accused to prove their statements were accurate rather than requiring the state to prove falsity. This reverses the fundamental legal principle of presumption of innocence in criminal proceedings and criminalizes good-faith scientific debate, evolving medical understanding, and cautious health warnings during the very moments when public discourse is most critical.",
+      "relatedProvisions": [
+        "false-or-inaccurate-public-health-information"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "criminal-penalties-for-election-reporting-errors",
+      "title": "Criminal Penalties for Election Reporting Errors",
+      "severity": "critical",
+      "description": "This provision makes it a crime to publish \"false or inaccurate\" election information that could \"influence\" electoral outcomes, but fails to define these terms clearly. Journalists and media outlets face imprisonment and massive fines for reporting errors, even when information is \"largely true\" but contains minor inaccuracies. The vague standards and reversed burden of proof (publishers must verify accuracy) create a severe chilling effect on election coverage, particularly investigative reporting on electoral irregularities or candidate scandals.",
+      "relatedProvisions": [
+        "false-or-inaccurate-election-information"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "global-speech-jurisdiction-over-foreign-nationals",
+      "title": "Global Speech Jurisdiction Over Foreign Nationals",
+      "severity": "critical",
+      "description": "The bill claims authority to prosecute ANY person worldwide - regardless of nationality or residence - for \"hate speech\" against Ghanaian citizens, even for speech published outside Ghana. This unprecedented extraterritorial reach, combined with vague hate speech definitions and criminal penalties, will force international media, academics, and diaspora communities to self-censor legitimate criticism to avoid potential prosecution in Ghana. Foreign journalists covering ethnic tensions or religious conflicts could face criminal liability for content published in their home countries.",
+      "relatedProvisions": [
+        "communication-made-outside-the-territory"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "publishers-must-prove-truth-or-face-prison",
+      "title": "Publishers Must Prove Truth or Face Prison",
+      "severity": "critical",
+      "description": "This provision reverses normal legal standards by requiring publishers to prove information accuracy rather than prosecutors proving falsity. Combined with vague defenses like \"inadvertent error\" and criminal penalties including imprisonment, it creates impossible compliance standards - publishers cannot know in advance whether their reporting will later be deemed false or whether it might \"influence\" an election. This fundamentally violates the rule of law principle that criminal prohibitions must be clearly defined in advance.",
+      "relatedProvisions": [
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "criminal-hate-speech-law-without-clear-definition",
+      "title": "Criminal Hate Speech Law Without Clear Definition",
+      "severity": "critical",
+      "description": "This provision criminalizes \"hate speech\" but fails to define what speech qualifies, relying on vague standards like \"promotes hostility\" or \"discriminatory language\" determined solely by courts. Citizens cannot know in advance what expression is prohibited, creating severe chilling effects on legitimate political discourse, religious debate, and minority viewpoints. Combined with criminal penalties including imprisonment and the bill's asymmetric enforcement protections, this undefined prohibition could be weaponized to silence government critics, journalists, and opposition voices under the guise of preventing discrimination.",
+      "relatedProvisions": [
+        "prohibition-of-hate-speech"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "truthful-speech-criminalized-under-vague-hate-speech-definition",
+      "title": "Truthful Speech Criminalized Under Vague Hate Speech Definition",
+      "severity": "critical",
+      "description": "The hate speech definition explicitly criminalizes factual statements that \"incite\" negative feelings or hostility, meaning truth is not a defense. Combined with vague terms like \"promotes negative feelings\" or \"attitudes,\" speakers cannot predict what speech is prohibited. The elimination of intent requirements creates strict liability for unpredictable audience reactions, forcing self-censorship on journalists, artists, and citizens discussing sensitive social issues.",
+      "relatedProvisions": [
+        "definition-of-hate-speech"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "one-person-publication-triggers-criminal-liability",
+      "title": "One-Person Publication Triggers Criminal Liability",
+      "severity": "critical",
+      "description": "The Act defines \"public disclosure\" so broadly that sharing information with even a single person through any communication method can trigger criminal prosecution for \"false information.\" This means forwarding a WhatsApp message, sharing a social media post, or discussing unverified information with a colleague could result in imprisonment if the government later deems it false or harmful. Combined with vague standards for what constitutes \"false information\" and \"public harm,\" citizens cannot know in advance whether everyday communication activities could lead to criminal charges.",
+      "relatedProvisions": [
+        "publication-of-protected-information"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "enforcement-during-appeals-denies-due-process",
+      "title": "Enforcement During Appeals Denies Due Process",
+      "severity": "critical",
+      "description": "Division decisions remain immediately enforceable during appeals, with stays available only if compliance is \"technically impossible\" - an extremely narrow exception that effectively eliminates judicial review protections. This means media outlets can be forced to remove content, face license revocation, or suffer criminal prosecution while appealing potentially unconstitutional censorship orders, with no meaningful opportunity to obtain a stay. This inverts fundamental due process principles and creates a structural mechanism for government censorship to take effect before courts can review its legality.",
+      "relatedProvisions": [
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "license-revocation-powers-without-clear-standards",
+      "title": "License Revocation Powers Without Clear Standards",
+      "severity": "critical",
+      "description": "Courts can revoke media licenses and shut down digital platforms for violating undefined standards like publishing \"false information\" affecting \"public interest.\" These severe sanctions are immediately enforceable even during appeals, and the bill provides no mandatory proportionality analysis—meaning the same vague violation could trigger a warning or complete business shutdown at the Division's discretion. This creates existential uncertainty for digital media outlets, platforms, and content creators who cannot predict what conduct will end their operations.",
+      "relatedProvisions": [
+        "sanctions-and-remedies"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "government-can-force-you-to-recant-speech",
+      "title": "Government Can Force You to Recant Speech",
+      "severity": "critical",
+      "description": "Courts can order you to publish government-written corrections declaring your own statements false or harmful - even if you had no reason to believe the information was false when you published it. You must pay all costs of publishing these corrections, which can include newspaper advertisements, and face additional monetary damages. This compelled speech mechanism operates with vague standards and immediate enforcement, creating a tool for forcing critics to publicly recant legitimate criticism.",
+      "relatedProvisions": [
+        "correction-direction"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "strict-liability-speech-bans-without-due-process",
+      "title": "Strict Liability Speech Bans Without Due Process",
+      "severity": "critical",
+      "description": "Courts can order you to stop communicating information—and anything \"substantially similar\"—even if you had no reason to believe it was false. This strict liability standard eliminates the knowledge requirement found in international human rights law, reversing the burden of proof and allowing speech suppression without proving the speaker knew or should have known the information was problematic. Combined with immediate enforcement during appeals and vague \"substantially similar\" language, this creates a prior restraint mechanism that could rapidly silence legitimate journalism, political commentary, and public debate.",
+      "relatedProvisions": [
+        "stop-communication-direction"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "content-removal-without-knowledge-of-falsity",
+      "title": "Content Removal Without Knowledge of Falsity",
+      "severity": "critical",
+      "description": "Courts can order removal of online content even when publishers had no knowledge the information was false and no reason to believe it was false. This strict liability standard eliminates the culpability requirement that protects good-faith journalism and commentary in democratic societies. Combined with immediate enforcement during appeals and removal of \"substantially similar\" content, this creates severe chilling effects on legitimate speech, forcing publishers into self-censorship to avoid removal liability.",
+      "relatedProvisions": [
+        "removal-of-communication-direction"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "no-legal-defense-for-conflicting-duties",
+      "title": "No Legal Defense for Conflicting Duties",
+      "severity": "critical",
+      "description": "The bill explicitly prohibits citing conflicting legal obligations, professional ethics codes, or contractual duties as a defense against non-compliance with Division orders. This creates impossible situations where journalists, businesses, or citizens must violate their professional ethics, employment contracts, or other legal duties to comply with Division directives—or face daily compounding fines and license revocation. Appeals do not suspend enforcement, meaning penalties begin immediately without judicial review.",
+      "relatedProvisions": [
+        "non-compliance-with-a-direction"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "government-ordered-internet-censorship-without-due-process",
+      "title": "Government-Ordered Internet Censorship Without Due Process",
+      "severity": "critical",
+      "description": "This provision allows the Division (an administrative body) to order ISPs to block entire websites and online platforms based on vague criteria like content \"prejudicial to friendly relations\" between Ghana and other countries. There is no requirement to notify affected publishers before blocking, no hearing to contest the order, and no clear appeal mechanism. The three-warning system only protects ISPs from penalties - not content creators or users from censorship. This creates infrastructure for systematic government censorship of politically inconvenient content disguised as protecting international relations.",
+      "relatedProvisions": [
+        "access-blocking-order"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "business-death-penalty-for-content-decisions",
+      "title": "Business Death Penalty for Content Decisions",
+      "severity": "critical",
+      "description": "Digital platforms and media outlets can lose their licenses entirely after three warnings for non-compliance with content removal orders - even when those orders are based on vague, undefined standards like \"false information\" or \"public interest.\" With only 2 days to respond to complaints and orders enforceable immediately during appeals, businesses face impossible choices: comply with potentially arbitrary censorship demands or risk complete market exclusion. This creates an existential threat that forces self-censorship and deters digital innovation in Ghana.",
+      "relatedProvisions": [
+        "suspension-or-revocation-of-licence"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "immediate-censorship-without-warning-or-appeal",
+      "title": "Immediate Censorship Without Warning or Appeal",
+      "severity": "critical",
+      "description": "The Division can issue binding orders to stop publication of \"false or other information\" that are immediately enforceable even during appeals, with administrative penalties (up to 500,000 penalty units) applying instantly upon non-compliance \"without a Compliance Warning.\" This eliminates the fundamental right to cure violations before penalties apply, enabling arbitrary silencing of media outlets, journalists, and digital platforms without graduated enforcement or opportunity to remedy the situation. Combined with vague standards for what constitutes actionable false information and a two-day response window, this creates a mechanism for immediate censorship with severe financial penalties that bypass basic administrative fairness principles.",
+      "relatedProvisions": [
+        "cease-and-desist-order"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "enforcement-mechanism-enables-arbitrary-punishment",
+      "title": "Enforcement Mechanism Enables Arbitrary Punishment",
+      "severity": "critical",
+      "description": "This provision authorizes administrative penalties for non-compliance with Division orders, but enforces those orders based on vague standards like \"false information\" and \"public interest.\" Combined with daily compounding fines, license revocation threats, and two-day response windows, it creates existential risk for media outlets that cannot predict what content will trigger penalties. The provision operationalizes the bill's asymmetric framework allowing government to suppress criticism while protecting the ruling party.",
+      "relatedProvisions": [
+        "administrative-penalty"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "criminalizing-criticism-through-vague-public-harm-standard",
+      "title": "Criminalizing Criticism Through Vague \"Public Harm\" Standard",
+      "severity": "critical",
+      "description": "This provision makes it a criminal offense to publish false information causing \"public harm\" to government - but defines harm to include vague concepts like \"reputational damage\" or \"loss of funding.\" Journalists reporting on corruption, activists criticizing policy failures, or citizens questioning government spending could face imprisonment if authorities claim their speech damaged government reputation or effectiveness. This criminalizes legitimate democratic discourse and reverses the burden of proof, requiring publishers to prove information accuracy rather than requiring government to prove falsity beyond reasonable doubt.",
+      "relatedProvisions": [
+        "criminal-penalty"
+      ],
+      "relatedImpacts": []
+    },
+    {
+      "id": "criminal-prosecution-for-causing-anxiety-or-uncertainty",
+      "title": "Criminal Prosecution for Causing \"Anxiety\" or \"Uncertainty\"",
+      "severity": "critical",
+      "description": "The bill criminalizes speech that causes \"anxiety,\" \"unrest,\" or \"public disturbance\" using extraordinarily vague definitions - including causing \"anxiety about public institutions,\" \"widespread uncertainty\" about policy changes, or \"confusion\" about health risks. Publishers face imprisonment (3-12 months) and fines for content whose impact cannot be predicted in advance, as liability depends on subjective public reactions rather than content characteristics. This makes legitimate journalism, health reporting, economic analysis, and political commentary criminally risky, forcing digital businesses and media outlets into self-censorship to avoid prosecution.",
+      "relatedProvisions": [
+        "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025"
+      ],
+      "relatedImpacts": []
+    }
+  ],
+  "provisions": [
+    {
+      "id": "scope-of-the-act",
+      "section": 4,
+      "title": "Scope of the Act",
+      "plainLanguage": "This section clarifies that the Act is concerned with addressing both misinformation, which is false information spread unintentionally, and disinformation, which is false information spread deliberately to deceive. Therefore, the Act's regulations and enforcement mechanisms will apply to content categorized as either misinformation or disinformation.",
+      "rawText": "- (1) The Act covers the following:\n\n    - (a) Misinformation;\n\n    - (b) Disinformation;",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "existing-legislation",
+      "section": 6,
+      "title": "Existing legislation",
+      "plainLanguage": "This provision states that the current law should be interpreted alongside other existing laws. These laws cover areas like cybersecurity, data protection, media, and national security. This ensures consistency and avoids conflicts in how the laws are applied.",
+      "rawText": "- (1) The Act shall be read together with the following enactments:\n\n            - (a) Cybersecurity Division Act, 2020 (Act 1038) (Cybersecurity Division Act),\n\n            - (b) Criminal Offences Act, 1960 (Act 29) (Criminal Offences Act),\n\n            - (c) National Media Commission Act, 1993 (Act 449) (National Media Commission Act),\n\n            - (d) Data Protection Act, 2012 (Act 843),\n\n            - (e) the  National  Communications  Authority  Act,  2008  (Act  769)  (National Communications Division Act),\n\n            - (f) the Electronic Communications Act, 2008 (Act 775) (Electronic Communications) Act),\n\n            - (g) the State Secrets Act, 1962 (Act 101) (State Secrets Act)\n\n            - (h) the Political Parties Act, 2000 (Act 574) (Political Parties Act)\n\n            - (i) the  Security  and  Intelligence  Agencies  Act,  2020  (Act  1030)  (Securities  and Intelligence Agencies Act)\n\n            - (j) Presidential Office Act, 1993 (Act 463) (Presidential Office Act)",
+      "relatedImpacts": []
+    },
+    {
+      "id": "enforcement-and-interpretation-of-constitutional-rights",
+      "section": 8,
+      "title": "Enforcement and interpretation of constitutional rights",
+      "plainLanguage": "This provision ensures the Act is applied and interpreted in a way that protects freedom of speech, expression, and privacy as guaranteed by the Constitution. It reinforces that the Act cannot infringe upon these fundamental rights.",
+      "rawText": "- The Act shall be enforced and interpreted in accordance with the right to freedom of speech and expression and the right to privacy under articles 21(1)(a) and 18(2) of the Constitution, respectively and Chapter 12 of the Constitution.",
+      "relatedImpacts": [
+        "freedomOfSpeech",
+        "privacy"
+      ]
+    },
+    {
+      "id": "balancing-private-benefit-against-public-benefit",
+      "section": 9,
+      "title": "Balancing private benefit against public benefit",
+      "plainLanguage": "This provision directs courts to consider both the importance of free speech and privacy, and the need to protect people from harm caused by misinformation and hate speech. Courts must weigh the benefits of upholding free speech and privacy against the benefits of preventing harm when making decisions. This ensures a balance between individual rights and public safety.",
+      "rawText": "- In the application of the Act, the Court or Division (as the case may be) shall weigh the private benefit of enforcing the right to freedom of speech and expression and/or the right to privacy against the public benefit of protecting an individual, group of persons, private or public institution from the harm caused by the false information, hate speech or publication of other information.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "application-and-interpretation-in-favour-of-constitutional-rights",
+      "section": 10,
+      "title": "Application and interpretation in favour of constitutional rights",
+      "plainLanguage": "This provision directs the Court to prioritize freedom of speech, expression, and privacy when interpreting the Act, especially if the information benefits the public. Information that exposes crime, government misconduct, or wrongdoing, or relates to public health opinions, is considered to have a legitimate public benefit. This ensures the law is applied in a way that protects these rights when the information serves the public interest.",
+      "rawText": "- (1) The Court or Division shall apply and/or interpret the Act in favour of the right to freedom  of  speech  and  expression  and  right  to  privacy  where  the  information  under consideration achieves a legitimate public benefit.\n\n- For the purpose of subsection (1), information is of legitimate public benefit if that information:\n\n            - (a) is intended to expose or exposes a person or institution's activities directly or indirectly  related  to,  or  connected  with  the  commission,  or  the  reasonable suspicion of commission of a crime under the laws of the Republic;\n\n            - (b) is intended to expose or exposes a Government or public-related matter that is nationally dishonourable and inimical to values of probity and accountability;\n\n            - (c) is  intended  to  criticise  or  criticises  the  Government  or  public  institution  in relation to the management of a public office or the performance of official duties of a government official or public officer;\n\n            - (d) is  intended  to  expose  or  exposes  civil  wrong  doing  done  by  or  against  an individual, group of persons, private and public institutions or the Government; or\n\n            - (e) relates to a controversial public health opinion that is capable of being proven.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+      "section": 12,
+      "title": "MISINFORMATION, DISINFORMATION, HATE SPEECH AND PUBLICATION OF OTHER INFORMATION (MDHI) BILL, 2025",
+      "plainLanguage": "This section explains when someone can be held responsible for spreading misinformation or hate speech. Liability is only established if it protects the public and follows a fair process. Hate speech cases will be handled according to a specific part of this law.",
+      "rawText": "7. (1) The Court of the Division shall apply and/or interpret the Act to establish liability against an individual, group of persons, private and public institutions or the Government for misinformation, disinformation or publication of other information only where:\n\n            - (a) liability promotes the rights and reputation of an individual, group of persons, private or public institution, and protects national security, public order, public safety, public health or public morals;\n\n            - (b) liability  was  reached  upon  ascertaining  that  the  public  benefit  gained  from culpability of a person for contravening the Act outweighs a private benefit, and there is no justification under section 7(2); and\n\n            - (c) liability  was  determined  by  a  fair  and  transparent  criterion  under  the  Act  in accordance with due process.\n\n- In addition to subsection (1), the establishment of liability for hate speech shall be in accordance with Part IV of the Act.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "imposition-of-sanctions-and-grant-of-remedies",
+      "section": 13,
+      "title": "Imposition of sanctions and grant of remedies",
+      "plainLanguage": "This section ensures that any punishment or solution for breaking the rules is fair and reasonable. The court must consider the harm caused, whether the action fixes the problem, and use the least restrictive option. This prevents overly harsh penalties and ensures a balanced approach to enforcement.",
+      "rawText": "8. (1) Where liability is established under this  Act, the Court or the  Division shall not impose a sanction or grant a remedy for a non-compliance or for breach of conduct under the Act unless the sanction or remedy is that which is necessary and proportionate in a democratic society.\n\n- In  determining  whether  a  sanction  or  remedy  is  necessary  and  proportionate, regardless of the sanction or remedy stated in the Complaint, the Court or the Division shall:\n\n    - (a) justify  the  sanction  or  remedy  against  the  evidence  of  the  harm  caused  to  an individual, group of persons or the public;\n\n    - (b) determine whether the sanction or remedy is adequate under the circumstances to achieve the object and purpose of this Act; and\n\n    - (c) apply  the  least  intrusive  means  of  restriction  considering  the  circumstances,  the rights involved and the desired result.\n\n## Institutional Framework",
+      "relatedImpacts": [
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "establishment-of-the-division-on-misinformation-disinformation-hate-speech-and-publication-of-other-information",
+      "section": 14,
+      "title": "Establishment of the  Division on Misinformation, Disinformation, Hate Speech and Publication of Other Information.",
+      "plainLanguage": "This provision creates a new division focused on fighting misinformation, hate speech, and harmful content. This division will be part of the existing Authority and will enforce the rules outlined in this Act. The goal is to regulate and address the spread of harmful information.",
+      "rawText": "9. (1) For the purpose of enforcement and implementation of this  Act, the Division on Misinformation, Disinformation, Hate Speech and Publication of Other Information is hereby constituted by the authority of the Board of the Authority, pursuant to section 15 of the National Communications Act.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+      "section": 15,
+      "title": "MISINFORMATION, DISINFORMATION, HATE SPEECH AND PUBLICATION OF OTHER INFORMATION (MDHI) BILL, 2025",
+      "plainLanguage": "This section states that the Division must follow the Minister's orders if the law allows the Minister to give them. This ensures the Minister has control over the Division's actions and can guide its work.",
+      "rawText": "(2) The Division shall give effect to the directives of the Minister where prescribed by this Act or under any other law.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "powers-of-the-division",
+      "section": 16,
+      "title": "Powers of the Division",
+      "plainLanguage": "This section clarifies what the Division can and cannot do. It allows the Division to create internal rules and make decisions on complaints, but it specifies that the Division is not a corporate entity and must operate through the Authority for legal actions and cannot own property directly.",
+      "rawText": "10. (1) The Division shall have power to publish its own internal rules to streamline its functions under this Act.\n\n(2) The Division shall have power to make findings of fact, establish liability and render binding decisions on sanctions and remedies in respect of Complaints or Reports under the Act.\n\n(3) The Division is not a body corporate with perpetual succession or a common seal and shall only act through the Authority for the purpose of suing or being used.\n\n(4) The  Division  may  not,  for  the  performance  of  its  functions,  acquire  and  hold movable and immovable property and enter into a contract or any other transaction in its own name.",
+      "relatedImpacts": [
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "functions-of-the-division",
+      "section": 17,
+      "title": "Functions of the Division",
+      "plainLanguage": "The Division is responsible for enforcing the Act, promoting free speech through transparency and education, and handling complaints. It also develops national plans and advises the Minister on policy related to the Act's implementation. This ensures the Act is followed and the public is informed.",
+      "rawText": "11. (1)  The Division shall:\n\n            - (a) ensure and monitor compliance with this Act;\n\n            - (b) promote the right to freedom of speech and expression by ensuring functional transparency,  fostering  media  literacy,  providing  verified  information  to  the public  and  undertaking  educational  programmes  and  initiatives  on  false  and other information;\n\n            - (c) sensitise  the  public  on  the  object  and  purpose  of  the  Act,  and  the  rights, sanctions, remedies and defences under the Act;\n\n            - (d) receive and investigate Complaints or Reports of non-compliance with this Act, breach  of  conduct  under  the  Act  and  make  appropriate  binding  decisions accordance with the Act;\n\n            - (e) establish  liability  and  impose  sanctions  or  remedies  that  are  necessary  and appropriate in a democratic society;\n\n            - (f) implement the requirements for all relevant stakeholders under this Act;\n\n            - (h) develop a national plan of action to address, monitor and report on the progress of  implementation of  this  Act  and  through the  Minister  to  be  submitted  to Parliament; and\n\n            - (i) advise  the  Minister  on  policy  matters  and  any  other  matter  relevant  to  the implementation of this Act.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "collaboration",
+      "section": 19,
+      "title": "Collaboration",
+      "plainLanguage": "The Division will collaborate with the National Media Commission and other public institutions. If there are overlapping responsibilities with other institutions, the Division's duties will take priority for implementing this law. This ensures the Division's objectives are met effectively.",
+      "rawText": "- 12 . (1)  The Division shall work closely with the National Media Commission and other public institutions in the execution of its functions.\n\n- In the event of parallel roles between the Division and any other public institution, the functions of the Division shall prevail for the purpose of implementing this Act.\n\nAdministration of the Divisions",
+      "relatedImpacts": []
+    },
+    {
+      "id": "subdivisions",
+      "section": 20,
+      "title": "Subdivisions",
+      "plainLanguage": "This section establishes two subdivisions within the Division: one to investigate complaints and another to educate the public. The Complaints and Investigation Subdivision will handle reports of misconduct, while the Public Information Desk and Outreach Subdivision will focus on informing the public about the Act and promoting freedom of speech. These subdivisions ensure both accountability and public awareness regarding the Act.",
+      "rawText": "- (1) The Division shall comprise of the following operational subdivisions:\n\n            - (a) The Complaints and Investigation Subdivision\n\n            - (b) The Public Information Desk and Outreach Subdivision\n\n- The Complaints and Investigation Subdivision shall be responsible for receiving and investigating Complaints and Reports of non-compliance or breach of conduct under the  Act  either  by  the  instigation  of  a  third-party  or  on  its  own  accord,  and  making appropriate binding decisions.\n\n- The Public Information Desk and Outreach Subdivision shall be responsible for sensitising the public on the Act; providing information on request to the public ; providing verified information to counter false information; and promoting the right to freedom of speech and expression through educational programmes and initiatives on false and other information.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "director-of-the-division",
+      "section": 21,
+      "title": "Director of the Division",
+      "plainLanguage": "The Director of the Division will be appointed by the President. To be eligible, candidates must have at least 10 years of experience in fields like telecommunications, law, or human rights, and they cannot have financial or managerial ties to media companies. This ensures the Director has relevant expertise and is free from potential conflicts of interest.",
+      "rawText": "- (1) The  Division  shall  be  headed  by  a  Director  appointed  by  the  President  in accordance with article 195 of the Constitution.\n\n- A person shall not be qualified for appointment as a Director of the Division unless that person:\n\n            - (a) has not less than 10 years of working experience in (i) telecommunications, (ii) law, (iii) regulatory  compliance, (iv) education (v) information  studies  or  (vi) human rights and\n\n            - (b) is not directly or indirectly involved in the management of; or\n\n            - (c) has  no  financial  or  commercial  interest  in  a  broadcasting  network  or  media house or internet intermediary operating within the territory of the Republic.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "appointment-of-other-staff",
+      "section": 23,
+      "title": "Appointment of other staff",
+      "plainLanguage": "This provision grants the President the authority to appoint additional staff to a specific division, ensuring it has the resources needed to function properly. These appointments must align with the guidelines established in Article 195 of the Constitution. This helps the division fulfill its responsibilities effectively.",
+      "rawText": "- The President shall in accordance with article 195 of the Constitution, appoint for the  Division,  other  officers  and  staff  that  are  necessary  for  the  proper  and  effective performance of its functions.",
+      "relatedImpacts": []
+    },
+    {
+      "id": "ministerial-directive",
+      "section": 24,
+      "title": "Ministerial Directive",
+      "plainLanguage": "The Minister can give directions to the Division on high-level matters. However, these directions cannot change any legal rights or responsibilities outlined in the Act. This ensures the Minister's directions align with the law.",
+      "rawText": "- The Division shall be subject to the Minister's directives on matters at the level of the Principal Authority, provided that the directive does not vary, amend, detract or add to any right, liability, sanction, remedy or defence under this Act.\n\nSubstantive Rules on Information",
+      "relatedImpacts": [
+        "freedomOfSpeech"
+      ]
+    },
+    {
+      "id": "information",
+      "section": 25,
+      "title": "Information",
+      "plainLanguage": "This section clarifies that the law primarily targets misinformation and disinformation about verifiable facts. It protects opinions, commentary, and good-faith interpretations, as well as public criticism of government officials and dissatisfaction with public services. This means people generally won't be penalized for expressing their views or critiquing the government.",
+      "rawText": "- (1) In this section, the rules on information shall unless otherwise stated, apply only to misinformation, disinformation and other information.\n\n- Except for hate speech under this Act, a person shall only be liable under this Act for  the  communication  or  publication  of  information  relating  to  or  about  facts  which contravenes the Act.\n\n- Under this Act, a fact means a statement or material which can be verified as true or false.\n\n- Unless otherwise provided in this Act, the following does not constitute a fact under the Act:\n\n            - (a) opinions about facts including personal views, beliefs or value judgments;\n\n            - (b) commentary about facts including analysis, criticism or editorial content; and\n\n            - (c) an objective interpretation of facts in good faith and supported by evidence.\n\n- Unless otherwise provided in this Act, the following information shall not impose liability on a person for false information and other information:\n\n            - (a) public criticism or scrutiny of a governmental official or public officer, relating to the management of a public office or the official duties of a  government official or public officer;\n\n            - (b) public criticism or dissatisfaction about the provision of a service to the public;",
+      "relatedImpacts": [
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "communication-of-information",
+      "section": 27,
+      "title": "Communication of Information",
+      "plainLanguage": "This section defines how information is \"communicated\" under this law, including online, via text message, and through broadcast media. It covers various forms of content, including AI-generated material. However, internet service providers and similar services are generally not considered publishers of information unless it is algorithmically generated.",
+      "rawText": "18. (1) In this Act, for the purpose of false information, hate speech and other information, a statement or material relating to or about facts is communicated if it is made available to one or more persons in the Republic by means stated in subsection (2).\n\n(2) A statement or material relating to or about facts or is also communicated if it is made available to one or more end-users in Republic on or through:\n\n      - (a)  internet; or\n\n      - (b) MMS or SMS\n\n      - (c) television or radio broadcast\n\n(3) A statement or material relating to or about facts communicated under subsection (1)  and  (3)  shall  include  written  words,  sounds,  signs,  objects,  images,  videos  including Artificial Intelligence generated statements or materials.\n\n(4)  Except for the algorithmically generated information, a person does not publish information in the Republic merely by doing any act for the purpose of, or that is incidental to, the provision of:\n\n(a) an internet intermediary service;\n\n- (b) a communication service;\n\n- (c) a service of giving the public access to the internet; or",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "false-information",
+      "section": 29,
+      "title": "False information",
+      "plainLanguage": "This provision defines \"false information\" as statements that are wrong, misleading, or doctored, and only considered false if disproven by verified facts. Even partially true statements can be false if they mislead due to omissions. Generally, the person claiming information is false must prove it.",
+      "rawText": "19. (1) A statement or material is false if it is wrong, fake, misleading, deceptive, doctored, whether wholly or in part, and whether on its own or in the context in which it appears.\n\n(2)  Information  is  false  only  if  it  can  be  disproven  by  verified  and  factual  contrary information.\n\n(3) A statement or material is false even if it is a partial disclosure of truth provided that the omission makes entire statement or material more misleading than true.\n\n(4) Unless otherwise provided in this Act, the burden that the information is false lies on the person alleging that the information is false which may include the Division where appropriate.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "control-over-the-information",
+      "section": 30,
+      "title": "Control over the information",
+      "plainLanguage": "This section clarifies who is responsible for information shared, focusing on those who have control over it. Control is defined as being the original source, directing its publication, or having the power to change or remove it. Simply republishing information already public does not give you control.",
+      "rawText": "20. (1)  Except  for  hate  speech  under  this  Act,  a  person  shall  be  made  liable  for communication of information if that person has control over the information.\n\n(2) A person has control over the information if that person:\n\n    - (a) is the original disseminator of the information;\n\n    - (b) is not the original disseminator of the information but retains authorship of the original information; or\n\n    - (c) used, instructed  or  guided  another  person  or  instrument  to  make  the publication; or\n\n            - (d) is able to substantially dictate how that content of that information should be framed, edited or published; or\n\n    - (e) is able publish or remove content relating to the information without recourse to  the original author; or\n\n    - (f) threatens, blackmails or compels another person to release the information.\n\n(3) Nothing in this Act shall prevent an employee from being jointly or severally liable with an employer who retains authorship of the information published in the course of employment.\n\n(4) Except for hate speech under this Act, a person who republishes information that is already within the public domain does not have control over the information.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "exclusion-of-persons",
+      "section": 32,
+      "title": "Exclusion of persons",
+      "plainLanguage": "This section clarifies who can be held responsible for violations of this Act. Children under 12 are generally not liable, but adults who encourage them to break the rules can be. Parents or guardians may be responsible for a child's actions if they didn't properly supervise them, and people who are forced to release information are protected from liability.",
+      "rawText": "21. (1) Subject to the Juvenile Justice Act, 2003 (Act 653), a person below the age of 12 shall not be liable for non-compliance or breach of conduct under this Act.\n\n(2) A person capable of being made liable under this Act who guides, advises, instructs, commands, requests or blackmails a person below the age of 12 to engage in conduct that is inconsistent with this Act shall be liable as the original disseminator of the information.\n\n(3) Except for conduct criminalised, a parent or guardian of a child of below the age of 12 years or a person responsible for making decisions on behalf of that child shall be made  liable  for  the  child's  non-compliance  on  proof  that  the  parent  failed  to  take reasonable steps to supervise the child's activities.\n\n(4) Unless otherwise stated, a person who is threatened, blackmailed or compelled to release information that is non-compliant with, or contravenes the Act shall not be made liable under this Act.\n\nProhibition on publication of false information",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "misinformation-and-disinformation",
+      "section": 33,
+      "title": "Misinformation and Disinformation",
+      "plainLanguage": "This provision prohibits the spread of misinformation and disinformation, defining misinformation as false information and disinformation as intentionally misleading false information. Individuals can be held liable if they publish false information that harms the public interest. Those found responsible will face penalties as outlined in a separate section.",
+      "rawText": "22. (1) Misinformation and disinformation is prohibited in Republic.\n\n(2) Misinformation is the publication of false or inaccurate information regardless of the intention to mislead.\n\n(3) Disinformation is  the  publication  of  false  or  inaccurate  information  intended  to mislead, manipulate or guide people in a particular direction.\n\n(4) A person shall be made liable for misinformation or disinformation if:\n\n    - (a) the information is a false or inaccurate statement or material relating to or about facts;\n\n    - (b) that person is not excused from liability under the Act;\n\n    - (c) the information is prejudicial to public interest under section [].\n\n(5) A  person  liable  for  misinformation  or  disinformation  shall  be  subject  to  the imposition sanctions and grant of remedies provided in section [].",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "due-diligence-of-the-certainty-or-accuracy-of-information",
+      "section": 34,
+      "title": "Due diligence of the certainty or accuracy of information",
+      "plainLanguage": "This provision requires people to verify the accuracy of information they publish, with stricter requirements for media, journalists, and influencers. People can defend themselves if they couldn't have known the information was false, and everyone is encouraged to share reliable information to combat misinformation. Not conducting due diligence alone is not enough to be held liable.",
+      "rawText": "23. (1) All persons publishing information that concern statement or material relating to or about facts shall conduct necessary due diligence and verify the certainty or accuracy of the information.\n\n(2) Despite  subsection  (1),  media  houses,  journalists,  politicians,  academics,  persons with notoriety as influencers, persons known as public and social media commentators, persons of the class as celebrities, popular product brands and multinational companies shall be held to a higher standard of due diligence.\n\n(3) It is a defence under this Act that due diligence could not have revealed that the information was false or inaccurate.\n\n(4) A person shall not be liable under this Act by reason only that they did not conduct necessary due diligence of the certainty or accuracy of the information.\n\n(5)  All  persons  are  encouraged  to  publish  reliable  information  to  discredit  false  or inaccurate information.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "business-misinformation-or-disinformation",
+      "section": 35,
+      "title": "Business misinformation or disinformation",
+      "plainLanguage": "This provision prohibits profiting from the creation and spread of false information. It also targets those who consistently publish false information affecting the public. Violators will face penalties.",
+      "rawText": "24. (1)  A person shall not engage in the business of making, arranging, publishing false information  gratuitously  or  for  financial  reward,  whether  realised  or  not,  or  any  other benefit or gain.\n\n(2) A person shall not solicit, receive or agree to receive any financial or other material benefit as an inducement or reward for providing any service, knowing that the service is or will be used in the communication of information that contravenes this Act.\n\n(3) A person who earns a reputation publicly for constantly and incessantly publishing false information which affects the public interest shall be presumed to be engaged in the business or object of misinformation or disinformation.\n\n(4) A person who engages in conduct contrary to subsection (1), (2) and (3) shall be subject to sanctions and/or be required to provide remedies under Part VII of this Act.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "public-interest",
+      "section": 36,
+      "title": "Public interest",
+      "plainLanguage": "This provision ensures that individuals are only held responsible for spreading false information if it's beneficial for the public to do so. Something is considered in the public interest if it is deemed necessary or helpful. This limits liability to situations where addressing misinformation is truly important for the community.",
+      "rawText": "25. (1) A person shall only be made liable for misinformation or disinformation under this Act where it is in the public interest to do so.\n\n(2) For the purposes of this Act, and without limiting the generality of the expression, it is in the public interest to do anything if the doing of that thing is necessary or expedient:",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "misinformation-or-disinformation-by-or-against-the-government",
+      "section": 38,
+      "title": "Misinformation or disinformation by or against the Government",
+      "plainLanguage": "This section grants the government the power to combat misinformation, but it cannot target criticism of the ruling party or mere insults to officials. Individuals and private entities can be sued for spreading misinformation, and the government must prove the misinformation occurred. This aims to balance protecting against harmful falsehoods with safeguarding free speech.",
+      "rawText": "26. (1) Subject to constitutional protections, the Government shall have enforceable rights against any person, and shall have rights enforced against it, in respect of misinformation or disinformation under this Act.\n\n(2) The Government shall exercise its enforceable rights under the Act provided that the misinformation or disinformation does not concern the political party of the incumbent Government.\n\n(3)  Notwithstanding subsection (3), a political party shall retain enforceable rights in its own respects as an entity under this Act.\n\n(4) The Government shall not exercise any enforceable rights under this Act by reason only that the misinformation or disinformation are merely insulting to the President, VicePresident or the Cabinet, as defined under section 17(7) of this Act.\n\n(5)  Subject  to  protections  under  the  Constitution,  an  action  for  misinformation  or disinformation at the instance of the Government shall lie against a private individual or private entity.\n\n(6) For the avoidance of doubt, the respective offices of the Government affected by the misinformation or disinformation shall bear the burden of proof in any case as may be.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "misinformation-or-disinformation-against-public-institutions",
+      "section": 39,
+      "title": "Misinformation or disinformation against public institutions",
+      "plainLanguage": "This provision allows public institutions to sue individuals who spread false information about them. This right is subject to constitutional protections. The goal is to protect public institutions from harm caused by misinformation.",
+      "rawText": "27. (1) Subject  to  constitutional  protections,  public  institutions  shall  have  enforceable rights against any person, and  shall have rights enforced against, in respect of misinformation or disinformation under this Act",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+      "section": 40,
+      "title": "MISINFORMATION, DISINFORMATION, HATE SPEECH AND PUBLICATION OF OTHER INFORMATION (MDHI) BILL, 2025",
+      "plainLanguage": "This section of the MDHI bill allows public institutions to act against misinformation, except when it involves the ruling political party. This means the government can only use the law to combat misinformation that doesn't relate to themselves. This could lead to uneven application of the law.",
+      "rawText": "(2) Public institutions shall exercise its enforceable rights under this Act provided that the misinformation or disinformation does not concern the political party of the incumbent Government.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "misinformation-or-disinformation-by-or-against-a-government-official-or-public-officer",
+      "section": 41,
+      "title": "Misinformation  or  disinformation  by  or  against  a  government  official  or  public officer",
+      "plainLanguage": "This provision protects government officials, judges, and election candidates from misinformation by granting them the right to sue those who spread false information against them. It also holds these individuals accountable if they spread misinformation themselves. The provision also defines who qualifies as a candidate for election.",
+      "rawText": "28. (1) All governmental officials or public officers shall have enforceable rights against any  person,  and  shall  have  rights  enforced  against,  in  respect  of  misinformation  or disinformation under this Act for conduct against his or her office and in his or her own personal capacity.\n\n(2)   A member of the judiciary, as a public officer, shall have enforceable rights against his or her office and in his or her own personal capacity.\n\n(3) A candidate for elections shall have enforceable rights against any person, and shall have rights enforced against,  in respect of  misinformation or disinformation under this Act.\n\n- An individual is a candidate for elections, if:\n\n            - (a) he or she has publicly declared their candidature in presidential, parliamentary, district assembly elections, unit committee  elections or other elections supervised by the Electoral Commission;\n\n- (b) has been nominated or chosen as a candidate in any of the stated elections; or\n\n- (c) is publicly known to contest in any of the stated elections.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "misinformation-or-disinformation-against-by-or-against-a-private-individual-or-private-entity",
+      "section": 42,
+      "title": "Misinformation  or  disinformation  against  by  or  against  a  private  individual  or private entity",
+      "plainLanguage": "This provision grants private individuals and entities the right to take legal action against those who spread misinformation or disinformation about them. Conversely, they can also be held liable if they spread such information themselves. This aims to protect private parties from the harms of false or misleading information.",
+      "rawText": "29. (1)  Private  individuals  or  private  entities  shall  have  enforceable  rights  against  any person,  and  shall  have  rights  enforced  against  them,  in  respect  of  misinformation  or disinformation under this Act.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "false-or-inaccurate-public-health-information",
+      "section": 43,
+      "title": "False or inaccurate public health information",
+      "plainLanguage": "This provision makes it illegal to publish false or inaccurate information about public health issues, including pandemics. Media, influencers, and content creators must verify public health information before sharing it, and they are responsible for proving the accuracy of what they publish. This aims to ensure the public receives reliable information during health crises.",
+      "rawText": "30. (1) No person shall publish false or inaccurate information about public health in the Republic,  public  health  crisis  occurring  in  the  Republic  or  a  pandemic  declared  by  the World Health Organisation.\n\n(2)  A person shall be deemed to have published false or inaccurate health information where that person publishes unverified statements about public health administration in the Republic, unsubstantiated medical statements or advice, unproven accounts about the potency or otherwise of a drug or medicine approved by the relevant authorities.\n\n(3)  Without  limiting  the  effect  of  section  18(4),  misinterpretation  of  a  statement  or material relating to or about facts or opinions about public health crisis and pandemics declared by the World Health Organisation constitutes misinformation or disinformation.\n\n(5)  Media houses, journalists and persons of the status of celebrities or influencers and content  creators  who  publish  public  health  information  shall  be  required  to  undertake proper  public  health  fact-checking  in  accordance  with  guidelines  prescribed  by  the Division.\n\n(6)  For  the  purposes  of  public  health  information,  the  burden  of  proof  of  truth  or accuracy of the information lies on the person accused of publishing false or inaccurate information or the offending party.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "false-or-inaccurate-election-information",
+      "section": 44,
+      "title": "False or inaccurate election information",
+      "plainLanguage": "This provision makes it illegal to publish false information about elections, the Electoral Commission, or candidates that could sway election results. It also prohibits working with foreign entities to spread such misinformation and allows the government to use diplomatic channels to address false information originating from other countries. Minor inaccuracies in reporting on scandals are permitted as long as the overall information is substantially true.",
+      "rawText": "31 .  (1) No  person  shall  publish  false  or  inaccurate  information  about  the  Electoral Commission, pre-election processes, voting day, collation of election results and election results which is likely to influence or influences the outcome of a general election to the office of President, a general election of Members of Parliament, a by-election of a Member of Parliament, or a referendum.\n\n(2) A person shall not connive, collaborate partner directly or indirectly with a country or  foreign  organisation  to  publish  false  or  inaccurate  election  information  about  the Republic's Electoral Commission, pre-election processes, voting day, collation of election results and election results.\n\n(3) The Division shall through the Ministry of Foreign Affairs and Regional Integration swiftly engage diplomatic channels of the foreign country in question over the allegations of false information.\n\n(4) Subject  to  subsection  (5),  no  person  shall  publish  false  information  whether financial, political or sexual scandal about a candidate for elections, or a false allegation relating to a statement made or a stance taken by a candidate, which is likely to influence or influences the outcome of presidential, parliamentary, district assembly elections, unit committee elections, referendum or other elections supervised by the Electoral Commission.\n\n(5) Information on a financial, political or sexual scandal about a candidate for elections or allegations relating to a statement made or a stance taken by that same candidate is not false by reason only that the information was largely true but part of the information was imprecise, and  provided that the imprecision does not make  entire information substantially untrue.\n\n(6) Without limiting the effect of section 18(4), misinterpretation of a statement relating to or about facts concerning the Electoral Commission, pre-election processes, voting day, collation of election results election results which is likely to influence or  influences the outcome of a general election to the office of President, a general election of Members of",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "sensationalism-which-leads-to-inaccuracy",
+      "section": 46,
+      "title": "Sensationalism which leads to inaccuracy",
+      "plainLanguage": "This provision prohibits media outlets from sensationalizing factual information to the point where it becomes inaccurate. Sensationalism is defined as exaggerating information to evoke strong emotions beyond what the facts warrant. However, the provision clarifies that sensationalism is not prohibited if it does not lead to inaccuracy, and it should not stifle creative expression.",
+      "rawText": "32. (1) The publication of otherwise accurate information by a media house with substantial embellishments to a high degree that it causes the information that is not fiction or satire to become inaccurate is prohibited.\n\n(2) The test of what is sensational is whether the information is overly exaggerated and evokes  strong  emotion  and  sentiment  where  the  actual  statement  or  material  do  not reasonably evoke such emotions.\n\n(3) For the avoidance of doubt, sensationalism is not prohibited, and this provision shall not be interpreted to stifle creative expression.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "evidence-of-misinformation-and-disinformation",
+      "section": 47,
+      "title": "Evidence of Misinformation and Disinformation",
+      "plainLanguage": "This provision specifies what kind of evidence can be used to prove that misinformation or disinformation exists. This evidence can include things like medical or financial records, court documents, electronic records, witness statements, documented communications, and videos.",
+      "rawText": "- (1)  An  aggrieved  person  or  issuing  party  may  submit  the  following  as  evidence  of misinformation or disinformation:\n\n    - (a) evidence of the false or inaccurate information itself\n\n            - (b) medical records\n\n    - (c) financial records\n\n    - (d) court records\n\n    - (e) electronic records\n\n    - (f) electronic records showing negative media coverage\n\n    - (g) witness statements\n\n(\n\n            - documented evidence of correspondence\n\n    - (i) video evidence",
+      "relatedImpacts": [
+        "freedomOfSpeech"
+      ]
+    },
+    {
+      "id": "communication-made-outside-the-territory",
+      "section": 49,
+      "title": "Communication made outside the territory",
+      "plainLanguage": "This section grants Ghanaian courts jurisdiction over certain communications made outside of Ghana if they violate this law. This applies to Ghanaians or residents, and to anyone spreading hate speech against Ghanaian citizens. The law allows the court to seek legal assistance from other countries to enforce penalties.",
+      "rawText": "34. (1) Pursuant  to  subsection  (3),  the Court  or  Division  shall  jurisdiction  over communication made outside the Republic which contravenes this Act.\n\n(2)   A communication is made outside the Republic if it is made by a person who is not physically present in the territory of Ghana, notwithstanding the communication was made on an online location.\n\n(3)  With the exception of hate speech under subsection (6), the Act shall have extraterritorial effect only to the extent that the offending party or respondent is Ghanaian or has  been  a  resident  in  the  Republic  for  a  cumulative  period  of  2  years  immediately preceding  the  date  of  publication  of  the  false  information,  hate  speech  or  other information.\n\n(4)  Communication  or  publication  outside  the  Republic  over  which  the  Court  or Division has jurisdiction under subsection (3) shall be deemed to be communication or publication of a statement or material in the Republic.\n\n(5) Where the offending party or respondent lives outside the Republic, the Division shall engage mutual legal assistance for the enforcement of a sanction or remedy in that country.\n\n(6) For hate speech communicated outside the Republic against a citizen of Ghana, the Act shall have extraterritorial effect regardless of the nationality or residence of the offending part or respondent.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "defences-for-misinformation-and-disinformation",
+      "section": 50,
+      "title": "Defences for Misinformation and Disinformation",
+      "plainLanguage": "This provision protects individuals from being held liable for spreading misinformation or disinformation if they quickly correct the statement, retract it, and apologize. This encourages people to rectify their mistakes without fear of legal repercussions.",
+      "rawText": "35. (1) In addition to other protections provided for in this Act, a person shall not be made liable for misinformation and disinformation where:\n\n    - (a) that person corrected or retracted that statement timeously and apologised;",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+      "section": 51,
+      "title": "MISINFORMATION, DISINFORMATION, HATE SPEECH AND PUBLICATION OF OTHER INFORMATION (MDHI) BILL, 2025",
+      "plainLanguage": "This section explains when someone might not be punished for spreading false information. Exceptions include accidental errors, situations where the information didn't affect an election, or statements that weren't likely to be believed. However, simply being inaccurate isn't a full defense, though it could lead to a lighter penalty.",
+      "rawText": "- (b) the false information was an inadvertent error and the offending party assumed responsibility ;\n\n    - (c) the information is not likely to influence or did not influence the outcome of a presidential,  parliamentary,  district  assembly  or  unit  committee  election  or referendum, or other elections supervised by the Electoral Commission.\n\n    - (d) under the circumstances, the statement of fact or material was not relied on or it was not likely that people will take it seriously\n\n- It shall not be a defence that the information was only inaccurate; however, it shall apply for the purposes of a reduced sanction or remedy or diminution of a sanction.\n\n- What is timeous under subsection 1(a) depends on the facts of each case.\n\nHate Speech and other forms of Indecent Expressions",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "prohibition-of-hate-speech",
+      "section": 52,
+      "title": "Prohibition of Hate Speech",
+      "plainLanguage": "This provision makes it illegal to communicate or spread hate speech. This means that individuals cannot express hateful ideas or messages publicly. The goal is to prevent the spread of harmful and discriminatory language.",
+      "rawText": "- The communication or dissemination of hate speech in the Republic is prohibited.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "definition-of-hate-speech",
+      "section": 53,
+      "title": "Definition of Hate Speech",
+      "plainLanguage": "This provision defines hate speech as communication that uses discriminatory language to target groups based on characteristics like race or religion. It includes content that promotes hostility or incites violence, even if presented as entertainment. The law applies if the speech negatively impacts a group's dignity or security, regardless of the speaker's intent.",
+      "rawText": "- (1) Hate speech means any communication in speech, writing, behaviour or expression that uses pejorative or discriminatory language which:\n\n      - (a) vilifies, threatens, harasses, degrades, stigmatises, humiliates, discriminates or\n\n    - (b) promotes negative feelings, hostility, attitudes or perceptions or\n\n    - (c) incites hatred or violence\n\ntowards a group or class of people based on their race, ethnicity, colour, descent, religion, sex, background, other identity factor.\n\n    - Hate speech may be based on facts, prejudice, bias, generalisations or stereotypes.\n\n- A factual statement which incites threats, hatred, violence towards a group or class of people based on their way of life constitutes hate speech.\n\n- Provided the hate speech affects an individual or group's dignity, security, wellbeing, reputation and status in society, it is immaterial that the offending party did not intend the consequences of his or her actions.\n\n- Communication circulated as means of entertainment in a movie, song, parody, skit or as a satire that meets the threshold of hate speech in subsection (1) or (3) constitutes hate speech under this Act.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "communication-of-hate-speech",
+      "section": 55,
+      "title": "Communication of Hate Speech",
+      "plainLanguage": "This provision extends the existing rules for communicating information to also include hate speech. This means that the same standards and procedures used for general information sharing will now apply to the communication of hate speech. This aims to ensure consistency in how hate speech is handled.",
+      "rawText": "- The requirements of communication of information under section 18 shall apply to hate speech.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "control-over-the-communication-of-hate-speech",
+      "section": 56,
+      "title": "Control over the communication of Hate Speech",
+      "plainLanguage": "This provision makes individuals liable for hate speech if they had control over its communication. Control includes being the original source, republishing the content, influencing its framing, or having the ability to modify or remove it. This aims to hold accountable those who facilitate the spread of hate speech, not just the original speaker.",
+      "rawText": "- (1) A person shall be made liable for communication of hate speech if that person had control over the communication.\n\n- A person has control over communication of hate speech if that person:\n\n    - (a) is the original disseminator of the communication;\n\n    - (b) disseminates, republishes or reproduces the communication;\n\n            - (c) is not the original disseminator of the communication but retains authorship of the original communication; or\n\n            - (d) used, instructed or guided another person or instrument to  make  the communication; or\n\n            - (e) is able to substantially dictate how that content of that communication should be framed, edited or published; or\n\n            - (f) is able communicate or remove content relating to the communication without recourse to the original author; or\n\n            - (g) threatens, blackmails or compels another person to release the communication.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "hate-speech-that-incites-genocide-or-aggravated-violence",
+      "section": 57,
+      "title": "Hate Speech that incites genocide or aggravated violence",
+      "plainLanguage": "This provision makes hate speech that incites genocide a crime under the Criminal Offences Act. It also criminalizes hate speech that is likely to incite or does incite serious violence motivated by hate, with penalties outlined elsewhere in the Act. \"Aggravated violence\" is defined as violence that could cause serious harm and is motivated by hate.",
+      "rawText": "40. (1)  In  accordance with section 49A of the Criminal Offences Act, hate speech  that incites genocide is a criminal offence punishable under the Criminal Offences Act.\n\n(2)  Hate  speech  that  that  is  likely  to  incite  aggravated  violence  or  incites  aggravated violence  is  a  criminal  offence  under  this  Act  and  which  sanction  shall  be  imposed  in accordance with section [] of this Act.\n\n- For  the  purpose  of  this  section,  violence  is  aggravated  if  it  is  violence  that  is heightened in a way that leads to or is capable of leading to serious harm motivated by",
+      "relatedImpacts": [
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "evaluation-of-hate-speech",
+      "section": 59,
+      "title": "Evaluation of hate speech",
+      "plainLanguage": "Only courts or a specific division can legally determine if a communication is hate speech. This determination will be based on factors such as the communication's content, tone, potential impact, purpose, the targeted group, and the severity of the message. This evaluation is necessary to establish liability and decide on appropriate penalties or remedies.",
+      "rawText": "41. (1)  Only  the  Courts  or  the  Division  have  the  mandate  to  substantively  evaluate  a communication alleged to be hate speech.\n\n(2) In evaluating whether a communication amounts to hate speech to establish liability and the applicable sanctions or remedies for it, the Division or the Court shall determine whether the communication incites hatred or violence by looking at:\n\n    - (a) the entire content of the communication;\n\n            - (b) the tone and context of the communication;\n\n    - (c) the potential impact of the speech in terms of reach;\n\n            - (d) the purpose of the communication;\n\n    - (e) the people who are targeted; and\n\n    - (f) nature and gravity of the communication.",
+      "relatedImpacts": [
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "other-forms-of-indecent-expressions",
+      "section": 60,
+      "title": "Other forms of indecent expressions",
+      "plainLanguage": "This section outlaws ethnic slurs, derogatory comments, and inflammatory statements against groups, even if they don't explicitly incite hatred. The rules for managing hate speech will also apply to these indecent expressions. This aims to prevent the spread of offensive and potentially dangerous language targeting specific groups.",
+      "rawText": "42. (1) The following indecent expressions which do not incite hatred but target a group of people are prohibited:\n\n            - (a) ethnic slurs and derogative commentary of a group of people; and\n\n            - (b) inflammatory statements may reasonably provoke violence of a group of people.\n\n(2) The communication and control over the communication for hate speech under sections 39 and 40 respectively shall apply to indecent expression under this section.\n\n(3)  In  evaluating  whether  a  communication  is  an  indecent  expression,  except  for determining that the communication incites hatred or violence, the criteria in section 42(2) shall apply.\n\n(4)  Unless  otherwise  stated,  and  except  for  provisions  under  sections  37  to  42, reference to hate speech shall include other forms of indecent expression.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "liability-and-enforceability-for-hate-speech-and-other-forms-of-indecent-expressions",
+      "section": 61,
+      "title": "Liability and enforceability for hate speech and other forms of indecent expressions",
+      "plainLanguage": "This provision makes everyone, including individuals, organizations, and government officials, potentially liable for hate speech. This means anyone could face legal consequences for engaging in or being responsible for hate speech. The aim is to ensure accountability across all sectors of society for harmful speech.",
+      "rawText": "43. (1) All persons including a private individual or private institution, a public institution or a Government or public official may be liable for hate speech.",
+      "relatedImpacts": [
+        "freedomOfSpeech"
+      ]
+    },
+    {
+      "id": "guidelines-and-code-of-ethics-on-hate-speech-and-other-forms-of-indecent-expressions",
+      "section": 63,
+      "title": "Guidelines  and  code  of  ethics  on  hate  speech  and  other  forms  of  indecent expressions",
+      "plainLanguage": "This provision states that assessments of hate speech and indecent expression should follow guidelines issued by the National Peace Council. It also lists several codes of ethics from media and human rights organizations that should be considered when evaluating such speech. This aims to provide a standardized approach to identifying and addressing hate speech.",
+      "rawText": "44. (1) The Guidelines on Hate Speech and other forms of Indecent Expressions issued by the National Peace Council shall be instructive in assessing hate speech and other forms of indecent expressions.\n\n(2) The following Guidelines and Code of Ethics shall be given due consideration in assessing hate speech and other forms of indecent expressions:\n\n      - (a) National Media Commission Guidelines for Political Journalism;\n\n      - (b) National Media Commission Guidelines for Local Language Broadcasting;\n\n      - (c) The Ghana Journalists Association Code of Ethics;\n\n      - (d) The Ghana Independent Broadcasters Association Code of Conduct;\n\n      - (e) Private  and Newspaper Publishing Independent Association Code of Ethics; and\n\n      - (f) Commission on Human Rights & Administrative Justice Code of Conduct for Public  Office Holder.\n\nOther Information",
+      "relatedImpacts": [
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "disclosure-of-private-facts",
+      "section": 64,
+      "title": "Disclosure of private facts",
+      "plainLanguage": "This provision protects individuals from having their private information revealed to the public. It makes someone liable for disclosing private facts if the disclosure is offensive or embarrassing to a reasonable person, unless the information is newsworthy or of legitimate public concern. This aims to balance privacy with freedom of information.",
+      "rawText": "45. (1)  No person shall disclose a private fact about a person's life that is not generally known to the public or publicly available.\n\n(2) A public disclosure is any direct or indirect publication of information relating to or about facts in respect of a person, including commentary about private facts, opinions about private facts, innuendos and insinuations.\n\n(3) A person shall be liable where the information and circumstances of its disclosure clearly identifies a person with or without a publication of name or pseudonyms or photo or description of a person to whom the information reasonably relates.\n\n(4) No person shall be made liable under this section unless the disclosure of the private fact is deemed offensive, repulsive, embarrassing or shameful to a reasonable person.\n\n(5) In making a determination in subsection (3), the Division or the Court shall weigh the legitimate public concern or newsworthiness of the information.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+      "section": 65,
+      "title": "MISINFORMATION, DISINFORMATION, HATE SPEECH AND PUBLICATION OF OTHER INFORMATION (MDHI) BILL, 2025",
+      "plainLanguage": "This provision defines what information is considered newsworthy or of public concern, including details about civil wrongdoings, risks to national security, public health, or child welfare. Even if information is newsworthy, individuals should only share what is necessary for the public's interest and avoid revealing unnecessary private details. Disclosing private facts beyond what's needed could lead to liability.",
+      "rawText": "(6) Information is of legitimate public concern or is newsworthy if it:\n\n            - (a) reveals the commission of a civil wrong under the laws of the Republic;\n\n            - (b) relates to a private fact about a government official or public officer which is likely to adversely affect national security, public interest, public trust, public safety, public order or public security;\n\n            - (c) it reveals a public health risk to other persons in respect of an infectious disease spread by contact or touch, disclosed by persons with the Division to disclose under the Public Health Act, 2012 (Act 851); or\n\n            - (d) concerns the welfare of a child.\n\n(7) Where the information is of legitimate public concern or is newsworthy, a person who discloses the information shall only disclose what is necessary in the public interest, and such person may be liable for disclosing partly private facts which were not necessary in the public interest.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "definition-of-private-facts",
+      "section": 66,
+      "title": "Definition of private facts",
+      "plainLanguage": "This provision defines \"private facts\" as intimate details about a person's life that are not widely known and are expected to be kept private, including information about family, health, finances, and relationships. Information that is already public, such as details in official records or about the commission of a crime, is not considered private. This definition helps determine what personal information is protected by law.",
+      "rawText": "46. (1) A private fact is an intimate detail of a person's life that is not generally known and is expected to be kept private and shall include facts about:\n\n            - (a) family life;\n\n    - (b) physical or mental health;\n\n    - (c) health choices or decisions;\n\n            - (d) personal  finances  unless  there  is  a  duty  to  declare  or  there  is  suspicion  of illegitimacy or illegality;\n\n            - (e) relationships unless abusive or exploitative; and\n\n            - (f) personal choices that do not personally affect any other person.\n\n(2) The following information shall not be considered private facts under this part:\n\n    - (a) information held in public or official records;\n\n            - (b) information about the commission of a crime except that a person shall not publish obscene material that relates to the commission of a crime pursuant to sections 66, 67 and 68 of the Cybersecurity Act;\n\n    - (c) information about the birth or death of a person;\n\n    - (d) information about the celebration or dissolution of a marriage;",
+      "relatedImpacts": [
+        "privacy"
+      ]
+    },
+    {
+      "id": "publication-of-facts",
+      "section": 68,
+      "title": "Publication of facts",
+      "plainLanguage": "This section explains when sharing private information is considered a public disclosure, even if the person it concerns has acted in a way that might seem to make the information already known. It also clarifies that for a disclosure to be considered a violation of privacy, the person must not have consented to the sharing of their information, and they can revoke their consent at any time. This helps protect individuals from unwanted exposure of their private lives.",
+      "rawText": "47. (1) A disclosure is public if it published by whatever means of communication adopted under section 18 and that information becomes known by one or more persons.\n\n(2) Information is under the control of a person in the manner stated in section 20 of this Act.\n\n(3)  It  shall  be  immaterial  that  as  a  result  of  conduct  of the  aggrieved  person  in  the society, or because the information was known by another person or group of persons, the publication could not have been a public disclosure of private facts.\n\n- The  person  to  whom  the  private  fact  relates  should  not  have  consented  to  the disclosure of the information.\n\n- 'Consented to information' under this part means freely disclosed the information or agreed to the disclosure of specific information for a specific purpose or duration.\n\n- Nothing shall preclude a person from revoking consent at any time.",
+      "relatedImpacts": [
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "entertainment",
+      "section": 69,
+      "title": "Entertainment",
+      "plainLanguage": "This law prevents the media from revealing someone's private information for entertainment, such as in jokes or skits. It aims to protect individuals from having their personal lives exposed and exploited in the name of entertainment.",
+      "rawText": "48. A person shall not disclose a private fact in the name of entertainment in mass media whether as a parody, skit or satire.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "private-facts-of-private-individuals-government-officials-public-officers-politician-and-celebrities",
+      "section": 70,
+      "title": "Private facts of private individuals, government officials, public officers, politician and celebrities",
+      "plainLanguage": "This provision makes it illegal to publish deeply personal information about private individuals, government officials, and politicians if it doesn't affect national security or public safety. The law aims to protect privacy by preventing the publication of sensitive personal details that don't have broader public consequences. If the information is deeply personal and does not have those negative impacts, the person publishing it may be liable.",
+      "rawText": "49. (1) A person may be liable for the publication of private facts about an individual or group of individuals where that information is deeply personal and does not or is not likely to  adversely  affect  national  security,  public  interest,  public  trust, public  safety  or  public order or public security.\n\n(2)  A  person  may  be  liable  for  the  publication  of  private  facts  about  a  government official or public officer or politician where that information is deeply personal and does not or is not likely to adversely affect national security, public interest, public trust, public safety or public order or public security.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+      "section": 71,
+      "title": "MISINFORMATION, DISINFORMATION, HATE SPEECH AND PUBLICATION OF OTHER INFORMATION (MDHI) BILL, 2025",
+      "plainLanguage": "This provision makes it illegal to publish deeply personal private facts about celebrities, influencers, or content creators if that information doesn't affect the public trust or reveal exploitation. This aims to protect the privacy of these individuals when the information shared is not relevant to their public image or actions. Publishing such information could lead to legal repercussions.",
+      "rawText": "(3) A person may be liable for the publication of private facts about a person of the status  of  a  celebrity  or  influencer  or  a  content  creator  in  the  Republic  where  that information is deeply personal and does not or is not likely to adversely affect the public trust, or does not or is not likely to expose public exploitation by the celebrity, influencer or content creator.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "persons-who-can-claim",
+      "section": 72,
+      "title": "Persons who can claim",
+      "plainLanguage": "Only individuals harmed by the release of private information can file a claim. An exception is made for the Division, which can file complaints for others, and estates, which can sue for the publication of a deceased person's private information. This ensures that those affected by the disclosure of private facts have legal recourse.",
+      "rawText": "- (1)  Subject  to  the  Division's  power  to  submit  Complaints  on  behalf  of  aggrieved persons or issuing parties and actions in representative capacity, only individuals affected by the publication may make a claim for disclosure of private facts.\n\n- An estate of a deceased may hold a person liable for publication of private facts about a deceased person.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "data-privacy-breaches",
+      "section": 73,
+      "title": "Data privacy breaches",
+      "plainLanguage": "This provision ensures that individuals can still take legal action if their personal information is exposed in a data breach, as protected by the Data Protection Act. It confirms that other regulations cannot block their right to seek compensation or other remedies for such breaches.",
+      "rawText": "- Nothing shall bar a person from pursuing a remedy for breach of protection of personal or special personal data protection under the Data Protection Act.",
+      "relatedImpacts": [
+        "privacy"
+      ]
+    },
+    {
+      "id": "publication-of-confidential-information-concerning-the-republic",
+      "section": 74,
+      "title": "Publication of confidential information concerning the Republic",
+      "plainLanguage": "This provision makes it illegal to publish confidential information about the Republic. Confidential information is defined as sensitive state-owned data not publicly available and related to public security, welfare, or diplomatic interests. This aims to protect sensitive government information from unauthorized disclosure.",
+      "rawText": "- (1) A person shall not publish confidential information concerning the Republic.\n\n- Information is confidential to the Republic under this section if that information:\n\n            - (a) belongs to the State or is in the custody of the State; and\n\n            - (b) is not publicly available as to the precise content; and\n\n      - (c) is not meant to be shared with the public at a specific time or indefinitely; and\n\n      - (d) contains sensitive material that affect or concern public security or public welfare or diplomatic interests.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "categories-of-protected-confidential-information",
+      "section": 75,
+      "title": "Categories of protected confidential information",
+      "plainLanguage": "This provision protects certain types of state information by classifying them as confidential. This includes information from closed-door meetings, ongoing criminal investigations, internal government communications, and sensitive economic data. The aim is to safeguard the privacy and integrity of these specific areas.",
+      "rawText": "- (1) Information that is confidential to the State is protected and includes the following:\n\n      - (a) information about public proceedings held in camera;\n\n      - (b) information relating to criminal investigations which would prejudice the outcome of the case;\n\n- (c) information relating to Cabinet communications;\n\n- (d) information about sensitive economic Government data and plans;",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "publication-of-protected-information",
+      "section": 77,
+      "title": "Publication of protected information",
+      "plainLanguage": "This section defines a public disclosure as information that is officially published and becomes known to at least one person. It also clarifies that \"control\" of information is defined elsewhere in the Act. This definition is important for determining when protected information has been improperly released.",
+      "rawText": "- (1) A disclosure is public if it published by whatever means of communication adopted under section 18 and that information becomes known by one or more persons.\n\n- Information is under the control of a person in the manner stated in section 20 of this Act.\n\nOperational Framework",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "complaint-to-the-division",
+      "section": 78,
+      "title": "Complaint to the Division",
+      "plainLanguage": "This section explains how to file a complaint with the Division if your rights under this law have been violated. You can file on your own behalf, or someone can file for you if they have a connection to you. The Division will then review the complaint to determine if it has merit and falls under its jurisdiction.",
+      "rawText": "- (1) Any person who has enforceable rights under this Act may file a Complaint to the Division in the manner specified by the Division in respect of rights that have been or, is likely to be contravened in relation to him or her.\n\n- A Complaint may be filed on behalf of an aggrieved person by the issuing party provided that:\n\n- (a) aggrieved person is identified in the complaint; and\n\n            - (b) the issuing party has a relational connection with the aggrieved person.\n\n- A Complaint may be filed by a person as a claim in respect of public rights.\n\n- A child shall not be competent to file a Complaint by him or herself and shall act by his or her next friend;\n\n- A child shall not be competent to respond to a Complaint by him or herself and shall act by his guardian ad litem .\n\n- Upon  receipt  of  a  Complaint,  the  Division  shall  within  2  working  days  make  a preliminary inquiry into whether it has jurisdiction into the Complaint and shall determine whether a complaint has any merit.\n\n- A Complaint has merit where it contains an allegation of fact in respect of noncompliance and breach of conduct under the Act.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "response",
+      "section": 80,
+      "title": "Response",
+      "plainLanguage": "If the Division finds a complaint has merit, the offending party will be notified and given two days to respond. Failure to respond will result in the Division proceeding based on the complainant's case. The response must indicate whether the party accepts, explains, or refutes the complaint and provide a basis for their position.",
+      "rawText": "56. (1) Where the Division has determined that it has jurisdiction and the Complaint has any merit, the Division shall immediately forward the Compliant and a statement of its jurisdiction  and  merit  to  the  offending  party  and  the  offending  shall  be  given  the opportunity to respond to a Complaint in writing or by oral presentation, whichever they choose.\n\n(2) The offending party shall respond to the Complaint within 2 working days of receipt of the Complaint.\n\n(3)  Where the offending party does not respond within the timeframe, the  Division shall proceed with the Complaint and determine the matter based on case of the aggrieved person or issuing party.\n\n(4) Where the offending party responds to a Complaint or Report, the Response shall indicate any of the following:\n\n    - (a) whether the respondent accepts and concedes to the Complaint; or\n\n    - (b) whether the respondent accepts the complaint but has an explanation; or\n\n            - (c) whether the respondent refutes and defends the information or communication.\n\n(5) Where a Response intends to provide a defence it shall indicate the following:\n\n            - (a) the basis for the assertion that the information or communication lawful; and\n\n    - (b) the description of the allegedly unlawful information or communication.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "jurisdiction-of-the-division",
+      "section": 81,
+      "title": "Jurisdiction of the Division",
+      "plainLanguage": "This section defines what types of violations the Division can handle, excluding things like hate speech, cases against the government, or those seeking money. However, the Division can refer cases of public interest to the Court, provided the government isn't the one harmed. Individuals can only take cases directly to court if the Division doesn't have the authority to handle it.",
+      "rawText": "57. (1) Subject to subsection (2), the Division shall have jurisdiction over all matters of non-compliance or breach of conduct under this Act.\n\n- The Division shall not have quasi-adjudicatory jurisdiction over:\n\n      - (a) hate speech that incites aggravated violence;\n\n      - (b) allegation of non-compliance or breach of conduct against the Government;\n\n      - (c) allegation  of  non-compliance or breach of conduct filed by the Government against a person;\n\n      - (d) monetary damages; and\n\n      - (e) misinformation or disinformation which attracts criminal sanction.\n\n(3) Despite subsection (2), the Division shall have referral jurisdiction in the absence of its adjudicatory jurisdiction and may submit a Complaint on behalf of a person who has enforceable rights under this Act directly before the Court, where the Division is of the opinion that the matter is relevant to the public interest.\n\n(4) 'A matter is relevant to the public interest' if, provided the Government is not the aggrieved person:\n\n- (a) the allegation attracts a criminal penalty under this Act; or\n\n          - (b) the allegation concerns a matter that has obtained significant public traction.\n\n(5) In all cases falling under subsection (3) and (4), the Division must be satisfied that the Complaint has merit.\n\n- No  person  shall  submit  a  case  under  this  Act  directly  to  the  Court  unless  the Division does not have jurisdiction.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "findings-and-decisions-of-the-division",
+      "section": 82,
+      "title": "Findings and Decisions of the Division",
+      "plainLanguage": "This section states that the Division must assess complaints fairly and independently. It also says that the Division should only establish liability when it is just and impose penalties that are proportionate to the violation.",
+      "rawText": "58. (1) The Division shall fairly and independently assess the merits of each Complaint submitted to it.\n\n(2)  The  Division shall establish liability where it  is just and right to do so and shall impose sanctions and remedies that are necessary and proportionate to the non-compliance or breach of conduct.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "enforcement-of-decisions-of-the-division",
+      "section": 84,
+      "title": "Enforcement of decisions of the Division",
+      "plainLanguage": "The Division's decisions are legally binding on all parties involved in a complaint. Failure to comply with these decisions may result in administrative or criminal penalties. The Division has the power to issue orders to ensure its decisions are enforced.",
+      "rawText": "59. (1) The decisions of the Division shall be binding on all parties to the complaint.\n\n(2) The decisions of the Division shall be complied by the parties to it failing which the sanctions under administrative and criminal penalties may apply.\n\n(3) For the purpose of enforcing and giving effect to its decisions, the  Division shall make such orders and directions as may be necessary in respect of the parties or other persons.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "appeal-against-the-division",
+      "section": 85,
+      "title": "Appeal against the Division",
+      "plainLanguage": "Individuals or authorities dissatisfied with a Division's decision can appeal to the High Court within 30 days, with a further appeal possible at the Court of Appeal. The High Court can only overturn the Division's decision if the respondent wasn't responsible, the evidence is insufficient, the communication was permissible, or compliance is technically impossible. The High Court can confirm, change, or cancel the Division's decision.",
+      "rawText": "60. (1) A person who is aggrieved by finding of fact, liability or decision of the Division may appeal to the High Court against the finding of fact, liability or the decision of the Division in the person of the Authority.\n\n- A further right of appeal shall lie at the Court of Appeal only.\n\n- An appeal may only be made to High Court within 30 days of the decision on the complaint or such period as may be prescribed by Rules of Court, whichever is earlier.\n\n(4) The High Court must hear and determine any such appeal and may either confirm, vary or set it aside a finding of fact or liability or a decision of the Division.\n\n(5) The High Court may only set aside a finding of fact or liability or a decision of the Division on any of the following grounds on an appeal:\n\n          - (a) the respondent was not responsible for the communication or information; or\n\n    - (b) the evidence does not support the finding of fact; or\n\n          - (c) the communication or information was permissible under the Act; or\n\n          - (d) it is not technically possible to comply with the decision of the Division.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+      "section": 86,
+      "title": "MISINFORMATION, DISINFORMATION, HATE SPEECH AND PUBLICATION OF OTHER INFORMATION (MDHI) BILL, 2025",
+      "plainLanguage": "Even if someone appeals a complaint or report against them, the complaint/report remains active unless a court cancels it. However, if the person appealing can prove to the High Court that it's technically impossible for them to comply with the decision, the court can temporarily pause the decision during the appeal. This ensures the decision can still be enforced while allowing for appeals in cases of technical impossibility.",
+      "rawText": "(6) A Complaint or Report that is the subject of an appeal under subsection (1) remains in effect despite the appeal, and only ceases to have effect if it is set aside by High Court or the appellate court on appeal from the High Court.\n\n(7)  Despite  subsection  (6),  if  the  appellant  establishes  a prima  facie case  that  it  is technically impossible to comply with the decision of the Division, the High Court may direct that the decision be stayed pending determination of the appeal.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "jurisdiction-of-the-high-court",
+      "section": 87,
+      "title": "Jurisdiction of the High Court",
+      "plainLanguage": "The High Court can review decisions made by the Division and also handle initial cases of misconduct that the Division can't address. Decisions made by the High Court in these initial cases can be appealed to the Court of Appeal and then the Supreme Court.",
+      "rawText": "61. (1) The  High  Court  shall  have  appellate  jurisdiction  in  respect  of  findings  of  fact, liability and decisions of the Division.\n\n(2) The  High  Court  shall  have  original  jurisdiction  in  all  respect  of  matters of  noncompliance  or  breach  of  conduct  under  the  law  where  the  Division  does  not  have jurisdiction.\n\n(3) Appeals from the High Court's exercise of original jurisdiction under this Act shall lie at the Court of Appeal and a further appeal shall lie at the Supreme Court.\n\nSanctions and Remedies",
+      "relatedImpacts": [
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "sanctions-and-remedies",
+      "section": 88,
+      "title": "Sanctions and Remedies",
+      "plainLanguage": "This section details the penalties for violating the Act, which a court can impose. These penalties range from requiring corrections or stopping communications to blocking access, monetary fines, license suspension, and even criminal charges. The goal is to ensure compliance and address any harm caused by the violation.",
+      "rawText": "62. (1) Where the Court or Division makes a finding of fact and establishes liability against a person for non-compliance or breach of conduct under the Act, it may issue any of the following decisions as sanctions and/or remedies where appropriate:\n\n    - (a) a Correction Direction\n\n- (b) a Stop Communication Direction\n\n    - (c) a Removal of Communication Direction\n\n- (d) a Removal of Account Request\n\n- (e) an Access Blocking Order\n\n- (f) monetary damages\n\n- (g) Cease and Desist Order\n\n- (h) suspension or revocation of licence\n\n    - (i) an administrative penalty\n\n- (j) a criminal penalty",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "correction-direction",
+      "section": 90,
+      "title": "Correction Direction",
+      "plainLanguage": "A \"Correction Direction\" allows the Court to order someone spreading misinformation, disinformation, or hate speech to publish a correction notice. This notice must clarify the false information or its harmful impact and may need to be published in specific locations or newspapers. The person issued the direction is responsible for the costs of compliance.",
+      "rawText": "63. (1) The Court or Division may issue a Correction Direction against a person to correct misinformation, disinformation or hate speech.\n\n(2) A Correction Direction is one issued to a person who is liable for misinformation disinformation or hate speech, requiring the person to communicate in the Republic in the specified form and manner, to a specified person or description of persons (if any), and by the specified time, a notice (called a correction notice) that contains one or both of the following:\n\n            - ( a )   a statement, in such terms as may be specified, that the information is false, or that the specified material contains a false statement of fact;\n\n            - (b) a statement in such terms as may be specified, that the information is injurious to public interest or public security;\n\n            - (c) a specified statement of fact, or a reference to a specified location where the specified information or communication may be found, or both.\n\n(2) A Correction Direction may require the person to whom it is issued to communicate in the Republic a correction notice in a specified location.\n\n(3) Where the consequences of the misinformation, disinformation or hate speech are extreme, a Correction Direction may also require the person to whom it is issued to do one or both of the following:\n\n          - (b) to  publish  the  correction  notice  in  the  specified  manner  in  a  specified newspaper or other printed publication of the Republic.\n\n(4) Provided there is evidence, a person who is liable under this Act may be issued a Correction Direction even if the person does not know or has no reason to believe that the information is false or the communication amounts to hate speech.\n\n(5)  A  person  who  is  issued  a  Correction  Direction  is  responsible  for  the  costs  of complying with the Direction.\n\n(6)  Nothing shall prevent a person from seeking monetary damages in addition to a Correction Direction.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "stop-communication-direction",
+      "section": 91,
+      "title": "Stop Communication Direction",
+      "plainLanguage": "This provision allows a court to order someone spreading misinformation or hate speech to stop communicating it. The court can also require them to publish a correction notice at their own expense. This order doesn't prevent additional lawsuits for monetary damages.",
+      "rawText": "64. (1) The Court or Division may issue a Stop Communication Direction against a person to correct misinformation, disinformation or hate speech.\n\n(2) A Stop Communication Direction is one issued to a person who is liable under the Act, requiring the person to stop communicating in the Republic, the subject information or communication by a specified time.\n\n(3) A Stop Communication Direction may also require the person to whom it is issued to stop communicating any statement or material that is substantially similar to the subject of the information or communication.\n\n(4) Stop communicating, in relation information or communication, means taking the necessary  steps  to  ensure  that  the  statement  is  no  longer  available  through verbal communication or a physical medium or the internet to end-users in the Republic.\n\n(5) A Stop Communication Direction may also require the person to whom it is issued to do one or both of the following:\n\n(\n\n            - a ) to  communicate  in  Republic,  a  correction  notice  in  the  specified  form  and manner, to a specified person or description of persons (if any), and by the specified time;\n\n(\n\n            - b )   to publish a correction notice in the specified manner in a specified newspaper or other printed publication of the Republic.\n\n(6) Provided there is evidence, a person who is liable under this Act may be issued a Stop Communication even if the person does not know or has no reason to believe that the information is false or the communication amounts to hate speech.\n\n(7)  A  person  who  is  issued  a  Correction  Direction  is  responsible  for  the  costs  of complying with the Direction.\n\n(8) Nothing shall prevent a person from seeking monetary damages in addition to a Stop Communication Direction.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "removal-of-communication-direction",
+      "section": 92,
+      "title": "Removal of Communication Direction",
+      "plainLanguage": "This provision allows a court to order someone to remove misinformation, disinformation, or hate speech from the internet. The court can also require the person to publish a correction notice. A person who is liable under this act may be issued a removal of communication even if they did not know the information was false.",
+      "rawText": "65. (1) The Court or Division may issue a Stop Communication Direction against a person to correct misinformation, disinformation or hate speech where necessary, in addition to other Directions under this part.\n\n(2)  A  Removal of Communication Direction is one issued to a person  who is liable under the Act, requiring that person remove  or  take down  the  information  or communication in the Republic by a specified time from an online location.\n\n(3) A Removal of Communication Direction may also require the person to whom it is issued to remove any statement or material that is substantially similar to the subject of the information or communication.\n\n(4)  Removal  of  communication,  in  relation  information  or  communication,  means taking the necessary steps to ensure that the statement or material is no longer available on or through the internet to end-users in the Republic.\n\n(5) A Removal of Communication Direction may also require the person to whom it is issued to do one or both of the following:\n\n(\n\n            - a ) to  communicate  in  Republic,  a  correction  notice  in  the  specified  form  and manner, to a specified person or description of persons (if any), and by the specified time;\n\n(\n\n            - b ) to publish a correction notice in the specified manner in a specified newspaper or other printed publication of the Republic.\n\n(6) A third-party intermediary shall not be compelled to remove content of a person; however, the Court or Division may request a restriction of content in accordance with an intermediary's content restriction policy.\n\n(7) Provided there is evidence, a person who is liable under this Act may be issued a Removal of Communication even if the person does not know or has no reason to believe that the information is false or the communication amounts to hate speech.\n\n(8) A person who is issued a Removal of Communication Direction is responsible for the costs of complying with the Direction.\n\n(9)  Nothing shall prevent a person from seeking monetary damages in addition to a Removal of Communication Direction.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "service-of-directions-or-order",
+      "section": 93,
+      "title": "Service of Directions or Order",
+      "plainLanguage": "This section explains how legal Directions or Orders are delivered. They can be given to the person named in the order, or to someone in the Republic who is authorized to accept it for them. The specific delivery method will be set by official rules.",
+      "rawText": "67. (1) A Direction or Order shall be served in on outside the Republic by such means as may be prescribed:\n\n- (a) on the person to whom it is issued; or\n\n(\n\n        - b ) on a person in the Republic that the person to whom it is issued has appointed to accept service on the person's behalf.",
+      "relatedImpacts": [
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "non-compliance-with-a-direction",
+      "section": 94,
+      "title": "Non-compliance with a Direction",
+      "plainLanguage": "This provision explains what happens if someone doesn't follow a Direction or Order. Unlicensed individuals get warnings before facing account restrictions or penalties, while licensed individuals face fines and potential loss of their license for not complying. Appealing a Direction does not excuse non-compliance.",
+      "rawText": "68. (1) Unless otherwise provided in this Act, a person to whom a Direction or Order is issued and served and who, without reasonable excuse, fails to comply with the Direction or  Order  whether  in  or  outside  the  Republic,  the  Division  shall  issue  a  Compliance Warning.\n\n(2) Where a person other than a person licensed by the Authority fails to comply with a direction after three Compliance Warnings, the Division may:\n\n    - (a) issue a request a Removal of Account Request in accordance with section 69 of this Act; or\n\n    - (b) issue an Access Blocking Order in accordance with section 70 of this Act; or\n\n      - (c) impose an administrative penalty in accordance with section [] of this Act.\n\n(3) It is not a defence to under this section that:\n\n- (a) the  person  is  subject  to  a  duty  under  any  written  law,  any  rule  of  law,  any contract or any rule of professional conduct, that prevents the person from complying  with  any  part  of  a  Direction  or  restricts  the  person  in  such compliance; or\n\n            - (b) the person has appealed against the Direction.\n\n(4) A person licensed by the Authority who fails to comply with a Direction after three Compliance Warnings, is liable to pay to the  Division, an administrative penalty of one thousand penalty units and a further one hundred penalty units for each day the default continues.\n\n(5) A person licensed by the Authority that fails to comply with subsection (4) risks suspension or revocation of its licence.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "removal-of-account-request",
+      "section": 96,
+      "title": "Removal of Account Request",
+      "plainLanguage": "This section states that online platforms decide when to remove accounts based on their own rules. Courts can request account removal only if someone repeatedly ignores legal orders, but this doesn't apply to politicians or public figures. This aims to balance free speech with the need to enforce legal directives online.",
+      "rawText": "69. (1) Only internet intermediaries shall ultimately decide whether to remove an online account in accordance with their content moderation policies.\n\n(2) The Court or Division shall refrain from imposing duties on internet intermediaries to  proactively  monitor  online  content  or  intermediary  liability  regimes  that  incentivise overbroad censorship.\n\n(3)  Despite  subsection  (2)  and  (3),  the  Division  or  Court  may  issue  a  Removal  of Account  Request  of  an  online  account  on  a  foreign  or  Ghanaian  regulated  internet intermediary on an online location where the Division or Court has jurisdiction, and that person has deliberately failed to comply with a Direction or Order under this  Act after receiving three Compliance Warnings.\n\n(4) Without limiting the effect of subsection (3), the Division or Court shall not request for the removal of an account of a politician or known public or social commentator.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "access-blocking-order",
+      "section": 97,
+      "title": "Access Blocking Order",
+      "plainLanguage": "This provision allows courts to order internet service providers to block access to online content containing misinformation, disinformation, or hate speech that harms the Republic's international relations or reputation. Internet providers who ignore these orders after warnings will be fined. This aims to prevent the spread of harmful content online.",
+      "rawText": "70. (1) An Access Blocking Order shall be issued where:\n\n(\n\n            - a )  a person fails to comply with a Direction or Order; and\n\n(\n\n              - b )  the subject statement or material is being communicated in the Republic by the person on an online location except an internet intermediary; and\n\n            - (c) the misinformation or disinformation or hate speech is prejudicial to the friendly relations between the Republic and other countries; or\n\n            - (d) the  misinformation or disinformation unjustifiably projects the  Republic as a defaulter of international law; and\n\n            - (e) the Court or Division is satisfied that one or more end-users in the Republic have used or are using the services of an internet service provider licensed by the Authority to access that online location.\n\n(2)  The  Court  or  Division  may  direct  the  Authority  to  order  the  internet  service provider to take reasonable steps to disable access to the online location (called in this section an Access Blocking order).\n\n(3) An internet service provider that does not comply with any Access Blocking Order after three Compliance Warnings, is liable to pay to the Division, an administrative penalty",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "monetary-damages",
+      "section": 99,
+      "title": "Monetary damages",
+      "plainLanguage": "This section allows individuals or parties harmed by violations of the Act to seek financial compensation. Courts can award monetary damages when other remedies aren't enough, especially in cases involving false election information or the release of private or confidential details. The Minister has the authority to set the limits and types of monetary damages that can be awarded.",
+      "rawText": "71. (1) An aggrieved person or issuing party may seek monetary damages either alone or in addition to other remedies or sanctions under the Act.\n\n(2) The Court shall grant monetary damages where the extent of the damage caused by the  information  or  communication  cannot  be  effectively  remedied  only  by  the  other remedies or sanctions under the Act.\n\n(3)  Despite  subsection  (2),  monetary  damages  may  be  awarded  in  respect  of  the following:\n\n    - (a) false or inaccurate election information\n\n    - (b) public disclosure of private facts\n\n    - (c) publication of confidential information concerning the Republic\n\n(4) Monetary damages awarded under this section may be:\n\n    - (a) general\n\n    - (b) special\n\n    - (c) punitive\n\n(5) The Minister may prescribe the scope, extent and range of monetary damages for non-compliance or breach of conduct under the Act.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "suspension-or-revocation-of-licence",
+      "section": 100,
+      "title": "Suspension or revocation of licence",
+      "plainLanguage": "This provision allows the Authority to suspend or revoke a license if the license holder repeatedly ignores court orders or directions, even after receiving warnings and failing to pay associated penalties. This serves as a disciplinary measure to ensure licensees adhere to legal and regulatory requirements.",
+      "rawText": "72. (1) The Division may recommend to the Authority, the suspension or revocation of licence of person licensed by the Authority where:\n\n            - (a) that person fails to comply with a Direction or Order of the Court or Division after three Compliance Warnings and has not paid the administrative penalty;",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "cease-and-desist-order",
+      "section": 102,
+      "title": "Cease and Desist Order",
+      "plainLanguage": "This provision allows the Court to order someone to stop publishing false information. If the person ignores the order, they will face an immediate fine.",
+      "rawText": "73. (1) The Court or Division may issue a Cease and Desist order against a person who is engaged  or  is  deemed  to  be  engaged  in  the  business  of  publication  of  false  or  other information.\n\n(2) A person who fails to comply with a Cease and Desist order shall be subject to an administrative penalty without a Compliance Warning.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "compliance-warnings",
+      "section": 103,
+      "title": "Compliance Warnings",
+      "plainLanguage": "The Division will issue a Compliance Warning within a short timeframe if someone fails to follow a Direction or Order, or if they are found to be violating the Act. The warning directs the person to comply, and it expires upon compliance, further action by the Division, or if the Division deems it unnecessary. The person receiving the warning can respond to justify their actions.",
+      "rawText": "74. (1) The Division shall issue a Compliance Warning to a person for failure to comply with a Direction or Order within 5 working days of first issuance of the Direction or Order and in exceptional cases, 2 working days.\n\n(2) The Division may issue a Compliance Warning where upon its own investigations or by a Report, it comes to the notice of the Division that a person is contravening the Act.\n\n- The  Compliance  Warning  shall  direct  the  person  against  whom  it  is  issued  to comply with the directions stated therein.\n\n- A Compliance Warning shall expire:\n\n    - (a) upon the compliance by the person against whom it is issued; or\n\n            - (b) upon the taking of further action by the Division in respect of the matter; or\n\n            - (c) where the Division decides that it is no longer necessary.\n\n(5)  A  person  against  whom  a  Compliance  Warning  is  issued  may  respond  to  the Division and justify the basis of their action or omission.",
+      "relatedImpacts": [
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "administrative-penalty",
+      "section": 104,
+      "title": "Administrative penalty",
+      "plainLanguage": "This provision establishes that individuals or entities will be penalized if they fail to adhere to Compliance Warnings or Orders issued by the Division. This penalty applies unless another part of the Act states differently. The aim is to ensure that directives from the Division are followed.",
+      "rawText": "75. (1) Except otherwise provided in this Act, a person shall be subject to an administrative penalty for failing to comply with a Compliance Warning or an Order of the Division.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "criminal-penalty",
+      "section": 106,
+      "title": "Criminal penalty",
+      "plainLanguage": "This provision makes it a crime to spread false information that causes public harm, violence, or fear, if the information is about something that concerns the public. Those found guilty could face a fine, jail time, or both. Public harm includes things like loss of government funding, strikes, or reputational damage.",
+      "rawText": "76. (1) A person who communicates or publishes false information with malicious intent, knowing it to be false, or having reasonable belief in the falsity of the statement which causes public harm, violence, fear, unrest or public disturbance shall be liable to a criminal penalty, provided the information concerns or affects the public interest.\n\n(2) A  person  who  is  liable  under  subsection  (1)  commits  a  misdemeanour  shall  be subject to a fine not less than two hundred penalty units and not more than five hundred penalty units, or a term of imprisonment of not more than 1 month, or both.\n\n(3)  Information  causes  public  harm  if  on  the  evidence,  the  misinformation  or disinformation leads to:\n\n            - (a) loss of funding for the Government or public institution;\n\n      - (b) loss of human capital including strikes;\n\n            - (c) significant reputational damage;\n\n      - (d) law suits or sanctions on that public institution; or\n\n            - (e) inability for the Government or public institution to perform its function.\n\n(4) Information causes violence if on the evidence, the misinformation or disinformation  leads  to  intentional  or  unintentional  use  of  physical  force  or  power, threatened or actual, against another person that either results in or has a real likelihood in injury, death or psychological harm.\n\n- Information causes fear if on the evidence, the misinformation or disinformation:",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+      "section": 107,
+      "title": "MISINFORMATION, DISINFORMATION, HATE SPEECH AND PUBLICATION OF OTHER INFORMATION (MDHI) BILL, 2025",
+      "plainLanguage": "This bill defines misinformation and hate speech as content that causes anxiety, unrest, or public disturbance, including false information about threats, public institutions, or emergencies. It also criminalizes hate speech that incites violence and the publication of private or confidential information, with penalties including fines and imprisonment for those found guilty.",
+      "rawText": "- (b) causes anxiety about the threat to a person's life or their welfare; or\n\n          - (c) causes  anxiety  about  the  administration  and/or  management  of  a  public institution or;\n\n          - (d) signals danger about a violent or disruptive event which is not real or apparent; or\n\n          - (e) creates widespread danger about an unknown or uncertain situation.\n\n(6) Information causes unrest if on the evidence, the misinformation or disinformation when it leads to:\n\n    - (a) agitation or panic in the Republic; or\n\n    - (b) widescale protests outside or within the Republic related to or connected to the information; or\n\n    - (c) riot or unlawful assembly in the Republic; or\n\n            - (d) widespread public or private layoffs in the Republic; or\n\n    - (e) ethnic and religious division or conflict in the Republic;\n\n(7)  Information  causes  public  disturbance  if  on  the  evidence,  the  misinformation  or disinformation leads to:\n\n      - (a) widespread shock or mental distress in the Republic; or\n\n            - (b) widespread public uncertainty or confusion about a health risk or emergency alert in the Republic or that may affect the Republic; or\n\n      - (c) widespread anxiety about change in public policy in the Republic.\n\n(8) A person who is liable for hate speech that incites aggravated violence commits a second degree felony offence and is liable on conviction to a fine of not less than  five hundred  penalty  units  and  not  more  than  one  thousand  penalty  units  or  to  a  term  of imprisonment of not less than three months and not more than twelve months or to both.\n\n(9) A person commits a criminal offence under the Act where that person is liable for publication  of  private  facts  or  publication  of  confidential  information  concerning  the Republic and:\n\n            - (b) fails to comply with a Compliance Warning within 30 days of its first issuance.\n\n(10)  An  individual  who  commits a criminal  offence  under  subsection (9) commits a misdemeanour and is liable on summary conviction to a fine of not less than two hundred penalty units and not more than five hundred penalty units.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "offences-by-entities",
+      "section": 108,
+      "title": "Offences by Entities",
+      "plainLanguage": "This provision holds companies accountable for offenses committed by their employees or agents. It also makes officers or managers liable if they were involved in or failed to prevent the offense. This ensures that individuals within a company can be held responsible for illegal actions taken by the company.",
+      "rawText": "77. (1) Where, in a proceeding for an offence under this Act, it is necessary to prove the state  of  mind  of  an  entity  in  relation  to  a  particular  conduct,  evidence  that  an  officer, employee or agent of the entity engaged in that conduct within the  scope of the actual or apparent Division of the officer, employee or agent; and the officer, employee or agent had that state of mind, is evidence that the entity had that state of mind.\n\n(2) Where an entity commits an offence under this Act, a person who is an officer of the entity; or an individual involved in the management of the entity and in a position to influence the conduct of the entity in relation to the commission of the offence; and who:\n\n          - (a) consented to effect the commission of the offence;   is in any other way, whether by act or omission, knowingly concerned in, or is party to, the commission of the offence by the entity; or\n\n    - (b) knew or ought reasonably to have known that the offence by the corporation (or an offence of the same type would be or is being committed, and failed to take all reasonable steps to prevent or stop the commission of that offence,\n\ncommits the same offence as the entity, and shall be liable on conviction to be punished accordingly.\n\n(3) Nothing shall bar the prosecution of an employee or worker who is personally liable for the commission of an offence under this part but is neither an officer of the entity or in charge of the management of the entity or in a position to influence the conduct of the entity in relation to the commission of the offence.\n\n## Rules affecting stakeholders",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "internet-intermediaries",
+      "section": 109,
+      "title": "Internet intermediaries",
+      "plainLanguage": "This provision protects internet platforms from being held liable for content posted by users, as long as the platforms didn't create or alter the content. Platforms also don't have a legal obligation to actively check user content for illegal activity. This aims to balance freedom of expression with responsibility for illegal content online.",
+      "rawText": "78. (1) Internet intermediaries shall not be liable for third-party content in circumstances where they have not been involved in creating or modifying that content.\n\n(2)  Internet  intermediaries  shall  not  be  made  strictly  liable  for  hosting  third-party content which contravenes this Act.\n\n(3) Internet intermediaries shall not be required to evaluate the legality of third-party content or proactively monitor content.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "internet-intermediaries-regulated-in-ghana",
+      "section": 110,
+      "title": "Internet intermediaries regulated in Ghana",
+      "plainLanguage": "This law applies only to internet companies that are officially regulated in Ghana. These companies must ensure their content moderation policies align with this new law. This means international internet companies not regulated in Ghana are not directly subject to this law.",
+      "rawText": "79. (1) Notwithstanding that a Removal of Account Request may be issued to all internet intermediaries, only internet intermediaries regulated by the  Authority or other relevant authorities are amenable to this Act.\n\n(2) For the purpose of this Act, except as otherwise mentioned, internet intermediaries mean Ghanaian regulated internet intermediaries throughout this Act.\n\n(3) The content moderation policies of an internet intermediary shall not conflict with, or contravene any part of this Act.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "content-restriction",
+      "section": 111,
+      "title": "Content restriction",
+      "plainLanguage": "Internet intermediaries are only required to restrict content if a court has determined it's illegal and the original publisher hasn't complied with a court order. Any restrictions or penalties on intermediaries must be necessary and proportionate to their failure to comply with a valid order. Courts cannot force intermediaries to remove user accounts.",
+      "rawText": "80. (1) Internet intermediaries are not required to restrict content unless a Direction, Order or Compliance Warning has been issued by the Court or Division that has determined that the material contravenes this Act.\n\n(2) Except where the internet intermediary modified the content, a Direction, Order or Compliance Warning shall not be issued against an internet intermediary unless:\n\n- (a) the third-party who published the information or communication has failed to comply with a Direction, Order or a Compliance Warning; and\n\n- (b) the information or communication negatively impacts the Republic's diplomatic interests or friendly relations with other countries.\n\n(3) A Direction, Order or Compliance Warning issued against an internet intermediary to restrict its content must:\n\n    - (a) describe the content and provide a determination that the content is unlawful;\n\n    - (b) provide evidence sufficient to support the order; and\n\n    - (c) indicate the time period for which the content should be restricted\n\n(4) Any sanction imposed on an internet intermediary or any remedy required of an internet intermediary must be necessary and proportionate and directly correlated to the intermediary's wrongful behaviour in failing to appropriately comply with a Direction or Order or Compliance Order.\n\n(5) An internet intermediary who fails to comply with a Direction, Order or Compliance Warning to restrict content may be liable to:\n\n    - (a) monetary damages or\n\n(b) administrative penalty\n\n(6) Despite subsection (1), and subject to the content restriction policy of an internet intermediary, a person may flag illegal content or request content restriction on an internet intermediary.\n\n(7) No internet intermediary may be compelled by the Court or Division to remove the account of a third-party.\n\n(8) For the purpose of this section, content restriction means any act that leads to or has the effect of removing, pulling down, amending, limiting, blocking or regulating access to content or communication on mass media.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "algorithm-and-content-moderation",
+      "section": 112,
+      "title": "Algorithm and content moderation",
+      "plainLanguage": "This provision requires online media outlets and internet platforms to perform yearly human rights audits. These audits will assess how their algorithms, content moderation, and business practices affect human rights. Failure to comply will result in warnings and potential fines.",
+      "rawText": "81. (1) Media houses with online locations and internet intermediaries shall be required to carry  out  an  annual  human  rights  due  diligence  to  identify  and  address  human  rights impacts related to their operations, including risks and abuses linked to their algorithmic systems and content moderation or arising from their business model as a whole.\n\n(2) The Division shall issue a Compliance Warning for failure to comply with subsection (1) and upon further failure to comply, the internet intermediary shall be liable to pay to the  Division,  an  administrative  penalty  of  five  hundred  penalty  units  and  a  further  one hundred penalty units for each day the default continues.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "misinformation-and-disinformation-risk-assessment",
+      "section": 113,
+      "title": "Misinformation and disinformation risk assessment",
+      "plainLanguage": "This provision requires organizations like government ministries, media outlets, and internet companies to assess the risk of spreading misinformation through their services each year. Those that don't comply will first receive a warning, and internet intermediaries will face fines for continued failure to assess and mitigate these risks. This is meant to encourage proactive measures against the spread of false information.",
+      "rawText": "82. (1) All  Ministries,  public  institutions,  media  houses  and  internet  intermediaries  shall perform an annual misinformation and disinformation risk assessment and take corresponding risk mitigation measures stemming from the design and use of their service.\n\n(2)  The  Division  shall  issue  a  Compliance  Warning  for  failure  to  comply  with subsection (1) and upon further failure to comply, the internet intermediary shall be liable to pay to the Division, an administrative penalty of five hundred penalty units and a further one hundred penalty units for each day the default continues.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "fact-checking",
+      "section": 114,
+      "title": "Fact-checking",
+      "plainLanguage": "This provision requires media outlets, journalists, online platforms, content creators, and influencers to verify information before publishing it. Media houses and online platforms must create fact-checking departments. Licensed entities must comply with annual fact-checking and obtain certification.",
+      "rawText": "83. (1) Media houses, journalists, internet intermediaries, digital advertising intermediaries, content creators and persons of the status of celebrity or influencer shall be required to fact-check before publishing information.\n\n(2)  Media  houses  and  intermediaries  shall  set  up  fact-checking  desks  to  counter misinformation and disinformation.\n\n(3) Persons licensed by the Authority shall undertake annual fact-checking compliance with the Division and shall be issued fact-checking certification valid for the calendar year.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "training",
+      "section": 116,
+      "title": "Training",
+      "plainLanguage": "This section requires government ministries, media outlets, and internet companies to hold training sessions twice a year about publishing false information. Failing to provide this training will result in warnings, fines, and potential license renewal denial. This aims to ensure these entities are aware of and compliant with the law regarding the publication of false information.",
+      "rawText": "84. (1) All Ministries, and selected public institutions by Ministerial Directive, media houses and  internet  intermediaries  shall  be  required  to  provide  bi-annual  in-house  training  on publication of false and other information under the Act.\n\n(2)  The  Division  shall  issue  a  Compliance  Warning  for  failure  to  comply  with subsection (1) and upon further failure to comply, the entity shall be liable to pay to the Division, an administrative penalty of two hundred penalty units and a further one hundred penalty units for each day the default continues.\n\n(3) A person who is licensed by the Authority shall not be granted a renewal of licence if that person has failed to provide two years of bi-annual training, whether or not one of the two annual trainings was provided.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "paid-content",
+      "section": 117,
+      "title": "Paid content",
+      "plainLanguage": "This provision requires digital advertisers, celebrities/influencers, and content creators to make sure their paid advertisements follow the rules of this Act. If they don't, they'll first receive a warning, and then face a fine that increases daily until the content is compliant. This aims to ensure transparency and responsible advertising practices.",
+      "rawText": "85. (1) A digital advertising intermediary, persons of the status of celebrity or influencer, content creator must take reasonable steps to ensure that any paid content does not lead to non-compliance or breach of conduct under this Act.\n\n(2)  The  Division  shall  issue  a  Compliance  Warning  for  failure  to  comply  with subsection (1) and upon further failure to comply, the person shall be liable to pay to the Division, an administrative penalty of one hundred penalty units and a further one hundred penalty units for each day the default continues.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "national-security-interventions",
+      "section": 118,
+      "title": "National security interventions",
+      "plainLanguage": "The National Security Council and National Intelligence Bureau cannot arrest or detain individuals for violating this law. The Police Service can only get involved if someone is being criminally prosecuted under this law or to enforce a penalty. This ensures a separation of powers between national security and law enforcement.",
+      "rawText": "86. (1) Subject to the Security and Intelligence Agencies Act, the National Security Council and the National Intelligence Bureau shall not investigate, arrest or detain persons for noncompliance or breach of conduct under this Act.\n\n- The Police Service shall only intervene:\n\n    - (a) in the event of criminal prosecution under this Act and\n\n    - (b) where their presence necessary for the enforcement of a sanction under this Act.",
+      "relatedImpacts": [
+        "freedomOfSpeech"
+      ]
+    },
+    {
+      "id": "regulations",
+      "section": 120,
+      "title": "Regulations",
+      "plainLanguage": "This section allows the Minister to create regulations about internet companies and online content. These regulations can cover a range of topics, including content moderation, collaboration with other government agencies, and how the law will be put into action.",
+      "rawText": "- The Minister may, by legislative instrument, make Regulations:\n\n            - (a) on specific matters relating to internet intermediaries and content restriction;\n\n- (b) on specific measures related to algorithm and content moderation;\n\n- (c) to prescribe the procedure for collaboration with other public institutions;\n\n- (d) to prescribe matters related to administrative decision-making;\n\n- (e) on codes of practice;\n\n            - (f) generally, on matters for the effective implementation of the Act.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "privacy",
+        "business"
+      ]
+    },
+    {
+      "id": "repeals-amendments-and-savings",
+      "section": 121,
+      "title": "Repeals, amendments and savings",
+      "plainLanguage": "This section removes old laws and updates the Electronic Communication Act. It now makes it a crime to knowingly spread false information online that could put people in danger or interfere with emergency services, punishable by a fine.",
+      "rawText": "- (1) The following provisions are repealed:\n\n            - (a) Section 208(1) and (2) of the Criminal Offences Act;\n\n- (b) Section 74 of the Electronic Communications Act;\n\n- The Electronic Communication Act is amended in section 76 by the substitution for subsection (1), of:\n\n- '[a] person who by means of electronic communications service, knowingly sends a communication which constitutes misinformation or disinformation under the Misinformation, Disinformation, Hate Speech and Publication of Other Information Act which is likely to prejudice the efficiency of life saving service or to endanger the safety of any person, ship, aircraft, vessel or vehicle commits an offence and is liable on summary conviction to a fine of not more than three thousand penalty units.'.",
+      "relatedImpacts": [
+        "innovation",
+        "freedomOfSpeech",
+        "business"
+      ]
+    },
+    {
+      "id": "transitional-provisions",
+      "section": 122,
+      "title": "Transitional provisions",
+      "plainLanguage": "This provision ends all ongoing criminal prosecutions related to specific sections of the Criminal Offences Act and the Electronic Communications Act once this new Act is implemented. Individuals currently facing charges under those sections will no longer be prosecuted.",
+      "rawText": "- (1) All criminal prosecutions in respect of section 208 of the Criminal Offences Act and section 74 of the Electronic Communications Act shall cease upon the coming into force of this Act.",
+      "relatedImpacts": []
+    }
+  ],
+  "notebookLMVideo": {
+    "url": "",
+    "duration": "10:00"
+  },
+  "deadline": "2025-12-31",
+  "submissionMethod": "Email to clerk@parliament.gov.gh",
+  "relatedBills": []
+}
