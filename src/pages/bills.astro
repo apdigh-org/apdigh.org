@@ -60,6 +60,7 @@ function renderSummary(summary: string, maxLength: number = 300): string {
             <div class="relative">
               <i class="ti ti-search absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"></i>
               <input
+                id="bill-search"
                 type="text"
                 placeholder="Search bills..."
                 class="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-lg focus:border-[var(--color-primary)] focus:outline-none"
@@ -80,9 +81,13 @@ function renderSummary(summary: string, maxLength: number = 300): string {
     <!-- Bills Grid -->
     <section class="py-12 md:py-16 bg-white">
       <div class="container">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div id="bills-grid" class="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {bills.map((bill) => (
-            <article class="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-[var(--color-primary)] hover:shadow-lg transition-all duration-300 flex flex-col">
+            <article
+              class="bill-card bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-[var(--color-primary)] hover:shadow-lg transition-all duration-300 flex flex-col"
+              data-title={bill.title.toLowerCase()}
+              data-summary={bill.summary.toLowerCase()}
+            >
               <!-- Title -->
               <h2 class="text-2xl font-bold text-black mb-3 hover:text-[var(--color-primary)] transition-colors">
                 <a href={`/bills/${bill.id}`}>{bill.title}</a>
@@ -105,12 +110,12 @@ function renderSummary(summary: string, maxLength: number = 300): string {
           ))}
         </div>
 
-        <!-- Empty State (shown when no bills) -->
-        <!-- <div class="text-center py-16">
+        <!-- Empty State (shown when no search results) -->
+        <div id="empty-state" class="hidden text-center py-16">
           <i class="ti ti-file-search text-6xl text-gray-300 mb-4"></i>
           <h3 class="text-2xl font-bold text-gray-900 mb-2">No bills found</h3>
-          <p class="text-gray-600">Try adjusting your filters or search terms</p>
-        </div> -->
+          <p class="text-gray-600">Try adjusting your search terms</p>
+        </div>
       </div>
     </section>
 
@@ -133,3 +138,75 @@ function renderSummary(summary: string, maxLength: number = 300): string {
 
   <Footer />
 </BaseLayout>
+
+<script>
+  // Search functionality
+  const searchInput = document.getElementById('bill-search') as HTMLInputElement;
+  const billCards = document.querySelectorAll('.bill-card');
+  const emptyState = document.getElementById('empty-state');
+  const billsGrid = document.getElementById('bills-grid');
+
+  let debounceTimer: number;
+
+  function filterBills(searchTerm: string) {
+    const query = searchTerm.toLowerCase().trim();
+    let visibleCount = 0;
+
+    // Convert NodeList to array and sort by relevance
+    const cardsArray = Array.from(billCards);
+
+    // Score each card
+    const scoredCards = cardsArray.map((card) => {
+      const title = card.getAttribute('data-title') || '';
+      const summary = card.getAttribute('data-summary') || '';
+
+      let score = 0;
+
+      if (query === '') {
+        score = 1; // Show all when no query
+      } else {
+        // Title match is worth more (score 2)
+        if (title.includes(query)) {
+          score += 2;
+        }
+        // Summary match is worth less (score 1)
+        if (summary.includes(query)) {
+          score += 1;
+        }
+      }
+
+      return { card, score };
+    });
+
+    // Sort by score descending (title matches first)
+    scoredCards.sort((a, b) => b.score - a.score);
+
+    // Show/hide based on score and reorder
+    scoredCards.forEach(({ card, score }, index) => {
+      if (score > 0) {
+        (card as HTMLElement).style.display = '';
+        (card as HTMLElement).style.order = index.toString();
+        visibleCount++;
+      } else {
+        (card as HTMLElement).style.display = 'none';
+      }
+    });
+
+    // Show/hide empty state
+    if (visibleCount === 0 && query !== '') {
+      billsGrid?.classList.add('hidden');
+      emptyState?.classList.remove('hidden');
+    } else {
+      billsGrid?.classList.remove('hidden');
+      emptyState?.classList.add('hidden');
+    }
+  }
+
+  // Debounced search
+  searchInput?.addEventListener('input', (e) => {
+    clearTimeout(debounceTimer);
+    debounceTimer = window.setTimeout(() => {
+      filterBills((e.target as HTMLInputElement).value);
+    }, 300);
+  });
+</script>

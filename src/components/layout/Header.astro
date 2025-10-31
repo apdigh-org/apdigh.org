@@ -120,21 +120,23 @@ const currentPath = Astro.url.pathname;
     }
   });
 
-  // Search triggers (placeholder for future search functionality)
+  // Search triggers
   const searchTriggers = document.querySelectorAll('[data-search-trigger]');
   searchTriggers.forEach(trigger => {
     trigger.addEventListener('click', () => {
-      console.log('Search triggered - will implement later');
-      // TODO: Implement search modal
+      if ((window as any).openSearchModal) {
+        (window as any).openSearchModal();
+      }
     });
   });
 
-  // Keyboard shortcut for search
+  // Keyboard shortcut for search (⌘K or Ctrl+K)
   document.addEventListener('keydown', (e) => {
     if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
       e.preventDefault();
-      console.log('Search shortcut triggered');
-      // TODO: Open search modal
+      if ((window as any).openSearchModal) {
+        (window as any).openSearchModal();
+      }
     }
   });
 </script>

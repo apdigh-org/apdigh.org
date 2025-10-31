@@ -1,0 +1,382 @@
+---
+// Global search modal component
+---
+
+<div id="search-modal" class="hidden fixed inset-0 z-[100] bg-black/60 backdrop-blur-sm">
+  <div class="flex items-start justify-center min-h-screen px-4 pt-16 pb-20">
+    <div class="relative w-full max-w-3xl bg-white rounded-2xl shadow-2xl overflow-hidden">
+      <!-- Search Input -->
+      <div class="relative border-b-2 border-gray-200">
+        <svg class="absolute left-6 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" viewBox="0 0 20 20" fill="none">
+          <circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="2"/>
+          <path d="M14 14L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <input
+          id="global-search-input"
+          type="text"
+          placeholder="Search across all bills..."
+          class="w-full pl-14 pr-16 py-5 text-lg border-none focus:outline-none"
+          autocomplete="off"
+        />
+        <button
+          id="close-search"
+          class="absolute right-4 top-1/2 -translate-y-1/2 px-3 py-1.5 text-sm text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 transition-colors"
+        >
+          ESC
+        </button>
+      </div>
+
+      <!-- Search Results -->
+      <div id="search-results" class="max-h-[60vh] overflow-y-auto">
+        <!-- Loading State -->
+        <div id="search-loading" class="hidden p-8 text-center">
+          <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-gray-200 border-t-[var(--color-primary)]"></div>
+          <p class="mt-4 text-gray-600">Searching...</p>
+        </div>
+
+        <!-- Empty State (initial) -->
+        <div id="search-empty" class="p-12 text-center text-gray-500">
+          <svg class="mx-auto w-16 h-16 text-gray-300 mb-4" viewBox="0 0 20 20" fill="none">
+            <circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="2"/>
+            <path d="M14 14L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <p class="text-lg font-medium mb-2">Search across all bills</p>
+          <p class="text-sm">Find bills, provisions, concerns, and impact analyses</p>
+        </div>
+
+        <!-- No Results -->
+        <div id="search-no-results" class="hidden p-12 text-center text-gray-500">
+          <svg class="mx-auto w-16 h-16 text-gray-300 mb-4" viewBox="0 0 20 20" fill="none">
+            <circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="2"/>
+            <path d="M14 14L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <p class="text-lg font-medium mb-2">No results found</p>
+          <p class="text-sm">Try different keywords or check your spelling</p>
+        </div>
+
+        <!-- Results List -->
+        <div id="search-results-list" class="divide-y divide-gray-100"></div>
+      </div>
+
+      <!-- Footer -->
+      <div class="border-t-2 border-gray-200 px-6 py-3 bg-gray-50 flex items-center justify-between text-sm text-gray-600">
+        <div class="flex items-center gap-4">
+          <div class="flex items-center gap-2">
+            <kbd class="px-2 py-1 bg-white border border-gray-300 rounded text-xs font-mono">↑↓</kbd>
+            <span>Navigate</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <kbd class="px-2 py-1 bg-white border border-gray-300 rounded text-xs font-mono">↵</kbd>
+            <span>Select</span>
+          </div>
+        </div>
+        <div class="flex items-center gap-2">
+          <kbd class="px-2 py-1 bg-white border border-gray-300 rounded text-xs font-mono">ESC</kbd>
+          <span>Close</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  import type { Bill } from '../types/bill';
+
+  // Modal elements
+  const modal = document.getElementById('search-modal');
+  const searchInput = document.getElementById('global-search-input') as HTMLInputElement;
+  const resultsContainer = document.getElementById('search-results-list');
+  const emptyState = document.getElementById('search-empty');
+  const noResults = document.getElementById('search-no-results');
+  const loading = document.getElementById('search-loading');
+  const closeBtn = document.getElementById('close-search');
+
+  let bills: Bill[] = [];
+  let selectedIndex = -1;
+  let debounceTimer: number;
+
+  // Load bills data
+  async function loadBills() {
+    try {
+      const response = await fetch('/api/bills.json');
+      if (response.ok) {
+        bills = await response.json();
+      }
+    } catch (error) {
+      console.error('Failed to load bills:', error);
+    }
+  }
+
+  // Open modal
+  function openModal() {
+    modal?.classList.remove('hidden');
+    searchInput?.focus();
+    if (bills.length === 0) {
+      loadBills();
+    }
+  }
+
+  // Close modal
+  function closeModal() {
+    modal?.classList.add('hidden');
+    if (searchInput) searchInput.value = '';
+    if (resultsContainer) resultsContainer.innerHTML = '';
+    emptyState?.classList.remove('hidden');
+    noResults?.classList.add('hidden');
+    selectedIndex = -1;
+  }
+
+  // Search function
+  function search(query: string) {
+    const searchTerm = query.toLowerCase().trim();
+
+    if (!searchTerm) {
+      if (resultsContainer) resultsContainer.innerHTML = '';
+      emptyState?.classList.remove('hidden');
+      noResults?.classList.add('hidden');
+      return;
+    }
+
+    emptyState?.classList.add('hidden');
+
+    interface SearchResult {
+      bill: Bill;
+      score: number;
+      matchType: 'title' | 'summary' | 'concern' | 'provision';
+      matchText: string;
+    }
+
+    const results: SearchResult[] = [];
+
+    bills.forEach(bill => {
+      // Search in title (highest priority)
+      if (bill.title.toLowerCase().includes(searchTerm)) {
+        results.push({
+          bill,
+          score: 10,
+          matchType: 'title',
+          matchText: bill.title
+        });
+      }
+
+      // Search in summary
+      if (bill.summary.toLowerCase().includes(searchTerm)) {
+        results.push({
+          bill,
+          score: 5,
+          matchType: 'summary',
+          matchText: extractSnippet(bill.summary, searchTerm)
+        });
+      }
+
+      // Search in key concerns
+      bill.keyConcerns?.forEach(concern => {
+        if (concern.title.toLowerCase().includes(searchTerm) ||
+            concern.description.toLowerCase().includes(searchTerm)) {
+          results.push({
+            bill,
+            score: 7,
+            matchType: 'concern',
+            matchText: concern.title
+          });
+        }
+      });
+
+      // Search in provisions
+      bill.provisions?.forEach(provision => {
+        if (provision.title.toLowerCase().includes(searchTerm) ||
+            provision.plainLanguage.toLowerCase().includes(searchTerm)) {
+          results.push({
+            bill,
+            score: 3,
+            matchType: 'provision',
+            matchText: provision.title
+          });
+        }
+      });
+    });
+
+    // Sort by score (title matches first)
+    results.sort((a, b) => b.score - a.score);
+
+    // Remove duplicates (keep highest scoring match per bill)
+    const uniqueResults: SearchResult[] = [];
+    const seenBills = new Set<string>();
+    results.forEach(result => {
+      if (!seenBills.has(result.bill.id)) {
+        uniqueResults.push(result);
+        seenBills.add(result.bill.id);
+      }
+    });
+
+    // Display results
+    if (uniqueResults.length === 0) {
+      if (resultsContainer) resultsContainer.innerHTML = '';
+      noResults?.classList.remove('hidden');
+    } else {
+      noResults?.classList.add('hidden');
+      renderResults(uniqueResults);
+    }
+  }
+
+  // Extract snippet with context
+  function extractSnippet(text: string, query: string, contextLength = 100): string {
+    const lowerText = text.toLowerCase();
+    const lowerQuery = query.toLowerCase();
+    const index = lowerText.indexOf(lowerQuery);
+
+    if (index === -1) return text.substring(0, contextLength) + '...';
+
+    const start = Math.max(0, index - contextLength / 2);
+    const end = Math.min(text.length, index + query.length + contextLength / 2);
+
+    let snippet = text.substring(start, end);
+    if (start > 0) snippet = '...' + snippet;
+    if (end < text.length) snippet = snippet + '...';
+
+    return snippet;
+  }
+
+  // Highlight matching text
+  function highlightMatch(text: string, query: string): string {
+    const regex = new RegExp(`(${query})`, 'gi');
+    return text.replace(regex, '<mark class="bg-yellow-200 text-gray-900">$1</mark>');
+  }
+
+  // Render results
+  function renderResults(results: Array<{ bill: Bill; matchType: string; matchText: string }>) {
+    if (!resultsContainer) return;
+
+    resultsContainer.innerHTML = results.map((result, index) => {
+      const matchTypeLabel = {
+        'title': 'Bill',
+        'summary': 'Summary',
+        'concern': 'Key Concern',
+        'provision': 'Provision'
+      }[result.matchType] || 'Match';
+
+      const query = searchInput?.value || '';
+      const highlightedTitle = highlightMatch(result.bill.title, query);
+      const highlightedMatch = highlightMatch(result.matchText, query);
+
+      return `
+        <a
+          href="/bills/${result.bill.id}"
+          class="search-result block p-4 hover:bg-gray-50 transition-colors ${index === selectedIndex ? 'bg-gray-100' : ''}"
+          data-index="${index}"
+        >
+          <div class="flex items-start gap-3">
+            <div class="flex-shrink-0 mt-1">
+              <svg class="w-5 h-5 text-[var(--color-primary)]" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V4z"/>
+              </svg>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="text-xs font-medium text-[var(--color-primary)] bg-[var(--color-primary)]/10 px-2 py-0.5 rounded">
+                  ${matchTypeLabel}
+                </span>
+              </div>
+              <h3 class="text-base font-semibold text-gray-900 mb-1">${highlightedTitle}</h3>
+              ${result.matchType !== 'title' ? `
+                <p class="text-sm text-gray-600 line-clamp-2">${highlightedMatch}</p>
+              ` : ''}
+            </div>
+            <div class="flex-shrink-0">
+              <svg class="w-5 h-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+              </svg>
+            </div>
+          </div>
+        </a>
+      `;
+    }).join('');
+
+    // Add click handlers
+    const resultElements = resultsContainer.querySelectorAll('.search-result');
+    resultElements.forEach((el) => {
+      el.addEventListener('mouseenter', () => {
+        selectedIndex = parseInt((el as HTMLElement).dataset.index || '-1');
+        updateSelectedResult();
+      });
+    });
+  }
+
+  // Update selected result highlighting
+  function updateSelectedResult() {
+    const results = resultsContainer?.querySelectorAll('.search-result');
+    results?.forEach((el, index) => {
+      if (index === selectedIndex) {
+        el.classList.add('bg-gray-100');
+      } else {
+        el.classList.remove('bg-gray-100');
+      }
+    });
+  }
+
+  // Keyboard navigation
+  function navigateResults(direction: 'up' | 'down') {
+    const resultsCount = resultsContainer?.children.length || 0;
+    if (resultsCount === 0) return;
+
+    if (direction === 'down') {
+      selectedIndex = Math.min(selectedIndex + 1, resultsCount - 1);
+    } else {
+      selectedIndex = Math.max(selectedIndex - 1, 0);
+    }
+
+    updateSelectedResult();
+
+    // Scroll into view
+    const selectedElement = resultsContainer?.children[selectedIndex] as HTMLElement;
+    selectedElement?.scrollIntoView({ block: 'nearest' });
+  }
+
+  // Select result
+  function selectResult() {
+    if (selectedIndex === -1) return;
+    const selectedElement = resultsContainer?.children[selectedIndex] as HTMLAnchorElement;
+    if (selectedElement) {
+      window.location.href = selectedElement.href;
+    }
+  }
+
+  // Event listeners
+  closeBtn?.addEventListener('click', closeModal);
+
+  modal?.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+  });
+
+  searchInput?.addEventListener('input', (e) => {
+    clearTimeout(debounceTimer);
+    debounceTimer = window.setTimeout(() => {
+      search((e.target as HTMLInputElement).value);
+    }, 300);
+  });
+
+  document.addEventListener('keydown', (e) => {
+    // Close on ESC
+    if (e.key === 'Escape' && !modal?.classList.contains('hidden')) {
+      e.preventDefault();
+      closeModal();
+    }
+
+    // Navigate results
+    if (!modal?.classList.contains('hidden')) {
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        navigateResults('down');
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        navigateResults('up');
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        selectResult();
+      }
+    }
+  });
+
+  // Expose openModal function globally
+  (window as any).openSearchModal = openModal;
+</script>

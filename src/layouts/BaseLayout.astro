@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import type { SEOProps } from '../utils/seo';
+import SearchModal from '../components/SearchModal.astro';
 
 export interface Props extends SEOProps {
   class?: string;
@@ -70,5 +71,8 @@ const currentURL = canonicalURL || Astro.url.pathname;
     <div id="app" class="min-h-screen flex flex-col">
       <slot />
     </div>
+
+    <!-- Global Search Modal -->
+    <SearchModal />
   </body>
 </html>
