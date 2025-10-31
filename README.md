@@ -1,43 +1,165 @@
-# Astro Starter Kit: Minimal
+# APDI Ghana - Association for the Protection of Digital Innovation
 
-```sh
-npm create astro@latest -- --template minimal
+AI-powered analysis of Ghana's digital rights legislation, making complex legal language accessible to citizens, technologists, and policymakers.
+
+## About
+
+Ghana is undertaking a comprehensive reform of its digital rights framework through 14+ legislative bills. These bills will fundamentally shape the country's digital future, affecting everything from freedom of speech to data privacy, business innovation to cybersecurity.
+
+APDI Ghana bridges the gap between complex legal language and public understanding by providing AI-powered analysis that explains what these bills really mean and how they might affect you.
+
+**Live Site:** [https://apdi.org.gh](https://apdi.org.gh)
+
+## Features
+
+- **AI-Powered Analysis**: Multi-model AI pipeline using Google Gemini 2.0 Flash and Anthropic Claude 4.5 series
+- **Multi-Perspective Impact Analysis**: Analyzes bills across Digital Innovation, Freedom of Speech, Privacy & Data Rights, and Business Environment
+- **Plain Language Summaries**: Complex legal text translated into accessible explanations
+- **Color-Coded Severity Ratings**: Visual indicators for impact severity (severe, high, medium, low, neutral, positive)
+- **Interactive Bill Explorer**: Search, filter, and navigate through legislation with linked provisions
+- **PDF Access**: Download original bill documents for verification
+- **Open Source & Auditable**: Full transparency in analysis methodology
+
+## Tech Stack
+
+### Frontend
+- **Astro**: Static site generator for optimal performance
+- **TypeScript**: Type-safe development
+- **Tailwind CSS**: Utility-first styling
+- **Tabler Icons**: Consistent iconography
+
+### Analysis Pipeline
+- **Docling**: IBM's PDF processing tool for extracting bill structure
+- **DSPy**: Framework for AI model orchestration
+- **Google Gemini 2.0 Flash**: Fast categorization and summarization
+- **Anthropic Claude Haiku 4.5**: Quick impact assessment
+- **Anthropic Claude Sonnet 4.5**: Deep analysis and key concerns
+
+## Project Structure
+
 ```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
+apdigh/
+├── pipeline/                 # AI analysis pipeline
+│   ├── pdfs/                # Source bill PDFs
+│   ├── output/              # Processed JSON outputs
+│   ├── scripts/             # Python processing scripts
+│   │   ├── 1_extract_text.py
+│   │   ├── 2_docling_to_json.py
+│   │   ├── 3_categorize.py
+│   │   ├── 4_summarize.py
+│   │   ├── 5_assess_provisions.py
+│   │   ├── 6_assess_impact.py
+│   │   ├── 7_generate_impact_analysis.py
+│   │   ├── 8_generate_key_concerns.py
+│   │   ├── 9_enrich_metadata.py
+│   │   └── 10_transform_for_web.py
+│   └── process_bill.sh      # Main processing script
+│
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── components/          # Reusable UI components
+│   │   └── layout/         # Header, Footer, etc.
+│   ├── constants/          # Site configuration
+│   ├── data/               # Bill data (generated from pipeline)
+│   │   └── bills/
+│   ├── layouts/            # Page layouts
+│   └── pages/              # Astro pages
+│       ├── index.astro     # Homepage
+│       ├── about.astro     # About page
+│       ├── bills.astro     # Bills listing
+│       └── bills/[id].astro # Bill detail page
+│
+├── public/                  # Static assets
+│   └── pdfs/               # Bill PDFs (gitignored)
+│
+└── dist/                    # Build output (gitignored)
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Getting Started
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### Prerequisites
+- Node.js 18+ and npm
+- Python 3.11+
+- API keys for Google Gemini and Anthropic Claude
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Installation
 
-## 🧞 Commands
+1. Clone the repository:
+```bash
+git clone https://github.com/apdigh-org/apdigh.org.git
+cd apdigh
+```
 
-All commands are run from the root of the project, from a terminal:
+2. Install dependencies:
+```bash
+npm install
+```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+3. Set up environment variables for the pipeline:
+```bash
+cd pipeline
+cp .env.example .env
+# Add your API keys to .env
+```
 
-## 👀 Want to learn more?
+4. Run the development server:
+```bash
+npm run dev
+```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+The site will be available at `http://localhost:4321`
+
+## Processing Bills
+
+To process a new bill through the AI analysis pipeline:
+
+1. Place the bill PDF in `pipeline/pdfs/`
+2. Run the processing script:
+```bash
+cd pipeline
+./process_bill.sh path/to/bill.pdf
+```
+
+3. The processed bill data will be saved to:
+   - `pipeline/output/` (JSON with full analysis)
+   - `src/data/bills/` (web-optimized JSON)
+   - `public/pdfs/` (copy of original PDF)
+
+## Commands
+
+| Command | Action |
+| :--- | :--- |
+| `npm install` | Install dependencies |
+| `npm run dev` | Start dev server at `localhost:4321` |
+| `npm run build` | Build production site to `./dist/` |
+| `npm run preview` | Preview build locally |
+| `npm run astro ...` | Run Astro CLI commands |
+
+## Contributing
+
+We welcome contributions! Please see our [contribution guidelines](CONTRIBUTING.md) for details.
+
+## Transparency & Limitations
+
+All analysis on this site is generated by AI models (Google Gemini 2.0 Flash and Anthropic Claude 4.5 series). While these are state-of-the-art systems, they can make mistakes, miss nuances, or misinterpret provisions.
+
+**This analysis is for informational and educational purposes only. It does not constitute legal advice.**
+
+We strongly encourage users to:
+- Download and read the original bills
+- Verify our analysis against the source text
+- Form your own opinions
+- Engage with legal experts and policymakers
+
+## License
+
+[License information to be added]
+
+## Contact
+
+- **Email**: contact@apdi.org.gh
+- **Twitter**: [@apdi_ghana](https://twitter.com/apdi_ghana)
+- **Facebook**: [apdi.ghana](https://facebook.com/apdi.ghana)
+
+---
+
+Built with [Astro](https://astro.build) and AI-powered analysis to protect Ghana's digital future.
