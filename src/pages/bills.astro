@@ -4,9 +4,21 @@ import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
 import { SITE } from '../constants/site';
 import { getAllBills } from '../utils/bills';
+import { marked } from 'marked';
 
 // Load all bills from JSON files
 const bills = await getAllBills();
+
+// Helper function to trim summary and render markdown
+function renderSummary(summary: string, maxLength: number = 300): string {
+  // Trim to max length
+  let trimmed = summary.length > maxLength
+    ? summary.substring(0, maxLength).trim() + '...'
+    : summary;
+
+  // Parse markdown to HTML
+  return marked.parseInline(trimmed);
+}
 ---
 
 <BaseLayout
@@ -60,15 +72,6 @@ const bills = await getAllBills();
             <button class="px-4 py-2 bg-[var(--color-primary)] text-white rounded-lg font-medium hover:bg-[#1E5A5A] transition-colors">
               All Bills
             </button>
-            <button class="px-4 py-2 bg-white text-gray-700 border-2 border-gray-200 rounded-lg font-medium hover:border-[var(--color-primary)] hover:text-[var(--color-primary)] transition-colors">
-              Urgent
-            </button>
-            <button class="px-4 py-2 bg-white text-gray-700 border-2 border-gray-200 rounded-lg font-medium hover:border-[var(--color-primary)] hover:text-[var(--color-primary)] transition-colors">
-              In Committee
-            </button>
-            <button class="px-4 py-2 bg-white text-gray-700 border-2 border-gray-200 rounded-lg font-medium hover:border-[var(--color-primary)] hover:text-[var(--color-primary)] transition-colors">
-              Tech Impact
-            </button>
           </div>
         </div>
       </div>
@@ -80,48 +83,23 @@ const bills = await getAllBills();
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {bills.map((bill) => (
             <article class="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-[var(--color-primary)] hover:shadow-lg transition-all duration-300 flex flex-col">
-              <!-- Status Badge -->
-              <div class="flex items-center gap-2 mb-4">
-                <span class="px-3 py-1 bg-red-100 text-red-700 text-xs font-semibold rounded-full uppercase">
-                  Urgent
-                </span>
-                <span class="px-3 py-1 bg-blue-100 text-blue-700 text-xs font-semibold rounded-full capitalize">
-                  {bill.status}
-                </span>
-              </div>
-
               <!-- Title -->
               <h2 class="text-2xl font-bold text-black mb-3 hover:text-[var(--color-primary)] transition-colors">
                 <a href={`/bills/${bill.id}`}>{bill.title}</a>
               </h2>
 
               <!-- Summary -->
-              <p class="text-gray-900 font-medium leading-relaxed mb-4 flex-grow">
-                {bill.summary}
-              </p>
-
-              <!-- Categories -->
-              <div class="flex flex-wrap gap-2 mb-4">
-                {bill.categories.map((category) => (
-                  <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-lg">
-                    {category}
-                  </span>
-                ))}
-              </div>
+              <div class="text-gray-900 font-medium leading-relaxed mb-4 flex-grow prose prose-sm max-w-none" set:html={renderSummary(bill.summary)} />
 
               <!-- Actions -->
-              <div class="flex flex-wrap gap-3 pt-4 border-t border-gray-200">
+              <div class="pt-4 border-t border-gray-200">
                 <a
                   href={`/bills/${bill.id}`}
-                  class="inline-flex items-center gap-2 px-4 py-2 bg-[var(--color-primary)] text-white font-semibold rounded-lg hover:bg-[#1E5A5A] transition-colors"
+                  class="w-full inline-flex items-center justify-center gap-2 px-4 py-3 bg-[var(--color-primary)] text-white font-semibold rounded-lg hover:bg-[#1E5A5A] transition-colors"
                 >
                   <i class="ti ti-file-text"></i>
                   Read Analysis
                 </a>
-                <button class="inline-flex items-center gap-2 px-4 py-2 bg-white text-[var(--color-primary)] border-2 border-[var(--color-primary)] font-semibold rounded-lg hover:bg-[var(--color-primary)] hover:text-white transition-colors">
-                  <i class="ti ti-speakerphone"></i>
-                  Take Action
-                </button>
               </div>
             </article>
           ))}
