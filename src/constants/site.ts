@@ -32,28 +32,19 @@ export const SITE = {
 export const NAV_ITEMS = [
   { href: '/', label: 'Home' },
   { href: '/bills', label: 'Bills' },
-  { href: '/timeline', label: 'Timeline' },
-  { href: '/dashboard', label: 'Dashboard' },
   { href: '/about', label: 'About' },
 ] as const;
 
 export const FOOTER_LINKS = {
   quickLinks: [
-    { href: '/', label: 'All Bills' },
-    { href: '/timeline', label: 'Timeline' },
-    { href: '/dashboard', label: 'Dashboard' },
+    { href: '/bills', label: 'All Bills' },
     { href: '/about', label: 'About Us' },
-    { href: '/glossary', label: 'Glossary' },
   ],
   resources: [
-    { href: '/how-to-comment', label: 'How to Submit Comments' },
-    { href: '/find-mp', label: 'Find Your MP' },
-    { href: '/partners', label: 'Partner Organizations' },
-    { href: '/faq', label: 'FAQ' },
+    { href: 'https://github.com/apdigh-org/apdigh.org', label: 'GitHub Repository', external: true },
   ],
   legal: [
-    { href: '/privacy', label: 'Privacy Policy' },
-    { href: '/terms', label: 'Terms of Use' },
+    { href: '/about#transparency', label: 'AI Transparency' },
   ],
 } as const;
 

@@ -19,6 +19,22 @@ export async function getStaticPaths() {
 
 const { bill } = Astro.props;
 
+// Generate SEO-friendly description from summary (strip markdown, limit length)
+function generateMetaDescription(summary: string): string {
+  // Remove markdown syntax
+  const plainText = summary
+    .replace(/[*_~`#]/g, '')  // Remove markdown formatting
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')  // Convert links to plain text
+    .replace(/\n+/g, ' ')  // Replace newlines with spaces
+    .trim();
+
+  // Limit to 155 characters for optimal SEO
+  if (plainText.length <= 155) return plainText;
+  return plainText.substring(0, 152).trim() + '...';
+}
+
+const metaDescription = generateMetaDescription(bill.summary);
+
 // Helper to truncate text at word boundary
 function truncateText(text: string, maxLength: number): { truncated: string, isTruncated: boolean } {
   if (text.length <= maxLength) {
@@ -196,9 +212,35 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
 ---
 
 <BaseLayout
-  title={`${bill.title} - ${SITE.name}`}
-  description={bill.summary}
+  title={`${bill.title} | Impact Analysis & Key Concerns`}
+  description={metaDescription}
+  ogType="article"
+  canonicalURL={`https://apdighana.org/bills/${bill.id}`}
 >
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": bill.title,
+    "description": metaDescription,
+    "author": {
+      "@type": "Organization",
+      "name": "Africa Policy & Digital Integrity Group (APDI Ghana)"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "APDI Ghana",
+      "url": "https://apdighana.org"
+    },
+    "about": {
+      "@type": "LegislativeProposal",
+      "name": bill.title,
+      "description": metaDescription
+    },
+    "keywords": "Ghana legislation, tech policy, digital rights, bill analysis, " + bill.title,
+    "inLanguage": "en"
+  })} />
+
   <Header />
 
   <main id="main-content" class="flex-1 text-gray-900">
@@ -615,16 +657,21 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
                 </div>
 
                 <div class="flex flex-wrap gap-4">
-                  <button class="inline-flex items-center gap-2 px-6 py-3 bg-white text-[var(--color-primary)] font-semibold rounded-lg hover:bg-gray-100 transition-colors">
-                    <i class="ti ti-template"></i>
-                    Use Submission Template
-                  </button>
                   <a
-                    href="/find-mp"
+                    href="/bills"
+                    class="inline-flex items-center gap-2 px-6 py-3 bg-white text-[var(--color-primary)] font-semibold rounded-lg hover:bg-gray-100 transition-colors"
+                  >
+                    <i class="ti ti-file-text"></i>
+                    View All Bills
+                  </a>
+                  <a
+                    href="https://github.com/apdigh-org/apdigh.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     class="inline-flex items-center gap-2 px-6 py-3 bg-white/20 backdrop-blur-sm text-white border-2 border-white font-semibold rounded-lg hover:bg-white/30 transition-colors"
                   >
-                    <i class="ti ti-user-search"></i>
-                    Find Your MP
+                    <i class="ti ti-brand-github"></i>
+                    View on GitHub
                   </a>
                 </div>
               </div>

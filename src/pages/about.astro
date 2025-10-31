@@ -1,0 +1,294 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import { SITE } from '../constants/site';
+---
+
+<BaseLayout
+  title={`About - ${SITE.name}`}
+  description="Learn about how we analyze Ghana's digital rights bills using AI-powered analysis and open-source transparency."
+>
+  <Header />
+
+  <main id="main-content" class="flex-1">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-b from-white to-gray-50 py-12 md:py-16 border-b border-gray-200">
+      <div class="container">
+        <div class="max-w-4xl mx-auto text-center">
+          <h1 class="text-4xl md:text-5xl font-bold text-black mb-6">
+            About {SITE.name}
+          </h1>
+          <p class="text-xl text-gray-700 leading-relaxed">
+            We use AI to analyze Ghana's proposed digital rights legislation, making complex legal language accessible to citizens, technologists, and policymakers.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container py-12">
+      <div class="max-w-4xl mx-auto space-y-12 mt-8">
+        <!-- Mission Section -->
+        <section>
+          <h2 class="text-3xl font-bold text-black mb-6 flex items-center gap-3">
+            <i class="ti ti-target text-[var(--color-primary)]"></i>
+            Our Mission
+          </h2>
+          <div class="prose prose-lg max-w-none">
+            <p class="text-gray-700 leading-relaxed mb-4">
+              Ghana is undertaking a comprehensive reform of its digital rights framework through 14+ legislative bills.
+              These bills will fundamentally shape the country's digital future, affecting everything from freedom of speech
+              to data privacy, business innovation to cybersecurity.
+            </p>
+            <p class="text-gray-700 leading-relaxed mb-4">
+              However, these bills are written in complex legal language that makes them difficult for most citizens to
+              understand. <strong>{SITE.name}</strong> bridges this gap by providing AI-powered analysis that explains
+              what these bills really mean and how they might affect you.
+            </p>
+          </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="bg-white border-2 border-gray-200 rounded-xl p-8">
+          <h2 class="text-3xl font-bold text-black mb-6 flex items-center gap-3">
+            <i class="ti ti-robot text-[var(--color-primary)]"></i>
+            How Our AI Analysis Works
+          </h2>
+          <div class="space-y-6">
+            <div class="flex gap-4">
+              <div class="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                <span class="text-xl font-bold text-purple-600">1</span>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-black mb-2">PDF Processing</h3>
+                <p class="text-gray-700">
+                  We use <strong>Docling</strong> (IBM's open-source PDF processing tool) to extract text and structure
+                  from official bill PDFs, preserving sections, headings, and legal provisions.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-4">
+              <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                <span class="text-xl font-bold text-blue-600">2</span>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-black mb-2">Multi-Model AI Analysis</h3>
+                <p class="text-gray-700 mb-3">
+                  We use a combination of leading AI models, each optimized for different tasks:
+                </p>
+                <div class="space-y-3">
+                  <div class="pl-4 border-l-2 border-blue-200">
+                    <p class="font-semibold text-gray-900">Google Gemini 2.0 Flash</p>
+                    <p class="text-sm text-gray-600">Fast categorization and plain language summarization of provisions</p>
+                  </div>
+                  <div class="pl-4 border-l-2 border-purple-200">
+                    <p class="font-semibold text-gray-900">Anthropic Claude Haiku 4.5</p>
+                    <p class="text-sm text-gray-600">Quick impact assessment across all provisions</p>
+                  </div>
+                  <div class="pl-4 border-l-2 border-purple-300">
+                    <p class="font-semibold text-gray-900">Anthropic Claude Sonnet 4.5</p>
+                    <p class="text-sm text-gray-600">Deep analysis for executive summaries, impact analyses, and identifying key concerns</p>
+                  </div>
+                </div>
+                <p class="text-gray-700 mt-3">
+                  This multi-model approach balances speed, cost, and analytical depth to provide comprehensive analysis.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-4">
+              <div class="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                <span class="text-xl font-bold text-green-600">3</span>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-black mb-2">Multi-Perspective Analysis</h3>
+                <p class="text-gray-700">
+                  Each bill is analyzed across <strong>four critical dimensions</strong>:
+                </p>
+                <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                  <li><strong>Digital Innovation</strong> - How it affects tech startups, developers, and innovation</li>
+                  <li><strong>Freedom of Speech</strong> - Implications for online expression and media</li>
+                  <li><strong>Privacy & Data Rights</strong> - Impact on personal data protection</li>
+                  <li><strong>Business Environment</strong> - Effects on companies and economic activity</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="flex gap-4">
+              <div class="flex-shrink-0 w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center">
+                <span class="text-xl font-bold text-orange-600">4</span>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-black mb-2">Quality Control & Presentation</h3>
+                <p class="text-gray-700">
+                  The analysis is structured, cross-referenced, and presented in an accessible format with:
+                </p>
+                <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                  <li>Executive summaries for quick understanding</li>
+                  <li>Severity-based color coding (red for severe concerns, orange for high, etc.)</li>
+                  <li>Links between related provisions and impacts</li>
+                  <li>Access to original bill PDFs for verification</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Transparency & Limitations -->
+        <section>
+          <h2 class="text-3xl font-bold text-black mb-6 flex items-center gap-3">
+            <i class="ti ti-alert-circle text-[var(--color-primary)]"></i>
+            Transparency & Limitations
+          </h2>
+          <div class="bg-yellow-50 border-2 border-yellow-200 rounded-xl p-6 space-y-4">
+            <div>
+              <h3 class="text-lg font-bold text-black mb-2">AI-Generated Content</h3>
+              <p class="text-gray-700">
+                All analysis on this site is <strong>generated by AI models</strong> (Google Gemini 2.0 Flash and
+                Anthropic Claude 4.5 series). While these are state-of-the-art AI systems trained on vast amounts of
+                legal and policy text, they can make mistakes, miss nuances, or misinterpret provisions.
+              </p>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold text-black mb-2">Not Legal Advice</h3>
+              <p class="text-gray-700">
+                This analysis is for <strong>informational and educational purposes only</strong>. It does not constitute
+                legal advice. For legal matters, please consult qualified legal professionals.
+              </p>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold text-black mb-2">Verify with Original Sources</h3>
+              <p class="text-gray-700">
+                We provide links to the original bill PDFs on every page. We strongly encourage you to:
+              </p>
+              <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                <li>Download and read the original bills</li>
+                <li>Verify our analysis against the source text</li>
+                <li>Form your own opinions</li>
+                <li>Engage with legal experts and policymakers</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold text-black mb-2">Open Source & Auditable</h3>
+              <p class="text-gray-700">
+                Our analysis pipeline is open source and available on <a href="https://github.com/apdigh-org/apdigh.org" target="_blank" rel="noopener noreferrer" class="text-[var(--color-primary)] font-semibold hover:underline">GitHub</a>. This means anyone can:
+              </p>
+              <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                <li>Review how the analysis is generated</li>
+                <li>Audit the prompts and methodology</li>
+                <li>Run the analysis themselves</li>
+                <li>Suggest improvements or corrections</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Impact Severity Scale -->
+        <section>
+          <h2 class="text-3xl font-bold text-black mb-6 flex items-center gap-3">
+            <i class="ti ti-scale text-[var(--color-primary)]"></i>
+            Understanding Impact Severity
+          </h2>
+          <div class="space-y-3">
+            <div class="flex items-start gap-4 p-4 bg-red-50 border-2 border-red-200 rounded-lg">
+              <div class="flex-shrink-0 w-10 h-10 bg-red-100 rounded-lg flex items-center justify-center">
+                <i class="ti ti-alert-triangle text-red-600"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-red-900 mb-1">Severe Negative Impact</h3>
+                <p class="text-sm text-red-800">
+                  Fundamental violations of rule of law or human rights standards that would be struck down as
+                  unconstitutional in established democracies.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 bg-orange-50 border-2 border-orange-200 rounded-lg">
+              <div class="flex-shrink-0 w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
+                <i class="ti ti-alert-circle text-orange-600"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-orange-900 mb-1">High Negative Impact</h3>
+                <p class="text-sm text-orange-800">
+                  Significant departures from international best practices that exceed norms in most OECD countries.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 bg-yellow-50 border-2 border-yellow-200 rounded-lg">
+              <div class="flex-shrink-0 w-10 h-10 bg-yellow-100 rounded-lg flex items-center justify-center">
+                <i class="ti ti-info-circle text-yellow-600"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-yellow-900 mb-1">Medium Negative Impact</h3>
+                <p class="text-sm text-yellow-800">
+                  Provisions that diverge from best practices but align with approaches in some democratic countries.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 bg-gray-50 border-2 border-gray-200 rounded-lg">
+              <div class="flex-shrink-0 w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center">
+                <i class="ti ti-equal text-gray-600"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-gray-900 mb-1">Neutral Impact</h3>
+                <p class="text-sm text-gray-800">
+                  No significant positive or negative effects identified.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 bg-green-50 border-2 border-green-200 rounded-lg">
+              <div class="flex-shrink-0 w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
+                <i class="ti ti-check text-green-600"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-green-900 mb-1">Positive Impact</h3>
+                <p class="text-sm text-green-800">
+                  Provisions that strengthen rights, improve governance, or promote beneficial outcomes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Get Involved -->
+        <section class="bg-[var(--color-primary)] text-white rounded-xl p-8 mb-4">
+          <h2 class="text-3xl font-bold mb-4 flex items-center gap-3">
+            <i class="ti ti-users"></i>
+            Get Involved
+          </h2>
+          <p class="text-lg mb-6 text-white/90">
+            These bills will affect millions of Ghanaians. Your voice matters in shaping Ghana's digital future.
+          </p>
+          <div class="grid md:grid-cols-2 gap-4">
+            <a
+              href="/bills"
+              class="block bg-white text-[var(--color-primary)] px-6 py-3 rounded-lg font-semibold text-center hover:bg-gray-100 transition-colors"
+            >
+              <i class="ti ti-file-text mr-2"></i>
+              Read Bill Analyses
+            </a>
+            <a
+              href="https://github.com/apdigh-org/apdigh.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block bg-white/20 backdrop-blur-sm border-2 border-white text-white px-6 py-3 rounded-lg font-semibold text-center hover:bg-white/30 transition-colors"
+            >
+              <i class="ti ti-brand-github mr-2"></i>
+              View on GitHub
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>
