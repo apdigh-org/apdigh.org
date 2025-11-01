@@ -46,20 +46,30 @@ const currentYear = new Date().getFullYear();
       <!-- Contact/Social -->
       <div class="flex flex-col gap-4">
         <h3 class="text-base font-semibold text-white mb-2">Connect</h3>
-        <div class="flex gap-3">
+        <ul class="list-none p-0 m-0 flex flex-col gap-2">
           {SITE.social.map((social) => (
-            <a
-              href={social.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="flex items-center justify-center w-9 h-9 bg-white/10 rounded-lg text-white hover:bg-white/20 transition-colors"
-              aria-label={social.name}
-              title={social.handle}
-            >
-              <i class={`${social.icon} text-lg`}></i>
-            </a>
+            <li>
+              <a
+                href={social.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-sm text-white/90 no-underline hover:text-white hover:underline transition-colors flex items-center gap-2"
+              >
+                <i class={`${social.icon} text-base`}></i>
+                <span>{social.handle}</span>
+              </a>
+            </li>
           ))}
-        </div>
+          <li>
+            <a
+              href={`mailto:${SITE.email}`}
+              class="text-sm text-white/90 no-underline hover:text-white hover:underline transition-colors flex items-center gap-2"
+            >
+              <i class="ti ti-mail text-base"></i>
+              <span>{SITE.email}</span>
+            </a>
+          </li>
+        </ul>
       </div>
 
     </div>

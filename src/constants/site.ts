@@ -8,6 +8,7 @@ export const SITE = {
   fullName: 'Association for the Protection of Digital Innovation',
   tagline: 'Protecting Digital Innovation',
   url: 'https://apdigh.org',
+  email: 'contact@apdigh.org',
 
   mission: "Protecting Ghana's digital innovation sector by informing citizens about tech bills and their impacts on startups, innovation, and the digital economy.",
 
