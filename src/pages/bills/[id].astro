@@ -753,9 +753,6 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
     const toggleIcon = document.getElementById('summary-toggle-icon');
     const button = document.getElementById('summary-toggle');
 
-    // Save current scroll position relative to the button
-    const buttonTop = button.getBoundingClientRect().top;
-
     summaryExpanded = !summaryExpanded;
 
     if (summaryExpanded) {
@@ -770,11 +767,9 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
       toggleIcon.classList.remove('rotate-180');
     }
 
-    // Restore scroll position to keep button in same place
+    // Smooth scroll to keep the button visible after content change
     requestAnimationFrame(() => {
-      const newButtonTop = button.getBoundingClientRect().top;
-      const scrollDiff = newButtonTop - buttonTop;
-      window.scrollBy(0, scrollDiff);
+      button.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     });
   }
 
