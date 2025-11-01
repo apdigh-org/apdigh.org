@@ -797,6 +797,12 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
 
     modal.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
+
+    // Reset modal scroll to top
+    const modalContent = modal.querySelector('.overflow-y-auto');
+    if (modalContent) {
+      modalContent.scrollTop = 0;
+    }
   }
 
   function closeImpactModal() {
