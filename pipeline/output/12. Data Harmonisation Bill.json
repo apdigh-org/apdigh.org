@@ -863,7 +863,7 @@
     "title": "Data Harmonisation Bill",
     "slug": "12-data-harmonisation-bill",
     "pdfPath": "pdfs/12. Data Harmonisation Bill.pdf",
-    "processedAt": "2025-10-31T20:04:18.640530Z",
+    "processedAt": "2025-11-01T09:41:12.668412Z",
     "statistics": {
       "totalSections": 38,
       "provisions": 36,
@@ -871,6 +871,15 @@
       "metadata": 1,
       "withSummaries": 36,
       "withImpacts": 0
-    }
+    },
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": [
+      "11-data-protection-commission-amendment-bill",
+      "9-ghana-meteorological-authority-amendment-bill",
+      "13-cyber-security-amendment-bill"
+    ]
   }
 }

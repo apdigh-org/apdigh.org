@@ -364,7 +364,12 @@
     "url": "",
     "duration": "10:00"
   },
-  "deadline": "2025-12-31",
-  "submissionMethod": "Email to clerk@parliament.gov.gh",
-  "relatedBills": []
+  "deadline": "",
+  "feedbackInstructions": "",
+  "feedbackUrl": "",
+  "relatedBills": [
+    "1-national-information-technology-authority-amendment-bill",
+    "2-emerging-technologies-bill",
+    "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act"
+  ]
 }

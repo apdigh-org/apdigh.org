@@ -2302,7 +2302,7 @@
     "title": "National Information Technology Authority (Amendment) Bill",
     "slug": "1-national-information-technology-authority-amendment-bill",
     "pdfPath": "pdfs/1. National Information Technology Authority (Amendment) Bill.pdf",
-    "processedAt": "2025-10-31T20:05:46.044770Z",
+    "processedAt": "2025-11-01T09:41:05.777791Z",
     "statistics": {
       "totalSections": 108,
       "provisions": 104,
@@ -2310,6 +2310,15 @@
       "metadata": 2,
       "withSummaries": 104,
       "withImpacts": 0
-    }
+    },
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": [
+      "2-emerging-technologies-bill",
+      "7-ghana-india-kofi-annan-centre-of-excellence-in-ict-bill",
+      "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act"
+    ]
   }
 }

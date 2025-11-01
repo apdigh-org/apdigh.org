@@ -966,7 +966,7 @@
     "title": "Digital Economy and Innovation Development Fund Bill – formerly GIFEC in Electronic Communications Act",
     "slug": "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act",
     "pdfPath": "pdfs/8. Digital Economy and Innovation Development Fund Bill – formerly GIFEC in Electronic Communications Act.pdf",
-    "processedAt": "2025-10-31T20:04:18.617451Z",
+    "processedAt": "2025-11-01T09:41:37.147125Z",
     "statistics": {
       "totalSections": 45,
       "provisions": 43,
@@ -974,6 +974,15 @@
       "metadata": 0,
       "withSummaries": 43,
       "withImpacts": 0
-    }
+    },
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": [
+      "5-electronic-communications-amendment-bill",
+      "1-national-information-technology-authority-amendment-bill",
+      "7-ghana-india-kofi-annan-centre-of-excellence-in-ict-bill"
+    ]
   }
 }

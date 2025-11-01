@@ -2783,7 +2783,7 @@
     "title": "Data Protection Commission (Amendment) Bill",
     "slug": "11-data-protection-commission-amendment-bill",
     "pdfPath": "pdfs/11. Data Protection Commission (Amendment) Bill.pdf",
-    "processedAt": "2025-10-31T20:04:18.765858Z",
+    "processedAt": "2025-11-01T09:41:08.256442Z",
     "statistics": {
       "totalSections": 123,
       "provisions": 123,
@@ -2791,6 +2791,15 @@
       "metadata": 0,
       "withSummaries": 123,
       "withImpacts": 0
-    }
+    },
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": [
+      "12-data-harmonisation-bill",
+      "13-cyber-security-amendment-bill",
+      "4-electronic-transactions-amendment-bill"
+    ]
   }
 }

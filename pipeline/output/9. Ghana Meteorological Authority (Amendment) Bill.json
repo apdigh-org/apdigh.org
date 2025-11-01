@@ -1140,7 +1140,7 @@
     "title": "Ghana Meteorological Authority (Amendment) Bill",
     "slug": "9-ghana-meteorological-authority-amendment-bill",
     "pdfPath": "pdfs/9. Ghana Meteorological Authority (Amendment) Bill.pdf",
-    "processedAt": "2025-10-31T20:04:18.518134Z",
+    "processedAt": "2025-11-01T09:41:37.957195Z",
     "statistics": {
       "totalSections": 51,
       "provisions": 50,
@@ -1148,6 +1148,14 @@
       "metadata": 0,
       "withSummaries": 50,
       "withImpacts": 0
-    }
+    },
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": [
+      "12-data-harmonisation-bill",
+      "11-data-protection-commission-amendment-bill"
+    ]
   }
 }

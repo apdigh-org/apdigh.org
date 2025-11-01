@@ -755,7 +755,12 @@
     "url": "",
     "duration": "10:00"
   },
-  "deadline": "2025-12-31",
-  "submissionMethod": "Email to clerk@parliament.gov.gh",
-  "relatedBills": []
+  "deadline": "",
+  "feedbackInstructions": "",
+  "feedbackUrl": "",
+  "relatedBills": [
+    "11-data-protection-commission-amendment-bill",
+    "4-electronic-transactions-amendment-bill",
+    "14-national-communications-authority-amendment-bill"
+  ]
 }

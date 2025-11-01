@@ -1988,7 +1988,7 @@
     "title": "Electronic Communications (Amendment) Bill",
     "slug": "5-electronic-communications-amendment-bill",
     "pdfPath": "pdfs/5. Electronic Communications (Amendment) Bill.pdf",
-    "processedAt": "2025-10-31T20:04:18.689620Z",
+    "processedAt": "2025-11-01T09:41:24.479771Z",
     "statistics": {
       "totalSections": 90,
       "provisions": 89,
@@ -1996,6 +1996,15 @@
       "metadata": 1,
       "withSummaries": 89,
       "withImpacts": 0
-    }
+    },
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": [
+      "14-national-communications-authority-amendment-bill",
+      "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act",
+      "3-postal-courier-logistics-services-commission-amendment-bill"
+    ]
   }
 }

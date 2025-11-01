@@ -732,7 +732,7 @@
     "title": "National Communications Authority (Amendment) Bill",
     "slug": "14-national-communications-authority-amendment-bill",
     "pdfPath": "pdfs/14. National Communications Authority (Amendment) Bill.pdf",
-    "processedAt": "2025-10-31T20:04:18.470144Z",
+    "processedAt": "2025-11-01T09:41:16.887665Z",
     "statistics": {
       "totalSections": 33,
       "provisions": 33,
@@ -740,6 +740,15 @@
       "metadata": 0,
       "withSummaries": 33,
       "withImpacts": 0
-    }
+    },
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": [
+      "5-electronic-communications-amendment-bill",
+      "6-misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+      "13-cyber-security-amendment-bill"
+    ]
   }
 }

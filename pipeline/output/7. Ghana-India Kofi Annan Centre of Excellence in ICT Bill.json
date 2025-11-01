@@ -711,7 +711,7 @@
     "title": "Ghana-India Kofi Annan Centre of Excellence in ICT Bill",
     "slug": "7-ghana-india-kofi-annan-centre-of-excellence-in-ict-bill",
     "pdfPath": "pdfs/7. Ghana-India Kofi Annan Centre of Excellence in ICT Bill.pdf",
-    "processedAt": "2025-10-31T20:04:18.569829Z",
+    "processedAt": "2025-11-01T09:41:36.051288Z",
     "statistics": {
       "totalSections": 32,
       "provisions": 32,
@@ -719,6 +719,15 @@
       "metadata": 0,
       "withSummaries": 32,
       "withImpacts": 0
-    }
+    },
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": [
+      "1-national-information-technology-authority-amendment-bill",
+      "2-emerging-technologies-bill",
+      "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act"
+    ]
   }
 }

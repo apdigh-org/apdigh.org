@@ -832,7 +832,7 @@
     "title": "Emerging Technologies Bill",
     "slug": "2-emerging-technologies-bill",
     "pdfPath": "pdfs/2. Emerging Technologies Bill.pdf",
-    "processedAt": "2025-10-31T20:04:18.542791Z",
+    "processedAt": "2025-11-01T09:41:19.843110Z",
     "statistics": {
       "totalSections": 36,
       "provisions": 36,
@@ -840,6 +840,15 @@
       "metadata": 0,
       "withSummaries": 36,
       "withImpacts": 0
-    }
+    },
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": [
+      "1-national-information-technology-authority-amendment-bill",
+      "13-cyber-security-amendment-bill",
+      "11-data-protection-commission-amendment-bill"
+    ]
   }
 }

@@ -1136,7 +1136,7 @@
     "title": "Cyber Security (Amendment) Bill",
     "slug": "13-cyber-security-amendment-bill",
     "pdfPath": "pdfs/13. Cyber Security (Amendment) Bill.pdf",
-    "processedAt": "2025-10-31T20:04:18.593414Z",
+    "processedAt": "2025-11-01T09:41:14.784898Z",
     "statistics": {
       "totalSections": 50,
       "provisions": 49,
@@ -1144,6 +1144,15 @@
       "metadata": 1,
       "withSummaries": 49,
       "withImpacts": 0
-    }
+    },
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": [
+      "11-data-protection-commission-amendment-bill",
+      "4-electronic-transactions-amendment-bill",
+      "14-national-communications-authority-amendment-bill"
+    ]
   }
 }

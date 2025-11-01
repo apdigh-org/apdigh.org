@@ -1963,7 +1963,7 @@
     "title": "Electronic Transactions (Amendment) Bill",
     "slug": "4-electronic-transactions-amendment-bill",
     "pdfPath": "pdfs/4. Electronic Transactions (Amendment) Bill.pdf",
-    "processedAt": "2025-10-31T20:04:18.493961Z",
+    "processedAt": "2025-11-01T09:41:22.754832Z",
     "statistics": {
       "totalSections": 90,
       "provisions": 87,
@@ -1971,6 +1971,15 @@
       "metadata": 1,
       "withSummaries": 87,
       "withImpacts": 0
-    }
+    },
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": [
+      "15-ghana-domain-name-registry-bill-formerly-provided-for-in-electronic-transactions-act",
+      "13-cyber-security-amendment-bill",
+      "11-data-protection-commission-amendment-bill"
+    ]
   }
 }
