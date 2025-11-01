@@ -711,7 +711,7 @@
     "title": "Ghana-India Kofi Annan Centre of Excellence in ICT Bill",
     "slug": "7-ghana-india-kofi-annan-centre-of-excellence-in-ict-bill",
     "pdfPath": "pdfs/7. Ghana-India Kofi Annan Centre of Excellence in ICT Bill.pdf",
-    "processedAt": "2025-11-01T09:41:36.051288Z",
+    "processedAt": "2025-11-01T10:48:47.651048Z",
     "statistics": {
       "totalSections": 32,
       "provisions": 32,
@@ -721,9 +721,9 @@
       "withImpacts": 0
     },
     "notebookLMUrl": "",
-    "feedbackInstructions": "",
-    "feedbackUrl": "",
-    "deadline": "",
+    "feedbackInstructions": "Download draft bill and Public Comment Declaration Form from Ministry website. Submit completed forms via provided email addresses specific to each bill.",
+    "feedbackUrl": "https://moc.gov.gh/legislative_instruments/",
+    "deadline": "2025-11-14",
     "relatedBills": [
       "1-national-information-technology-authority-amendment-bill",
       "2-emerging-technologies-bill",

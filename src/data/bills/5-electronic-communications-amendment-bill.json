@@ -1305,9 +1305,9 @@
     "url": "",
     "duration": "10:00"
   },
-  "deadline": "",
-  "feedbackInstructions": "",
-  "feedbackUrl": "",
+  "deadline": "2025-11-14",
+  "feedbackInstructions": "Submit responses electronically to info@nca.org.gh. Respondents are encouraged to specify the sections of the Bill they support or oppose and to provide suggestions for improvement. All responses will be treated as non-confidential.",
+  "feedbackUrl": "mailto:info@nca.org.gh",
   "relatedBills": [
     "14-national-communications-authority-amendment-bill",
     "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act",

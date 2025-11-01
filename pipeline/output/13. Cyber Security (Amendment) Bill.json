@@ -1136,7 +1136,7 @@
     "title": "Cyber Security (Amendment) Bill",
     "slug": "13-cyber-security-amendment-bill",
     "pdfPath": "pdfs/13. Cyber Security (Amendment) Bill.pdf",
-    "processedAt": "2025-11-01T09:41:14.784898Z",
+    "processedAt": "2025-11-01T10:48:17.910525Z",
     "statistics": {
       "totalSections": 50,
       "provisions": 49,
@@ -1146,9 +1146,9 @@
       "withImpacts": 0
     },
     "notebookLMUrl": "",
-    "feedbackInstructions": "",
-    "feedbackUrl": "",
-    "deadline": "",
+    "feedbackInstructions": "Download the Draft Bill (PDF) and the Format for Submitting Comments from the CSA website. Submit your feedback to submit.feedback@csa.gov.gh in accordance with the specified format. All stakeholders, including Cybersecurity Professionals, Cybersecurity Service Providers, Civil Society Organisations, and the General Public, are encouraged to provide feedback.",
+    "feedbackUrl": "https://csa.gov.gh/public_document.php",
+    "deadline": "2025-11-14",
     "relatedBills": [
       "11-data-protection-commission-amendment-bill",
       "4-electronic-transactions-amendment-bill",

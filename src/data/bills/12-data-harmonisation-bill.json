@@ -602,9 +602,9 @@
     "url": "",
     "duration": "10:00"
   },
-  "deadline": "",
-  "feedbackInstructions": "",
-  "feedbackUrl": "",
+  "deadline": "2025-11-27",
+  "feedbackInstructions": "Download the consultation document from the NITA website. Submit your response as an email attachment in Microsoft Word format to comments@nita.gov.gh. Include a completed response cover sheet (available on Page 4 of the consultation document). All responses will be treated as non-confidential.",
+  "feedbackUrl": "https://nita.gov.gh/publicconsultation-3-2-2/",
   "relatedBills": [
     "11-data-protection-commission-amendment-bill",
     "9-ghana-meteorological-authority-amendment-bill",

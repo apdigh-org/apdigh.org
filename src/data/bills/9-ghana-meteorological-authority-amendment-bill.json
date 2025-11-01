@@ -609,9 +609,9 @@
     "url": "",
     "duration": "10:00"
   },
-  "deadline": "",
-  "feedbackInstructions": "",
-  "feedbackUrl": "",
+  "deadline": "2025-11-14",
+  "feedbackInstructions": "Download draft bill and Public Comment Declaration Form from Ministry website. Submit completed forms via provided email addresses specific to each bill.",
+  "feedbackUrl": "https://moc.gov.gh/legislative_instruments/",
   "relatedBills": [
     "12-data-harmonisation-bill",
     "11-data-protection-commission-amendment-bill"

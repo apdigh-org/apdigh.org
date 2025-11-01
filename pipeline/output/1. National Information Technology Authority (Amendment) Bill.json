@@ -2302,7 +2302,7 @@
     "title": "National Information Technology Authority (Amendment) Bill",
     "slug": "1-national-information-technology-authority-amendment-bill",
     "pdfPath": "pdfs/1. National Information Technology Authority (Amendment) Bill.pdf",
-    "processedAt": "2025-11-01T09:41:05.777791Z",
+    "processedAt": "2025-11-01T10:48:04.478795Z",
     "statistics": {
       "totalSections": 108,
       "provisions": 104,
@@ -2312,9 +2312,9 @@
       "withImpacts": 0
     },
     "notebookLMUrl": "",
-    "feedbackInstructions": "",
-    "feedbackUrl": "",
-    "deadline": "",
+    "feedbackInstructions": "Download the consultation document from the NITA website. Submit your response as an email attachment in Microsoft Word format to comments@nita.gov.gh. Include a completed response cover sheet (available on Page 4 of the consultation document). All responses will be treated as non-confidential.",
+    "feedbackUrl": "https://nita.gov.gh/publicconsultation-3-2/",
+    "deadline": "2025-10-31",
     "relatedBills": [
       "2-emerging-technologies-bill",
       "7-ghana-india-kofi-annan-centre-of-excellence-in-ict-bill",

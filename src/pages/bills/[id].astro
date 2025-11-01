@@ -650,44 +650,49 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
                 Take Action
               </h2>
               <div class="bg-gradient-to-br from-[var(--color-primary)] to-[#1E5A5A] text-white rounded-xl p-8">
-                <div class="mb-6">
-                  <h3 class="text-2xl font-bold text-white mb-2">Your Voice Matters</h3>
-                  <p class="text-lg opacity-95">
-                    Parliament is accepting public submissions until <strong>{new Date(bill.deadline).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</strong>
+                <h3 class="text-2xl font-bold text-white mb-2">Your Voice Matters</h3>
+                {bill.deadline ? (
+                  <p class="text-lg opacity-95 mb-6">
+                    Public submissions are being accepted until <strong>{new Date(bill.deadline).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</strong>
                   </p>
-                </div>
+                ) : (
+                  <p class="text-lg opacity-95 mb-6">
+                    Stay informed about this bill and share your concerns with your representatives.
+                  </p>
+                )}
 
-                <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6 mb-6">
-                  <h4 class="text-lg font-semibold text-white mb-3 flex items-center gap-2">
-                    <i class="ti ti-checklist"></i>
-                    How to Submit Your Comments
-                  </h4>
-                  <ol class="list-decimal list-inside space-y-2 text-white/95">
-                    <li>Read the bill analysis above to understand the impacts</li>
-                    <li>Use our template below or write your own submission</li>
-                    <li>Submit via: {bill.submissionMethod}</li>
-                    <li>Share this page to amplify awareness</li>
-                  </ol>
-                </div>
-
-                <div class="flex flex-wrap gap-4">
-                  <a
-                    href="/bills"
-                    class="inline-flex items-center gap-2 px-6 py-3 bg-white text-[var(--color-primary)] font-semibold rounded-lg hover:bg-gray-100 transition-colors"
-                  >
-                    <i class="ti ti-file-text"></i>
-                    View All Bills
-                  </a>
-                  <a
-                    href="https://github.com/apdigh-org/apdigh.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex items-center gap-2 px-6 py-3 bg-white/20 backdrop-blur-sm text-white border-2 border-white font-semibold rounded-lg hover:bg-white/30 transition-colors"
-                  >
-                    <i class="ti ti-brand-github"></i>
-                    View on GitHub
-                  </a>
-                </div>
+                {bill.feedbackInstructions || bill.feedbackUrl ? (
+                  <div class="space-y-4">
+                    {bill.feedbackInstructions && (
+                      <div class="text-white/95 prose prose-invert prose-lg max-w-none" set:html={marked.parse(bill.feedbackInstructions)} />
+                    )}
+                    {bill.feedbackUrl && (
+                      <a
+                        href={bill.feedbackUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2 px-6 py-3 bg-white text-[var(--color-primary)] font-semibold rounded-lg hover:bg-gray-100 transition-colors"
+                      >
+                        <i class="ti ti-external-link"></i>
+                        Submit Your Feedback
+                      </a>
+                    )}
+                  </div>
+                ) : (
+                  <div>
+                    <h4 class="text-lg font-semibold text-white mb-3">How You Can Help</h4>
+                    <ol class="list-decimal list-inside space-y-2 text-white/95">
+                      <li>Read the bill analysis above to understand the impacts</li>
+                      <li>Share this page to raise awareness</li>
+                      <li>Contact your Member of Parliament to express your concerns</li>
+                      <li>
+                        <a href="https://twitter.com/apdigh" target="_blank" rel="noopener noreferrer" class="underline hover:text-white transition-colors">
+                          Follow APDI on Twitter
+                        </a> for updates on public consultation opportunities
+                      </li>
+                    </ol>
+                  </div>
+                )}
               </div>
             </section>
 

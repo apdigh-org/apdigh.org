@@ -1963,7 +1963,7 @@
     "title": "Electronic Transactions (Amendment) Bill",
     "slug": "4-electronic-transactions-amendment-bill",
     "pdfPath": "pdfs/4. Electronic Transactions (Amendment) Bill.pdf",
-    "processedAt": "2025-11-01T09:41:22.754832Z",
+    "processedAt": "2025-11-01T10:48:30.589085Z",
     "statistics": {
       "totalSections": 90,
       "provisions": 87,
@@ -1973,9 +1973,9 @@
       "withImpacts": 0
     },
     "notebookLMUrl": "",
-    "feedbackInstructions": "",
-    "feedbackUrl": "",
-    "deadline": "",
+    "feedbackInstructions": "Download the consultation document from the NITA website. Submit your response as an email attachment in Microsoft Word format to comments@nita.gov.gh. Include a completed response cover sheet (available on Page 4 of the consultation document). All responses will be treated as non-confidential.",
+    "feedbackUrl": "https://nita.gov.gh/publicconsultation-3/",
+    "deadline": "2025-10-31",
     "relatedBills": [
       "15-ghana-domain-name-registry-bill-formerly-provided-for-in-electronic-transactions-act",
       "13-cyber-security-amendment-bill",

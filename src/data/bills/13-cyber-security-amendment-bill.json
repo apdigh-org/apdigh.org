@@ -755,9 +755,9 @@
     "url": "",
     "duration": "10:00"
   },
-  "deadline": "",
-  "feedbackInstructions": "",
-  "feedbackUrl": "",
+  "deadline": "2025-11-14",
+  "feedbackInstructions": "Download the Draft Bill (PDF) and the Format for Submitting Comments from the CSA website. Submit your feedback to submit.feedback@csa.gov.gh in accordance with the specified format. All stakeholders, including Cybersecurity Professionals, Cybersecurity Service Providers, Civil Society Organisations, and the General Public, are encouraged to provide feedback.",
+  "feedbackUrl": "https://csa.gov.gh/public_document.php",
   "relatedBills": [
     "11-data-protection-commission-amendment-bill",
     "4-electronic-transactions-amendment-bill",

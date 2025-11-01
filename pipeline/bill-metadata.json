@@ -1,107 +1,164 @@
 {
   "1-national-information-technology-authority-amendment-bill": {
     "notebookLMUrl": "",
-    "feedbackInstructions": "",
-    "feedbackUrl": "",
-    "deadline": "",
-    "relatedBills": ["2-emerging-technologies-bill", "7-ghana-india-kofi-annan-centre-of-excellence-in-ict-bill", "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act"]
+    "feedbackInstructions": "Download the consultation document from the NITA website. Submit your response as an email attachment in Microsoft Word format to comments@nita.gov.gh. Include a completed response cover sheet (available on Page 4 of the consultation document). All responses will be treated as non-confidential.",
+    "feedbackUrl": "https://nita.gov.gh/publicconsultation-3-2/",
+    "deadline": "2025-10-31",
+    "relatedBills": [
+      "2-emerging-technologies-bill",
+      "7-ghana-india-kofi-annan-centre-of-excellence-in-ict-bill",
+      "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act"
+    ]
   },
   "2-emerging-technologies-bill": {
     "notebookLMUrl": "",
-    "feedbackInstructions": "",
-    "feedbackUrl": "",
-    "deadline": "",
-    "relatedBills": ["1-national-information-technology-authority-amendment-bill", "13-cyber-security-amendment-bill", "11-data-protection-commission-amendment-bill"]
+    "feedbackInstructions": "Download draft bill and Public Comment Declaration Form from Ministry website. Submit completed forms via provided email addresses specific to each bill.",
+    "feedbackUrl": "https://moc.gov.gh/legislative_instruments/",
+    "deadline": "2025-11-14",
+    "relatedBills": [
+      "1-national-information-technology-authority-amendment-bill",
+      "13-cyber-security-amendment-bill",
+      "11-data-protection-commission-amendment-bill"
+    ]
   },
   "3-postal-courier-logistics-services-commission-amendment-bill": {
     "notebookLMUrl": "",
-    "feedbackInstructions": "",
-    "feedbackUrl": "",
-    "deadline": "",
-    "relatedBills": ["5-electronic-communications-amendment-bill", "14-national-communications-authority-amendment-bill"]
+    "feedbackInstructions": "Download draft bill and Public Comment Declaration Form from Ministry website. Submit completed forms via provided email addresses specific to each bill.",
+    "feedbackUrl": "https://moc.gov.gh/legislative_instruments/",
+    "deadline": "2025-11-14",
+    "relatedBills": [
+      "5-electronic-communications-amendment-bill",
+      "14-national-communications-authority-amendment-bill"
+    ]
   },
   "4-electronic-transactions-amendment-bill": {
     "notebookLMUrl": "",
-    "feedbackInstructions": "",
-    "feedbackUrl": "",
-    "deadline": "",
-    "relatedBills": ["15-ghana-domain-name-registry-bill-formerly-provided-for-in-electronic-transactions-act", "13-cyber-security-amendment-bill", "11-data-protection-commission-amendment-bill"]
+    "feedbackInstructions": "Download the consultation document from the NITA website. Submit your response as an email attachment in Microsoft Word format to comments@nita.gov.gh. Include a completed response cover sheet (available on Page 4 of the consultation document). All responses will be treated as non-confidential.",
+    "feedbackUrl": "https://nita.gov.gh/publicconsultation-3/",
+    "deadline": "2025-10-31",
+    "relatedBills": [
+      "15-ghana-domain-name-registry-bill-formerly-provided-for-in-electronic-transactions-act",
+      "13-cyber-security-amendment-bill",
+      "11-data-protection-commission-amendment-bill"
+    ]
   },
   "5-electronic-communications-amendment-bill": {
     "notebookLMUrl": "",
-    "feedbackInstructions": "",
-    "feedbackUrl": "",
-    "deadline": "",
-    "relatedBills": ["14-national-communications-authority-amendment-bill", "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act", "3-postal-courier-logistics-services-commission-amendment-bill"]
+    "feedbackInstructions": "Submit responses electronically to info@nca.org.gh. Respondents are encouraged to specify the sections of the Bill they support or oppose and to provide suggestions for improvement. All responses will be treated as non-confidential.",
+    "feedbackUrl": "mailto:info@nca.org.gh",
+    "deadline": "2025-11-14",
+    "relatedBills": [
+      "14-national-communications-authority-amendment-bill",
+      "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act",
+      "3-postal-courier-logistics-services-commission-amendment-bill"
+    ]
   },
   "6-misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025": {
     "notebookLMUrl": "",
-    "feedbackInstructions": "",
-    "feedbackUrl": "",
-    "deadline": "",
-    "relatedBills": ["5-electronic-communications-amendment-bill", "14-national-communications-authority-amendment-bill", "13-cyber-security-amendment-bill"]
+    "feedbackInstructions": "Download draft bill and Public Comment Declaration Form from Ministry website. Submit completed forms via provided email addresses. Also available via Google Docs for commenting.",
+    "feedbackUrl": "https://moc.gov.gh/legislative_instruments/",
+    "deadline": "2025-11-14",
+    "relatedBills": [
+      "5-electronic-communications-amendment-bill",
+      "14-national-communications-authority-amendment-bill",
+      "13-cyber-security-amendment-bill"
+    ]
   },
   "7-ghana-india-kofi-annan-centre-of-excellence-in-ict-bill": {
     "notebookLMUrl": "",
-    "feedbackInstructions": "",
-    "feedbackUrl": "",
-    "deadline": "",
-    "relatedBills": ["1-national-information-technology-authority-amendment-bill", "2-emerging-technologies-bill", "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act"]
+    "feedbackInstructions": "Download draft bill and Public Comment Declaration Form from Ministry website. Submit completed forms via provided email addresses specific to each bill.",
+    "feedbackUrl": "https://moc.gov.gh/legislative_instruments/",
+    "deadline": "2025-11-14",
+    "relatedBills": [
+      "1-national-information-technology-authority-amendment-bill",
+      "2-emerging-technologies-bill",
+      "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act"
+    ]
   },
   "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act": {
     "notebookLMUrl": "",
-    "feedbackInstructions": "",
-    "feedbackUrl": "",
-    "deadline": "",
-    "relatedBills": ["5-electronic-communications-amendment-bill", "1-national-information-technology-authority-amendment-bill", "7-ghana-india-kofi-annan-centre-of-excellence-in-ict-bill"]
+    "feedbackInstructions": "Download draft bill and Public Comment Declaration Form from Ministry website. Submit completed forms via provided email addresses specific to each bill.",
+    "feedbackUrl": "https://moc.gov.gh/legislative_instruments/",
+    "deadline": "2025-11-14",
+    "relatedBills": [
+      "5-electronic-communications-amendment-bill",
+      "1-national-information-technology-authority-amendment-bill",
+      "7-ghana-india-kofi-annan-centre-of-excellence-in-ict-bill"
+    ]
   },
   "9-ghana-meteorological-authority-amendment-bill": {
     "notebookLMUrl": "",
-    "feedbackInstructions": "",
-    "feedbackUrl": "",
-    "deadline": "",
-    "relatedBills": ["12-data-harmonisation-bill", "11-data-protection-commission-amendment-bill"]
+    "feedbackInstructions": "Download draft bill and Public Comment Declaration Form from Ministry website. Submit completed forms via provided email addresses specific to each bill.",
+    "feedbackUrl": "https://moc.gov.gh/legislative_instruments/",
+    "deadline": "2025-11-14",
+    "relatedBills": [
+      "12-data-harmonisation-bill",
+      "11-data-protection-commission-amendment-bill"
+    ]
   },
   "10-ghana-meteorological-authority-amendment-bill": {
     "notebookLMUrl": "",
-    "feedbackInstructions": "",
-    "feedbackUrl": "",
-    "deadline": "",
-    "relatedBills": ["12-data-harmonisation-bill", "11-data-protection-commission-amendment-bill"]
+    "feedbackInstructions": "Download draft bill and Public Comment Declaration Form from Ministry website. Submit completed forms via provided email addresses specific to each bill.",
+    "feedbackUrl": "https://moc.gov.gh/legislative_instruments/",
+    "deadline": "2025-11-14",
+    "relatedBills": [
+      "12-data-harmonisation-bill",
+      "11-data-protection-commission-amendment-bill"
+    ]
   },
   "11-data-protection-commission-amendment-bill": {
     "notebookLMUrl": "",
     "feedbackInstructions": "",
     "feedbackUrl": "",
     "deadline": "",
-    "relatedBills": ["12-data-harmonisation-bill", "13-cyber-security-amendment-bill", "4-electronic-transactions-amendment-bill"]
+    "relatedBills": [
+      "12-data-harmonisation-bill",
+      "13-cyber-security-amendment-bill",
+      "4-electronic-transactions-amendment-bill"
+    ]
   },
   "12-data-harmonisation-bill": {
     "notebookLMUrl": "",
-    "feedbackInstructions": "",
-    "feedbackUrl": "",
-    "deadline": "",
-    "relatedBills": ["11-data-protection-commission-amendment-bill", "9-ghana-meteorological-authority-amendment-bill", "13-cyber-security-amendment-bill"]
+    "feedbackInstructions": "Download the consultation document from the NITA website. Submit your response as an email attachment in Microsoft Word format to comments@nita.gov.gh. Include a completed response cover sheet (available on Page 4 of the consultation document). All responses will be treated as non-confidential.",
+    "feedbackUrl": "https://nita.gov.gh/publicconsultation-3-2-2/",
+    "deadline": "2025-11-27",
+    "relatedBills": [
+      "11-data-protection-commission-amendment-bill",
+      "9-ghana-meteorological-authority-amendment-bill",
+      "13-cyber-security-amendment-bill"
+    ]
   },
   "13-cyber-security-amendment-bill": {
     "notebookLMUrl": "",
-    "feedbackInstructions": "",
-    "feedbackUrl": "",
-    "deadline": "",
-    "relatedBills": ["11-data-protection-commission-amendment-bill", "4-electronic-transactions-amendment-bill", "14-national-communications-authority-amendment-bill"]
+    "feedbackInstructions": "Download the Draft Bill (PDF) and the Format for Submitting Comments from the CSA website. Submit your feedback to submit.feedback@csa.gov.gh in accordance with the specified format. All stakeholders, including Cybersecurity Professionals, Cybersecurity Service Providers, Civil Society Organisations, and the General Public, are encouraged to provide feedback.",
+    "feedbackUrl": "https://csa.gov.gh/public_document.php",
+    "deadline": "2025-11-14",
+    "relatedBills": [
+      "11-data-protection-commission-amendment-bill",
+      "4-electronic-transactions-amendment-bill",
+      "14-national-communications-authority-amendment-bill"
+    ]
   },
   "14-national-communications-authority-amendment-bill": {
     "notebookLMUrl": "",
-    "feedbackInstructions": "",
-    "feedbackUrl": "",
-    "deadline": "",
-    "relatedBills": ["5-electronic-communications-amendment-bill", "6-misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025", "13-cyber-security-amendment-bill"]
+    "feedbackInstructions": "Submit responses electronically to info@nca.org.gh. Respondents are encouraged to specify the sections of the Bill they support or oppose and to provide suggestions for improvement. All responses will be treated as non-confidential.",
+    "feedbackUrl": "mailto:info@nca.org.gh",
+    "deadline": "2025-11-14",
+    "relatedBills": [
+      "5-electronic-communications-amendment-bill",
+      "6-misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
+      "13-cyber-security-amendment-bill"
+    ]
   },
   "15-ghana-domain-name-registry-bill-formerly-provided-for-in-electronic-transactions-act": {
     "notebookLMUrl": "",
     "feedbackInstructions": "",
     "feedbackUrl": "",
     "deadline": "",
-    "relatedBills": ["4-electronic-transactions-amendment-bill", "13-cyber-security-amendment-bill", "14-national-communications-authority-amendment-bill"]
+    "relatedBills": [
+      "4-electronic-transactions-amendment-bill",
+      "13-cyber-security-amendment-bill",
+      "14-national-communications-authority-amendment-bill"
+    ]
   }
 }

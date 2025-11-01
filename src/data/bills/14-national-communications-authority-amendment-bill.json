@@ -403,9 +403,9 @@
     "url": "",
     "duration": "10:00"
   },
-  "deadline": "",
-  "feedbackInstructions": "",
-  "feedbackUrl": "",
+  "deadline": "2025-11-14",
+  "feedbackInstructions": "Submit responses electronically to info@nca.org.gh. Respondents are encouraged to specify the sections of the Bill they support or oppose and to provide suggestions for improvement. All responses will be treated as non-confidential.",
+  "feedbackUrl": "mailto:info@nca.org.gh",
   "relatedBills": [
     "5-electronic-communications-amendment-bill",
     "6-misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025",
