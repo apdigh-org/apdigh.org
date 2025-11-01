@@ -341,10 +341,7 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
                 Executive Summary
               </h2>
               <div class="bg-white border-2 border-gray-200 rounded-xl p-6">
-                <div id="summary-preview" class="text-lg text-gray-700 font-medium leading-relaxed prose prose-lg max-w-none">
-                  <div set:html={marked.parse(summaryTruncation.truncated)} />
-                </div>
-                <div id="summary-full" class="hidden text-lg text-gray-900 font-medium leading-relaxed prose prose-lg max-w-none">
+                <div id="summary-content" class="text-lg text-gray-900 font-medium leading-relaxed prose prose-lg max-w-none">
                   <div set:html={marked.parse(bill.summary)} />
                 </div>
                 {summaryTruncation.isTruncated && (
@@ -755,31 +752,34 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
   let summaryExpanded = false;
 
   function toggleSummary() {
-    const preview = document.getElementById('summary-preview');
-    const full = document.getElementById('summary-full');
+    const content = document.getElementById('summary-content');
     const toggleText = document.getElementById('summary-toggle-text');
     const toggleIcon = document.getElementById('summary-toggle-icon');
-    const button = document.getElementById('summary-toggle');
 
     summaryExpanded = !summaryExpanded;
 
     if (summaryExpanded) {
-      preview.classList.add('hidden');
-      full.classList.remove('hidden');
+      content.style.maxHeight = 'none';
+      content.style.overflow = 'visible';
       toggleText.textContent = 'Show less';
       toggleIcon.classList.add('rotate-180');
     } else {
-      preview.classList.remove('hidden');
-      full.classList.add('hidden');
+      content.style.maxHeight = '300px';
+      content.style.overflow = 'hidden';
       toggleText.textContent = 'Read full summary';
       toggleIcon.classList.remove('rotate-180');
     }
-
-    // Smooth scroll to keep the button visible after content change
-    requestAnimationFrame(() => {
-      button.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-    });
   }
+
+  // Initialize collapsed state on load
+  window.addEventListener('DOMContentLoaded', () => {
+    const content = document.getElementById('summary-content');
+    if (content) {
+      content.style.maxHeight = '300px';
+      content.style.overflow = 'hidden';
+      content.style.transition = 'max-height 0.3s ease-out';
+    }
+  });
 
   function openImpactModal(impactKey, impactName, analysisText) {
     const modal = document.getElementById('impactModal');
