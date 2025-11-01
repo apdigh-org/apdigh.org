@@ -42,7 +42,7 @@ class ImpactAssessor(dspy.Signature):
     Procedural provisions (repeals, savings, commencement, interpretation, definitions) should be rated
     based on their own text and direct effects, not the broader bill's substantive requirements.
 
-    Evaluation framework:
+    Evaluation framework - assess both compliance AND enhancement:
     - RULE OF LAW: Legal certainty, non-arbitrariness, equality before the law, judicial independence
     - FUNDAMENTAL JUSTICE: Presumption of innocence, right to fair trial, no punishment without law
     - SEPARATION OF POWERS: Checks and balances, independent oversight, no concentration of incompatible roles
@@ -50,9 +50,49 @@ class ImpactAssessor(dspy.Signature):
     - DUE PROCESS: Notice, hearing, appeal rights, independent review before coercive action
     - DEMOCRATIC ACCOUNTABILITY: Transparency, parliamentary oversight, limits on executive power
 
-    Rate based on deviation from established democratic norms, not theoretical abuse scenarios.
+    Rate based on deviation from OR improvement upon established democratic norms. Consider both problems and benefits.
+
+    Impact levels (neutral):
+    - neutral: No meaningful impact on this topic area
+
+    Impact levels (positive):
+    - low-positive: Minor beneficial changes or improvements to existing frameworks. Routine enhancements.
+    - medium-positive: Within the range of good democratic practice with beneficial procedural refinements or
+                       safeguards. Standard good governance practices such as adding appeal rights, establishing
+                       clear procedures, or requiring transparency. Common beneficial approaches found in well-
+                       functioning democratic jurisdictions.
+    - high-positive: Significant improvements over international best practices that exceed norms in most OECD
+                     countries. Establishes beneficial protections, streamlined processes, or institutional safeguards
+                     that go beyond what is typical in functioning democracies. Examples: Strong privacy protections
+                     exceeding GDPR, independent oversight bodies with teeth, explicit protections for researchers/
+                     journalists, streamlined market entry reducing barriers.
+    - severe-positive: Fundamental enhancements of rule of law principles or international human rights standards.
+                       Provisions that would be studied as constitutional best practice in established democracies
+                       or exemplify core principles such as:
+                       * Judicial independence (strong institutional protections)
+                       * Proportionality (well-calibrated incentives and safeguards)
+                       * Legal certainty (clearly defined rights and obligations)
+                       * Due process (robust hearing and review mechanisms)
+                       * Separation of powers (independent oversight + clear accountability)
+                       * Market freedom (removal of unnecessary barriers, enabling innovation while maintaining
+                         essential safeguards, precedent-setting practices that balance rights and innovation)
 
     Impact levels (negative):
+    - low-negative: Minor administrative or technical changes with negligible practical impact. Routine
+                    adjustments to existing frameworks.
+    - medium-negative: Within the range of democratic practice but missing some procedural refinements or
+                       safeguards. Common regulatory approaches that may be on the stricter end but are found
+                       in some democratic jurisdictions. Standard government powers (licensing, exemptions,
+                       enforcement) that lack optimal oversight but don't represent fundamental departures.
+                       Note: Distinguish between licensing for regulated activities (finance, healthcare, aviation
+                       operations) which is standard, versus licensing requirements that extend beyond regulated
+                       activities to capture general market participation or information provision.
+    - high-negative: Significant departures from international best practices that exceed norms in most OECD
+                     countries. Creates substantial barriers, compliance burdens, or discretionary powers that,
+                     while not fundamental rights violations, go beyond what is typical in functioning democracies.
+                     Includes government licensing requirements that restrict market entry for activities that are
+                     typically unregulated in democracies (e.g., requiring licenses to provide publicly available
+                     information or data services).
     - severe-negative: Fundamental violations of rule of law principles or international human rights standards.
                        Provisions that would be struck down as unconstitutional in established democracies or
                        violate core principles such as:
@@ -64,34 +104,12 @@ class ImpactAssessor(dspy.Signature):
                        * Government infrastructure control (mandatory use of government-controlled infrastructure
                          for private business operations, without precedent in OECD democracies, especially when
                          combined with penalties that include license revocation or business exclusion)
-    - high-negative: Significant departures from international best practices that exceed norms in most OECD
-                     countries. Creates substantial barriers, compliance burdens, or discretionary powers that,
-                     while not fundamental rights violations, go beyond what is typical in functioning democracies.
-                     Includes government licensing requirements that restrict market entry for activities that are
-                     typically unregulated in democracies (e.g., requiring licenses to provide publicly available
-                     information or data services).
-    - medium-negative: Within the range of democratic practice but missing some procedural refinements or
-                       safeguards. Common regulatory approaches that may be on the stricter end but are found
-                       in some democratic jurisdictions. Standard government powers (licensing, exemptions,
-                       enforcement) that lack optimal oversight but don't represent fundamental departures.
-                       Note: Distinguish between licensing for regulated activities (finance, healthcare, aviation
-                       operations) which is standard, versus licensing requirements that extend beyond regulated
-                       activities to capture general market participation or information provision.
-    - low-negative: Minor administrative or technical changes with negligible practical impact. Routine
-                    adjustments to existing frameworks.
 
-    Impact levels (neutral/positive):
-    - neutral: No meaningful impact on this topic area
-    - low-positive: Minor beneficial changes or improvements
-    - medium-positive: Moderate improvements to rights, processes, or innovation
-    - high-positive: Significant benefits, enables innovation, or meaningfully protects important rights
-    - severe-positive: Transformative positive change for rights, freedoms, or innovation
-
-    Topic areas:
-    - Digital Innovation: Tech startups, market entry, innovation barriers, compliance costs, chilling effects on experimentation
-    - Freedom of Speech: Content monitoring, censorship mechanisms, platform regulations, journalist protections
-    - Privacy & Data Rights: Data protection, retention, government access, surveillance capabilities, user privacy
-    - Business Environment: Operational costs, compliance requirements, data localization, market barriers, enforcement risk
+    Topic areas (consider both harmful and beneficial provisions):
+    - Digital Innovation: Tech startups, market entry facilitation/barriers, innovation enablers/obstacles, compliance streamlining/costs, safe harbors/chilling effects
+    - Freedom of Speech: User protections/content monitoring, speech safeguards/censorship mechanisms, journalist protections/platform regulations
+    - Privacy & Data Rights: Data protection strengthening/weakening, retention limits/requirements, user rights/government access, privacy safeguards/surveillance
+    - Business Environment: Reduced barriers/operational costs, simplified procedures/compliance burdens, flexibility/data localization, market access/market barriers
     """
 
     bill_context: str = dspy.InputField(desc="Executive summary providing context about what the bill does")

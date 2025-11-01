@@ -49,6 +49,7 @@ class KeyConcernGenerator(dspy.Signature):
     - Explain the specific problem this provision creates (2-3 sentences)
     - Focus on practical impact on rights, freedoms, or businesses
     - Be written in accessible language for non-experts
+    - Use markdown formatting: **bold** for key terms, quoted provisions, or critical issues
     - Be specific to this particular provision's issue
     - Consider the broader bill context when assessing severity
     - Highlight institutional design flaws, not just direct impacts
@@ -65,7 +66,7 @@ class KeyConcernGenerator(dspy.Signature):
     impact_level: str = dspy.InputField(desc="The impact level (severe-negative or high-negative)")
 
     title: str = dspy.OutputField(desc="Concern title (5-8 words, attention-grabbing)")
-    description: str = dspy.OutputField(desc="Concern description (2-3 sentences explaining the problem)")
+    description: str = dspy.OutputField(desc="Concern description (2-3 sentences explaining the problem, use markdown formatting)")
     severity: Severity = dspy.OutputField(desc="Severity level: critical, high, medium or low")
 
 

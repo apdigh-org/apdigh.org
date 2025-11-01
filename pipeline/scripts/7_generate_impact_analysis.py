@@ -24,10 +24,12 @@ class TopicImpactAnalyzer(dspy.Signature):
     The analysis should:
     - Assess the overall impact level considering all provisions
     - Summarize how the bill affects this topic area
-    - Explain the severity and scope of the impact
+    - Explain the magnitude and scope of the impact (both positive and negative effects)
     - Identify key provisions driving the impact
     - Be 2-3 paragraphs
+    - Use markdown formatting: **bold** for key terms and important provisions, bullet lists where helpful
     - Be written in accessible language
+    - Maintain objectivity - describe both beneficial and problematic aspects where applicable
     """
 
     bill_context: str = dspy.InputField(desc="Executive summary providing context about what the bill does")
@@ -36,7 +38,7 @@ class TopicImpactAnalyzer(dspy.Signature):
     provisions_summary: str = dspy.InputField(desc="JSON of provisions affecting this topic with their summaries")
 
     overall_impact: ImpactLevel = dspy.OutputField(desc="Overall impact level for this topic considering all provisions")
-    impact_analysis: str = dspy.OutputField(desc="Impact analysis for this topic (2-3 paragraphs)")
+    impact_analysis: str = dspy.OutputField(desc="Impact analysis for this topic (2-3 paragraphs, use markdown formatting)")
 
 
 def setup_dspy():

@@ -23,8 +23,9 @@ class SectionSummarizer(dspy.Signature):
     The summary should:
     - Explain what the provision does in simple, accessible language
     - Avoid legal jargon where possible
-    - Be 2-3 sentences maximum
+    - Be 3-5 sentences maximum
     - Focus on the practical impact or purpose
+    - Remain neutral and descriptive - do not characterize provisions as positive or negative
     """
 
     title: str = dspy.InputField(desc="The provision title")

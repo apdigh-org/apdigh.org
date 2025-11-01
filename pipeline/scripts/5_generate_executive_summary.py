@@ -22,24 +22,24 @@ class ExecutiveSummaryGenerator(dspy.Signature):
 
     The summary should:
     - Be 3-4 paragraphs
-    - Use minimal markdown formatting: **bold** for key terms/concerns, bullet lists where helpful
-    - Provide objective analysis, NOT promotional language
+    - Use minimal markdown formatting: **bold** for key terms and significant implications (both positive and negative), bullet lists where helpful
+    - Provide objective and balanced analysis, NOT promotional or advocacy language
     - Start with what the bill DOES (not "aims to do", "likely", or "probably")
     - Use definitive language based on actual provisions provided
     - DO NOT use speculative words like "likely", "probably", "could", "might" - you have the actual bill content
-    - Identify key provisions and their practical implications
-    - Highlight potential concerns, risks, or controversial aspects (use **bold** to emphasize concerns)
-    - Note any provisions that affect rights, freedoms, or business operations
-    - Be balanced - mention both opportunities and challenges
+    - Be balanced - identify both opportunities and challenges with equal attention
+    - Identify key provisions and their practical implications (beneficial, problematic, or neutral)
+    - Describe significant implications - both beneficial developments and potential concerns
+    - Note provisions that enhance or affect rights, freedoms, or business operations
     - Be written in accessible language for non-experts
-    - Reference Ghana (NOT Uganda or any other country)
+    - Reference country is Ghana
     - Cover impacts across: Digital Innovation, Freedom of Speech, Privacy & Data Rights, Business Environment
     """
 
     bill_title: str = dspy.InputField(desc="The bill title")
     provisions_summary: str = dspy.InputField(desc="Complete JSON of ALL bill provisions with their plain language summaries - you have full access to the entire bill content")
 
-    executive_summary: str = dspy.OutputField(desc="Comprehensive executive summary about this Ghanaian bill (3-4 paragraphs, definitive analysis based on actual provisions)")
+    executive_summary: str = dspy.OutputField(desc="Comprehensive executive summary about this Ghanaian bill (3-5 paragraphs, use markdown formatting as described above, definitive analysis based on actual provisions)")
 
 
 def setup_dspy():
