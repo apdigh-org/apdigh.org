@@ -492,13 +492,23 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
                         const severityConfig = getSeverityConfig(concern.severity);
                         return (
                           <div id={concern.id} class="bg-white border-2 border-red-200 rounded-lg p-5 scroll-mt-24 hover:border-red-400 transition-colors flex-shrink-0 w-[340px] flex flex-col">
-                            <div class="flex items-center gap-3 mb-3">
-                              <div class="flex-shrink-0 w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center">
-                                <span class="text-lg font-bold text-red-600">{index + 1}</span>
+                            <div class="flex items-center justify-between gap-3 mb-3">
+                              <div class="flex items-center gap-3 flex-1">
+                                <div class="flex-shrink-0 w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center">
+                                  <span class="text-lg font-bold text-red-600">{index + 1}</span>
+                                </div>
+                                <span class={`px-2 py-1 text-xs font-semibold rounded border ${severityConfig.badgeClass}`}>
+                                  {severityConfig.label}
+                                </span>
                               </div>
-                              <span class={`px-2 py-1 text-xs font-semibold rounded border ${severityConfig.badgeClass}`}>
-                                {severityConfig.label}
-                              </span>
+                              <a
+                                href={`/bills/${bill.id}/concerns/${concern.id}`}
+                                class="flex-shrink-0 inline-flex items-center justify-center w-8 h-8 bg-[var(--color-primary)] text-white rounded-lg hover:bg-[#1E5A5A] transition-colors"
+                                aria-label="Open full analysis"
+                                title="Open full analysis"
+                              >
+                                <i class="ti ti-external-link text-base"></i>
+                              </a>
                             </div>
 
                             <h3 class="text-lg font-bold mb-3 leading-tight h-14 flex items-center">
@@ -512,24 +522,22 @@ const impactsToDisplay = Object.keys(IMPACT_CATEGORIES).map((key) => {
                               set:html={marked.parse(concern.description)}
                             />
 
-                            <div class="pt-3 border-t border-gray-200 space-y-2 mt-auto">
-                              {concern.relatedProvisions && concern.relatedProvisions.length > 0 && (
-                                <div>
-                                  <span class="text-xs font-semibold text-gray-500 block mb-1">See Details:</span>
-                                  <div class="flex flex-wrap gap-1">
-                                    {concern.relatedProvisions.map((provisionId) => (
-                                      <a
-                                        href={`#${provisionId}`}
-                                        class="inline-flex items-center gap-1 text-xs px-2 py-1 bg-gray-100 text-gray-700 rounded hover:bg-[var(--color-primary)] hover:text-white transition-colors"
-                                      >
-                                        <i class="ti ti-arrow-down"></i>
-                                        <span>{bill.provisions?.find(p => p.id === provisionId)?.title || provisionId}</span>
-                                      </a>
-                                    ))}
-                                  </div>
+                            {concern.relatedProvisions && concern.relatedProvisions.length > 0 && (
+                              <div class="pt-3 border-t border-gray-200 mt-auto">
+                                <span class="text-xs font-semibold text-gray-500 block mb-2">See Details:</span>
+                                <div class="flex flex-wrap gap-1">
+                                  {concern.relatedProvisions.map((provisionId) => (
+                                    <a
+                                      href={`#${provisionId}`}
+                                      class="inline-flex items-center gap-1 text-xs px-2 py-1 bg-gray-100 text-gray-700 rounded hover:bg-[var(--color-primary)] hover:text-white transition-colors"
+                                    >
+                                      <i class="ti ti-arrow-down"></i>
+                                      <span>{bill.provisions?.find(p => p.id === provisionId)?.title || provisionId}</span>
+                                    </a>
+                                  ))}
                                 </div>
-                              )}
-                            </div>
+                              </div>
+                            )}
                           </div>
                         );
                       })}

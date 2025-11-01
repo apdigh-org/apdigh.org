@@ -101,10 +101,20 @@ const metaDescription = `${concern.title} - Key concern from ${bill.title}. ${co
             </span>
           </div>
 
-          <!-- Title -->
-          <h1 class="text-4xl md:text-5xl font-bold text-black mb-6">
-            {concern.title}
-          </h1>
+          <!-- Title and Share -->
+          <div class="flex items-start justify-between gap-4 mb-6">
+            <h1 class="text-4xl md:text-5xl font-bold text-black flex-1">
+              {concern.title}
+            </h1>
+            <button
+              onclick="shareConcern()"
+              class="flex-shrink-0 inline-flex items-center gap-2 px-4 py-2 bg-white border-2 border-gray-200 text-gray-700 font-semibold rounded-lg hover:border-[var(--color-primary)] hover:text-[var(--color-primary)] transition-colors"
+              aria-label="Share this concern"
+            >
+              <i class="ti ti-share text-xl"></i>
+              <span class="hidden sm:inline">Share</span>
+            </button>
+          </div>
 
           <!-- Description -->
           <div
@@ -256,3 +266,117 @@ const metaDescription = `${concern.title} - Key concern from ${bill.title}. ${co
 
   <Footer />
 </BaseLayout>
+
+<script is:inline>
+  // Share functionality
+  async function shareConcern() {
+    const url = window.location.href;
+    const title = document.querySelector('h1').textContent;
+    const text = `Check out this key concern: ${title}`;
+
+    // Try Web Share API first (works on mobile and some desktop browsers)
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: title,
+          text: text,
+          url: url
+        });
+      } catch (err) {
+        // User cancelled or error occurred
+        if (err.name !== 'AbortError') {
+          console.error('Error sharing:', err);
+          fallbackCopyToClipboard(url);
+        }
+      }
+    } else {
+      // Fallback: Copy to clipboard
+      fallbackCopyToClipboard(url);
+    }
+  }
+
+  function fallbackCopyToClipboard(url) {
+    // Try modern clipboard API
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(() => {
+        showShareNotification('Link copied to clipboard!');
+      }).catch(() => {
+        // Fallback to older method
+        legacyCopyToClipboard(url);
+      });
+    } else {
+      legacyCopyToClipboard(url);
+    }
+  }
+
+  function legacyCopyToClipboard(url) {
+    const textarea = document.createElement('textarea');
+    textarea.value = url;
+    textarea.style.position = 'fixed';
+    textarea.style.opacity = '0';
+    document.body.appendChild(textarea);
+    textarea.select();
+
+    try {
+      document.execCommand('copy');
+      showShareNotification('Link copied to clipboard!');
+    } catch (err) {
+      showShareNotification('Failed to copy link. Please copy manually.', true);
+    }
+
+    document.body.removeChild(textarea);
+  }
+
+  function showShareNotification(message, isError = false) {
+    // Create notification element
+    const notification = document.createElement('div');
+    notification.textContent = message;
+    notification.style.cssText = `
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: ${isError ? '#ef4444' : 'var(--color-primary)'};
+      color: white;
+      padding: 1rem 1.5rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+      z-index: 9999;
+      font-weight: 600;
+      animation: slideIn 0.3s ease-out;
+    `;
+
+    document.body.appendChild(notification);
+
+    // Remove after 3 seconds
+    setTimeout(() => {
+      notification.style.animation = 'slideOut 0.3s ease-out';
+      setTimeout(() => {
+        document.body.removeChild(notification);
+      }, 300);
+    }, 3000);
+  }
+</script>
+
+<style>
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideOut {
+    from {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+  }
+</style>
