@@ -74,12 +74,11 @@ def calculate_statistics(sections: list) -> dict:
     return stats
 
 
-def enrich_metadata(json_path: Path, force: bool = False):
+def enrich_metadata(json_path: Path):
     """Enrich bill JSON with metadata.
 
     Args:
         json_path: Path to bill JSON file
-        force: If True, regenerate even if metadata exists
     """
     print(f"\nProcessing: {json_path.name}")
     print("=" * 80)
@@ -88,16 +87,7 @@ def enrich_metadata(json_path: Path, force: bool = False):
     with open(json_path, 'r', encoding='utf-8') as f:
         bill_data = json.load(f)
 
-    # Check if already has metadata
-    if 'metadata' in bill_data and not force:
-        print("✓ Metadata already exists")
-        print("  Skipping (use --force to regenerate)")
-        return
-
     sections = bill_data.get('sections', [])
-    if not sections:
-        print("No sections found in bill")
-        return
 
     # Use filename as the reliable source
     # Remove number prefix from title, but keep it in slug
@@ -114,13 +104,28 @@ def enrich_metadata(json_path: Path, force: bool = False):
     pdf_name = json_path.stem + '.pdf'
     pdf_path = json_path.parent.parent / 'pdfs' / pdf_name
 
+    # Load static metadata from bill-metadata.json
+    static_metadata_path = json_path.parent.parent / 'bill-metadata.json'
+    static_metadata = {}
+    if static_metadata_path.exists():
+        with open(static_metadata_path, 'r', encoding='utf-8') as f:
+            all_static_metadata = json.load(f)
+            static_metadata = all_static_metadata.get(bill_slug, {})
+            if static_metadata:
+                print(f"✓ Found static metadata for {bill_slug}")
+
     # Build metadata
     metadata = {
         'title': bill_title,
         'slug': bill_slug,
         'pdfPath': f'pdfs/{pdf_name}' if pdf_path.exists() else None,
         'processedAt': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),
-        'statistics': stats
+        'statistics': stats,
+        'notebookLMUrl': static_metadata.get('notebookLMUrl', ''),
+        'feedbackInstructions': static_metadata.get('feedbackInstructions', ''),
+        'feedbackUrl': static_metadata.get('feedbackUrl', ''),
+        'deadline': static_metadata.get('deadline', ''),
+        'relatedBills': static_metadata.get('relatedBills', [])
     }
 
     # Show metadata
@@ -151,15 +156,11 @@ def enrich_metadata(json_path: Path, force: bool = False):
 def main():
     """Main entry point."""
     if len(sys.argv) < 2:
-        print("Usage: python 9_enrich_metadata.py <bill-json-path> [--force]")
+        print("Usage: python 9_enrich_metadata.py <bill-json-path>")
         print()
         print("Example:")
         print("  python 9_enrich_metadata.py 'output/1. National Information Technology Authority (Amendment) Bill.json'")
-        print("  python 9_enrich_metadata.py output/bill.json --force    # Regenerate")
         sys.exit(1)
-
-    # Check for flags
-    force = "--force" in sys.argv or "-f" in sys.argv
 
     # Get single bill path
     bill_path = Path(sys.argv[1])
@@ -170,7 +171,7 @@ def main():
 
     # Process the bill
     try:
-        enrich_metadata(bill_path, force=force)
+        enrich_metadata(bill_path)
     except Exception as e:
         print(f"Error processing {bill_path.name}: {e}")
         import traceback

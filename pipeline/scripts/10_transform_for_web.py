@@ -17,12 +17,6 @@ import subprocess
 from shared import TOPICS, slugify
 
 
-def extract_bill_number(filename: str) -> str:
-    """Extract bill number from filename (e.g., '1. National...' -> '1')."""
-    match = re.match(r'^(\d+)\.', filename)
-    return match.group(1) if match else ''
-
-
 def transform_bill(bill_data: dict, filename: str) -> dict:
     """Transform pipeline JSON to web app format.
 
@@ -33,8 +27,6 @@ def transform_bill(bill_data: dict, filename: str) -> dict:
     Returns:
         Dict matching the web app's Bill interface
     """
-    bill_number = extract_bill_number(filename)
-    bill_id = slugify(filename)
 
     # Get executive summary
     executive_summary = bill_data.get('executiveSummary', '')
@@ -121,29 +113,36 @@ def transform_bill(bill_data: dict, filename: str) -> dict:
             'relatedImpacts': []  # Could be derived from provisions if needed
         })
 
-    # Get title from metadata (cleaned, without number prefix) or fallback to filename
+    # Get metadata (includes static metadata from bill-metadata.json)
     metadata = bill_data.get('metadata', {})
+    bill_id = metadata.get('slug', '')
     bill_title = metadata.get('title', filename)
-
-    # Get PDF path from metadata if available
     pdf_path = metadata.get('pdfPath', None)
+
+    # Get static metadata fields
+    notebook_lm_url = metadata.get('notebookLMUrl', '')
+    feedback_instructions = metadata.get('feedbackInstructions', '')
+    feedback_url = metadata.get('feedbackUrl', '')
+    deadline = metadata.get('deadline', '')
+    related_bills = metadata.get('relatedBills', [])
 
     # Build final bill object
     web_bill = {
         'id': bill_id,
         'title': bill_title,
         'summary': executive_summary,
-        'pdfPath': pdf_path,  # Add PDF path for download button
+        'pdfPath': pdf_path,
         'impacts': impacts,
         'keyConcerns': key_concerns,
         'provisions': provisions,
         'notebookLMVideo': {
-            'url': '',  # To be added manually
+            'url': notebook_lm_url,
             'duration': '10:00'
         },
-        'deadline': '2025-12-31',  # Default deadline
-        'submissionMethod': 'Email to clerk@parliament.gov.gh',  # Default
-        'relatedBills': []  # To be added manually
+        'deadline': deadline,
+        'feedbackInstructions': feedback_instructions,
+        'feedbackUrl': feedback_url,
+        'relatedBills': related_bills
     }
 
     return web_bill
@@ -617,9 +616,10 @@ def process_bill(json_path: Path, web_app_dir: Path, dry_run: bool = False):
     with open(json_path, 'r', encoding='utf-8') as f:
         bill_data = json.load(f)
 
-    # Extract filename without extension
+    # Get bill ID from metadata (which has the clean slug)
+    metadata = bill_data.get('metadata', {})
+    bill_id = metadata.get('slug', '')
     filename = json_path.stem
-    bill_id = slugify(filename)
 
     # Output path
     output_path = web_app_dir / f"{bill_id}.json"

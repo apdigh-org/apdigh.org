@@ -1,0 +1,107 @@
+{
+  "1-national-information-technology-authority-amendment-bill": {
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": ["2-emerging-technologies-bill", "7-ghana-india-kofi-annan-centre-of-excellence-in-ict-bill", "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act"]
+  },
+  "2-emerging-technologies-bill": {
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": ["1-national-information-technology-authority-amendment-bill", "13-cyber-security-amendment-bill", "11-data-protection-commission-amendment-bill"]
+  },
+  "3-postal-courier-logistics-services-commission-amendment-bill": {
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": ["5-electronic-communications-amendment-bill", "14-national-communications-authority-amendment-bill"]
+  },
+  "4-electronic-transactions-amendment-bill": {
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": ["15-ghana-domain-name-registry-bill-formerly-provided-for-in-electronic-transactions-act", "13-cyber-security-amendment-bill", "11-data-protection-commission-amendment-bill"]
+  },
+  "5-electronic-communications-amendment-bill": {
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": ["14-national-communications-authority-amendment-bill", "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act", "3-postal-courier-logistics-services-commission-amendment-bill"]
+  },
+  "6-misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025": {
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": ["5-electronic-communications-amendment-bill", "14-national-communications-authority-amendment-bill", "13-cyber-security-amendment-bill"]
+  },
+  "7-ghana-india-kofi-annan-centre-of-excellence-in-ict-bill": {
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": ["1-national-information-technology-authority-amendment-bill", "2-emerging-technologies-bill", "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act"]
+  },
+  "8-digital-economy-and-innovation-development-fund-bill-formerly-gifec-in-electronic-communications-act": {
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": ["5-electronic-communications-amendment-bill", "1-national-information-technology-authority-amendment-bill", "7-ghana-india-kofi-annan-centre-of-excellence-in-ict-bill"]
+  },
+  "9-ghana-meteorological-authority-amendment-bill": {
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": ["12-data-harmonisation-bill", "11-data-protection-commission-amendment-bill"]
+  },
+  "10-ghana-meteorological-authority-amendment-bill": {
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": ["12-data-harmonisation-bill", "11-data-protection-commission-amendment-bill"]
+  },
+  "11-data-protection-commission-amendment-bill": {
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": ["12-data-harmonisation-bill", "13-cyber-security-amendment-bill", "4-electronic-transactions-amendment-bill"]
+  },
+  "12-data-harmonisation-bill": {
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": ["11-data-protection-commission-amendment-bill", "9-ghana-meteorological-authority-amendment-bill", "13-cyber-security-amendment-bill"]
+  },
+  "13-cyber-security-amendment-bill": {
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": ["11-data-protection-commission-amendment-bill", "4-electronic-transactions-amendment-bill", "14-national-communications-authority-amendment-bill"]
+  },
+  "14-national-communications-authority-amendment-bill": {
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": ["5-electronic-communications-amendment-bill", "6-misinformation-disinformation-hate-speech-and-publication-of-other-information-mdhi-bill-2025", "13-cyber-security-amendment-bill"]
+  },
+  "15-ghana-domain-name-registry-bill-formerly-provided-for-in-electronic-transactions-act": {
+    "notebookLMUrl": "",
+    "feedbackInstructions": "",
+    "feedbackUrl": "",
+    "deadline": "",
+    "relatedBills": ["4-electronic-transactions-amendment-bill", "13-cyber-security-amendment-bill", "14-national-communications-authority-amendment-bill"]
+  }
+}
