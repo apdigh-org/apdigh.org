@@ -323,6 +323,161 @@ def generate_og_image_svg(web_bill: dict) -> str:
 </svg>'''
 
 
+def generate_concern_og_image_svg(concern: dict, bill_title: str) -> str:
+    """Generate SVG for concern Open Graph image.
+
+    Args:
+        concern: Concern data with title, severity, description
+        bill_title: Parent bill title for context
+
+    Returns:
+        SVG string for concern OG image (1200x630px)
+    """
+    import html
+
+    concern_title = html.escape(concern['title'])
+    bill_title_escaped = html.escape(bill_title)
+    severity = concern.get('severity', 'medium')
+
+    # Split concern title into multiple lines (max 35 chars per line)
+    max_chars_per_line = 40
+    words = concern_title.split()
+    lines = []
+    current_line = ''
+
+    for word in words:
+        test_line = (current_line + ' ' + word).strip() if current_line else word
+        if len(test_line) <= max_chars_per_line:
+            current_line = test_line
+        else:
+            if current_line:
+                lines.append(current_line)
+            # Handle single words longer than max
+            if len(word) > max_chars_per_line:
+                lines.append(word[:max_chars_per_line - 3] + '...')
+                current_line = ''
+            else:
+                current_line = word
+
+    if current_line:
+        lines.append(current_line)
+
+    # Limit to 3 lines max
+    if len(lines) > 3:
+        lines = lines[:3]
+        lines[-1] = lines[-1][:max_chars_per_line - 3] + '...'
+
+    # Generate title tspans
+    title_tspans = ''
+    for i, line in enumerate(lines):
+        dy = '0' if i == 0 else '55'
+        title_tspans += f'<tspan x="600" dy="{dy}">{line}</tspan>'
+
+    # Severity badge styling
+    severity_config = {
+        'critical': {
+            'label': 'CRITICAL SEVERITY',
+            'bg': '#FEE2E2',
+            'border': '#DC2626',
+            'text': '#991B1B'
+        },
+        'high': {
+            'label': 'HIGH SEVERITY',
+            'bg': '#FED7AA',
+            'border': '#EA580C',
+            'text': '#9A3412'
+        },
+        'medium': {
+            'label': 'MEDIUM SEVERITY',
+            'bg': '#FEF3C7',
+            'border': '#F59E0B',
+            'text': '#92400E'
+        },
+        'low': {
+            'label': 'LOW SEVERITY',
+            'bg': '#E5E7EB',
+            'border': '#6B7280',
+            'text': '#374151'
+        }
+    }
+
+    config = severity_config.get(severity, severity_config['medium'])
+
+    # Split bill title into multiple lines for context (max 60 chars per line)
+    max_chars_bill = 60
+    words_bill = bill_title_escaped.split()
+    lines_bill = []
+    current_line_bill = ''
+
+    for word in words_bill:
+        test_line = (current_line_bill + ' ' + word).strip() if current_line_bill else word
+        if len(test_line) <= max_chars_bill:
+            current_line_bill = test_line
+        else:
+            if current_line_bill:
+                lines_bill.append(current_line_bill)
+            current_line_bill = word
+
+    if current_line_bill:
+        lines_bill.append(current_line_bill)
+
+    # Limit to 2 lines max
+    if len(lines_bill) > 2:
+        lines_bill = lines_bill[:2]
+        lines_bill[-1] = lines_bill[-1][:max_chars_bill - 3] + '...'
+
+    # Generate bill context tspans
+    bill_context_tspans = ''
+    for i, line in enumerate(lines_bill):
+        dy = '0' if i == 0 else '30'
+        bill_context_tspans += f'<tspan x="600" dy="{dy}">{line}</tspan>'
+
+    return f'''<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#FDFAF6"/>
+
+  <!-- Ghana flag stripe at top -->
+  <rect x="0" y="0" width="400" height="8" fill="#CE1126"/>
+  <rect x="400" y="0" width="400" height="8" fill="#FCD116"/>
+  <rect x="800" y="0" width="400" height="8" fill="#006B3F"/>
+
+  <!-- Main content area with subtle border -->
+  <rect x="60" y="80" width="1080" height="470" fill="white" stroke="#E5E7EB" stroke-width="2" rx="12"/>
+
+  <!-- APDI Logo/Shield as watermark (huge, centered) -->
+  <g transform="translate(40, -40) scale(28)" opacity="0.08">
+    <path d="M20 2L4 10V18C4 27.94 10.84 37.14 20 39C29.16 37.14 36 27.94 36 18V10L20 2Z"
+          fill="none" stroke="#2A8181" stroke-width="2.5"/>
+    <circle cx="20" cy="20" r="2.5" fill="#2A8181"/>
+    <line x1="20" y1="17.5" x2="20" y2="13" stroke="#2A8181" stroke-width="2"/>
+    <line x1="20" y1="22.5" x2="20" y2="27" stroke="#2A8181" stroke-width="2"/>
+    <line x1="17.5" y1="20" x2="13" y2="20" stroke="#2A8181" stroke-width="2"/>
+    <line x1="22.5" y1="20" x2="27" y2="20" stroke="#2A8181" stroke-width="2"/>
+  </g>
+
+  <!-- Severity Badge (top center) -->
+  <g transform="translate(600, 150)">
+    <rect x="-120" y="-20" width="240" height="50" rx="25" fill="{config['bg']}" stroke="{config['border']}" stroke-width="3"/>
+    <text x="0" y="12" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="{config['text']}" text-anchor="middle">{config['label']}</text>
+  </g>
+
+  <!-- Concern Title (centered, bold) -->
+  <text x="600" y="270" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="700" fill="#111827" text-anchor="middle">
+    {title_tspans}
+  </text>
+
+  <!-- Bill Context -->
+  <text x="600" y="420" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#6B7280" text-anchor="middle">
+    {bill_context_tspans}
+  </text>
+
+  <!-- URL at bottom -->
+  <text x="100" y="500" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="600" fill="#2A8181">
+    apdigh.org
+  </text>
+</svg>'''
+
+
 def convert_svg_to_png(svg_path: Path, png_path: Path) -> bool:
     """Convert SVG to PNG using rsvg-convert or ImageMagick fallback.
 
@@ -399,6 +554,50 @@ def generate_og_image(web_bill: dict, bill_id: str, project_root: Path):
 
     except Exception as e:
         print(f"  ⚠ Warning: Could not generate OG image: {e}")
+
+
+def generate_concern_og_images(web_bill: dict, bill_id: str, project_root: Path):
+    """Generate Open Graph images for all concerns in the bill.
+
+    Args:
+        web_bill: Transformed bill data
+        bill_id: Bill slug ID
+        project_root: Project root directory
+    """
+    concerns = web_bill.get('keyConcerns', [])
+    if not concerns:
+        return
+
+    try:
+        # Create concerns OG directory
+        og_concerns_dir = project_root / 'public' / 'images' / 'og' / 'concerns'
+        og_concerns_dir.mkdir(parents=True, exist_ok=True)
+
+        bill_title = web_bill.get('title', 'Bill')
+
+        for concern in concerns:
+            concern_id = concern.get('id', '')
+            if not concern_id:
+                continue
+
+            # Generate SVG
+            svg_content = generate_concern_og_image_svg(concern, bill_title)
+            filename_base = f"{bill_id}_{concern_id}"
+            svg_path = og_concerns_dir / f"{filename_base}.svg"
+
+            with open(svg_path, 'w', encoding='utf-8') as f:
+                f.write(svg_content)
+
+            print(f"  ✓ Generated concern OG SVG: {svg_path.relative_to(project_root)}")
+
+            # Convert to PNG
+            png_path = og_concerns_dir / f"{filename_base}.png"
+            if convert_svg_to_png(svg_path, png_path):
+                size_kb = png_path.stat().st_size // 1024
+                print(f"  ✓ Converted to PNG: {png_path.relative_to(project_root)} ({size_kb}KB)")
+
+    except Exception as e:
+        print(f"  ⚠ Warning: Could not generate concern OG images: {e}")
 
 
 def process_bill(json_path: Path, web_app_dir: Path, dry_run: bool = False):
@@ -482,6 +681,9 @@ def process_bill(json_path: Path, web_app_dir: Path, dry_run: bool = False):
 
     # Generate Open Graph image
     generate_og_image(web_bill, bill_id, project_root)
+
+    # Generate concern OG images
+    generate_concern_og_images(web_bill, bill_id, project_root)
 
 
 def main():

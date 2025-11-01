@@ -34,6 +34,10 @@ export function getBillOGImage(billId: string): string {
   return `/images/og/${billId}.png`;
 }
 
+export function getConcernOGImage(billId: string, concernId: string): string {
+  return `/images/og/concerns/${billId}_${concernId}.png`;
+}
+
 export function truncateDescription(text: string, maxLength: number = 160): string {
   if (text.length <= maxLength) return text;
 

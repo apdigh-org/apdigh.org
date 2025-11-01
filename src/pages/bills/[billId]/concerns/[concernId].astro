@@ -1,0 +1,258 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import Header from '../../../../components/layout/Header.astro';
+import Footer from '../../../../components/layout/Footer.astro';
+import { getAllBills } from '../../../../utils/bills';
+import { getConcernOGImage } from '../../../../utils/seo';
+import { IMPACT_CATEGORIES, getImpactName, type ImpactKey } from '../../../../constants/impacts';
+import { marked } from 'marked';
+
+// Generate static paths for all bill concerns
+export async function getStaticPaths() {
+  const bills = await getAllBills();
+
+  const paths = [];
+  for (const bill of bills) {
+    if (bill.keyConcerns && bill.keyConcerns.length > 0) {
+      for (const concern of bill.keyConcerns) {
+        paths.push({
+          params: {
+            billId: bill.id,
+            concernId: concern.id
+          },
+          props: { bill, concern },
+        });
+      }
+    }
+  }
+
+  return paths;
+}
+
+const { bill, concern } = Astro.props;
+
+// Helper to get severity badge styling
+const getSeverityConfig = (severity: string) => {
+  switch (severity) {
+    case 'critical':
+      return {
+        color: 'bg-red-100 text-red-900 border-red-300',
+        icon: 'ti-alert-triangle-filled',
+        label: 'Critical'
+      };
+    case 'high':
+      return {
+        color: 'bg-orange-100 text-orange-900 border-orange-300',
+        icon: 'ti-alert-circle-filled',
+        label: 'High'
+      };
+    case 'medium':
+      return {
+        color: 'bg-yellow-100 text-yellow-900 border-yellow-300',
+        icon: 'ti-alert-circle',
+        label: 'Medium'
+      };
+    default:
+      return {
+        color: 'bg-gray-100 text-gray-900 border-gray-300',
+        icon: 'ti-info-circle',
+        label: 'Low'
+      };
+  }
+};
+
+const severityConfig = getSeverityConfig(concern.severity);
+const metaDescription = `${concern.title} - Key concern from ${bill.title}. ${concern.description.substring(0, 100)}...`;
+---
+
+<BaseLayout
+  title={`${concern.title} | ${bill.title}`}
+  description={metaDescription}
+  ogImage={getConcernOGImage(bill.id, concern.id)}
+  ogType="article"
+>
+  <Header />
+
+  <main id="main-content" class="flex-1">
+    <!-- Breadcrumbs -->
+    <section class="bg-white border-b border-gray-200 py-4">
+      <div class="container">
+        <nav class="flex items-center gap-2 text-sm text-gray-600">
+          <a href="/" class="hover:text-[var(--color-primary)] transition-colors">Home</a>
+          <i class="ti ti-chevron-right text-gray-400"></i>
+          <a href="/bills" class="hover:text-[var(--color-primary)] transition-colors">Bills</a>
+          <i class="ti ti-chevron-right text-gray-400"></i>
+          <a href={`/bills/${bill.id}`} class="hover:text-[var(--color-primary)] transition-colors">{bill.title}</a>
+          <i class="ti ti-chevron-right text-gray-400"></i>
+          <span class="text-gray-900 font-medium">Key Concern</span>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Concern Detail -->
+    <section class="py-12 md:py-16 bg-gradient-to-b from-white to-gray-50">
+      <div class="container">
+        <div class="max-w-4xl mx-auto">
+          <!-- Severity Badge -->
+          <div class="mb-6">
+            <span class={`inline-flex items-center gap-2 px-4 py-2 rounded-full border-2 ${severityConfig.color} font-semibold text-sm`}>
+              <i class={`${severityConfig.icon} text-lg`}></i>
+              {severityConfig.label} Severity
+            </span>
+          </div>
+
+          <!-- Title -->
+          <h1 class="text-4xl md:text-5xl font-bold text-black mb-6">
+            {concern.title}
+          </h1>
+
+          <!-- Description -->
+          <div
+            class="prose prose-lg max-w-none mb-8 text-gray-900"
+            set:html={marked.parse(concern.description)}
+          />
+
+          <!-- Why It Matters (if available) -->
+          {concern.why_it_matters && (
+            <div class="bg-blue-50 border-2 border-blue-200 rounded-xl p-6 mb-8">
+              <h2 class="text-2xl font-bold text-blue-900 mb-4 flex items-center gap-2">
+                <i class="ti ti-bulb"></i>
+                Why It Matters
+              </h2>
+              <div
+                class="prose prose-blue max-w-none text-blue-900"
+                set:html={marked.parse(concern.why_it_matters)}
+              />
+            </div>
+          )}
+
+          <!-- Related Provisions -->
+          {concern.relatedProvisions && concern.relatedProvisions.length > 0 && (
+            <section id="related-provisions" class="mb-12">
+              <h2 class="text-3xl font-bold text-black mb-6 flex items-center gap-3">
+                <i class="ti ti-list-details text-[var(--color-primary)]"></i>
+                Related Provisions
+              </h2>
+
+              <div class="space-y-3">
+                {concern.relatedProvisions.map((provisionId: string) => {
+                  const provision = bill.provisions?.find((p: any) => p.id === provisionId);
+                  if (!provision) return null;
+
+                  return (
+                    <details id={provision.id} class="group bg-white border-2 border-gray-200 rounded-xl overflow-hidden hover:border-[var(--color-primary)] transition-all scroll-mt-24">
+                      <summary class="flex items-center justify-between p-5 cursor-pointer hover:bg-gray-50 transition-colors">
+                        <div class="flex items-start gap-3 flex-1">
+                          <i class="ti ti-file-text text-xl text-gray-400 group-hover:text-[var(--color-primary)] transition-colors flex-shrink-0 mt-0.5"></i>
+                          <h3 class="font-bold text-black text-lg">
+                            {provision.section_number && (
+                              <span class="text-[var(--color-primary)] mr-2">Section {provision.section_number}</span>
+                            )}
+                            {provision.title}
+                          </h3>
+                        </div>
+                        <i class="ti ti-chevron-down text-xl text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0 ml-4"></i>
+                      </summary>
+
+                      <div class="px-5 pb-5 pt-2 border-t border-gray-200 space-y-4">
+                        {/* Impact badges */}
+                        {provision.relatedImpacts && provision.relatedImpacts.length > 0 && (
+                          <div class="bg-gray-50 rounded-lg px-4 py-2">
+                            <div class="flex flex-wrap items-center gap-2">
+                              <span class="text-xs font-semibold text-gray-600">This provision affects:</span>
+                              {provision.relatedImpacts.map((impactKey: string) => {
+                                const category = IMPACT_CATEGORIES[impactKey as ImpactKey];
+                                const impactData = bill.impacts?.[impactKey];
+                                if (!category || !impactData) return null;
+
+                                const impactScore = impactData.score || 'neutral';
+                                let bgColor = 'bg-gray-100';
+                                let textColor = 'text-gray-800';
+
+                                if (impactScore.includes('severe-negative')) {
+                                  bgColor = 'bg-red-100';
+                                  textColor = 'text-red-900';
+                                } else if (impactScore.includes('high-negative')) {
+                                  bgColor = 'bg-orange-100';
+                                  textColor = 'text-orange-900';
+                                } else if (impactScore.includes('medium-negative')) {
+                                  bgColor = 'bg-yellow-100';
+                                  textColor = 'text-yellow-900';
+                                } else if (impactScore.includes('positive')) {
+                                  bgColor = 'bg-green-100';
+                                  textColor = 'text-green-900';
+                                }
+
+                                return (
+                                  <span class={`inline-flex items-center gap-1 text-xs px-2 py-1 ${bgColor} ${textColor} font-medium rounded-full`}>
+                                    {category.name}
+                                  </span>
+                                );
+                              })}
+                            </div>
+                          </div>
+                        )}
+
+                        {/* Plain language explanation */}
+                        {provision.plainLanguage && (
+                          <div>
+                            <h4 class="text-sm font-semibold text-gray-600 mb-2">Plain Language Summary</h4>
+                            <div
+                              class="text-gray-900 leading-relaxed prose max-w-none"
+                              set:html={marked.parse(provision.plainLanguage)}
+                            />
+                          </div>
+                        )}
+
+                        {/* Raw text with toggle */}
+                        {provision.rawText && (
+                          <details class="border-2 border-gray-200 rounded-lg overflow-hidden">
+                            <summary class="px-4 py-3 cursor-pointer hover:bg-gray-50 transition-colors flex items-center gap-2 bg-white">
+                              <i class="ti ti-file-text text-gray-600"></i>
+                              <span class="text-sm font-semibold text-gray-700">Show Original Legal Text</span>
+                            </summary>
+                            <div class="px-4 py-4 bg-gray-50 border-t-2 border-gray-200">
+                              <div class="max-h-96 overflow-y-auto">
+                                <div
+                                  class="text-sm text-gray-700 leading-relaxed italic border-l-4 border-[var(--color-primary)] pl-4 py-2 prose prose-sm max-w-none"
+                                  set:html={marked.parse(provision.rawText)}
+                                />
+                              </div>
+                              <p class="text-xs text-gray-500 mt-3 pt-3 border-t border-gray-300">
+                                <i class="ti ti-info-circle text-gray-400"></i>
+                                Note: This text is extracted from the PDF and may contain formatting errors or inaccuracies. For full accuracy, please refer to the official PDF document.
+                              </p>
+                            </div>
+                          </details>
+                        )}
+                      </div>
+                    </details>
+                  );
+                })}
+              </div>
+            </section>
+          )}
+
+          <!-- Back to Bill -->
+          <div class="flex gap-4 pt-8 border-t border-gray-200">
+            <a
+              href={`/bills/${bill.id}#key-concerns`}
+              class="inline-flex items-center gap-2 px-6 py-3 bg-[var(--color-primary)] text-white font-semibold rounded-lg hover:bg-[#1E5A5A] transition-colors"
+            >
+              <i class="ti ti-arrow-left"></i>
+              Back to Bill Analysis
+            </a>
+            <a
+              href={`/bills/${bill.id}#${concern.id}`}
+              class="inline-flex items-center gap-2 px-6 py-3 border-2 border-[var(--color-primary)] text-[var(--color-primary)] font-semibold rounded-lg hover:bg-[var(--color-primary)] hover:text-white transition-colors"
+            >
+              View in Context
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>
